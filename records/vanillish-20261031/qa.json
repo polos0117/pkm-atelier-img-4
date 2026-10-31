@@ -1,0 +1,191 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "5511412aaef5cab27cc01d26de22d52cb55519021ce11c1dbfc8818f6cd39bf5",
+    "observations": "Long straight silver-blue hair and softly rounded adult face accepted as canonical. Screen-left open glove has five digits; screen-right hand partly curled. Both arms and two legs connect naturally, both heeled boots fully framed.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Long straight silver-blue hair and softly rounded adult face accepted as canonical. Screen-left open glove has five digits; screen-right hand partly curled. Both arms and two legs connect naturally, both heeled boots fully framed.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    },
+    "face_design": {
+      "name": "바닐리치",
+      "en": "Vanillish",
+      "line": "바닐프티",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "softly rounded",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "narrow",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "straight medium brows",
+        "nose character": "rounded soft tip",
+        "lips": "thin lips"
+      },
+      "why": "",
+      "cues": [
+        "‘large, white, rounded upper body’ → 얼굴형 부드럽고 둥근 얼굴형",
+        "‘large, white, rounded upper body’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+        "‘large, white, rounded upper body’ → 코 코끝이 둥근"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 짧고 둥근 → 중간 두께의 직선 [머리] 진화 계열의 머리 잇기 규칙에 맞추려고 굵은 곱슬 → 곧은 생머리",
+      "hair": {
+        "hairstyle": "straight",
+        "hair length": "long",
+        "bangs": "straight bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘small ice crystals’·얼음 타입에서 곧은 생머리(곧은 결) · 긴 머리 · 일자 앞머리 — 바닐프티에서 이어 같은 묶음",
+      "hair_cues": [
+        "‘small ice crystals’ → 헤어스타일 곧은 생머리"
+      ]
+    },
+    "face_reason": "Species crystal and rounded-body cues interpreted using the exact face-design and hair table; same canonical face reused in later slots.",
+    "compared_characters": [
+      "란쿨루스",
+      "꼬지보리",
+      "스완나",
+      "바닐프티"
+    ]
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "745b435b20a94661a7551b2226f697fdacb618dca301f92d45d42ba65b8ec573",
+    "observations": "Thick overlapping plates over torso, hips, thighs and shins enlarge the silhouette while preserving face and long hair. Five digits on the open glove; other hand curled. Crown tip nearly touches top border, recorded as minor edge contact. Both boots visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Thick overlapping plates over torso, hips, thighs and shins enlarge the silhouette while preserving face and long hair. Five digits on the open glove; other hand curled. Crown tip nearly touches top border, recorded as minor edge contact. Both boots visible.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "686a575b42e6223abd998b0289f7461d0b0185ffc8332762c49d84ff112f41f8",
+    "observations": "Slim swept plates and compact blue propulsion units, same canonical face. Five digits on the extended glove, other hand partially curled. Two connected legs and fully visible boots.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Slim swept plates and compact blue propulsion units, same canonical face. Five digits on the extended glove, other hand partially curled. Two connected legs and fully visible boots.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "bd26358e44606c44e31e0b34d6a5471581598e0173bde1da5d40c5f3c4e9428d",
+    "observations": "Same light pose, camera and figure scale, plates spread along seams with blue ice light. Five digits on open glove, second hand curled; both boots in frame and eye colour unchanged.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same light pose, camera and figure scale, plates spread along seams with blue ice light. Five digits on open glove, second hand curled; both boots in frame and eye colour unchanged.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "3cbbc7d81bd04ae78bd3ef9d8a4564e5bed24e7b18934f9d3c1ded9789db4752",
+    "observations": "Same heavy framing and pose. Original layered panels lift to reveal a bright blue internal lattice; open glove has five digits, second hand partly occluded. Boots visible; tiny crown tip edge contact retained.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same heavy framing and pose. Original layered panels lift to reveal a bright blue internal lattice; open glove has five digits, second hand partly occluded. Boots visible; tiny crown tip edge contact retained.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "dfc9708228d7633dce6ab89efeffc12a97798a340641acd104b3b548d4265a80",
+    "observations": "Same mobility framing and pose. Narrow panels open and compact thrusters brighten; no added weapon. Five digits on extended palm, curled other hand. Both boots visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same mobility framing and pose. Narrow panels open and compact thrusters brighten; no added weapon. Five digits on extended palm, curled other hand. Both boots visible.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "33bbdc32e0a44b385cfffa078a72a584e142bf01a84a7ae94203b67642973c9b",
+    "observations": "Red 1960s one-piece, scarf and sunglasses in striped circus rehearsal setting. Arms crossed naturally; visible hand has four fingers resting on opposite upper arm and thumb hidden around it; the other hand is tucked behind the upper arm. Chest-up portrait, front three-quarter body and small smile.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Red 1960s one-piece, scarf and sunglasses in striped circus rehearsal setting. Arms crossed naturally; visible hand has four fingers resting on opposite upper arm and thumb hidden around it; the other hand is tucked behind the upper arm. Chest-up portrait, front three-quarter body and small smile.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "f040bd2aeca2cc336c318e1e8273e049cd81cc188ed9c87940723b9282bee1f2",
+    "observations": "Kneels in side profile at snowy lagoon deck, wiping a Poke Ball with cloth. Both shoulders, elbows and wrists connect naturally. Upper wiping hand has fingers partly hidden by cloth; supporting hand shows four curled fingers and the thumb partly hidden behind the ball. Two knees and folded legs visible. Expression is slightly open-mouthed rather than the planned soft smile; recorded as minor expression deviation.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Kneels in side profile at snowy lagoon deck, wiping a Poke Ball with cloth. Both shoulders, elbows and wrists connect naturally. Upper wiping hand has fingers partly hidden by cloth; supporting hand shows four curled fingers and the thumb partly hidden behind the ball. Two knees and folded legs visible. Expression is slightly open-mouthed rather than the planned soft smile; recorded as minor expression deviation.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "dca175eafbb01107b6d4c4d4a903a0c77be08dd5fa8b47fdc589d624a1c83a05",
+    "observations": "Navy off-shoulder costume at station information counter, rear three-quarter body and face over shoulder; two hands rest on counter with fingers partly overlapping. Two connected legs and both heeled ankle boots fully visible. Actual framing is full body rather than broad environmental; long costume sleeves and faint background commuter silhouettes are recorded deviations. Background lettering is invented, no identifiable real insignia.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Navy off-shoulder costume at station information counter, rear three-quarter body and face over shoulder; two hands rest on counter with fingers partly overlapping. Two connected legs and both heeled ankle boots fully visible. Actual framing is full body rather than broad environmental; long costume sleeves and faint background commuter silhouettes are recorded deviations. Background lettering is invented, no identifiable real insignia.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "diversity": {
+    "actual_images_reviewed": true,
+    "compared_characters": [
+      "란쿨루스",
+      "꼬지보리",
+      "스완나",
+      "바닐프티"
+    ],
+    "observed": "Red retro crossed-arm circus portrait, kneeling winter lagoon ball-care scene in knit and trousers, and standing station counter costume with boots differ in clothing construction, action, silhouette and framing. Compared to Vanillite castle swimwear lookback, elf bouquet close portrait and sauna clasped-hands kneeling, plus the recent nine reference images; no repeated three-scene sequence."
+  }
+}

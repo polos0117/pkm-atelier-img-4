@@ -1,0 +1,39 @@
+{
+  "card": "바닐리치",
+  "canonical_light": {
+    "slot": "light",
+    "card": "바닐리치",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-d0e5b4fe-b08e-47be-8f99-c33e439eb73c.png",
+    "source_sha256": "5511412aaef5cab27cc01d26de22d52cb55519021ce11c1dbfc8818f6cd39bf5",
+    "source_session_only": true,
+    "references": [],
+    "file": "바닐리치_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "aed816703592f1def17694febeb41c2dabd0f960287d87efea3e5ae537c6a0f6",
+    "prompt_sha256": "5a5fb9df77c9ef47752d60d933a22cdd9f6b8f014a161c6bf02de062dd9b20df"
+  },
+  "completed_slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2",
+    "casual3"
+  ],
+  "tool": "built-in image_gen",
+  "reservation_commit": "2ad0f43009b2991dba5e9c0e08a7b5f59af2a325",
+  "storage": "WebP and text records only; generated PNGs excluded",
+  "ledger_inventory": "Actual Git HEAD filename inventories used with sparse worktrees; only metadata and recent visual references read; no placeholder images created.",
+  "status": "ready to publish"
+}

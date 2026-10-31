@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "card": "바닐리치",
+  "no": 583,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/46f0e62de176/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Striped canvas and red velvet curtains frame a Riviera-themed retro circus fashion rehearsal under warm amber spotlights.",
+      "outfit": "A 1960s jet-set one-piece swimsuit in matte cherry-red fabric, with secure side cutouts and high-cut legs, a tied headscarf and cat-eye sunglasses perched above her fringe.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "서커스 장소에 레트로 수영복 촬영 리허설이라는 맥락과 조명을 보충.",
+        "outfit": "고른 60년대 수영복·스카프·선글라스를 보존하며 컷아웃·하이컷 구조를 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_circus / retro / jetset_swim / lean_wall / chest_up",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_circus",
+            "ko": "서커스 천막",
+            "en": "a circus tent ring under a striped canopy"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "retro",
+            "ko": "레트로",
+            "en": "a period look from a past decade"
+          },
+          "item": {
+            "key": "jetset_swim",
+            "ko": "60년대 리비에라 수영복",
+            "en": "a 1960s jet-set one-piece swimsuit with a headscarf and cat-eye sunglasses"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "arms_crossed · arms_crossed"
+        },
+        "garments": [
+          "swimsuit"
+        ],
+        "expose": [
+          "high-cut leg",
+          "side cutouts"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual2": {
+      "scene": "Low winter sunlight touches the resort lagoon deck; a folded polishing cloth and spare towels lie within reach.",
+      "outfit": "An asymmetric fine-knit turtleneck with one shoulder cutout and a cropped hem, under a short quilted vest worn open, with straight high-waisted trousers.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "라군 안내에 겨울의 빛과 볼을 닦는 천의 세부가 없어 보충.",
+        "outfit": "터틀넥·퀼팅 조끼·바지를 유지하며 계획의 크롭 기장과 한쪽 어깨 드러내기를 구체화."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / work_lagoon / everyday / turtleneck_quilted_vest / kneel / three_quarter / ball_polish",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "work_lagoon",
+            "ko": "리조트 라군 데크",
+            "en": "a resort lagoon deck with stacked towels and lounge cushions"
+          },
+          "role": null,
+          "use": {
+            "key": "ball_polish",
+            "ko": "몬스터볼을 천으로 닦는다",
+            "en": "polishes a Poké Ball with a soft cloth",
+            "prop": "몬스터볼"
+          },
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "turtleneck_quilted_vest",
+            "ko": "터틀넥 + 퀼팅 조끼 + 바지",
+            "en": "a fine knit turtleneck under a quilted vest with straight trousers"
+          },
+          "posture": {
+            "key": "kneel",
+            "ko": "무릎 꿇기",
+            "en": "kneeling on the ground"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "trousers",
+          "vest"
+        ],
+        "expose": [
+          "cropped hem",
+          "one-shoulder cut"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "Checking the station information counter during a railway-themed costume photo event, with a large route-map panel and the platform visible through the glass.",
+      "outfit": "A navy uniform-inspired event costume with crisp decorative lapels and epaulettes arranged on an off-shoulder strapless bodice, a fitted short skirt and opaque ankle boots.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "역 장소에 실제 제복과 구별되는 철도 테마 촬영 행사 및 카운터의 맥락을 보충.",
+        "outfit": "고른 유니폼풍을 유지하며 strapless·off-shoulder 목선과 행사 의상 구조를 구체화."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / street_station / roleplay / uniform_inspired / lean_counter / environmental",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "street_station",
+            "ko": "역·전철",
+            "en": "a city station platform or the inside of a commuter train"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "uniform_inspired",
+            "ko": "유니폼풍",
+            "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+          },
+          "posture": {
+            "key": "lean_counter",
+            "ko": "작업대에 몸 숙이기",
+            "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "uniform"
+        ],
+        "expose": [
+          "strapless top",
+          "off-shoulder neckline"
+        ],
+        "lead": "action"
+      }
+    }
+  }
+}
