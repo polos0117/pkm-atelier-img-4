@@ -211,7 +211,12 @@
       "slot": "mobility_overdrive",
       "reason": "Image tool safety rejection: sexual, output stage",
       "request_id": "0397ce61-69b1-40b1-b40e-01335831cbd5",
-      "attempts": 1
+      "attempts": 2,
+      "request_ids": [
+        "0397ce61-69b1-40b1-b40e-01335831cbd5",
+        "8ffa43a4-5b36-4e35-9259-bc63c44132a4"
+      ],
+      "retry": "Original prompt and original references unchanged; both rejected at output moderation. No generated result."
     }
   ]
 }
