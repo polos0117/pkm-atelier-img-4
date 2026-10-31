@@ -1,0 +1,179 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e8146086f9a8c63e085e0c9a840faeea26b1597329af56a3fa6b502180b41ba5",
+    "observations": "Single adult woman, full body and both boots inside the 2:3 frame. Brown long half-up hair and amber eyes consistent with canonical light. Slim cream plates with orange leaf patterns over dark brown undersuit; shoulder and waist remain narrow.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; five-digit structure on each with curled digits partly overlapping. Thumb side and wrist-to-forearm connections checked in enlarged crops.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    },
+    "face_design": {
+      "name": "바라철록",
+      "en": "Sawsbuck",
+      "line": "사철록",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "softly rounded",
+        "face length": "short",
+        "face width": "wide",
+        "jaw & chin": "balanced jawline",
+        "eye shape": "large",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "fine soft arches",
+        "nose character": "balanced nose",
+        "lips": "full lips"
+      },
+      "why": "",
+      "cues": [],
+      "adjusted": "같은 계열 사철록와 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 부드럽고 둥근 턱 → 보통, 눈 간격 눈 사이가 넓은 → 눈 하나 너비 안팎",
+      "hair": {
+        "hairstyle": "half-up",
+        "hair length": "long",
+        "bangs": "curtain bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "풀 타입에서 반묶음(묶은 꼬리) · 긴 머리 · 커튼뱅 — 사철록에서 이어 같은 묶음",
+      "hair_cues": [
+        "풀 타입 → 헤어스타일 반묶음",
+        "키 1.9m → 머리 길이 긴 머리"
+      ]
+    },
+    "face_reason": "Source-appearance and face-design 586 used by prompt-pack: softly rounded short/wide face, open level rounded eyes, fine arches, full lips and long half-up curtain bangs. Visually compared with Deerling, Vanillish and Vanilluxe canonical light images: brown half-up hair and rounded warm face are distinct from pink Deerling and silver ice characters while retaining seasonal leaf continuity.",
+    "compared_characters": [
+      "배바닐라",
+      "사철록",
+      "바닐리치"
+    ],
+    "canonical_source_sha256": "e8146086f9a8c63e085e0c9a840faeea26b1597329af56a3fa6b502180b41ba5"
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "4e97acfcac34fdaf32a3481f3c72f422c6bcaadc6e927300382c0f6f6de6d335",
+    "observations": "Single adult woman, full body and both boots inside the 2:3 frame. Brown long half-up hair and amber eyes consistent with canonical light. Layered shoulder, forearm, hip and shin armor is visibly heavier than light.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; five-digit structure on each with curled digits partly overlapping. Thumb side and wrist-to-forearm connections checked in enlarged crops.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "b4356157f7e369cab481b1a73665b6e640f79631193434f7772e4746faa243ff",
+    "observations": "Single adult woman, full body and both boots inside the 2:3 frame. Brown long half-up hair and amber eyes consistent with canonical light. Swept, separated leaf plates and open joints distinguish the slim mobility silhouette.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; five-digit structure on each with curled digits partly overlapping. Thumb side and wrist-to-forearm connections checked in enlarged crops.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "c62fcf56d0cdc66c2c6a0dedbe776370e746291eaed3d3369ae015185adf99e9",
+    "observations": "Single adult woman, full body and both boots inside the 2:3 frame. Brown long half-up hair and amber eyes consistent with canonical light. Original light composition and stance retained; seams open to golden inner frame without added helmet or weapon.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; five-digit structure on each with curled digits partly overlapping. Thumb side and wrist-to-forearm connections checked in enlarged crops.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e101937e33d7d196ca9de4262eb2ec3e9cc548379efaeb1dfce8ed21714723c5",
+    "observations": "Greenhouse bridal close-up; brown hair, amber eye, wink and hat-brim gesture. Ivory slip neckline reads independently from armor. Face-close crop intentionally excludes lower body and other hand.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Hat-brim hand has four visible bent fingers with thumb partly obscured by brim; other hand outside crop.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "f05fc22376685c48886fd0f73357f690315f1ad20238ee045dccef052694483a",
+    "observations": "Poolside resort jazz lounge; blue lined swimsuit and short off-shoulder yukata. Over-shoulder face remains recognizable; glass hand connects through forearm to shoulder and hanging hand remains separate.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Glass grip shows bent fingers with thumb partly hidden by stem grip; hanging hand has four visible fingers and thumb partly behind palm. No detached hand.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "42e29ee73fbe7b00029c04b339264048dd5d28f0095e513b74ed1a89dc2242c8",
+    "observations": "2010 alteration room with wrap dress and short apron; side-standing body, raised greeting palm, lower resting hand and both heeled sandals visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Raised open palm clearly has five fingers. Resting hand has four long fingers and a partly foreshortened thumb; both wrists and elbows connect naturally.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "93d72564f4e3431b6895ce9a2a100b88032fc3ce3963066df1fc603bf398b5d7",
+    "observations": "Single adult woman, full body and both boots inside the 2:3 frame. Brown long half-up hair and amber eyes consistent with canonical light. Original heavy stance and camera retained; thick layered armor hinges open with golden internal light.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; five-digit structure on each with curled digits partly overlapping. Thumb side and wrist-to-forearm connections checked in enlarged crops.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "b7c19e75544484cd0c09a19e50aee5ba950fc2515b0864afba39d91b0ad8ef1a",
+    "observations": "Single adult woman, full body and both boots inside the 2:3 frame. Brown long half-up hair and amber eyes consistent with canonical light. Original mobility stance and camera retained; swept plates unfold at existing circular joints with golden cores.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; five-digit structure on each with curled digits partly overlapping. Thumb side and wrist-to-forearm connections checked in enlarged crops.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "diversity_comparison": "Compared actual three casual results side by side with recent Vanilluxe, Deerling and Vanillish casual thumbnails. Bridal wink/hat close-up, over-shoulder resort cocktail/swimwear and side-standing tailor wave/apron differ in setting, activity, framing, expression and clothing silhouette. Recent berry market, climbing bottle, spa leotard, fountain dessert, satin spa and boardgame lounge compositions are not repeated. Emolga batch comparison uses vinyl robe, rainy porch towel and bathroom portrait."
+}

@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "card": "바라철록",
+  "no": 586,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/cf2bdf45f60a/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Late morning sunlight filters through fern leaves onto the greenhouse wedding portrait set.",
+      "outfit": "A simple ivory silk slip wedding dress with an open back and a high thigh slit, and a long veil tucked beneath her wide-brimmed sun hat.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "고른 장소와 소품 동작을 유지하며 조명·현장 맥락을 구체화.",
+        "outfit": "고른 의상 종류를 유지하며 예약된 드러내기 두 방식을 구조로 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / greenhouse / bridal / slip_wedding / sit_chair / face_close / hat_brim",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "greenhouse",
+            "ko": "온실·식물원",
+            "en": "a glass greenhouse full of plants with a wooden potting bench"
+          },
+          "role": null,
+          "use": {
+            "key": "hat_brim",
+            "ko": "쓴 모자 챙을 잡는다",
+            "en": "holds the brim of a wide-brimmed sun hat she wears",
+            "prop": "챙 넓은 모자"
+          },
+          "ofam": {
+            "key": "bridal",
+            "ko": "웨딩",
+            "en": "bridal wear"
+          },
+          "item": {
+            "key": "slip_wedding",
+            "ko": "슬립 웨딩드레스",
+            "en": "a simple slip wedding dress with a long veil"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "dress",
+          "slip"
+        ],
+        "expose": [
+          "open back",
+          "high thigh slit"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "Passing the grand piano at a poolside resort jazz lounge during the evening reception.",
+      "outfit": "A fully lined deep-blue swimsuit beneath a short light yukata, worn open and slipped off the shoulders.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "고른 장소와 소품 동작을 유지하며 조명·현장 맥락을 구체화.",
+        "outfit": "고른 의상 종류를 유지하며 예약된 드러내기 두 방식을 구조로 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_jazz / swimwear / yukata_over / walk / three_quarter / glass_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_jazz",
+            "ko": "재즈바",
+            "en": "a dim jazz bar with a grand piano"
+          },
+          "role": null,
+          "use": {
+            "key": "glass_hold",
+            "ko": "잔을 든다",
+            "en": "holds a cocktail glass by the stem at chest height",
+            "prop": "칵테일 잔"
+          },
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "yukata_over",
+            "ko": "수영복 위 유카타",
+            "en": "swimwear with a light yukata worn open over it"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "traditional"
+        ],
+        "expose": [
+          "cropped hem",
+          "off-shoulder neckline"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "Fabric rolls and ivory dress forms flank the cutting table during a 2010 atelier fitting.",
+      "outfit": "A strapless fitted plum wrap dress with a deep sweetheart neckline under a crisp short apron, with a short skirt revealing the thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "고른 장소와 소품 동작을 유지하며 조명·현장 맥락을 구체화.",
+        "outfit": "고른 의상 종류를 유지하며 예약된 드러내기 두 방식을 구조로 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / tailor_room / work / glam_apron / stand / full_body",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "tailor_room",
+            "ko": "의상 수선실",
+            "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "work",
+            "ko": "직업복",
+            "en": "practical clothing for her Pokémon-world job, readable through its tools",
+            "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+          },
+          "item": {
+            "key": "glam_apron",
+            "ko": "글래머 앞치마 룩",
+            "en": "a sleek fitted wrap dress under a crisp short apron"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "wave · down"
+        },
+        "garments": [
+          "apron",
+          "dress"
+        ],
+        "expose": [
+          "plunging neckline",
+          "strapless top"
+        ],
+        "lead": "detail"
+      }
+    }
+  }
+}
