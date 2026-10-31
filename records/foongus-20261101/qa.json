@@ -1,0 +1,175 @@
+{
+  "light": {
+    "accepted": true,
+    "image_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a",
+    "observations": "짧은 연분홍 언더컷과 비대칭 앞머리, 짧고 부드러운 타원 얼굴·붉은 눈·도톰한 입술. 흰색·분홍 얇은 판과 검은 몸 안감. 양팔·다리 연결 정상이고 부츠 두 개가 프레임 안에 있다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "짧은 연분홍 언더컷과 비대칭 앞머리, 짧고 부드러운 타원 얼굴·붉은 눈·도톰한 입술. 흰색·분홍 얇은 판과 검은 몸 안감. 양팔·다리 연결 정상이고 부츠 두 개가 프레임 안에 있다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    },
+    "face_design": {
+      "name": "깜놀버슬",
+      "en": "Foongus",
+      "line": "깜놀버슬",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "short",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "almond",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "long arched brows",
+        "nose character": "balanced nose",
+        "lips": "full lips"
+      },
+      "why": "",
+      "cues": [
+        "키 0.2m → 얼굴 길이 짧은 얼굴",
+        "‘large pink lips’ → 입술 도톰한 입술"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴 길이 보통 → 짧은 얼굴, 코 작고 여린 코 → 보통 [머리] 헤어스타일 상한(8%·보브 4%)에 닿아 단정한 보브컷 → 옆/뒤를 밀어낸 언더컷",
+      "hair": {
+        "hairstyle": "undercut",
+        "hair length": "short",
+        "bangs": "asymmetric bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "키 0.2m에서 옆/뒤를 밀어낸 언더컷(짧은 컷) · 짧은 머리 · 좌우 길이가 다른 앞머리",
+      "hair_cues": [
+        "키 0.2m → 머리 길이 짧은 머리"
+      ]
+    },
+    "face_reason": "원작의 입술 단서를 도톰한 입술로 옮기고, 진화 전은 짧은 얼굴·수평 눈꼬리, 진화 후는 균형 얼굴·올라간 날카로운 눈꼬리로 구분한다. 생성기의 FACE·HAIR 문장을 그대로 제출했고 최근 에몽가·딱정곤·슈바르고 실제 이미지와 얼굴·헤어를 비교했다."
+  },
+  "heavy": {
+    "accepted": true,
+    "image_sha256": "dce80f4ec696698274bbdbcc8b190667c06e7c2ca17d115786b35a23465883fc",
+    "observations": "경장의 얼굴과 머리를 유지하고 어깨·팔·허벅지·정강이 판이 여러 층으로 커졌다. 양손에 엄지와 네 손가락이 있으며 굽혀 겹친 부분이 있다. 두 발은 바닥에 닿고 프레임 안에 있다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "경장의 얼굴과 머리를 유지하고 어깨·팔·허벅지·정강이 판이 여러 층으로 커졌다. 양손에 엄지와 네 손가락이 있으며 굽혀 겹친 부분이 있다. 두 발은 바닥에 닿고 프레임 안에 있다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "image_sha256": "a469df64c824b9e79df195919e6e7111171747610b7f2dd6f6bad2baa51460bf",
+    "observations": "경장 얼굴·언더컷 유지, 어깨·골반·종아리가 작은 후방 지향 분할판과 소형 추진기로 바뀐다. 양팔은 손목까지 이어지고 양다리는 골반에서 자연스럽게 갈라진다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "경장 얼굴·언더컷 유지, 어깨·골반·종아리가 작은 후방 지향 분할판과 소형 추진기로 바뀐다. 양팔은 손목까지 이어지고 양다리는 골반에서 자연스럽게 갈라진다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "image_sha256": "382a40a55ad9b57a31081597b8a68df4e37564efab4960d5c0e6402ba9f2913b",
+    "observations": "경장과 인물·카메라·자세·양손·양발 위치 유지. 기존 흰 판이 갈라져 연두 내부 프레임이 보인다. 눈 본색 유지, 무기 추가 없음.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "경장과 인물·카메라·자세·양손·양발 위치 유지. 기존 흰 판이 갈라져 연두 내부 프레임이 보인다. 눈 본색 유지, 무기 추가 없음.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "image_sha256": "a4def0380c7ce56189f526350fde35a7e50677da6858a562df018388d132dd5e",
+    "observations": "중장과 같은 구도·자세에서 겹친 어깨·골반·정강이 판이 열리고 내부 링이 드러난다. 손은 기존의 느슨한 굽힘이며 손목 연결이 유지된다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "중장과 같은 구도·자세에서 겹친 어깨·골반·정강이 판이 열리고 내부 링이 드러난다. 손은 기존의 느슨한 굽힘이며 손목 연결이 유지된다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "image_sha256": "dd85e23c28a30e0bc2f6334157873a5e47fa6cc3b2337f983be0568d1b3af0e2",
+    "observations": "고기동과 같은 가는 외곽과 발 위치에서 분할판이 열리고 연두 발광이 보인다. 눈과 얼굴 구조 유지, 새 무기·헬멧 없음.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "고기동과 같은 가는 외곽과 발 위치에서 분할판이 열리고 연두 발광이 보인다. 눈과 얼굴 구조 유지, 새 무기·헬멧 없음.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "image_sha256": "cd8a654aa95bff7f27b9cff2004b48c3246553428c24e8eb640d2be7ed2bd675",
+    "observations": "공원 분수 앞에서 청록 80년대 레오타드·파란 타이츠·헤드밴드 차림. 두 팔이 각각 가슴 앞에서 맞잡은 두 손으로 이어진다. 네 손가락과 엄지의 일부는 서로 겹쳐 가려지며 중복 손은 없다. 어깨·쇄골과 허리 양옆이 드러나고 원작 표식은 벤치의 작은 버섯 소품으로 남는다. 정면의 몸과 살짝 기울인 머리가 자연스럽고 하체는 계획보다 조금 더 담긴다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "공원 분수 앞에서 청록 80년대 레오타드·파란 타이츠·헤드밴드 차림. 두 팔이 각각 가슴 앞에서 맞잡은 두 손으로 이어진다. 네 손가락과 엄지의 일부는 서로 겹쳐 가려지며 중복 손은 없다. 어깨·쇄골과 허리 양옆이 드러나고 원작 표식은 벤치의 작은 버섯 소품으로 남는다. 정면의 몸과 살짝 기울인 머리가 자연스럽고 하체는 계획보다 조금 더 담긴다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "image_sha256": "c9e1d99eebe0f8758221afb5470df9516da4785582320ba06cf02630d39cf655",
+    "observations": "촛불과 샹들리에 만찬장을 배경으로 얼굴 가까이 오른 검지가 입술에 닿는다. 나머지 손가락은 접히고 엄지는 뒤에 일부 가려진다. 오른 전완은 오른 어깨 방향의 소매로 이어지며 왼손·다리는 크롭 밖이다. 어깨가 드러난 분홍 셔츠와 작은 버섯 머리핀이 보인다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "촛불과 샹들리에 만찬장을 배경으로 얼굴 가까이 오른 검지가 입술에 닿는다. 나머지 손가락은 접히고 엄지는 뒤에 일부 가려진다. 오른 전완은 오른 어깨 방향의 소매로 이어지며 왼손·다리는 크롭 밖이다. 어깨가 드러난 분홍 셔츠와 작은 버섯 머리핀이 보인다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "image_sha256": "169f5b3d3336c406a840202f1747e27e018f36076c50d646a5fe6acd18cff28e",
+    "observations": "콘테스트 무대 뒤 긴 쿠션 위에서 유카타 차림으로 옆으로 쉰다. 두 팔은 각각 쿠션 위 손과 몸 옆에 내려놓은 손으로 이어진다. 다리 두 개가 골반에서 뻗고 앞발 다섯 발가락과 게타 끈이 보인다. 뒤 발끝이 우측 경계에 조금 걸린다. 고개는 계획의 뒤돌림보다 덜 돌고 인물이 크게 담겼다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "콘테스트 무대 뒤 긴 쿠션 위에서 유카타 차림으로 옆으로 쉰다. 두 팔은 각각 쿠션 위 손과 몸 옆에 내려놓은 손으로 이어진다. 다리 두 개가 골반에서 뻗고 앞발 다섯 발가락과 게타 끈이 보인다. 뒤 발끝이 우측 경계에 조금 걸린다. 고개는 계획의 뒤돌림보다 덜 돌고 인물이 크게 담겼다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "diversity": {
+    "actual_images_reviewed": true,
+    "compared_characters": [
+      "에몽가",
+      "딱정곤",
+      "슈바르고",
+      "뽀록나"
+    ],
+    "observed": "공원 레트로 컷·촛불 만찬의 얼굴 확대와 쉿 동작·콘테스트 무대 뒤 유카타의 옆으로 쉰 전신이 서로 다른 장소·의복·구도로 읽힌다. 비교 대상의 의자/수영장 앉기·책/레코드·수건 장면과 다르다."
+  }
+}

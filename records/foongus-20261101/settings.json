@@ -1,0 +1,281 @@
+{
+ "version": 1,
+ "card": "깜놀버슬",
+ "no": 590,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/f85fb734c522/packs/PLAN-approved.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The fountain in the city park glitters in early-morning light beside an outdoor exercise platform.",
+   "outfit": "An 1980s high-cut teal aerobics leotard with a halter neck and small waist side cutouts over shiny cobalt tights, with leg warmers and a narrow exercise headband; shoulders, collarbones and waist sides are bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "공원 문장에 없는 아침 빛과 야외 운동 플랫폼을 보충한다.",
+    "outfit": "계획의 80년대 에어로빅 레오타드·타이츠를 유지하며 홀터 목선과 허리 옆 컷아웃을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_park / retro / aerobics_80s / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_park",
+      "ko": "공원",
+      "en": "a city park with benches, old trees and a fountain"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "aerobics_80s",
+      "ko": "80년대 에어로빅",
+      "en": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "clasp_both · clasp_both"
+    },
+    "garments": [
+     "leggings"
+    ],
+    "expose": [
+     "side cutouts",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "Candlelight catches the rim of a small mushroom-shaped table ornament.",
+   "outfit": "A loose off-shoulder blush sleep shirt, shortened above the upper thighs with small waist side cutouts and a fine halter tie, leaving shoulders, collarbones and sides exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택 장소 갈라 만찬장에 없는 빛·소품의 구체적인 모습만 보충한다.",
+    "outfit": "선택 의상 오프숄더 잠옷 셔츠을 유지하고 계획의 side cutouts, halter neck를 구조로 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_gala / homewear / sleep_shirt / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_gala",
+      "ko": "갈라 만찬장",
+      "en": "a candlelit gala dinner hall"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "sleep_shirt",
+      "ko": "오프숄더 잠옷 셔츠",
+      "en": "a loose off-shoulder sleep shirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "shush · out"
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "side cutouts",
+     "halter neck"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Warm rehearsal spotlights stripe the backstage lounge cushions.",
+   "outfit": "A light cotton summer yukata wrapped left over right with a soft obi, slipping across one shoulder and opening into a high thigh slit; geta sandals remain on her feet, with chest and pelvis securely covered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택 장소 콘테스트 무대 뒤에 없는 빛·소품의 구체적인 모습만 보충한다.",
+    "outfit": "선택 의상 유카타을 유지하고 계획의 high thigh slit, one-shoulder cut를 구조로 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_contest / traditional / yukata_daily / lie_side / full_body",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_contest",
+      "ko": "콘테스트 무대 뒤",
+      "en": "backstage of a Pokémon Contest hall with a rehearsal platform, prop racks and stage lights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "yukata_daily",
+      "ko": "유카타",
+      "en": "a light cotton summer yukata wrapped left over right with a soft obi and geta sandals"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "high thigh slit",
+     "one-shoulder cut"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

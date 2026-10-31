@@ -1,0 +1,316 @@
+{
+ "session": "foongus-amoonguss-f85f",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "깜놀버슬",
+   "species": "foongus-20261101",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_park",
+     "ofam": "retro",
+     "item": "aerobics_80s",
+     "garments": [
+      "leggings"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
+     "right": "clasp_both",
+     "left": "clasp_both",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "clasp_low",
+     "expr": "provocative",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "side cutouts",
+      "halter neck"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "evening_gala",
+     "weather": "",
+     "ofam": "homewear",
+     "item": "sleep_shirt",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "shush",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "sleepy",
+     "preset": "shush_close",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt"
+     ],
+     "expose": [
+      "side cutouts",
+      "halter neck"
+     ],
+     "lead": "action",
+     "act": "stand:shush:out",
+     "orient": "front+with_body",
+     "pose": "shush_close"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "work_contest",
+     "weather": "",
+     "ofam": "traditional",
+     "item": "yukata_daily",
+     "posture": "lie_side",
+     "support": "side_floor",
+     "frame": "full_body",
+     "body": "front_3q",
+     "head": "over_shoulder",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "screen_left",
+     "expr": "relieved",
+     "preset": "",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "traditional"
+     ],
+     "expose": [
+      "high thigh slit",
+      "one-shoulder cut"
+     ],
+     "lead": "light",
+     "act": "lie_side:-:-",
+     "orient": "front_3q+over_shoulder",
+     "pose": null
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "arcade",
+     "water",
+     "sports",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "leggings"
+    ],
+    "orient": [],
+    "frame": []
+   }
+  },
+  {
+   "card": "뽀록나",
+   "species": "amoonguss-20261101",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "arcade_photo",
+     "weather": "",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "side",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "phone_selfie",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "mischievous",
+     "preset": "lookback_raise",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "expose": [
+      "strapless top",
+      "mini length"
+     ],
+     "lead": "detail",
+     "act": "phone_selfie",
+     "orient": "side+over_shoulder",
+     "pose": "lookback_raise"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_starstage",
+     "weather": "",
+     "ofam": "lingerie",
+     "item": "bralette_highwaist",
+     "posture": "sit_floor",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "high",
+     "right": "chin_knee",
+     "left": "floor_brace",
+     "use": "",
+     "legs": "knee_up",
+     "gaze": "camera",
+     "expr": "pensive",
+     "preset": "floor_knee",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top"
+     ],
+     "expose": [
+      "open back",
+      "one-shoulder cut"
+     ],
+     "lead": "action",
+     "act": "sit_floor:chin_knee:floor_brace",
+     "orient": "front_3q+tilt",
+     "pose": "floor_knee"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "pw_center",
+     "weather": "",
+     "ofam": "work",
+     "item": "tailored_glam",
+     "posture": "lean_rail",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "rail",
+     "use": "ball_hold",
+     "legs": "",
+     "gaze": "at_prop",
+     "expr": "determined",
+     "preset": "counter_cup",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "blouse",
+      "skirt",
+      "vest"
+     ],
+     "expose": [
+      "off-shoulder neckline",
+      "side cutouts"
+     ],
+     "lead": "light",
+     "act": "ball_hold",
+     "orient": "side+with_body",
+     "pose": "counter_cup"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "arcade",
+     "water",
+     "sports",
+     "travel",
+     "pokeworld",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  }
+ ]
+}

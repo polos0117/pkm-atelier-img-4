@@ -1,0 +1,230 @@
+[
+  {
+    "slot": "light",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-317637ce-4d20-45cf-8f96-f3767ac29a06.png",
+    "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a",
+    "source_session_only": true,
+    "references": [],
+    "file": "깜놀버슬_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "66a5fccd8cce2117df17591d64e557fd2bbb5796cca884b6ce00e7eb30250925",
+    "prompt_sha256": "f55cf4b9680bc28bcef66a757928867299498ec6876b667a41604320971ee91b"
+  },
+  {
+    "slot": "heavy",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-4b28244f-650c-415d-91d5-346aa8ea02e3.png",
+    "source_sha256": "dce80f4ec696698274bbdbcc8b190667c06e7c2ca17d115786b35a23465883fc",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a"
+      }
+    ],
+    "file": "깜놀버슬_heavy_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "ef7c282a4fff9840ab85d6d62ae4c34e0f5c8b5ff71dd5ee09e349c255ad8f94",
+    "prompt_sha256": "85845ad61a35bca754e45068edc02b5b7ec79d3ab7d56acae696b5ea145e3487"
+  },
+  {
+    "slot": "mobility",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-0d98007a-3199-449b-b84a-cb49fda6064b.png",
+    "source_sha256": "a469df64c824b9e79df195919e6e7111171747610b7f2dd6f6bad2baa51460bf",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a"
+      }
+    ],
+    "file": "깜놀버슬_mobility_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "2b7dbb5062850458686e6a9cfdb50c2426a7a8896f951e1f3f3b073c183b3d0e",
+    "prompt_sha256": "cf54582cbabda225217af1e6b76a226d0459026d4b7093107736324be33ca5aa"
+  },
+  {
+    "slot": "light_overdrive",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-00172934-13e1-4278-84da-47a4a1a0f448.png",
+    "source_sha256": "382a40a55ad9b57a31081597b8a68df4e37564efab4960d5c0e6402ba9f2913b",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a"
+      }
+    ],
+    "file": "깜놀버슬_light_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "4067af9dcd1a95e8751bfc032ae0afb3f89c080278f1421d1ef11fa12e52a48d",
+    "prompt_sha256": "8c041bcfe70edb7fa055e7897fb3ef37922a2ecae40f86afa80e4c576c5f8102"
+  },
+  {
+    "slot": "heavy_overdrive",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-a9efca5a-e2cf-4cbf-9bca-6b63b1c3221a.png",
+    "source_sha256": "a4def0380c7ce56189f526350fde35a7e50677da6858a562df018388d132dd5e",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "heavy",
+        "source_sha256": "dce80f4ec696698274bbdbcc8b190667c06e7c2ca17d115786b35a23465883fc"
+      },
+      {
+        "slot": "light",
+        "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a"
+      }
+    ],
+    "file": "깜놀버슬_heavy_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "3a9bd2c907e9a8a25329600a68dc6859f6322865453b137f0a80abfe0c05c6e8",
+    "prompt_sha256": "31ad2d52fd7adbb98b18ccd408e05ffdb9897379029f5b2a46193af13997817f"
+  },
+  {
+    "slot": "mobility_overdrive",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-4cf9cb59-3958-44ef-a8ed-e874aea0c319.png",
+    "source_sha256": "dd85e23c28a30e0bc2f6334157873a5e47fa6cc3b2337f983be0568d1b3af0e2",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "mobility",
+        "source_sha256": "a469df64c824b9e79df195919e6e7111171747610b7f2dd6f6bad2baa51460bf"
+      },
+      {
+        "slot": "light",
+        "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a"
+      }
+    ],
+    "file": "깜놀버슬_mobility_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "23875e2880b89c5407f41b6a642993b7441ae9585ffe84a03fac51de57c0017d",
+    "prompt_sha256": "4ffe8cb8f65e7882f119ba540056124374a2cfadd318af6cd4f063ee7f4b3b7d"
+  },
+  {
+    "slot": "casual1",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-2e78d2ae-2ec3-49c9-aef7-56b029f3ccb6.png",
+    "source_sha256": "cd8a654aa95bff7f27b9cff2004b48c3246553428c24e8eb640d2be7ed2bd675",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a"
+      }
+    ],
+    "file": "깜놀버슬_glossy_promo_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "1f4ad8bd2dbc82b7ef0a8f22657f25bc370405ab4fbb5288f28ccb700f7adac5",
+    "prompt_sha256": "70b722d23082c648dd8836a14f1418516962e133432210cb586007991b6558ea"
+  },
+  {
+    "slot": "casual2",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-71bb0659-0015-485f-a576-92429fb61d4b.png",
+    "source_sha256": "c9e1d99eebe0f8758221afb5470df9516da4785582320ba06cf02630d39cf655",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a"
+      }
+    ],
+    "file": "깜놀버슬_glossy_promo_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "9d3b4b85a7e39d2a68c6cb249d9e170433b954cf2482c42916b441ccc86e50be",
+    "prompt_sha256": "0a6530c8aaf833fb18872256e2aec9cdb2851c51ecb05a8d088e94365ad3c058"
+  },
+  {
+    "slot": "casual3",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-2fe87f3c-fc53-4fd6-a3f9-2fdfd7f1f7d8.png",
+    "source_sha256": "169f5b3d3336c406a840202f1747e27e018f36076c50d646a5fe6acd18cff28e",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a"
+      }
+    ],
+    "file": "깜놀버슬_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "a3f5d0678e3c6baa3d35acf742b4ce6cd824f52c6742fcbd317fb3f4d9c3336d",
+    "prompt_sha256": "fcec319efc659cb7d8302fc99ffb091087c5827bec5b3dbeafda4c49ad87b053"
+  }
+]

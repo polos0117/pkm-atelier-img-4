@@ -1,0 +1,38 @@
+{
+  "card": "깜놀버슬",
+  "canonical_light": {
+    "slot": "light",
+    "card": "깜놀버슬",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-317637ce-4d20-45cf-8f96-f3767ac29a06.png",
+    "source_sha256": "259a8c67202974ff196c4881578556a8e9237669f472daf6c87d49056381e56a",
+    "source_session_only": true,
+    "references": [],
+    "file": "깜놀버슬_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "66a5fccd8cce2117df17591d64e557fd2bbb5796cca884b6ce00e7eb30250925",
+    "prompt_sha256": "f55cf4b9680bc28bcef66a757928867299498ec6876b667a41604320971ee91b"
+  },
+  "completed_slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2",
+    "casual3"
+  ],
+  "tool": "built-in image_gen",
+  "reservation_commit": "56ca6a1a72b8e8236b029e54871c1e117720bc5c",
+  "status": "ready to publish",
+  "ledger_inventory": "Actual Git HEAD filename inventory used for sparse worktrees; no placeholder images; only metadata and selected comparison images were checked out."
+}
