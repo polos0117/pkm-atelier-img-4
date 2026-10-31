@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "card": "에몽가",
+  "no": 587,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/cf2bdf45f60a/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Violet stage lighting and amber sconces illuminate the jazz lounge during a lingerie-fashion record listening editorial.",
+      "outfit": "A fully opaque high-cut burgundy lingerie set beneath an open teal silk night robe with a loose tied sash, leaving her midriff visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "고른 장소와 소품 동작을 유지하며 조명·현장 맥락을 구체화.",
+        "outfit": "고른 의상 종류를 유지하며 예약된 드러내기 두 방식을 구조로 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_jazz / lingerie / night_robe / stand / chest_up / vinyl_both",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_jazz",
+            "ko": "재즈바",
+            "en": "a dim jazz bar with a grand piano"
+          },
+          "role": null,
+          "use": {
+            "key": "vinyl_both",
+            "ko": "레코드판을 두 손으로 든다",
+            "en": "holds a vinyl record half out of its sleeve in both hands",
+            "prop": "레코드판"
+          },
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "night_robe",
+            "ko": "나이트 로브 + 란제리",
+            "en": "a lingerie set under an open silk night robe with a tied sash"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "lingerie_set",
+          "robe"
+        ],
+        "expose": [
+          "high-cut leg",
+          "bare midriff"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "Silver rainlight falls across the covered porch after her outdoor theatre rehearsal; a small Pikachu shelters beside the counter.",
+      "outfit": "A short cobalt sorceress dress with an open back, a secure fitted bodice and a soft short matching robe tied around the waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "고른 장소와 소품 동작을 유지하며 조명·현장 맥락을 구체화.",
+        "outfit": "고른 의상 종류를 유지하며 예약된 드러내기 두 방식을 구조로 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / partner_porch / bath / spa_robe / lean_counter / waist_up / towel_dry",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "partner_porch",
+            "ko": "지붕 있는 현관",
+            "en": "a covered porch on a rainy day, umbrellas resting by the door"
+          },
+          "role": null,
+          "use": {
+            "key": "towel_dry",
+            "ko": "수건으로 머리를 말린다",
+            "en": "dries her hair with a towel",
+            "prop": "수건"
+          },
+          "ofam": {
+            "key": "bath",
+            "ko": "목욕 차림",
+            "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+          },
+          "item": {
+            "key": "spa_robe",
+            "ko": "스파 가운",
+            "en": "a plush spa robe tied at the waist"
+          },
+          "posture": {
+            "key": "lean_counter",
+            "ko": "작업대에 몸 숙이기",
+            "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "robe"
+        ],
+        "expose": [
+          "open back",
+          "mini length"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "Walking past a tiled vanity after an early-morning bath, with folded linen towels along the shelf.",
+      "outfit": "A securely covering opaque cream halter bath wrap with a high thigh slit, fastened at the neck and waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "고른 장소와 소품 동작을 유지하며 조명·현장 맥락을 구체화.",
+        "outfit": "고른 의상 종류를 유지하며 예약된 드러내기 두 방식을 구조로 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / home_bath / active / ski_set / stand / environmental",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "home_bath",
+            "ko": "욕실",
+            "en": "a bright bathroom with a mirror, tiles and folded towels"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "active",
+            "ko": "운동복",
+            "en": "activewear made for the activity"
+          },
+          "item": {
+            "key": "ski_set",
+            "ko": "스키 재킷 + 스키 팬츠",
+            "en": "a fitted ski jacket and padded ski pants"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "jacket",
+          "trousers"
+        ],
+        "expose": [
+          "side cutouts",
+          "halter neck"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}

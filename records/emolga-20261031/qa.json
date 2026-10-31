@@ -1,0 +1,185 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "c42441bb3191e761a0fc66834b13682801575c11fb4c6306c30e305ce1d58f6f",
+    "observations": "Canonical short black-and-yellow hair, amber eyes and white/black/gold slim plates. Full body with both boots and forward-reaching palm visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved open hands, five fingers on each; distant fingers foreshortened and partly overlap. Both palms and matching wrist/forearm/shoulder chains checked.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    },
+    "face_design": {
+      "name": "에몽가",
+      "en": "Emolga",
+      "line": "에몽가",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "compact",
+        "face length": "short",
+        "face width": "wide",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "almond",
+        "eye size": "large",
+        "eye tilt": "level outer corners",
+        "eye spacing": "wide-set eyes",
+        "eyebrows": "fine soft arches",
+        "nose character": "small delicate nose",
+        "lips": "medium lips"
+      },
+      "why": "",
+      "cues": [
+        "키 0.4m → 얼굴형 짧고 응축된 얼굴형",
+        "키 0.4m → 얼굴 길이 짧은 얼굴",
+        "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+        "‘tiny nose’ → 코 작고 여린 코"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 부드럽고 둥근 얼굴형 → 짧고 응축된 얼굴형, 입술 입이 작은 → 보통",
+      "hair": {
+        "hairstyle": "windswept",
+        "hair length": "short",
+        "bangs": "asymmetric bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘yellow electric sacs’·전기 타입에서 바람에 날린 듯한 스타일(층 낸 컷) · 짧은 머리 · 좌우 길이가 다른 앞머리",
+      "hair_cues": [
+        "‘yellow electric sacs’ → 헤어스타일 바람에 날린 듯한 스타일",
+        "키 0.4m → 머리 길이 짧은 머리",
+        "‘yellow electric sacs’ → 앞머리 좌우 길이가 다른 앞머리"
+      ]
+    },
+    "face_reason": "Prompt-pack used source appearance and face-design 587. Short black hair with yellow underside, bright amber eyes, playful mouth and compact face are visually distinct from brown long half-up Sawsbuck, pink Deerling and silver ice characters. Actual recent canonical light images of Vanilluxe, Deerling and Vanillish were compared.",
+    "compared_characters": [
+      "배바닐라",
+      "사철록",
+      "바닐리치"
+    ],
+    "canonical_source_sha256": "c42441bb3191e761a0fc66834b13682801575c11fb4c6306c30e305ce1d58f6f"
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "19745a09bdefd907213d675f5b79607def6d54f93b1fc90c9c87a8bb742b5d24",
+    "observations": "Canonical woman retained; thick layered shoulders, forearms, thighs and shins distinguish heavy armor. Topmost decorative head-fin tip touches the upper border; face and head remain intact, accepted as minor ornament-edge contact under IMAGE_RULES.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved open hands, five fingers on each; distant fingers foreshortened and partly overlap. Both palms and matching wrist/forearm/shoulder chains checked.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "970e1c194df5d8211ccdb943dc2458824c24190c29aebc8a7203a3164f4b4a78",
+    "observations": "Swept separated plates, small thrusters and open joints, lifted knee and fully visible feet distinguish the high-mobility form. No extra leg or unnatural knee connection.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved open hands, five fingers on each; distant fingers foreshortened and partly overlap. Both palms and matching wrist/forearm/shoulder chains checked.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "d212ce3bfeef9b25485c847bc21ebdc0c08dc7fe03ed249e3f7ee79c9af2d1c4",
+    "observations": "Original light stance and camera retained; white plates separate along existing seams to reveal yellow electrical inner light without a new weapon or helmet.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved open hands, five fingers on each; distant fingers foreshortened and partly overlap. Both palms and matching wrist/forearm/shoulder chains checked.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e9ce3f7d256eff0ed7ff271679ee957197bad7e647255d6bcb4db68ec58ba58e",
+    "observations": "Jazz lounge record-listening fashion portrait, burgundy opaque lingerie and teal silk robe. Two hands separately hold vinyl and sleeve; black/yellow hair and amber eyes match the canonical light.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Vinyl hand has four visible curled fingers and thumb behind the record edge; sleeve hand has four visible fingers and thumb behind sleeve. Both wrists connect to their arms.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e5b93b0a3b2a990050df71bafaa044cb7bb2e1a8a0b120155d51a9dc0e2bef81",
+    "observations": "Rainy covered porch after theatre rehearsal, cobalt sorceress dress and robe; towel-drying gesture with one separate Pikachu on the counter. Two raised arms connect to their shoulders. Lower body intentionally outside waist-up crop.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Own right hand rests on towel above head, fingers partly covered by towel and hair; own left hand grips towel beside head, five-digit curled structure with thumb partly hidden. No third hand.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "8499bfa2baa8453049c7d44ab0d3c2cb6a309665c389eb98ca7fb5734266f085",
+    "observations": "Bathroom face-close portrait in securely covering cream halter bath wrap. Three-quarter side gaze, subdued smile and bare shoulders differ from record grin and towel scene. Hands and legs intentionally outside crop.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands entirely outside face-close frame; no disconnected visible hand.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "85978b422d5e74a4f292639bb2b36544c6a7664409a6cc7365182d7fb7711fbd",
+    "observations": "Original airborne mobility pose, bent knee and camera retained; segmented plates open to electrical internal structures.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved open hands, five fingers on each; distant fingers foreshortened and partly overlap. Both palms and matching wrist/forearm/shoulder chains checked.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "598ae796e04551f1e62c3017f97d29955228dc3ee712cf7aac113c1f9fabff6f",
+    "observations": "Original heavy stance, open forward palm, both boot positions and camera retained; thick armor plates hinge open with yellow electrical inner frame. Same black/yellow hair and amber eyes; no new helmet or weapon. Highest head fin touches top edge as in closed heavy image.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved open hands with five fingers each; distant fingers partly foreshortened. Wrist connections and thumbs remain on correct side.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
+    }
+  },
+  "diversity_comparison": "Actual casual images compared with recent Vanilluxe, Deerling and Vanillish thumbnails and the three Sawsbuck images: vinyl/teal robe chest-up portrait, rainy porch/towel/cobalt costume with separate companion, and cream halter bathroom face-close portrait differ in location, clothing silhouette, activity, expression and crop. Neither the berry-market/climbing/spa sequence nor fountain/satin-spa/boardgame sequence is repeated. Sawsbuck has bridal hat, resort cocktail and tailor apron rather than record, towel and bathroom."
+}
