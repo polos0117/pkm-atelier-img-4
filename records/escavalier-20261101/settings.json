@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "card": "슈바르고",
+  "no": 589,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/1561e73781c5/PLAN-revised.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "A timber riverside promenade is strung with festival lanterns as blue twilight gives way to warm sparkler light.",
+      "outfit": "A long camel wool coat worn fully open over a cropped ivory top and a loosely draped knitted scarf; the open coat reveals her midriff and the short top hem, with the scarf resting behind the collarbones.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Retain the selected long wool coat and scarf, placing the planned cropped hem on the inner top so the coat can remain long and the midriff visible.",
+        "outfit": "Retain the selected long wool coat and scarf, placing the planned cropped hem on the inner top so the coat can remain long and the midriff visible."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / stage_fireworks / everyday / long_coat_scarf / stand / chest_up / sparkler_raise",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "stage_fireworks",
+            "ko": "불꽃놀이 강변",
+            "en": "a riverside seating area waiting for festival fireworks"
+          },
+          "role": null,
+          "use": {
+            "key": "sparkler_raise",
+            "ko": "불꽃 막대를 들어 올린다",
+            "en": "holds a lit sparkler up beside her face",
+            "prop": "불꽃 막대"
+          },
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "long_coat_scarf",
+            "ko": "롱코트 + 머플러",
+            "en": "a long wool coat and a knitted scarf"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "coat"
+        ],
+        "expose": [
+          "bare midriff",
+          "cropped hem"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual2": {
+      "scene": "She has just closed an amusing novel after a spa appointment in 2010; amber lamps pick out the woven chair and steam-softened glass.",
+      "outfit": "Fitted denim overalls with an open back and lowered side panels, over an off-shoulder cropped rose top; her shoulders, upper back and side waist are visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Preserve fitted denim overalls over a cropped top, with the planned off-shoulder neckline and open back; keep the setting and props appropriate to 2010.",
+        "outfit": "Preserve fitted denim overalls over a cropped top, with the planned off-shoulder neckline and open back; keep the setting and props appropriate to 2010."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / spa_lounge / everyday / overalls / sit_chair / three_quarter / book_hold",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "spa_lounge",
+            "ko": "스파 라운지",
+            "en": "a quiet spa lounge of robes, herbal tea and dim lamps"
+          },
+          "role": null,
+          "use": {
+            "key": "book_hold",
+            "ko": "책을 안는다",
+            "en": "holds a book closed against her chest",
+            "prop": "책"
+          },
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "overalls",
+            "ko": "멜빵바지",
+            "en": "fitted denim overalls over a cropped top"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "crop_top",
+          "overalls"
+        ],
+        "expose": [
+          "open back",
+          "off-shoulder neckline"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "Blue observatory lamps illuminate a polished bench beneath the open dome, where brass telescope rings frame a field of stars.",
+      "outfit": "A crisp cropped navy event-uniform jacket over a white top, paired with tailored high-waisted shorts and low ankle boots; a narrow band of midriff and her lower legs are visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "The planner changed place to a fantasy observatory; a celestial exhibition host costume and seated book-holding pose are materially different from the rejected powder-room swimwear scene.",
+        "outfit": "Preserve the selected playful uniform-inspired costume, rendered as a cropped jacket and tailored shorts for the planned cropped hem and bare midriff; this is a nonsexual event-host outfit."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_powder / swimwear / crochet_bikini / lean_counter / waist_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_powder",
+            "ko": "파우더룸",
+            "en": "a club powder room with a lit mirror and neon on the tiles"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "crochet_bikini",
+            "ko": "크로셰 비키니",
+            "en": "a fully lined crochet-knit bikini in a sunny resort colour"
+          },
+          "posture": {
+            "key": "lean_counter",
+            "ko": "작업대에 몸 숙이기",
+            "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "high-cut leg",
+          "plunging neckline"
+        ],
+        "lead": "light"
+      }
+    }
+  }
+}

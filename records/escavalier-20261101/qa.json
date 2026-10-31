@@ -1,0 +1,193 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c",
+    "observations": "Long straight silver hair, red eyes, angular adult face and steel/red cavalry motif accepted as canonical. Two naturally connected arms and legs; both plated boots fully framed. Two loose gloved hands with thumbs distinct and four curled fingers partly overlapping. Red crest lightly contacts the top border, recorded as minor edge contact.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Long straight silver hair, red eyes, angular adult face and steel/red cavalry motif accepted as canonical. Two naturally connected arms and legs; both plated boots fully framed. Two loose gloved hands with thumbs distinct and four curled fingers partly overlapping. Red crest lightly contacts the top border, recorded as minor edge contact.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    },
+    "face_design": {
+      "name": "슈바르고",
+      "en": "Escavalier",
+      "line": "딱정곤",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "angular",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "angular defined jaw",
+        "eye shape": "narrow",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "short rounded brows",
+        "nose character": "rounded soft tip",
+        "lips": "straight even lips"
+      },
+      "why": "",
+      "cues": [
+        "‘large, round metal ridges’ → 얼굴형 각지고 선명한 얼굴형",
+        "‘large, round metal ridges’ → 턱선 · 턱끝 각지고 또렷한 턱",
+        "‘large, round metal ridges’ → 눈매 가늘고 날카로운 눈",
+        "‘large, round metal ridges’ → 눈썹 짧고 둥근",
+        "‘large, round metal ridges’ → 코 코끝이 둥근",
+        "‘large, round metal ridges’ → 입술 굴곡 없이 곧은"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 바깥에서 꺾이는 사선 → 짧고 둥근, 입술 얇은 입술 → 굴곡 없이 곧은",
+      "hair": {
+        "hairstyle": "blunt cut",
+        "hair length": "long",
+        "bangs": "straight bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘large, round metal ridges’·강철 타입에서 끝을 일자로 자른 컷(곧은 결) · 긴 머리 · 일자 앞머리 — 딱정곤에서 이어 더 공들인 묶음",
+      "hair_cues": [
+        "‘large, round metal ridges’ → 헤어스타일 끝을 일자로 자른 컷"
+      ]
+    },
+    "face_reason": "Exact face-design 589 and steel/red source appearance produced a long silver blunt cut with straight bangs, angular jaw, red eyes, rounded nose and even lips. Compared to Karrablast and recent Deerling, Sawsbuck and Emolga, she has distinct jaw structure and long straight silver hair rather than the blue pixie, pink/brown waves or black-yellow bob.",
+    "compared_characters": [
+      "사철록",
+      "바라철록",
+      "에몽가"
+    ]
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "84ab8cbd6a047238f813cc761e444ce4435d654dcd87e547d47bb130caa16514",
+    "observations": "Same adult face, long hair and red eyes. Thick overlapping shoulder, chest, hip, thigh and shin plates widen the silhouette. Two connected arms and legs and fully framed boots; both gloved hands loosely curl their fingers with overlap. Original red crest remains near the top edge.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same adult face, long hair and red eyes. Thick overlapping shoulder, chest, hip, thigh and shin plates widen the silhouette. Two connected arms and legs and fully framed boots; both gloved hands loosely curl their fingers with overlap. Original red crest remains near the top edge.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "604971befa788b8b8d8341737675465c2193d59693e015152710996b47678bf7",
+    "observations": "Same face, hair and eyes. Slim swept-back panels and small red propulsion units distinguish the form; no large wings. Two connected arms and legs, both boots fully visible; two relaxed gloved hands with some curled fingertips occluded.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same face, hair and eyes. Slim swept-back panels and small red propulsion units distinguish the form; no large wings. Two connected arms and legs, both boots fully visible; two relaxed gloved hands with some curled fingertips occluded.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "f453e99d30924179b0789f6e209d47a10f765c1957dd12d62a0a947719faf407",
+    "observations": "Matches light pose, camera and figure scale. Original silver/red plates open along seams to show green insect-type energy, with eyes remaining red. Two natural arms and legs, both boots visible; fingers partly overlap in loose hands. No added weapon.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Matches light pose, camera and figure scale. Original silver/red plates open along seams to show green insect-type energy, with eyes remaining red. Two natural arms and legs, both boots visible; fingers partly overlap in loose hands. No added weapon.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "55e5e28308d82c32599e8219bc8ba09cfdd474ced92876fae167ae56082e2427",
+    "observations": "Matches heavy framing and pose. Layered plates hinge apart around bright green inner machinery. Two connected arms and legs, both boots inside frame; both hands retain loose curled fingers with some tips overlapping.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Matches heavy framing and pose. Layered plates hinge apart around bright green inner machinery. Two connected arms and legs, both boots inside frame; both hands retain loose curled fingers with some tips overlapping.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "03b993404909ee26bed7c376a270da0eae3d5542385aa1b82816f3eb74634593",
+    "observations": "Matches mobility framing and pose. Existing swept-back panels separate and propulsion cores glow green. Eyes remain red, no new weapon or helmet. Both connected legs and boots visible; two gloved hands with curled-finger occlusion.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Matches mobility framing and pose. Existing swept-back panels separate and propulsion cores glow green. Eyes remain red, no new weapon or helmet. Both connected legs and boots visible; two gloved hands with curled-finger occlusion.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "10a2672b04a47c265e1050dd3362721bc868c18a5328df9eb249221b1b2c260b",
+    "observations": "Riverfront lantern festival, sparkler held beside face, open camel coat and ivory cropped top with knitted scarf. Visible raised hand has thumb and index around the stem, and three curled fingers below. Forearm passes naturally through the sleeve; the second arm and lower body continue below the chest-up crop. Clavicle and midriff remain visible. Actual framing is slightly wider than planned chest-up; recorded as a framing detail.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Riverfront lantern festival, sparkler held beside face, open camel coat and ivory cropped top with knitted scarf. Visible raised hand has thumb and index around the stem, and three curled fingers below. Forearm passes naturally through the sleeve; the second arm and lower body continue below the chest-up crop. Clavicle and midriff remain visible. Actual framing is slightly wider than planned chest-up; recorded as a framing detail.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "6f0662e75552cf78e623c52dcb8210c52229cab65503249467213f66552257d3",
+    "observations": "Seated in a warm spa lounge wearing denim short overalls and an off-shoulder rose crop top, laughing with a closed book held at chest and one hand on knee. Both arms connect naturally through shoulders and elbows. Book hand shows four fingers across the cover and thumb partly occluded; resting hand shows four fingers over knee, thumb partly obscured. Two crossed legs visible; feet outside the planned three-quarter crop. Book and lap actions appear assigned to the opposite hands from the plan, and overalls rendered as shorts; recorded as pose/outfit detail deviations. A small helmet-shaped ornament is on the nearby table.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Seated in a warm spa lounge wearing denim short overalls and an off-shoulder rose crop top, laughing with a closed book held at chest and one hand on knee. Both arms connect naturally through shoulders and elbows. Book hand shows four fingers across the cover and thumb partly occluded; resting hand shows four fingers over knee, thumb partly obscured. Two crossed legs visible; feet outside the planned three-quarter crop. Book and lap actions appear assigned to the opposite hands from the plan, and overalls rendered as shorts; recorded as pose/outfit detail deviations. A small helmet-shaped ornament is on the nearby table.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "c7c1906e174a7a405e614df12f904576a1a22bc230845e97d2b11e3a55c4e256",
+    "observations": "Replanned fantasy observatory event-host portrait, seated full body in a cropped navy uniform-inspired jacket, ivory top, tailored shorts and ankle boots, holding a closed book. Two arms connect naturally: book grip has four visible curled fingers and thumb behind the book edge; resting hand has five digits with mild overlap on knee. Two connected legs and both boots fully visible. Actual legs cross instead of planned knees together; head turns toward screen-right rather than screen-left, recorded as deviations. Place, event costume, activity and canonical face are present. Original rejected powder-room swimwear prompt and failure retained separately, without an output file.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Replanned fantasy observatory event-host portrait, seated full body in a cropped navy uniform-inspired jacket, ivory top, tailored shorts and ankle boots, holding a closed book. Two arms connect naturally: book grip has four visible curled fingers and thumb behind the book edge; resting hand has five digits with mild overlap on knee. Two connected legs and both boots fully visible. Actual legs cross instead of planned knees together; head turns toward screen-right rather than screen-left, recorded as deviations. Place, event costume, activity and canonical face are present. Original rejected powder-room swimwear prompt and failure retained separately, without an output file.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "diversity": {
+    "actual_images_reviewed": true,
+    "compared_characters": [
+      "사철록",
+      "바라철록",
+      "에몽가",
+      "딱정곤"
+    ],
+    "observed": "All three actual results were compared with the recent nine casual images and Karrablast's three. Sparkler portrait in wool coat at river lanterns, side-view laughing book-holding in short denim overalls at a spa, and full-body navy event costume at a brass observatory differ in garment structure, lighting, framing and setting. The two seated book images have related hand tasks but visibly different silhouettes, scale, head angles, environments and expressions; neither repeats a recent three-scene sequence."
+  }
+}

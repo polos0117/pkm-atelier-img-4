@@ -1,0 +1,230 @@
+[
+  {
+    "slot": "light",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-5658b850-799c-490b-ac24-62c88878cc40.png",
+    "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c",
+    "source_session_only": true,
+    "references": [],
+    "file": "슈바르고_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "39b00e0649c4260fafb2ad24ef009af083887c82e608ae8fb691bc0e6e4aa3c1",
+    "prompt_sha256": "9ff12fe6c2730701a66906ab8df9dc557b1c09a7577055eb59918360a7392dde"
+  },
+  {
+    "slot": "heavy",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-57ff5f15-f234-42b9-8a9d-cf363c8be1a5.png",
+    "source_sha256": "84ab8cbd6a047238f813cc761e444ce4435d654dcd87e547d47bb130caa16514",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c"
+      }
+    ],
+    "file": "슈바르고_heavy_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "4088c3a110002dc80debffc547a85f846ad51778c0607c7ebf5c0a37faf76c57",
+    "prompt_sha256": "3414aa0cb1cd1470705d2d20109a00fe4ec6c2ae56f2d6085d144fb2a3fff083"
+  },
+  {
+    "slot": "mobility",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-c34aa118-60c1-4ea8-9bd9-de0ccbe1e887.png",
+    "source_sha256": "604971befa788b8b8d8341737675465c2193d59693e015152710996b47678bf7",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c"
+      }
+    ],
+    "file": "슈바르고_mobility_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "a9ef8fba63c828d1e0779ccf127be8e9d4918f1d67d6086263109c1a73472e58",
+    "prompt_sha256": "1a768321e4eec9a3772c086c96372fc4b0d472685fd411fd2e9d036531799bce"
+  },
+  {
+    "slot": "light_overdrive",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-34a89e9e-8389-4033-9db4-cff87f822a62.png",
+    "source_sha256": "f453e99d30924179b0789f6e209d47a10f765c1957dd12d62a0a947719faf407",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c"
+      }
+    ],
+    "file": "슈바르고_light_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "0a36fe5476a2b0825dfae3b94d2462355cb1aa0820c1ab0a07b66e7296975e0a",
+    "prompt_sha256": "9cf931bf5f7fc387fc4336a53ea11614e4687c14b6753f5fd0615cef4429889a"
+  },
+  {
+    "slot": "heavy_overdrive",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-48c03853-09d9-40e5-a43b-d2473bbf89dc.png",
+    "source_sha256": "55e5e28308d82c32599e8219bc8ba09cfdd474ced92876fae167ae56082e2427",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "heavy",
+        "source_sha256": "84ab8cbd6a047238f813cc761e444ce4435d654dcd87e547d47bb130caa16514"
+      },
+      {
+        "slot": "light",
+        "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c"
+      }
+    ],
+    "file": "슈바르고_heavy_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "7506a843e526c7509074c164687430ea6021be9adc7235a9fb95cb15cd25b8fb",
+    "prompt_sha256": "7d7cf744f599153253cafc7b0ee4a3c62410ec0ba9aaa773e1c3fad1e23b0305"
+  },
+  {
+    "slot": "mobility_overdrive",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-09a9392c-91ff-4cb7-b483-21e7eddc4e2a.png",
+    "source_sha256": "03b993404909ee26bed7c376a270da0eae3d5542385aa1b82816f3eb74634593",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "mobility",
+        "source_sha256": "604971befa788b8b8d8341737675465c2193d59693e015152710996b47678bf7"
+      },
+      {
+        "slot": "light",
+        "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c"
+      }
+    ],
+    "file": "슈바르고_mobility_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "3ad043a65765a073fd510193201ffe693ae5cb748ca7981f34f5dee2a327c5b8",
+    "prompt_sha256": "04b6109d081ce8580ac909b58b8d351447538d52597388b4efad22e2e71617c6"
+  },
+  {
+    "slot": "casual1",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-d923be70-f352-4655-af98-d235865859d8.png",
+    "source_sha256": "10a2672b04a47c265e1050dd3362721bc868c18a5328df9eb249221b1b2c260b",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c"
+      }
+    ],
+    "file": "슈바르고_glossy_promo_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "341d38c868bb320817273854fc7b235d84516eb1662bfa56f87dc52bfe98db9e",
+    "prompt_sha256": "57ee91112cef6d189f3d6fa4ba263cf78d88afad9d4f3a677b51582567866c53"
+  },
+  {
+    "slot": "casual2",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-a9b2ec2b-849f-42ce-bf1e-4b9679df4c32.png",
+    "source_sha256": "6f0662e75552cf78e623c52dcb8210c52229cab65503249467213f66552257d3",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c"
+      }
+    ],
+    "file": "슈바르고_glossy_promo_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "cf934fdb76ede4392142d6d1bea9edc088368b367c8554921952f709d5264ccf",
+    "prompt_sha256": "3132c9b961fd7184740dc716dcc52c1af91de1b9d72280aa1355aea9fbaa61f5"
+  },
+  {
+    "slot": "casual3",
+    "card": "슈바르고",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/1561e73781c5/generated_images/exec-161d6947-8d1b-4ff4-8108-ade441282a0d.png",
+    "source_sha256": "c7c1906e174a7a405e614df12f904576a1a22bc230845e97d2b11e3a55c4e256",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "a31beaf5e341ed1113527363aca86974050b37457b7c31a65c820d5d559fb37c"
+      }
+    ],
+    "file": "슈바르고_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "60531314eeb07b713133b5f812459ee66aeb25fea0fa654ab9ef8be9bd4e8ebf",
+    "prompt_sha256": "6e23b6a35b7386a57982644a76840d27a3cdaeda59d8ea10a2b06e096e5aef3b"
+  }
+]

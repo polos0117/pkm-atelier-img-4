@@ -1,0 +1,165 @@
+{
+ "session": "karrablast-escavalier-1561-20261101",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "슈바르고",
+   "species": "escavalier-20261101",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "stage_fireworks",
+     "weather": "",
+     "ofam": "everyday",
+     "item": "long_coat_scarf",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "sparkler_raise",
+     "legs": "",
+     "gaze": "",
+     "expr": "focused",
+     "preset": "raise_chest",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "coat"
+     ],
+     "expose": [
+      "bare midriff",
+      "cropped hem"
+     ],
+     "lead": "place",
+     "act": "sparkler_raise",
+     "orient": "front_3q+tilt",
+     "pose": "raise_chest"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "release",
+     "place": "spa_lounge",
+     "weather": "",
+     "ofam": "everyday",
+     "item": "overalls",
+     "posture": "sit_chair",
+     "support": "back_seat",
+     "frame": "three_quarter",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "book_hold",
+     "legs": "cross_legs",
+     "gaze": "at_prop",
+     "expr": "laughing_open",
+     "preset": "chair_cross_prop",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "crop_top",
+      "overalls"
+     ],
+     "expose": [
+      "open back",
+      "off-shoulder neckline"
+     ],
+     "lead": "action",
+     "act": "book_hold",
+     "orient": "side+with_body",
+     "pose": "chair_cross_prop"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_observatory",
+     "ofam": "roleplay",
+     "item": "uniform_inspired",
+     "garments": [
+      "uniform"
+     ],
+     "weather": "",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "environmental",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "book_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "preset": "bench_sit",
+     "expr": "proud",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "bare midriff"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "water",
+     "spa",
+     "stage",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "uniform"
+    ],
+    "orient": [
+     "front+turn_side"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
