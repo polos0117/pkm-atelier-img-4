@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "card": "배바닐라",
+  "no": 584,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/339751fb1073/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Pale morning sunlight pools around the fountain; a street-side dessert cart has just opened beside the tiled houses.",
+      "outfit": "A loose terracotta off-shoulder sleep shirt, with a short hem and an open back secured by a narrow halter tie, revealing shoulders and thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "마을의 아침 빛과 디저트 수레를 보충.",
+        "outfit": "잠옷 셔츠를 유지하며 예약된 홀터·오픈백과 짧은 기장을 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / pw_town / homewear / sleep_shirt / squat / full_body / icecream_hold",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "pw_town",
+            "ko": "포켓몬 세계 마을",
+            "en": "a small town square of the Pokémon world with a fountain, flower beds and tiled roofs"
+          },
+          "role": null,
+          "use": {
+            "key": "icecream_hold",
+            "ko": "아이스크림을 든다",
+            "en": "holds an ice cream cone at chest height",
+            "prop": "아이스크림"
+          },
+          "ofam": {
+            "key": "homewear",
+            "ko": "홈웨어",
+            "en": "soft homewear or loungewear"
+          },
+          "item": {
+            "key": "sleep_shirt",
+            "ko": "오프숄더 잠옷 셔츠",
+            "en": "a loose off-shoulder sleep shirt"
+          },
+          "posture": {
+            "key": "squat",
+            "ko": "쪼그려 앉기",
+            "en": "crouching low on her heels"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "shirt"
+        ],
+        "expose": [
+          "halter neck",
+          "open back"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "Curved alabaster spa alcoves glow with peach indirect lighting during a satin fashion editorial.",
+      "outfit": "A tailored oversized cream shirt worn open over a fully opaque matching burgundy satin lingerie set, the plunging bralette and secure high-waisted briefs leaving the midriff visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "미래 스파에 패션 촬영과 복숭아빛 간접 조명을 보충.",
+        "outfit": "오픈 셔츠·새틴 세트의 구조를 보존하며 깊은 목선과 드러난 배를 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_spa / lingerie / open_shirt_lingerie / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_spa",
+            "ko": "미래풍 스파",
+            "en": "a futuristic spa of white curves and soft light"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "open_shirt_lingerie",
+            "ko": "란제리 위 오픈 셔츠",
+            "en": "a tailored oversized shirt worn open over a matching satin lingerie set"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "thumbs_up · hip"
+        },
+        "garments": [
+          "lingerie_set",
+          "shirt"
+        ],
+        "expose": [
+          "plunging neckline",
+          "bare midriff"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual3": {
+      "scene": "Setting down a ceramic cup beside an unfolded strategy board, with dark wooden shelves and amber pendant lights beyond the table.",
+      "outfit": "A short black tuxedo jacket worn open over an asymmetric one-shoulder silk camisole, paired with tailored trousers.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "보드게임 공간에 전략판과 조명을 보충.",
+        "outfit": "턱시도·캐미솔·바지를 유지하며 짧은 재킷과 한쪽 어깨 목선을 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / boardgame_lounge / evening / tuxedo_cami_trousers / sit_chair / environmental / cup_set",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "boardgame_lounge",
+            "ko": "보드게임 라운지",
+            "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+          },
+          "role": null,
+          "use": {
+            "key": "cup_set",
+            "ko": "잔을 내려놓는다",
+            "en": "sets a cup down on the surface in front of her",
+            "prop": "잔·컵"
+          },
+          "ofam": {
+            "key": "evening",
+            "ko": "저녁 드레스",
+            "en": "an evening dress or night-out outfit"
+          },
+          "item": {
+            "key": "tuxedo_cami_trousers",
+            "ko": "턱시도 재킷 + 캐미솔 + 정장 바지",
+            "en": "a sharp tuxedo jacket over a silk camisole with tailored trousers"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "jacket",
+          "tank",
+          "trousers"
+        ],
+        "expose": [
+          "mini length",
+          "one-shoulder cut"
+        ],
+        "lead": "action"
+      }
+    }
+  }
+}

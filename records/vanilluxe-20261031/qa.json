@@ -1,0 +1,217 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "6b7e0a60f051e96b7aeaa2682885f89bcf96eea463b8cb92edeab8c671c73709",
+    "observations": {
+      "identity": "Angular adult face, pale blue eyes and silver-blue long hime hair follow the face table; narrower and straighter than Vanillish. Canonical image accepted.",
+      "form": "Slim white-blue close-fitting plates, two crystalline hair ornaments; two boots fully inside frame.",
+      "hands": "Screen-left open palm shows five digits and inward thumb; screen-right loose curl partly occludes fingers. Both wrists join forearms."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Screen-left open palm shows five digits and inward thumb; screen-right loose curl partly occludes fingers. Both wrists join forearms.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    },
+    "face_design": {
+      "name": "배바닐라",
+      "en": "Vanilluxe",
+      "line": "바닐프티",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "angular",
+        "face length": "balanced",
+        "face width": "narrow",
+        "jaw & chin": "angular defined jaw",
+        "eye shape": "narrow",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "close-set eyes",
+        "eyebrows": "straight medium brows",
+        "nose character": "straight slender bridge",
+        "lips": "thin lips"
+      },
+      "why": "",
+      "cues": [
+        "‘three spikes’ → 얼굴형 각지고 선명한 얼굴형",
+        "몸 형태 heads → 얼굴 폭 좁은 얼굴",
+        "‘three spikes’ → 턱선 · 턱끝 각지고 또렷한 턱",
+        "‘three spikes’ → 눈매 가늘고 날카로운 눈",
+        "몸 형태 heads → 눈 간격 눈 사이가 가까운",
+        "‘three spikes’ → 코 곧고 가는 콧대"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴 폭 보통 → 좁은 얼굴, 눈썹 바깥에서 꺾이는 사선 → 중간 두께의 직선, 코 보통 → 곧고 가는 콧대 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 곧은 생머리 → 히메컷",
+      "hair": {
+        "hairstyle": "hime cut",
+        "hair length": "long",
+        "bangs": "straight bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘light blue ice crystals’에서 히메컷(곧은 결) · 긴 머리 · 일자 앞머리 — 바닐리치에서 이어 같은 묶음",
+      "hair_cues": [
+        "‘light blue ice crystals’ → 헤어스타일 히메컷"
+      ]
+    },
+    "canonical_source_sha256": "6b7e0a60f051e96b7aeaa2682885f89bcf96eea463b8cb92edeab8c671c73709"
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "a18c142e59e9b2ac05bba0f065644f1d623f806b376f57a58a8c2660d109372a",
+    "observations": {
+      "identity": "Same level eyes, straight bangs and long silver-blue hair.",
+      "form": "Broad layered shoulder, torso, thigh and shin plates enlarge silhouette; both boots fully visible.",
+      "hands": "Five digits in open palm; curled second hand partly occluded. Two continuous arms."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five digits in open palm; curled second hand partly occluded. Two continuous arms.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "6cfaba43a92dcff0b4b3479123c21dd7c08c6fbde398d597b9985f88773c9a1b",
+    "observations": {
+      "identity": "Same face and straight fringe.",
+      "form": "Swept split panels and compact circular propulsion units; both boots inside frame.",
+      "hands": "Open screen-left palm has five digits; other hand relaxed with curled fingers partly hidden."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Open screen-left palm has five digits; other hand relaxed with curled fingers partly hidden.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "600f8ef161ac5a08f73d07ef1bf7972d2b1a29fd9bcc967ed611721fc794a62e",
+    "observations": {
+      "identity": "Same face, eyes and hair.",
+      "form": "Same light camera, pose and scale; original panels open along seams, ice-blue internal light, no added weapon.",
+      "hands": "Five open digits, opposite hand curled; wrists and elbows continuous."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five open digits, opposite hand curled; wrists and elbows continuous.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "1a6a2a10be06a5dc8634519d678ced83216609427f00c6be40e172c52e6a22d4",
+    "observations": {
+      "identity": "Same adult identity.",
+      "form": "Same heavy pose and camera; broad overlapping panels lift to expose blue frame. Both boots visible.",
+      "hands": "Five open digits, other hand partly curled. Both arms and legs connect naturally."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five open digits, other hand partly curled. Both arms and legs connect naturally.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "6c8bad30f750a6db7bf165ac3750d760ba91b5fa66bd65faa2806a39893ebc13",
+    "observations": {
+      "identity": "Same bangs and pale blue eyes, gaze lowered toward cone.",
+      "scene": "Fountain square and dessert cart, terracotta off-shoulder short shirt, low crouch with both sandals visible. Front full-body crop matches.",
+      "hands": "Cone grip shows four fingers with thumb wrapped behind; other hand shows five relaxed digits over knee; wrists join both forearms.",
+      "deviations": "Shirt back not fully visible; no identifiable real logo."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Cone grip shows four fingers with thumb wrapped behind; other hand shows five relaxed digits over knee; wrists join both forearms.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "4964ce047960ccecc512d678e447821dbf3aa3c1633abcca7a30a5563a8a12c5",
+    "observations": {
+      "identity": "Same face, brighter closed smile.",
+      "scene": "Curved luminous spa, cream open shirt and opaque burgundy satin set, waist-up thumbs-up pose.",
+      "hands": "Thumb-up hand has four folded fingers plus thumb; hip hand shows four fingers and thumb partly obscured by waist. Both forearms visibly join shoulders.",
+      "deviations": "Small crystal decorations remain in spa background, allowed source objects."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Thumb-up hand has four folded fingers plus thumb; hip hand shows four fingers and thumb partly obscured by waist. Both forearms visibly join shoulders.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "86ef024ccd6f805b5a326c271e5d909cb73eac404dbe8b6f1ffdca4d14aaf42a",
+    "observations": {
+      "identity": "Same hime haircut, gaze turned toward room.",
+      "scene": "Wooden game shelves and strategy board; one-shoulder camisole, open black jacket and trousers, seated while lowering cup. Full seated figure rather than wide environmental framing.",
+      "hands": "Cup hand has thumb and fingers around rim with overlap; lap hand has five digits. Shoulder-elbow-wrist paths continuous.",
+      "deviations": "Jacket is longer than requested short jacket; one shoulder remains bare. Planned mini detail does not apply to selected trousers."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Cup hand has thumb and fingers around rim with overlap; lap hand has five digits. Shoulder-elbow-wrist paths continuous.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "diversity": {
+    "actual_images_reviewed": true,
+    "compared_characters": [
+      "란쿨루스",
+      "꼬지보리",
+      "스완나",
+      "바닐프티",
+      "바닐리치"
+    ],
+    "observed": "Fountain crouch in short terracotta shirt, spa waist portrait in satin set, and seated board-game scene in tailored trousers differ in posture, clothing construction and framing. Previous comparison contact sheet and immediately preceding generated ice-family images reviewed. Similarity checker passed all three; nearest scores 286, 286 and 285, above cutoff 245."
+  },
+  "skipped": [
+    {
+      "slot": "mobility_overdrive",
+      "reason": "Image tool safety rejection: sexual, output stage",
+      "request_id": "0397ce61-69b1-40b1-b40e-01335831cbd5",
+      "attempts": 1
+    }
+  ]
+}
