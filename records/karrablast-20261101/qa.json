@@ -1,0 +1,186 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "ae23a80bb67e47592f05b01527e90852c33ee66290e5aac5cc26be6381c07ddc",
+    "observations": "Two arms and legs connect naturally; both boots fully framed. Both black-gloved hands are loosely curled: thumb separated and four fingers partly overlapping. Blue pixie cut with teal tips and blue eyes accepted as canonical.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two arms and legs connect naturally; both boots fully framed. Both black-gloved hands are loosely curled: thumb separated and four fingers partly overlapping. Blue pixie cut with teal tips and blue eyes accepted as canonical.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    },
+    "face_design": {
+      "name": "딱정곤",
+      "en": "Karrablast",
+      "line": "딱정곤",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "narrow tapered chin",
+        "eye shape": "narrow",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "straight medium brows",
+        "nose character": "small delicate nose",
+        "lips": "wide mouth"
+      },
+      "why": "물어붙잡는 작은 갑각의 체적을 정돈된 눈매와 넓은 입으로 해석한다.",
+      "cues": [],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 부드럽고 둥근 턱 → 아래로 갈수록 좁아지는 턱끝",
+      "hair": {
+        "hairstyle": "pixie cut",
+        "hair length": "short",
+        "bangs": "straight bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "키 0.5m에서 짧고 가벼운 픽시컷(짧은 컷) · 짧은 머리 · 일자 앞머리",
+      "hair_cues": [
+        "키 0.5m → 헤어스타일 짧고 가벼운 픽시컷",
+        "키 0.5m → 머리 길이 짧은 머리"
+      ]
+    },
+    "face_reason": "Exact face-design 588 and source-appearance blue carapace/teal markings were used by prompt-pack. Narrow blue eyes, tapered oval face, broad mouth and short blue pixie hair visibly differ from recent long pink/brown hair and the black-yellow Emolga bob.",
+    "compared_characters": [
+      "사철록",
+      "바라철록",
+      "에몽가"
+    ]
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "389ec20a48827a7394756208a7b0623240f915383aca87a22183d82340d2eedb",
+    "observations": "Same face and short hair; overlapping chest, hip, shoulder and shin plates enlarge the silhouette. Two connected arms and legs, both boots fully framed; both relaxed gloved hands have thumb and four curled fingers, some tips overlap.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same face and short hair; overlapping chest, hip, shoulder and shin plates enlarge the silhouette. Two connected arms and legs, both boots fully framed; both relaxed gloved hands have thumb and four curled fingers, some tips overlap.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e12e5929c0a292a253ef9a757b759fdd507f45de2687172ea02fa798a2c6b21c",
+    "observations": "Same face, narrow swept-back plates and compact blue propulsion units. Both connected arms and legs with boots inside the frame; two loosely curled hands, with four fingers and thumb partly overlapping.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same face, narrow swept-back plates and compact blue propulsion units. Both connected arms and legs with boots inside the frame; two loosely curled hands, with four fingers and thumb partly overlapping.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "ba5b5855a66dac6293ff4670e6fdb456fd04717dc388b59d8f8c29f975fe8bfe",
+    "observations": "Same light pose, scale and camera. Original plates hinge open to reveal green insect-type energy; blue eyes unchanged. Same two relaxed hands, partly overlapping curled fingers; boots remain fully visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same light pose, scale and camera. Original plates hinge open to reveal green insect-type energy; blue eyes unchanged. Same two relaxed hands, partly overlapping curled fingers; boots remain fully visible.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "8e0d526f5ffb03fbb76b6354e0b687eb31f65a30a5aff294d55633146f4b0afa",
+    "observations": "Same heavy pose and framing, original layered panels opened onto green inner frame; no new weapon. Two naturally connected arms and legs, boots fully visible; gloved hands are loose with some curled fingers overlapping.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same heavy pose and framing, original layered panels opened onto green inner frame; no new weapon. Two naturally connected arms and legs, boots fully visible; gloved hands are loose with some curled fingers overlapping.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "dd06b3ba78a757ba6f9106eee3af76bff4e0851ca67b252167fb9da0abf1dd0d",
+    "observations": "Same mobility pose and framing. Narrow existing panels separate, compact propulsion cores change to luminous green. Blue eyes preserved; two arms, two legs, both boots visible, curled hands partly occluded.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same mobility pose and framing. Narrow existing panels separate, compact propulsion cores change to luminous green. Blue eyes preserved; two arms, two legs, both boots visible, curled hands partly occluded.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "24f829811a9b0e7a593c3f187385a4f3e8464cefeebfd966640e2e8016ef6baf",
+    "observations": "Seated at a rooftop winter infinity pool in white ski jacket, strapless top and padded pants. Both arms continue through the jacket sleeves to hands braced on the ledge. Screen-left hand shows four resting fingers and thumb with overlap; screen-right hand rests in side view with some digits occluded. Legs continue below the three-quarter crop as planned; no disconnected limb. Small beetle-shaped bag and earring remain accessories.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Seated at a rooftop winter infinity pool in white ski jacket, strapless top and padded pants. Both arms continue through the jacket sleeves to hands braced on the ledge. Screen-left hand shows four resting fingers and thumb with overlap; screen-right hand rests in side view with some digits occluded. Legs continue below the three-quarter crop as planned; no disconnected limb. Small beetle-shaped bag and earring remain accessories.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "9a7414b87a416c23e4d0cce5e22a882de8ed6cbc2768db1b1a7515bc7c14d8d5",
+    "observations": "Profile standing in a white retro space-age jumpsuit and boots, laughing while holding a warm cup in both hands. Two forearms connect to the cup grip; four fingers across the near face of cup and thumb near its rim, far hand fingers partly hidden by cup and near hand. Both feet fully visible. A physically consistent partial mirror reflection is present. Costume has detached sleeves and narrow waist details beyond the planned outfit; recorded as a detail deviation.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Profile standing in a white retro space-age jumpsuit and boots, laughing while holding a warm cup in both hands. Two forearms connect to the cup grip; four fingers across the near face of cup and thumb near its rim, far hand fingers partly hidden by cup and near hand. Both feet fully visible. A physically consistent partial mirror reflection is present. Costume has detached sleeves and narrow waist details beyond the planned outfit; recorded as a detail deviation.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "893580a8504cc911054c4f19d5e720ea2853ddf3d7e7774bc4cde132f70ae2a6",
+    "observations": "Full body in coral halter playsuit and cream peep-toe heels, seated in a retro-futurist chrome room. Two connected arms: hand on thigh has five digits; armrest hand is loosely curled with overlapping tips. Both legs and shoes fully visible. Actual legs cross at knees instead of planned crossed ankles; recorded as pose deviation. Tiny beetle ornament sits beside the radio rather than on clothing.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Full body in coral halter playsuit and cream peep-toe heels, seated in a retro-futurist chrome room. Two connected arms: hand on thigh has five digits; armrest hand is loosely curled with overlapping tips. Both legs and shoes fully visible. Actual legs cross at knees instead of planned crossed ankles; recorded as pose deviation. Tiny beetle ornament sits beside the radio rather than on clothing.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Original image plus enlarged hand/foot review. Occluded fingers are not asserted visible. No model-based analysis claimed."
+    }
+  },
+  "diversity": {
+    "actual_images_reviewed": true,
+    "compared_characters": [
+      "사철록",
+      "바라철록",
+      "에몽가"
+    ],
+    "observed": "Actual three images were compared with the nine recent casual images. Ski jacket and padded trousers seated in bright rooftop daylight; full-length white costume standing in neon powder room with cup; coral mini halter playsuit seated full-body in a warm chrome interior differ in silhouette, activity, pose, framing and setting. Recent images showed flower-market portrait, outdoor shaker, reclined leotard, bridal portrait, piano-bar yukata, seamstress costume, vinyl lingerie, partner hair drying and bath portrait."
+  }
+}
