@@ -118,17 +118,18 @@
   "casual2": {
     "accepted": true,
     "reviewer": "gpt",
-    "image_sha256": "f05fc22376685c48886fd0f73357f690315f1ad20238ee045dccef052694483a",
-    "observations": "Poolside resort jazz lounge; blue lined swimsuit and short off-shoulder yukata. Over-shoulder face remains recognizable; glass hand connects through forearm to shoulder and hanging hand remains separate.",
+    "observations": "Redundant lower viewer-right dangling arm and hand removed. One continuous near-side shoulder-upper-arm-elbow-forearm-wrist chain leads to cocktail hand. Far arm naturally hidden behind torso. Face, hair, clothing, background and framing retained.",
     "anatomy": {
-      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
-      "arms": 2,
-      "legs": 2,
-      "hands": "Glass grip shows bent fingers with thumb partly hidden by stem grip; hanging hand has four visible fingers and thumb partly behind palm. No detached hand.",
+      "tool": "unavailable: mediapipe not installed",
+      "visible_arms": 1,
+      "other_arm": "occluded behind torso",
+      "hands": "One cocktail-holding hand; bent fingers and thumb partly occluded by stem grip, no extra hand. Enlarged arm crop reviewed.",
       "overlay_checked": false,
-      "manual_detail_checked": true,
-      "note": "Full image plus enlarged hands and feet reviewed; cropped limbs are noted separately."
-    }
+      "manual_detail_checked": true
+    },
+    "image_sha256": "ea5dea83abbfc673575139fd888bdfc1393d023f039708fbe5f77ae6a4955a8b",
+    "correction_record": "records/sawsbuck-20261031/corrections/casual2-armfix-20261031/qa.json",
+    "supersedes_previous_qa": true
   },
   "casual3": {
     "accepted": true,

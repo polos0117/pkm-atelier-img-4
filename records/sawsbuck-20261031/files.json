@@ -129,13 +129,14 @@
     "card": "바라철록",
     "style": "glossy_promo",
     "style_basis": "prompt-pack actual selection",
-    "source_sha256": "f05fc22376685c48886fd0f73357f690315f1ad20238ee045dccef052694483a",
+    "source_sha256": "ea5dea83abbfc673575139fd888bdfc1393d023f039708fbe5f77ae6a4955a8b",
     "source_session_only": true,
-    "source_path": "/workspace/scratch/cf2bdf45f60a/generated_images/exec-95a15422-d9b4-41df-ae2e-d8cc85c87288.png",
+    "source_path": "/workspace/scratch/cf2bdf45f60a/generated_images/exec-ecbecf87-6ce2-49d0-8aa3-ec105bbecdf0.png",
     "references": [
       {
-        "slot": "light",
-        "source_sha256": "e8146086f9a8c63e085e0c9a840faeea26b1597329af56a3fa6b502180b41ba5"
+        "role": "edit_target",
+        "path": "user attachment 1000024732.png",
+        "sha256": "45746cc2cd87f2d3756cc3788e8ea0980659ca0e7e300f2cf1bcc0948d525d15"
       }
     ],
     "file": "바라철록_glossy_promo_f_casual2.webp",
@@ -146,9 +147,11 @@
     "format": "WEBP",
     "quality": 85,
     "method": 6,
-    "sha256": "d8a424f2a19f36ef05851eec861125348c9e4570199bd26909df14c6622cf23c",
-    "git_blob": "757c711b25c670ec46504c381c0d871a19e7ab42",
-    "prompt_sha256": "c4b16c04c433d60326c967f746d47574e26648d871aee612f7331236a979bd00"
+    "sha256": "e4e879356e5622ebf6a780ca73c6df250cf6485d5e62d59ee93ffe4d8c9faae1",
+    "git_blob": "4aaaa29e36a7f1e396225967f997af5c92931e41",
+    "prompt_sha256": "32c6d33573d84e09fa0e6d0558e075e0bcfc37b94d7493ea3fd2c8d39ebc6023",
+    "correction_record": "records/sawsbuck-20261031/corrections/casual2-armfix-20261031/qa.json",
+    "prompt_record": "records/sawsbuck-20261031/casual2-prompt.txt"
   },
   {
     "slot": "casual3",
