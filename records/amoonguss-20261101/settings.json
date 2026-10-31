@@ -1,0 +1,294 @@
+{
+ "version": 1,
+ "card": "뽀록나",
+ "no": 591,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/f85fb734c522/packs/PLAN-revised.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A pearl phone case catches the photo-booth ring lights.",
+   "outfit": "A champagne silk robe worn loose off the shoulders over a strapless midnight evening slip with a mini hem, exposing shoulders, collarbones and thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택 장소 스티커 사진기에 없는 빛·소품의 구체적인 모습만 보충한다.",
+    "outfit": "선택 의상 슬립 위 실크 로브을 유지하고 계획의 strapless top, mini length를 구조로 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / arcade_photo / evening / silk_robe_slip / stand / chest_up / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_photo",
+      "ko": "스티커 사진기",
+      "en": "an arcade photo-sticker booth under bright ring lights"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "silk_robe_slip",
+      "ko": "슬립 위 실크 로브",
+      "en": "a silk robe over an evening slip"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "robe",
+     "slip"
+    ],
+    "expose": [
+     "strapless top",
+     "mini length"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "Crystal footlights scatter soft violet reflections across the stage floor.",
+   "outfit": "A fully opaque soft-cup bralette with broad asymmetric straps and matching high-waisted bottoms; one shoulder and upper back are bare, with secure intimate coverage.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택 장소 별빛 무대에 없는 빛·소품의 구체적인 모습만 보충한다.",
+    "outfit": "선택 의상 브라렛 + 하이웨이스트을 유지하고 계획의 open back, one-shoulder cut를 구조로 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_starstage / lingerie / bralette_highwaist / sit_floor / three_quarter",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_starstage",
+      "ko": "별빛 무대",
+      "en": "a stage under a painted night sky of crystal stars"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "bralette_highwaist",
+      "ko": "브라렛 + 하이웨이스트",
+      "en": "a soft-cup bralette with wide straps and matching high-waisted bottoms"
+     },
+     "posture": {
+      "key": "sit_floor",
+      "ko": "바닥에 앉기",
+      "en": "sitting on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "chin_knee · floor_brace"
+    },
+    "garments": [
+     "crop_top"
+    ],
+    "expose": [
+     "open back",
+     "one-shoulder cut"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Morning light reflects off the glass reception counter and a small mushroom pin on the counter.",
+   "outfit": "Glamorous tailored workwear: a cropped fitted vest over an off-shoulder silk blouse and a high-waisted pencil skirt with small waist side cutouts, exposing shoulders, collarbones and waist sides.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택 장소 포켓몬센터 로비에 없는 빛·소품의 구체적인 모습만 보충한다.",
+    "outfit": "선택 의상 글래머 오피스룩을 유지하고 계획의 off-shoulder neckline, side cutouts를 구조로 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_center / work / tailored_glam / lean_rail / waist_up / ball_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_center",
+      "ko": "포켓몬센터 로비",
+      "en": "the bright lobby of a Pokémon Center with a reception counter, sofas and potted plants"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_hold",
+      "ko": "몬스터볼을 든다",
+      "en": "holds a Poké Ball at chest height",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "tailored_glam",
+      "ko": "글래머 오피스룩",
+      "en": "glamorous tailored workwear — a fitted vest over a silk blouse and a high-waisted pencil skirt"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · rail"
+    },
+    "garments": [
+     "blouse",
+     "skirt",
+     "vest"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "side cutouts"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

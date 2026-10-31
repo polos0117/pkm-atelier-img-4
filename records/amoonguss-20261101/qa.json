@@ -1,0 +1,174 @@
+{
+  "light": {
+    "accepted": true,
+    "image_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582",
+    "observations": "회분홍 중간 언더컷·비대칭 앞머리, 올라간 눈꼬리와 도톰한 입술. 큰 버섯 갓 모자와 밀착 회색 경장. 양팔은 어깨에서 손목까지 연결되고 두 다리는 골반에서 갈라져 부츠로 이어진다. 모자 윗끝만 테두리에 조금 걸리며 양발은 안쪽이다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "회분홍 중간 언더컷·비대칭 앞머리, 올라간 눈꼬리와 도톰한 입술. 큰 버섯 갓 모자와 밀착 회색 경장. 양팔은 어깨에서 손목까지 연결되고 두 다리는 골반에서 갈라져 부츠로 이어진다. 모자 윗끝만 테두리에 조금 걸리며 양발은 안쪽이다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    },
+    "face_design": {
+      "name": "뽀록나",
+      "en": "Amoonguss",
+      "line": "깜놀버슬",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "balanced jawline",
+        "eye shape": "sharp",
+        "eye size": "medium",
+        "eye tilt": "upturned outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "straight medium brows",
+        "nose character": "small delicate nose",
+        "lips": "full lips"
+      },
+      "why": "",
+      "cues": [
+        "몸 형태 arms → 턱선 · 턱끝 보통",
+        "‘fierce-looking eyes’ → 눈매 강하게 치켜올라간 눈",
+        "‘fierce-looking eyes’ → 눈꼬리 각도 올라간 눈꼬리",
+        "‘large pink lips’ → 입술 도톰한 입술"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 부드럽고 둥근 턱 → 보통, 눈썹 길고 바깥 아치가 선명한 → 중간 두께의 직선 [머리] 진화 계열의 머리 잇기 규칙에 맞추려고 한 갈래 땋은 머리 → 옆/뒤를 밀어낸 언더컷",
+      "hair": {
+        "hairstyle": "undercut",
+        "hair length": "medium",
+        "bangs": "asymmetric bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "원작 단서가 적어 분포가 빈 쪽에서 옆/뒤를 밀어낸 언더컷(짧은 컷) · 중간 길이 · 좌우 길이가 다른 앞머리 — 깜놀버슬에서 이어 같은 묶음",
+      "hair_cues": []
+    },
+    "face_reason": "원작의 입술 단서를 도톰한 입술로 옮기고, 진화 전은 짧은 얼굴·수평 눈꼬리, 진화 후는 균형 얼굴·올라간 날카로운 눈꼬리로 구분한다. 생성기의 FACE·HAIR 문장을 그대로 제출했고 최근 에몽가·딱정곤·슈바르고 실제 이미지와 얼굴·헤어를 비교했다."
+  },
+  "heavy": {
+    "accepted": true,
+    "image_sha256": "aff506e9f8b3ac84abc4eaff8bf693e7a05f7150032a52c21781d15679e1c02b",
+    "observations": "얼굴·앞머리·모자는 경장과 같고 어깨·팔뚝·골반·정강이에 겹판이 두꺼워졌다. 양손은 장갑 안에서 느슨하게 굽혔고 엄지와 네 손가락이 겹침을 포함해 구분된다. 양 부츠가 바닥에 닿는다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "얼굴·앞머리·모자는 경장과 같고 어깨·팔뚝·골반·정강이에 겹판이 두꺼워졌다. 양손은 장갑 안에서 느슨하게 굽혔고 엄지와 네 손가락이 겹침을 포함해 구분된다. 양 부츠가 바닥에 닿는다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "image_sha256": "59ee25afbc1b106c1c997ea554ec73971980fdddded5015fca329ccd65984f1b",
+    "observations": "뾰족하게 갈라진 얇은 어깨·골반·종아리 판과 작은 추진기가 실루엣을 줄인다. 눈·머리색·얼굴 유지. 양팔과 양다리 연결 정상, 장갑 손가락은 굽혀 일부 겹친다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "뾰족하게 갈라진 얇은 어깨·골반·종아리 판과 작은 추진기가 실루엣을 줄인다. 눈·머리색·얼굴 유지. 양팔과 양다리 연결 정상, 장갑 손가락은 굽혀 일부 겹친다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "image_sha256": "47a4e6589ccc0c43744bcb560527ead31be33a887e710980945817a74fb5b3cf",
+    "observations": "경장과 카메라·체중·양손 위치가 맞고 기존 모자와 어깨·허리·종아리 판의 틈에 연두 프레임이 드러난다. 새 무기나 새 헬멧 없이 붉은 눈이 유지된다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "경장과 카메라·체중·양손 위치가 맞고 기존 모자와 어깨·허리·종아리 판의 틈에 연두 프레임이 드러난다. 새 무기나 새 헬멧 없이 붉은 눈이 유지된다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "image_sha256": "6320bd0bcefc85a90c2dda9f03c3e9e57fe18c18c59cee3bd34e815e4d2387a9",
+    "observations": "중장과 같은 자세·구도에서 두꺼운 어깨·흉갑·골반·정강이 판이 분할 개방된다. 손목과 장갑의 손가락, 부츠 두 개가 원래 위치에 이어진다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "중장과 같은 자세·구도에서 두꺼운 어깨·흉갑·골반·정강이 판이 분할 개방된다. 손목과 장갑의 손가락, 부츠 두 개가 원래 위치에 이어진다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "image_sha256": "f28c277ae7c6bf76bdedcecc5c6bdc054c4574dcfd410840019652706dfb6556",
+    "observations": "고기동의 가는 판이 바깥으로 열리고 연두빛 내부 링이 보인다. 모자·몸통·팔다리의 크기와 배치는 일반 폼과 대응하며 양발이 프레임에 있다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "고기동의 가는 판이 바깥으로 열리고 연두빛 내부 링이 보인다. 모자·몸통·팔다리의 크기와 배치는 일반 폼과 대응하며 양발이 프레임에 있다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "image_sha256": "bf7f7bd15a21b15f0535deed31ac8685eb48a59b467264c65c8a02fc0eab082f",
+    "observations": "사진 부스 링 조명 앞에서 맨 어깨를 드러낸 실크 로브와 짙은 슬립 차림. 오른팔 하나가 휴대폰으로 이어지며 네 손가락은 폰 옆을 감싸고 엄지는 폰 뒤에 가려진다. 왼팔·하체는 크롭 밖. 몸 옆면과 카메라로 돌린 얼굴의 목 연결이 자연스럽다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "사진 부스 링 조명 앞에서 맨 어깨를 드러낸 실크 로브와 짙은 슬립 차림. 오른팔 하나가 휴대폰으로 이어지며 네 손가락은 폰 옆을 감싸고 엄지는 폰 뒤에 가려진다. 왼팔·하체는 크롭 밖. 몸 옆면과 카메라로 돌린 얼굴의 목 연결이 자연스럽다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "image_sha256": "c8d568d9a9d9d524e5456b28cdcdc2f34ac29d3247f4ba266d02b52d64cfd65a",
+    "observations": "별 장식 무대 바닥에서 오른무릎을 세우고 오른팔꿈치를 올려 턱을 받친다. 왼팔은 몸통 옆에서 바닥의 손바닥으로 이어진다. 다리 둘은 골반에 붙고 무릎·정강이가 서로 구분된다. 턱 아래 손가락은 굽혀 겹치며 바닥 손은 프레임 끝에 일부 걸린다. 레이스는 안감을 덮고 가려야 할 곳은 가린다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "별 장식 무대 바닥에서 오른무릎을 세우고 오른팔꿈치를 올려 턱을 받친다. 왼팔은 몸통 옆에서 바닥의 손바닥으로 이어진다. 다리 둘은 골반에 붙고 무릎·정강이가 서로 구분된다. 턱 아래 손가락은 굽혀 겹치며 바닥 손은 프레임 끝에 일부 걸린다. 레이스는 안감을 덮고 가려야 할 곳은 가린다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "image_sha256": "06c7316297bae067e493c342028876f9f4a5d2242666461e86c6700e8d4c943a",
+    "observations": "밝은 센터 로비에서 프로필로 몬스터볼을 내려다본다. 오른손은 공을 감싸고 왼손은 난간 위에 놓인다. 두 팔이 같은 몸의 어깨·팔꿈치·손목으로 자연스럽게 이어진다. 블라우스는 어깨가 내려가고 조끼와 허리 양옆 틈이 보인다. 배경 접수원은 멀리 흐려진 작은 형체다.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "밝은 센터 로비에서 프로필로 몬스터볼을 내려다본다. 오른손은 공을 감싸고 왼손은 난간 위에 놓인다. 두 팔이 같은 몸의 어깨·팔꿈치·손목으로 자연스럽게 이어진다. 블라우스는 어깨가 내려가고 조끼와 허리 양옆 틈이 보인다. 배경 접수원은 멀리 흐려진 작은 형체다.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Visible limbs and digits inspected at original size and enlarged; cropped or occluded digits are not claimed visible."
+    }
+  },
+  "diversity": {
+    "actual_images_reviewed": true,
+    "compared_characters": [
+      "에몽가",
+      "딱정곤",
+      "슈바르고"
+    ],
+    "observed": "셀카의 가까운 옆얼굴·실크 로브, 별빛 바닥의 무릎을 세운 브라렛, 센터 난간의 서 있는 옆모습·조끼/블라우스는 장소·활동·실루엣이 구분된다. 비교 대상의 레코드 감상·수건·수영장 앉기·전신 드레스·불꽃놀이·책/망원경과 다르다."
+  }
+}

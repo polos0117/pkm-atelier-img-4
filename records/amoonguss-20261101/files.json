@@ -1,0 +1,230 @@
+[
+  {
+    "slot": "light",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-bc3ecbf0-9791-4c69-84a0-9bc359572fbf.png",
+    "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582",
+    "source_session_only": true,
+    "references": [],
+    "file": "뽀록나_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "5a4ef2288a9fb3d0e635e53aa6e1f8d8b5a533232a36b616860644e64bdd32ec",
+    "prompt_sha256": "23b6d5e88960b74064e405393930a7f1e4f08767c54af326693ecf4fc0cdb096"
+  },
+  {
+    "slot": "heavy",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-bc39c567-2c01-43d5-abea-bd7c17ef0736.png",
+    "source_sha256": "aff506e9f8b3ac84abc4eaff8bf693e7a05f7150032a52c21781d15679e1c02b",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582"
+      }
+    ],
+    "file": "뽀록나_heavy_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "515fac2678653bb8452a646fc79ddccf66b45e75c4f777ea935b4bbdf43b10c3",
+    "prompt_sha256": "125e081de250b5ac77fc57d631fd303e4f4836db04b7d8e5d188e5bfa13850a8"
+  },
+  {
+    "slot": "mobility",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-9b93f3a1-ff99-409f-a96c-cf3066dcfb43.png",
+    "source_sha256": "59ee25afbc1b106c1c997ea554ec73971980fdddded5015fca329ccd65984f1b",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582"
+      }
+    ],
+    "file": "뽀록나_mobility_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "9ce01e938a75f440dfff38c3ae69fbdd74c8fe1d99f6cbfe6e1c3f800cd9a777",
+    "prompt_sha256": "b8adf169e63041715cf072d3f5560fa70dc663fc07dea4d6156189c385a4ccbc"
+  },
+  {
+    "slot": "light_overdrive",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-cbde13d6-c75b-4381-8cff-842c39c4f2a6.png",
+    "source_sha256": "47a4e6589ccc0c43744bcb560527ead31be33a887e710980945817a74fb5b3cf",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582"
+      }
+    ],
+    "file": "뽀록나_light_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "b0c6ac687edecde206113998f1128c6392a9201ddde5d9d14917285cb3617e9b",
+    "prompt_sha256": "207401e67116f389de7e506832795af4418620c148bfbc7cd8d4e91c74277376"
+  },
+  {
+    "slot": "heavy_overdrive",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-2048bab1-1e49-4981-a3b7-7990e70a7ef0.png",
+    "source_sha256": "6320bd0bcefc85a90c2dda9f03c3e9e57fe18c18c59cee3bd34e815e4d2387a9",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "heavy",
+        "source_sha256": "aff506e9f8b3ac84abc4eaff8bf693e7a05f7150032a52c21781d15679e1c02b"
+      },
+      {
+        "slot": "light",
+        "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582"
+      }
+    ],
+    "file": "뽀록나_heavy_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "aaa926ac93eb98254c99afcab2a39e8fd3c2208b7a427f4da010a9a5582fc3b2",
+    "prompt_sha256": "73c95775601a0f39ac9676fe2ed1a35552b4163e0f874b780ae0a6b66e497e54"
+  },
+  {
+    "slot": "mobility_overdrive",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-094dd458-9e20-469e-9227-5d99b1fc579d.png",
+    "source_sha256": "f28c277ae7c6bf76bdedcecc5c6bdc054c4574dcfd410840019652706dfb6556",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "mobility",
+        "source_sha256": "59ee25afbc1b106c1c997ea554ec73971980fdddded5015fca329ccd65984f1b"
+      },
+      {
+        "slot": "light",
+        "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582"
+      }
+    ],
+    "file": "뽀록나_mobility_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "997bb9efc47e200bf8c8c6b84afe0335cacb34d17bf61940368e5010507e15e3",
+    "prompt_sha256": "34f04f315ace6b0c4dd69efe91635a43ce483ebb6bc4438d15bf8689f2710754"
+  },
+  {
+    "slot": "casual1",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-e6e37e52-e15b-4b42-a249-19b699bea274.png",
+    "source_sha256": "bf7f7bd15a21b15f0535deed31ac8685eb48a59b467264c65c8a02fc0eab082f",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582"
+      }
+    ],
+    "file": "뽀록나_glossy_promo_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "4e65256cf2c6da98d2e0813a806ecef41bf36f0ae252a6b005133bbe39af0b75",
+    "prompt_sha256": "7f7704a0027a3802045c3b9128acd6d11055cc98a410a25f17d7ccce34e17a0c"
+  },
+  {
+    "slot": "casual2",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-22f9c29d-cfb9-488e-b260-df371c8c2b91.png",
+    "source_sha256": "c8d568d9a9d9d524e5456b28cdcdc2f34ac29d3247f4ba266d02b52d64cfd65a",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582"
+      }
+    ],
+    "file": "뽀록나_glossy_promo_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "76ea5949f1c4c8a72c62cdebcbb9f5797c1eef1abc38ae47dd0144ea19cf988d",
+    "prompt_sha256": "ba8e18190ae38a06cdf69a3ca222dbaca81c370a9ee877c6bcfca4d3096a183b"
+  },
+  {
+    "slot": "casual3",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-1d7389d6-4070-4e23-8193-248ed2409f19.png",
+    "source_sha256": "06c7316297bae067e493c342028876f9f4a5d2242666461e86c6700e8d4c943a",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582"
+      }
+    ],
+    "file": "뽀록나_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "32100890ab99d5793d5ade1e6ab67dfda3a939bd68d4d205674f8c8c009d4f8d",
+    "prompt_sha256": "a589fec297d8ca8e363e9a15a996905129d45ecf665cd44d6d527748b2c002c5"
+  }
+]

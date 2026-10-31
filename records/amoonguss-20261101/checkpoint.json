@@ -1,0 +1,38 @@
+{
+  "card": "뽀록나",
+  "canonical_light": {
+    "slot": "light",
+    "card": "뽀록나",
+    "style": "glossy_promo",
+    "style_basis": "tools/prompt-pack.cjs exact output",
+    "source_path": "/workspace/scratch/f85fb734c522/generated_images/exec-bc3ecbf0-9791-4c69-84a0-9bc359572fbf.png",
+    "source_sha256": "256b0338336097bb04b12255af75191b9c61273c2db8b05860a29f6cfa6b8582",
+    "source_session_only": true,
+    "references": [],
+    "file": "뽀록나_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "5a4ef2288a9fb3d0e635e53aa6e1f8d8b5a533232a36b616860644e64bdd32ec",
+    "prompt_sha256": "23b6d5e88960b74064e405393930a7f1e4f08767c54af326693ecf4fc0cdb096"
+  },
+  "completed_slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2",
+    "casual3"
+  ],
+  "tool": "built-in image_gen",
+  "reservation_commit": "1015fea913b2a9679801eade5913b662c2ab14c4",
+  "status": "ready to publish",
+  "ledger_inventory": "Actual Git HEAD filename inventory used for sparse worktrees; no placeholder images; only metadata and selected comparison images were checked out."
+}
