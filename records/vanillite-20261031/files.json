@@ -1,0 +1,230 @@
+[
+  {
+    "slot": "light",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-e05957e3-b5ff-497d-9ca7-0c5a1c68fc5d.png",
+    "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae",
+    "source_session_only": true,
+    "references": [],
+    "file": "바닐프티_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "01c1d9826d38ed8f554059ef56003f18ce70cb2bc493902e2b962113e94f0d85",
+    "prompt_sha256": "ea59983dbebec1e0ab7b28a6c1a79e0c34d80eaf6a2604c0be71ad7e4b744b6e"
+  },
+  {
+    "slot": "heavy",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-de1ef673-397d-42e1-971f-03303174e261.png",
+    "source_sha256": "9322c6a074a4e28fecb7661b230b1bdc7634ee0e45e07115ff8461b8aaf4d8ab",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+      }
+    ],
+    "file": "바닐프티_heavy_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "8fd824c57692148783a01b3edbb75641b343e2e5210c208d71792aa75839d7eb",
+    "prompt_sha256": "eb93ad05cca6729fa2f16363ed0c045a52469186921a491483ef9bebc3ac98a2"
+  },
+  {
+    "slot": "mobility",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-1a446d28-160a-4d3e-9bc0-bcf7f981c9bd.png",
+    "source_sha256": "94f8038ac155d500793868a8ae7e76f54c2173fe04f0308c6c57b82bbfae43e8",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+      }
+    ],
+    "file": "바닐프티_mobility_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "4e73880a8028c0076bec95160e4fa72765d2f5253183adea0802afb9e66a105a",
+    "prompt_sha256": "946afafcc0ed49c8806d115839d2ecd17a1820524b8627d7b6e09d4117060be3"
+  },
+  {
+    "slot": "light_overdrive",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-95245dd6-e4e1-4ba1-b52e-27a025847801.png",
+    "source_sha256": "7b778307ce8a94eb882c4ad2ddcc4899c6c69dc205fef413c0541ffd1902c2f5",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+      }
+    ],
+    "file": "바닐프티_light_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "ba4ae7b4a998b984bf457c5a59727e0fd4204a827497ecec1d3d0ef8a9d19605",
+    "prompt_sha256": "3288c05c37c388b633749e85a06055a23a9f7ec46332228e6d530c667c8ba783"
+  },
+  {
+    "slot": "heavy_overdrive",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-b6bb6e35-681e-4d34-98c1-b3788a742bfe.png",
+    "source_sha256": "a8b055ca33fce6192f8cf6e1e45c966776b8046dff2d1572df5a1fe5ed35fadd",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "heavy",
+        "source_sha256": "9322c6a074a4e28fecb7661b230b1bdc7634ee0e45e07115ff8461b8aaf4d8ab"
+      },
+      {
+        "slot": "light",
+        "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+      }
+    ],
+    "file": "바닐프티_heavy_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "94945cb2f40bd826ef19ec15c76a946780b4da186ec968840874f3f66a887fdb",
+    "prompt_sha256": "2d3a3e2ada3d760774c245e94e2a60d70e8a3d3fbd8ab3a6d649e8e13d597d59"
+  },
+  {
+    "slot": "mobility_overdrive",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-3cb73d52-4c46-4ff2-8d54-ca4b53143a4a.png",
+    "source_sha256": "877a9865617f11cb687533830582656b68c27cd7a99734d9baaed325c2252683",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "mobility",
+        "source_sha256": "94f8038ac155d500793868a8ae7e76f54c2173fe04f0308c6c57b82bbfae43e8"
+      },
+      {
+        "slot": "light",
+        "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+      }
+    ],
+    "file": "바닐프티_mobility_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "e0434147de79fae62b3ca857d3238b555e400b7fb46c377818ace97920f69845",
+    "prompt_sha256": "79d4a7d8a6f0561fd0a1b30adea5ffed15e8a22891b65fbf19e020c82bfa461a"
+  },
+  {
+    "slot": "casual1",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-75d81f3f-958f-4489-a41f-9b5372f29802.png",
+    "source_sha256": "f0aecf89dac16b128a072fc2db6720aa57ee00b3f670ffae19cd50c63e72c2e6",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+      }
+    ],
+    "file": "바닐프티_glossy_promo_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "4f65ea5c1151c90f0ea10ae6f31d395c04c6fe7dfeb94d9659354a59d005a07a",
+    "prompt_sha256": "40b15481829795c552da1ad37717ea2294aea9cb6e522999cbc445410e2c4b1c"
+  },
+  {
+    "slot": "casual2",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-052952a3-31a8-4d14-8d6c-068950caafbb.png",
+    "source_sha256": "9aeb92b67652263db88604be1415f447444f8c9ddf43cdef8b9a1fe66421abd9",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+      }
+    ],
+    "file": "바닐프티_glossy_promo_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "654a37eda7db297c4859891de5f03c2b5b6d26252a400fb1467a047fbe215f0d",
+    "prompt_sha256": "cbf953e0512bb33f383b08537ff7f97ceaee25e27bb4259b73cfe5cf6e3784e0"
+  },
+  {
+    "slot": "casual3",
+    "card": "바닐프티",
+    "style": "glossy_promo",
+    "style_basis": "exact prompt-pack output",
+    "source_path": "/workspace/scratch/46f0e62de176/generated_images/exec-c842048e-10fd-478c-aed2-e47c1c3c7dc9.png",
+    "source_sha256": "e4bfe476ea6bec61d34142d25b55bf6f129a59e97549d8df0f4cb3244977645c",
+    "source_session_only": true,
+    "references": [
+      {
+        "slot": "light",
+        "source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+      }
+    ],
+    "file": "바닐프티_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "497ef2e7017ee0f4463a3826b42a53c3f801d12d947035fcf9aeb79569fab091",
+    "prompt_sha256": "ac162c36e6dcc97ed0b52f93aab19a3b7cec5faf13afba23ec3138b9e6acf8e6"
+  }
+]

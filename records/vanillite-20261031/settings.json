@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "card": "바닐프티",
+  "no": 582,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/46f0e62de176/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "A carved alabaster balustrade catches the late-afternoon light; beyond the staircase, sunlit arches open onto a castle resort garden.",
+      "outfit": "A fully lined sunflower-yellow crochet-knit bikini with a strapless bandeau and secure high-cut bottoms, its opaque lining following the knit edges.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "성 계단 안내에는 구체적인 난간 재질·빛·리조트 정원이 없어 보충.",
+        "outfit": "고른 크로셰 비키니를 유지하며 계획의 strapless top·high-cut leg와 색을 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_castle / swimwear / crochet_bikini / lean_rail / environmental",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_castle",
+            "ko": "성 계단",
+            "en": "the grand staircase of an old castle"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "crochet_bikini",
+            "ko": "크로셰 비키니",
+            "en": "a fully lined crochet-knit bikini in a sunny resort colour"
+          },
+          "posture": {
+            "key": "lean_rail",
+            "ko": "난간·창턱에 기대 서기",
+            "en": "standing at a waist-high railing or sill, leaning lightly on it"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "rail · hair_tuck"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "high-cut leg",
+          "strapless top"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual2": {
+      "scene": "Warm golden sparks illuminate a private riverside bridal editorial as festival lights reflect on dark water.",
+      "outfit": "A white lace bridal lingerie set with opaque lined cups, a halter neckline and open back, paired with a short veil.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "강변 안내에는 신부 패션 촬영이라는 맥락과 불꽃의 조명이 없어 보충.",
+        "outfit": "브라이덜 레이스 세트·짧은 베일을 유지하며 홀터와 오픈백 구조를 더함."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / stage_fireworks / bridal / bridal_lace / stand / chest_up / sparkler_raise",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "stage_fireworks",
+            "ko": "불꽃놀이 강변",
+            "en": "a riverside seating area waiting for festival fireworks"
+          },
+          "role": null,
+          "use": {
+            "key": "sparkler_raise",
+            "ko": "불꽃 막대를 들어 올린다",
+            "en": "holds a lit sparkler up beside her face",
+            "prop": "불꽃 막대"
+          },
+          "ofam": {
+            "key": "bridal",
+            "ko": "웨딩",
+            "en": "bridal wear"
+          },
+          "item": {
+            "key": "bridal_lace",
+            "ko": "브라이덜 레이스",
+            "en": "a white lace bridal lingerie set with a short veil"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "lingerie_set"
+        ],
+        "expose": [
+          "halter neck",
+          "open back"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "After stretching, a folded peach towel and a wooden sauna bucket rest on the heated floor beside a sleeping mat.",
+      "outfit": "A coral athletic jumpsuit in a short romper cut, with a cropped bodice joined by slim side panels and short side-slit legs revealing the waist and upper thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "찜질방 안내에는 운동 뒤라는 맥락·수건·나무 물통이 없어 보충.",
+        "outfit": "고른 운동복 계열과 jumpsuit를 유지하며 미니 기장·옆 트임을 활동에 맞게 구체화."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / spa_jjimjil / active / kneel / three_quarter",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "spa_jjimjil",
+            "ko": "찜질방",
+            "en": "a Korean jjimjilbang hall with heated floors and sleeping mats"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "active",
+            "ko": "운동복",
+            "en": "activewear made for the activity"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "kneel",
+            "ko": "무릎 꿇기",
+            "en": "kneeling on the ground"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "clasp_both · clasp_both"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "mini length",
+          "high thigh slit"
+        ],
+        "lead": "action"
+      }
+    }
+  }
+}

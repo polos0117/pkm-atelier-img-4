@@ -1,0 +1,199 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae",
+    "observations": "Screen-left open glove corrected from six to five digits; screen-right loose hand partly curled. Both arms and legs connected, both boots fully visible; icy blue eyes and medium straight silver-blue hair accepted as canonical.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Screen-left open glove corrected from six to five digits; screen-right loose hand partly curled. Both arms and legs connected, both boots fully visible; icy blue eyes and medium straight silver-blue hair accepted as canonical.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    },
+    "partial_edit": {
+      "initial_source_sha256": "664b6e1b5b5a69ee57d381ce68ecfa2f4a6dc2212de982da9b163add4ae5d032",
+      "initial_failure": "six digits on screen-left hand",
+      "corrective_prompt": "light-hand-fix-prompt.txt",
+      "references": [
+        {
+          "source_sha256": "664b6e1b5b5a69ee57d381ce68ecfa2f4a6dc2212de982da9b163add4ae5d032"
+        }
+      ],
+      "result_source_sha256": "768fc4965d5f1b40365a80caf0b7261b660de2ec4f0bd27223bee770027a9cae"
+    },
+    "face_design": {
+      "name": "바닐프티",
+      "en": "Vanillite",
+      "line": "바닐프티",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "softly rounded",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "receding soft chin",
+        "eye shape": "narrow",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "thin straight brows",
+        "nose character": "balanced nose",
+        "lips": "thin lips"
+      },
+      "why": "",
+      "cues": [
+        "몸 형태 blob → 얼굴형 부드럽고 둥근 얼굴형",
+        "몸 형태 blob → 턱선 · 턱끝 턱끝이 뒤로 물러난"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 중간 두께의 직선 → 가늘고 곧은",
+      "hair": {
+        "hairstyle": "straight",
+        "hair length": "medium",
+        "bangs": "straight bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘light blue crystals’·얼음 타입에서 곧은 생머리(곧은 결) · 중간 길이 · 일자 앞머리",
+      "hair_cues": [
+        "‘light blue crystals’ → 헤어스타일 곧은 생머리"
+      ]
+    },
+    "face_reason": "Species crystal and rounded-body cues interpreted using the exact face-design and hair table; same canonical face reused in later slots.",
+    "compared_characters": [
+      "란쿨루스",
+      "꼬지보리",
+      "스완나"
+    ]
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "9322c6a074a4e28fecb7661b230b1bdc7634ee0e45e07115ff8461b8aaf4d8ab",
+    "observations": "Broader layered chest, pelvis, shoulder and shin plates; same adult face and hair. Screen-left open palm has five digits; right hand curled with occlusion; both boots visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Broader layered chest, pelvis, shoulder and shin plates; same adult face and hair. Screen-left open palm has five digits; right hand curled with occlusion; both boots visible.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "94f8038ac155d500793868a8ae7e76f54c2173fe04f0308c6c57b82bbfae43e8",
+    "observations": "Swept-back narrow panels and compact blue thrusters distinguish the form. Five digits on open palm; right curled hand partly occluded. Both legs connect to pelvis and boots remain visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Swept-back narrow panels and compact blue thrusters distinguish the form. Five digits on open palm; right curled hand partly occluded. Both legs connect to pelvis and boots remain visible.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "7b778307ce8a94eb882c4ad2ddcc4899c6c69dc205fef413c0541ffd1902c2f5",
+    "observations": "Matches light pose, framing and face. Armor seams open onto blue ice light. Five digits on open palm, relaxed other hand; no new weapon or helmet.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Matches light pose, framing and face. Armor seams open onto blue ice light. Five digits on open palm, relaxed other hand; no new weapon or helmet.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "a8b055ca33fce6192f8cf6e1e45c966776b8046dff2d1572df5a1fe5ed35fadd",
+    "observations": "Matches heavy pose and framing. Broad original panels hinge outward, blue internal frame exposed; five open fingers and curled second hand. Both feet in frame.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Matches heavy pose and framing. Broad original panels hinge outward, blue internal frame exposed; five open fingers and curled second hand. Both feet in frame.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "877a9865617f11cb687533830582656b68c27cd7a99734d9baaed325c2252683",
+    "observations": "Matches mobility pose and framing. Streamlined panels spread along seams and thrusters glow; same blue eyes. Five open fingers, other fingers partly curled. Both boots visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Matches mobility pose and framing. Streamlined panels spread along seams and thrusters glow; same blue eyes. Five open fingers, other fingers partly curled. Both boots visible.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "f0aecf89dac16b128a072fc2db6720aa57ee00b3f670ffae19cd50c63e72c2e6",
+    "observations": "Yellow lined crochet bikini at castle balustrade; one hand rests on railing and other tucks hair. Arms visibly connect through elbows to shoulders; fingers partly overlap or hide behind rail/hair. Both feet on tips, fully framed. Actual framing is full body rather than environmental; hair appears longer in motion.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Yellow lined crochet bikini at castle balustrade; one hand rests on railing and other tucks hair. Arms visibly connect through elbows to shoulders; fingers partly overlap or hide behind rail/hair. Both feet on tips, fully framed. Actual framing is full body rather than environmental; hair appears longer in motion.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "9aeb92b67652263db88604be1415f447444f8c9ddf43cdef8b9a1fe66421abd9",
+    "observations": "Green leaf-trimmed elf event dress and half-cape in garden wedding setting; bouquet held near face, pointed ear costume tips. Visible gripping hand connects naturally from forearm; thumb partly hidden behind stems, four curled fingers. Other arm continues below crop. Accepted chest-up crop is slightly wider than planned.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Green leaf-trimmed elf event dress and half-cape in garden wedding setting; bouquet held near face, pointed ear costume tips. Visible gripping hand connects naturally from forearm; thumb partly hidden behind stems, four curled fingers. Other arm continues below crop. Accepted chest-up crop is slightly wider than planned.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e4bfe476ea6bec61d34142d25b55bf6f129a59e97549d8df0f4cb3244977645c",
+    "observations": "Coral activewear on a warm jjimjilbang mat, kneeling with both hands clasped at chest. Both arms connect naturally and clasp occludes some digits. Two knees and two feet visible behind legs. Actual garment rendered as cropped top plus shorts with narrow connecting ties, rather than a clear one-piece romper; recorded as outfit-detail deviation.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Coral activewear on a warm jjimjilbang mat, kneeling with both hands clasped at chest. Both arms connect naturally and clasp occludes some digits. Two knees and two feet visible behind legs. Actual garment rendered as cropped top plus shorts with narrow connecting ties, rather than a clear one-piece romper; recorded as outfit-detail deviation.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Manual full image and hand/foot enlargement review; no claim of model-based analysis."
+    }
+  },
+  "diversity": {
+    "actual_images_reviewed": true,
+    "compared_characters": [
+      "란쿨루스",
+      "꼬지보리",
+      "스완나"
+    ],
+    "observed": "Castle exterior yellow bikini with standing lookback, floral garden elf portrait with bouquet, and warm sauna coral athletic kneeling scene differ in place, activity, silhouette, pose and framing. Recent reference images showed aerobics, a blouse portrait, arcade swimwear, partner care, pottery cup, opera maid, home satin, bar camisole and plant shop workwear."
+  }
+}
