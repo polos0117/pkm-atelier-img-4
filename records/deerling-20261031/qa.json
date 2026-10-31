@@ -1,0 +1,224 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e5b31509defc95d9f050cb973cccd284dd914d5f0b03c71c0f6eb346a933cc85",
+    "observations": {
+      "identity": "Soft oval adult face, wide rounded pink eyes, pink ponytail and curtain bangs from face table; visibly distinct from angular silver-haired Vanilluxe. Accepted as canonical.",
+      "form": "Slim pink, yellow, white and dark plates with flower circlet and long belt sash. Both boots in frame; top ornament tip lightly touches border.",
+      "hands": "Screen-left open palm has five digits with inward thumb; screen-right loose hand curls naturally, fingers partly overlap. Two continuous arms and legs."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Screen-left open palm has five digits with inward thumb; screen-right loose hand curls naturally, fingers partly overlap. Two continuous arms and legs.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    },
+    "face_design": {
+      "name": "사철록",
+      "en": "Deerling",
+      "line": "사철록",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "large",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "wide-set eyes",
+        "eyebrows": "fine soft arches",
+        "nose character": "balanced nose",
+        "lips": "bow-shaped upper lip"
+      },
+      "why": "작은 사슴의 계절 털과 완만한 윤곽을 타원 얼굴와 둥근 눈으로 해석한다.",
+      "cues": [
+        "몸 형태 quadruped → 눈 간격 눈 사이가 넓은"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 작고 여린 코 → 보통",
+      "hair": {
+        "hairstyle": "ponytail",
+        "hair length": "medium",
+        "bangs": "curtain bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "노말 타입에서 포니테일(묶은 꼬리) · 중간 길이 · 커튼뱅",
+      "hair_cues": [
+        "노말 타입 → 헤어스타일 포니테일"
+      ]
+    },
+    "canonical_source_sha256": "e5b31509defc95d9f050cb973cccd284dd914d5f0b03c71c0f6eb346a933cc85"
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "657baf89748497808192438508e6b257bc3985524ae2f31cb48783704a087a8a",
+    "observations": {
+      "identity": "Same rounded face, pink eyes and ponytail.",
+      "form": "Broad double-layer shoulder, pelvis, thigh and shin plates enlarge outline; both boots visible.",
+      "hands": "Five open digits on screen-left hand; relaxed other hand has partly overlapping fingers. Both wrists continuous."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five open digits on screen-left hand; relaxed other hand has partly overlapping fingers. Both wrists continuous.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "7e6ebae87a584b5bf4ec6afb5e47958794a00302336aa73d48bd8f3f4a771955",
+    "observations": {
+      "identity": "Same smile and curtain fringe.",
+      "form": "Swept petal-like split plates with small golden propulsion units, one heel lifted and both feet visible.",
+      "hands": "Five digits on extended palm, other relaxed hand partly curled; two arms join shoulders naturally."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five digits on extended palm, other relaxed hand partly curled; two arms join shoulders naturally.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "d58a761206813663ad436a7cd0cd4f34cd91ee9e689c8dfd25042ba3bbeb44c1",
+    "observations": {
+      "identity": "Same pink eyes and face.",
+      "form": "Original light composition and pose retained; slim plates hinge to reveal gold internal light. No new weapon.",
+      "hands": "Five open digits, opposite hand curled; both arms and legs continuous."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five open digits, opposite hand curled; both arms and legs continuous.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "38be23d98b9d64e6c7f621e145e4eca10bc1217904e0862b59215e10af34101e",
+    "observations": {
+      "identity": "Same adult face and pink ponytail.",
+      "form": "Heavy camera and pose retained, overlapping broad panels open onto gold internal frame. Boots fully visible.",
+      "hands": "Open palm shows five digits; opposite fingers partly overlap in loose curl, no detached hand."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Open palm shows five digits; opposite fingers partly overlap in loose curl, no detached hand.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "15c299adff475d70acfb2c2dbcbde80fba2a7ff599e64df710f9d2266fa9c818",
+    "observations": {
+      "identity": "Same face and eye colour.",
+      "form": "Matches mobility camera and lifted-heel pose, split panels expose compact luminous circular mechanisms.",
+      "hands": "Five open digits and partly curled second hand; continuous elbows and wrists."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five open digits and partly curled second hand; continuous elbows and wrists.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "b6c25cccf1b924a199644526bc46554388b2ac1bf9f5d243c464e75219be7325",
+    "observations": {
+      "identity": "Same rounded pink eyes and parted pink fringe.",
+      "scene": "Berry stall baskets and woven awning; embroidered off-shoulder folk blouse with dark skirt and halter ribbon, ball raised beside face.",
+      "hands": "Ball grip shows thumb supporting underside plus four fingers wrapping across top/side; opposite arm continues below crop. Raised wrist joins forearm naturally.",
+      "deviations": "Face turns back more than planned profile; original ear-shaped hair ornaments remain, allowed recorded deviation. Hair appears longer in motion."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Ball grip shows thumb supporting underside plus four fingers wrapping across top/side; opposite arm continues below crop. Raised wrist joins forearm naturally.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "3420527a827d371e8131a4f24359ba4dcc1d2e143a1e28eb08f2d345d9df4242",
+    "observations": {
+      "identity": "Same pink ponytail and pink eyes, gaze down at bottle.",
+      "scene": "Coloured climbing holds and padded floor; cropped short-sleeved charcoal hoodie, rust cargo shorts and visible midriff. Waist-up framing.",
+      "hands": "Bottle hand shows four wrapping fingers with thumb obscured behind bottle. Other arm extends below crop rather than pocket; shoulder-elbow-wrist route is continuous.",
+      "deviations": "Hand-in-pocket selection not followed; recorded pose detail deviation."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Bottle hand shows four wrapping fingers with thumb obscured behind bottle. Other arm extends below crop rather than pocket; shoulder-elbow-wrist route is continuous.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "f10cfb76b5953b1eebbceb2c8b160bce2e9f6f2bd93d61800c9594b806095a11",
+    "observations": {
+      "identity": "Same pink eyes and pink ponytail, smiling toward side.",
+      "scene": "Curved spa architecture, chrome carafe and towels beside daybed; reclining in cobalt one-shoulder cutout leotard, shiny tights and leg warmers. Both socked feet visible.",
+      "hands": "Daybed hand has five digits with fingers loosely bent. Other hand partly hidden behind head and hair, forearm visibly continuous to elbow. Two arms and legs.",
+      "deviations": "Hair ornaments replaced by blue headband as outfit requires."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Daybed hand has five digits with fingers loosely bent. Other hand partly hidden behind head and hair, forearm visibly continuous to elbow. Two arms and legs.",
+      "overlay_checked": false,
+      "manual_detail_checked": true,
+      "note": "Full image and enlarged hands/feet reviewed."
+    }
+  },
+  "diversity": {
+    "actual_images_reviewed": true,
+    "compared_characters": [
+      "배바닐라",
+      "바닐프티",
+      "바닐리치",
+      "란쿨루스",
+      "꼬지보리",
+      "스완나"
+    ],
+    "observed": "Market close portrait in folk blouse with ball, waist-up climbing-wall hoodie with bottle, and full reclining retro fitness scene differ in prop action, wardrobe silhouette and framing. Compared visually to Vanilluxe crouch, spa thumbs-up portrait and seated board-game trousers, and previous recent comparison sheet. All three passed similarity; nearest scores 270, 327 and 288 above cutoff 245."
+  }
+}

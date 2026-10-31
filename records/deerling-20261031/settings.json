@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "card": "사철록",
+  "no": 585,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/339751fb1073/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Raising her ball beside the berry stalls after choosing a basket of ripe fruit; woven awnings scatter warm afternoon light.",
+      "outfit": "A traditional Hungarian embroidered white blouse adapted with an off-shoulder neckline and a narrow halter ribbon, above a flowing navy folk skirt.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "열매 시장에 차양과 오후 빛을 보충.",
+        "outfit": "전통 의상 자동 선택에 blouse를 구체화하고 두 목선 구조를 결합."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / berry_market / traditional / stand / chest_up / ball_raise",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "berry_market",
+            "ko": "마을 열매 시장",
+            "en": "a village market stall piled with fresh berries"
+          },
+          "role": null,
+          "use": {
+            "key": "ball_raise",
+            "ko": "몬스터볼을 얼굴 옆에 든다",
+            "en": "raises a Poké Ball beside her face",
+            "prop": "몬스터볼"
+          },
+          "ofam": {
+            "key": "traditional",
+            "ko": "전통 의상",
+            "en": "a traditional dress that suits her, worn naturally",
+            "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "blouse"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "halter neck"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual2": {
+      "scene": "Cool skylight falls across the padded climbing floor and coloured holds after an afternoon practice session.",
+      "outfit": "A charcoal cropped hoodie with short sleeves, low-slung rust cargo shorts in a mini length, and high socks.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "2010년 무렵 암벽 공간의 연습 뒤 빛과 바닥을 보충.",
+        "outfit": "스케이터 후디·카고 쇼츠·양말을 유지하며 크롭과 미니 길이를 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / sports_wall / subculture / skater / stand / waist_up / bottle_hold",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "sports_wall",
+            "ko": "실내 암벽",
+            "en": "an indoor climbing wall of coloured holds"
+          },
+          "role": null,
+          "use": {
+            "key": "bottle_hold",
+            "ko": "물병을 든다",
+            "en": "holds a water bottle at chest height",
+            "prop": "물병"
+          },
+          "ofam": {
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
+          },
+          "item": {
+            "key": "skater",
+            "ko": "스케이터",
+            "en": "skater — a cropped hoodie, low-slung cargo shorts and high socks"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · pocket"
+        },
+        "garments": [
+          "shorts",
+          "sweater"
+        ],
+        "expose": [
+          "cropped hem",
+          "mini length"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "Rolled terry towels and a chrome water carafe sit beside the spa daybed during a retro fitness editorial.",
+      "outfit": "An opaque cobalt 1980s high-cut aerobics leotard with secure side cutouts and a one-shoulder neckline over shiny tights, with leg warmers and a headband.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "스파 데이베드 옆 수건·물병과 운동복 촬영 맥락 보충.",
+        "outfit": "80년대 레오타드·타이츠를 유지하며 계획의 옆 컷아웃과 한쪽 어깨 구조를 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_spa / retro / aerobics_80s / recline / full_body",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_spa",
+            "ko": "미래풍 스파",
+            "en": "a futuristic spa of white curves and soft light"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "retro",
+            "ko": "레트로",
+            "en": "a period look from a past decade"
+          },
+          "item": {
+            "key": "aerobics_80s",
+            "ko": "80년대 에어로빅",
+            "en": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband"
+          },
+          "posture": {
+            "key": "recline",
+            "ko": "기대 눕기",
+            "en": "reclining on her back"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "leggings"
+        ],
+        "expose": [
+          "side cutouts",
+          "one-shoulder cut"
+        ],
+        "lead": "detail"
+      }
+    }
+  }
+}
