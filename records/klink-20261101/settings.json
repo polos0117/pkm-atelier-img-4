@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "card": "기어르",
+  "no": 599,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/4ebb97a6e755/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "A translucent water bottle catches the afternoon sun; straw target butts stand in a row beyond the timber shelter.",
+      "outfit": "Fitted denim short overalls over a cropped apricot top, with a mini-length hem and open waist sides that reveal the midriff and upper thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "양궁장의 표적과 물병 재질을 구체화.",
+        "outfit": "선택한 멜빵바지·크롭 상의를 유지하고 미니 기장·허리 노출을 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / sports_range / everyday / overalls / stand / waist_up / bottle_hold",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "sports_range",
+            "ko": "양궁장",
+            "en": "an archery range of targets on a green field"
+          },
+          "role": null,
+          "use": {
+            "key": "bottle_hold",
+            "ko": "물병을 든다",
+            "en": "holds a water bottle at chest height",
+            "prop": "물병"
+          },
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "overalls",
+            "ko": "멜빵바지",
+            "en": "fitted denim overalls over a cropped top"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · pocket"
+        },
+        "garments": [
+          "crop_top",
+          "overalls"
+        ],
+        "expose": [
+          "bare midriff",
+          "mini length"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual2": {
+      "scene": "Warm skylight falls across a bridal fashion sketching corner, with charcoal studies and glazed pottery on the worktable.",
+      "outfit": "A fully lined white lace bridal lingerie set with a short veil: a securely fitted strapless sweetheart top with a plunging central neckline and matching opaque bottoms.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "화실을 웨딩 패션 스케치 코너로 정하고 천창 빛만 보충.",
+        "outfit": "브라이덜 레이스 세트를 유지하며 스트랩리스·중앙 목선과 불투명 안감을 지정."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / studio_art / bridal / bridal_lace / stand / chest_up / phones_press",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "studio_art",
+            "ko": "화실·공방",
+            "en": "an art or pottery studio of easels, clay and paint-splattered tables"
+          },
+          "role": null,
+          "use": {
+            "key": "phones_press",
+            "ko": "헤드폰을 두 손으로 귀에 누른다",
+            "en": "presses over-ear headphones to her ears with both hands",
+            "prop": "헤드폰"
+          },
+          "ofam": {
+            "key": "bridal",
+            "ko": "웨딩",
+            "en": "bridal wear"
+          },
+          "item": {
+            "key": "bridal_lace",
+            "ko": "브라이덜 레이스",
+            "en": "a white lace bridal lingerie set with a short veil"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "lingerie_set"
+        ],
+        "expose": [
+          "plunging neckline",
+          "strapless top"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "The karaoke room has a cobalt wall, a low magenta uplight and satin cushions beside an illuminated song console.",
+      "outfit": "An opaque deep-plum satin lingerie-inspired set with a smooth bias-cut top, side waist cutouts and securely fitted high-cut matching bottoms.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "벽·조명·콘솔로 노래방 공간을 구체화.",
+        "outfit": "새틴 상하의를 유지하며 계획의 하이컷·옆트임을 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_karaoke / lingerie / satin_set / lean_wall / environmental",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_karaoke",
+            "ko": "노래방",
+            "en": "a private karaoke room with spinning coloured lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "satin_set",
+            "ko": "새틴 세트",
+            "en": "a satin lingerie set with a smooth bias-cut top and matching bottoms in a single deep colour"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "lingerie_set"
+        ],
+        "expose": [
+          "high-cut leg",
+          "side cutouts"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}
