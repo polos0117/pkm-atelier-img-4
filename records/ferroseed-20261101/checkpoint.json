@@ -1,0 +1,149 @@
+{
+  "character": "철시드",
+  "status": "9 slots visually accepted; ready to publish",
+  "canonical": {
+    "slot": "light",
+    "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-06781d25-b5a3-486f-bd9e-377731ef2c45.png",
+    "original_sha256": "c038da2aa8420d3819c99801fc0425cadb07b9f84ee106d8895f174991127f6d",
+    "file": "철시드_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b252408d2e16f372c9f5616a268c5b3c13b53c90d82b4e6b437ad6299ac0e4e9",
+    "reference_slots": []
+  },
+  "files": [
+    {
+      "slot": "light",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-06781d25-b5a3-486f-bd9e-377731ef2c45.png",
+      "original_sha256": "c038da2aa8420d3819c99801fc0425cadb07b9f84ee106d8895f174991127f6d",
+      "file": "철시드_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b252408d2e16f372c9f5616a268c5b3c13b53c90d82b4e6b437ad6299ac0e4e9",
+      "reference_slots": []
+    },
+    {
+      "slot": "heavy",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-294bd48a-779a-45e9-9b0c-7dc16738e3b6.png",
+      "original_sha256": "935c57f61a1cefff7303e17c47caa213ff2b33548948f14536a35c1c3636bbc5",
+      "file": "철시드_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "bcc43a320970b0092164f4728cb5616997278924320406b8c3a3a1e14c126826",
+      "reference_slots": [
+        "light"
+      ]
+    },
+    {
+      "slot": "mobility",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-7ae83090-e342-4759-831f-b6d0ea22142c.png",
+      "original_sha256": "9ded2a9bd49d901aa2c8763fe570d3394e0facd2a8c702ff4db1b423fd104eae",
+      "file": "철시드_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "0cd93b82492b7a1dfd050764cf5685665f172b1edc11d240a7d755b0121ebea3",
+      "reference_slots": [
+        "light"
+      ]
+    },
+    {
+      "slot": "light_overdrive",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-0769937c-1b43-4599-ba3e-f6d737fed83a.png",
+      "original_sha256": "c425a2156625dd61bc0876c5206e56641a7e8c32ab5ec81018d73b4bbac90774",
+      "file": "철시드_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "5f61e3321b8adba82d22e36475c74c55700e3b1bf9700ce7f4630ec0f2c026e5",
+      "reference_slots": [
+        "light"
+      ]
+    },
+    {
+      "slot": "heavy_overdrive",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-73ebde50-e5b0-4d69-8786-02acd71d3fa3.png",
+      "original_sha256": "a6d73ca34049b871b366b0a1a9f7a1e2ab934681bd56fd27b929aefe290ee361",
+      "file": "철시드_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "85e7bde6e4d22a6a126bd266ede1c75dcbbf25f8cb220c1d57fc2b681b1fadfc",
+      "reference_slots": [
+        "heavy",
+        "light"
+      ]
+    },
+    {
+      "slot": "mobility_overdrive",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-6ef6cfd7-425f-47fe-adf9-4badd4e78e16.png",
+      "original_sha256": "cd6c7673a4423181063b8366e52c33238a87c43bc2e89d7bab324e3a89c96019",
+      "file": "철시드_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "765301aa475546686ad914c71724df9642d07f6d5300a42ac6e1861f41ffedbe",
+      "reference_slots": [
+        "mobility",
+        "light"
+      ]
+    },
+    {
+      "slot": "casual1",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-48a3dd5e-75ea-42dd-85b0-41ab6253e3e7.png",
+      "original_sha256": "57be07e2b60b6071675246619c0a82c61201e035f523d0e3088ba3ba4a5647a4",
+      "file": "철시드_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "2b77f451a423b36e6ecb725c6b82869ccbdb008bcc9b77082bfd4740360fa873",
+      "reference_slots": [
+        "light"
+      ]
+    },
+    {
+      "slot": "casual2",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-b7b2f1a9-7779-4601-af8f-babc07dfc5fa.png",
+      "original_sha256": "a443ae0c33d576179c5ccc36cc6e415bb45d1876d9da685b307f9d73f78eaf9c",
+      "file": "철시드_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "0d790b5d3132c687ce0a4a3e44eca08b44c4ef119f61f1a94a8c3b0ec94b55df",
+      "reference_slots": [
+        "light"
+      ]
+    },
+    {
+      "slot": "casual3",
+      "source": "/workspace/scratch/a2e7e32283bc/generated_images/exec-e352cbc5-19eb-455f-9435-659b22d075a9.png",
+      "original_sha256": "ba84a6b7b5863231b072b6355f12ad760ffd143670f7d4af023042157e2d8e85",
+      "file": "철시드_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "15e362d4e69c859d9320e24a52e95634a8d4139108c3eee7ab6330c8dbdaba44",
+      "reference_slots": [
+        "light"
+      ]
+    }
+  ],
+  "reservation_commit": "c66d9d835f433250e9900a473a7c99efd21dbdbf",
+  "source_commit": "68104533823ffabb5fca32ba2de443a2b4fc6e8b",
+  "published_repo": "polos0117/pkm-atelier-img-4",
+  "publish_method": "non-forced fast-forward main update via GitHub connector; local git push unavailable",
+  "originals": "session-only; only hashes are published"
+}

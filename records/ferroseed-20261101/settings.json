@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "card": "철시드",
+  "no": 597,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/a2e7e32283bc/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Soft afternoon light from tall windows glints on stacked game pieces and a felt-lined coin tray.",
+      "outfit": "An opaque burgundy sari-blouse-inspired set: a short fitted asymmetric blouse with a one-shoulder, off-shoulder neckline, and a draped lower piece; the open shoulder line and midriff are visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "보드게임 라운지의 오후 빛과 동전 받침을 보충한다.",
+        "outfit": "사리 블라우스와 드레이프 하의를 유지하며 어깨와 배가 보이는 비대칭 목선으로 두 노출 방식을 양립시킨다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / boardgame_lounge / lingerie / sari_blouse_set / stand / chest_up / coin_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "boardgame_lounge",
+            "ko": "보드게임 라운지",
+            "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+          },
+          "role": null,
+          "use": {
+            "key": "coin_hold",
+            "ko": "동전을 들어 보인다",
+            "en": "holds a single coin up between two fingers",
+            "prop": "동전"
+          },
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "sari_blouse_set",
+            "ko": "사리 블라우스 응용",
+            "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "blouse",
+          "traditional"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "one-shoulder cut"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "The tiled entrance has a red skateboard beside the shoe bench and rain-speckled glass at the door.",
+      "outfit": "Skater clothing: a short cropped cream hoodie with small side cutouts, low-slung mini cargo shorts and high socks, exposing the waist and upper thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "현관의 스케이트보드와 비 묻은 유리만 보충한다.",
+        "outfit": "후디·카고 쇼츠를 유지하며 계획의 미니 기장과 옆 트임으로 허리와 허벅지를 드러낸다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / home_entry / subculture / skater / squat / full_body / phones_neck",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "home_entry",
+            "ko": "현관",
+            "en": "the entryway of her home with a shoe bench, coat hooks and a long mirror"
+          },
+          "role": null,
+          "use": {
+            "key": "phones_neck",
+            "ko": "목에 건 헤드폰을 잡는다",
+            "en": "holds one ear cup of over-ear headphones resting around her neck",
+            "prop": "헤드폰"
+          },
+          "ofam": {
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
+          },
+          "item": {
+            "key": "skater",
+            "ko": "스케이터",
+            "en": "skater — a cropped hoodie, low-slung cargo shorts and high socks"
+          },
+          "posture": {
+            "key": "squat",
+            "ko": "쪼그려 앉기",
+            "en": "crouching low on her heels"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · natural"
+        },
+        "garments": [
+          "shorts",
+          "sweater"
+        ],
+        "expose": [
+          "mini length",
+          "side cutouts"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual3": {
+      "scene": "A small Budew waits beside the ceramic feeding bowl, with a single smooth river stone near the chair leg.",
+      "outfit": "A light cotton peach bath yukata with a soft sash and a cropped calf-skimming hem, a secure chest wrap and a high side thigh slit that opens over one leg.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "동료 묶음에 필요한 한 마리 꼬몽울과 정원 사물만 명시한다.",
+        "outfit": "가슴·골반을 가리는 유카타를 유지하면서 계획의 짧아진 기장과 높은 옆트임으로 다리를 드러낸다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / partner_garden / bath / bath_yukata / sit_chair / environmental / ball_hold",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "partner_garden",
+            "ko": "조용한 정원",
+            "en": "a quiet garden with a feeding bowl set on the grass"
+          },
+          "role": null,
+          "use": {
+            "key": "ball_hold",
+            "ko": "몬스터볼을 든다",
+            "en": "holds a Poké Ball at chest height",
+            "prop": "몬스터볼"
+          },
+          "ofam": {
+            "key": "bath",
+            "ko": "목욕 차림",
+            "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+          },
+          "item": {
+            "key": "bath_yukata",
+            "ko": "목욕 유카타",
+            "en": "a light cotton bath yukata with a soft sash"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "traditional"
+        ],
+        "expose": [
+          "high thigh slit",
+          "cropped hem"
+        ],
+        "lead": "detail"
+      }
+    }
+  }
+}

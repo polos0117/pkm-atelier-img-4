@@ -1,0 +1,451 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "accepted": true,
+  "face_reason": "원작 many green thorns·big spikes·metallic body에서 각진 윤곽·작고 가로로 벌어진 눈·사선 눈썹·비대칭 컷을 가져왔다. 너트령은 아직 기준 그림이 없어 새 경장을 정본으로 확정한다.",
+  "face_observed_difference": "설계의 wide angular face보다 결과의 턱이 좁고 눈이 더 크다. 이를 숨기지 않고 이 경장을 정본으로 유지했다. 녹색 눈·가는 입술·넓은 이마와 뚜렷한 코가 최근 파쪼옥의 둥근 청색 눈, 맘복치의 둥근 눈·도톰한 입술, 탱탱겔의 긴 눈·흰 땋은 머리와 구분된다.",
+  "compared_characters": [
+    "파쪼옥",
+    "맘복치",
+    "탱탱겔",
+    "전툴라"
+  ],
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "b252408d2e16f372c9f5616a268c5b3c13b53c90d82b4e6b437ad6299ac0e4e9",
+      "observations": "은회색 비대칭 단발 끝의 녹색 가닥, 작은 녹색 눈, 각진 턱. 가는 은회색 판과 녹색 가시가 어깨·전완·정강이를 덮고 두 부츠가 프레임 안에 있다.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·두 부츠가 프레임 안."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락이 겹쳐 보이는 부분은 확대해 분리했다. 장갑 가드는 손가락이 아니다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "bcc43a320970b0092164f4728cb5616997278924320406b8c3a3a1e14c126826",
+      "observations": "얼굴과 단발 유지. 얼굴을 가리지 않는 열린 투구와 겹친 어깨·가슴·허벅지·정강이 판으로 실루엣이 두꺼워졌다.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·두 부츠가 프레임 안."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락이 겹쳐 보이는 부분은 확대해 분리했다. 장갑 가드는 손가락이 아니다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "0cd93b82492b7a1dfd050764cf5685665f172b1edc11d240a7d755b0121ebea3",
+      "observations": "같은 얼굴. 긴 날 형태로 분리된 어깨·팔·골반 판과 원형 녹색 추진장치로 중장과 구분된다.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·두 부츠가 프레임 안."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락이 겹쳐 보이는 부분은 확대해 분리했다. 장갑 가드는 손가락이 아니다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "5f61e3321b8adba82d22e36475c74c55700e3b1bf9700ce7f4630ec0f2c026e5",
+      "observations": "경장과 같은 머리·손·부츠 위치. 기존 판의 이음새가 열리고 녹색 내부 프레임과 잎 입자가 드러난다.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·두 부츠가 프레임 안."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락이 겹쳐 보이는 부분은 확대해 분리했다. 장갑 가드는 손가락이 아니다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "85e7bde6e4d22a6a126bd266ede1c75dcbbf25f8cb220c1d57fc2b681b1fadfc",
+      "observations": "중장의 열린 투구·판 배열·양발 위치 유지. 겹판 사이가 벌어져 내부 녹색 회로가 노출된다. 새 무기 없음.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·두 부츠가 프레임 안."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락이 겹쳐 보이는 부분은 확대해 분리했다. 장갑 가드는 손가락이 아니다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "765301aa475546686ad914c71724df9642d07f6d5300a42ac6e1861f41ffedbe",
+      "observations": "고기동의 긴 판과 원형 장치가 열린다. 같은 손과 발 구도, 녹색 눈 색을 유지하고 녹색 입자가 흐른다.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·두 부츠가 프레임 안."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락이 겹쳐 보이는 부분은 확대해 분리했다. 장갑 가드는 손가락이 아니다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "2b77f451a423b36e6ecb725c6b82869ccbdb008bcc9b77082bfd4740360fa873",
+      "observations": "게임 상자 선반과 펠트 동전 받침 앞에서 두 손가락으로 동전 한 개를 든다. 한쪽 어깨가 열린 자주색 사리 블라우스, 드레이프 하의와 배가 보인다. 가는 눈과 한쪽 입꼬리를 올린 미소.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 동전 컷은 상반신, 현관은 쪼그린 전신, 정원은 의자·동료를 포함한 전신으로 범위가 갈린다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "동전을 집은 엄지·검지와 접힌 나머지 세 손가락. 반대 손·다리는 프레임 밖. 보이는 손이 팔 끝에 연결된다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      },
+      "selected": {
+        "kept": true,
+        "cut": 1,
+        "treeV": 2,
+        "era": "now",
+        "place": "boardgame_lounge",
+        "weather": "",
+        "ofam": "lingerie",
+        "item": "sari_blouse_set",
+        "posture": "stand",
+        "support": "none",
+        "frame": "chest_up",
+        "body": "front_3q",
+        "head": "tilt",
+        "camera": "eye",
+        "right": "prop",
+        "left": "out",
+        "use": "coin_hold",
+        "legs": "",
+        "gaze": "",
+        "expr": "playful",
+        "preset": "raise_chest",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "blouse",
+          "traditional"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "one-shoulder cut"
+        ],
+        "lead": "light",
+        "act": "coin_hold",
+        "orient": "front_3q+tilt",
+        "pose": "raise_chest"
+      },
+      "pose_and_expression": {
+        "match": true,
+        "evidence": "게임 상자 선반과 펠트 동전 받침 앞에서 두 손가락으로 동전 한 개를 든다. 한쪽 어깨가 열린 자주색 사리 블라우스, 드레이프 하의와 배가 보인다. 가는 눈과 한쪽 입꼬리를 올린 미소."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "게임 상자 선반과 펠트 동전 받침 앞에서 두 손가락으로 동전 한 개를 든다. 한쪽 어깨가 열린 자주색 사리 블라우스, 드레이프 하의와 배가 보인다. 가는 눈과 한쪽 입꼬리를 올린 미소."
+      },
+      "actual_differences": "chest_up보다 아래인 허리와 하의 일부까지 담김. 어깨 장식이 남고, 한쪽 어깨를 완전히 드러낸 비대칭 목선."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "0d790b5d3132c687ce0a4a3e44eca08b44c4ef119f61f1a94a8c3b0ec94b55df",
+      "observations": "빗물 묻은 현관 유리·신발장·빨간 스케이트보드. 쪼그린 옆모습, 한 손은 목의 헤드폰 이어컵, 반대 손은 무릎 아래로 편하게 내렸다. 흰 크롭 후디·카고 쇼츠·하이삭스와 운동화, 허리와 허벅지가 드러난다.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 동전 컷은 상반신, 현관은 쪼그린 전신, 정원은 의자·동료를 포함한 전신으로 범위가 갈린다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "이어컵을 잡은 엄지·검지, 나머지 손가락은 이어컵 뒤로 겹쳐 일부 가려진다. 내려놓은 손은 엄지와 네 손가락. 두 팔은 각 어깨→팔꿈치→손으로 이어지며 다리 둘과 운동화 둘이 보인다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      },
+      "selected": {
+        "kept": true,
+        "cut": 2,
+        "treeV": 2,
+        "era": "now",
+        "place": "home_entry",
+        "weather": "",
+        "ofam": "subculture",
+        "item": "skater",
+        "posture": "squat",
+        "support": "none",
+        "frame": "full_body",
+        "body": "side",
+        "head": "with_body",
+        "camera": "eye",
+        "right": "prop",
+        "left": "natural",
+        "use": "phones_neck",
+        "legs": "",
+        "gaze": "",
+        "expr": "unimpressed",
+        "preset": "squat_offer",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "shorts",
+          "sweater"
+        ],
+        "expose": [
+          "mini length",
+          "side cutouts"
+        ],
+        "lead": "place",
+        "act": "phones_neck",
+        "orient": "side+with_body",
+        "pose": "squat_offer"
+      },
+      "pose_and_expression": {
+        "match": true,
+        "evidence": "빗물 묻은 현관 유리·신발장·빨간 스케이트보드. 쪼그린 옆모습, 한 손은 목의 헤드폰 이어컵, 반대 손은 무릎 아래로 편하게 내렸다. 흰 크롭 후디·카고 쇼츠·하이삭스와 운동화, 허리와 허벅지가 드러난다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "빗물 묻은 현관 유리·신발장·빨간 스케이트보드. 쪼그린 옆모습, 한 손은 목의 헤드폰 이어컵, 반대 손은 무릎 아래로 편하게 내렸다. 흰 크롭 후디·카고 쇼츠·하이삭스와 운동화, 허리와 허벅지가 드러난다."
+      },
+      "actual_differences": "계획한 옆모습과 쪼그린 전신 유지. 후디 소매는 길지만 크롭과 옆트임으로 허리·허벅지가 드러난다."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "15e362d4e69c859d9320e24a52e95634a8d4139108c3eee7ab6330c8dbdaba44",
+      "observations": "정원 의자에 앉아 몬스터볼을 들고 무릎 위에 반대 손을 놓았다. 한 마리 꼬몽울이 밥그릇 옆에 분리되어 있다. 복숭아색 유카타의 열린 어깨와 다리, 두 샌들이 보인다. 얼굴은 정면보다 앞 3/4이며 미소.",
+      "identity": {
+        "match": true,
+        "evidence": "은회색 비대칭 단발·녹색 머리 끝·작고 가는 녹색 눈·가는 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 동전 컷은 상반신, 현관은 쪼그린 전신, 정원은 의자·동료를 포함한 전신으로 범위가 갈린다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "몬스터볼 손은 다섯 손가락 중 일부가 공 뒤에 가려짐. 무릎 손은 안쪽 엄지와 네 손가락. 두 다리와 양발 각 다섯 발가락, 샌들 끈은 발가락과 구분했다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 대조. 팔·다리 연결, 엄지 방향, 관절 방향, 떨어진 셋째 손 유무를 확인했다."
+      },
+      "selected": {
+        "kept": true,
+        "cut": 3,
+        "treeV": 2,
+        "era": "in_pokemon",
+        "place": "partner_garden",
+        "weather": "",
+        "ofam": "bath",
+        "item": "bath_yukata",
+        "posture": "sit_chair",
+        "support": "none",
+        "frame": "environmental",
+        "body": "front",
+        "head": "turn_side",
+        "camera": "eye",
+        "right": "prop",
+        "left": "lap",
+        "use": "ball_hold",
+        "legs": "knees_together",
+        "gaze": "screen_left",
+        "expr": "gentle",
+        "preset": "bench_sit",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "traditional"
+        ],
+        "expose": [
+          "high thigh slit",
+          "cropped hem"
+        ],
+        "lead": "detail",
+        "act": "ball_hold",
+        "orient": "front+turn_side",
+        "pose": "bench_sit"
+      },
+      "pose_and_expression": {
+        "match": false,
+        "evidence": "정원 의자에 앉아 몬스터볼을 들고 무릎 위에 반대 손을 놓았다. 한 마리 꼬몽울이 밥그릇 옆에 분리되어 있다. 복숭아색 유카타의 열린 어깨와 다리, 두 샌들이 보인다. 얼굴은 정면보다 앞 3/4이며 미소."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "정원 의자에 앉아 몬스터볼을 들고 무릎 위에 반대 손을 놓았다. 한 마리 꼬몽울이 밥그릇 옆에 분리되어 있다. 복숭아색 유카타의 열린 어깨와 다리, 두 샌들이 보인다. 얼굴은 정면보다 앞 3/4이며 미소."
+      },
+      "actual_differences": "계획한 environmental보다 인물을 크게 담았고 얼굴은 앞 3/4. 유카타 소매가 길고 아래 자락은 종아리까지지만 앞트임이 넓어 허벅지·다리가 보인다. 의상 세부·방향 차이로 기록한다."
+    }
+  },
+  "diversity_comparison": {
+    "accepted": true,
+    "evidence": "세 장을 최근 실제 비교 시트와 나란히 보았다. 동전 집은 사리 상반신/헤드폰 잡은 현관 쪼그린 옆 전신/몬스터볼 든 정원 의자+꼬몽울은 장소·활동·실루엣·구도가 서로 다르다. 파쪼옥의 낚시·마이크·오락실, 맘복치의 기대누운 침실·나침반·우산 벤치, 탱탱겔의 바·웨딩·콘테스트와 묶음 구성이 다르다. 전툴라의 온천 V사인·박물관 난간 모습과도 구분했다.",
+    "casual_look": {
+      "crowd_below": 245,
+      "cuts": [
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "work/pkm-atelier-img-4/img/철시드_glossy_promo_f_casual1.webp",
+          "near": [
+            [
+              "나무킹_glossy_promo_f_casual2.webp",
+              280
+            ],
+            [
+              "부란다_glossy_promo_f_casual2.webp",
+              300
+            ],
+            [
+              "마기라스_glossy_promo_f_casual1.webp",
+              303
+            ],
+            [
+              "동챙이_glossy_promo_f_casual3.webp",
+              305
+            ],
+            [
+              "깜지곰_glossy_promo_f_casual1.webp",
+              307
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "work/pkm-atelier-img-4/img/철시드_glossy_promo_f_casual2.webp",
+          "near": [
+            [
+              "세레비_glossy_promo_f_casual2.webp",
+              293
+            ],
+            [
+              "영구스_glossy_promo_f_casual3.webp",
+              297
+            ],
+            [
+              "눈쓰개_glossy_promo_f_casual2.webp",
+              298
+            ],
+            [
+              "가디안_glossy_promo_f_casual3.webp",
+              307
+            ],
+            [
+              "뚜벅쵸_glossy_promo_f_casual1.webp",
+              308
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 2,
+          "duplicate_of": [],
+          "file": "work/pkm-atelier-img-4/img/철시드_glossy_promo_f_casual3.webp",
+          "near": [
+            [
+              "모부기_glossy_promo_f_casual2.webp",
+              233
+            ],
+            [
+              "아라리_glossy_promo_f_casual2.webp",
+              242
+            ],
+            [
+              "킹드라_glossy_promo_f_casual3.webp",
+              249
+            ],
+            [
+              "암나이트_glossy_promo_f_casual2.webp",
+              255
+            ],
+            [
+              "두개도스_glossy_promo_f_casual1.webp",
+              256
+            ]
+          ],
+          "same_as_own": []
+        }
+      ],
+      "dup_below": 215,
+      "ok": true
+    }
+  }
+}
