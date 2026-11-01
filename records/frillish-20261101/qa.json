@@ -1,0 +1,388 @@
+{
+ "card": "탱그릴",
+ "style": "glossy_promo",
+ "tool": "built-in image_gen",
+ "images": {
+  "light": {
+   "status": "accepted",
+   "observed": "흰 밀착 판과 은백색 긴 땋은 머리, 둥근 볼과 작은 입. 양팔이 어깨에서 자연스럽게 이어지고 두 다리와 두 부츠가 전부 들어옴.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펼친 장갑 손: 엄지와 네 손가락. 화면 오른쪽 구부린 장갑 손: 엄지와 네 손가락, 일부 겹침. 두 손 모두 손목·아래팔로 이어짐.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "15fcc4d5f1d287fa138ae89ce76e97d36ef3f5217cb780e45c01c54ad00887cd",
+   "output_sha256": "535f6a953c50fc9d39d5c236e47b08ee967df55bb316e0065d4a6e9d1998b9aa"
+  },
+  "heavy": {
+   "status": "accepted",
+   "observed": "어깨·아래팔·허벅지·정강이에 두꺼운 겹판. 정본의 얼굴과 자세, 체형을 유지. 열린 왼쪽 화면 손과 구부린 오른쪽 화면 손 모두 정상.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펼친 장갑 손: 엄지와 네 손가락. 화면 오른쪽 구부린 장갑 손: 엄지와 네 손가락, 일부 겹침. 두 손 모두 손목·아래팔로 이어짐.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "9801cf31773e853778a9b66650f0a8b0a5ee62f51270df56e660a02d6a8d1798",
+   "output_sha256": "b430db367c16e9d5691d9d6da468f1dd6e2b1a109b45ab39d0ae755ac818cdde"
+  },
+  "mobility": {
+   "status": "accepted",
+   "observed": "어깨·허리·종아리의 얇은 판 사이에 간격, 파란 원형 소형 추진부. 몸통과 두 팔·다리의 연결 유지.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펼친 장갑 손: 엄지와 네 손가락. 화면 오른쪽 구부린 장갑 손: 엄지와 네 손가락, 일부 겹침. 두 손 모두 손목·아래팔로 이어짐.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "44762aae083a7fccc86b3713c6886fb9c04945a043d6d82f1298064776aae8df",
+   "output_sha256": "95e0474e7b3144539849907c75c87a98ba64f59ce3a36daf7cdf01ed995552c7"
+  },
+  "light_overdrive": {
+   "status": "accepted",
+   "observed": "원래 구도·발 위치를 유지하며 가슴·복부·팔다리 판이 들리고 수광 프레임이 보임. 눈은 원래 회청색.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펼친 장갑 손: 엄지와 네 손가락. 화면 오른쪽 구부린 장갑 손: 엄지와 네 손가락, 일부 겹침. 두 손 모두 손목·아래팔로 이어짐.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "f3e0d5aa4bade14453c5bb007ea084794ef80c5f9c153758388c7cdc39115a84",
+   "output_sha256": "7765fc78cac401378a2a47503fb5f299f0933a0a8461f68208d0568f84915a38"
+  },
+  "heavy_overdrive": {
+   "status": "accepted",
+   "observed": "어깨와 종아리 겹판 사이가 벌어져 푸른 내부 구조가 보이며 원래 중장 실루엣·손·발 위치 유지.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펼친 장갑 손: 엄지와 네 손가락. 화면 오른쪽 구부린 장갑 손: 엄지와 네 손가락, 일부 겹침. 두 손 모두 손목·아래팔로 이어짐.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "c8774ae8f415f86418e86d4a7d8fe8272661fb7f78096cbe92de6513334af324",
+   "output_sha256": "e25755d32a0341ccadfc76df8d0a1008e9a70c73fcf253a4b17622cda5790491"
+  },
+  "mobility_overdrive": {
+   "status": "accepted",
+   "observed": "펼친 허리·어깨 패널과 열린 추진부에 청색 광채. 원래 고기동의 머리·손·발·눈색 유지.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펼친 장갑 손: 엄지와 네 손가락. 화면 오른쪽 구부린 장갑 손: 엄지와 네 손가락, 일부 겹침. 두 손 모두 손목·아래팔로 이어짐.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "376ee7d174983952199f78130436767962d07e790f772b294e4582905c17b268",
+   "output_sha256": "6614d886f6add697ab83ed57c4d46617b542133503744444abe22897abb6b9c2"
+  },
+  "casual1": {
+   "status": "accepted",
+   "observed": "천막과 유적·격자 트레이, 테라코타 O링 비키니. 컵을 든 팔과 내려온 팔 둘이 연결됨. 어깨 너머 얼굴은 정면 쪽으로 계획보다 많이 열렸으나 목은 연속적이고 꺾임 없음.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "컵 손: 엄지와 컵을 감싸는 네 손가락, 일부가 컵 뒤로 가림. 내려온 손: 엄지와 굽힌 네 손가락, 겹친 손가락 일부 가림.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "4c5979a0bf4f229d3d68463b2bacbfaed4da5fc35d26bfd5a9cb9b614ace7b38",
+   "output_sha256": "3749892e42ca217e18e9a72b227e29a673668af4929bd2d87cc7d9832c4bd1fa",
+   "selected": {
+    "cut": 1,
+    "treeV": 2,
+    "era": "in_pokemon",
+    "place": "work_dig",
+    "ofam": "swimwear",
+    "item": "oring_bikini",
+    "garments": [
+     "bikini"
+    ],
+    "weather": "",
+    "posture": "walk",
+    "support": "none",
+    "frame": "three_quarter",
+    "body": "rear_3q",
+    "head": "over_shoulder",
+    "camera": "eye",
+    "right": "prop",
+    "left": "down",
+    "use": "cup_hold",
+    "legs": "walk_pause",
+    "gaze": "camera",
+    "preset": "walk_lookback",
+    "expr": "amused",
+    "aspect": "2:3",
+    "axes": {
+     "overall_intensity": "strong",
+     "skin_exposure": "bold",
+     "action_level": "mostly active",
+     "source_influence": "strong",
+     "separates_preference": "balanced"
+    },
+    "expose": [
+     "high-cut leg",
+     "plunging neckline"
+    ],
+    "lead": "place"
+   },
+   "outfit": {
+    "match": true,
+    "evidence": "천막과 유적·격자 트레이, 테라코타 O링 비키니. 컵을 든 팔과 내려온 팔 둘이 연결됨. 어깨 너머 얼굴은 정면 쪽으로 계획보다 많이 열렸으나 목은 연속적이고 꺾임 없음."
+   },
+   "place_activity": {
+    "match": true,
+    "evidence": "천막과 유적·격자 트레이, 테라코타 O링 비키니. 컵을 든 팔과 내려온 팔 둘이 연결됨. 어깨 너머 얼굴은 정면 쪽으로 계획보다 많이 열렸으나 목은 연속적이고 꺾임 없음."
+   },
+   "composition_expression": {
+    "match": false,
+    "evidence": "천막과 유적·격자 트레이, 테라코타 O링 비키니. 컵을 든 팔과 내려온 팔 둘이 연결됨. 어깨 너머 얼굴은 정면 쪽으로 계획보다 많이 열렸으나 목은 연속적이고 꺾임 없음.",
+    "deviation_policy": "framing, direction and expression differences are recorded per IMAGE_RULES §3.6"
+   }
+  },
+  "casual2": {
+   "status": "accepted",
+   "observed": "샌드백·링 로프·덤벨·검 보관대가 있는 체육관. 회색 니트 크롭과 베이지 반바지, 오른팔로 농구공을 끼고 걸음. 반쯤 감긴 눈과 평평한 입.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "공을 받친 손: 엄지와 네 손가락. 내려온 손: 엄지·네 손가락이 굽혀져 일부 겹침. 손목과 아래팔 연속.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "ca0306ce5a03ce387239ffa061da211534d304a2e7301796efa1d192a843de00",
+   "output_sha256": "a489dbed498e7213e164c44c499f5b4fa634f1f17d6b1ab1466d9e8dca9cb254",
+   "selected": {
+    "cut": 2,
+    "treeV": 2,
+    "era": "release",
+    "place": "sports_gym",
+    "ofam": "subculture",
+    "item": "skater",
+    "garments": [
+     "shorts",
+     "sweater"
+    ],
+    "weather": "",
+    "posture": "walk",
+    "support": "none",
+    "frame": "full_body",
+    "body": "front_3q",
+    "head": "with_body",
+    "camera": "eye",
+    "right": "prop",
+    "left": "down",
+    "use": "ball_tuck",
+    "legs": "walk_stride",
+    "gaze": "camera",
+    "preset": "stride_prop",
+    "expr": "bored",
+    "aspect": "2:3",
+    "axes": {
+     "overall_intensity": "strong",
+     "skin_exposure": "bold",
+     "action_level": "mostly active",
+     "source_influence": "subtle",
+     "separates_preference": "prefer separates"
+    },
+    "expose": [
+     "bare midriff",
+     "strapless top"
+    ],
+    "lead": "light"
+   },
+   "outfit": {
+    "match": true,
+    "evidence": "샌드백·링 로프·덤벨·검 보관대가 있는 체육관. 회색 니트 크롭과 베이지 반바지, 오른팔로 농구공을 끼고 걸음. 반쯤 감긴 눈과 평평한 입."
+   },
+   "place_activity": {
+    "match": true,
+    "evidence": "샌드백·링 로프·덤벨·검 보관대가 있는 체육관. 회색 니트 크롭과 베이지 반바지, 오른팔로 농구공을 끼고 걸음. 반쯤 감긴 눈과 평평한 입."
+   },
+   "composition_expression": {
+    "match": true,
+    "evidence": "샌드백·링 로프·덤벨·검 보관대가 있는 체육관. 회색 니트 크롭과 베이지 반바지, 오른팔로 농구공을 끼고 걸음. 반쯤 감긴 눈과 평평한 입.",
+    "deviation_policy": "framing, direction and expression differences are recorded per IMAGE_RULES §3.6"
+   }
+  },
+  "casual3": {
+   "status": "accepted",
+   "observed": "나무 창의 햇빛과 항구 마을 배경, 나무열매·꿀·동그란 그릇과 거품기. 산호색 타월 랩의 어깨와 허벅지 슬릿. 옆얼굴과 몸이 같은 방향이고 두 손이 그릇·거품기를 나눠 잡음.",
+   "identity": {
+    "match": true,
+    "evidence": "은백색 긴 땋은 머리, 회청색 좁은 눈, 둥근 볼과 작은 입 유지."
+   },
+   "dimensions": [
+    1024,
+    1536
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; checker exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "거품기 손: 엄지와 네 손가락이 손잡이를 감싸며 안쪽 일부 가림. 그릇 손: 손가락 일부가 그릇 테두리 뒤에 가림. 앞발 발가락 다섯, 뒤발 일부 가림.",
+    "overlay_checked": false,
+    "manual_zoom_checked": true,
+    "note": "원본 및 손·발 확대본에서 관절·손가락·중복 팔/손 확인."
+   },
+   "source_sha256": "848239c7df73e7dd461537799e22413934ee83eb300a91d6bf00d32cad926a82",
+   "output_sha256": "d9da19aa1015067e90c55f62c6918a743a365fb44db9c8b74dee9e8062b913b2",
+   "selected": {
+    "cut": 3,
+    "treeV": 2,
+    "era": "in_pokemon",
+    "place": "berry_kitchen",
+    "ofam": "bath",
+    "item": "peshtemal",
+    "garments": [
+     "dress"
+    ],
+    "weather": "",
+    "posture": "stand",
+    "support": "none",
+    "frame": "environmental",
+    "body": "side",
+    "head": "with_body",
+    "camera": "eye",
+    "right": "prop",
+    "left": "prop",
+    "use": "bowl_mix",
+    "legs": "stand_relaxed",
+    "gaze": "",
+    "preset": "stand_use",
+    "expr": "smug",
+    "aspect": "2:3",
+    "axes": {
+     "overall_intensity": "strong",
+     "skin_exposure": "bold",
+     "action_level": "balanced",
+     "source_influence": "strong",
+     "separates_preference": "balanced"
+    },
+    "expose": [
+     "high thigh slit",
+     "off-shoulder neckline"
+    ],
+    "lead": "detail"
+   },
+   "outfit": {
+    "match": true,
+    "evidence": "나무 창의 햇빛과 항구 마을 배경, 나무열매·꿀·동그란 그릇과 거품기. 산호색 타월 랩의 어깨와 허벅지 슬릿. 옆얼굴과 몸이 같은 방향이고 두 손이 그릇·거품기를 나눠 잡음."
+   },
+   "place_activity": {
+    "match": true,
+    "evidence": "나무 창의 햇빛과 항구 마을 배경, 나무열매·꿀·동그란 그릇과 거품기. 산호색 타월 랩의 어깨와 허벅지 슬릿. 옆얼굴과 몸이 같은 방향이고 두 손이 그릇·거품기를 나눠 잡음."
+   },
+   "composition_expression": {
+    "match": true,
+    "evidence": "나무 창의 햇빛과 항구 마을 배경, 나무열매·꿀·동그란 그릇과 거품기. 산호색 타월 랩의 어깨와 허벅지 슬릿. 옆얼굴과 몸이 같은 방향이고 두 손이 그릇·거품기를 나눠 잡음.",
+    "deviation_policy": "framing, direction and expression differences are recorded per IMAGE_RULES §3.6"
+   }
+  }
+ },
+ "face_comparison": "둥근 볼과 짧은 하관, 좁고 수평인 눈과 작은 입이 비교 인물의 길고 갸름한 턱선과 구분된다.",
+ "casual_diversity": {
+  "compared": [
+   "깜놀버슬",
+   "뽀록나",
+   "슈바르고"
+  ],
+  "evidence": "이전 세 인물의 앉은 독서·셀카·찻자리·무대 컷과 비교. 이번에는 유적지 뒤돌아보기·농구공을 낀 전신 보행·측면 요리가 배경·활동·옷 실루엣·구도에서 구분됨.",
+  "look_check": "passed; minimum neighbour scores 253 / 249 / 236; none below failure threshold."
+ },
+ "attempts": [
+  {
+   "slot": "light",
+   "attempt": 1,
+   "status": "moderation_blocked",
+   "stage": "output",
+   "request_id": "a3e37d04-6f48-4ea6-9b44-24710301ae29",
+   "retry": "same unmodified prompt; second attempt generated accepted canonical"
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "version": 1,
+ "card": "탱그릴",
+ "no": 592,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/79b56070cc6d/packs/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Sandstone steps and half-buried mosaic floors border the ancient excavation; a shaded rest awning stands beside trays of ceramic fragments.",
+   "outfit": "A terracotta O-ring bikini with a plunging neckline and high-cut bottoms, in matte swim fabric.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 발굴 현장에 석조 유적과 휴식 구역의 구체적 외관이 없어 보충.",
+    "outfit": "O링 비키니를 유지하며 계획의 깊은 목선·하이컷과 원작과 무관한 테라코타 색을 구체화."
+   }
+  },
+  "casual2": {
+   "scene": "Warm late-afternoon sunlight crosses the polished indoor court through high rectangular windows; a few training cones sit by the far wall.",
+   "outfit": "A charcoal strapless cropped sweater with a ribbed hem and loose sand-coloured skater shorts; the cropped hem exposes her midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "첫 등장 무렵 체육관에 시간대와 창·코트의 빛을 보충.",
+    "outfit": "스웨터와 스케이터 반바지를 유지하며 계획의 배 노출·스트랩리스 구조와 서로 다른 소재를 지정."
+   }
+  },
+  "casual3": {
+   "scene": "A ceramic mixing bowl contains crushed Oran berries; a copper saucepan and a jar of honey sit on the tiled counter.",
+   "outfit": "A coral peshtemal wrap fashioned as an off-shoulder towel dress, secured at the bust, with a high thigh slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "나무열매 주방의 혼합 재료와 주변 도구가 없어 구체화.",
+    "outfit": "타월 드레스를 유지하면서 계획의 어깨 노출·높은 슬릿을 고정하고 산호색 직물로 일상 의상화."
+   }
+  }
+ }
+}
