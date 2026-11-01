@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "card": "너트령",
+  "no": 598,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/4ebb97a6e755/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Late afternoon window light washes over oak bookshelves and a green glass paperweight.",
+      "outfit": "An off-shoulder cropped knitted top inspired by a traditional woven shawl, paired with a pleated wrap skirt; her collarbones and midriff are visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "열람실 창빛·책장 재질과 모티프 문진만 보충.",
+        "outfit": "자동 전통 의상에 계획의 니트 상의·스커트와 오프숄더·배 노출 구조를 구체화."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / library_reading / traditional / sit_chair / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "library_reading",
+            "ko": "도서관 열람실",
+            "en": "a quiet library reading room with tall bookshelves, reading desks and big windows"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "traditional",
+            "ko": "전통 의상",
+            "en": "a traditional dress that suits her, worn naturally",
+            "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "knit_top",
+          "skirt"
+        ],
+        "expose": [
+          "bare midriff",
+          "off-shoulder neckline"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "The karaoke room doubles as a themed cabaret rehearsal lounge, with red velvet seating and a low amber table lamp.",
+      "outfit": "A strapless uniform-inspired adult cabaret costume with crisp lapels folded onto the bodice, decorative epaulettes on slim upper-arm bands, an open back and a fitted short skirt.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "역할극을 성인 카바레 리허설 무대로 구체화하며 노래방 장소를 유지.",
+        "outfit": "유니폼풍 라펠·견장을 보존하면서 계획의 스트랩리스·열린 등 구조를 지정."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / night_karaoke / roleplay / uniform_inspired / sit_chair / three_quarter",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "night_karaoke",
+            "ko": "노래방",
+            "en": "a private karaoke room with spinning coloured lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "uniform_inspired",
+            "ko": "유니폼풍",
+            "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "uniform"
+        ],
+        "expose": [
+          "strapless top",
+          "open back"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "The garden clearing has a thick padded exercise mat on the moss and amber lanterns hanging among silver branches.",
+      "outfit": "An opaque coral one-shoulder 1980s high-cut aerobics leotard with side cutouts over shiny low-rise leggings, with leg warmers and a headband; her shoulder and side waist remain visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "엎드릴 수 있는 매트와 요정 숲의 은빛 가지·등불 재질만 추가.",
+        "outfit": "80년대 레오타드·레깅스를 유지하며 한쪽 어깨·옆트임을 의상 구조에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_forest / retro / aerobics_80s / lie_front / full_body",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_forest",
+            "ko": "요정 숲 정원",
+            "en": "a misty enchanted garden of moss, ivy and lanterns"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "retro",
+            "ko": "레트로",
+            "en": "a period look from a past decade"
+          },
+          "item": {
+            "key": "aerobics_80s",
+            "ko": "80년대 에어로빅",
+            "en": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband"
+          },
+          "posture": {
+            "key": "lie_front",
+            "ko": "엎드리기",
+            "en": "lying on her front"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "chin_both · chin_both"
+        },
+        "garments": [
+          "leggings"
+        ],
+        "expose": [
+          "side cutouts",
+          "one-shoulder cut"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}
