@@ -1,0 +1,22 @@
+{
+  "character": "맘복치",
+  "status": "images, thumbnails and dex registration published",
+  "image_commit": "c2dde8ac7ffe4eca48413cd661dfce8d0bb463b4",
+  "registration_commit": "1e6e43d0f0547e7efd4d4be9043132b3b162618e",
+  "thumbnail_workflow": 41274301908,
+  "registration_workflow": 41274336774,
+  "visual_qa_passed": true,
+  "casual_look_passed": true,
+  "protocol_compliant": false,
+  "planning_validation": {
+    "result": "one unresolved planning condition",
+    "error": "맘복치: SOURCE 영향도 구성이 깜놀버슬 와 같다",
+    "cause": "The initial sparse image-filename adapter did not disable Git core.quotePath for Korean names. This reduced fresh ledger visibility. Correct metadata enumeration was applied and a full post-publication check exposed the repeated SOURCE-axis multiset.",
+    "actual_submitted_axes_preserved": true,
+    "values_not_rewritten": true,
+    "images_not_replaced": true,
+    "user_exception_not_claimed": true
+  },
+  "additional_visual_comparison": "깜놀버슬은 선착장 수영복·회전목마 입가 손·서재 거문고이고, 맘복치는 침실 헤드폰·숲길 나침반·공원 우산과 우파다. 실제 6장을 나란히 확인했고 장소·행동·의상·구도는 구별된다.",
+  "anatomy_tool": "unavailable: mediapipe missing; visual full-image and hand-crop checks used"
+}
