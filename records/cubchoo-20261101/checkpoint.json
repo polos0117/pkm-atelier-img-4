@@ -1,0 +1,267 @@
+{
+  "card": "코고미",
+  "completed_slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2",
+    "casual3"
+  ],
+  "anchor": {
+    "card": "코고미",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+    "references": [],
+    "output": {
+      "file": "코고미_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "626fbcb5847b009ad38aac7cd1499715fd5f0ee5e8f55e52c2a2cc3a6254c436"
+    }
+  },
+  "images": [
+    {
+      "card": "코고미",
+      "slot": "light",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+      "references": [],
+      "output": {
+        "file": "코고미_light_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "626fbcb5847b009ad38aac7cd1499715fd5f0ee5e8f55e52c2a2cc3a6254c436"
+      }
+    },
+    {
+      "card": "코고미",
+      "slot": "heavy",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "e32eaff9c1b5bff060622beade4d6dc20b5a525b00f1c9f70dcb1c0964707060",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-a41e51f1-d69b-42d8-b25e-2042dfebe46f.png",
+      "references": [
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+          "sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36"
+        }
+      ],
+      "output": {
+        "file": "코고미_heavy_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "2b74baa9565e2f255762c598fedd866c111f5960fc9525106e3803074d9bfc17"
+      }
+    },
+    {
+      "card": "코고미",
+      "slot": "mobility",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "22b2d61c6cae51fe33c4904382834d5cf9828e836453ead28271f6dde4a68797",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-790cab5d-8185-4e67-82b6-3fe4a4f4fbe4.png",
+      "references": [
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+          "sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36"
+        }
+      ],
+      "output": {
+        "file": "코고미_mobility_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "76fc82eab56e76fc91d2bde3af8e05e08c62b424a3bc5508e985c2a395b675d7"
+      }
+    },
+    {
+      "card": "코고미",
+      "slot": "light_overdrive",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "174c238100423a1002a4699a615bce9080cefd3bef3a14524879a8e673f8332f",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-c0b6dcdb-010b-4b97-ba7c-d8afca99fa49.png",
+      "references": [
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+          "sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36"
+        }
+      ],
+      "output": {
+        "file": "코고미_light_overdrive_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "94cb4a88de592aff493d97091618a10fd5a1b3ed50aaa891ccb9c6d760d5dbb6"
+      }
+    },
+    {
+      "card": "코고미",
+      "slot": "heavy_overdrive",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "1f9a23770e86640a841af669434886b728c1eca0e4b5d58ac47c492c8a0249b0",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-853c0f9d-3ca1-40c5-858c-885af42d7176.png",
+      "references": [
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-a41e51f1-d69b-42d8-b25e-2042dfebe46f.png",
+          "sha256": "e32eaff9c1b5bff060622beade4d6dc20b5a525b00f1c9f70dcb1c0964707060"
+        },
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+          "sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36"
+        }
+      ],
+      "output": {
+        "file": "코고미_heavy_overdrive_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "bb7468f50d2fff28199fc29e253a0eef6f8fa0d174f2db97447457915c9bd4f6"
+      }
+    },
+    {
+      "card": "코고미",
+      "slot": "mobility_overdrive",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "fe10d70043ef19d2259e1b73d348a54cc9cd94a3723fd678e4b3a062217f80bf",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-80d8d039-71ca-40e7-a152-dfb416059350.png",
+      "references": [
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-790cab5d-8185-4e67-82b6-3fe4a4f4fbe4.png",
+          "sha256": "22b2d61c6cae51fe33c4904382834d5cf9828e836453ead28271f6dde4a68797"
+        },
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+          "sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36"
+        }
+      ],
+      "output": {
+        "file": "코고미_mobility_overdrive_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "cd9c0ad2f48416a653538a2d5364ab66e4ba35995180d0994d2ab15877d9522b"
+      }
+    },
+    {
+      "card": "코고미",
+      "slot": "casual1",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "3ca7b74d70f43173e67a82e36b09041990313697835396719d4cded2dd5b0f4e",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-d3e42bef-cf53-4866-92f3-737765140d62.png",
+      "references": [
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+          "sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36"
+        }
+      ],
+      "output": {
+        "file": "코고미_glossy_promo_f_casual1.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "13f2934bd4542a09e7749840af8f261dd6f6b0fdabf5de329d4b5b2b6a55b236"
+      }
+    },
+    {
+      "card": "코고미",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "d98f5b5918155d3ceecc8be526bbf693d8e0833ef0645b986dab26941c75d2ac",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-69f53d90-63c7-4250-9c2e-2cf76c4b85ad.png",
+      "references": [
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+          "sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36"
+        }
+      ],
+      "output": {
+        "file": "코고미_glossy_promo_f_casual2.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "3021fed0d8683fe76cef27cd24a25e76ac7ccbbbdc5a1a2ee6cedc5f9e9dd2d8"
+      }
+    },
+    {
+      "card": "코고미",
+      "slot": "casual3",
+      "style": "glossy_promo",
+      "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+      "original_sha256": "b1ecb06510e33700349ca4eb3feb5f063a7be99999aaaeb509b6a0e969e2bd22",
+      "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-bd93cd3a-0586-414b-a634-91b347fda568.png",
+      "references": [
+        {
+          "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-36fe6da3-c471-4e01-8a6c-a5b0e2021ddc.png",
+          "sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36"
+        }
+      ],
+      "output": {
+        "file": "코고미_glossy_promo_f_casual3.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "88e2735e07c62db571e9ba09679662824b66ed89a5388483d82a4d8315f750f3"
+      }
+    }
+  ],
+  "status": "validated; image publication pending",
+  "reservation_commit": "8542082f6471b3fbca18d68001d05db7495ee4e0",
+  "storage": "shared Git object store; sparse worktree; other images represented only by filename inventory"
+}

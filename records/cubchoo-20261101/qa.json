@@ -1,0 +1,175 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36",
+    "observations": "Short silver-blue curls and straight bangs frame a rounded face with downturned pale gray-blue eyes and full lips. White slim armor has rounded blue shoulders and an ice-drop chest jewel. Right palm open with five digits, left hand relaxed; both boots visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm: thumb and four separate fingers; left relaxed curled hand: five digit shapes with some overlap; both wrists connect naturally.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e32eaff9c1b5bff060622beade4d6dc20b5a525b00f1c9f70dcb1c0964707060",
+    "observations": "Stacked rounded white chest, shoulder, hip and shin plates widen the outline; crown/temple armor leaves face and bangs clear. Same extended right palm and relaxed left hand as light.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm: thumb and four separate fingers; left relaxed curled hand: five digit shapes with some overlap; both wrists connect naturally.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "22b2d61c6cae51fe33c4904382834d5cf9828e836453ead28271f6dde4a68797",
+    "observations": "Split swept shoulder, hip and calf panels reveal blue compact thrusters and open gaps; no giant wings. Same short curls and pale eyes, complete feet in frame.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm: thumb and four separate fingers; left relaxed curled hand: five digit shapes with some overlap; both wrists connect naturally.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "174c238100423a1002a4699a615bce9080cefd3bef3a14524879a8e673f8332f",
+    "observations": "Same pose and camera as light. Thin white plates open at hinges over blue crystalline inner frame; eyes stay gray-blue, no new weapon.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm: thumb and four separate fingers; left relaxed curled hand: five digit shapes with some overlap; both wrists connect naturally.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "1f9a23770e86640a841af669434886b728c1eca0e4b5d58ac47c492c8a0249b0",
+    "observations": "Same heavy stance. Layered round plates swing open around shoulders, arms, chest and legs with visible hinges and frosted blue cores. Both hands retain original shapes.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm: thumb and four separate fingers; left relaxed curled hand: five digit shapes with some overlap; both wrists connect naturally.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "fe10d70043ef19d2259e1b73d348a54cc9cd94a3723fd678e4b3a062217f80bf",
+    "observations": "Same mobility pose; fanned panels spread and thruster covers open, with bright pale-blue ice crystals. No new limbs; full body remains in frame.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm: thumb and four separate fingers; left relaxed curled hand: five digit shapes with some overlap; both wrists connect naturally.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "3ca7b74d70f43173e67a82e36b09041990313697835396719d4cded2dd5b0f4e",
+    "observations": "Red halter retro bikini on a candlelit fashion stage. Right hand holds cream bouquet, left rests on knee, feet in sandals visible. Head turns to screen right instead of the planned screen left; recorded gaze deviation. Composition closer than environmental-long selection.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right bouquet grip: thumb/fingers partly overlap stems and ribbon; left knee hand has thumb and four fingers.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    },
+    "chosen_vs_observed": {
+      "match": true,
+      "evidence": "Red halter retro bikini on a candlelit fashion stage. Right hand holds cream bouquet, left rests on knee, feet in sandals visible. Head turns to screen right instead of the planned screen left; recorded gaze deviation. Composition closer than environmental-long selection."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "d98f5b5918155d3ceecc8be526bbf693d8e0833ef0645b986dab26941c75d2ac",
+    "observations": "White/blue bear-ear costume with ice-drop ornaments and short curls. Both hands press separate ear cups, each forearm connects to the matching shoulder. Surprised open mouth and lifted brows. Crop extends to waist instead of just below bust; recorded framing deviation.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two hands on separate ear cups; thumbs and fingertips partly hidden by headphones and cuffs; no detached/duplicated arm.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    },
+    "chosen_vs_observed": {
+      "match": false,
+      "evidence": "White/blue bear-ear costume with ice-drop ornaments and short curls. Both hands press separate ear cups, each forearm connects to the matching shoulder. Surprised open mouth and lifted brows. Crop extends to waist instead of just below bust; recorded framing deviation."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "b1ecb06510e33700349ca4eb3feb5f063a7be99999aaaeb509b6a0e969e2bd22",
+    "observations": "Walking through a warm bakery workroom with bread racks and flour table. Cropped ivory one-shoulder embroidered kebaya blouse and plum slit wrap skirt. Right hand touches the copper ear cup at her neck, left hand empty beside the hip, both sandals visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right ear-cup grip has thumb and curled fingers with slight overlap; left loose hand has five digits.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    },
+    "chosen_vs_observed": {
+      "match": false,
+      "evidence": "Walking through a warm bakery workroom with bread racks and flour table. Cropped ivory one-shoulder embroidered kebaya blouse and plum slit wrap skirt. Right hand touches the copper ear cup at her neck, left hand empty beside the hip, both sandals visible."
+    }
+  },
+  "face_checkpoint": {
+    "reason": "둥근 얼음곰의 짧고 넓은 머리를 둥근 윤곽과 부드러운 턱으로, 아래로 흐르는 얼음방울을 처진 눈꼬리와 둥근 코끝으로 해석한다. 인물은 성인 여성이고 곱슬머리는 둥근 체적에서 가져왔다.",
+    "source": [
+      "data/source-appearance.json",
+      "data/face-design.json"
+    ],
+    "face_prompt": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; drooping eyes, medium size, downturned outer corners, average spacing; thick low brows; rounded soft tip nose; full lips.",
+    "anchor_sha256": "8300c02cf8b7f8b680ba83710b3054bca2f065e8d84dd95c377837a247686f36",
+    "anchor_file": "코고미_light_glossy_promo_f.webp",
+    "compared_characters": [
+      "액슨도",
+      "불켜미",
+      "램프라",
+      "샹델라",
+      "액스라이즈"
+    ],
+    "actual_images_inspected": true,
+    "observed_difference": "Short silver curls, a rounder/wider face, downturned gray-blue eyes and rounded nose separate her from angular amber-eyed Haxorus/Fraxure and violet-eyed ghost characters. Same adult identity retained across all nine."
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "불켜미",
+      "램프라",
+      "샹델라",
+      "액스라이즈"
+    ],
+    "actual_images_inspected": true,
+    "evidence": "Compared actual recent image contact sheet and all three Haxorus outputs. Cubchoo bouquet bikini has a raised bouquet, two-piece silhouette and full seated long view, unlike Haxorus ledge-brace one-piece/yukata portrait. Headphone costume close-up has both hands at ears and surprised expression, unlike Haxorus V-sign portrait. Walking kebaya bakery scene changes place, activity, silhouette and camera from the recent photo, parasol, hair-touch and drink cuts. Mandatory casual-look check passed."
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "images": 9,
+    "regenerations": 0,
+    "note": "Exact generated prompt files; no manual prompt editing. Anatomy tool unavailable, visual checks completed."
+  }
+}

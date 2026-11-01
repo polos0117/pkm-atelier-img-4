@@ -1,0 +1,294 @@
+{
+ "version": 1,
+ "card": "코고미",
+ "no": 613,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/df1cc05c48a5/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Rounded pale-blue shoulder caps and a translucent ice-blue teardrop pendant echo the round ears and chilly droplet.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "She holds a small bouquet of cream flowers on a candlelit fashion stage.",
+   "outfit": "A secure fully lined ruby-red retro pinup bikini with a halter neckline, high-cut legs and small side cutouts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "꽃다발과 환상 무대의 구체 요소를 보충한다.",
+    "outfit": "레트로 비키니 갈래를 유지하며 계획의 노출 구조를 구현한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_chapel / retro / pinup_bikini / sit_chair / environmental / bouquet_hold",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_chapel",
+      "ko": "촛불 예배당",
+      "en": "an old stone chapel lit by candles"
+     },
+     "role": null,
+     "use": {
+      "key": "bouquet_hold",
+      "ko": "꽃다발을 든다",
+      "en": "holds a small bouquet at chest height",
+      "prop": "꽃다발"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "pinup_bikini",
+      "ko": "50년대 핀업 비키니",
+      "en": "a 1950s pin-up bikini with a high-waisted bottom and a halter top"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "guide": {
+    "tree": 2,
+    "path": "now / street_cafe / pokemon_costume / pc_crop_set / stand / chest_up / phones_press",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_cafe",
+      "ko": "카페",
+      "en": "a neighbourhood café with a counter and window seats"
+     },
+     "role": null,
+     "use": {
+      "key": "phones_press",
+      "ko": "헤드폰을 두 손으로 귀에 누른다",
+      "en": "presses over-ear headphones to her ears with both hands",
+      "prop": "헤드폰"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "strapless top",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "Her headphones have a plain brushed-copper finish; racks of fresh bread line the bakery workroom.",
+   "outfit": "A cropped one-shoulder kebaya-inspired blouse with delicate ivory embroidery and a plum wrap skirt with a high side slit, exposing one shoulder, the waist and one leg.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "목의 헤드폰과 베이커리 작업실 배경을 구체화한다.",
+    "outfit": "일상 케바야 상의를 유지하며 계획의 크롭 기장과 한쪽 어깨 노출을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / bakery_kitchen / traditional / kebaya_daily / walk / full_body / phones_neck",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "bakery_kitchen",
+      "ko": "베이커리 작업실",
+      "en": "a small bakery workroom with a floury wooden worktable and warm ovens"
+     },
+     "role": null,
+     "use": {
+      "key": "phones_neck",
+      "ko": "목에 건 헤드폰을 잡는다",
+      "en": "holds one ear cup of over-ear headphones resting around her neck",
+      "prop": "헤드폰"
+     },
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "kebaya_daily",
+      "ko": "크바야",
+      "en": "a daily kebaya — a sheer embroidered fitted blouse over a batik sarong"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · natural"
+    },
+    "garments": [
+     "blouse"
+    ],
+    "expose": [
+     "cropped hem",
+     "one-shoulder cut"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}
