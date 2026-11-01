@@ -1,0 +1,296 @@
+{
+ "version": 1,
+ "card": "메더",
+ "no": 618,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/71ebb51f7d9b/PLAN-REVISED.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Mud-brown enamel with yellow discharge markings, two rounded fan-lobe panels and delicate fin-shaped plate edges; a sly small smile echoes her harmless-looking electric trap.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s",
+    "hair color": "brown",
+    "eye color": "amber",
+    "body type": "curvy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A small Stunfisk companion waits beside a shallow muddy garden pond, close to the offered berry.",
+   "outfit": "A light lavender cotton bath yukata with a soft sash, shortened above the knee with a high thigh overlap slit; the chest and hips remain covered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "마당 동료의 종을 메더 한 마리로 정하고 진흙 연못을 보충한다.",
+    "outfit": "고른 목욕 유카타를 유지하며 짧은 기장과 높은 겹침 트임으로 다리를 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_yard / bath / bath_yukata / squat / full_body / treat_offer",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_yard",
+      "ko": "울타리 친 풀밭 마당",
+      "en": "an enclosed grassy courtyard with a low wooden fence"
+     },
+     "role": null,
+     "use": {
+      "key": "treat_offer",
+      "ko": "동료에게 간식을 내민다",
+      "en": "offers a small berry treat to her companion",
+      "prop": "나무열매 간식"
+     },
+     "ofam": {
+      "key": "bath",
+      "ko": "목욕 차림",
+      "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+     },
+     "item": {
+      "key": "bath_yukata",
+      "ko": "목욕 유카타",
+      "en": "a light cotton bath yukata with a soft sash"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "cropped hem",
+     "high thigh slit"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Small foam fans trace the wet sand beside a pale coral sun lounger.",
+   "outfit": "A fully lined black swimsuit with side waist cutouts and a light peach yukata worn open, its loose neckline resting off the shoulders.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "해변 장면에 기대 누울 선베드와 젖은 모래의 물거품을 구체화한다.",
+    "outfit": "수영복 위 열린 유카타를 유지하며 계획의 오프숄더와 옆 컷아웃을 의상 구조로 보충한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / water_beach / swimwear / yukata_over / recline / environmental / shades_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "water_beach",
+      "ko": "해변",
+      "en": "a sunny beach with wet sand and shallow surf"
+     },
+     "role": null,
+     "use": {
+      "key": "shades_hold",
+      "ko": "접은 선글라스를 든다",
+      "en": "holds folded a pair of sunglasses by one arm",
+      "prop": "선글라스"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "yukata_over",
+      "ko": "수영복 위 유카타",
+      "en": "swimwear with a light yukata worn open over it"
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "behind_head · prop"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Golden afternoon light falls over the garden reception walkway and its flowering arch.",
+   "outfit": "A Stunfisk costume with an opaque mud-brown laced corset bustier, small yellow fan-shaped costume trims and a short flared skirt that fully covers the hips, with a broad decorative belt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "새로 선택된 결혼식 장소를 햇빛 드는 정원 피로연 길로 구체화한다.",
+    "outfit": "차단된 하이컷 바디수트와 스타킹 대신 새로 계획된 코르셋과 불투명 플레어 스커트의 별도 의상으로 변경한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_convention / pokemon_costume / pc_bodysuit / walk / three_quarter",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_convention",
+      "ko": "코스프레 행사",
+      "en": "a convention photo zone under ring lights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "strapless top",
+     "bare midriff"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

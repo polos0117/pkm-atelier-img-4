@@ -1,0 +1,215 @@
+{
+ "card": "메더",
+ "reviewer": "gpt",
+ "accepted": true,
+ "tool_mode": "built-in image_gen",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "검은 장갑 양손의 굽힌 손가락을 확대 대조했다. 손가락 일부가 포개지지만 추가 손가락이나 분리된 손은 보이지 않는다.",
+    "overlay_checked": false,
+    "note": "양손목이 각 아래팔에 연결되고 두 장갑 부츠가 각각 정강이와 이어진다."
+   },
+   "visible_observation": "갈색·노랑 판이 어깨·팔·허리·정강이에 이어지고 얼굴과 두 발이 프레임 안에 있다."
+  },
+  "heavy": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "검은 장갑 양손의 굽힌 손가락을 확대 대조했다. 손가락 일부가 포개지지만 추가 손가락이나 분리된 손은 보이지 않는다.",
+    "overlay_checked": false,
+    "note": "양손목이 각 아래팔에 연결되고 두 장갑 부츠가 각각 정강이와 이어진다."
+   },
+   "visible_observation": "갈색·노랑 판이 어깨·팔·허리·정강이에 이어지고 얼굴과 두 발이 프레임 안에 있다."
+  },
+  "mobility": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "검은 장갑 양손의 굽힌 손가락을 확대 대조했다. 손가락 일부가 포개지지만 추가 손가락이나 분리된 손은 보이지 않는다.",
+    "overlay_checked": false,
+    "note": "양손목이 각 아래팔에 연결되고 두 장갑 부츠가 각각 정강이와 이어진다."
+   },
+   "visible_observation": "갈색·노랑 판이 어깨·팔·허리·정강이에 이어지고 얼굴과 두 발이 프레임 안에 있다."
+  },
+  "light_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "검은 장갑 양손의 굽힌 손가락을 확대 대조했다. 손가락 일부가 포개지지만 추가 손가락이나 분리된 손은 보이지 않는다.",
+    "overlay_checked": false,
+    "note": "양손목이 각 아래팔에 연결되고 두 장갑 부츠가 각각 정강이와 이어진다."
+   },
+   "visible_observation": "갈색·노랑 판이 어깨·팔·허리·정강이에 이어지고 얼굴과 두 발이 프레임 안에 있다.",
+   "opened_pair": {
+    "match": true,
+    "evidence": "대응 일반 폼과 발 위치·팔 위치·얼굴 크기가 유지되며 어깨·허리·정강이 판 사이에 금색 내부 프레임이 드러난다."
+   }
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "검은 장갑 양손의 굽힌 손가락을 확대 대조했다. 손가락 일부가 포개지지만 추가 손가락이나 분리된 손은 보이지 않는다.",
+    "overlay_checked": false,
+    "note": "양손목이 각 아래팔에 연결되고 두 장갑 부츠가 각각 정강이와 이어진다."
+   },
+   "visible_observation": "갈색·노랑 판이 어깨·팔·허리·정강이에 이어지고 얼굴과 두 발이 프레임 안에 있다.",
+   "opened_pair": {
+    "match": true,
+    "evidence": "대응 일반 폼과 발 위치·팔 위치·얼굴 크기가 유지되며 어깨·허리·정강이 판 사이에 금색 내부 프레임이 드러난다."
+   }
+  },
+  "mobility_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "검은 장갑 양손의 굽힌 손가락을 확대 대조했다. 손가락 일부가 포개지지만 추가 손가락이나 분리된 손은 보이지 않는다.",
+    "overlay_checked": false,
+    "note": "양손목이 각 아래팔에 연결되고 두 장갑 부츠가 각각 정강이와 이어진다."
+   },
+   "visible_observation": "갈색·노랑 판이 어깨·팔·허리·정강이에 이어지고 얼굴과 두 발이 프레임 안에 있다.",
+   "opened_pair": {
+    "match": true,
+    "evidence": "대응 일반 폼과 발 위치·팔 위치·얼굴 크기가 유지되며 어깨·허리·정강이 판 사이에 금색 내부 프레임이 드러난다."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "열매를 집는 오른손의 엄지·검지가 분명하고 나머지 세 손가락은 말려 겹친다. 무릎 위 왼손은 네 손가락이 보이고 엄지는 무릎 쪽에 부분 가려진다.",
+    "overlay_checked": false,
+    "note": "양팔이 각각 어깨·팔꿈치·손목으로 이어진다. 쪼그린 두 다리와 샌들 두 짝이 구분된다."
+   },
+   "visible_observation": "보랏빛 꽃무늬 유카타를 입고 낮게 웅크려 오른손으로 열매를 내민다. 왼손은 무릎 위에 놓였고 동료 메더 한 마리가 진흙 연못에 있다."
+  },
+  "casual2": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "머리 뒤 오른손 손가락은 머리카락에 가려짐. 왼손은 선글라스 다리를 잡아 엄지와 네 손가락이 부분 겹친다.",
+    "overlay_checked": false,
+    "note": "머리 뒤 오른팔은 오른쪽 어깨에서 위팔·팔꿈치·아래팔로 이어지며 제3의 팔은 없다. 포개진 두 다리 끝에 발 두 개가 겹쳐 보인다."
+   },
+   "visible_observation": "산호색 유카타를 열어 입고 검은 컷아웃 수영복 차림으로 선베드에 기대 누웠다. 오른팔은 머리 뒤로 올라가고 왼손이 선글라스를 든다. 다리는 앞에서 포개진다."
+  },
+  "casual3": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "갈색 긴 피시테일 브레이드, 호박색 눈과 둥근 턱, 작은 미소가 경장과 이어진다."
+   },
+   "dimensions": {
+    "match": true,
+    "evidence": "Pillow로 1024×1536 확인"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe module is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "오른손은 땋은 머리를 쥐어 손가락 일부가 가려지고 엄지 위치가 읽힌다. 왼손은 치맛자락을 잡아 엄지와 네 손가락이 겹친다.",
+    "overlay_checked": false,
+    "note": "팔 두 개가 각 어깨에서 자연스럽게 내려온다. 다리 둘은 허벅지까지 보이고 무릎 아래는 프레이밍 밖이다."
+   },
+   "visible_observation": "꽃 아치 정원의 갈색 레이스업 코르셋과 노란 부채 무늬 플레어 스커트. 왼손은 스커트, 오른손은 땋은 머리를 가볍게 잡고 있다.",
+   "deviations": [
+    "선택한 rear_3q보다 몸이 정면 3/4에 가깝다.",
+    "눈썹을 크게 올리는 선택값보다 편안한 미소에 가깝다."
+   ]
+  }
+ },
+ "casual_similarity": "tools/casual-look.cjs check 통과. 가장 낮은 기존 컷 점수 236으로 재계획 문턱 215 이상.",
+ "visual_diversity": {
+  "compared": [
+   "프리지오",
+   "쪼마리",
+   "어지리더"
+  ],
+  "evidence": "최근 9개 일상컷과 나란히 대조했다. 마당 웅크림·해변 선베드 눕기·정원 코르셋 서기가 구도와 옷 실루엣에서 구분된다.",
+  "face_evidence": "최근 경장 셋과 비교해 메더는 더 넓은 눈 간격과 둥근 턱, 넓고 낮은 콧대 및 도톰한 입술을 가진다."
+ },
+ "skipped": []
+}

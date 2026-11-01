@@ -1,0 +1,40 @@
+{
+ "card": "메더",
+ "anchor": {
+  "slot": "light",
+  "source": "/workspace/scratch/71ebb51f7d9b/generated_images/exec-cb1abbec-efc4-49de-a5b9-40e563b19fcd.png",
+  "source_sha256": "671e1bc3ad4cf3cbd738a803160f61cac73c38eee4835681040fe887e2ef39ca",
+  "filename": "메더_light_glossy_promo_f.webp",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "sha256": "b7028131f8baefb1eba5520adef80323c6ae7b4f20ebeedd53f3b3a271aca1df",
+  "reference": []
+ },
+ "completed_slots": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "face_reason": "메더의 넓고 낮은 물고기 체적을 둥근 타원형 턱과 넓은 눈 간격·낮은 콧대로 해석하고, 도감의 방전 때 작은 미소를 도톰한 입술과 느슨한 표정으로 반영했다. 얼굴 설계는 data/face-design.json 618번을 사용했다.",
+ "source_evidence": [
+  "data/card.json 618",
+  "data/source-appearance.json 618",
+  "data/face-design.json 618"
+ ],
+ "comparisons": [
+  "프리지오",
+  "쪼마리",
+  "어지리더"
+ ],
+ "plan_check": "491 registered character records + current reservations, fresh check passed",
+ "pending": "publish and verify thumbnails/registration"
+}
