@@ -1,0 +1,212 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "accepted": true,
+  "anatomy_tool": "unavailable: mediapipe is not installed; checker returned exit 3; visual counting used",
+  "compared_characters": [
+    "탱탱겔",
+    "탱그릴",
+    "뽀록나"
+  ],
+  "face_reason": "원작의 heart-shaped body와 round eyes를 하트형 윤곽·수평 눈매·넓은 눈 간격으로 옮겼다. 종별 설계의 젖은 듯 넘긴 머리를 적용했다. 둥근 눈·도톰한 입술은 최근의 탱그릴의 가는 눈과 뽀록나의 날카로운 턱·눈매와 구분된다. 맘복치는 진화 계열이 없다.",
+  "face_observed_difference": "설계는 중간 머리이나 결과는 어깨 아래로 길게 흐른다. 이 경장 이미지를 정본으로 확정하고 후속에서 유지했다.",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "a5427ce16f9e79125195c9cd0f7fe8ca793f705c333007ea23cd98b9b8ce4dd4",
+      "observations": "분홍 머리·진한 갈색 눈·도톰한 입술. 한 겹 어깨·전완·정강이 판과 흰 몸통판, 양쪽 부츠가 프레임 안에 있다.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 전신의 머리와 두 부츠가 화면 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카드: 양손 각각 5개 구분, 굽힌 손가락은 일부 겹침. 엄지가 각 손 안쪽.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "bbc176e659fb44e4983e133a9ca8f287e4509924d96f8944fdaf93c3561b16e8",
+      "observations": "같은 이마·눈·입술과 머리 흐름. 어깨·전완·허벅지에 판이 두세 겹 겹쳐 경장보다 두꺼워졌다.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 전신의 머리와 두 부츠가 화면 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카드: 양손 각각 5개 구분, 굽힌 손가락은 일부 겹침. 엄지가 각 손 안쪽.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "13c3ef0b6f789e70b528b6533fe9aa904f6e0d6138ffcaf6f3dfabe9d0e40c20",
+      "observations": "같은 얼굴과 분홍 머리. 얇고 긴 핀형 판, 골반·어깨·발목의 원형 추진장치가 보인다.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 전신의 머리와 두 부츠가 화면 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카드: 양손 각각 5개 구분, 굽힌 손가락은 일부 겹침. 엄지가 각 손 안쪽.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "185a30e044aa7e5319054779508ee26440fe7d6545cba89a30a8a0d8255fde35",
+      "observations": "경장과 같은 발 위치·머리 기울기. 어깨·가슴·허벅지·정강이의 원래 이음새가 열려 청색 내부 광채가 드러난다.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 전신의 머리와 두 부츠가 화면 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카드: 양손 각각 5개 구분, 굽힌 손가락은 일부 겹침. 엄지가 각 손 안쪽.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "b6693b8379d9ca829112638e475b44ab41230b6f4e4f8928fc02c11033db4ce4",
+      "observations": "중장의 겹친 어깨·허벅지 판이 위로 벌어져 검은 내부 프레임과 푸른 기포 같은 광채를 보인다. 얼굴·발 위치 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 전신의 머리와 두 부츠가 화면 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카드: 양손 각각 5개 구분, 굽힌 손가락은 일부 겹침. 엄지가 각 손 안쪽.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "0d7f6513ab44be4234562080c32ac0e2294a759be285d94ac56e46667457ccb0",
+      "observations": "고기동의 핀판과 원형 장치가 열리고 물빛 분사가 나온다. 얼굴·눈 색과 다리 교차 구도가 유지된다.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 전신의 머리와 두 부츠가 화면 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카드: 양손 각각 5개 구분, 굽힌 손가락은 일부 겹침. 엄지가 각 손 안쪽.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "0029c30e097f2fe099e453138e73c4815cdde93c307ecaed13e309102f403f96",
+      "observations": "침실의 침대와 거울 앞 벨벳 의자. 오른팔은 머리 뒤로 올라가고 왼손은 목의 헤드폰 이어컵을 잡는다. 자주색 드레스·열린 크림색 코트, 어깨와 쇄골이 보인다.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 침실은 상반신 확대, 숲길은 허벅지 위, 공원은 신발까지 담겨 크기가 다르다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "왼손 헤드폰을 잡은 네 손가락과 안쪽 엄지; 오른손은 머리 뒤에 가려짐. 오른팔은 어깨에서 위로 연결된다. 다리는 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      },
+      "actual_differences": "chest_up보다 아래까지 보이며 헤드폰과 배경에 맘복치 장식이 남음. 기록만 하는 항목."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "01221e0816f9818614d95a892244d09cc4bc69e16811f893a55351907c14bf41",
+      "observations": "숲길 표지목 뒤로 호수가 보인다. 벌어진 입·커진 눈으로 나침반을 본다. 남색 원숄더 수영복과 꽃무늬 유카타, 양 어깨와 허리 옆이 드러난다.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 침실은 상반신 확대, 숲길은 허벅지 위, 공원은 신발까지 담겨 크기가 다르다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "나침반 손 네 손가락과 물체 뒤에 가린 엄지. 반대 손 네 손가락과 안쪽 엄지. 양팔이 각 어깨에서 자연스럽게 이어진다. 다리는 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      },
+      "actual_differences": "waist_up보다 넓게 허벅지 위까지 담김. 유카타가 계획보다 길다. 주요 의상과 활동은 유지."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "d69dbf8f54e7e4e2725cf40bd7041ab3b02e3d4e3969caad999bccd3f3346125",
+      "observations": "젖은 공원 벤치에 앉아 우산을 잡고 화면 오른쪽을 본다. 무릎을 모은 회색 점프슈트, 운동화, 옆에 우파 한 마리. 쇄골·양 어깨가 드러난다.",
+      "identity": {
+        "match": true,
+        "evidence": "뒤로 넘긴 분홍 머리, 둥근 큰 눈, 좁아지는 턱과 도톰한 입술을 경장과 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 침실은 상반신 확대, 숲길은 허벅지 위, 공원은 신발까지 담겨 크기가 다르다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "우산 손 네 손가락과 안쪽 엄지 일부 가림; 무릎 위 손은 엄지와 네 손가락. 두 다리와 신발이 골반 아래로 연결된다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손 확대를 함께 보고 팔 두 개·관절 방향·떨어진 손 유무를 확인했다."
+      },
+      "actual_differences": "planned gaze screen_left와 달리 화면 오른쪽을 본다. off-shoulder 점프슈트는 계획과 맞으나 activewear보다 패션용 실루엣. 기록만 하는 항목."
+    }
+  },
+  "diversity_comparison": {
+    "accepted": true,
+    "evidence": "이번 셋은 기대 누운 침실 확대/서서 나침반을 보는 숲길/우파와 벤치에 앉은 공원 전신으로 구분된다. 최근 탱탱겔의 바·웨딩·콘테스트, 탱그릴의 유적·체육관·주방, 뽀록나의 셀피·휴식·기기 확인과 실제 그림을 나란히 비교했다. 이번의 이어컵·나침반·우산 동작과 드레스/수영복+유카타/점프슈트 실루엣이 다르다.",
+    "casual_look": "pass; nearest scores 285,303,248; no pair below 215"
+  }
+}

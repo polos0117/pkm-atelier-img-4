@@ -1,0 +1,299 @@
+{
+ "version": 1,
+ "card": "맘복치",
+ "no": 594,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/db1de8b15476/packs/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Late afternoon light spills across a velvet chaise beside the bed; a dressing mirror and a folded performance program suggest her rehearsal break.",
+   "outfit": "A plum stage mini dress with a high thigh slit and an open cropped ivory coat, showing the collarbones and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 침실에 휴식 시간의 빛과 공연 준비 흔적만 보충한다.",
+    "outfit": "계획의 coat+dress와 미니 기장·슬릿을 무대 의상에 적용한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / home_bedroom / costume / recline / chest_up / phones_neck",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_bedroom",
+      "ko": "침실",
+      "en": "her bedroom, an unmade bed and soft window light"
+     },
+     "role": null,
+     "use": {
+      "key": "phones_neck",
+      "ko": "목에 건 헤드폰을 잡는다",
+      "en": "holds one ear cup of over-ear headphones resting around her neck",
+      "prop": "헤드폰"
+     },
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "behind_head · prop"
+    },
+    "garments": [
+     "coat",
+     "dress"
+    ],
+    "expose": [
+     "mini length",
+     "high thigh slit"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A compass needle catches the last sunlight beside a cedar trail post near a lakeside bathing spot.",
+   "outfit": "Swimwear with a light yukata worn open over it: a fully lined navy one-shoulder swimsuit and a cropped cream yukata, revealing one shoulder and the waist.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "나침반 동작에 가까운 호숫가 숲길의 시간대와 구체적인 표지목을 보충한다.",
+    "outfit": "선택한 수영복 위 유카타를 유지하며 계획의 원숄더·짧은 기장을 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_trail / swimwear / yukata_over / stand / waist_up / job_compass",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_trail",
+      "ko": "숲길 조사지",
+      "en": "a forest trail edge with a marked trail post, used for wild Pokémon field surveys"
+     },
+     "role": {
+      "ko": "탐사 지도 제작자",
+      "en": "an expedition cartographer"
+     },
+     "use": {
+      "key": "job_compass",
+      "ko": "나침반을 평평히 들고 방향을 본다",
+      "en": "holds a brass compass level to check the way",
+      "prop": "놋쇠 나침반"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "yukata_over",
+      "ko": "수영복 위 유카타",
+      "en": "swimwear with a light yukata worn open over it"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · natural"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "cropped hem"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "A small Wooper shelters beside the bench from a passing sunshower; fallen leaves glisten on the path.",
+   "outfit": "A charcoal strapless activewear jumpsuit with a softly folded off-shoulder neckline, exposing her shoulders and collarbones.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "동료 묶음에 필요한 우파 한 마리와 우산의 용도가 되는 소나기를 구체화한다.",
+    "outfit": "계획의 jumpsuit를 운동복 소재로 만들고 스트랩리스·오프숄더 구조를 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_park / active / sit_chair / environmental / umbrella_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_park",
+      "ko": "공원 산책길",
+      "en": "a park path lined with trees and benches"
+     },
+     "role": null,
+     "use": {
+      "key": "umbrella_hold",
+      "ko": "우산을 쓴다",
+      "en": "holds an umbrella open over her shoulder",
+      "prop": "우산"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "strapless top",
+     "off-shoulder neckline"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
