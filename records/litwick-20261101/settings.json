@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "card": "불켜미",
+  "no": 607,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/9c3fa9045869/PLAN-litwick-final.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Late-afternoon sun filters through the broad tree beside one small Pumpkaboo resting separately on the picnic blanket.",
+      "outfit": "Fitted blue denim overalls with low side openings over a short coral cropped top, exposing the side waist and midriff.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "동료 묶음 규칙에 따라 별도로 있는 호박 포켓몬 한 마리와 오후 햇살 명시.",
+        "outfit": "기존 멜빵바지+크롭 상의를 유지하고 옆 허리 노출 구조 보충."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / partner_lawn / everyday / overalls / stand / waist_up / basket_carry",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "partner_lawn",
+            "ko": "그늘진 잔디밭",
+            "en": "a shaded lawn with a picnic blanket under a broad tree"
+          },
+          "role": null,
+          "use": {
+            "key": "basket_carry",
+            "ko": "나무열매 바구니를 팔에 건다",
+            "en": "carries a woven basket of berries in the crook of her arm",
+            "prop": "나무열매 바구니"
+          },
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "overalls",
+            "ko": "멜빵바지",
+            "en": "fitted denim overalls over a cropped top"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · pocket"
+        },
+        "garments": [
+          "crop_top",
+          "overalls"
+        ],
+        "expose": [
+          "bare midriff",
+          "cropped hem"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "The market stall displays a small tray of polished keepsakes under a canvas awning.",
+      "outfit": "A fully opaque ivory Litwick hooded mini dress with a softly folded wax-drip hem and a small violet flame applique on the hood. The short dress leaves the legs visible and has a narrow upper-back opening beneath the hood.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "계획기가 정한 시장에서 가판대 주변 사물을 보충.",
+        "outfit": "차단된 크롭 투피스 대신 계획기의 후드 원피스 경로를 따르는 불투명 패션 코스튬으로 변경. 짧은 기장과 작은 등 트임으로 의상 구조 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / street_market / pokemon_costume / pc_crop_set / stand / chest_up / bouquet_smell",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "street_market",
+            "ko": "시장",
+            "en": "a busy street market of food stalls and strung bulbs"
+          },
+          "role": null,
+          "use": {
+            "key": "bouquet_smell",
+            "ko": "꽃향기를 맡는다",
+            "en": "brings a small bouquet up to her face to smell the flowers",
+            "prop": "꽃다발"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_crop_set",
+            "ko": "크롭 투피스형",
+            "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "crop_top",
+          "skirt"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "strapless top"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "The masquerade ballroom has a tiled plunge pool behind its gilded lounge chairs, amber reflections dancing on the marble.",
+      "outfit": "A fully lined teal bandeau bikini with a straight strapless top, a small center notch and high-cut briefs; a short matching cropped mesh top is tied loosely at the waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "수영복과 무도회가 함께 성립하는 풀 파티 무대의 배경을 구체화.",
+        "outfit": "반두 비키니의 직선 목선을 유지하고 high-cut 다리 및 계획된 crop_top 소품을 명시."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_ballroom / swimwear / bandeau_bikini / sit_chair / full_body / glass_hold",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_ballroom",
+            "ko": "가면무도회장",
+            "en": "a chandelier ballroom at a masquerade"
+          },
+          "role": null,
+          "use": {
+            "key": "glass_hold",
+            "ko": "잔을 든다",
+            "en": "holds a cocktail glass by the stem at chest height",
+            "prop": "칵테일 잔"
+          },
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "bandeau_bikini",
+            "ko": "반두 비키니",
+            "en": "a bandeau bikini with a straight strapless top"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "bikini",
+          "crop_top"
+        ],
+        "expose": [
+          "high-cut leg",
+          "plunging neckline"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}

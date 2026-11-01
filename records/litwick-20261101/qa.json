@@ -1,0 +1,174 @@
+{
+  "reviewer": "gpt",
+  "cuts": [
+    {
+      "slot": "light",
+      "image_sha256": "bd1775dd82cf4d0b9e399a19415c1e14266522a21bcd1a23f08aaab79e53447c",
+      "accepted": true,
+      "observations": "짧은 흰 머리와 한쪽 눈을 덮는 앞머리, 보라 불꽃 머리 장식. 흰 갑주와 보라 언더수트, 보이는 눈은 원작 자료의 노랑과 다른 보라색이다. 두 팔은 아래로 내려가고 두 발은 계단 위에 있다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 짧은 흰 머리와 한쪽 눈을 덮는 앞머리, 보라 불꽃 머리 장식. 흰 갑주와 보라 언더수트, 보이는 눈은 원작 자료의 노랑과 다른 보라색이다. 두 팔은 아래로 내려가고 두 발은 계단 위에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 느슨하게 접은 장갑 손으로 손가락이 일부 겹침. 엄지가 손 안쪽으로 접히고 양 손목이 각각 팔 끝에 이어짐; 셋째 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "0f53f62c7918ba8de08a3ab4ce76e543d40c8aa013b4c268bb82af5830a522c0",
+      "accepted": true,
+      "observations": "같은 얼굴과 한쪽 눈을 덮는 짧은 머리. 어깨·팔·허벅지·정강이에 겹판이 추가되고 얼굴이 열린 머리 장식이 생긴다. 양손은 각각 한 팔의 끝에 붙는다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 같은 얼굴과 한쪽 눈을 덮는 짧은 머리. 어깨·팔·허벅지·정강이에 겹판이 추가되고 얼굴이 열린 머리 장식이 생긴다. 양손은 각각 한 팔의 끝에 붙는다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 느슨하게 접은 장갑 손으로 손가락이 일부 겹침. 엄지가 손 안쪽으로 접히고 양 손목이 각각 팔 끝에 이어짐; 셋째 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "05f1d0c3092c0c65b791077c2361293fbf5c6a601d19508da751a95a373c2a56",
+      "accepted": true,
+      "observations": "얇은 어깨 핀과 허리·종아리의 갈라진 판이 뒤로 뻗는다. 피부와 갑주 경계가 읽히며 두 다리와 팔 두 개가 이어진다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 얇은 어깨 핀과 허리·종아리의 갈라진 판이 뒤로 뻗는다. 피부와 갑주 경계가 읽히며 두 다리와 팔 두 개가 이어진다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 느슨하게 접은 장갑 손으로 손가락이 일부 겹침. 엄지가 손 안쪽으로 접히고 양 손목이 각각 팔 끝에 이어짐; 셋째 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "3ada6ecb6681c088b94e51527c429b551c4295517ff4e8d1e18c657a5f64e251",
+      "accepted": true,
+      "observations": "경장의 카메라·머리·발 위치를 유지하며 팔과 허리 판이 열려 보라 광채가 보인다. 보이는 눈은 보라색을 유지한다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 경장의 카메라·머리·발 위치를 유지하며 팔과 허리 판이 열려 보라 광채가 보인다. 보이는 눈은 보라색을 유지한다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 느슨하게 접은 장갑 손으로 손가락이 일부 겹침. 엄지가 손 안쪽으로 접히고 양 손목이 각각 팔 끝에 이어짐; 셋째 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "8afbc5c0244871b98e860bcaf50b4919f419180789e428ae8971a05324548f99",
+      "accepted": true,
+      "observations": "중장 겹판 사이로 보라빛 내부가 드러난다. 얼굴과 손·발 위치는 중장과 같고 별도 무기는 없다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 중장 겹판 사이로 보라빛 내부가 드러난다. 얼굴과 손·발 위치는 중장과 같고 별도 무기는 없다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 느슨하게 접은 장갑 손으로 손가락이 일부 겹침. 엄지가 손 안쪽으로 접히고 양 손목이 각각 팔 끝에 이어짐; 셋째 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "39c241e297e5a67144fea3180f203dd66069fd23ff46ffeb5608ad20b0711843",
+      "accepted": true,
+      "observations": "고기동 어깨·허리·정강이 판이 펼쳐지고 보라빛 원형 내부 구조가 드러난다. 기존 두 팔·다리의 위치와 눈 색 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 고기동 어깨·허리·정강이 판이 펼쳐지고 보라빛 원형 내부 구조가 드러난다. 기존 두 팔·다리의 위치와 눈 색 유지."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 느슨하게 접은 장갑 손으로 손가락이 일부 겹침. 엄지가 손 안쪽으로 접히고 양 손목이 각각 팔 끝에 이어짐; 셋째 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "95f5424bd7f99c5f4d2537f4d50c75a6631536ae2a988ed461ddbf44e6c23967",
+      "accepted": true,
+      "observations": "그늘진 잔디밭, 산호색 크롭 상의와 청 멜빵바지, 나무열매 바구니. 화면 오른쪽 돗자리에 호바귀 한 마리. 바구니를 든 손은 어깨·팔꿈치로 이어지며 반대 팔은 아래로 내려가 손이 프레임 밖이다. 계획의 주머니 손과는 다르다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 그늘진 잔디밭, 산호색 크롭 상의와 청 멜빵바지, 나무열매 바구니. 화면 오른쪽 돗자리에 호바귀 한 마리. 바구니를 든 손은 어깨·팔꿈치로 이어지며 반대 팔은 아래로 내려가 손이 프레임 밖이다. 계획의 주머니 손과는 다르다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "바구니 손잡이를 잡은 손은 네 손가락과 손잡이 쪽 엄지가 구분됨. 반대 손은 아래 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "81db85e88649b04aa1d865494df11131758b10b9f4909e1947de88d7bd5c5a1f",
+      "accepted": true,
+      "observations": "유리 지붕이 있는 상점가 의자에 앉아 흰 미니 드레스와 불꽃 장식 후드, 레이스 양산. 오른팔은 양산 손잡이로, 왼손은 허벅지 위로 이어진다. 무릎과 두 부츠가 구분된다. 계획한 민소매 미니 드레스에 후드와 떨어진 소매가 더해졌고 상체 노출은 작다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 유리 지붕이 있는 상점가 의자에 앉아 흰 미니 드레스와 불꽃 장식 후드, 레이스 양산. 오른팔은 양산 손잡이로, 왼손은 허벅지 위로 이어진다. 무릎과 두 부츠가 구분된다. 계획한 민소매 미니 드레스에 후드와 떨어진 소매가 더해졌고 상체 노출은 작다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양산 손잡이 손은 엄지와 접은 네 손가락으로 읽힘. 허벅지 위 손은 네 긴 손가락과 옆 엄지가 구분된다. 두 팔의 손목 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "716216173c93b2abb2c052dc98d79fdc031576db547890b09984b45545c0d449",
+      "accepted": true,
+      "observations": "샹들리에와 풀장이 있는 무도회 의자에 앉아 청록 반두 비키니와 시스루 매듭 상의. 잔 든 팔과 허벅지 위의 손이 각각 몸에 연결된다. 다리를 교차하고 두 샌들과 발끝이 화면 안에 있다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 샹들리에와 풀장이 있는 무도회 의자에 앉아 청록 반두 비키니와 시스루 매듭 상의. 잔 든 팔과 허벅지 위의 손이 각각 몸에 연결된다. 다리를 교차하고 두 샌들과 발끝이 화면 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "허벅지 위 손은 엄지와 긴 손가락 네 개. 잔을 잡은 손은 손가락이 잔 줄기 뒤로 일부 가려짐. 두 발의 발가락은 각각 다섯으로 읽힘.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    }
+  ],
+  "compared_characters": [
+    "저리더프",
+    "리그레",
+    "기기기어르"
+  ],
+  "diversity_comparison": "최근 저리더프·리그레·기기기어르의 실제 일상컷과 이번 여섯 장을 나란히 확인. 불켜미 1은 바구니·동료가 있는 잔디밭과 멜빵바지의 허리 위 구도, 2는 유리 지붕 상점가의 흰 미니 드레스·양산과 정면 좌석 구도, 3은 풀장 무도회의 청록 수영복·칵테일 잔과 측면 좌석 구도. 2·3은 둘 다 앉아 있지만 옷·소품 동작·인물 방향이 구별된다. 코스튬의 상체 노출은 계획보다 작아 기록만 남김.",
+  "anatomy_tool_limitation": "mediapipe absent; visual inspection performed, no automated anatomy pass claimed."
+}
