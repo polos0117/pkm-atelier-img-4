@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "card": "벰크",
+  "no": 606,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/9c3fa9045869/PLAN-revised.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "The photo booth has glossy pink curtains and a row of circular lamps just outside the tight portrait.",
+      "outfit": "A cherry-red cropped sweater with small side cutouts and tailored charcoal shorts.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "스티커 부스의 커튼·등 배치를 보충.",
+        "outfit": "자동 의상 계열에 계획한 shorts+sweater와 cropped hem·side cutouts를 구체화."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / arcade_photo / subculture / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "arcade_photo",
+            "ko": "스티커 사진기",
+            "en": "an arcade photo-sticker booth under bright ring lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "shush · out"
+        },
+        "garments": [
+          "shorts",
+          "sweater"
+        ],
+        "expose": [
+          "cropped hem",
+          "side cutouts"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual2": {
+      "scene": "Taking a turn beneath amber chandeliers, warm light catches the metallic threads of the folding fan.",
+      "outfit": "A copper lurex halter jumpsuit with a plunging neckline, a short fitted bodice and long flared legs; slim side openings expose the waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "부채의 재질과 샹들리에의 따뜻한 빛만 보충.",
+        "outfit": "선택한 디스코 점프슈트의 플레어 하의를 유지하며 목선·허리 개방 구조 명시. 계획의 mini length는 긴 플레어 하의와 상충해 짧은 상체 구성으로 해석."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_ballroom / retro / disco_halter / walk / three_quarter / fan_hold",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_ballroom",
+            "ko": "가면무도회장",
+            "en": "a chandelier ballroom at a masquerade"
+          },
+          "role": null,
+          "use": {
+            "key": "fan_hold",
+            "ko": "부채를 든다",
+            "en": "holds a folding fan open near her chest",
+            "prop": "접부채"
+          },
+          "ofam": {
+            "key": "retro",
+            "ko": "레트로",
+            "en": "a period look from a past decade"
+          },
+          "item": {
+            "key": "disco_halter",
+            "ko": "70년대 디스코",
+            "en": "a 1970s lurex halter jumpsuit with flared legs"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "plunging neckline",
+          "mini length"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "Taking a break at a market food counter lined with ceramic bowls under strings of amber bulbs.",
+      "outfit": "An opaque adult Beheeyem costume with a cropped high-neck pale-brown top, symmetrical black fabric panels and four jewel buttons, paired with a high-waisted brown skirt; small side cutouts expose the waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "계획기의 새 카운터 자세가 성립하도록 시장 가판대의 식기 배치만 명시.",
+        "outfit": "차단된 바디수트 대신 계획기의 크롭 투피스 경로에 따라 불투명 상의와 스커트 코스튬을 구체화."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / street_market / pokemon_costume / pc_bodysuit / lean_wall / full_body",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "street_market",
+            "ko": "시장",
+            "en": "a busy street market of food stalls and strung bulbs"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_bodysuit",
+            "ko": "바디수트형",
+            "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "bodysuit",
+          "leggings"
+        ],
+        "expose": [
+          "halter neck",
+          "open back"
+        ],
+        "lead": "detail"
+      }
+    }
+  }
+}

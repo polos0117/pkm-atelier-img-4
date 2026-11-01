@@ -1,0 +1,174 @@
+{
+  "reviewer": "gpt",
+  "cuts": [
+    {
+      "slot": "light",
+      "image_sha256": "c79363451f20a4502ac2c154c2cb482e27e7615c010500c98d64d4b94466fc43",
+      "accepted": true,
+      "observations": "긴 갈색 히메컷과 일자 앞머리, 좁은 턱선. 화면 왼쪽 팔은 앞으로 뻗고 반대 팔은 아래로 내려간다. 갈색 한 겹 장갑과 검은 대칭선, 러플 칼라. 두 발이 바닥에 닿고 프레임 안에 있다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 긴 갈색 히메컷과 일자 앞머리, 좁은 턱선. 화면 왼쪽 팔은 앞으로 뻗고 반대 팔은 아래로 내려간다. 갈색 한 겹 장갑과 검은 대칭선, 러플 칼라. 두 발이 바닥에 닿고 프레임 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 장갑 손은 엄지와 네 손가락이 구분됨. 아래로 내린 손은 손가락이 구부러져 일부 겹침; 별도 손이나 중복 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "d6a5258aba4d06a9014ff2ddea37ebc173bcc413d951229980f17890c82af443",
+      "accepted": true,
+      "observations": "동일 얼굴·머리, 어깨·허벅지·정강이에 여러 겹 판이 쌓이고 얼굴이 열린 머리 장갑이 추가된다. 두 팔과 두 다리의 연결은 자연스럽다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 동일 얼굴·머리, 어깨·허벅지·정강이에 여러 겹 판이 쌓이고 얼굴이 열린 머리 장갑이 추가된다. 두 팔과 두 다리의 연결은 자연스럽다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 장갑 손은 엄지와 네 손가락이 구분됨. 아래로 내린 손은 손가락이 구부러져 일부 겹침; 별도 손이나 중복 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "2085b3d3682ef982c31212339fc980f19a6bcdfbed1c09403007b611eafd2c82",
+      "accepted": true,
+      "observations": "어깨·허리·정강이 판이 가늘게 갈라져 바깥으로 펼쳐진다. 얼굴과 팔다리 위치는 경장과 같고 장갑 실루엣은 중장보다 가늘다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 어깨·허리·정강이 판이 가늘게 갈라져 바깥으로 펼쳐진다. 얼굴과 팔다리 위치는 경장과 같고 장갑 실루엣은 중장보다 가늘다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 장갑 손은 엄지와 네 손가락이 구분됨. 아래로 내린 손은 손가락이 구부러져 일부 겹침; 별도 손이나 중복 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "795b0d6fab02c93a89ebe82924e9caaf15b6eae226627d741e525c2b3693ea08",
+      "accepted": true,
+      "observations": "경장과 얼굴·손·발 위치가 이어진다. 팔·허리·정강이 기존 판 이음새가 열려 분홍 에스퍼 광채와 내부 구조가 보인다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 경장과 얼굴·손·발 위치가 이어진다. 팔·허리·정강이 기존 판 이음새가 열려 분홍 에스퍼 광채와 내부 구조가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 장갑 손은 엄지와 네 손가락이 구분됨. 아래로 내린 손은 손가락이 구부러져 일부 겹침; 별도 손이나 중복 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "2519164a47ca001adc85773fc8968ad9f85b2a6d491be9eb2444681e796f404c",
+      "accepted": true,
+      "observations": "중장 어깨의 여러 층 판과 허벅지 판이 벌어져 분홍 내부 링과 프레임이 드러난다. 머리 장갑·눈 색·자세는 닫힌 폼과 이어진다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 중장 어깨의 여러 층 판과 허벅지 판이 벌어져 분홍 내부 링과 프레임이 드러난다. 머리 장갑·눈 색·자세는 닫힌 폼과 이어진다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 장갑 손은 엄지와 네 손가락이 구분됨. 아래로 내린 손은 손가락이 구부러져 일부 겹침; 별도 손이나 중복 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "d71b4bcc70a1bf77ba79bd357499d2d8a6653a636b0339fea822e42825114cbb",
+      "accepted": true,
+      "observations": "고기동의 가는 판이 부채처럼 벌어지고 어깨와 종아리 내부 링에 분홍빛이 켜진다. 두 손과 발 위치는 닫힌 폼과 같다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 고기동의 가는 판이 부채처럼 벌어지고 어깨와 종아리 내부 링에 분홍빛이 켜진다. 두 손과 발 위치는 닫힌 폼과 같다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 장갑 손은 엄지와 네 손가락이 구분됨. 아래로 내린 손은 손가락이 구부러져 일부 겹침; 별도 손이나 중복 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "b44b0c218366eadfdb5f5fbff51d677da144571f8907f2b6df8e194c0f6d306f",
+      "accepted": true,
+      "observations": "핑크 커튼과 둥근 사진기 조명 앞 얼굴 클로즈업. 붉은 니트와 한 손 검지의 쉿 동작, 반쯤 감긴 눈과 살짝 열린 입. 다른 손·하체는 프레임 밖이다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 핑크 커튼과 둥근 사진기 조명 앞 얼굴 클로즈업. 붉은 니트와 한 손 검지의 쉿 동작, 반쯤 감긴 눈과 살짝 열린 입. 다른 손·하체는 프레임 밖이다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검지 하나를 입술에 대고 나머지 손가락을 자연스럽게 접음. 접은 손가락은 일부 겹침. 반대 손은 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "c529c0d85e13ae7728d211ba0fff586f389d27305055ac59715ad2ce5a7c2c0e",
+      "accepted": true,
+      "observations": "샹들리에 무도회에서 구릿빛 홀터 점프슈트와 접부채. 몸통은 뒤 3/4, 얼굴은 어깨 너머, 한 눈을 감고 웃는다. 부채 손과 아래로 내린 반대 팔이 분리되어 연결된다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 샹들리에 무도회에서 구릿빛 홀터 점프슈트와 접부채. 몸통은 뒤 3/4, 얼굴은 어깨 너머, 한 눈을 감고 웃는다. 부채 손과 아래로 내린 반대 팔이 분리되어 연결된다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "아래 손의 긴 손가락 네 개와 측면 엄지가 구분됨. 부채 손은 네 손가락이 부채살에 닿고 엄지는 뒤에 가려짐.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "5906305109a08ffcf36e771f690e9fa8c26b27b98a935c29a9ca2be1234c434b",
+      "accepted": true,
+      "observations": "시장 음식 카운터 앞 갈색 크롭 상의와 스커트 코스튬, 네 검은 보석 단추. 두 팔은 양쪽 카운터로 이어지고 허리가 드러난다. 계획한 뒤 3/4보다 정면에 가깝다. 손끝과 하체는 프레임/그릇에 가려진다.",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 머리 길이·앞머리·눈매·턱선과 체형을 대조함. 시장 음식 카운터 앞 갈색 크롭 상의와 스커트 코스튬, 네 검은 보석 단추. 두 팔은 양쪽 카운터로 이어지고 허리가 드러난다. 계획한 뒤 3/4보다 정면에 가깝다. 손끝과 하체는 프레임/그릇에 가려진다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (ModuleNotFoundError)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 손은 그릇과 프레임에 가려져 일부만 보임. 반대 손은 프레임 가장자리. 모두 세는 것은 불가; 손목과 팔 연결은 확인.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 눈으로 검수. 크롭 밖·가려진 부위는 실제 개수를 단정하지 않음."
+      }
+    }
+  ],
+  "compared_characters": [
+    "저리더프",
+    "리그레",
+    "기기기어르"
+  ],
+  "diversity_comparison": "최근 실제 일상컷 9장과 병렬로 확인. 벰크는 사진 부스의 쉿 클로즈업·부채를 든 홀터 점프슈트·시장 카운터의 투피스 코스튬으로 구별됨. 불켜미의 잔디밭 멜빵바지와 동료·시장 코스튬·풀장 무도회 좌석 수영복도 활동·의상·화각이 다름.",
+  "anatomy_tool_limitation": "mediapipe absent; visual inspection performed, no automated anatomy pass claimed."
+}
