@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "card": "저리더프",
+  "no": 604,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/6c6fb761ec7a/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "A porcelain teacup has a slim handle; a padded picnic lounger rests among the flat lakeside stones at an outdoor costume tea event.",
+      "outfit": "A black-and-white adult maid costume with a fitted one-shoulder bodice, one short puff sleeve and a full apron cut to mini length, revealing one shoulder and the thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택된 컵과 누울 받침의 재질, 호숫가 테마 행사만 구체화.",
+        "outfit": "메이드 보디스·퍼프소매·앞치마를 유지하며 한쪽 어깨와 미니 기장 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / travel_lake / roleplay / adult_maid / recline / environmental / cup_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "travel_lake",
+            "ko": "호숫가",
+            "en": "a lakeside of flat rocks and still water"
+          },
+          "role": null,
+          "use": {
+            "key": "cup_hold",
+            "ko": "잔을 든다",
+            "en": "holds a cup at chest height",
+            "prop": "잔·컵"
+          },
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "adult_maid",
+            "ko": "메이드 코스튬",
+            "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+          },
+          "posture": {
+            "key": "recline",
+            "ko": "기대 눕기",
+            "en": "reclining on her back"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "behind_head · prop"
+        },
+        "garments": [
+          "apron"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "mini length"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual2": {
+      "scene": "Warm chandelier light gleams across the opera lobby marble and the ribs of a lacquered folding fan.",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "오페라 로비의 조명과 부채 재질을 구체화."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_opera / pokemon_costume / pc_corset / stand / chest_up / fan_raise",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_opera",
+            "ko": "극장·오페라",
+            "en": "the grand lobby and staircase of an opera house"
+          },
+          "role": null,
+          "use": {
+            "key": "fan_raise",
+            "ko": "부채로 얼굴을 가린다",
+            "en": "lifts a folding fan open to just below her eyes",
+            "prop": "접부채"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_corset",
+            "ko": "코르셋형",
+            "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "lingerie_set",
+          "skirt"
+        ],
+        "expose": [
+          "strapless top",
+          "high-cut leg"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "Paper lantern stalls line a 2010 festival street outside a temporary costume changing booth, with a smooth wooden bench edge.",
+      "outfit": "A loosely tied opaque silk robe with a low draped back and an off-shoulder neckline, securely overlapping at the bust and waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "첫 등장 시기 축제에서 로브를 입는 분장 휴식 맥락과 받침 추가.",
+        "outfit": "로브 종류를 보존하며 열린 등·오프숄더 구조 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / stage_festival / homewear / robe_morning / sit_edge / waist_up",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "stage_festival",
+            "ko": "축제 거리",
+            "en": "a festival street of lanterns, food stalls and paper decorations"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "homewear",
+            "ko": "홈웨어",
+            "en": "soft homewear or loungewear"
+          },
+          "item": {
+            "key": "robe_morning",
+            "ko": "아침 로브",
+            "en": "a loosely tied robe"
+          },
+          "posture": {
+            "key": "sit_edge",
+            "ko": "가장자리에 걸터앉기",
+            "en": "perched on a ledge or edge"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "robe"
+        ],
+        "expose": [
+          "open back",
+          "off-shoulder neckline"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}

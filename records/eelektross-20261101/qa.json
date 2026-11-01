@@ -1,0 +1,125 @@
+{
+  "card": "저리더프",
+  "status": "accepted",
+  "comparison": {
+    "actual_images": [
+      "저리어 casual1-3",
+      "저리릴 casual1-3"
+    ],
+    "result": "maid lounger wide shot, corset fan chest portrait, floral robe festival back-three-quarter portrait differ in location, activity, silhouette and framing"
+  },
+  "images": {
+    "light": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "both close-fitting gloves: five fingers, some curled and overlapping; thumbs on correct sides",
+        "overlay_checked": false,
+        "note": "original inspected at 1024x1536, hands enlarged; both arms join shoulders and wrists; no extra limb"
+      },
+      "notes": []
+    },
+    "heavy": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "both close-fitting gloves: five fingers, some curled and overlapping; thumbs on correct sides",
+        "overlay_checked": false,
+        "note": "original inspected at 1024x1536, hands enlarged; both arms join shoulders and wrists; no extra limb"
+      },
+      "notes": []
+    },
+    "mobility": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "both close-fitting gloves: five fingers, some curled and overlapping; thumbs on correct sides",
+        "overlay_checked": false,
+        "note": "original inspected at 1024x1536, hands enlarged; both arms join shoulders and wrists; no extra limb"
+      },
+      "notes": []
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "both close-fitting gloves: five fingers, some curled and overlapping; thumbs on correct sides",
+        "overlay_checked": false,
+        "note": "original inspected at 1024x1536, hands enlarged; both arms join shoulders and wrists; no extra limb"
+      },
+      "notes": []
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "both close-fitting gloves: five fingers, some curled and overlapping; thumbs on correct sides",
+        "overlay_checked": false,
+        "note": "original inspected at 1024x1536, hands enlarged; both arms join shoulders and wrists; no extra limb"
+      },
+      "notes": []
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "both close-fitting gloves: five fingers, some curled and overlapping; thumbs on correct sides",
+        "overlay_checked": false,
+        "note": "original inspected at 1024x1536, hands enlarged; both arms join shoulders and wrists; no extra limb"
+      },
+      "notes": []
+    },
+    "casual1": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "right hand hidden behind hair; left cup hand five digits with thumb partly behind handle",
+        "overlay_checked": false,
+        "note": "right upper arm bends toward head, left elbow and wrist join cup hand; legs extend from hips to ankles"
+      },
+      "notes": []
+    },
+    "casual2": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "one gloved fan hand: five digits including thumb partly occluded by fan; other below frame",
+        "overlay_checked": false,
+        "note": "both shoulders coherent; only one lifted forearm, opposite arm descends out of crop"
+      },
+      "notes": [
+        "fan appears in left hand instead of planned right; framing/hand-side variation recorded under IMAGE_RULES tolerance"
+      ]
+    },
+    "casual3": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "left support hand fingers overlap against bench; right fan hand partly cropped; no extra fingers visible",
+        "overlay_checked": false,
+        "note": "one elbow under each sleeve, shoulders connect naturally; lower legs out of waist-up frame"
+      },
+      "notes": [
+        "loose robe interpreted as floral festival yukata; head turns further toward viewer; recorded costume/pose variation under IMAGE_RULES tolerance"
+      ]
+    }
+  }
+}
