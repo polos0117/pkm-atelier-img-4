@@ -1,0 +1,208 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "b4a039fe31fec13b4bd63c231881887a3ddbad7beba16d323216906d9ab92118",
+    "observations": "Olive medium ponytail, large almond eyes and soft jaw; narrow armor plates, both feet on rock. Right hand extends toward viewer with five glove digits; left hand relaxed at hip.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm shows five digits; left curled hand has thumb opposed to folded fingers, some tips overlap. No detached hands.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "d73a2661319f7210738a782c5b64350c07a54932e016d2a4aa090d7d8c3e50e2",
+    "observations": "Same face, medium ponytail and reaching hand. Overlapping shoulder, abdomen and thigh plates thicken the silhouette; open-face headband leaves face visible.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm shows five digits; left curled hand has thumb opposed to folded fingers, some tips overlap. No detached hands.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "405fbf03372f38b8e64c8b3db6256fdc84864ad24e48c48e959030de984d5ae3",
+    "observations": "Same face, body and open hand. Slim split fins and compact green thrusters extend from shoulders and hips, without giant wings.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm shows five digits; left curled hand has thumb opposed to folded fingers, some tips overlap. No detached hands.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e1b6d483d94a007fcb4b89316282990eb32dc3a351a1d783206e9f471fd73c48",
+    "observations": "Light pose, camera and rocky peaks preserved. Existing shoulder, wrist, hip and shin seams lift and glow purple; no added weapon.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm shows five digits; left curled hand has thumb opposed to folded fingers, some tips overlap. No detached hands.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "ba14e76645eb9f19409f7ee33157b06edf28afc97a453492afae1140109055e1",
+    "observations": "Layered heavy silhouette and open face retained; existing stacked plates separate to expose purple internal light. Both hands remain attached.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm shows five digits; left curled hand has thumb opposed to folded fingers, some tips overlap. No detached hands.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "af3e7f2c218aa8ba1ab8cc595d06685aaeadd03dd03bb36efd6345695d268909",
+    "observations": "Mobility pose, slim fins and feet preserved. Existing thruster and fin seams open with purple light, without a new helmet or weapon.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right open palm shows five digits; left curled hand has thumb opposed to folded fingers, some tips overlap. No detached hands.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "a7705ac5889c39ac4cda445132dd337a6980c6fd3741a65146e55d1c5ea598f0",
+    "observations": "Kneels facing forward on a lit runway, clasping both hands under her collar. Olive and ivory Axew mini costume has horn head trim and tusk shapes. Looks toward viewer with a gentle half-smile. Costume trim is more plate-like than the requested fabric.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Clasped hands have overlapping fingers; visible thumb and finger segments belong to two wrists, hidden fingertips recorded as occluded.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    },
+    "chosen_vs_observed": {
+      "match": "deviations recorded",
+      "evidence": "Kneels facing forward on a lit runway, clasping both hands under her collar. Olive and ivory Axew mini costume has horn head trim and tusk shapes. Looks toward viewer with a gentle half-smile. Costume trim is more plate-like than the requested fabric."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "6f20a41eed274732993e6f9b47ecd96b80d06a05595ade9c32726501a6c83a59",
+    "observations": "Perched on the washer counter in a copper halter retro outfit, both hands bracing beside hips, one foot lower and one bent. Chrome machines and laundry towels identify the setting. Looks aside with raised inner brows. Split flared panels read closer to a gown than the planned jumpsuit; recorded as a wardrobe deviation.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands rest on counter edges; right fingers partly curl behind edge, left fingers spread on counter. No duplicated hand.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    },
+    "chosen_vs_observed": {
+      "match": "deviations recorded",
+      "evidence": "Perched on the washer counter in a copper halter retro outfit, both hands bracing beside hips, one foot lower and one bent. Chrome machines and laundry towels identify the setting. Looks aside with raised inner brows. Split flared panels read closer to a gown than the planned jumpsuit; recorded as a wardrobe deviation."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "46c2006671e7d8a9085eb011b7e9ee54de97c35a5a45a1c6414ba2ae8353b211",
+    "observations": "Face close-up in a sewing room with fabric rolls, mannequin and yellow tape. White coat drapes open over a cream knit crop top. Her right hand touches cheek with thumb near jaw; widened eyes and parted mouth match surprise. Left hand and legs are outside crop.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; medium hair and wide eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right cheek hand shows four fingers and a thumb bent near jaw; left hand outside frame.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    },
+    "chosen_vs_observed": {
+      "match": "match",
+      "evidence": "Face close-up in a sewing room with fabric rolls, mannequin and yellow tape. White coat drapes open over a cream knit crop top. Her right hand touches cheek with thumb near jaw; widened eyes and parted mouth match surprise. Left hand and legs are outside crop."
+    }
+  },
+  "face_checkpoint": {
+    "reason": "작은 용의 크게 돌출한 이빨을 넓은 입 너비와 선명한 눈매로 해석한다.",
+    "source": "data/source-appearance.json and data/face-design.json, repository generator output",
+    "face_prompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; almond eyes, large size, level outer corners, average spacing; angled brows; rounded soft tip nose; wide mouth.",
+    "anchor_sha256": "b4a039fe31fec13b4bd63c231881887a3ddbad7beba16d323216906d9ab92118",
+    "anchor_file": "터검니_light_glossy_promo_f.webp",
+    "compared_characters": [
+      "불켜미",
+      "램프라",
+      "샹델라"
+    ],
+    "observed_difference": "Recent comparison characters have lavender or dark braids, purple irises and narrower/drooping eyes; this anchor uses olive ponytail, gold-green irises and angled brows. Fraxure has a longer face impression, smaller eyes and fuller lips than Axew."
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "불켜미",
+      "램프라",
+      "샹델라"
+    ],
+    "actual_images_inspected": true,
+    "within_batch": true,
+    "evidence": "Recent scenes include moonlit gothic streets, garden basket, chandelier ball, hair dryer and camera scenes. New set changes to runway kneeling, counter-perched retro flared silhouette and sewing-room face crop for Axew; guitar carry with backless knit/trousers, standing cup costume close-up and seated rainy taxi for Fraxure. No shared scene+action+silhouette+camera combination. Automated casual-look found no near-duplicate."
+  },
+  "generation_history": {
+    "tool": "built-in image_gen",
+    "replanned": true,
+    "reasons": "Initial Axew casual batch rejected with sexual output moderation; other concurrent results were not returned. Fraxure casual1 bridal scene rejected with sexual output moderation. No result files were returned for rejected attempts; materially different dress/retro/workwear plans were reserved through the planner. Successful Fraxure casual2/3 were kept unchanged.",
+    "requests": [
+      "feb3ddc4-2f27-4041-9392-a7044a86884f",
+      "c2061d7d-7956-45d7-96b5-a7ca605f98c2"
+    ]
+  }
+}
