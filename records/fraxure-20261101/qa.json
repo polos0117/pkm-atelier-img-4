@@ -1,0 +1,209 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "b34c0f49ddcc32556843bace292261c6fff1433fdd6c9d69824e984b52c5f5d9",
+    "observations": "Long olive ponytail, smaller almond eyes and fuller lips than Axew; gray, olive and red slim armor. Both arms hang naturally; both boots fit inside the frame.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves hang at sides; fingers curl and overlap, thumbs oppose fingers. No separated hand or duplicate arm.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "a510e2bfdbea2a183fedf0ee939921fa351226b8b8f34cfc3a9b569b01f95f64",
+    "observations": "Long ponytail and face retained; overlapping gray-red shoulder, waist and leg plates make a heavier outline. Both relaxed hands remain at sides.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves hang at sides; fingers curl and overlap, thumbs oppose fingers. No separated hand or duplicate arm.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "97c41781f1d2123cf638be12b2bee3836143e32df9cc9995517d41f18828ab3b",
+    "observations": "Long ponytail and same face retained. Slim split blade-shaped fins, narrow thrusters and free joints distinguish the mobility outline.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves hang at sides; fingers curl and overlap, thumbs oppose fingers. No separated hand or duplicate arm.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "9257ff32e771ee5c2ab075edb352e2fabe423e77d0da05385fdf13c3d3c3b5d6",
+    "observations": "Same light pose and mountain composition; original plate seams lift with violet inner light, no added helmet or weapon.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves hang at sides; fingers curl and overlap, thumbs oppose fingers. No separated hand or duplicate arm.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "eb8a084661640b8c74a4ce15170938a4c1adc9d4bf76eac2e4bb811a4107e921",
+    "observations": "Same heavy pose, face and boots; stacked plates separate along seams, exposing violet structure without changing outfit silhouette.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves hang at sides; fingers curl and overlap, thumbs oppose fingers. No separated hand or duplicate arm.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "627472085cce39cbdb890139c1f4d6f99ed59e23cd1750373353a0f7b9208a3c",
+    "observations": "Same mobility pose, fins and feet; internal violet light follows existing shoulder, forearm and hip fin seams.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves hang at sides; fingers curl and overlap, thumbs oppose fingers. No separated hand or duplicate arm.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "968c1b6be2e7d7ad1ae5580ced6c090456d1e8a2c0a273cf702cb5ab610ce042",
+    "observations": "Standing in a fluorescent and pink-lit laundromat; gray tusk trim, olive laced corset and red skirt read as Fraxure costume. Holds a cup near her mouth with left hand, showing four fingers while thumb is behind cup. Broad open smile is more cheerful than planned expression; right hand lies outside crop.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Left hand holds cup: four fingers visible, thumb occluded behind cup. Right hand outside crop.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    },
+    "chosen_vs_observed": {
+      "match": "deviations recorded",
+      "evidence": "Standing in a fluorescent and pink-lit laundromat; gray tusk trim, olive laced corset and red skirt read as Fraxure costume. Holds a cup near her mouth with left hand, showing four fingers while thumb is behind cup. Broad open smile is more cheerful than planned expression; right hand lies outside crop."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "89dc2786b2d5b494941244b70d5f89d6d67a73c2d7100d416f7ad0f758646175",
+    "observations": "Sits in a taxi with rainy lights through window, wearing dark blue boned bodice and matching high-waisted bottoms with waist gap. Left hand curls near cheek, right forearm rests toward lap and exits crop. Small tusk charm on handbag and head clip remain accessories.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Left hand near cheek shows four curled fingers and opposed thumb; right hand beyond bottom crop.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    },
+    "chosen_vs_observed": {
+      "match": "match",
+      "evidence": "Sits in a taxi with rainy lights through window, wearing dark blue boned bodice and matching high-waisted bottoms with waist gap. Left hand curls near cheek, right forearm rests toward lap and exits crop. Small tusk charm on handbag and head clip remain accessories."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "8c0b089eae011015fa6dbfa87088981d17a03eb31402b3e3a8d6aa68f8d2d869",
+    "observations": "Walks through a sunlit living room looking back over her shoulder. White coat falls off shoulders over backless knit crop top and dark trousers; right hand holds an acoustic guitar neck, left hand hangs by hip. Both wrists connect naturally.",
+    "identity": {
+      "match": true,
+      "evidence": "Olive ponytail, iris color and face proportions retained against light anchor; long hair and smaller eyes"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (anatomy-check.py exit 3)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right hand grips guitar neck with fingers partly hidden behind it; left relaxed hand shows five digits, thumb opposed naturally.",
+      "overlay_checked": false,
+      "note": "Original and native-resolution hand crops inspected; cropped or occluded limbs are not invented in QA."
+    },
+    "chosen_vs_observed": {
+      "match": "match",
+      "evidence": "Walks through a sunlit living room looking back over her shoulder. White coat falls off shoulders over backless knit crop top and dark trousers; right hand holds an acoustic guitar neck, left hand hangs by hip. Both wrists connect naturally."
+    }
+  },
+  "face_checkpoint": {
+    "reason": "Long gray tusks and upright dragon form interpreted as smaller almond eyes, angled brows and fuller lips; same family keeps high ponytail, length increases from Axew.",
+    "source": "data/source-appearance.json and data/face-design.json, repository generator output",
+    "face_prompt": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; almond eyes, medium size, level outer corners, average spacing; angled brows; balanced nose; full lips.",
+    "anchor_sha256": "b34c0f49ddcc32556843bace292261c6fff1433fdd6c9d69824e984b52c5f5d9",
+    "anchor_file": "액슨도_light_glossy_promo_f.webp",
+    "compared_characters": [
+      "불켜미",
+      "램프라",
+      "샹델라",
+      "터검니"
+    ],
+    "observed_difference": "Recent comparison characters have lavender or dark braids, purple irises and narrower/drooping eyes; this anchor uses olive ponytail, gold-green irises and angled brows. Fraxure has a longer face impression, smaller eyes and fuller lips than Axew."
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "불켜미",
+      "램프라",
+      "샹델라"
+    ],
+    "actual_images_inspected": true,
+    "within_batch": true,
+    "evidence": "Recent scenes include moonlit gothic streets, garden basket, chandelier ball, hair dryer and camera scenes. New set changes to runway kneeling, counter-perched retro flared silhouette and sewing-room face crop for Axew; guitar carry with backless knit/trousers, standing cup costume close-up and seated rainy taxi for Fraxure. No shared scene+action+silhouette+camera combination. Automated casual-look found no near-duplicate."
+  },
+  "generation_history": {
+    "tool": "built-in image_gen",
+    "replanned": true,
+    "reasons": "Initial Axew casual batch rejected with sexual output moderation; other concurrent results were not returned. Fraxure casual1 bridal scene rejected with sexual output moderation. No result files were returned for rejected attempts; materially different dress/retro/workwear plans were reserved through the planner. Successful Fraxure casual2/3 were kept unchanged.",
+    "requests": [
+      "feb3ddc4-2f27-4041-9392-a7044a86884f",
+      "c2061d7d-7956-45d7-96b5-a7ca605f98c2"
+    ]
+  }
+}

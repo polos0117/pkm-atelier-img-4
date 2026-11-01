@@ -1,0 +1,148 @@
+{
+ "storage": {
+  "last": "액슨도",
+  "cards": {
+   "액슨도": {
+    "style": "glossy_promo",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "provocative",
+      "scene": "Taking a moment after her evening event, she has a small metallic clutch resting beside her as rainy street lights pass the taxi window.",
+      "outfit": "An opaque midnight-blue corset-inspired bodice with visible boning seams and small side cutouts, paired with matching high-waisted briefs and a narrow gap of bare midriff.",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "action": {},
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "ofam": true,
+       "item": true,
+       "posture": true,
+       "support": true,
+       "frame": true,
+       "body": true,
+       "head": true,
+       "camera": true,
+       "gaze": true,
+       "expr": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "night_taxi",
+      "ofam": "lingerie",
+      "item": "corset_lingerie",
+      "posture": "sit_chair",
+      "support": "back_seat",
+      "frame": "waist_up",
+      "body": "front_3q",
+      "head": "turn_side",
+      "camera": "low",
+      "gaze": "down",
+      "use": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Fraxure (액슨도) personified, dragon type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nCROP: a waist-up shot — the bottom edge crosses her waist; hips, legs and feet are out of frame. This crop wins over every other line: details apply only to the part that shows, and the outfit reads through its visible neckline, straps, fabric and colour. Never widen the framing to show a hidden support, hand or leg; a limb crossing the edge runs naturally on past it, never cut off or fading out inside the image.\n\nSCENE (chosen):\nPlace: the back seat of a taxi at night, city lights streaking past\nOutfit: An opaque midnight-blue corset-inspired bodice with visible boning seams and small side cutouts, paired with matching high-waisted briefs and a narrow gap of bare midriff.\nPOSTURE: seated on a chair.\nSUPPORT: her back rests against the seat back.\nCOMPOSITION: a waist-up shot of her head, torso and hands; body turned three-quarters toward the camera; head turned to the side; camera slightly below, looking up at her.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nGAZE: her eyes are lowered.\nEXPRESSION: challenging eyes under lowered lids, one brow raised, mouth corner tugged in a slight smirk.\nScene note: Taking a moment after her evening event, she has a small metallic clutch resting beside her as rainy street lights pass the taxi window.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; the part of that outfit inside the crop must read at first glance in its own colours. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "plan": {
+  "kept": true,
+  "cut": 3,
+  "treeV": 2,
+  "era": "now",
+  "place": "night_taxi",
+  "weather": "",
+  "ofam": "lingerie",
+  "item": "corset_lingerie",
+  "posture": "sit_chair",
+  "support": "back_seat",
+  "frame": "waist_up",
+  "body": "front_3q",
+  "head": "turn_side",
+  "camera": "low",
+  "right": "",
+  "left": "",
+  "use": "",
+  "legs": "",
+  "gaze": "down",
+  "expr": "provocative",
+  "preset": "",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly posed",
+   "source_influence": "balanced",
+   "separates_preference": "balanced"
+  },
+  "garments": [
+   "lingerie_set"
+  ],
+  "expose": [
+   "bare midriff",
+   "side cutouts"
+  ],
+  "lead": "action",
+  "act": "sit_chair:-:-",
+  "orient": "front_3q+turn_side",
+  "pose": null
+ },
+ "manual_inputs": {
+  "scene": "Taking a moment after her evening event, she has a small metallic clutch resting beside her as rainy street lights pass the taxi window.",
+  "outfit": "An opaque midnight-blue corset-inspired bodice with visible boning seams and small side cutouts, paired with matching high-waisted briefs and a narrow gap of bare midriff."
+ },
+ "manual_why": {
+  "scene": "action 시작으로 택시 장면의 행사 귀가 맥락과 작은 클러치를 보충한다.",
+  "outfit": "고른 코르셋풍 상하의를 유지하며 옆 컷아웃과 복부 노출을 반영한다."
+ }
+}

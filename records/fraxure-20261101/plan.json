@@ -1,0 +1,320 @@
+{
+ "session": "axew-fraxure-26fa64",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "터검니",
+   "species": "axew-20261101",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_runway",
+     "ofam": "pokemon_costume",
+     "item": "pc_mini_dress",
+     "garments": [
+      "dress"
+     ],
+     "weather": "",
+     "posture": "kneel",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front",
+     "head": "with_body",
+     "camera": "high",
+     "right": "clasp_both",
+     "left": "clasp_both",
+     "use": "",
+     "legs": "knees_together",
+     "gaze": "camera",
+     "preset": "kneel_clasp",
+     "expr": "nostalgic",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "halter neck"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_laundromat",
+     "ofam": "retro",
+     "item": "disco_halter",
+     "garments": [
+      "jumpsuit"
+     ],
+     "weather": "",
+     "posture": "sit_edge",
+     "support": "hip_edge",
+     "frame": "environmental",
+     "body": "front_3q",
+     "head": "over_shoulder",
+     "camera": "high",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "dangle",
+     "gaze": "screen_left",
+     "preset": "",
+     "expr": "calm",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "mini length",
+      "high thigh slit"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "tailor_room",
+     "ofam": "work",
+     "item": "lab_coat",
+     "garments": [
+      "coat",
+      "knit_top",
+      "trousers"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "cheek",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "cheek_close",
+     "expr": "surprised",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "open back"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1,
+      3
+     ]
+    },
+    "costume": 1,
+    "low": [
+     "home",
+     "arcade",
+     "studio",
+     "spa",
+     "sports",
+     "stage",
+     "partner"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "jumpsuit",
+     "coat",
+     "knit_top"
+    ],
+    "orient": [
+     "front+with_body",
+     "front_3q+over_shoulder"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "액슨도",
+   "species": "fraxure-20261101",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "release",
+     "place": "home_living",
+     "weather": "",
+     "ofam": "work",
+     "item": "lab_coat",
+     "posture": "walk",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "rear_3q",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "down",
+     "use": "guitar_carry",
+     "legs": "walk_pause",
+     "gaze": "camera",
+     "expr": "gentle",
+     "preset": "walk_lookback",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "coat",
+      "knit_top",
+      "trousers"
+     ],
+     "expose": [
+      "open back",
+      "bare midriff"
+     ],
+     "lead": "detail",
+     "act": "guitar_carry",
+     "orient": "rear_3q+over_shoulder",
+     "pose": "walk_lookback"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_laundromat",
+     "weather": "",
+     "ofam": "pokemon_costume",
+     "item": "pc_corset",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "cup_sip",
+     "legs": "",
+     "gaze": "",
+     "expr": "laughing_open",
+     "preset": "raise_chest",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "lingerie_set",
+      "skirt"
+     ],
+     "expose": [
+      "plunging neckline",
+      "open back"
+     ],
+     "lead": "light",
+     "act": "cup_sip",
+     "orient": "front_3q+tilt",
+     "pose": "raise_chest"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_taxi",
+     "weather": "",
+     "ofam": "lingerie",
+     "item": "corset_lingerie",
+     "posture": "sit_chair",
+     "support": "back_seat",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "turn_side",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "down",
+     "expr": "provocative",
+     "preset": "",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "lingerie_set"
+     ],
+     "expose": [
+      "bare midriff",
+      "side cutouts"
+     ],
+     "lead": "action",
+     "act": "sit_chair:-:-",
+     "orient": "front_3q+turn_side",
+     "pose": null
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "costume": null,
+    "low": [
+     "home",
+     "arcade",
+     "studio",
+     "spa",
+     "sports",
+     "stage",
+     "partner"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  }
+ ]
+}

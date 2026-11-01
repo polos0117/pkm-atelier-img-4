@@ -1,0 +1,291 @@
+{
+ "version": 1,
+ "card": "액슨도",
+ "no": 611,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/26fa64d8e98c/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The low table stands between cream floor cushions and a worn denim sofa, with pale morning light across the notebook.",
+   "outfit": "A fully opaque white lace bridal lingerie set with a halter neckline, high-cut briefs and a short veil.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "place 시작으로 2010년 무렵 거실의 재질과 아침빛을 보충한다.",
+    "outfit": "선택한 브라이덜 레이스를 유지하며 계획의 홀터와 하이컷을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / home_living / bridal / bridal_lace / kneel / three_quarter / notebook_write",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "home_living",
+      "ko": "거실",
+      "en": "her living room with a deep sofa, floor cushions and a low table"
+     },
+     "role": null,
+     "use": {
+      "key": "notebook_write",
+      "ko": "노트에 쓴다",
+      "en": "writes in a notebook with a pen on the table",
+      "prop": "노트와 펜"
+     },
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "bridal_lace",
+      "ko": "브라이덜 레이스",
+      "en": "a white lace bridal lingerie set with a short veil"
+     },
+     "posture": {
+      "key": "kneel",
+      "ko": "무릎 꿇기",
+      "en": "kneeling on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "Cool fluorescent light meets pink neon reflections in the round washer doors, with a laundry cart just outside the aisle.",
+   "outfit": "A Fraxure-inspired olive-green laced corset bustier with gray tusk-shaped cloth trim and a short burgundy flared skirt, a plunging neckline and open back.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "light 시작으로 빨래방 조명과 주변 사물을 구체화한다.",
+    "outfit": "Fraxure 코르셋 코스튬을 유지하며 깊은 목선·열린 등 구조를 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_laundromat / pokemon_costume / pc_corset / stand / chest_up / cup_sip",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_laundromat",
+      "ko": "빨래방",
+      "en": "a coin laundromat late at night, rows of round machine doors"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_sip",
+      "ko": "잔을 입에 댄다",
+      "en": "brings a cup to her lips",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "plunging neckline",
+     "open back"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "Taking a moment after her evening event, she has a small metallic clutch resting beside her as rainy street lights pass the taxi window.",
+   "outfit": "An opaque midnight-blue corset-inspired bodice with visible boning seams and small side cutouts, paired with matching high-waisted briefs and a narrow gap of bare midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "action 시작으로 택시 장면의 행사 귀가 맥락과 작은 클러치를 보충한다.",
+    "outfit": "고른 코르셋풍 상하의를 유지하며 옆 컷아웃과 복부 노출을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_taxi / lingerie / corset_lingerie / sit_chair / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_taxi",
+      "ko": "밤 택시",
+      "en": "the back seat of a taxi at night, city lights streaking past"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "corset_lingerie",
+      "ko": "코르셋풍",
+      "en": "a corset-inspired bodice with visible boning seams and a matching high-waisted piece"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "bare midriff",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
