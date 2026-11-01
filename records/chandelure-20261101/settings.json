@@ -1,0 +1,242 @@
+{
+ "version": 1,
+ "card": "샹델라",
+ "no": 609,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/b69e2d5ece22/CHANPLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Rain-polished alley stones mirror amber shop lights.",
+   "outfit": "1970s satin hot pants and a cropped tube top with small side cutouts, leaving the midriff and thighs bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 트리 의상·동작을 유지하며 빛·주변 소품을 구체화 — casual1",
+    "outfit": "고른 트리 의상·동작을 유지하며 계획의 드러내기 방식과 옷 구조를 구체화 — casual1"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_alley / retro / roller_disco / squat / full_body / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_alley",
+      "ko": "골목",
+      "en": "a narrow city alley with hanging signboards and wet pavement"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "roller_disco",
+      "ko": "70년대 롤러 디스코",
+      "en": "1970s satin hot pants and a tube top"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "bare midriff",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "Her smartphone glows against the dark sleeper window.",
+   "outfit": "A Chandelure-inspired short fitted hooded dress with a chandelier-shaped hood worn down around the shoulders, an off-shoulder neckline and a high thigh slit, black curved piping and violet flame appliqués.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 트리 의상·동작을 유지하며 빛·주변 소품을 구체화 — casual2",
+    "outfit": "고른 트리 의상·동작을 유지하며 계획의 드러내기 방식과 옷 구조를 구체화 — casual2"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / train_sleeper / pokemon_costume / pc_hoodie / sit_chair / face_close / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "train_sleeper",
+      "ko": "기차 침대칸",
+      "en": "a night-train sleeper compartment with a narrow berth, a fold-down table and a small window"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_hoodie",
+      "ko": "후드 원피스형",
+      "en": "a daring adult costume version of {costume}, cut as a short fitted hooded dress with the hood shaped like its head"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "high thigh slit",
+     "off-shoulder neckline"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Touching the brim of her party-costume cap beside the pool during a retro-themed summer event.",
+   "outfit": "A playful uniform-inspired event outfit: an asymmetric one-shoulder cropped blouse with an open back, fitted shorts and a short-brimmed cap; shoulders and midriff are uncovered, with secure opaque coverage.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "수영장이라는 선택 장소에서 직업 코스튬을 실제 직장이 아닌 여름 이벤트로 구체화",
+    "outfit": "직업풍 의상과 계획의 오픈백·원숄더를 연결한 블라우스·쇼츠"
+   }
+  }
+ }
+}

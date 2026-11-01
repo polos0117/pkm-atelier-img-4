@@ -1,0 +1,163 @@
+{
+ "session": "lampent-chandelure-b69e",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "샹델라",
+   "species": "chandelure-20261101",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_alley",
+     "weather": "",
+     "ofam": "retro",
+     "item": "roller_disco",
+     "posture": "squat",
+     "support": "none",
+     "frame": "full_body",
+     "body": "front",
+     "head": "tilt",
+     "camera": "high",
+     "right": "prop",
+     "left": "lap",
+     "use": "phone_look",
+     "legs": "squat_heels",
+     "gaze": "at_prop",
+     "expr": "mischievous",
+     "preset": "squat_prop",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "trousers"
+     ],
+     "expose": [
+      "bare midriff",
+      "side cutouts"
+     ],
+     "lead": "place",
+     "act": "phone_look",
+     "orient": "front+tilt",
+     "pose": "squat_prop"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "train_sleeper",
+     "weather": "",
+     "ofam": "pokemon_costume",
+     "item": "pc_hoodie",
+     "posture": "sit_chair",
+     "support": "back_seat",
+     "frame": "face_close",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "phone_selfie",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "pensive",
+     "preset": "sip_close",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "high thigh slit",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail",
+     "act": "phone_selfie",
+     "orient": "front_3q+with_body",
+     "pose": "sip_close"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "water_pool",
+     "ofam": "roleplay",
+     "item": "uniform_inspired",
+     "garments": [
+      "uniform"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "side",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "hat_brim",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "lookback_raise",
+     "expr": "playful",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "open back",
+      "one-shoulder cut"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": true,
+     "prev": [
+      3
+     ]
+    },
+    "costume": null,
+    "low": [
+     "home",
+     "arcade",
+     "studio",
+     "water",
+     "spa",
+     "stage",
+     "partner"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "uniform"
+    ],
+    "orient": [
+     "side+over_shoulder"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+[
+ {
+  "slot": "light",
+  "file": "img/샹델라_light_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "fe33d1cd3c71b55761af487e88b7d82b90d08f274df8e84009f228da6d39aef4",
+  "sha256": "d9bcd151b58616a5d91d4369c7e947ce25ddad0786e37f113da4b1df8a5b1bb1",
+  "prompt_sha256": "9d89295331d15a88c02cd5e4ce4652c970523b810bb8c8f5a301925132c5ba7a",
+  "reference_slots": [],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "heavy",
+  "file": "img/샹델라_heavy_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "72f970f68ec2c020fa9413333a349768ff81d025b2ecbde2de646f7af5ef0f05",
+  "sha256": "6b59d7b454ea27840ae31bbaeb20af76c3099c3e5c212538cbd7b6a6e5721755",
+  "prompt_sha256": "9bcdaddccdb0db4051d58434b7d75ba76dd7429aaed985b4ab5f8527b38fdc4f",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "mobility",
+  "file": "img/샹델라_mobility_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "d03ce792b5ce865a5d6ece7b0e1b9ae9e38473302bea0f2c3cc84b4c6ace5685",
+  "sha256": "97117b6fc55d3c930b1507f1e8b8354cb4ab218a0e45440505c2a0ac4a98a3df",
+  "prompt_sha256": "37cc52f110edb7081cce72ed85c7b3c92df842e0cbc92c5d3932e84ea76027f8",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "light_overdrive",
+  "file": "img/샹델라_light_overdrive_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "e007bfca805211b13cc4cb6e983fc24adb872eec90b739be64e6e9ba76c563c7",
+  "sha256": "9ade6a24f1a221b54023ed8fa079b8c22119266da1b570dd7340dbc19c94e507",
+  "prompt_sha256": "22f68a4665c48d59e90d0fb7a389df0ba3895cf51686190b679f5f9f1d4879ed",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "heavy_overdrive",
+  "file": "img/샹델라_heavy_overdrive_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "ed08d4c901b2bee5f8f5bf142d4c21a1afab6aa66d8a8dde9826112d94293244",
+  "sha256": "0470f47581f36cf3f5ed0894091265e194d7d63c75a8fdfabda95886c922b9b5",
+  "prompt_sha256": "8f6f463ace53e4d054a891a4b9eecac045f0503aaefbc438a46372db28304f76",
+  "reference_slots": [
+   "heavy",
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "mobility_overdrive",
+  "file": "img/샹델라_mobility_overdrive_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "a158c08f49f28b123451c985f530b3319c95bc27602541de39030caf0eccdfff",
+  "sha256": "99ddd828ee4cd02eab44cd2726b0034c350357d6cb9793a65e74940f4b4370c7",
+  "prompt_sha256": "1c1f1625710febe60a9fefca6d8e821d95da8d4f158674d4bad2af8eeee9645d",
+  "reference_slots": [
+   "mobility",
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "casual1",
+  "file": "img/샹델라_glossy_promo_f_casual1.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "9790596563beceab3b15c932ecf741266e0d7a12bcb72ac2cccf60d104ced489",
+  "sha256": "a5e3021bb370998dab162bf3e417e1218ff791d8a4cbb59f7259f63920934082",
+  "prompt_sha256": "0c49140b7cce86b2d89cabebe6f875d3756a144656da6119dc399b677f60fbb1",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "casual2",
+  "file": "img/샹델라_glossy_promo_f_casual2.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "b3c21a83b24f5afc2e03bc4974d2280f5f0ce105eb185e32ec20e4ab0485af2a",
+  "sha256": "fa7b5b0f9b7fa2be8ea28233e015a5a892b834aad1c18988e9880b4e0171439a",
+  "prompt_sha256": "5301112c73db9ecbe4da8d2ca94588eefe41ad85fcba1b5915837c494f2ded18",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "casual3",
+  "file": "img/샹델라_glossy_promo_f_casual3.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "deafe63d136a8ec8947a24c574a1ff8caa48cdb70bbad29bed7aeb1cb5e78e18",
+  "sha256": "4aa19e8793a7d470ffb9c53e53d90f2b42fb3a7fa7dd548c1c8481d0f1b64855",
+  "prompt_sha256": "a97938f62159e533b455b369cb885317042996fd8d0c292abf68565a43e1c6c2",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ }
+]
