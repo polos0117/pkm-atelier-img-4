@@ -1,0 +1,292 @@
+{
+ "version": 1,
+ "card": "프리지오",
+ "no": 615,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/972f8fcda04a/CRYOGONAL-PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The wooden studio floor is warm honey oak beneath broad frosted windows.",
+   "outfit": "A moss-green one-shoulder cropped athletic tank exposing the midriff, paired with charcoal training leggings.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "2010년 무렵 연습실의 창과 바닥 재질을 구체화함.",
+    "outfit": "계획의 tank·leggings를 유지하며 한쪽 어깨·배 드러내기를 적용함."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_studio / active / stand / chest_up / bottle_drink",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_studio",
+      "ko": "연습실",
+      "en": "a mirrored dance, yoga or Pilates studio with a wooden floor"
+     },
+     "role": null,
+     "use": {
+      "key": "bottle_drink",
+      "ko": "물을 마신다",
+      "en": "drinks from a water bottle",
+      "prop": "물병"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "leggings",
+     "tank"
+    ],
+    "expose": [
+     "bare midriff",
+     "one-shoulder cut"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A camera wrist strap swings beside a peach seamless backdrop and broad softboxes between takes.",
+   "outfit": "A rose-gold stage magician assistant costume: a lined sequined one-shoulder leotard-style bodysuit with a small oval opening at the midriff, a cropped tailcoat, close-fitting gloves and a small top hat.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "카메라를 옆에 든 활동에 촬영 사이 이동 상황과 손목끈을 추가함.",
+    "outfit": "마술 조수 의상의 레오타드·짧은 테일코트·장갑·작은 모자를 유지하고 계획의 한쪽 어깨·배 드러내기를 적용함."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_studio / roleplay / magician_assistant / walk / three_quarter / camera_carry",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_studio",
+      "ko": "화보 스튜디오",
+      "en": "an editorial photo studio with a seamless backdrop and dramatic lights"
+     },
+     "role": null,
+     "use": {
+      "key": "camera_carry",
+      "ko": "카메라를 든다",
+      "en": "carries a camera by its grip at her side",
+      "prop": "카메라"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "magician_assistant",
+      "ko": "마술사 조수",
+      "en": "a stage magician's assistant costume — a sequined fitted leotard-style top, a short tailcoat, gloves and a small top hat"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "bodysuit"
+    ],
+    "expose": [
+     "bare midriff",
+     "one-shoulder cut"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "The doors of a silver commuter train stand open behind the platform edge lights.",
+   "outfit": "An adult Cryogonal costume of a pale-blue one-shoulder cropped top with hexagonal fabric panels and side cutouts, a matching mini skirt, and fine silver chain trim.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "역 장면에 은색 열차 문과 플랫폼 가장자리 조명을 더함.",
+    "outfit": "프리지오의 육각 결정·작은 사슬을 크롭 투피스 의상으로 구현하고 계획의 한쪽 어깨·옆 컷아웃을 적용함."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_station / pokemon_costume / pc_crop_set / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_station",
+      "ko": "역·전철",
+      "en": "a city station platform or the inside of a commuter train"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "hair_tuck · out"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "side cutouts",
+     "one-shoulder cut"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

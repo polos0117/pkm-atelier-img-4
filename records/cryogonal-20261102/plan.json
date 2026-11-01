@@ -1,0 +1,334 @@
+{
+ "card": "프리지오",
+ "batch": {
+  "session": "beartic-cryogonal-20261102-972f",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "프리지오",
+    "species": "cryogonal-20261102",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "treeV": 2,
+      "era": "release",
+      "place": "sports_studio",
+      "weather": "",
+      "ofam": "active",
+      "item": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "chest_up",
+      "body": "side",
+      "head": "over_shoulder",
+      "camera": "eye",
+      "right": "prop",
+      "left": "out",
+      "use": "bottle_drink",
+      "legs": "",
+      "gaze": "camera",
+      "expr": "exhausted",
+      "preset": "lookback_raise",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "garments": [
+       "leggings",
+       "tank"
+      ],
+      "expose": [
+       "bare midriff",
+       "one-shoulder cut"
+      ],
+      "lead": "place",
+      "act": "bottle_drink",
+      "orient": "side+over_shoulder",
+      "pose": "lookback_raise"
+     },
+     {
+      "cut": 2,
+      "treeV": 2,
+      "era": "fantasy",
+      "place": "fx_studio",
+      "ofam": "roleplay",
+      "item": "magician_assistant",
+      "garments": [
+       "bodysuit"
+      ],
+      "weather": "",
+      "posture": "walk",
+      "support": "none",
+      "frame": "three_quarter",
+      "body": "rear_3q",
+      "head": "over_shoulder",
+      "camera": "eye",
+      "right": "prop",
+      "left": "down",
+      "use": "camera_carry",
+      "legs": "walk_pause",
+      "gaze": "camera",
+      "preset": "walk_lookback",
+      "expr": "serious",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "bare midriff",
+       "one-shoulder cut"
+      ],
+      "lead": "action"
+     },
+     {
+      "kept": true,
+      "cut": 3,
+      "treeV": 2,
+      "era": "now",
+      "place": "street_station",
+      "weather": "",
+      "ofam": "pokemon_costume",
+      "item": "pc_crop_set",
+      "posture": "stand",
+      "support": "none",
+      "frame": "face_close",
+      "body": "side",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "hair_tuck",
+      "left": "out",
+      "use": "",
+      "legs": "",
+      "gaze": "down",
+      "expr": "half_smile",
+      "preset": "hair_close",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "garments": [
+       "crop_top",
+       "skirt"
+      ],
+      "expose": [
+       "side cutouts",
+       "one-shoulder cut"
+      ],
+      "lead": "action",
+      "act": "stand:hair_tuck:out",
+      "orient": "side+with_body",
+      "pose": "hair_close"
+     }
+    ],
+    "why": {
+     "tree": 2,
+     "required": {
+      "slots": [
+       2
+      ],
+      "two": false,
+      "prev": [
+       1,
+       3
+      ]
+     },
+     "costume": null,
+     "low": [
+      "home",
+      "arcade",
+      "spa",
+      "sports",
+      "stage",
+      "evening",
+      "travel",
+      "pokeworld",
+      "work",
+      "partner",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "bodysuit"
+     ],
+     "orient": [
+      "rear_3q+over_shoulder"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "casual_plan": [
+  {
+   "kept": true,
+   "cut": 1,
+   "treeV": 2,
+   "era": "release",
+   "place": "sports_studio",
+   "weather": "",
+   "ofam": "active",
+   "item": "",
+   "posture": "stand",
+   "support": "none",
+   "frame": "chest_up",
+   "body": "side",
+   "head": "over_shoulder",
+   "camera": "eye",
+   "right": "prop",
+   "left": "out",
+   "use": "bottle_drink",
+   "legs": "",
+   "gaze": "camera",
+   "expr": "exhausted",
+   "preset": "lookback_raise",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "balanced",
+    "separates_preference": "prefer separates"
+   },
+   "garments": [
+    "leggings",
+    "tank"
+   ],
+   "expose": [
+    "bare midriff",
+    "one-shoulder cut"
+   ],
+   "lead": "place",
+   "act": "bottle_drink",
+   "orient": "side+over_shoulder",
+   "pose": "lookback_raise"
+  },
+  {
+   "cut": 2,
+   "treeV": 2,
+   "era": "fantasy",
+   "place": "fx_studio",
+   "ofam": "roleplay",
+   "item": "magician_assistant",
+   "garments": [
+    "bodysuit"
+   ],
+   "weather": "",
+   "posture": "walk",
+   "support": "none",
+   "frame": "three_quarter",
+   "body": "rear_3q",
+   "head": "over_shoulder",
+   "camera": "eye",
+   "right": "prop",
+   "left": "down",
+   "use": "camera_carry",
+   "legs": "walk_pause",
+   "gaze": "camera",
+   "preset": "walk_lookback",
+   "expr": "serious",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "subtle",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "bare midriff",
+    "one-shoulder cut"
+   ],
+   "lead": "action"
+  },
+  {
+   "kept": true,
+   "cut": 3,
+   "treeV": 2,
+   "era": "now",
+   "place": "street_station",
+   "weather": "",
+   "ofam": "pokemon_costume",
+   "item": "pc_crop_set",
+   "posture": "stand",
+   "support": "none",
+   "frame": "face_close",
+   "body": "side",
+   "head": "with_body",
+   "camera": "eye",
+   "right": "hair_tuck",
+   "left": "out",
+   "use": "",
+   "legs": "",
+   "gaze": "down",
+   "expr": "half_smile",
+   "preset": "hair_close",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "subtle",
+    "separates_preference": "prefer separates"
+   },
+   "garments": [
+    "crop_top",
+    "skirt"
+   ],
+   "expose": [
+    "side cutouts",
+    "one-shoulder cut"
+   ],
+   "lead": "action",
+   "act": "stand:hair_tuck:out",
+   "orient": "side+with_body",
+   "pose": "hair_close"
+  }
+ ],
+ "reservation": "pkm-atelier-img-2/records/casual-reservations/beartic-cryogonal-20261102-972f.json",
+ "check": "passed against fresh registered metadata and filename-only image inventory",
+ "replans": [
+  {
+   "slot": "casual2",
+   "reason": "image_gen moderation_blocked output sexual; no output produced",
+   "old": {
+    "place": "street_rooftop",
+    "item": "pc_bodysuit",
+    "posture": "kneel"
+   },
+   "new": {
+    "place": "fx_studio",
+    "ofam": "swimwear",
+    "item": "bandeau_bikini",
+    "posture": "sit_floor"
+   },
+   "method": "planner avoids bodysuit and kneeling, kept generated casual1"
+  },
+  {
+   "slot": "casual2",
+   "reason": "different swimsuit studio scene also blocked; no output produced",
+   "old": {
+    "place": "fx_studio",
+    "ofam": "swimwear",
+    "item": "bandeau_bikini",
+    "posture": "sit_floor"
+   },
+   "new": {
+    "place": "fx_studio",
+    "ofam": "roleplay",
+    "item": "magician_assistant",
+    "posture": "walk"
+   },
+   "method": "planner excludes swimwear, lingerie, floor sitting; keeps casual1 and planned casual3"
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "card": "프리지오",
+ "style": "glossy_promo",
+ "style_basis": "prompt-pack settings",
+ "generator": "built-in image_gen",
+ "images": [
+  {
+   "slot": "light",
+   "original_sha256": "7d56d5512dfa8155f8af340849f158b1a76b62b64eb6b9583df5b6d9071c0bd9",
+   "file": "프리지오_light_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "c0ec72c2a91edf2bf4f9218b7187f89442ea2561ddddb85697c89ba11ce9fcd0",
+   "reference": []
+  },
+  {
+   "slot": "heavy",
+   "original_sha256": "12b72fa5f511750a0d0c62f10100e7bf12eb476a1dd41bb5a2403525954e98ed",
+   "file": "프리지오_heavy_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "75c15debd327a10cdb473a21bf04890ca422b1ae6226f92d111901c21d98965b",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "mobility",
+   "original_sha256": "9b3f770ca75e0844c53a62670991ae657a9f3cd8be459d52fc0ef322100d51c4",
+   "file": "프리지오_mobility_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "21a42593539edc0e4ab440bda50aaf434d615b6d9b6064921ddfacd333ef38fb",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "light_overdrive",
+   "original_sha256": "bc8f329c1bce4c5e0ec2d5eccbed802372f42d925d00e4a8541ab88c9e04725d",
+   "file": "프리지오_light_overdrive_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "71349cc1e39f562655156badfe99c13b7d87ffb4c38ba93d6efd2d7fb0920d66",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "heavy_overdrive",
+   "original_sha256": "07d5cc7716e4a24237416337ed34da3447f1c0850c08f6a0d0de703de29e0270",
+   "file": "프리지오_heavy_overdrive_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "88cba0651eb54503fce4dead8a421305e7743af042ba2de844438d3261c9014c",
+   "reference": [
+    "heavy",
+    "light"
+   ]
+  },
+  {
+   "slot": "mobility_overdrive",
+   "original_sha256": "a23d6cf56a8cdd80276f7993282239284e9e95c8ffd25ec92840086d8210ff48",
+   "file": "프리지오_mobility_overdrive_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "7528fdcb53f363217d6f6d88c91b78593baa00129fbdc555808f97c06d78322e",
+   "reference": [
+    "mobility",
+    "light"
+   ]
+  },
+  {
+   "slot": "casual1",
+   "original_sha256": "7e54e489f31902ea8eee43e18966e70c472bf2710413e76cd6265da278bc9983",
+   "file": "프리지오_glossy_promo_f_casual1.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "003ac4d3c105a48552bbada8f6a455bff81cf80f7580a108d4e4d3be80f08677",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "casual2",
+   "original_sha256": "79b59c1b4d65035f8e0d74e2a465df80b8d73a56a4eafa1af19f68d4947c697a",
+   "file": "프리지오_glossy_promo_f_casual2.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "b473dc1abc8f89f77b17ab57c6ddc5dc76e211c7051ca0a1b5ffb11baefefca5",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "casual3",
+   "original_sha256": "bc668566d38d9db9b4b49c4588672fdd6a44169647abfe0659774364b08dbdd0",
+   "file": "프리지오_glossy_promo_f_casual3.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "6f4d2c05d040c4c6027875cd4790ef9574b66165ea4c2010361cef64050e530b",
+   "reference": [
+    "light"
+   ]
+  }
+ ]
+}
