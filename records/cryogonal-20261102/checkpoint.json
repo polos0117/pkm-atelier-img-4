@@ -24,5 +24,14 @@
   "액스라이즈"
  ],
  "remote_target": "polos0117/pkm-atelier-img-4 main",
- "raw_png_policy": "only original sha256 recorded; PNG not uploaded"
+ "raw_png_policy": "only original sha256 recorded; PNG not uploaded",
+ "postpublication_repair": {
+  "slot": "heavy_overdrive",
+  "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "after_sha256": "88cba0651eb54503fce4dead8a421305e7743af042ba2de844438d3261c9014c",
+  "cause": "0-byte WebP detected by thumbnail workflow; original PNG retained and valid",
+  "resolution": "re-encoded from the same original at quality 85 method 6, decoded temporary WebP before atomic replacement",
+  "generated_again": false,
+  "all_18_webps_fully_decoded": true
+ }
 }

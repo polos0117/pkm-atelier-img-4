@@ -1,0 +1,175 @@
+{
+ "checks": [
+  {
+   "file": "툰베어_heavy_glossy_promo_f.webp",
+   "bytes": 336818,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "툰베어_mobility_overdrive_glossy_promo_f.webp",
+   "bytes": 410504,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "툰베어_mobility_glossy_promo_f.webp",
+   "bytes": 383310,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "툰베어_light_overdrive_glossy_promo_f.webp",
+   "bytes": 374694,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "툰베어_light_glossy_promo_f.webp",
+   "bytes": 331404,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "툰베어_glossy_promo_f_casual1.webp",
+   "bytes": 219690,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "툰베어_glossy_promo_f_casual3.webp",
+   "bytes": 301738,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "툰베어_heavy_overdrive_glossy_promo_f.webp",
+   "bytes": 383546,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "툰베어_glossy_promo_f_casual2.webp",
+   "bytes": 260694,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_light_glossy_promo_f.webp",
+   "bytes": 351992,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_light_overdrive_glossy_promo_f.webp",
+   "bytes": 371248,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_glossy_promo_f_casual2.webp",
+   "bytes": 205396,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_mobility_glossy_promo_f.webp",
+   "bytes": 386122,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_mobility_overdrive_glossy_promo_f.webp",
+   "bytes": 445910,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_glossy_promo_f_casual3.webp",
+   "bytes": 258222,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_heavy_glossy_promo_f.webp",
+   "bytes": 373730,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_glossy_promo_f_casual1.webp",
+   "bytes": 169212,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  },
+  {
+   "file": "프리지오_heavy_overdrive_glossy_promo_f.webp",
+   "bytes": 411058,
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP"
+  }
+ ],
+ "repair": {
+  "slot": "heavy_overdrive",
+  "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "after_sha256": "88cba0651eb54503fce4dead8a421305e7743af042ba2de844438d3261c9014c",
+  "cause": "0-byte WebP detected by thumbnail workflow; original PNG retained and valid",
+  "resolution": "re-encoded from the same original at quality 85 method 6, decoded temporary WebP before atomic replacement",
+  "generated_again": false,
+  "all_18_webps_fully_decoded": true
+ }
+}
