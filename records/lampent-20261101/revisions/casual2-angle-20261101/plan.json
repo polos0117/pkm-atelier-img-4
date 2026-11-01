@@ -1,0 +1,179 @@
+{
+ "session": "lampent-chandelure-b69e",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "램프라",
+   "species": "lampent-20261101",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "pw_route",
+     "weather": "",
+     "ofam": "lingerie",
+     "item": "kebaya_lace",
+     "posture": "stand",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "camera_shoot",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "expr": "sensual",
+     "preset": "camera_shot",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "tank"
+     ],
+     "expose": [
+      "off-shoulder neckline",
+      "strapless top"
+     ],
+     "lead": "action",
+     "act": "camera_shoot",
+     "orient": "front_3q+with_body",
+     "pose": "camera_shot"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "spa_jjimjil",
+     "weather": "",
+     "ofam": "roleplay",
+     "item": "adult_police",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "hip",
+     "use": "brush_hair",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "laughing",
+     "preset": "stand_use",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt"
+     ],
+     "expose": [
+      "mini length",
+      "halter neck"
+     ],
+     "lead": "light",
+     "act": "brush_hair"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_shop",
+     "weather": "",
+     "ofam": "pokemon_costume",
+     "item": "pc_mini_dress",
+     "posture": "stand",
+     "support": "none",
+     "frame": "environmental",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "flower_trim",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "expr": "proud",
+     "preset": "stand_use",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "off-shoulder neckline",
+      "strapless top"
+     ],
+     "lead": "detail",
+     "act": "flower_trim",
+     "orient": "side+with_body",
+     "pose": "stand_use"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "costume": null,
+    "low": [
+     "arcade",
+     "studio",
+     "sports",
+     "travel",
+     "pokeworld",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  }
+ ],
+ "check": "Passed full metadata ledger check for Lampent; Chandelure replanned separately with CHANPLAN.json.",
+ "user_requested_revision": {
+  "slot": "casual2",
+  "request": "빗질하는 이미지를 다른 구도로 바꿔서 다시 생성",
+  "changes": {
+   "before": {
+    "body": "side",
+    "head": "over_shoulder",
+    "frame": "chest_up",
+    "left": "out",
+    "preset": "lookback_raise"
+   },
+   "after": {
+    "body": "front_3q",
+    "head": "with_body",
+    "frame": "waist_up",
+    "left": "hip",
+    "preset": "stand_use"
+   }
+  },
+  "reason": "몸을 옆으로 두고 어깨 너머로 돌아보는 구도를 앞 3/4와 같은 방향의 머리, 허리 위 프레임으로 변경하여 두 팔의 시작점을 읽을 수 있게 한다."
+ }
+}

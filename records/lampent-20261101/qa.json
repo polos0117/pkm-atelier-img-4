@@ -120,20 +120,20 @@
  },
  "casual2": {
   "status": "accepted",
+  "user_request": "빗질 이미지를 다른 구도로 재생성",
   "dimensions": [
    1024,
    1536
   ],
-  "identity": "Compared against light: same face structure, dark violet hair and violet eyes.",
   "anatomy": {
-   "tool": "unavailable: mediapipe is not installed",
+   "tool": "unavailable: mediapipe not installed",
    "arms": 2,
    "legs": 2,
-   "hands": "Brush hand has four curved fingers and an opposed thumb. Other arm descends outside the close crop.",
+   "hands": "Right brush hand: four curled fingers and opposed thumb, some tips occluded by brush. Left hip hand: four fingers with purple nails and opposed thumb.",
    "overlay_checked": false,
-   "note": "Raised far arm bends toward the brush; near arm descends. Shoulder overlap obscures the far shoulder. Side body and over-shoulder laughing expression are visible."
+   "note": "Front three-quarter torso and head align. Each upper arm starts at its own shoulder; elbows bend naturally and wrists connect. No duplicate arm."
   },
-  "observed": "Raised far arm bends toward the brush; near arm descends. Shoulder overlap obscures the far shoulder. Side body and over-shoulder laughing expression are visible."
+  "observed": "Her right arm bends up on viewer left, brush beside her hair; left elbow points outward with left hand on hip. Warm lounge, navy party uniform and laughing expression retained. Crop is wider than waist-up and lower garment appears as shorts; accepted detail deviations."
  },
  "casual3": {
   "status": "accepted",

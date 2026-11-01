@@ -1,0 +1,190 @@
+{
+ "version": 1,
+ "card": "램프라",
+ "no": 608,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/b69e2d5ece22/lampent-casual2-revision/plan.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Photographing the blue-violet lantern reflections along the path after dusk.",
+   "outfit": "A kebaya-inspired off-shoulder floral lace top over a securely fitted strapless camisole, with a short opaque skirt; the neckline reveals shoulders and collarbones.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 트리 의상·동작을 유지하며 빛·주변 소품을 구체화 — casual1",
+    "outfit": "고른 트리 의상·동작을 유지하며 계획의 드러내기 방식과 옷 구조를 구체화 — casual1"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_route / lingerie / kebaya_lace / stand / three_quarter / camera_shoot",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_route",
+      "ko": "풀숲 길",
+      "en": "a route of tall grass and a dirt path between two Pokémon-world towns"
+     },
+     "role": null,
+     "use": {
+      "key": "camera_shoot",
+      "ko": "사진을 찍는다",
+      "en": "raises a camera to her eye to take a photo",
+      "prop": "카메라"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "strapless top"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Amber floor lighting washes the themed costume-party lounge before the evening event.",
+   "outfit": "A fitted navy police-style party costume with a short-brimmed cap, a sleeveless halter button shirt and mini skirt, without real insignia; shoulders and thighs remain bare.",
+   "camera": "",
+   "custom": "Keep the brushing hand, hairbrush and visible elbow separated from her face so the arm path reads clearly.",
+   "why": {
+    "scene": "고른 트리 의상·동작을 유지하며 빛·주변 소품을 구체화 — casual2",
+    "outfit": "고른 트리 의상·동작을 유지하며 계획의 드러내기 방식과 옷 구조를 구체화 — casual2",
+    "custom": "빗·머리·팔의 겹침을 줄이는 이 컷만의 배치 보완"
+   }
+  },
+  "casual3": {
+   "scene": "Flower stems, violet glass lanterns and wrapping paper fill the shop workbench.",
+   "outfit": "An adult Lampent-inspired off-shoulder mini dress with a secure strapless bodice, black lantern-frame piping, a purple flared skirt and flame-shaped fabric trim; shoulders and legs are bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "작은 가게에서 꽃줄기를 다듬는 동작의 작업대 소품을 구체화",
+    "outfit": "재계획된 미니 드레스와 오프숄더·스트랩리스 구조를 반영"
+   }
+  }
+ }
+}
