@@ -1,0 +1,467 @@
+{
+ "card": "툰베어",
+ "batch": {
+  "session": "beartic-cryogonal-20261102-972f",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "툰베어",
+    "species": "beartic-20261102",
+    "cuts": [
+     {
+      "kept": true,
+      "cut": 1,
+      "treeV": 2,
+      "era": "now",
+      "place": "night_bar",
+      "weather": "",
+      "ofam": "retro",
+      "item": "jetset_swim",
+      "posture": "stand",
+      "support": "none",
+      "frame": "chest_up",
+      "body": "front",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "wave",
+      "left": "chest_hand",
+      "use": "",
+      "legs": "",
+      "gaze": "camera",
+      "expr": "smug",
+      "preset": "wave_chest",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "garments": [
+       "swimsuit"
+      ],
+      "expose": [
+       "high-cut leg",
+       "strapless top"
+      ],
+      "lead": "light",
+      "act": "stand:wave:chest_hand",
+      "orient": "front+with_body",
+      "pose": "wave_chest"
+     },
+     {
+      "cut": 2,
+      "treeV": 2,
+      "era": "fantasy",
+      "place": "fx_castle",
+      "ofam": "pokemon_costume",
+      "item": "pc_hoodie",
+      "garments": [
+       "dress"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "waist_up",
+      "body": "rear_3q",
+      "head": "with_body",
+      "camera": "high",
+      "right": "",
+      "left": "",
+      "use": "",
+      "legs": "",
+      "gaze": "window",
+      "preset": "",
+      "expr": "relieved",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "plunging neckline",
+       "strapless top"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 3,
+      "treeV": 2,
+      "era": "now",
+      "place": "street_rooftop",
+      "ofam": "roleplay",
+      "item": "vinyl_stage",
+      "garments": [
+       "jacket"
+      ],
+      "weather": "",
+      "posture": "lean_wall",
+      "support": "back_wall",
+      "frame": "environmental",
+      "body": "rear_3q",
+      "head": "turn_side",
+      "camera": "eye",
+      "right": "",
+      "left": "",
+      "use": "",
+      "legs": "tiptoe",
+      "gaze": "screen_right",
+      "preset": "",
+      "expr": "sleepy",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "halter neck",
+       "off-shoulder neckline"
+      ],
+      "lead": "light"
+     }
+    ],
+    "why": {
+     "tree": 2,
+     "required": {
+      "slots": [
+       3
+      ],
+      "two": true,
+      "prev": [
+       1
+      ]
+     },
+     "costume": 2,
+     "low": [
+      "home",
+      "arcade",
+      "spa",
+      "sports",
+      "night",
+      "stage",
+      "pokeworld",
+      "work",
+      "partner",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "dress",
+      "jacket"
+     ],
+     "orient": [
+      "rear_3q+with_body",
+      "rear_3q+turn_side"
+     ],
+     "frame": []
+    }
+   },
+   {
+    "card": "프리지오",
+    "species": "cryogonal-20261102",
+    "cuts": [
+     {
+      "cut": 1,
+      "treeV": 2,
+      "era": "release",
+      "place": "sports_studio",
+      "ofam": "active",
+      "item": "",
+      "garments": [
+       "leggings",
+       "tank"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "chest_up",
+      "body": "side",
+      "head": "over_shoulder",
+      "camera": "eye",
+      "right": "prop",
+      "left": "out",
+      "use": "bottle_drink",
+      "legs": "",
+      "gaze": "camera",
+      "preset": "lookback_raise",
+      "expr": "exhausted",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "bare midriff",
+       "one-shoulder cut"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 2,
+      "treeV": 2,
+      "era": "now",
+      "place": "street_rooftop",
+      "ofam": "pokemon_costume",
+      "item": "pc_bodysuit",
+      "garments": [
+       "bodysuit",
+       "leggings"
+      ],
+      "weather": "",
+      "posture": "kneel",
+      "support": "none",
+      "frame": "three_quarter",
+      "body": "side",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "prop",
+      "left": "prop",
+      "use": "camera_check",
+      "legs": "",
+      "gaze": "",
+      "preset": "kneel_work",
+      "expr": "serious",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "side cutouts",
+       "open back"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 3,
+      "treeV": 2,
+      "era": "now",
+      "place": "night_bar",
+      "ofam": "swimwear",
+      "item": "bandeau_bikini",
+      "garments": [
+       "bikini",
+       "crop_top"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "waist_up",
+      "body": "front_3q",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "prop",
+      "left": "natural",
+      "use": "phone_look",
+      "legs": "",
+      "gaze": "at_prop",
+      "preset": "stand_inspect",
+      "expr": "half_smile",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high-cut leg",
+       "halter neck"
+      ],
+      "lead": "action"
+     }
+    ],
+    "why": {
+     "tree": 2,
+     "required": {
+      "slots": [
+       3
+      ],
+      "two": false,
+      "prev": [
+       1,
+       3
+      ]
+     },
+     "costume": 2,
+     "low": [
+      "home",
+      "arcade",
+      "spa",
+      "sports",
+      "stage",
+      "pokeworld",
+      "work",
+      "partner",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "leggings",
+      "tank",
+      "bodysuit",
+      "crop_top"
+     ],
+     "orient": [
+      "side+over_shoulder"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "casual_plan": [
+  {
+   "kept": true,
+   "cut": 1,
+   "treeV": 2,
+   "era": "now",
+   "place": "night_bar",
+   "weather": "",
+   "ofam": "retro",
+   "item": "jetset_swim",
+   "posture": "stand",
+   "support": "none",
+   "frame": "chest_up",
+   "body": "front",
+   "head": "with_body",
+   "camera": "eye",
+   "right": "wave",
+   "left": "chest_hand",
+   "use": "",
+   "legs": "",
+   "gaze": "camera",
+   "expr": "smug",
+   "preset": "wave_chest",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "strong",
+    "separates_preference": "balanced"
+   },
+   "garments": [
+    "swimsuit"
+   ],
+   "expose": [
+    "high-cut leg",
+    "strapless top"
+   ],
+   "lead": "light",
+   "act": "stand:wave:chest_hand",
+   "orient": "front+with_body",
+   "pose": "wave_chest"
+  },
+  {
+   "cut": 2,
+   "treeV": 2,
+   "era": "fantasy",
+   "place": "fx_castle",
+   "ofam": "pokemon_costume",
+   "item": "pc_hoodie",
+   "garments": [
+    "dress"
+   ],
+   "weather": "",
+   "posture": "stand",
+   "support": "none",
+   "frame": "waist_up",
+   "body": "rear_3q",
+   "head": "with_body",
+   "camera": "high",
+   "right": "",
+   "left": "",
+   "use": "",
+   "legs": "",
+   "gaze": "window",
+   "preset": "",
+   "expr": "relieved",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "balanced",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "plunging neckline",
+    "strapless top"
+   ],
+   "lead": "detail"
+  },
+  {
+   "cut": 3,
+   "treeV": 2,
+   "era": "now",
+   "place": "street_rooftop",
+   "ofam": "roleplay",
+   "item": "vinyl_stage",
+   "garments": [
+    "jacket"
+   ],
+   "weather": "",
+   "posture": "lean_wall",
+   "support": "back_wall",
+   "frame": "environmental",
+   "body": "rear_3q",
+   "head": "turn_side",
+   "camera": "eye",
+   "right": "",
+   "left": "",
+   "use": "",
+   "legs": "tiptoe",
+   "gaze": "screen_right",
+   "preset": "",
+   "expr": "sleepy",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "balanced",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "halter neck",
+    "off-shoulder neckline"
+   ],
+   "lead": "light"
+  }
+ ],
+ "reservation": "pkm-atelier-img-2/records/casual-reservations/beartic-cryogonal-20261102-972f.json",
+ "check": "passed against 489 entries and filename-only inventory",
+ "replans": [
+  {
+   "slot": "casual2",
+   "reason": "image_gen moderation_blocked output sexual; no output produced",
+   "old": {
+    "place": "street_rooftop",
+    "item": "pc_bodysuit",
+    "posture": "squat",
+    "camera": "low"
+   },
+   "new": {
+    "place": "fx_castle",
+    "item": "pc_hoodie",
+    "posture": "stand"
+   },
+   "method": "planner avoid item and posture; kept generated casual1; replanned ungenerated cuts"
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "version": 1,
+ "card": "툰베어",
+ "no": 614,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/972f8fcda04a/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Amber evening lights from the bottle shelves mingle with muted turquoise neon.",
+   "outfit": "A strapless coral 1960s jet-set one-piece swimsuit with a high-cut leg line, a printed headscarf and cat-eye sunglasses tucked into the scarf.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 바의 조명에 저녁의 앰버·청록 대비를 더함.",
+    "outfit": "리비에라 수영복에 계획의 스트랩리스·하이컷 구조와 원작과 무관한 산호색을 구체화함."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_bar / retro / jetset_swim / stand / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_bar",
+      "ko": "바",
+      "en": "a neon-lit bar counter with backlit bottles"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "jetset_swim",
+      "ko": "60년대 리비에라 수영복",
+      "en": "a 1960s jet-set one-piece swimsuit with a headscarf and cat-eye sunglasses"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "wave · chest_hand"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "strapless top"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A silver snowflake clasp on the stone balustrade catches the cool light filtering through tall stained glass.",
+   "outfit": "An adult Beartic hooded mini dress in white plush fabric, with rounded bear ears on the hood, a deep V neckline over a fitted strapless inner bodice and an ice-blue faceted collar trim.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "성 계단의 난간에 작은 서리 장식을 더함.",
+    "outfit": "후드 원피스를 툰베어의 흰 털과 얼음 칼라로 구체화하고 계획의 목선 구조를 적용함."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_castle / pokemon_costume / pc_hoodie / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_castle",
+      "ko": "성 계단",
+      "en": "the grand staircase of an old castle"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_hoodie",
+      "ko": "후드 원피스형",
+      "en": "a daring adult costume version of {costume}, cut as a short fitted hooded dress with the hood shaped like its head"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "plunging neckline",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Late golden light touches a brick wall beside an outdoor music-video rehearsal set.",
+   "outfit": "A cherry-red vinyl stage costume with a cropped fitted jacket draped off the shoulders over a halter-neck top, matching high-waisted shorts and glossy knee-high boots.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "옥상 장면을 뮤직비디오 리허설 현장으로 구체화함.",
+    "outfit": "비닐 무대 의상의 재킷·부츠를 유지하며 계획의 홀터넥·오프숄더와 짧은 기장으로 구성함."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_rooftop / roleplay / vinyl_stage / lean_wall / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_rooftop",
+      "ko": "옥상",
+      "en": "a city rooftop with a water tank, string lights and the skyline"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "vinyl_stage",
+      "ko": "비닐 무대 의상",
+      "en": "a vinyl stage costume with a glossy fitted jacket and boots"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "jacket"
+    ],
+    "expose": [
+     "halter neck",
+     "off-shoulder neckline"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

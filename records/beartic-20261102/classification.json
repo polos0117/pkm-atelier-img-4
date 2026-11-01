@@ -1,0 +1,125 @@
+{
+ "card": "툰베어",
+ "style": "glossy_promo",
+ "style_basis": "prompt-pack settings",
+ "generator": "built-in image_gen",
+ "images": [
+  {
+   "slot": "light",
+   "original_sha256": "e94e2077e2f9abbe8a590d7072c65e5b4141ee388ba2e3060166d5b808e9523d",
+   "file": "툰베어_light_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "4da44cc10dfd5e63790069fa1a48de7963bcc1e5fc88dab8dd6c5861c56f66e1",
+   "reference": []
+  },
+  {
+   "slot": "heavy",
+   "original_sha256": "cc4ad9e3da6b988c4bb755803dd04bb4f7e403530e578dd57dc6bc1e533151fb",
+   "file": "툰베어_heavy_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "509af575368a05ca3f87de366847a4a218e3cd2b03ea058e91907c9a11323a0a",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "mobility",
+   "original_sha256": "5d7e7f8663f656543e6277369973cd8dc56c0eff8e0044c4a80077bfb12c8a23",
+   "file": "툰베어_mobility_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "16a7a67769bdebc05d567c6980c998db6db83063e63792617605f58d93fb1314",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "light_overdrive",
+   "original_sha256": "8be0660c262c10bddde557151482c7db0fed17fc5b939b3bf3599d19dc7963d1",
+   "file": "툰베어_light_overdrive_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "7efaa52615f14cdbf30ff9fb4ccb997e9d2b5c55f784df1a1679be95dac2e12d",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "heavy_overdrive",
+   "original_sha256": "188f862ea50164a0320b5de6c716fef6b5f5ed8328239f7f53953bf784c80566",
+   "file": "툰베어_heavy_overdrive_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "23111d51ff233323d562cc5065a36f4c2a690ef7fda84bf154444bb2aad54280",
+   "reference": [
+    "heavy",
+    "light"
+   ]
+  },
+  {
+   "slot": "mobility_overdrive",
+   "original_sha256": "667c69a86a49fcb8376a21d438cfc5ee6a2703d2d5fbffa44465e26f49aca274",
+   "file": "툰베어_mobility_overdrive_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "8dc773822547a5d0bb2b57945e798339bbb2fad0092548b829035e8fa17601b6",
+   "reference": [
+    "mobility",
+    "light"
+   ]
+  },
+  {
+   "slot": "casual1",
+   "original_sha256": "3d49af694289572270461d51c0b0715b15e1380de33e2a42cc9267611d973163",
+   "file": "툰베어_glossy_promo_f_casual1.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "55a03d90d921f56ea8e9d89ee7499053b74e14771a27fb19c70c24c43241610f",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "casual2",
+   "original_sha256": "4e4878fd920d0010984866006518de874b294742b808420b7e79185ca259f330",
+   "file": "툰베어_glossy_promo_f_casual2.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "264507f5b2746412e70b10ac680de2aa1e20c09d460366d88b0e99066d3fee23",
+   "reference": [
+    "light"
+   ]
+  },
+  {
+   "slot": "casual3",
+   "original_sha256": "33b273faefe72d2e9a3975eadfa6ad423a6b8b800cd37c730e4f6ea337403ab5",
+   "file": "툰베어_glossy_promo_f_casual3.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "sha256": "0dc252eb5c257082bee1d62e3b019ec024ddaa1a4022420989234e822bc5a65d",
+   "reference": [
+    "light"
+   ]
+  }
+ ]
+}
