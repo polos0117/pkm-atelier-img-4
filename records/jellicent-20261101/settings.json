@@ -1,0 +1,285 @@
+{
+ "version": 1,
+ "card": "탱탱겔",
+ "no": 593,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/79b56070cc6d/packs/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A mountain lodge has set up a winter costume-party photo corner beside its stone fireplace, with a velvet stool and paper lanterns.",
+   "outfit": "A deep aubergine retro casino bunny costume: a fitted high-cut one-piece swimsuit with an open back, cuffs, bow-tie collar and rabbit-ear headband.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "산장에 바니 이벤트 의상이 등장하는 파티 포토존 맥락과 벽난로 주변 사물을 보충.",
+    "outfit": "바니 코스튬의 구성품을 유지하고 계획의 하이컷·오픈백과 자주색 의상을 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_lodge / roleplay / bunny / squat / full_body / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_lodge",
+      "ko": "산장",
+      "en": "a mountain lodge with a front counter and a fireplace"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "bunny",
+      "ko": "바니 코스튬",
+      "en": "a retro casino bunny costume with a fitted one-piece, cuffs, bow-tie collar and rabbit-ear headband"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "open back"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A wedding editorial is being photographed before the morning baking begins; warm oven light softly catches flour dust near a tray of pastry shells.",
+   "outfit": "A white lace bridal lingerie set with a plunging halter-neck top and a short veil, lined opaquely across the bust.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "베이커리 작업실에 웨딩 화보 촬영이라는 맥락과 시간대·작업대 소품을 보충.",
+    "outfit": "브라이덜 레이스 세트와 짧은 베일을 유지하며 깊은 홀터 목선과 가림 구조를 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / bakery_kitchen / bridal / bridal_lace / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "bakery_kitchen",
+      "ko": "베이커리 작업실",
+      "en": "a small bakery workroom with a floury wooden worktable and warm ovens"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "bridal_lace",
+      "ko": "브라이덜 레이스",
+      "en": "a white lace bridal lingerie set with a short veil"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "plunging neckline",
+     "halter neck"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Lavender rehearsal lights wash the Contest hall stage while ribbon rosettes and polished floorboards catch warm footlights.",
+   "outfit": "A kebaya-inspired sheer lace cropped top with floral embroidery over an opaque fitted camisole, side cutouts at the waist, and a high-waisted plum wrap skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "콘테스트 무대에 리허설 조명과 바닥 반사를 보충해 현재 현장 맥락을 명확히 함.",
+    "outfit": "크바야 레이스와 캐미솔 구조를 유지하고 계획의 크롭·허리 컷아웃 및 하의와 색을 보충."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_contest / lingerie / kebaya_lace / stand / environmental",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_contest",
+      "ko": "콘테스트장",
+      "en": "a Pokémon Contest hall with a decorated stage, ribbon displays and audience seats"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "cropped hem",
+     "side cutouts"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

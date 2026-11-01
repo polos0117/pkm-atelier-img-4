@@ -1,0 +1,314 @@
+{
+ "session": "frillish-jellicent-79b560",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "탱그릴",
+   "species": "frillish-20261101",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "work_dig",
+     "ofam": "swimwear",
+     "item": "oring_bikini",
+     "garments": [
+      "bikini"
+     ],
+     "weather": "",
+     "posture": "walk",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "rear_3q",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "down",
+     "use": "cup_hold",
+     "legs": "walk_pause",
+     "gaze": "camera",
+     "preset": "walk_lookback",
+     "expr": "amused",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "plunging neckline"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "release",
+     "place": "sports_gym",
+     "ofam": "subculture",
+     "item": "skater",
+     "garments": [
+      "shorts",
+      "sweater"
+     ],
+     "weather": "",
+     "posture": "walk",
+     "support": "none",
+     "frame": "full_body",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "down",
+     "use": "ball_tuck",
+     "legs": "walk_stride",
+     "gaze": "camera",
+     "preset": "stride_prop",
+     "expr": "bored",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "strapless top"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "berry_kitchen",
+     "ofam": "bath",
+     "item": "peshtemal",
+     "garments": [
+      "dress"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "environmental",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "bowl_mix",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "preset": "stand_use",
+     "expr": "smug",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "home",
+     "studio",
+     "water",
+     "sports",
+     "evening",
+     "travel",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "bikini",
+     "shorts",
+     "sweater",
+     "dress"
+    ],
+    "orient": [
+     "rear_3q+over_shoulder",
+     "front_3q+with_body"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "탱탱겔",
+   "species": "jellicent-20261101",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "travel_lodge",
+     "ofam": "roleplay",
+     "item": "bunny",
+     "garments": [
+      "swimsuit"
+     ],
+     "weather": "",
+     "posture": "squat",
+     "support": "none",
+     "frame": "full_body",
+     "body": "front",
+     "head": "tilt",
+     "camera": "high",
+     "right": "prop",
+     "left": "lap",
+     "use": "phone_look",
+     "legs": "squat_heels",
+     "gaze": "at_prop",
+     "preset": "squat_prop",
+     "expr": "soft_smile",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "open back"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "bakery_kitchen",
+     "ofam": "bridal",
+     "item": "bridal_lace",
+     "garments": [
+      "lingerie_set"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "cheek",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "cheek_close",
+     "expr": "serious",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "halter neck"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "pw_contest",
+     "ofam": "lingerie",
+     "item": "kebaya_lace",
+     "garments": [
+      "tank"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "environmental",
+     "body": "side",
+     "head": "tilt",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "preset": "",
+     "expr": "half_smile",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "side cutouts"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1,
+      3
+     ],
+     "two": true,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "home",
+     "studio",
+     "water",
+     "evening",
+     "travel",
+     "partner"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "swimsuit",
+     "lingerie_set",
+     "tank"
+    ],
+    "orient": [
+     "side+tilt"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
