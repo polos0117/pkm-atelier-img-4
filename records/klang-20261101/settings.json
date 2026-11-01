@@ -1,0 +1,136 @@
+{
+ "version": 1,
+ "card": "기기어르",
+ "no": 600,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/45a7219a91d5/PLAN-klang-revised2.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Terracotta planters and a brass gear-shaped wind chime sit along the balcony rail in late-afternoon light.",
+   "outfit": "An emerald fantasy stage outfit: an off-shoulder cropped velvet bodice with a separate flowing skirt, leaving shoulders and the midriff bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "발코니 선택에 없는 화분 소재·시간대·주변 원작 모티프를 보충한다.",
+    "outfit": "자동 costume은 옷 구조가 없어 skirt와 오프숄더·크롭 조합을 구체화한다."
+   }
+  },
+  "casual2": {
+   "scene": "The rooftop party is in full swing beside a narrow plunge pool, with warm bulbs reflected in blue water and a little gear-shaped table ornament.",
+   "outfit": "A cobalt-blue bandeau bikini with a straight strapless top and high-cut bottoms, leaving the midriff bare; a small gear earring supplies the single accessory motif.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "루프톱 파티의 수영복 상황을 풀 데크와 조명 반사로 설명하고 주변 오브젝트를 정한다.",
+    "outfit": "선택된 bandeau bikini에 high-cut leg와 bare midriff, 원작과 다른 색을 보충한다."
+   }
+  },
+  "casual3": {
+   "scene": "A camp stove and folding table stand beneath canvas awnings beside berry baskets; a three-gear brass timer and cog-shaped trivet sit near the pot in late-morning light.",
+   "outfit": "Glamorous tailored workwear: an off-shoulder peach silk blouse and a fitted cropped ivory vest, paired with a high-waisted chocolate pencil skirt; the shoulders and a narrow strip of midriff remain bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 야영 조리장의 도구 배치·시간대·주변 톱니 모티프를 보충한다.",
+    "outfit": "vest·blouse·pencil skirt 종류를 유지하며 새 예약 off-shoulder neckline과 cropped hem을 기존 비대칭 조끼와 다른 실루엣으로 구체화한다."
+   }
+  }
+ }
+}
