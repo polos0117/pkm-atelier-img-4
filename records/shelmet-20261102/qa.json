@@ -1,0 +1,245 @@
+{
+ "card": "쪼마리",
+ "accepted": true,
+ "reviewer": "gpt",
+ "comparison": [
+  "프리지오",
+  "툰베어",
+  "코고미"
+ ],
+ "anatomy_tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+ "visual_comparison": "Rounded drooping eyes and full lips differ from the narrower facial proportions of 프리지오 and 툰베어 and rounder open eyes of 코고미. Casual images: clasped-hands ivory bridal waist-up; cheek-touch green-gray costume portrait; seated bronze flared jumpsuit and porcelain cup in powder room. Different silhouettes, props and framing.",
+ "cuts": {
+  "light": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Same short silver-gray pixie fringe, drooping green-gray eyes and full lips."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "Head and both pointed boots stay inside 1024x1536; both arms descend from shoulders to black-gloved hands."
+   },
+   "form": {
+    "match": true,
+    "evidence": "Single fitted armor, shell rim over shoulders."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two gloved hands at hip height; curled fingers partly overlap, thumbs separate; no detached or duplicate hand seen.",
+    "overlay_checked": false,
+    "note": "Originals and enlarged two-hand panels reviewed; elbows and knees connect in the normal direction."
+   }
+  },
+  "heavy": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Same short silver-gray pixie fringe, drooping green-gray eyes and full lips."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "Head and both pointed boots stay inside 1024x1536; both arms descend from shoulders to black-gloved hands."
+   },
+   "form": {
+    "match": true,
+    "evidence": "Additional stacked shell shoulder plates and layered thigh/shin armor."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two gloved hands at hip height; curled fingers partly overlap, thumbs separate; no detached or duplicate hand seen.",
+    "overlay_checked": false,
+    "note": "Originals and enlarged two-hand panels reviewed; elbows and knees connect in the normal direction."
+   }
+  },
+  "mobility": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Same short silver-gray pixie fringe, drooping green-gray eyes and full lips."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "Head and both pointed boots stay inside 1024x1536; both arms descend from shoulders to black-gloved hands."
+   },
+   "form": {
+    "match": true,
+    "evidence": "Split rearward fins with round green emitters."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two gloved hands at hip height; curled fingers partly overlap, thumbs separate; no detached or duplicate hand seen.",
+    "overlay_checked": false,
+    "note": "Originals and enlarged two-hand panels reviewed; elbows and knees connect in the normal direction."
+   }
+  },
+  "light_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Same short silver-gray pixie fringe, drooping green-gray eyes and full lips."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "Head and both pointed boots stay inside 1024x1536; both arms descend from shoulders to black-gloved hands."
+   },
+   "form": {
+    "match": true,
+    "evidence": "Shoulder and shin shells hinge apart around yellow-green internal lattice."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two gloved hands at hip height; curled fingers partly overlap, thumbs separate; no detached or duplicate hand seen.",
+    "overlay_checked": false,
+    "note": "Originals and enlarged two-hand panels reviewed; elbows and knees connect in the normal direction."
+   }
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Same short silver-gray pixie fringe, drooping green-gray eyes and full lips."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "Head and both pointed boots stay inside 1024x1536; both arms descend from shoulders to black-gloved hands."
+   },
+   "form": {
+    "match": true,
+    "evidence": "Stacked shoulder/thigh plates separate on visible mechanical hinges."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two gloved hands at hip height; curled fingers partly overlap, thumbs separate; no detached or duplicate hand seen.",
+    "overlay_checked": false,
+    "note": "Originals and enlarged two-hand panels reviewed; elbows and knees connect in the normal direction."
+   }
+  },
+  "mobility_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Same short silver-gray pixie fringe, drooping green-gray eyes and full lips."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "Head and both pointed boots stay inside 1024x1536; both arms descend from shoulders to black-gloved hands."
+   },
+   "form": {
+    "match": true,
+    "evidence": "Split fins open farther with green light webs; pose and face match closed mobility."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two gloved hands at hip height; curled fingers partly overlap, thumbs separate; no detached or duplicate hand seen.",
+    "overlay_checked": false,
+    "note": "Originals and enlarged two-hand panels reviewed; elbows and knees connect in the normal direction."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Same short gray fringe and broad-set downturned eyes under lace veil."
+   },
+   "place_activity": {
+    "match": true,
+    "evidence": "Ivory candles, chandelier and reception florals; hands clasped together."
+   },
+   "wardrobe": {
+    "match": true,
+    "evidence": "Pearl satin bridal slip and long veil; shoulders and collarbones visible."
+   },
+   "framing": {
+    "match": true,
+    "evidence": "Waist-up; lower slit and back cannot be assessed because of framing."
+   },
+   "expression": {
+    "match": true,
+    "evidence": "Soft lowered eyebrows, gently parted lips, wistful gaze."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": "outside frame",
+    "hands": "Two hands interlaced; some fingers occluded by the clasp, no free duplicate fingers. Wrists connect to opposite forearms.",
+    "overlay_checked": false,
+    "note": "Elbows bend forward naturally; thumb directions checked in original."
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Pixie hair, gray-green eyes and rounded jaw remain; old green temple ornament remains as permitted."
+   },
+   "place_activity": {
+    "match": true,
+    "evidence": "Striped red circus canopy and amber lights; hand touches cheek."
+   },
+   "wardrobe": {
+    "match": true,
+    "evidence": "Green-gray scalloped shell-like structured corset and white frill in close view."
+   },
+   "framing": {
+    "match": false,
+    "evidence": "Face-close choice rendered as face and bust portrait; skirt and legs outside image, recorded only."
+   },
+   "expression": {
+    "match": false,
+    "evidence": "Parted lips and blush rather than a distinct closed soft smile; recorded only."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": "2, far arm partly outside crop",
+    "legs": "outside frame",
+    "hands": "Cheek hand shows four fingers with some overlap and a bent thumb below, connected wrist; other hand outside crop as planned.",
+    "overlay_checked": false,
+    "note": "Single raised forearm; no additional arm behind shoulder."
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "Same pixie fringe and eye shape; shoulders and upper torso connect naturally."
+   },
+   "place_activity": {
+    "match": true,
+    "evidence": "Mirror bulbs, black marble sink counter, neon tiles; seated on dusty-rose chair holding porcelain cup."
+   },
+   "wardrobe": {
+    "match": true,
+    "evidence": "Bronze halter jumpsuit, flared legs and thigh slit; shoulders and a leg visible."
+   },
+   "framing": {
+    "match": true,
+    "evidence": "Environmental portrait includes chair, counter, both feet and powder-room setting."
+   },
+   "expression": {
+    "match": false,
+    "evidence": "Small relaxed smile; exact planned expression is recorded in UI and actual face preserved here."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right hand cups handle with thumb opposed to curled fingers; left hand on knee has five digits. Both sandals show five toes with inner-side big toes.",
+    "overlay_checked": false,
+    "note": "Enlarged cup, knee hand and feet reviewed; no duplicate limb."
+   }
+  }
+ }
+}

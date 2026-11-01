@@ -1,0 +1,287 @@
+{
+ "version": 1,
+ "card": "쪼마리",
+ "no": 616,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/f18fbd810d24/SHELMET-PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The reception pauses between musical sets; ivory taper candles and a pewter spiral-shell place-card holder glint beside the table.",
+   "outfit": "A pearl-white satin slip wedding dress with a long tulle veil, an open back and a high thigh slit, revealing shoulders and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "잔치 휴식시간과 껍질형 테이블 소품은 선택한 만찬장 문장에 없다.",
+    "outfit": "슬립 웨딩드레스의 소재와 등·슬릿 구조를 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_gala / bridal / slip_wedding / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_gala",
+      "ko": "갈라 만찬장",
+      "en": "a candlelit gala dinner hall"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "slip_wedding",
+      "ko": "슬립 웨딩드레스",
+      "en": "a simple slip wedding dress with a long veil"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "clasp_both · clasp_both"
+    },
+    "garments": [
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "high thigh slit",
+     "open back"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Striped circus canvas glows softly behind an amber-lit portrait area.",
+   "outfit": "A structured gray Shelmet costume corset bustier with green curved textile appliques and a short flared coral skirt, an open back and high-cut leg line beneath the skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "같은 자세의 바디수트 요청을 반복하지 않고 서 있는 얼굴 중심 코스튬 초상으로 재계획했다.",
+    "outfit": "차단된 바디수트 대신 구조적인 코르셋과 플레어 스커트로 의상 종류를 바꿨다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_circus / pokemon_costume / pc_corset / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_circus",
+      "ko": "서커스 천막",
+      "en": "a circus tent ring under a striped canopy"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "high-cut leg",
+     "open back"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "A porcelain cup with a silver handle catches warm mirror bulbs and magenta tile reflections.",
+   "outfit": "An opaque bronze 1970s lurex halter jumpsuit with flared legs, an open back and a high side slit in one flared trouser leg; the fabric drapes naturally over the body.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "오락실에서 벗어난 파우더룸 장면의 컵과 타일 조명만 구체화한다.",
+    "outfit": "란제리·수영복을 재시도하지 않고 긴 플레어 하의의 레트로 점프슈트로 의상 계열·실루엣을 바꿨다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_powder / retro / disco_halter / sit_chair / environmental / cup_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_powder",
+      "ko": "파우더룸",
+      "en": "a club powder room with a lit mirror and neon on the tiles"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cup at chest height",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "disco_halter",
+      "ko": "70년대 디스코",
+      "en": "a 1970s lurex halter jumpsuit with flared legs"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "high thigh slit",
+     "open back"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}

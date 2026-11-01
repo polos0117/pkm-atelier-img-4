@@ -1,0 +1,27 @@
+{
+ "card": "쪼마리",
+ "stage": "9 generated, visually reviewed, pending publication",
+ "anchor": {
+  "slot": "light",
+  "file": "쪼마리_light_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "original_sha256": "416ec9ab3be51e6bc68a9f08b69fd1f3a46909a586f342759d3fcee810d87442",
+  "webp_sha256": "269c0bbec238d85ff462b207bd82b3f36a1240bb9031f797142ae34775953e82",
+  "original_session_only": true,
+  "reference": null,
+  "style": "glossy_promo",
+  "evidence": "prompt-pack generator settings"
+ },
+ "face_basis": "616 source shell round mass -> rounded face, downturned widely spaced eyes, small nose and full lips; pixie retained. Compared actual anchors with 프리지오, 툰베어, 코고미: rounder jaw, fuller lips, lower eyelids.",
+ "comparisons": [
+  "프리지오",
+  "툰베어",
+  "코고미"
+ ],
+ "generation": "built-in imagegen",
+ "originals": "session only; hashes in classification.json",
+ "no_force_push": true,
+ "no_deletions": true
+}

@@ -1,0 +1,170 @@
+{
+ "session": "shelmet-accelgor-f18fbd",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "쪼마리",
+   "species": "shelmet-20261102",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "evening_gala",
+     "weather": "",
+     "ofam": "bridal",
+     "item": "slip_wedding",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
+     "right": "clasp_both",
+     "left": "clasp_both",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "wistful",
+     "preset": "clasp_low",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress",
+      "slip"
+     ],
+     "expose": [
+      "high thigh slit",
+      "open back"
+     ],
+     "lead": "action",
+     "act": "stand:clasp_both:clasp_both",
+     "orient": "front+tilt",
+     "pose": "clasp_low"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_circus",
+     "weather": "",
+     "ofam": "pokemon_costume",
+     "item": "pc_corset",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "cheek",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "flustered",
+     "preset": "cheek_close",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "lingerie_set",
+      "skirt"
+     ],
+     "expose": [
+      "high-cut leg",
+      "open back"
+     ],
+     "lead": "place",
+     "act": "stand:cheek:out",
+     "orient": "front_3q+tilt",
+     "pose": "cheek_close"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_powder",
+     "ofam": "retro",
+     "item": "disco_halter",
+     "garments": [
+      "jumpsuit"
+     ],
+     "weather": "",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "environmental",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "cup_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "preset": "bench_sit",
+     "expr": "soft_smile",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "open back"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "costume": null,
+    "low": [
+     "home",
+     "arcade",
+     "water",
+     "spa",
+     "sports",
+     "stage",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "jumpsuit"
+    ],
+    "orient": [
+     "front+turn_side"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
