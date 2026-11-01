@@ -1,0 +1,206 @@
+{
+ "reviewer": "gpt",
+ "method": "원본 1024x1536와 손·발 확대 직접 검수",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "긴 은회색 일자 머리와 붉은 눈, 기기어르보다 각진 턱. 붉은 코어·회색 얇은 판금·톱니 장식. 양발 포함된 전신."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 검은 장갑은 느슨하게 굽힌 엄지·네 손가락 외곽이 이어지며 중첩 마디는 가려짐. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "긴 은회색 일자 머리와 붉은 눈, 기기어르보다 각진 턱. 붉은 코어·회색 얇은 판금·톱니 장식. 양발 포함된 전신."
+   },
+   "notes": []
+  },
+  "heavy": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "기준 얼굴·긴 머리·붉은 코어 유지. 어깨·흉부·골반·허벅지·정강이의 굵은 겹판과 넓은 외곽. 양팔과 양다리가 몸통에 이어짐."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 검은 장갑은 느슨하게 굽힌 엄지·네 손가락 외곽이 이어지며 중첩 마디는 가려짐. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "기준 얼굴·긴 머리·붉은 코어 유지. 어깨·흉부·골반·허벅지·정강이의 굵은 겹판과 넓은 외곽. 양팔과 양다리가 몸통에 이어짐."
+   },
+   "notes": []
+  },
+  "mobility": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "얇은 어깨·엉덩이·종아리 패널이 뒤로 벌어지고 작은 추진구·관자 핀이 생김. 기준 얼굴과 긴 머리 유지, 양발 전부 보임."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 검은 장갑은 느슨하게 굽힌 엄지·네 손가락 외곽이 이어지며 중첩 마디는 가려짐. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "얇은 어깨·엉덩이·종아리 패널이 뒤로 벌어지고 작은 추진구·관자 핀이 생김. 기준 얼굴과 긴 머리 유지, 양발 전부 보임."
+   },
+   "notes": []
+  },
+  "light_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "경장과 같은 얼굴·머리·배경·손·발 좌표에서 팔·허리·정강이 이음새가 열려 은백색 내부 프레임과 빛이 보임."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 검은 장갑은 느슨하게 굽힌 엄지·네 손가락 외곽이 이어지며 중첩 마디는 가려짐. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "경장과 같은 얼굴·머리·배경·손·발 좌표에서 팔·허리·정강이 이음새가 열려 은백색 내부 프레임과 빛이 보임."
+   },
+   "notes": []
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "중장과 같은 자세와 두꺼운 판금 모양을 유지하며 어깨·팔·허벅지 겹판이 열리고 은백색 프레임 발광. 새 무기 없음."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 검은 장갑은 느슨하게 굽힌 엄지·네 손가락 외곽이 이어지며 중첩 마디는 가려짐. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "중장과 같은 자세와 두꺼운 판금 모양을 유지하며 어깨·팔·허벅지 겹판이 열리고 은백색 프레임 발광. 새 무기 없음."
+   },
+   "notes": []
+  },
+  "mobility_overdrive": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": true,
+    "evidence": "고기동과 같은 자세·머리·배경, 벌어진 팬 패널과 추진구 안쪽에 은백색 발광. 붉은 눈 유지, 일부 코어는 빛 반사로 밝아짐."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 검은 장갑은 느슨하게 굽힌 엄지·네 손가락 외곽이 이어지며 중첩 마디는 가려짐. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "고기동과 같은 자세·머리·배경, 벌어진 팬 패널과 추진구 안쪽에 은백색 발광. 붉은 눈 유지, 일부 코어는 빛 반사로 밝아짐."
+   },
+   "notes": []
+  },
+  "casual1": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": false,
+    "evidence": "황혼 옥상 전구와 도시, 얼굴 옆 불꽃놀이 막대. 자두색 꽃 레이스·불투명 캐미솔로 가슴은 가려지고 어깨·쇄골 노출. 이가 살짝 보이는 비대칭 미소·기울인 고개."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "불꽃놀이 막대 손의 엄지와 네 손가락 5개, 자연스러운 손목. 반대 손은 프레임 밖.",
+    "overlay_checked": false,
+    "note": "황혼 옥상 전구와 도시, 얼굴 옆 불꽃놀이 막대. 자두색 꽃 레이스·불투명 캐미솔로 가슴은 가려지고 어깨·쇄골 노출. 이가 살짝 보이는 비대칭 미소·기울인 고개. 하체는 프레임 밖."
+   },
+   "notes": [
+    "chest_up보다 넓게 상반신·허리가 담김. 원작 머리장식·리본 잔존 — 기록만 하는 항목."
+   ]
+  },
+  "casual2": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": false,
+    "evidence": "주스 피처·나무열매 바구니·김 나는 냄비가 있는 노점. 연청록 붓꽃 유카타·연보라 오비와 양발 게타. 공을 든 손과 무릎 위 손이 각각 팔에 연속됨. 무릎을 모으고 측면을 보는 단단한 표정."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "공을 감싼 엄지와 네 손가락·무릎에 얹힌 손의 5개 손가락 확인. 양발 발가락 각 5개, 게타 사이 끈은 발가락과 구별됨.",
+    "overlay_checked": false,
+    "note": "주스 피처·나무열매 바구니·김 나는 냄비가 있는 노점. 연청록 붓꽃 유카타·연보라 오비와 양발 게타. 공을 든 손과 무릎 위 손이 각각 팔에 연속됨. 무릎을 모으고 측면을 보는 단단한 표정."
+   },
+   "notes": [
+    "선택된 screen_left와 반대인 화면 오른쪽 시선. environmental보다 인물이 큼. 배경에 포켓볼형 허구 세계 문양이 있음. 소품 공과 상표 워드마크는 구분."
+   ]
+  },
+  "casual3": {
+   "accepted": true,
+   "identity": {
+    "match": true,
+    "evidence": "붉은 좁은 눈·각진 턱·긴 은회색 일자 앞머리와 같은 얼굴 비율 유지."
+   },
+   "composition": {
+    "match": false,
+    "evidence": "차양·과일 바구니·톱니 시계가 있는 시장. 짧은 산호색 목욕 유카타·크림 띠, 맨어깨·양다리와 양발. 의자 등받이에 기대 무릎을 교차하고 아이스크림을 들며 옅은 미소."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "아이스크림 콘에 감긴 5개 손가락, 무릎 위 손의 5개 손가락. 겹친 다리도 각각 골반·무릎·발목까지 이어지며 양발 발가락 각 5개.",
+    "overlay_checked": false,
+    "note": "차양·과일 바구니·톱니 시계가 있는 시장. 짧은 산호색 목욕 유카타·크림 띠, 맨어깨·양다리와 양발. 의자 등받이에 기대 무릎을 교차하고 아이스크림을 들며 옅은 미소."
+   },
+   "notes": [
+    "얼굴이 정확한 측면보다 앞 3/4로 돌아옴. 작은 머리장식과 리본 잔존 — 기록만 하는 항목."
+   ]
+  }
+ },
+ "diversity": {
+  "result": "pass",
+  "evidence": "자두색 레이스 불꽃놀이의 상반신·긴 연청록 붓꽃 유카타 정면 노점·짧은 산호색 유카타 측면 시장으로 소품·길이·프레이밍·다리가 구분됨.",
+  "look_check": "../../generated_images/exec-29268176-5bdb-4df6-be33-5875fa60622f.png — 가까운 컷 0장(점수 245 미만)\n     256  파르셀_glossy_promo_f_casual1.webp\n     258  두까비_glossy_promo_f_casual3.webp\n     270  채키몽_glossy_promo_f_casual3.webp\n../../generated_images/exec-0608a629-c487-4b97-affa-dee495942524.png — 가까운 컷 0장(점수 245 미만)\n     260  철시드_glossy_promo_f_casual3.webp\n     269  아르코_glossy_promo_f_casual3.webp\n     270  쌍검킬_glossy_promo_f_casual1.webp\n../../generated_images/exec-2403bc49-2e43-4e83-8ff8-aa610cc2f3d7.png — 가까운 컷 0장(점수 245 미만)\n     273  켄타로스_glossy_promo_f_casual3.webp\n     280  루주라_glossy_promo_f_casual2.webp\n     281  비구술_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+ },
+ "face_comparison": {
+  "cards": [
+   "기어르",
+   "기기어르",
+   "너트령",
+   "철시드"
+  ],
+  "result": "기어르의 둥근 큰 눈 얼굴·기기어르의 부드러운 타원과 넓은 눈 간격보다 턱이 각지고 눈이 가늘게 모임. 최근 녹색 계열 인물과 눈·코·턱 비율이 구분됨."
+ }
+}

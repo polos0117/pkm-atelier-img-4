@@ -1,0 +1,136 @@
+{
+ "version": 1,
+ "card": "기기기어르",
+ "no": 601,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/45a7219a91d5/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A golden sparkler throws warm pinpoints of light against a violet twilight skyline; a small gear-shaped lantern decorates the rooftop railing.",
+   "outfit": "A plum kebaya-inspired off-shoulder sheer lace top with floral embroidery over an opaque fitted camisole tank, paired with a short matching skirt; the shoulders and legs are exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "불꽃놀이 막대·옥상 파티에 보라색 박명과 주변 톱니 모티프를 보충한다.",
+    "outfit": "선택된 kebaya lace/camisole을 유지하면서 off-shoulder neckline과 mini length를 구체화한다."
+   }
+  },
+  "casual2": {
+   "scene": "The stall counter is stacked with colorful berries, a glass juice pitcher and gently steaming pots in bright afternoon light.",
+   "outfit": "A pale-aqua cotton summer yukata with watercolor irises, wrapped left over right with a soft lilac obi and geta sandals; its low open back and high thigh slit reveal the upper back and one thigh. One tiny gear-shaped obi charm is her only species accessory.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "길가 노점의 나무열매 종류·주스 용기·시간대만 구체화한다.",
+    "outfit": "선택된 여름 유카타의 구조를 살리고 open back·high thigh slit을 보충하며 원작과 다른 수채 붓꽃 무늬를 정한다."
+   }
+  },
+  "casual3": {
+   "scene": "Canvas awnings shade baskets of fruit along the cobbled market street; a little gear clock hangs from the neighboring stall beside a weathered wooden chair in the soft morning light.",
+   "outfit": "A coral cotton bath yukata with a soft cream sash, an asymmetric one-shoulder neckline and a cropped mid-thigh hem; one shoulder and the legs stay bare. A small brass gear hairpin supplies the single accessory motif.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "포켓몬 마을 시장의 차양·물품·의자 소재·시간대와 주변 시계 모티프를 정한다.",
+    "outfit": "목욕 유카타를 짧은 cotton wrap으로 유지하고 cropped hem과 one-shoulder cut을 여름 유카타와 다른 실루엣으로 구체화한다."
+   }
+  }
+ }
+}
