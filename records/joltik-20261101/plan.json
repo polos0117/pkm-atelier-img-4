@@ -1,0 +1,161 @@
+{
+ "session": "gpt-20261101-db1de8b-594-595",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "파쪼옥",
+   "species": "joltik-20261101",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "release",
+     "place": "water_river",
+     "weather": "",
+     "ofam": "homewear",
+     "item": "one_shoulder_lounge",
+     "posture": "stand",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "rod_cast",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "expr": "wistful",
+     "preset": "camera_shot",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "trousers"
+     ],
+     "expose": [
+      "bare midriff",
+      "open back"
+     ],
+     "lead": "detail",
+     "act": "rod_cast",
+     "orient": "front_3q+with_body",
+     "pose": "camera_shot"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "stage_show",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "side",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "mic_sing",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "lookback_raise",
+     "expr": "flustered",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "open back"
+     ],
+     "lead": "light"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "arcade_hall",
+     "weather": "",
+     "ofam": "retro",
+     "item": "roller_disco",
+     "posture": "walk",
+     "support": "none",
+     "frame": "environmental",
+     "body": "rear_3q",
+     "head": "tilt",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "step_forward",
+     "gaze": "down",
+     "expr": "wink",
+     "preset": "",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "trousers"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "strapless top"
+     ],
+     "lead": "light",
+     "act": "walk:-:-",
+     "orient": "rear_3q+tilt",
+     "pose": null
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "street",
+     "arcade",
+     "water",
+     "spa",
+     "stage",
+     "evening"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "robe",
+     "slip"
+    ],
+    "orient": [
+     "side+over_shoulder"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

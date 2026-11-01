@@ -1,0 +1,223 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "accepted": true,
+  "compared_characters": [
+    "맘복치",
+    "탱탱겔",
+    "탱그릴",
+    "뽀록나"
+  ],
+  "face_reason": "원작의 작은 난형 체적·털 뭉치·큰 푸른 눈을 짧고 넓은 둥근 얼굴, 큰 수평 눈과 숱 많은 눈썹, 짧은 곱슬머리로 해석했다. 맘복치의 긴 하트형 얼굴·큰 입술, 탱탱겔의 길고 가는 윤곽, 뽀록나의 날카로운 턱과 구별된다. 전툴라는 아직 등록된 경장이 없어 사람 얼굴로 직접 대조할 기준이 없다.",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "7722395813ff4db454056bf9c5a6b0a68f1580d7d7672a16fc21cc176e6e691f",
+      "observations": "짧은 금발 곱슬, 파란 둥근 눈, 넓고 둥근 볼과 작은 입. 어깨·전완·정강이의 얇은 노란 판. 양팔·두 부츠가 화면 안에 있다.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·발이 모두 담긴 전신."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 펴진 엄지와 네 손가락이 보인다. 왼손은 느슨하게 굽힌 네 손가락과 안쪽 엄지 일부가 겹친다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "772d99d9692a3f713cb9cf62ccef180938ec6393c3869d9988b747f49bc4277a",
+      "observations": "경장과 같은 얼굴·짧은 곱슬. 어깨·전완·허벅지·정강이에 겹친 두꺼운 노란 판이 추가되어 실루엣이 넓다.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·발이 모두 담긴 전신."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 펴진 엄지와 네 손가락이 보인다. 왼손은 느슨하게 굽힌 네 손가락과 안쪽 엄지 일부가 겹친다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "f5c0847b36b595fe4e999e4720e843213ff6fc7a01a55491682936baf14e59d9",
+      "observations": "길고 뾰족한 가벼운 판과 어깨·골반·발목의 황색 추진원이 구분된다. 얼굴·손·두 부츠가 가려지지 않았다.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·발이 모두 담긴 전신."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 펴진 엄지와 네 손가락이 보인다. 왼손은 느슨하게 굽힌 네 손가락과 안쪽 엄지 일부가 겹친다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "9dd97be3614bda82335439ac1c19c07bb55fd678c45f217a40b4cfd472bcf9cd",
+      "observations": "경장의 노란 판이 이음새를 따라 열리고 검은 프레임과 연두 광채가 드러난다. 머리 기울기와 양발 위치가 유지된다.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·발이 모두 담긴 전신."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 펴진 엄지와 네 손가락이 보인다. 왼손은 느슨하게 굽힌 네 손가락과 안쪽 엄지 일부가 겹친다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "f659ceb3333d9bcbe86b733ced31ecc0a75a96eeea29bb506282cc04b8ff1e0e",
+      "observations": "중장의 겹친 어깨·전완·허벅지 판이 벌어지고 내부 녹색광이 보인다. 얼굴·손·다리 위치 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·발이 모두 담긴 전신."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 펴진 엄지와 네 손가락이 보인다. 왼손은 느슨하게 굽힌 네 손가락과 안쪽 엄지 일부가 겹친다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "b7a18c203558f38b1b9c5fb43f81de31f78bee101eeb384e5a1aa86f1bd246eb",
+      "observations": "고기동의 원형 장치와 핀판이 활짝 열리며 연두색 발광면이 드러난다. 두 다리·손·얼굴이 닫힘과 일치.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·발이 모두 담긴 전신."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 펴진 엄지와 네 손가락이 보인다. 왼손은 느슨하게 굽힌 네 손가락과 안쪽 엄지 일부가 겹친다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "b4ee263c1b9d034e9612544d04d0d03373b93980149dd43fa431cb22e8b16c7a",
+      "observations": "강가 나무 선착장에서 두 손으로 낚싯대를 잡고 던진다. 물 위로 찌가 휘어 날아간다. 세이지색 원숄더 상의와 바지, 어깨·배가 드러나고 배경은 아침 물안개.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 무릎 무렵까지 보이는 3/4 범위."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "낚싯대를 잡은 각 손은 네 굽힌 손가락과 손잡이 안쪽 엄지. 양팔이 어깨에서 손까지 자연스럽게 이어진다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      },
+      "actual_differences": "wistful보다 옅은 미소에 가깝고 계획보다 긴 소매가 있다. 어깨와 배 노출은 보인다."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "cbbe662cddc8b6baa3e757d16e9cde1bacdf21d5f7111a1bcc9d5909456fa393",
+      "observations": "조명이 켜진 패션쇼 런웨이 옆에서 마이크를 잡고 어깨 너머 카메라를 본다. 청록색 불투명 슬립 드레스와 열린 아이보리 로브, 어깨·쇄골·등이 보인다. 객석은 초점 밖의 형태.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 가슴 위 확대; 마이크 손이 화면 안에 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "마이크를 감싼 네 손가락과 반대쪽 엄지가 보인다. 왼손은 프레임 밖. 두 어깨가 몸통에 연결되고 고개는 어깨 너머로 돌아간다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      },
+      "actual_differences": "로브가 어깨 아래로 내려갔으며 경장의 머리 장식이 남았다. 기록만 하는 항목."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "8fd93dc95048b420c9697c614627d3a723bd6dd0bf6f38cb8c8ffa7e36ca5436",
+      "observations": "직립형 게임기가 늘어선 오락실을 걷고 얼굴을 돌려 윙크한다. 보라 튜브톱과 구릿빛 핫팬츠, 작은 검은 가방. 어깨·허리·다리 노출, 뒤 3/4 전신에 양발 보임.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 노란 곱슬·파란 둥근 눈·둥근 볼·작은 입이 경장과 같다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 오락실의 바닥·게임기와 양발까지 보이는 넓은 전신."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "늘어뜨린 왼손 네 손가락과 안쪽 엄지; 가방 손은 손잡이에 일부 가림. 양팔이 분리되어 몸에 이어지며 양발이 보인다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인했다. 가림·프레임 밖의 부위는 다섯 손가락이 보인다고 주장하지 않는다."
+      },
+      "actual_differences": "gaze=down보다 카메라를 향한다. head=tilt보다 어깨 너머 회전이 크지만 얼굴·몸 연결은 자연스럽고 윙크를 보인다."
+    }
+  },
+  "anatomy_tool": "unavailable: mediapipe missing (exit 3); visual counting used",
+  "refused_attempts": [
+    {
+      "slot": "casual2",
+      "scene": "spa_onsen / towel_dry / traditional",
+      "count": 1,
+      "image_returned": false,
+      "reason": "moderation_blocked (sexual, output stage)",
+      "request_id": "f3b6e55d-facb-4e4b-936b-16868250ffba",
+      "action": "다른 장소·활동으로 다시 계획; stage_show / mic_sing / evening. 예약과 생성기 상태 모두 갱신."
+    }
+  ],
+  "diversity_comparison": {
+    "accepted": true,
+    "evidence": "강가의 두 손 낚시+바지/런웨이 마이크 확대+슬립/오락실 걷기 전신+핫팬츠로 손짓과 의상·장소가 구분된다. 맘복치의 침실 기대기·숲길 나침반·공원 벤치, 최근 탱탱겔·탱그릴·뽀록나의 실제 9장과 나란히 보았다. 옷 실루엣과 자세·프레임 조합이 반복되지 않는다.",
+    "casual_look": "pass; nearest scores 272,315,282; no pair below 215"
+  }
+}

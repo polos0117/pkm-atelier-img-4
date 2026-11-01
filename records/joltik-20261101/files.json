@@ -1,0 +1,128 @@
+[
+  {
+    "slot": "light",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-f1f2fea0-f5c5-4b4e-8d4a-6ec66a38f770.png",
+    "original_sha256": "4c3f296deac75fd2d22ac1fdaf77f1aa290a6e0cdb7401a7cfd61fdb6e6868c1",
+    "file": "파쪼옥_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "7722395813ff4db454056bf9c5a6b0a68f1580d7d7672a16fc21cc176e6e691f",
+    "reference_slots": []
+  },
+  {
+    "slot": "heavy",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-d7811ef5-c743-4a78-8fc6-74db150fa0d0.png",
+    "original_sha256": "ba5cb34bdf11bd52362b972227f1d670798a419facf182e54ca41b9b290e51e9",
+    "file": "파쪼옥_heavy_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "772d99d9692a3f713cb9cf62ccef180938ec6393c3869d9988b747f49bc4277a",
+    "reference_slots": [
+      "light"
+    ]
+  },
+  {
+    "slot": "mobility",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-ef1c131f-579e-4bed-8bf5-bc201b467bc0.png",
+    "original_sha256": "d353774dea5232ce89b2412e0ef519bad18e17e583c7c71121d34832d075867b",
+    "file": "파쪼옥_mobility_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "f5c0847b36b595fe4e999e4720e843213ff6fc7a01a55491682936baf14e59d9",
+    "reference_slots": [
+      "light"
+    ]
+  },
+  {
+    "slot": "light_overdrive",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-5c05f95a-83e6-4197-aa97-33c3e85e2132.png",
+    "original_sha256": "c59cc7f38e34daebd34b1f1eb4f8389db5614ccfea59b5ade82159dcef508299",
+    "file": "파쪼옥_light_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "9dd97be3614bda82335439ac1c19c07bb55fd678c45f217a40b4cfd472bcf9cd",
+    "reference_slots": [
+      "light"
+    ]
+  },
+  {
+    "slot": "heavy_overdrive",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-1cbea041-ad7a-431b-ae14-400c58538f39.png",
+    "original_sha256": "fc81b8e08ed28a40810ebde245b1b40e10c4b989f95b3e42123660e0ba216a91",
+    "file": "파쪼옥_heavy_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "f659ceb3333d9bcbe86b733ced31ecc0a75a96eeea29bb506282cc04b8ff1e0e",
+    "reference_slots": [
+      "heavy",
+      "light"
+    ]
+  },
+  {
+    "slot": "mobility_overdrive",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-6d016adc-2d9d-4c48-946d-524367a29cef.png",
+    "original_sha256": "a154ddb737188e82749ec5b0d8fcd748be3c2152a5bee1b9d6e9cba00abe8225",
+    "file": "파쪼옥_mobility_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b7a18c203558f38b1b9c5fb43f81de31f78bee101eeb384e5a1aa86f1bd246eb",
+    "reference_slots": [
+      "mobility",
+      "light"
+    ]
+  },
+  {
+    "slot": "casual1",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-119c6624-aec2-4e40-9b3b-819835a82544.png",
+    "original_sha256": "bc188b1c941881437e382672e5df4aab95624590966d0eee5a5ffe50b42e40ae",
+    "file": "파쪼옥_glossy_promo_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b4ee263c1b9d034e9612544d04d0d03373b93980149dd43fa431cb22e8b16c7a",
+    "reference_slots": [
+      "light"
+    ]
+  },
+  {
+    "slot": "casual2",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-39742517-6fb1-4794-8547-f5889f198249.png",
+    "original_sha256": "b9c3e260adac0da8f83289361a3cf36ff8ce7e63bac5719e6060fba490229c41",
+    "file": "파쪼옥_glossy_promo_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "cbbe662cddc8b6baa3e757d16e9cde1bacdf21d5f7111a1bcc9d5909456fa393",
+    "reference_slots": [
+      "light"
+    ]
+  },
+  {
+    "slot": "casual3",
+    "source": "/workspace/scratch/db1de8b15476/generated_images/exec-b9b15ef0-f190-42a1-9855-b755fb57bd3c.png",
+    "original_sha256": "a2a8debc45d03ab968a6f7878b157422d755f0b2c422e1c69c72bdde991e56a2",
+    "file": "파쪼옥_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "8fd93dc95048b420c9697c614627d3a723bd6dd0bf6f38cb8c8ffa7e36ca5436",
+    "reference_slots": [
+      "light"
+    ]
+  }
+]
