@@ -1,0 +1,291 @@
+{
+ "version": 1,
+ "card": "어지리더",
+ "no": 617,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/f18fbd810d24/ACCELGOR-PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Pink wrapped textile collar and streaming scarf hems integrated between the green-black armor layers; a black star-shaped enamel clasp.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s",
+    "hair color": "pink",
+    "eye color": "green",
+    "body type": "athletic"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The costume-event intermission settles beside a row of 2010-era cabinets, with a little stage curtain at one end of the arcade.",
+   "outfit": "A black-and-white maid event costume with a structured off-shoulder bodice, small puffed sleeves and a full white apron over a short skirt; the cropped skirt hem reveals the legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "역할극 컷이 실제 직업복으로 보이지 않도록 같은 오락실의 코스튬 행사 휴식시간과 작은 행사 커튼을 구체화한다.",
+    "outfit": "메이드 행사복의 기본 앞치마·퍼프소매를 유지하고 선택한 어깨·짧은 기장을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / arcade_hall / roleplay / adult_maid / sit_chair / full_body",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_maid",
+      "ko": "메이드 코스튬",
+      "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "lap · natural"
+    },
+    "garments": [
+     "apron"
+    ],
+    "expose": [
+     "cropped hem",
+     "off-shoulder neckline"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "The hotel lobby has polished wood, soft morning light and a spiral-shell bell on its reception counter.",
+   "outfit": "A loosely tied short ivory robe with a plunging neckline and a mini-length hem, revealing the collarbones and legs while its wrap front remains securely closed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "포켓몬 동반 호텔의 목재·아침 빛·접수대 장식은 장소 선택에 없다.",
+    "outfit": "아침 로브를 유지하면서 선택된 목선·미니 기장만 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_hotel / homewear / robe_morning / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_hotel",
+      "ko": "포켓몬 동반 호텔",
+      "en": "the reception counter of a Pokémon-friendly hotel"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "robe_morning",
+      "ko": "아침 로브",
+      "en": "a loosely tied robe"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "reach · chest_hand"
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "plunging neckline",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "A bouquet of cream roses in pale kraft wrapping catches the dressing-mirror bulbs beside a neatly closed makeup case.",
+   "outfit": "An Accelgor costume cropped halter top and short skirt with small side cutouts: coral-pink fabric wraps, green stripe appliques and a black star-shaped fabric clasp are all costume elements.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "꽃다발의 종류·포장지와 화장대 소품만 보충해 선택한 양손 꽃다발 동작을 유지한다.",
+    "outfit": "원작 머리색·줄·별모양을 크롭 투피스의 천 조각으로 옮기고 선택된 홀터·옆 트임을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / backstage_dressing / pokemon_costume / pc_crop_set / sit_lean / three_quarter / bouquet_both",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "backstage_dressing",
+      "ko": "공연장 대기실",
+      "en": "a backstage dressing room with a bulb-lit mirror, a vanity table and costume racks"
+     },
+     "role": null,
+     "use": {
+      "key": "bouquet_both",
+      "ko": "두 손으로 꽃다발을 든다",
+      "en": "holds a small bouquet in both hands at her waist",
+      "prop": "꽃다발"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "sit_lean",
+      "ko": "앉아 앞으로 기울이기",
+      "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "halter neck",
+     "side cutouts"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}

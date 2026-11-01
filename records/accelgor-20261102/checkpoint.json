@@ -1,0 +1,28 @@
+{
+ "card": "어지리더",
+ "stage": "9 generated, visually reviewed, pending publication",
+ "anchor": {
+  "slot": "light",
+  "file": "어지리더_light_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "original_sha256": "8566e10d22c1691af2603d38a75d52e87e63f302952aa9eec7d4e261d87aaf51",
+  "webp_sha256": "202d5d50e020cb79671a7718f744e767426bf58c9c588b0d178f5a0312e70c95",
+  "original_session_only": true,
+  "reference": null,
+  "style": "glossy_promo",
+  "evidence": "prompt-pack generator settings"
+ },
+ "face_basis": "Source wide pink head and streamline -> broad oval, almond downturned eyes, straight brows, rounded nose tip, medium lips; face-design 617 preserved. Source pink translated to wavy hair and wrapped scarf, green bands and black star translated to armor enamel. Current actual comparison: 쪼마리, 프리지오, 툰베어; narrower eyes and straighter brow than 쪼마리, wider jaw than 프리지오.",
+ "hair_basis": "Face-design 617 medium finger waves and long side bangs; generated loose waves are the fixed reference.",
+ "comparisons": [
+  "쪼마리",
+  "프리지오",
+  "툰베어"
+ ],
+ "generation": "built-in imagegen",
+ "originals": "session only; hashes in classification.json",
+ "no_force_push": true,
+ "no_deletions": true
+}
