@@ -1,0 +1,151 @@
+{
+ "storage": {
+  "last": "램프라",
+  "cards": {
+   "램프라": {
+    "style": "glossy_promo",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "proud",
+      "scene": "Flower stems, violet glass lanterns and wrapping paper fill the shop workbench.",
+      "outfit": "An adult Lampent-inspired off-shoulder mini dress with a secure strapless bodice, black lantern-frame piping, a purple flared skirt and flame-shaped fabric trim; shoulders and legs are bare.",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "action": {},
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "ofam": true,
+       "item": true,
+       "posture": true,
+       "support": true,
+       "frame": true,
+       "body": true,
+       "head": true,
+       "camera": true,
+       "right": true,
+       "left": true,
+       "use": true,
+       "legs": true,
+       "expr": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "street_shop",
+      "ofam": "pokemon_costume",
+      "item": "pc_mini_dress",
+      "posture": "stand",
+      "support": "none",
+      "frame": "environmental",
+      "body": "side",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "prop",
+      "left": "prop",
+      "use": "flower_trim",
+      "legs": "stand_relaxed",
+      "preset": "stand_use"
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Lampent (램프라) personified, ghost / fire type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her wearing the costume chosen in SCENE — a daring adult costume version of her source creature, as worn to a costume party, convention or photo shoot. In this cut her species shows in the outfit itself: its recognisable colours, shapes and parts. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a small shop — a bookstore, record store or plant shop — with crowded shelves\nOutfit: An adult Lampent-inspired off-shoulder mini dress with a secure strapless bodice, black lantern-frame piping, a purple flared skirt and flame-shaped fabric trim; shoulders and legs are bare.\nPOSTURE: standing.\nCOMPOSITION: an environmental long shot, her complete figure and enough of the place around her; body in side profile, her face in profile too, not turned toward the camera; camera at her eye level.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand is in PROP.\nLEFT HAND: her own left hand is in PROP.\nPROP: with both hands she trims the stems of a few loose flower stems on the worktable — her own right hand holds small shears, her own left hand holds the stems.\nLEGS: weight even on both legs.\nGAZE: her eyes rest on what she holds.\nEXPRESSION: brows level, eyes bright and steady, closed-lip smile with a firm mouth.\nScene note: Flower stems, violet glass lanterns and wrapping paper fill the shop workbench.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely into the costume SCENE describes. From the attached image take only her face, hair and body — not its armor, garment, jewelry, hair ornaments or background. The costume must read at first glance as that creature's look, rebuilt as a glamorous adult outfit; she is a real woman in a costume — never the creature itself, its face on her face, fur or scales on her skin, a logo or readable text.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "plan": {
+  "cut": 3,
+  "treeV": 2,
+  "era": "now",
+  "place": "street_shop",
+  "ofam": "pokemon_costume",
+  "item": "pc_mini_dress",
+  "garments": [
+   "dress"
+  ],
+  "weather": "",
+  "posture": "stand",
+  "support": "none",
+  "frame": "environmental",
+  "body": "side",
+  "head": "with_body",
+  "camera": "eye",
+  "right": "prop",
+  "left": "prop",
+  "use": "flower_trim",
+  "legs": "stand_relaxed",
+  "gaze": "",
+  "preset": "stand_use",
+  "expr": "proud",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "balanced",
+   "source_influence": "balanced",
+   "separates_preference": "balanced"
+  },
+  "expose": [
+   "off-shoulder neckline",
+   "strapless top"
+  ],
+  "lead": "detail"
+ },
+ "manual_inputs": {
+  "scene": "Flower stems, violet glass lanterns and wrapping paper fill the shop workbench.",
+  "outfit": "An adult Lampent-inspired off-shoulder mini dress with a secure strapless bodice, black lantern-frame piping, a purple flared skirt and flame-shaped fabric trim; shoulders and legs are bare."
+ },
+ "manual_why": {
+  "scene": "작은 가게에서 꽃줄기를 다듬는 동작의 작업대 소품을 구체화",
+  "outfit": "재계획된 미니 드레스와 오프숄더·스트랩리스 구조를 반영"
+ }
+}

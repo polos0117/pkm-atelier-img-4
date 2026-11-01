@@ -1,0 +1,128 @@
+[
+ {
+  "slot": "light",
+  "file": "img/램프라_light_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "6e804d80d9671901d625f2f26c06f469de8c7a55aa5e5a9315b4a2b5a826628c",
+  "sha256": "df21d2195f2c3a9763ce6844bda647163ce2df1d907d0f7f5399edaca4a353d9",
+  "prompt_sha256": "baa6c68962c81f9024af7e5a810e10c087ad1f6eab4fcb57ca275f730ffafea9",
+  "reference_slots": [],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "heavy",
+  "file": "img/램프라_heavy_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "1cca13168e9b019dbf4f0d11bc0a1a8b0dfaab54b4489b4a1392dc667db65f7a",
+  "sha256": "ae4ad73879f6f03792715f3cabef0faf57c990089d00e99a5290707681708284",
+  "prompt_sha256": "f6bd600597de28583831e2c66d2285e85f3398189fe52bd64524c09b4f5cf354",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "mobility",
+  "file": "img/램프라_mobility_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "800ab37114ca31b0340c137bf74884cec1c79e10f1b0ac96707b22f1955bc17d",
+  "sha256": "c053f2d866b1242391fb9fc72da5f106c8ca07050653703ce4ca663de7a74bae",
+  "prompt_sha256": "3a5a64ef76c2a8995876ad70ea462d4ddaf10f2cb9bef77da6067b4577e9a7e5",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "light_overdrive",
+  "file": "img/램프라_light_overdrive_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "32d0612f5bb07228038745fedfe9d3dbc5b454f5a03b932267731d2c4c9d5a97",
+  "sha256": "d635bc9053597a1d308222ebac1bd043acda0995b42fe2b77b9548648e0b8491",
+  "prompt_sha256": "fa8aa7f2a817a00ffd4466228dd719c7382ceeac70b779d2586d3c0c9fa2adf9",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "heavy_overdrive",
+  "file": "img/램프라_heavy_overdrive_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "4dac3d4c060f34e8a8442ada0424cf2af22b529d725633c1beece17a03cec769",
+  "sha256": "9143dc3124c56249a052124389299a87a79c707511195b96b78d2defc8fe0f36",
+  "prompt_sha256": "22dfeac02f8d17af0de7af1777f0c13d1292bf11bca040ef195ae937f1f7a9ff",
+  "reference_slots": [
+   "heavy",
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "mobility_overdrive",
+  "file": "img/램프라_mobility_overdrive_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "8f3f0e422b3216e3bdfdcd248edea8e6e86e8211a99239e88909a0c8b883d55b",
+  "sha256": "905846e1bef058b77c4327c0692102da4bb1dd4820415b954fc989b4c682212e",
+  "prompt_sha256": "8df044eaea0dd1183a47da25098971807ca8b5f2dfc8c9ee1d1ca80871c1b432",
+  "reference_slots": [
+   "mobility",
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "casual1",
+  "file": "img/램프라_glossy_promo_f_casual1.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "b3835528a1c638e895e87f2198b8e5b4ce55762a81bcedf26c4c43b6e724f7fb",
+  "sha256": "964e5dd274fce798cbf374550b13abb32bf2e11bed52118f499836ae53ed7451",
+  "prompt_sha256": "61625a72b387c5358567049a5604ba66a60d9dfa90f97efaeb0e42993a992b66",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "casual2",
+  "file": "img/램프라_glossy_promo_f_casual2.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "4b1090159ff78b6b6a62c8af7afffddff5259c48df4445b446ec90df03955a7b",
+  "sha256": "df2b65b2e0ffea1b00c6e3b5e6caddc6b793be9bf78aa49a26bfbce2c9ff658d",
+  "prompt_sha256": "ee92353f37be96680d19bfc680d76a9e899b845027a74560b002192d6725c330",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ },
+ {
+  "slot": "casual3",
+  "file": "img/램프라_glossy_promo_f_casual3.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "f721efb8f1be0f3d0346941206b6dc5c493e5523ed8fe5b42a318c72e00501b6",
+  "sha256": "64cd48143b76d1d030011c9d6f7bf1bf0c4ebee4eb5678ef26731592eed38240",
+  "prompt_sha256": "c74aab36fece3097fa2a4c83cbf74417537184f30ad29b1436ca978e702a72bf",
+  "reference_slots": [
+   "light"
+  ],
+  "tool": "built-in image_gen"
+ }
+]

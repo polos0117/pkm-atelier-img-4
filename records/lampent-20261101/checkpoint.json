@@ -1,0 +1,32 @@
+{
+ "card": "램프라",
+ "style": "glossy_promo",
+ "canonical": {
+  "slot": "light",
+  "file": "img/램프라_light_glossy_promo_f.webp",
+  "width": 1024,
+  "height": 1536,
+  "format": "WebP",
+  "original_sha256": "6e804d80d9671901d625f2f26c06f469de8c7a55aa5e5a9315b4a2b5a826628c",
+  "sha256": "df21d2195f2c3a9763ce6844bda647163ce2df1d907d0f7f5399edaca4a353d9",
+  "prompt_sha256": "baa6c68962c81f9024af7e5a810e10c087ad1f6eab4fcb57ca275f730ffafea9",
+  "reference_slots": [],
+  "tool": "built-in image_gen"
+ },
+ "face_reason": "램프의 정돈된 중심과 금속 곡선을 타원 얼굴와 곡선 눈썹으로 구분한다.",
+ "face_cues": [
+  "‘clear, spherical head’ → 얼굴형 부드럽고 둥근 얼굴형",
+  "‘clear, spherical head’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+  "‘pointed spike’ → 눈매 가늘고 날카로운 눈",
+  "‘pointed spike’ → 입술 얇은 입술"
+ ],
+ "face_prompt": "FACE (her own structure, not the style's default face): softly rounded face, balanced length, medium width; soft rounded jaw; narrow eyes, medium size, level outer corners, wide-set; long arched brows; balanced nose; thin lips.",
+ "compared_characters": [
+  "불켜미",
+  "샹델라"
+ ],
+ "created": 9,
+ "requested": 9,
+ "publishing": "pending",
+ "originals": "Session only; original PNG bytes are not committed."
+}
