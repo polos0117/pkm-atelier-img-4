@@ -1,0 +1,230 @@
+[
+  {
+    "card": "액스라이즈",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+    "references": [],
+    "output": {
+      "file": "액스라이즈_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "1b7517339e1472d443e21e2cabc460a6fdde64b35756da404aa7d3dac49ae2af"
+    }
+  },
+  {
+    "card": "액스라이즈",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "cc617c478e718f9bf1f87fa2076cb2b09265f1cbdd467098983915a0314ac52a",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-d895874d-eca9-40c0-85d2-901a5a75bda3.png",
+    "references": [
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+        "sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92"
+      }
+    ],
+    "output": {
+      "file": "액스라이즈_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "2430b7f8678e9050461d66397e37ba011d05367f6b22e29bf90a606323e5a3f4"
+    }
+  },
+  {
+    "card": "액스라이즈",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "4453f622cfb9c08410fdd41bf7387158b49bc69a64d26df98cd91ae605efe1a0",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-24c2ea2b-e4a7-462e-a32d-bf35fd1d93c2.png",
+    "references": [
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+        "sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92"
+      }
+    ],
+    "output": {
+      "file": "액스라이즈_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "27b12e1d918a0a4c6f98b731181f0bba2f117a1d7fa4fa910ea9f24846a796ca"
+    }
+  },
+  {
+    "card": "액스라이즈",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "794a3abdeb18cf04269145d84175b3e07ee8faf050873aacbe50920f69812dc2",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-dac21724-386d-40bb-b468-674e309df7a1.png",
+    "references": [
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+        "sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92"
+      }
+    ],
+    "output": {
+      "file": "액스라이즈_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "84b21702eb5690741e5d44e1d233bec4f0ba1f629da454a0f44a0e8aabf04a40"
+    }
+  },
+  {
+    "card": "액스라이즈",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "81112a60486fbb54919b85abc2cbaa5715679f88fb90460ef8a229d34e28b9f4",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-0a008f4a-1a96-4947-bf98-d7449a8ca41d.png",
+    "references": [
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-d895874d-eca9-40c0-85d2-901a5a75bda3.png",
+        "sha256": "cc617c478e718f9bf1f87fa2076cb2b09265f1cbdd467098983915a0314ac52a"
+      },
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+        "sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92"
+      }
+    ],
+    "output": {
+      "file": "액스라이즈_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "4e8de1b0e2589e3b0e9751de13789aff058a2045739545c6b85a59db7719ca98"
+    }
+  },
+  {
+    "card": "액스라이즈",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "1e088134d4d547bba19822c668b7607420ee3df1a180407d45edd49c8ff5962e",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-2e749094-2e29-4b50-8e9e-2122cd6f3c4f.png",
+    "references": [
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-24c2ea2b-e4a7-462e-a32d-bf35fd1d93c2.png",
+        "sha256": "4453f622cfb9c08410fdd41bf7387158b49bc69a64d26df98cd91ae605efe1a0"
+      },
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+        "sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92"
+      }
+    ],
+    "output": {
+      "file": "액스라이즈_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "24c89cb51be3d9721190b3c1b886e43b136187cd1a186afaf75b3011495e339d"
+    }
+  },
+  {
+    "card": "액스라이즈",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "8a299de42e1f99b3a0bd0564abc271ad74c912b8bf8ac4a764aa682a767439e2",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-a66d9442-f13e-4ffc-9566-b2d43b330482.png",
+    "references": [
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+        "sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92"
+      }
+    ],
+    "output": {
+      "file": "액스라이즈_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "70c4eb303f609609b141e4b0a707d9bd8ce44f19da5cfffd1a6f2782d59b48c2"
+    }
+  },
+  {
+    "card": "액스라이즈",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "d16415aefd902ccd95d2c16746b9c79793b0fa39d1b687195a39393c52b87d6b",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-7253a3b6-2eaf-4afe-8fbf-2a1c4ceead70.png",
+    "references": [
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+        "sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92"
+      }
+    ],
+    "output": {
+      "file": "액스라이즈_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "d9bc53b4134e1eb210ed39bf481864001e94d048c23e29b33ba03ccef111f498"
+    }
+  },
+  {
+    "card": "액스라이즈",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "basis": "tools/prompt-pack.cjs exact built-in image_gen submission",
+    "original_sha256": "3c936aea5e9ab5260f278b0d85d009cb1f255feee82c906744ce2ae14753bf20",
+    "original_session_only": "/workspace/scratch/df1cc05c48a5/generated_images/exec-59befdf7-83fb-48ff-81b7-8a48f8dab7ec.png",
+    "references": [
+      {
+        "session_path": "/workspace/scratch/df1cc05c48a5/generated_images/exec-46379106-6f9d-499a-9bba-c05b6f6c4310.png",
+        "sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92"
+      }
+    ],
+    "output": {
+      "file": "액스라이즈_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "e02ba8ac5826fd3711ef570a97262427c9f1bee73940cdc5a8f893e8198a97dd"
+    }
+  }
+]

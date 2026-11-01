@@ -1,0 +1,173 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92",
+    "observations": "Gold angular collars, black fitted undersuit and red bevels; long gold ponytail and amber eyes. Both feet fully inside the frame. Angular eyes and firm jaw differ from the pale round/long purple-eyed recent ghost characters.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both relaxed gloved hands; curled fingers overlap and are partly occluded, no extra digit or detached hand visible.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "cc617c478e718f9bf1f87fa2076cb2b09265f1cbdd467098983915a0314ac52a",
+    "observations": "Thick overlapping shoulder, hip, thigh and shin plates widen the outline while the face, ponytail and body remain the light anchor. Both relaxed hands are attached.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both relaxed gloved hands; curled fingers overlap and are partly occluded, no extra digit or detached hand visible.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "4453f622cfb9c08410fdd41bf7387158b49bc69a64d26df98cd91ae605efe1a0",
+    "observations": "Swept split shoulder, hip and calf fins with small red thrusters and clear air gaps. No weapon. Face and high ponytail match the anchor.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both relaxed gloved hands; curled fingers overlap and are partly occluded, no extra digit or detached hand visible.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "794a3abdeb18cf04269145d84175b3e07ee8faf050873aacbe50920f69812dc2",
+    "observations": "Same stance and scene as light; gold plates lift at seams, exposing purple luminous internal ribs. Amber irises remain visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both relaxed gloved hands; curled fingers overlap and are partly occluded, no extra digit or detached hand visible.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "81112a60486fbb54919b85abc2cbaa5715679f88fb90460ef8a229d34e28b9f4",
+    "observations": "Same stance and heavy helmet/plate arrangement; stacked plates open with violet gaps. No added weapon or changed pose.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both relaxed gloved hands; curled fingers overlap and are partly occluded, no extra digit or detached hand visible.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "1e088134d4d547bba19822c668b7607420ee3df1a180407d45edd49c8ff5962e",
+    "observations": "Same mobility stance and swept fins; opened thruster covers and violet inner energy. Head and both boots remain inside frame.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both relaxed gloved hands; curled fingers overlap and are partly occluded, no extra digit or detached hand visible.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "8a299de42e1f99b3a0bd0564abc271ad74c912b8bf8ac4a764aa682a767439e2",
+    "observations": "Side-profile seated sketching at a café table. Right gloved hand grips a pencil, left bare hand supports the book. Costume uses a black/red bodysuit, tights and tusk-like accessories; gold trim and some armor-like costume accents remain. Both feet visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right pencil grip: five digits with partly hidden fingertips; left sketchbook grip: visible thumb and curled fingers, remaining tips hidden behind book.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    },
+    "chosen_vs_observed": {
+      "match": true,
+      "evidence": "Side-profile seated sketching at a café table. Right gloved hand grips a pencil, left bare hand supports the book. Costume uses a black/red bodysuit, tights and tusk-like accessories; gold trim and some armor-like costume accents remain. Both feet visible."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "d16415aefd902ccd95d2c16746b9c79793b0fa39d1b687195a39393c52b87d6b",
+    "observations": "Facing forward on a stone ledge in a candlelit editorial chapel, both hands brace beside the hips. Plum lined swimsuit with ivory open yukata exposes shoulders and legs. Slight smile and diagonal leg pose deviate from calm/knees-together selections; recorded without regeneration.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands brace naturally; spread thumb and four fingers on the nearer hand; farther fingertips partly foreshortened/at frame edge.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    },
+    "chosen_vs_observed": {
+      "match": false,
+      "evidence": "Facing forward on a stone ledge in a candlelit editorial chapel, both hands brace beside the hips. Plum lined swimsuit with ivory open yukata exposes shoulders and legs. Slight smile and diagonal leg pose deviate from calm/knees-together selections; recorded without regeneration."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "3c936aea5e9ab5260f278b0d85d009cb1f255feee82c906744ce2ae14753bf20",
+    "observations": "Berry orchard portrait with tilted head and V-sign beside the cheek, purple velvet neckline, gold high ponytail and amber eyes. Crop extends to bust rather than collarbones; raised hand appears on screen right, body-side origin is outside this crop. Five digits are visible with three folded. Recorded composition/hand-side deviation.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe missing; anatomy-check.py exit 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "V-sign has two extended fingers, two folded fingers and the thumb folded over them; opposite hand is outside crop.",
+      "overlay_checked": false,
+      "note": "Full original inspected; hands enlarged. In close crops limbs outside the frame are not separately counted."
+    },
+    "chosen_vs_observed": {
+      "match": false,
+      "evidence": "Berry orchard portrait with tilted head and V-sign beside the cheek, purple velvet neckline, gold high ponytail and amber eyes. Crop extends to bust rather than collarbones; raised hand appears on screen right, body-side origin is outside this crop. Five digits are visible with three folded. Recorded composition/hand-side deviation."
+    }
+  },
+  "face_checkpoint": {
+    "reason": "도끼 같은 큰 턱을 각진 하관과 넓은 입으로 구분한다.",
+    "source": [
+      "data/source-appearance.json",
+      "data/face-design.json"
+    ],
+    "face_prompt": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; sharp eyes, medium size, upturned outer corners, wide-set; thick low brows; long nose with low tip; wide mouth.",
+    "anchor_sha256": "9c325f143a2815dccf5e3369b05dd332de531c3864bfd5a2e3af775bdb4d6e92",
+    "anchor_file": "액스라이즈_light_glossy_promo_f.webp",
+    "compared_characters": [
+      "액슨도",
+      "불켜미",
+      "램프라",
+      "샹델라"
+    ],
+    "actual_images_inspected": true,
+    "observed_difference": "Haxorus has an angular jaw, narrowed amber eyes and a longer pointed nose impression; recent ghost characters have purple eyes and softer/slimmer oval faces. Fraxure family comparison retains high ponytail but Haxorus uses stronger angular collar and mature facial proportions."
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "불켜미",
+      "램프라",
+      "샹델라"
+    ],
+    "actual_images_inspected": true,
+    "evidence": "Recent scenes show a berry basket, lace parasol, seated drink, camera, hair touch, bouquet and phone portraits. New café pencil sketch profile uses a different activity, bodysuit silhouette and full seated camera. Chapel swimsuit/robe is somewhat thematically close to the recent drink scene, but has a stone ledge, two bracing hands, a one-piece silhouette and a closer front view. Orchard V-sign portrait differs from basket and hat portraits in gesture, costume neckline and crop. No near duplicate under the mandatory casual-look threshold."
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "images": 9,
+    "regenerations": 0,
+    "note": "Exact generated prompt files; no manual prompt editing. Anatomy tool unavailable, visual checks completed."
+  }
+}
