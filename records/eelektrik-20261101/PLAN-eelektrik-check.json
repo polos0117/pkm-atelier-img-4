@@ -1,0 +1,166 @@
+{
+  "session": "tynamo-eelektrik-7bcc",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "저리릴",
+      "species": "eelektrik-20261101",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "treeV": 2,
+          "era": "now",
+          "place": "sports_rink",
+          "weather": "",
+          "ofam": "retro",
+          "item": "pinup_swimsuit",
+          "posture": "squat",
+          "support": "none",
+          "frame": "full_body",
+          "body": "front",
+          "head": "tilt",
+          "camera": "high",
+          "right": "prop",
+          "left": "lap",
+          "use": "bottle_hold",
+          "legs": "squat_heels",
+          "gaze": "at_prop",
+          "expr": "sleepy",
+          "preset": "squat_prop",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "plunging neckline",
+            "bare midriff"
+          ],
+          "lead": "action",
+          "act": "bottle_hold",
+          "orient": "front+tilt",
+          "pose": "squat_prop"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "treeV": 2,
+          "era": "now",
+          "place": "street_grocery",
+          "weather": "",
+          "ofam": "pokemon_costume",
+          "item": "pc_mini_dress",
+          "posture": "lean_rail",
+          "support": "none",
+          "frame": "waist_up",
+          "body": "side",
+          "head": "with_body",
+          "camera": "eye",
+          "right": "prop",
+          "left": "rail",
+          "use": "tote_shoulder",
+          "legs": "",
+          "gaze": "at_prop",
+          "expr": "relieved",
+          "preset": "counter_cup",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "dress"
+          ],
+          "expose": [
+            "halter neck",
+            "strapless top"
+          ],
+          "lead": "light",
+          "act": "tote_shoulder",
+          "orient": "side+with_body",
+          "pose": "counter_cup"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "treeV": 2,
+          "era": "release",
+          "place": "travel_camp",
+          "weather": "",
+          "ofam": "swimwear",
+          "item": "",
+          "posture": "recline",
+          "support": "back_lounger",
+          "frame": "chest_up",
+          "body": "front",
+          "head": "with_body",
+          "camera": "high",
+          "right": "behind_head",
+          "left": "prop",
+          "use": "book_hold",
+          "legs": "",
+          "gaze": "camera",
+          "expr": "smug",
+          "preset": "recline_head",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "high-cut leg",
+            "open back"
+          ],
+          "lead": "place",
+          "act": "book_hold",
+          "orient": "front+with_body",
+          "pose": "recline_head"
+        }
+      ],
+      "why": {
+        "tree": 2,
+        "required": {
+          "slots": [],
+          "two": true,
+          "prev": [
+            1
+          ]
+        },
+        "costume": null,
+        "low": [
+          "street",
+          "arcade",
+          "studio",
+          "water",
+          "spa",
+          "sports",
+          "stage",
+          "evening",
+          "travel",
+          "pokeworld",
+          "work",
+          "partner",
+          "fx"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    }
+  ]
+}
