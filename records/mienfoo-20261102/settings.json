@@ -1,0 +1,297 @@
+{
+ "version": 1,
+ "card": "비조푸",
+ "no": 619,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/71ebb51f7d9b/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Pale yellow close-fitting plates, red forearm sleeves and narrow red waist-band accents, with soft rounded ear-shaped temple ornaments; light, controlled martial-arts balance.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s",
+    "hair color": "blonde",
+    "eye color": "red",
+    "body type": "athletic"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A mist-veiled mountain ridge passes beyond the cable-car windows.",
+   "outfit": "A one-shoulder Mienfoo adult costume bodysuit in pale yellow with red forearm costume cuffs and a short hip-length peplum, paired with sheer thigh-high tights; small rounded ear pieces are fabric costume parts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "케이블카 창밖 산등성이의 구체적 모습을 보충한다.",
+    "outfit": "바디수트형을 유지하며 비조푸 색과 팔 커프스, 한쪽 어깨 및 짧은 힙 자락을 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_cablecar / pokemon_costume / pc_bodysuit / stand / chest_up / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_cablecar",
+      "ko": "케이블카",
+      "en": "a cable car cabin over a misty valley"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "mini length",
+     "one-shoulder cut"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "Late afternoon light gleams on the pool edge and the cotton towel.",
+   "outfit": "A tailored oversized white shirt worn open over a matching opaque teal satin lingerie set, its deeply cut neckline and high-cut bottoms revealing the collarbone and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "수건으로 머리를 말리는 활동에 오후 빛과 젖은 풀 가장자리 질감을 보충한다.",
+    "outfit": "오픈 셔츠와 란제리 세트를 유지하며 계획의 깊은 목선과 하이컷을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / water_infinity / lingerie / open_shirt_lingerie / stand / environmental / towel_dry",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "water_infinity",
+      "ko": "루프탑 인피니티 풀",
+      "en": "a rooftop infinity pool with the city skyline behind it"
+     },
+     "role": null,
+     "use": {
+      "key": "towel_dry",
+      "ko": "수건으로 머리를 말린다",
+      "en": "dries her hair with a towel",
+      "prop": "수건"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "open_shirt_lingerie",
+      "ko": "란제리 위 오픈 셔츠",
+      "en": "a tailored oversized shirt worn open over a matching satin lingerie set"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "lingerie_set",
+     "shirt"
+    ],
+    "expose": [
+     "high-cut leg",
+     "plunging neckline"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Cool overhead lights pool across the chalk-dusted mat beneath the climbing holds.",
+   "outfit": "A fully lined cobalt triangle bikini with slider cups and tie-side bottoms, its halter ties detachable so the structured top can also be worn strapless.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "실내 암벽의 바닥 매트와 초크 자국을 빛부터 보충한다.",
+    "outfit": "트라이앵글 비키니를 유지하며 홀터와 스트랩리스가 함께 가능한 탈부착 목끈 구조를 설명한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / sports_wall / swimwear / triangle_bikini / squat / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_wall",
+      "ko": "실내 암벽",
+      "en": "an indoor climbing wall of coloured holds"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "triangle_bikini",
+      "ko": "트라이앵글 비키니",
+      "en": "a triangle bikini with slider cups and tie-side bottoms"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "halter neck",
+     "strapless top"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

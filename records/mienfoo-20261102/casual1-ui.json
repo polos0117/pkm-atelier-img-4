@@ -1,0 +1,150 @@
+{
+ "storage": {
+  "last": "비조푸",
+  "cards": {
+   "비조푸": {
+    "style": "glossy_promo",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "proud",
+      "scene": "A mist-veiled mountain ridge passes beyond the cable-car windows.",
+      "outfit": "A one-shoulder Mienfoo adult costume bodysuit in pale yellow with red forearm costume cuffs and a short hip-length peplum, paired with sheer thigh-high tights; small rounded ear pieces are fabric costume parts.",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "ofam": true,
+       "item": true,
+       "posture": true,
+       "support": true,
+       "frame": true,
+       "body": true,
+       "head": true,
+       "camera": true,
+       "right": true,
+       "left": true,
+       "use": true,
+       "expr": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "travel_cablecar",
+      "ofam": "pokemon_costume",
+      "item": "pc_bodysuit",
+      "posture": "stand",
+      "support": "none",
+      "frame": "chest_up",
+      "body": "front_3q",
+      "head": "tilt",
+      "camera": "eye",
+      "right": "prop",
+      "left": "out",
+      "use": "phone_selfie",
+      "preset": "raise_chest"
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Mienfoo (비조푸) personified, fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her wearing the costume chosen in SCENE — a daring adult costume version of her source creature, as worn to a costume party, convention or photo shoot. In this cut her species shows in the outfit itself: its recognisable colours, shapes and parts. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nCROP: a chest-up shot — the bottom edge crosses just below her bust; waist, hips and legs are out of frame. This crop wins over every other line: details apply only to the part that shows, and the outfit reads through its visible neckline, straps, fabric and colour. Never widen the framing to show a hidden support, hand or leg; a limb crossing the edge runs naturally on past it, never cut off or fading out inside the image.\n\nSCENE (chosen):\nPlace: a cable car cabin over a misty valley\nOutfit: A one-shoulder Mienfoo adult costume bodysuit in pale yellow with red forearm costume cuffs and a short hip-length peplum, paired with sheer thigh-high tights; small rounded ear pieces are fabric costume parts.\nPOSTURE: standing.\nCOMPOSITION: a chest-up shot of her face, shoulders and expression; body turned three-quarters toward the camera; head tilted slightly; camera at her eye level.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nRIGHT HAND: her own right hand is in PROP.\nLEFT HAND: her own left hand stays outside the frame.\nPROP: with her own right hand she holds a smartphone up at arm's length to take a selfie; it is all she holds.\nEXPRESSION: brows level, eyes bright and steady, closed-lip smile with a firm mouth.\nScene note: A mist-veiled mountain ridge passes beyond the cable-car windows.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest\naction_level: mostly posed — a paused or held moment of the selected activity\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely into the costume SCENE describes. From the attached image take only her face, hair and body — not its armor, garment, jewelry, hair ornaments or background. The costume must read at first glance as that creature's look, rebuilt as a glamorous adult outfit; she is a real woman in a costume — never the creature itself, its face on her face, fur or scales on her skin, a logo or readable text.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "plan": {
+  "cut": 1,
+  "treeV": 2,
+  "era": "now",
+  "place": "travel_cablecar",
+  "ofam": "pokemon_costume",
+  "item": "pc_bodysuit",
+  "garments": [
+   "bodysuit",
+   "leggings"
+  ],
+  "weather": "",
+  "posture": "stand",
+  "support": "none",
+  "frame": "chest_up",
+  "body": "front_3q",
+  "head": "tilt",
+  "camera": "eye",
+  "right": "prop",
+  "left": "out",
+  "use": "phone_selfie",
+  "legs": "",
+  "gaze": "",
+  "preset": "raise_chest",
+  "expr": "proud",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly posed",
+   "source_influence": "balanced",
+   "separates_preference": "prefer separates"
+  },
+  "expose": [
+   "mini length",
+   "one-shoulder cut"
+  ],
+  "lead": "place"
+ },
+ "manual_inputs": {
+  "scene": "A mist-veiled mountain ridge passes beyond the cable-car windows.",
+  "outfit": "A one-shoulder Mienfoo adult costume bodysuit in pale yellow with red forearm costume cuffs and a short hip-length peplum, paired with sheer thigh-high tights; small rounded ear pieces are fabric costume parts."
+ },
+ "manual_why": {
+  "scene": "케이블카 창밖 산등성이의 구체적 모습을 보충한다.",
+  "outfit": "바디수트형을 유지하며 비조푸 색과 팔 커프스, 한쪽 어깨 및 짧은 힙 자락을 명시한다."
+ }
+}

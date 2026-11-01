@@ -1,0 +1,41 @@
+{
+ "card": "비조푸",
+ "anchor": {
+  "slot": "light",
+  "source": "/workspace/scratch/71ebb51f7d9b/generated_images/exec-5267d84a-0303-43a1-bd95-04bf840c79d8.png",
+  "source_sha256": "c98780d5385fb6ba82e5856af6c9d3e2d96062d54cc0d9e6ed83eae7f9b5202d",
+  "filename": "비조푸_light_glossy_promo_f.webp",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "sha256": "5eec7f36dc2e632601f31c5b5996433d512b28bdb4c04e8f251bed03db0aaa87",
+  "reference": []
+ },
+ "completed_slots": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "face_reason": "작은 무술가의 간결한 실루엣을 작은 턱·좁은 수평 눈·곧은 눈썹과 얇은 입술로 해석했다. data/face-design.json 619번 설계를 사용하고 실제 첫 경장 머리는 길게 흐르는 여러 갈래 브레이드로 나왔으며 이를 후속 기준으로 고정했다.",
+ "source_evidence": [
+  "data/card.json 619",
+  "data/source-appearance.json 619",
+  "data/face-design.json 619"
+ ],
+ "comparisons": [
+  "프리지오",
+  "쪼마리",
+  "어지리더",
+  "메더"
+ ],
+ "plan_check": "fresh ledger check passed",
+ "pending": "publish and verify thumbnails/registration"
+}
