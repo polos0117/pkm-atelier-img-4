@@ -1,0 +1,323 @@
+{
+ "session": "a2e7e32-galvantula-ferroseed",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "전툴라",
+   "species": "galvantula-20261101",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "spa_onsen",
+     "ofam": "costume",
+     "item": "",
+     "garments": [
+      "coat",
+      "dress"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
+     "right": "v_sign",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "vsign_close",
+     "expr": "confident",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "halter neck"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "boardgame_lounge",
+     "ofam": "swimwear",
+     "item": "triangle_bikini",
+     "garments": [
+      "bikini"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "reach",
+     "left": "chest_hand",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "reach_waist",
+     "expr": "cold_smile",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "evening_museum",
+     "ofam": "work",
+     "item": "workshop_apron",
+     "garments": [
+      "apron",
+      "shirt"
+     ],
+     "weather": "",
+     "posture": "lean_rail",
+     "support": "none",
+     "frame": "environmental",
+     "body": "rear_3q",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "rail",
+     "left": "hair_tuck",
+     "use": "",
+     "legs": "contrapposto",
+     "gaze": "camera",
+     "preset": "rail_lookback",
+     "expr": "curious",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "cropped hem"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "studio",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "coat",
+     "bikini",
+     "apron",
+     "shirt"
+    ],
+    "orient": [
+     "rear_3q+over_shoulder"
+    ],
+    "frame": [
+     "waist_up"
+    ]
+   }
+  },
+  {
+   "card": "철시드",
+   "species": "ferroseed-20261101",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "boardgame_lounge",
+     "ofam": "lingerie",
+     "item": "sari_blouse_set",
+     "garments": [
+      "blouse",
+      "traditional"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "coin_hold",
+     "legs": "",
+     "gaze": "",
+     "preset": "raise_chest",
+     "expr": "playful",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "one-shoulder cut"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "home_entry",
+     "ofam": "subculture",
+     "item": "skater",
+     "garments": [
+      "shorts",
+      "sweater"
+     ],
+     "weather": "",
+     "posture": "squat",
+     "support": "none",
+     "frame": "full_body",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "natural",
+     "use": "phones_neck",
+     "legs": "",
+     "gaze": "",
+     "preset": "squat_offer",
+     "expr": "unimpressed",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "side cutouts"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "partner_garden",
+     "ofam": "bath",
+     "item": "bath_yukata",
+     "garments": [
+      "traditional"
+     ],
+     "weather": "",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "environmental",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "ball_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "preset": "bench_sit",
+     "expr": "gentle",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "cropped hem"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "home",
+     "street",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "travel",
+     "pokeworld",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "blouse",
+     "traditional",
+     "shorts",
+     "sweater"
+    ],
+    "orient": [
+     "front+turn_side"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

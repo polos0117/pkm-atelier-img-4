@@ -1,0 +1,460 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "accepted": true,
+  "face_reason": "파쪼옥 계열의 큰 눈을 유지하며 성체의 넓은 턱·뚜렷한 눈썹·균형 잡힌 코로 설계했다. 원작 four tufts와 세 줄 무늬를 깃·도색에 옮겼다.",
+  "face_observed_difference": "파쪼옥의 둥근 청색 눈보다 길어진 호박색 눈·낮은 미소와 길어진 하안면. 맘복치의 도톰한 입술·둥근 눈, 탱탱겔의 가는 눈·흰 땋은 머리와 구분. 계획의 medium locs 대신 층진 단발과 가는 땋은 장식이 나왔으며 이 이미지를 정본으로 유지.",
+  "compared_characters": [
+    "파쪼옥",
+    "맘복치",
+    "탱탱겔",
+    "철시드"
+  ],
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "078a62f28a453c54fd79fba432ef70c9d905e879ebff8487e761bb45d7441b12",
+      "observations": "노랑·남색 층진 단발, 호박색 눈과 가는 미소. 네 갈래 깃을 옷깃·허리 트림으로, 세 줄 무늬를 몸통·허벅지 판 도색으로 옮겼다. 두 팔·두 다리·양 부츠가 화면 안에 있다.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·양 부츠가 프레임 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락은 일부 겹치지만 확대에서 분리된다. 손가락에 발광판이 덮이지 않았다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "b9ed7395bef73312d508ead18950bdbc5bb93b3166da52749580bfa76314e7fa",
+      "observations": "같은 얼굴·머리·호박색 눈. 어깨·전완·가슴·허벅지·정강이의 판이 두세 겹 겹치며 경장보다 두꺼운 실루엣. 얼굴이 열린 머리 장식.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·양 부츠가 프레임 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락은 일부 겹치지만 확대에서 분리된다. 손가락에 발광판이 덮이지 않았다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "02b8e7668d556085e18e79f15ac8f5e64497c8f2e86418e802f85bb788c531ac",
+      "observations": "같은 얼굴. 길고 얇게 갈라진 어깨·팔·허리·다리 판과 발광 추진구가 보이며 관절은 비워 두었다.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·양 부츠가 프레임 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락은 일부 겹치지만 확대에서 분리된다. 손가락에 발광판이 덮이지 않았다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "ad845f13ee5232b81b574a70f6fb255bc5c23d81865700b3f4c0be7a2771422e",
+      "observations": "경장의 카메라·고개·손·발 위치 유지. 어깨·가슴·허벅지·정강이 판 이음새가 열려 연두빛 벌레 타입 내부 프레임과 전기 실이 보인다. 호박색 눈 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·양 부츠가 프레임 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락은 일부 겹치지만 확대에서 분리된다. 손가락에 발광판이 덮이지 않았다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "69991ed4264a7453017756a2853f0ed487ca26c4c87f8bd646f2c155c1cfd69d",
+      "observations": "중장과 같은 발·손 위치, 겹판이 들어 올려져 내부 녹황색 프레임과 전기 광채가 나온다. 새 장갑·무기 없이 원래 판이 벌어진다.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·양 부츠가 프레임 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락은 일부 겹치지만 확대에서 분리된다. 손가락에 발광판이 덮이지 않았다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "8478b763e3da1200fcb58249d73663e1bd4f87741f90688c1208365fcf292280",
+      "observations": "고기동의 긴 판과 추진구가 바깥으로 열리며 녹황색 에너지 면과 전기 실이 보인다. 얼굴과 전신 비율·양발 구도가 같은 사람이다.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 머리·양손·양 부츠가 프레임 안에 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 안쪽 엄지와 네 손가락. 굽힌 손가락은 일부 겹치지만 확대에서 분리된다. 손가락에 발광판이 덮이지 않았다.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "e49f89c523df17936d57437e09f90602824b5632d4a82a3c27595307a6f2c5c4",
+      "observations": "돌과 수증기·등불이 있는 온천 앞 얼굴 확대. 보석 거미 머리핀, 자주색 할터 무대 드레스와 열린 아이보리 코트. V사인 한 손, 살짝 기울인 고개와 차분한 입 모양.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 온천 얼굴 확대/라이브 하우스 허리 아래까지/박물관 부츠 포함 전신으로 크기가 구분된다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "V사인 검지·중지 둘, 접힌 약지·소지와 이를 덮는 엄지 하나로 다섯. 반대 손과 다리는 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      },
+      "selected": {
+        "kept": true,
+        "cut": 1,
+        "treeV": 2,
+        "era": "now",
+        "place": "spa_onsen",
+        "weather": "",
+        "ofam": "costume",
+        "item": "",
+        "posture": "stand",
+        "support": "none",
+        "frame": "face_close",
+        "body": "front",
+        "head": "tilt",
+        "camera": "low",
+        "right": "v_sign",
+        "left": "out",
+        "use": "",
+        "legs": "",
+        "gaze": "camera",
+        "expr": "confident",
+        "preset": "vsign_close",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "coat",
+          "dress"
+        ],
+        "expose": [
+          "high thigh slit",
+          "halter neck"
+        ],
+        "lead": "light",
+        "act": "stand:v_sign:out",
+        "orient": "front+tilt",
+        "pose": "vsign_close"
+      },
+      "pose_and_expression": {
+        "match": true,
+        "evidence": "돌과 수증기·등불이 있는 온천 앞 얼굴 확대. 보석 거미 머리핀, 자주색 할터 무대 드레스와 열린 아이보리 코트. V사인 한 손, 살짝 기울인 고개와 차분한 입 모양."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "돌과 수증기·등불이 있는 온천 앞 얼굴 확대. 보석 거미 머리핀, 자주색 할터 무대 드레스와 열린 아이보리 코트. V사인 한 손, 살짝 기울인 고개와 차분한 입 모양."
+      },
+      "actual_differences": "face_close보다 어깨·가슴까지 더 넓게 보인다. 원작 거미 머리핀이 크고 코트가 어깨 아래로 내려왔다."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "4f2dcddff1dc8d83bd0e1604174eeb052b214275f0f964d2b6fe0523fe1b8fd9",
+      "observations": "분홍 조명·앰프·드럼·낮은 무대 난간의 라이브 하우스. 산호색 안감 있는 크로셰 할터 비키니, 한 손 엄지 올리기와 반대 손 허리. 정면 상반신·배·골반 일부가 담겼다.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 온천 얼굴 확대/라이브 하우스 허리 아래까지/박물관 부츠 포함 전신으로 크기가 구분된다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "엄지 위로 든 손은 엄지 하나와 접힌 네 손가락. 허리 손은 안쪽 엄지와 네 손가락. 두 손목·팔꿈치가 각 팔에 연결되고 추가 손 없음. 다리는 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      },
+      "selected": {
+        "cut": 2,
+        "treeV": 2,
+        "era": "now",
+        "place": "night_livehouse",
+        "ofam": "swimwear",
+        "item": "crochet_bikini",
+        "garments": [
+          "bikini"
+        ],
+        "weather": "",
+        "posture": "stand",
+        "support": "none",
+        "frame": "waist_up",
+        "body": "front",
+        "head": "with_body",
+        "camera": "eye",
+        "right": "thumbs_up",
+        "left": "hip",
+        "use": "",
+        "legs": "",
+        "gaze": "camera",
+        "preset": "thumbs_waist",
+        "expr": "cold_smile",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "halter neck"
+        ],
+        "lead": "light"
+      },
+      "pose_and_expression": {
+        "match": false,
+        "evidence": "분홍 조명·앰프·드럼·낮은 무대 난간의 라이브 하우스. 산호색 안감 있는 크로셰 할터 비키니, 한 손 엄지 올리기와 반대 손 허리. 정면 상반신·배·골반 일부가 담겼다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "분홍 조명·앰프·드럼·낮은 무대 난간의 라이브 하우스. 산호색 안감 있는 크로셰 할터 비키니, 한 손 엄지 올리기와 반대 손 허리. 정면 상반신·배·골반 일부가 담겼다."
+      },
+      "actual_differences": "waist_up보다 아래 골반까지 담기며 머리는 기울어졌다. 계획의 표정보다 미소가 부드럽다."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "c68a6643ed0616b29c3d85f880c0b63b41470089fdc1d5a28ac73b48797993c3",
+      "observations": "대리석 조각·황동 난간·복원 작업대가 있는 박물관. 흰 크롭 작업 셔츠·짧은 캔버스 앞치마와 갈색 부츠. 몸은 뒤 3/4, 얼굴은 카메라 쪽으로 돌아봄. 난간 손과 머리 옆 손이 각 어깨에서 자연스럽게 이어진다.",
+      "identity": {
+        "match": true,
+        "evidence": "층진 노랑 단발·남색 가닥·호박색 눈과 긴 하안면·가는 입술을 경장과 직접 대조했다."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "1024×1536. 온천 얼굴 확대/라이브 하우스 허리 아래까지/박물관 부츠 포함 전신으로 크기가 구분된다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "난간 위 손은 네 손가락이 모여 보이고 엄지는 난간·손바닥 뒤로 일부 가려짐. 머리 옆 손은 일부가 머리 뒤에 가려짐. 위팔 두 개가 각 어깨에서 이어지며 몸 뒤에서 새 팔이 나오지 않는다. 다리 둘과 부츠 둘.",
+        "overlay_checked": false,
+        "note": "원본 전체와 손·발 확대를 함께 확인했다. 각 팔과 다리의 몸통 연결, 관절 방향, 추가 팔·손 유무를 눈으로 셌다."
+      },
+      "selected": {
+        "kept": true,
+        "cut": 3,
+        "treeV": 2,
+        "era": "release",
+        "place": "evening_museum",
+        "weather": "",
+        "ofam": "work",
+        "item": "workshop_apron",
+        "posture": "lean_rail",
+        "support": "none",
+        "frame": "environmental",
+        "body": "rear_3q",
+        "head": "over_shoulder",
+        "camera": "eye",
+        "right": "rail",
+        "left": "hair_tuck",
+        "use": "",
+        "legs": "contrapposto",
+        "gaze": "camera",
+        "expr": "curious",
+        "preset": "rail_lookback",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "apron",
+          "shirt"
+        ],
+        "expose": [
+          "mini length",
+          "cropped hem"
+        ],
+        "lead": "place",
+        "act": "lean_rail:rail:hair_tuck",
+        "orient": "rear_3q+over_shoulder",
+        "pose": "rail_lookback"
+      },
+      "pose_and_expression": {
+        "match": true,
+        "evidence": "대리석 조각·황동 난간·복원 작업대가 있는 박물관. 흰 크롭 작업 셔츠·짧은 캔버스 앞치마와 갈색 부츠. 몸은 뒤 3/4, 얼굴은 카메라 쪽으로 돌아봄. 난간 손과 머리 옆 손이 각 어깨에서 자연스럽게 이어진다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "대리석 조각·황동 난간·복원 작업대가 있는 박물관. 흰 크롭 작업 셔츠·짧은 캔버스 앞치마와 갈색 부츠. 몸은 뒤 3/4, 얼굴은 카메라 쪽으로 돌아봄. 난간 손과 머리 옆 손이 각 어깨에서 자연스럽게 이어진다."
+      },
+      "actual_differences": "원작 거미모양 장식이 복원 작업대 위에 남고, 앞치마 앞쪽보다 뒤 끈이 잘 보이는 구도. 카메라를 보는 얼굴과 두 손 연결은 정상."
+    }
+  },
+  "diversity_comparison": {
+    "accepted": true,
+    "evidence": "이번 셋과 파쪼옥·맘복치·탱탱겔의 실제 비교 시트를 보았다. 온천 V사인 얼굴 확대/무대 엄지 올린 수영복 상반신/난간에 기대 돌아보는 작업복 전신은 옷·활동·범위가 구분된다. 파쪼옥의 낚시·마이크 공연·오락실과 비교해 공연 장소가 일부 같아도 마이크·드레스·뒤 3/4에서 손짓·수영복·정면 허리 위로 활동·옷·구도가 달라진다. 맘복치의 나침반·우산·이어컵, 탱탱겔의 바·웨딩·콘테스트와 묶음이 다르다. 철시드의 동전·현관 헤드폰·정원 의자 구성과도 구분했다.",
+    "casual_look": {
+      "crowd_below": 245,
+      "cuts": [
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "work/pkm-atelier-img-4/img/전툴라_glossy_promo_f_casual1.webp",
+          "near": [
+            [
+              "두까비_glossy_promo_f_casual1.webp",
+              285
+            ],
+            [
+              "마나피_glossy_promo_f_casual2.webp",
+              288
+            ],
+            [
+              "치라미_glossy_promo_f_casual1.webp",
+              290
+            ],
+            [
+              "엘레이드_glossy_promo_f_casual2.webp",
+              291
+            ],
+            [
+              "파르셀_glossy_promo_f_casual1.webp",
+              292
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "work/pkm-atelier-img-4/img/전툴라_glossy_promo_f_casual2.webp",
+          "near": [
+            [
+              "플러시_glossy_promo_f_casual1.webp",
+              290
+            ],
+            [
+              "라플레시아_glossy_promo_f_casual3.webp",
+              295
+            ],
+            [
+              "얼루기_glossy_promo_f_casual3.webp",
+              295
+            ],
+            [
+              "가디안_glossy_promo_f_casual3.webp",
+              301
+            ],
+            [
+              "바닐프티_glossy_promo_f_casual3.webp",
+              301
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "work/pkm-atelier-img-4/img/전툴라_glossy_promo_f_casual3.webp",
+          "near": [
+            [
+              "유니란_glossy_promo_f_casual2.webp",
+              248
+            ],
+            [
+              "래비풋_glossy_promo_f_casual3.webp",
+              264
+            ],
+            [
+              "방패톱스_glossy_promo_f_casual2.webp",
+              270
+            ],
+            [
+              "썬더_glossy_promo_f_casual3.webp",
+              271
+            ],
+            [
+              "밤선인_glossy_promo_f_casual1.webp",
+              276
+            ]
+          ],
+          "same_as_own": []
+        }
+      ],
+      "dup_below": 215,
+      "ok": true
+    }
+  },
+  "attempts": [
+    {
+      "slot": "casual2",
+      "attempt": 1,
+      "status": "blocked_by_image_tool",
+      "returned_image": false,
+      "reason": "output moderation: sexual",
+      "request_id": "240099c4-5860-49cb-ae67-14527f493540",
+      "action": "replanned through casual-plan.cjs; excluded triangle_bikini and boardgame_lounge; preserved five other planned cuts",
+      "reservation_commit": "c66d9d835f433250e9900a473a7c99efd21dbdbf"
+    }
+  ]
+}

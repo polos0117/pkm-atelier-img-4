@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "card": "전툴라",
+  "no": 596,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/a2e7e32283bc/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Warm lantern light catches the drifting steam beside a polished stone changing pavilion.",
+      "outfit": "A plum halter-neck stage dress with a high thigh slit, worn with a short open ivory coat that leaves the shoulders and collarbones visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "온천의 빛과 탈의 정자 재질만 보충한다.",
+        "outfit": "자동 의상 계열에 정해진 옷이 없어 coat·dress와 두 드러내기 방식을 실제 의상으로 정한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / spa_onsen / costume / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "spa_onsen",
+            "ko": "노천 온천",
+            "en": "an open-air hot spring among steaming rocks"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "costume",
+            "ko": "무대·판타지 의상",
+            "en": "a stage or fantasy costume"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "v_sign · out"
+        },
+        "garments": [
+          "coat",
+          "dress"
+        ],
+        "expose": [
+          "high thigh slit",
+          "halter neck"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "Magenta stage light falls across a summer music showcase; copper speaker grilles and a low crowd barrier frame the stage.",
+      "outfit": "A fully lined coral crochet-knit halter bikini with secure opaque cups and high-cut bottoms.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "라이브 하우스의 공연 조명과 스피커 재질만 보충한다.",
+        "outfit": "선택한 안감 있는 크로셰 비키니를 유지하며 할터 목선과 하이컷 구조를 명시한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_livehouse / swimwear / crochet_bikini / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_livehouse",
+            "ko": "라이브 하우스",
+            "en": "a small live house with a low stage, a crowd barrier and amps"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "crochet_bikini",
+            "ko": "크로셰 비키니",
+            "en": "a fully lined crochet-knit bikini in a sunny resort colour"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "thumbs_up · hip"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "high-cut leg",
+          "halter neck"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "The marble gallery has a brass balcony rail and a small restoration workstation lit by amber desk lamps.",
+      "outfit": "A cropped sleeveless white work shirt under a mini-length sand canvas workshop apron, safety glasses pushed up; the shirt leaves her shoulders and a narrow waist section visible above the apron.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "박물관 안 복원 작업대와 난간 재질을 보충한다.",
+        "outfit": "공방 셔츠·앞치마를 유지하며 짧은 기장과 크롭 구조로 어깨와 허리 일부를 드러낸다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / evening_museum / work / workshop_apron / lean_rail / environmental",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "evening_museum",
+            "ko": "박물관 갈라",
+            "en": "a grand museum hall with marble statues at night"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "work",
+            "ko": "직업복",
+            "en": "practical clothing for her Pokémon-world job, readable through its tools",
+            "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+          },
+          "item": {
+            "key": "workshop_apron",
+            "ko": "공방 앞치마",
+            "en": "a work shirt under a canvas workshop apron, safety glasses pushed up"
+          },
+          "posture": {
+            "key": "lean_rail",
+            "ko": "난간·창턱에 기대 서기",
+            "en": "standing at a waist-high railing or sill, leaning lightly on it"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "rail · hair_tuck"
+        },
+        "garments": [
+          "apron",
+          "shirt"
+        ],
+        "expose": [
+          "mini length",
+          "cropped hem"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}
