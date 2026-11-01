@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "card": "리그레",
+  "no": 605,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/6c6fb761ec7a/PLAN-final.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_hotel / pokemon_costume / pc_bodysuit / walk / full_body / bag_carry",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_hotel",
+            "ko": "호텔 방",
+            "en": "a hotel suite with a city view and an open suitcase"
+          },
+          "role": null,
+          "use": {
+            "key": "bag_carry",
+            "ko": "쇼핑백을 든다",
+            "en": "carries a paper shopping bag at her side",
+            "prop": "쇼핑백"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_bodysuit",
+            "ko": "바디수트형",
+            "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "bodysuit",
+          "leggings"
+        ],
+        "expose": [
+          "bare midriff",
+          "cropped hem"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "She uses a soft ivory towel after a dip; a champagne-colored cushion and mooring ropes catch the early evening light.",
+      "outfit": "An opaque satin slip dress with an asymmetric one-shoulder strap arrangement and a high thigh slit, flowing smoothly along the body.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 머리 말리기 동작에 수건 재질과 정박한 요트의 시간대 보충.",
+        "outfit": "슬립 드레스의 새틴 소재와 흐르는 실루엣 유지, 한쪽 어깨·슬릿 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / water_yacht / evening / slip_dress / stand / chest_up / towel_dry",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "water_yacht",
+            "ko": "요트 갑판",
+            "en": "the cushioned foredeck of a moored yacht"
+          },
+          "role": null,
+          "use": {
+            "key": "towel_dry",
+            "ko": "수건으로 머리를 말린다",
+            "en": "dries her hair with a towel",
+            "prop": "수건"
+          },
+          "ofam": {
+            "key": "evening",
+            "ko": "저녁 드레스",
+            "en": "an evening dress or night-out outfit"
+          },
+          "item": {
+            "key": "slip_dress",
+            "ko": "슬립 드레스",
+            "en": "a thin-strapped satin slip dress that flows along the body"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "dress",
+          "slip"
+        ],
+        "expose": [
+          "high thigh slit",
+          "one-shoulder cut"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "A red-and-white Poké Ball has a small circular clasp; an upholstered chair stands beside the commentary desk during an arena fashion-photo event.",
+      "outfit": "A fully lined rose-pink babydoll slip with a narrow asymmetric one-shoulder double strap, an empire waist and a softly flared mini hem with a high side opening.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "고른 몬스터볼과 의자 받침을 구체화하고 리그 경기장의 패션 촬영 행사 맥락 보충.",
+        "outfit": "베이비돌의 가는 끈·엠파이어 허리·퍼지는 밑단을 유지하면서 계획의 한쪽 어깨·사이드 트임을 반영하고 앞 컷의 흰 새틴과 구분."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / work_wetland / lingerie / slip_lingerie / sit_edge / waist_up",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "work_wetland",
+            "ko": "습지 관찰대",
+            "en": "a wooden wetland lookout among tall reeds beside a quiet marsh"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "slip_lingerie",
+            "ko": "란제리 슬립",
+            "en": "a bias-cut satin slip with narrow straps and a straight hem"
+          },
+          "posture": {
+            "key": "sit_edge",
+            "ko": "가장자리에 걸터앉기",
+            "en": "perched on a ledge or edge"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "slip"
+        ],
+        "expose": [
+          "plunging neckline",
+          "mini length"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}
