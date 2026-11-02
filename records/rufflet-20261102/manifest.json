@@ -1,0 +1,69 @@
+[
+  {
+    "slot": "light",
+    "file": "수리둥보_light_glossy_promo_f.webp",
+    "card": "수리둥보",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "16b3fb6f67501d33c074ac9c2b59ca7b48b50932622357ad2c7efd3946f61449",
+    "sha256": "6159d1b25b249056e3b4ea13adf041f7fc76f2854566fcce8e0b42bc21a324d9",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {}
+  },
+  {
+    "slot": "casual3",
+    "file": "수리둥보_glossy_promo_f_casual3.webp",
+    "card": "수리둥보",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "31f8a23a19e6042269ef5a6b77cab7eaa108b005f597655dab2ed1fdb14c7d44",
+    "sha256": "4307e85cae16a53aa13f93f6df79b50aba8007f97eb5d6aa0c56f0c52d827d88",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "16b3fb6f67501d33c074ac9c2b59ca7b48b50932622357ad2c7efd3946f61449"
+    }
+  },
+  {
+    "slot": "heavy",
+    "file": "수리둥보_heavy_glossy_promo_f.webp",
+    "card": "수리둥보",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "2f33f7399342e8117e4beaee0778e986d2de456ef8d34660a2cdcf646957b86f",
+    "sha256": "3b6b02ac5bec56e4bcd9033e4e138b046c82a5e79d295dc5773221892c03d635",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "16b3fb6f67501d33c074ac9c2b59ca7b48b50932622357ad2c7efd3946f61449"
+    }
+  },
+  {
+    "slot": "heavy_overdrive",
+    "file": "수리둥보_heavy_overdrive_glossy_promo_f.webp",
+    "card": "수리둥보",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "cdeedcb7ba580ce42db1597be7137ead4dc3b89b2d374452fac63ca81a25cf55",
+    "sha256": "6528e1d86d359168b04a0ed7547885f9963b364d9b30afa5f1ff50fa67745c1d",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "heavy": "2f33f7399342e8117e4beaee0778e986d2de456ef8d34660a2cdcf646957b86f",
+      "light": "16b3fb6f67501d33c074ac9c2b59ca7b48b50932622357ad2c7efd3946f61449"
+    }
+  }
+]

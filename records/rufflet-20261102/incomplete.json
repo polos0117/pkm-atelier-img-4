@@ -1,0 +1,28 @@
+{
+  "status": "blocked_incomplete",
+  "completed": [
+    "light",
+    "casual3",
+    "heavy",
+    "heavy_overdrive"
+  ],
+  "pending": [
+    "mobility",
+    "light_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2"
+  ],
+  "error": "image_gen output moderation_blocked category sexual, request d83082c6-37b4-41c6-80ba-204964f33a56",
+  "batch_slots": [
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "casual1",
+    "casual2",
+    "casual3"
+  ],
+  "batch_outcome": "heavy and casual3 returned and saved. Promise group stopped on an untagged tool rejection. Remaining individual results were not returned; no source images found for them. No duplicate calls submitted. Heavy overdrive separately completed.",
+  "failed_slot": "not identifiable from the tool error",
+  "rule": "Do not treat in-flight or ambiguous generation responses as regeneration instructions. Preserve generated results."
+}

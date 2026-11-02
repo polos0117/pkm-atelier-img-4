@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "card": "수리둥보",
+  "no": 627,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/50d1607986af/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "A compact red-and-white feather crest head ornament, navy blue and white feather-shaped armor with yellow accents.",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Tall glass panes reflect a grid of distant apartment lights, with a ceramic tea service nearby.",
+      "outfit": "An adult Rufflet costume cut as a navy high-cut bodysuit with sheer thigh-high tights, a one-shoulder white feather-trimmed neckline and an oval midriff cutout; a small red-and-white feather headpiece completes it.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "place 첫머리로 창문 반사와 차 도구를 보충",
+        "outfit": "바디수트·타이츠를 보존하며 한쪽 어깨·복부 컷아웃과 수리둥보 깃털 모티프 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_penthouse / pokemon_costume / pc_bodysuit / stand / chest_up / cup_wrap",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_penthouse",
+            "ko": "펜트하우스",
+            "en": "a penthouse window wall over the city at night"
+          },
+          "role": null,
+          "use": {
+            "key": "cup_wrap",
+            "ko": "두 손으로 잔을 감싼다",
+            "en": "holds a cup in both hands, wrapped around its warm sides",
+            "prop": "잔·컵"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_bodysuit",
+            "ko": "바디수트형",
+            "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "bodysuit",
+          "leggings"
+        ],
+        "expose": [
+          "bare midriff",
+          "one-shoulder cut"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual2": {
+      "scene": "A compact cassette player rests beside a glittering star-shaped stage marker.",
+      "outfit": "A color-blocked 1990s teal-and-peach windbreaker with a very short cropped hem, worn open over a fitted crop top, with matching track pants whose short upper panels open into high side slits above the knees.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "detail 첫머리로 90년대 카세트와 별 무대 표식을 보충",
+        "outfit": "윈드브레이커·트랙팬츠를 유지하고 cropped hem·짧은 상부 패널로 계획의 mini length를 반영"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_starstage / retro / nineties_windbreaker_track / sit_floor / three_quarter",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_starstage",
+            "ko": "별빛 무대",
+            "en": "a stage under a painted night sky of crystal stars"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "retro",
+            "ko": "레트로",
+            "en": "a period look from a past decade"
+          },
+          "item": {
+            "key": "nineties_windbreaker_track",
+            "ko": "90년대 윈드브레이커 + 트랙 팬츠",
+            "en": "a color-blocked 1990s windbreaker with matching track pants"
+          },
+          "posture": {
+            "key": "sit_floor",
+            "ko": "바닥에 앉기",
+            "en": "sitting on the ground"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "chin_knee · floor_brace"
+        },
+        "garments": [
+          "jacket",
+          "trousers"
+        ],
+        "expose": [
+          "cropped hem",
+          "mini length"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual3": {
+      "scene": "Late-afternoon sunlight falls across the grooming mat, towel and little brush basket; a small Pichu rests on the mat.",
+      "outfit": "A mint performance jumpsuit with a secure plunging neckline and high thigh slits in the wide trouser legs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "light 첫머리로 오후빛과 동료 피츄 한 마리를 명시",
+        "outfit": "활동용 점프수트를 유지하며 깊은 목선·허벅지 슬릿 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / partner_room / active / sit_chair / environmental / ball_hold",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "partner_room",
+            "ko": "그루밍 매트 있는 방",
+            "en": "a sunny room with a grooming mat, a towel and a small brush basket"
+          },
+          "role": null,
+          "use": {
+            "key": "ball_hold",
+            "ko": "몬스터볼을 든다",
+            "en": "holds a Poké Ball at chest height",
+            "prop": "몬스터볼"
+          },
+          "ofam": {
+            "key": "active",
+            "ko": "운동복",
+            "en": "activewear made for the activity"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "plunging neckline",
+          "high thigh slit"
+        ],
+        "lead": "light"
+      }
+    }
+  }
+}

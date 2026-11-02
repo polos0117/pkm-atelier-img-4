@@ -1,0 +1,71 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "completion": "partial: 4 of 9",
+  "generator": "built-in image_gen",
+  "face_basis": [
+    "data/face-design.json:627",
+    "data/source-appearance.json:627"
+  ],
+  "face_reason": "날개·깃털 단서의 짧은 페더컷·가까운 눈·가늘고 곧은 코. 버프론의 넓은 턱과 굵은 눈썹·긴 갈색 머리와 대비.",
+  "compared_characters": [
+    "버프론",
+    "자망칼",
+    "절각참",
+    "골루그"
+  ],
+  "images": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "16b3fb6f67501d33c074ac9c2b59ca7b48b50932622357ad2c7efd3946f61449",
+      "observations": "짧은 흰색 페더컷·남색 안쪽 머리·작은 붉은 깃털 머리 장식, 가까운 눈 간격·가는 코. 남색 슈트와 흰색 금색 깃털형 경장. 양팔과 양다리 관절 자연스러움.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "장갑을 낀 양손은 각각 엄지와 네 손가락의 자연스럽게 굽힌 구조, 손끝 일부는 포개져 가림. 양쪽 손목이 해당 팔에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 전체·손 확대에서 연결·손가락 구조 확인. 가려진 끝마디는 가려짐으로 기록."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "31f8a23a19e6042269ef5a6b77cab7eaa108b005f597655dab2ed1fdb14c7d44",
+      "observations": "햇빛 비치는 그루밍방 의자에 민트 점프수트. 오른손 몬스터볼·왼손 무릎, 양다리와 운동화. 피츄 한 마리가 매트 위에서 잠. 지친 표정보다 부드러운 표정, 가슴 열린 목선과 허벅지 슬릿.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손은 몬스터볼을 다섯 손가락으로 감싸 일부 끝마디·엄지가 공에 가려짐. 왼손은 무릎에 네 긴 손가락·안쪽 엄지, 손목이 왼쪽 아래팔과 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 전체·손 확대에서 연결·손가락 구조 확인. 가려진 끝마디는 가려짐으로 기록."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "2f33f7399342e8117e4beaee0778e986d2de456ef8d34660a2cdcf646957b86f",
+      "observations": "같은 인물과 산악 배경, 어깨·허리·무릎에 큰 깃털형 겹판. 얼굴을 열어 둔 머리 가드. 양손 장갑·양발 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "장갑을 낀 양손은 각각 엄지와 네 손가락의 자연스럽게 굽힌 구조, 손끝 일부는 포개져 가림. 양쪽 손목이 해당 팔에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 전체·손 확대에서 연결·손가락 구조 확인. 가려진 끝마디는 가려짐으로 기록."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "cdeedcb7ba580ce42db1597be7137ead4dc3b89b2d374452fac63ca81a25cf55",
+      "observations": "중장의 카메라·얼굴·팔·발 위치와 판 배치 그대로, 기존 깃털판이 들리며 내부 금색 프레임·빛. 새 무기 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "장갑을 낀 양손은 각각 엄지와 네 손가락의 자연스럽게 굽힌 구조, 손끝 일부는 포개져 가림. 양쪽 손목이 해당 팔에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 전체·손 확대에서 연결·손가락 구조 확인. 가려진 끝마디는 가려짐으로 기록."
+      }
+    }
+  }
+}
