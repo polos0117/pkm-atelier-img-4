@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "card": "수리둥보",
+  "no": 627,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/50d1607986af/retry/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "A strip of glossy photo stickers and the booth curtain catch pink ring-light reflections.",
+      "outfit": "A color-blocked plum-and-peach 1990s windbreaker cropped at the waist, worn open and slipped off one shoulder over an opaque open-back fitted top, with matching full-length track pants and sneakers.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "detail 첫머리로 사진 스티커와 부스 커튼의 반사를 보충",
+        "outfit": "90년대 윈드브레이커·트랙 팬츠를 유지하고 open back·one-shoulder cut을 상의 구조로 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / arcade_photo / retro / nineties_windbreaker_track / lean_wall / full_body",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "arcade_photo",
+            "ko": "스티커 사진기",
+            "en": "an arcade photo-sticker booth under bright ring lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "retro",
+            "ko": "레트로",
+            "en": "a period look from a past decade"
+          },
+          "item": {
+            "key": "nineties_windbreaker_track",
+            "ko": "90년대 윈드브레이커 + 트랙 팬츠",
+            "en": "a color-blocked 1990s windbreaker with matching track pants"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "pocket · hair_tuck"
+        },
+        "garments": [
+          "jacket",
+          "trousers"
+        ],
+        "expose": [
+          "open back",
+          "one-shoulder cut"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual2": {
+      "scene": "Warm afternoon sunlight stretches across faded court lines and a chain-link fence.",
+      "outfit": "A soft ivory off-shoulder sleep shirt with a loose fit, knotted into a short front hem with small side cutouts, worn with opaque lounge shorts.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "light 첫머리로 코트의 오후빛·페인트 선·철망 울타리를 구체화",
+        "outfit": "느슨한 오프숄더 잠옷 셔츠를 유지하며 앞단 매듭·옆 컷아웃으로 bare midriff·side cutouts 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / sports_court / homewear / sleep_shirt / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "sports_court",
+            "ko": "코트",
+            "en": "an outdoor court for tennis or basketball"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "homewear",
+            "ko": "홈웨어",
+            "en": "soft homewear or loungewear"
+          },
+          "item": {
+            "key": "sleep_shirt",
+            "ko": "오프숄더 잠옷 셔츠",
+            "en": "a loose off-shoulder sleep shirt"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "clasp_both · clasp_both"
+        },
+        "garments": [
+          "shirt"
+        ],
+        "expose": [
+          "bare midriff",
+          "side cutouts"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / partner_room / active / sit_chair / environmental / ball_hold",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "partner_room",
+            "ko": "그루밍 매트 있는 방",
+            "en": "a sunny room with a grooming mat, a towel and a small brush basket"
+          },
+          "role": null,
+          "use": {
+            "key": "ball_hold",
+            "ko": "몬스터볼을 든다",
+            "en": "holds a Poké Ball at chest height",
+            "prop": "몬스터볼"
+          },
+          "ofam": {
+            "key": "active",
+            "ko": "운동복",
+            "en": "activewear made for the activity"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "plunging neckline",
+          "high thigh slit"
+        ],
+        "lead": ""
+      }
+    }
+  }
+}

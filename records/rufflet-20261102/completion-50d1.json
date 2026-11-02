@@ -1,0 +1,46 @@
+{
+  "state": "generation_complete",
+  "accepted": 9,
+  "kept": 4,
+  "new": 5,
+  "remaining": [],
+  "supersedes": "incomplete.json",
+  "new_slots": [
+    "casual1",
+    "mobility_overdrive",
+    "casual2",
+    "light_overdrive",
+    "mobility"
+  ],
+  "reservation_session": "rufflet-retry-50d1",
+  "reservation_commit": "f223613426d90f472ee4e307e34601d02a2b1f04",
+  "kept_files": [
+    {
+      "file": "수리둥보_light_glossy_promo_f.webp",
+      "sha256": "6159d1b25b249056e3b4ea13adf041f7fc76f2854566fcce8e0b42bc21a324d9",
+      "git_blob": "bf8016e5140f6be042a489a6a533d4c8d062ddb6",
+      "unchanged": true
+    },
+    {
+      "file": "수리둥보_glossy_promo_f_casual3.webp",
+      "sha256": "4307e85cae16a53aa13f93f6df79b50aba8007f97eb5d6aa0c56f0c52d827d88",
+      "git_blob": "283756ffa2ce0bcb8e4ae6377ff1f8e986167784",
+      "unchanged": true
+    },
+    {
+      "file": "수리둥보_heavy_glossy_promo_f.webp",
+      "sha256": "3b6b02ac5bec56e4bcd9033e4e138b046c82a5e79d295dc5773221892c03d635",
+      "git_blob": "950f063fb997b402eedd55b8197c12c9ad330e36",
+      "unchanged": true
+    },
+    {
+      "file": "수리둥보_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "6528e1d86d359168b04a0ed7547885f9963b364d9b30afa5f1ff50fa67745c1d",
+      "git_blob": "be275de231a6c84dec18e6544ec29165ab15784a",
+      "unchanged": true
+    }
+  ],
+  "new_manifest": "refill-manifest.json",
+  "qa": "refill-qa.json",
+  "registration_expected": "all 9 slots under glossy_promo; verify remote data/img.json and thumbnails after publication"
+}

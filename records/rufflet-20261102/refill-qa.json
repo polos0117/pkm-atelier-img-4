@@ -1,0 +1,106 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generation": "built-in image_gen, exact prompt-pack prompts, one returned result per slot",
+  "request": "수리둥보 다시 시도해줘",
+  "scope": "5 missing slots; existing 4 unchanged",
+  "images": {
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "6d1bc6308431753d844cf464a1a040dfcb4cd4efdad660ace378b7cd95dc5728",
+      "observations": "링 조명·커튼·사진 스트립이 있는 사진 부스의 벽에 기대 한 발을 벽에 올림. 자주·복숭아색 윈드브레이커와 트랙 팬츠·운동화, 흰색 크롭 톱. 왼손이 귀 옆 머리를 넘기고 오른손은 주머니. 작은 깃털 키링만 모티프. 어깨와 배가 드러나며 등은 벽에 가려짐.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "왼손은 귀 옆에서 머리를 넘기며 손가락 일부가 머리에 가려짐. 손목·앞팔·팔꿈치가 정상 연결. 오른손은 주머니 안에 있어 손가락 수 관찰 불가, 팔·손목은 주머니 입구로 이어짐.",
+        "overlay_checked": false,
+        "note": "전체 원본·손 확대에서 인물 수·팔과 다리 연결·관절·손 구조를 눈으로 확인. 가려진 부위는 가려짐으로 구분."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "c7f8ae6d389bdeefd80656dd3faec1c688932c5e905b7f8286e7ad73fa254291",
+      "observations": "새 고기동과 같은 얼굴·구도·크기·손발 위치. 기존 깃털판이 열리고 금색 내부 프레임이 드러남. 원래 추진구의 빛이 푸른색에서 따뜻한 금색으로 전환됨.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락의 정상 장갑 구조, 느슨하게 굽힌 끝마디 일부 가림. 손목·팔꿈치·어깨까지 각각 연결, 추가 손이나 뒤집힌 손 없음.",
+        "overlay_checked": false,
+        "note": "전체 원본·손 확대에서 인물 수·팔과 다리 연결·관절·손 구조를 눈으로 확인. 가려진 부위는 가려짐으로 구분."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "ddd7c5be2ea0d520fc6c05181f0edee4caae0646ea8b283cd407e303d732d115",
+      "observations": "철망 울타리와 코트 앞, 오프숄더 아이보리 매듭 셔츠와 회색 쇼츠. 두 손을 가슴 앞에서 맞잡음. 어깨와 복부·옆구리가 드러남. 프레이밍은 계획의 허리 위보다 넓게 허벅지까지 포함, 약간 비치는 천은 세부 차이로 기록.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손의 손가락이 서로 깍지 끼듯 포개짐. 위쪽 네 긴 손가락과 아래쪽 엄지·손바닥 경계를 확대 확인. 포개진 손가락 일부는 가려져 개별 끝마디를 모두 단정하지 않음. 두 손목이 각 아래팔에 이어지고 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "전체 원본·손 확대에서 인물 수·팔과 다리 연결·관절·손 구조를 눈으로 확인. 가려진 부위는 가려짐으로 구분."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "07fe8c13699dfcda32dd9120594379d0b8556da348a5b0fdb7cfcf08770875ba",
+      "observations": "경장의 같은 산악 배경·카메라·얼굴·팔·발 위치. 어깨·허리·정강이의 기존 판이 이음새에서 들려 금색 내부 발광. 새 무기나 머리 장식 추가 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락의 정상 장갑 구조, 느슨하게 굽힌 끝마디 일부 가림. 손목·팔꿈치·어깨까지 각각 연결, 추가 손이나 뒤집힌 손 없음.",
+        "overlay_checked": false,
+        "note": "전체 원본·손 확대에서 인물 수·팔과 다리 연결·관절·손 구조를 눈으로 확인. 가려진 부위는 가려짐으로 구분."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "d8dfb040b12e82ea7f3776320fd2199d69b4e908b5afc594d9edff4efaad0d56",
+      "observations": "경장과 같은 짧은 흰색·남색 페더컷과 얼굴. 흰색 깃털형 판이 어깨·골반·종아리에서 뒤와 바깥으로 갈라지며 작은 푸른 추진구. 얼굴·양손·발이 프레임 안, 양팔·다리 연결 자연스러움.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락의 정상 장갑 구조, 느슨하게 굽힌 끝마디 일부 가림. 손목·팔꿈치·어깨까지 각각 연결, 추가 손이나 뒤집힌 손 없음.",
+        "overlay_checked": false,
+        "note": "전체 원본·손 확대에서 인물 수·팔과 다리 연결·관절·손 구조를 눈으로 확인. 가려진 부위는 가려짐으로 구분."
+      }
+    }
+  },
+  "kept": [
+    {
+      "file": "수리둥보_light_glossy_promo_f.webp",
+      "sha256": "6159d1b25b249056e3b4ea13adf041f7fc76f2854566fcce8e0b42bc21a324d9",
+      "git_blob": "bf8016e5140f6be042a489a6a533d4c8d062ddb6",
+      "unchanged": true
+    },
+    {
+      "file": "수리둥보_glossy_promo_f_casual3.webp",
+      "sha256": "4307e85cae16a53aa13f93f6df79b50aba8007f97eb5d6aa0c56f0c52d827d88",
+      "git_blob": "283756ffa2ce0bcb8e4ae6377ff1f8e986167784",
+      "unchanged": true
+    },
+    {
+      "file": "수리둥보_heavy_glossy_promo_f.webp",
+      "sha256": "3b6b02ac5bec56e4bcd9033e4e138b046c82a5e79d295dc5773221892c03d635",
+      "git_blob": "950f063fb997b402eedd55b8197c12c9ad330e36",
+      "unchanged": true
+    },
+    {
+      "file": "수리둥보_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "6528e1d86d359168b04a0ed7547885f9963b364d9b30afa5f1ff50fa67745c1d",
+      "git_blob": "be275de231a6c84dec18e6544ec29165ab15784a",
+      "unchanged": true
+    }
+  ],
+  "reference_anchor": {
+    "path": "/workspace/scratch/50d1607986af/generated_images/exec-27717e91-22e6-4e6a-a681-6909bbfff94f.png",
+    "sha256": "16b3fb6f67501d33c074ac9c2b59ca7b48b50932622357ad2c7efd3946f61449"
+  },
+  "diversity_comparison": "새 일상1은 사진 부스의 한 발 벽 기대기·트랙수트 전신, 새 일상2는 야외 코트의 양손 맞잡기·매듭 셔츠와 쇼츠, 유지한 일상3은 그루밍방에서 몬스터볼을 든 의자 앉기·민트 점프수트와 피츄. 장소·활동·의상 실루엣·프레이밍이 구분됨. 버프론의 엄지 비키니·콘솔 드레스·승강장 옆얼굴, 자망칼·절각참·골루그의 앞선 비교 그림과도 조합이 구분됨.",
+  "planner_note": "refill 계획은 lib/casual-plan.js costumeSlot 및 IMAGE_RULES의 기존 캐릭터 유지 규칙에 따라 신규 캐릭터의 포켓몬 코스튬 의무를 다시 적용하지 않음. 원래 등록된 일상3은 유지."
+}
