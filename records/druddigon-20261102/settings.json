@@ -1,0 +1,291 @@
+{
+ "version": 1,
+ "card": "크리만",
+ "no": 621,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/bd73ce7fb59c/PLAN-REVISED.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Deep blue jagged armor and vivid red crown-like head armor, with pale yellow accent light. Broad angular shoulder plates, red conical spike edging and thistle-shaped split cape panels translate the dragon silhouette into clothing; human skin remains natural.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s",
+    "hair color": "red",
+    "eye color": "yellow",
+    "body type": "athletic"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Soft late-afternoon light reaches the cedar roof and the stone footbath, with a folded cream towel catching the light.",
+   "outfit": "A cropped charcoal skater hoodie with side cutouts, low-slung mini cargo shorts and high socks; the cropped hem leaves her waist exposed and the mini shorts reveal her thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·소품 동작을 유지하면서 이 컷의 빛과 주변 사물의 재질을 구체화한다: Soft late-afternoon light reaches the cedar roof and the stone footbath, with a folded cream towel catching the light.",
+    "outfit": "선택된 옷의 종류를 유지하고 계획의 드러내기 방식과 소재를 의복 구조에 반영한다: A cropped charcoal skater hoodie with side cutouts, low-slung mini cargo shorts and high socks; the cropped hem leaves her waist exposed and the mini shorts reveal her thighs."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / spa_footbath / subculture / skater / stand / waist_up / towel_hold",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "spa_footbath",
+      "ko": "온천 마을 족욕",
+      "en": "a hot-spring town footbath under a wooden roof"
+     },
+     "role": null,
+     "use": {
+      "key": "towel_hold",
+      "ko": "수건을 안는다",
+      "en": "holds a towel folded against her chest",
+      "prop": "수건"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "skater",
+      "ko": "스케이터",
+      "en": "skater — a cropped hoodie, low-slung cargo shorts and high socks"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · pocket"
+    },
+    "garments": [
+     "shorts",
+     "sweater"
+    ],
+    "expose": [
+     "mini length",
+     "side cutouts"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A broad patch of clean green lawn lies beside the fountain, with sunlight filtering through old plane trees.",
+   "outfit": "An adult Druddigon costume fitted strapless mini dress in deep blue with red angular trim, a short side slit and soft red-spiked headband; opaque lined fabric and small wing-shaped capelets.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "새로 선택된 공원의 잔디와 분수·나무의 빛을 구체화한다.",
+    "outfit": "선택된 미니 드레스형 코스튬을 유지하고 청색·붉은 가시 무늬를 피부가 아닌 옷 조각과 머리띠로 옮긴다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_park / pokemon_costume / pc_mini_dress / lie_front / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_park",
+      "ko": "공원",
+      "en": "a city park with benches, old trees and a fountain"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_mini_dress",
+      "ko": "미니 드레스형",
+      "en": "a daring adult costume version of {costume}, cut as a fitted strapless mini dress"
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "chin_both · chin_both"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "high thigh slit",
+     "mini length"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Leaning beside a curved chrome wall panel, she takes a break while a rounded television and amber globe lamp glow nearby.",
+   "outfit": "A 1970s opaque cream strapless top with small side cutouts above low-rise plum flared trousers, exposing the shoulders and waist.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 레트로 퓨처 집에 곡면 패널·둥근 텔레비전·구형 램프를 더해 무대 시대를 구체화한다.",
+    "outfit": "자동인 레트로 의상을 70년대 플레어 바지로 정하고 계획의 strapless top·side cutouts를 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_retro_home / retro / lean_wall / chest_up",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_retro_home",
+      "ko": "레트로 퓨처 집",
+      "en": "a retro-futurist home of rounded chrome appliances and soft panels"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "arms_crossed · arms_crossed"
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "side cutouts",
+     "strapless top"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

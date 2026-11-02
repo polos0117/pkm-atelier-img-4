@@ -1,0 +1,163 @@
+{
+ "session": "pkm-mienshao-druddigon-bd73",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "크리만",
+   "species": "druddigon-20261102",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "release",
+     "place": "spa_footbath",
+     "weather": "",
+     "ofam": "subculture",
+     "item": "skater",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "prop",
+     "left": "pocket",
+     "use": "towel_hold",
+     "legs": "",
+     "gaze": "at_prop",
+     "expr": "unimpressed",
+     "preset": "pocket_look",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shorts",
+      "sweater"
+     ],
+     "expose": [
+      "mini length",
+      "side cutouts"
+     ],
+     "lead": "light",
+     "act": "towel_hold",
+     "orient": "front_3q+tilt",
+     "pose": "pocket_look"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_park",
+     "ofam": "pokemon_costume",
+     "item": "pc_mini_dress",
+     "garments": [
+      "dress"
+     ],
+     "weather": "",
+     "posture": "lie_front",
+     "support": "front_floor",
+     "frame": "full_body",
+     "body": "front",
+     "head": "with_body",
+     "camera": "low",
+     "right": "chin_both",
+     "left": "chin_both",
+     "use": "",
+     "legs": "feet_up",
+     "gaze": "camera",
+     "preset": "lie_front_full",
+     "expr": "gentle",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "mini length"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_retro_home",
+     "ofam": "retro",
+     "item": "",
+     "garments": [
+      "trousers"
+     ],
+     "weather": "",
+     "posture": "lean_wall",
+     "support": "back_wall",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "arms_crossed",
+     "left": "arms_crossed",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "crossed_wall",
+     "expr": "provocative",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "side cutouts",
+      "strapless top"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "costume": 2,
+    "low": [
+     "home",
+     "studio",
+     "spa",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "trousers"
+    ],
+    "orient": [
+     "front+with_body"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
