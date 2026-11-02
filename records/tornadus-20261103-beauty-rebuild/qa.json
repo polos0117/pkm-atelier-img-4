@@ -1,0 +1,133 @@
+{
+  "card": "토네로스",
+  "request": "새 미형 경장을 기준으로 전체 9장 재생성",
+  "canonical": {
+    "source": "/workspace/scratch/728dc229de80/generated_images/exec-07defeac-509f-4a44-805e-0a3f94ae4839.png",
+    "original_sha256": "e5c65ebda70b8ff729463f9a211abdb5bd42e6434673afb3e02968dc93bee621",
+    "output": "img/토네로스_light_glossy_promo_f.webp",
+    "output_sha256": "e306669ee727abdb88e17d78f6e1a7d4fdb0bddf27ea0639d0fb792b409f08c9",
+    "previous_public_sha256": "e4652c28210148177ffbf635cfae8cd9dde72db91cdf29cdafced6d5f8eb5896",
+    "previous_blob_sha": "0fa30d590810743bc7069caaaab013c82fafc4f0",
+    "reference_slot": null,
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  "generator_commit": "51990c50bb2ff6ec082c0890b40760fa811ae204",
+  "style_reference": "테라키온 경장은 신규 경장의 화풍·비율에만 사용; 후속 컷은 새 토네로스 경장을 참조",
+  "body_target": "approximately 7.5 heads; actual exact ratio is not asserted",
+  "anatomy_tool": "unavailable: mediapipe not installed; manually reviewed",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observation": "완만한 하트형 얼굴·보통 눈 간격·올라간 눈매와 흰 웨이브 머리. 두 손은 몸 옆에 내려와 손목으로 이어지고 두 다리와 부츠가 서로 분리된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "e306669ee727abdb88e17d78f6e1a7d4fdb0bddf27ea0639d0fb792b409f08c9"
+    },
+    "heavy": {
+      "accepted": true,
+      "observation": "경장의 짧고 균형 있는 얼굴과 골격을 유지하며 넓은 이중 판이 어깨·흉부·허리·허벅지·정강이를 덮는다. 헬멧은 얼굴을 가리지 않는다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "5e79748b26f41f416bd851f34f7819e02f2540b8a9520b090ccb3c4a6c0ceb22"
+    },
+    "mobility": {
+      "accepted": true,
+      "observation": "경장의 얼굴·머리와 구름 깃·말린 허리자락을 유지하고 어깨·허리·종아리 패널이 뒤로 벌어진다. 작은 추진기와 패널 사이 공간이 보인다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "5809e5f9080de0c72ee950c1aa3badff7607cb0deba617a08b840c4d070a7b3b"
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observation": "경장의 카메라·인물 크기·손·발 위치를 유지하면서 얇은 판 아래 푸른 내부 프레임이 보인다. 표정은 눈썹이 안으로 모이며 긴장한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "8265f2c2a7acf623f5437f1427fe9e2bc8c828e288ff8e8da4b82b3772ee65c1"
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observation": "중장의 겹친 외판이 힌지에서 벌어진다. 두 손과 부츠·머리 위치는 닫힌 중장과 이어지고 판 아래 푸른 빛이 보인다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "92cecbb1e8667352e3d096b684c1d629b5df110161eeddf80753fe28864b3319"
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "observation": "고기동의 펼친 패널 사이가 더 벌어지고 추진기 안쪽 빛이 커진다. 새 얼굴과 양손·발 위치·카메라를 유지한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "7c388385b8a0f923031a5f5573631a24d75c062c6476b0596b8f62cc30024fed"
+    },
+    "casual1": {
+      "accepted": true,
+      "observation": "야외 공연장의 계단 좌석 앞에서 무릎을 꿇고 양손으로 카메라를 받쳐 화면을 본다. 초록 홀터 바디수트와 흰 구름·보라 리본의 코스튬. 오른손은 그립, 왼손은 밑면에 이어지고 잡힌 손가락 일부는 카메라에 가려진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "96a97887dd16838a3d52d3c8c80e1a68aad0f9438f8820d9d246ee5c3e014b94"
+    },
+    "casual2": {
+      "accepted": true,
+      "observation": "거울·목재 바닥·수건 선반이 있는 연습실에서 코발트색 스트랩리스 상의를 입는다. 오른손은 엄지와 네 손가락을 펼쳐 인사하고 왼손은 쇄골 위에 놓인다. 두 팔이 몸 앞에서 분리되어 연결된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "aa1785ed431ce1e7b7d6a9d1db478f6e9b67831784c8152672ad24d40e728647"
+    },
+    "casual3": {
+      "accepted": true,
+      "observation": "조수 웅덩이 곁 바위 위 담요에 옆으로 누워 검정·흰색 메이드 코스튬을 입는다. 왼팔은 접어 뺨을 받치고 오른손은 몸 앞 담요를 짚는다. 두 다리가 무릎에서 자연스럽게 굽고 두 신발이 분리된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 물체·얼굴·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "00071ab320ebdb080da4cdf2f0cf770e67fcc25b9f8fc1db4d657c4b32b6fc45"
+    }
+  },
+  "look_check": "/workspace/scratch/728dc229de80/beauty-img/img/토네로스_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     295  니드킹_glossy_promo_f_casual1.webp\n     302  아보_glossy_promo_f_casual1.webp\n     303  크로뱃_glossy_promo_f_casual1.webp\n/workspace/scratch/728dc229de80/beauty-img/img/토네로스_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     334  저리더프_glossy_promo_f_casual1.webp\n     335  기기어르_glossy_promo_f_casual3.webp\n     336  파르셀_glossy_promo_f_casual1.webp\n/workspace/scratch/728dc229de80/beauty-img/img/토네로스_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     302  인텔리레온_glossy_promo_f_casual1.webp\n     312  니드런♀_glossy_promo_f_casual3.webp\n     314  파르빗_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n",
+  "accepted": true
+}
