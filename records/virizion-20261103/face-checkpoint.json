@@ -1,0 +1,58 @@
+{
+  "design": {
+    "name": "비리디온",
+    "en": "Virizion",
+    "line": "비리디온",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "angular",
+      "face length": "long",
+      "face width": "medium",
+      "jaw & chin": "square broad jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "long nose with low tip",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "",
+    "cues": [
+      "‘long horns’ → 얼굴형 각지고 선명한 얼굴형",
+      "‘long horns’ → 얼굴 길이 긴 얼굴",
+      "‘long horns’ → 턱선 · 턱끝 넓고 각진 사각 턱",
+      "‘long horns’ → 눈매 아몬드형 눈",
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+      "‘long horns’ → 눈썹 길고 바깥 아치가 선명한"
+    ],
+    "adjusted": "[머리] 도감 바로 옆 다른 계열과 헤어스타일이 겹쳐 높이 묶은 포니테일 → 포니테일",
+    "hair": {
+      "hairstyle": "ponytail",
+      "hair length": "long",
+      "bangs": "none"
+    },
+    "hair_locked": false,
+    "hair_why": "‘medium-long tail’·키 2m에서 포니테일(묶은 꼬리) · 긴 머리 · 앞머리 없음",
+    "hair_cues": [
+      "‘medium-long tail’ → 헤어스타일 포니테일",
+      "‘medium-long tail’ → 머리 길이 긴 머리"
+    ]
+  },
+  "rationale": "긴 뿔의 직선·성체의 긴 비례를 긴 각진 윤곽과 아치 눈썹으로, 초원 종의 넓은 경계 시야를 넓은 눈 간격으로 해석. 원작 주둥이는 복제하지 않고 사람 코·입으로 유지.",
+  "source": "pkm-code/data/source-appearance.json#640",
+  "anchor": {
+    "source": "/workspace/scratch/728dc229de80/generated_images/exec-839c923f-df75-42a0-a737-b2954e0c23c1.png",
+    "original_sha256": "3756bc4bc1cdd4377bccef3ca1808d5a5152ff7d9907094627ae201caf364bfd",
+    "output": "/workspace/scratch/728dc229de80/pkm-atelier-img-4/img/비리디온_light_glossy_promo_f.webp",
+    "sha256": "4f990ef32276e4b385ca9a4b66c57a7e41ab480bc6ece40ab6bd4a626b9482fc",
+    "reference": null
+  },
+  "compared": [
+    "불카모스",
+    "코바르온",
+    "테라키온"
+  ],
+  "observations": "비리디온은 수평의 넓은 눈 간격·각진 긴 윤곽·활 모양 윗입술로, 테라키온의 둥글고 큰 눈·짧은 턱 및 코바르온의 좁은 눈매와 구분된다. 불카모스의 가는 눈매·부드러운 입선과도 차이를 확인했다."
+}

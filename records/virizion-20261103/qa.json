@@ -1,0 +1,210 @@
+{
+  "card": "비리디온",
+  "style": "glossy_promo",
+  "generation_tool": "built-in image_gen",
+  "reviewer": "gpt",
+  "accepted": true,
+  "manual_review": true,
+  "automated_anatomy": "unavailable: mediapipe is not installed; exit code 3",
+  "comparison": {
+    "cards": [
+      "불카모스",
+      "코바르온",
+      "테라키온"
+    ],
+    "face": "비리디온은 수평의 넓은 눈 간격·각진 긴 윤곽·활 모양 윗입술로, 테라키온의 둥글고 큰 눈·짧은 턱 및 코바르온의 좁은 눈매와 구분된다. 불카모스의 가는 눈매·부드러운 입선과도 차이를 확인했다.",
+    "casual": "무대의 마이크 상반신·산장 전신 걷기·동료 간식 허리 위 컷으로 활동·장소·옷·구도가 분리된다. 최근 3명 실제 일상컷과 비교했다.",
+    "look_check": "/workspace/scratch/728dc229de80/pkm-atelier-img-4/img/비리디온_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     311  껍질몬_glossy_promo_f_casual3.webp\n     313  쪼마리_glossy_promo_f_casual2.webp\n     326  샤비_glossy_promo_f_casual1.webp\n/workspace/scratch/728dc229de80/pkm-atelier-img-4/img/비리디온_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     282  왕자리_glossy_promo_f_casual1.webp\n     288  쉘곤_glossy_promo_f_casual3.webp\n     295  덩쿠리_glossy_promo_f_casual3.webp\n/workspace/scratch/728dc229de80/pkm-atelier-img-4/img/비리디온_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     298  프리져_glossy_promo_f_casual2.webp\n     323  네이티_glossy_promo_f_casual1.webp\n     332  에레키드_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "4f990ef32276e4b385ca9a4b66c57a7e41ab480bc6ece40ab6bd4a626b9482fc",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "얼굴은 카메라 쪽 3/4, 녹색 포니테일·분홍 끝 잎 장갑. 두 팔이 어깨에서 장갑 손까지 이어지고 두 부츠가 프레임 안에 있다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 펼친 네 손가락과 엄지. 왼손: 느슨한 주먹으로 일부 손가락 가려짐.",
+        "overlay_checked": false,
+        "note": "두 어깨→팔꿈치→손목 및 골반→무릎→발이 연결됨. 열린 손과 쥔 손을 원본에서 확인."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "44c06899997e7382014bdb1a034c9d4ff3bc67bc136d315abc2e5c7506ccfca6",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "어깨·흉갑·골반·허벅지·정강이에 넓은 이중 판이 겹친다. 경장의 얼굴·허리 너비를 유지하고 좌우 팔꿈치와 손목 연결이 보인다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 펼친 네 손가락과 엄지. 왼손: 느슨한 주먹으로 일부 손가락 가려짐.",
+        "overlay_checked": false,
+        "note": "두 어깨→팔꿈치→손목 및 골반→무릎→발이 연결됨. 열린 손과 쥔 손을 원본에서 확인."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "6da432334d7ff07780ff82e9009d2d4f76f556e2b8acffdbd6569a55ed7cee0d",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "어깨·허리·종아리의 얇은 잎 패널이 뒤로 벌어지고 작은 원형 추진기가 보인다. 양쪽 다리 사이가 분리되고 손은 경장과 같은 자세다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 펼친 네 손가락과 엄지. 왼손: 느슨한 주먹으로 일부 손가락 가려짐.",
+        "overlay_checked": false,
+        "note": "두 어깨→팔꿈치→손목 및 골반→무릎→발이 연결됨. 열린 손과 쥔 손을 원본에서 확인."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "53bafe33e22be62c25ccc7b348b3e5675ff1a7fcea6f1efffb14ae0fd0aa621e",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "경장의 머리·발끝·좌우 손 위치와 배경을 유지한다. 얇은 판 아래 힌지와 녹색 빛이 드러나며 손가락 위로 효과가 겹치지 않는다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 펼친 네 손가락과 엄지. 왼손: 느슨한 주먹으로 일부 손가락 가려짐.",
+        "overlay_checked": false,
+        "note": "두 어깨→팔꿈치→손목 및 골반→무릎→발이 연결됨. 열린 손과 쥔 손을 원본에서 확인."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "55a8f6043cdcd7d439acce705a1c7dbbfbc5677ab4da5230de2e66db6f4d89c4",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "중장의 큰 어깨·다리 외판이 힌지로 벌어져 빛나는 내부 층이 보인다. 두 손·발·머리 위치가 닫힌 폼과 이어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 펼친 네 손가락과 엄지. 왼손: 느슨한 주먹으로 일부 손가락 가려짐.",
+        "overlay_checked": false,
+        "note": "두 어깨→팔꿈치→손목 및 골반→무릎→발이 연결됨. 열린 손과 쥔 손을 원본에서 확인."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "bea9f96c12bc882da31f79ec7ca98c442c1a804deb8edc348b88999e2396029a",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "부채꼴 패널 사이 공극과 추진기 내부의 녹색 빛이 늘어난다. 허리와 다리의 바깥 윤곽 외에는 카메라·손·발 위치가 유지된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 펼친 네 손가락과 엄지. 왼손: 느슨한 주먹으로 일부 손가락 가려짐.",
+        "overlay_checked": false,
+        "note": "두 어깨→팔꿈치→손목 및 골반→무릎→발이 연결됨. 열린 손과 쥔 손을 원본에서 확인."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "b4250af92b3b80864090fb02c7298ba9d4c824d0f68dbc9989ec9157cce20f4d",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "녹색 무대막과 분홍 풋라이트 앞에서 오른손으로 마이크를 입가에 든다. 몸은 옆으로 돌리고 얼굴을 어깨 너머로 돌린다. 깊은 목선의 레이스업 코르셋과 짧은 스커트 윗부분이 보인다. 원본과 닮은 금속성 팔 장식이 코스튬에 남았음을 기록한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 마이크를 쥔 네 손가락과 안쪽 엄지, 일부 겹침. 왼손은 크롭 밖/몸 뒤로 보이지 않음.",
+        "overlay_checked": false,
+        "note": "옷·몸통에서 손목까지 연결을 눈으로 확인. 크롭 밖 다리와 가려진 손가락 수는 직접 관찰로 확정하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "6bbba21d8738ca14dd44075297349ae471b0498edd6758684207015ab2b9e968",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "눈 덮인 계곡과 목재·유리 난간, 김이 나는 온천 곁을 걷는다. 버건디 랩 수영복·토트백·샌들이 보이고 오른손은 가방끈, 왼손은 몸 옆으로 내려간다. 앞 3/4여서 열린 등은 직접 보이지 않는다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 가방끈을 쥐어 일부 손가락 겹침. 왼손: 엄지와 네 손가락이 손목에서 자연스럽게 내려옴.",
+        "overlay_checked": false,
+        "note": "옷·몸통에서 손목까지 연결을 눈으로 확인. 크롭 밖 다리와 가려진 손가락 수는 직접 관찰로 확정하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "19f80308f4a6e50a0af3cfc7be7010157f324a12d9a1323b884a5dd1b63bf55f",
+      "identity": {
+        "match": true,
+        "evidence": "녹색의 긴 포니테일·수평 아몬드 눈매·얼굴 비율이 경장과 이어진다."
+      },
+      "observation": "눈이 남은 잔디와 피크닉 담요 앞에서 사철록 한 마리에게 오른손으로 나무열매를 내민다. 왼손은 바지 주머니, 아이보리 크롭 재킷은 어깨 아래로 내려가며 허리가 보인다. 눈썹은 안으로 내려가고 시선은 간식 쪽이다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 엄지·검지로 열매 꼭지를 쥐고 나머지 세 손가락은 접힘. 왼손: 손목 아래가 주머니 안에 가려짐.",
+        "overlay_checked": false,
+        "note": "옷·몸통에서 손목까지 연결을 눈으로 확인. 크롭 밖 다리와 가려진 손가락 수는 직접 관찰로 확정하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  }
+}
