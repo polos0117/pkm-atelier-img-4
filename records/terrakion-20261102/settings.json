@@ -1,0 +1,287 @@
+{
+ "version": 1,
+ "card": "테라키온",
+ "no": 639,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/72c34cc9bb23/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Sunlight through the atrium skylight draws pale rectangles across the fountain wall.",
+   "outfit": "An opaque sari-blouse-inspired set pairs a short fitted burgundy blouse with a draped lower piece; side cutouts and an open back reveal the waist and back, and a high slit reveals one leg.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "쇼핑몰 채광과 벽 재질 구체화.",
+    "outfit": "사리 블라우스와 드레이프 하의 구조를 유지하면서 옆구리·등을 노출."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_mall / lingerie / sari_blouse_set / lean_wall / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_mall",
+      "ko": "쇼핑몰",
+      "en": "a shopping mall atrium with a fountain and glass railings"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "sari_blouse_set",
+      "ko": "사리 블라우스 응용",
+      "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "blouse",
+     "traditional"
+    ],
+    "expose": [
+     "side cutouts",
+     "open back"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "The hotel desk is walnut, with a linen reading lamp and an open illustrated travel book.",
+   "outfit": "An adult Terrakion costume uses an opaque high-cut strapless bodysuit with a small midriff cutout and sheer thigh-high tights. Brown axe-shaped horn ornaments, grey panels and short orange costume accents recall Terrakion.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "책장을 넘기는 호텔 탁자의 재질과 책 종류를 구체화.",
+    "outfit": "바디수트와 타이츠를 유지하면서 스트랩리스와 복부 컷아웃을 계획에 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_hotel / pokemon_costume / pc_bodysuit / sit_lean / waist_up / book_turn",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_hotel",
+      "ko": "호텔 방",
+      "en": "a hotel suite with a city view and an open suitcase"
+     },
+     "role": null,
+     "use": {
+      "key": "book_turn",
+      "ko": "탁자 위 책장을 넘긴다",
+      "en": "turns a page of a book lying open on the table",
+      "prop": "책"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "sit_lean",
+      "ko": "앉아 앞으로 기울이기",
+      "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "strapless top",
+     "bare midriff"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "A brief pause in meadow observation is lit by a thin band of sunrise through the hide opening.",
+   "outfit": "A loose off-shoulder sleep shirt in muted mint has an asymmetric one-shoulder neckline and a mini hem, revealing the collarbone, shoulder and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "관찰 은신처의 새벽 채광만 보충.",
+    "outfit": "오프숄더 잠옷 셔츠의 한쪽 어깨와 미니 기장을 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_hide / homewear / sleep_shirt / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_hide",
+      "ko": "야생 관찰 은신처",
+      "en": "a camouflaged field hide at the edge of a meadow, a tripod set inside"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "sleep_shirt",
+      "ko": "오프숄더 잠옷 셔츠",
+      "en": "a loose off-shoulder sleep shirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "v_sign · out"
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "mini length",
+     "one-shoulder cut"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
