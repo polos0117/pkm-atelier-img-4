@@ -1,0 +1,210 @@
+{
+  "card": "토네로스",
+  "style": "glossy_promo",
+  "generation_tool": "built-in image_gen",
+  "reviewer": "gpt",
+  "accepted": true,
+  "manual_review": true,
+  "automated_anatomy": "unavailable: mediapipe is not installed; exit code 3",
+  "comparison": {
+    "cards": [
+      "코바르온",
+      "테라키온",
+      "비리디온"
+    ],
+    "face": "토네로스는 길고 좁은 윤곽·가깝고 올라간 눈매·낮은 짙은 눈썹·넓은 입으로 비리디온의 넓은 수평 눈 간격, 테라키온의 큰 눈·짧은 턱, 코바르온의 가는 눈매와 구분된다. 실제 경장들을 나란히 확인했다.",
+    "casual": "야외 무대의 옆얼굴 무릎 자세+카메라, 정면 연습실 상반신+인사, 해안 전신 옆으로 눕기+메이드로 장소·활동·의상·구도가 분리된다. 최근 3명 실제 일상컷과 비교했다.",
+    "look_check": "/workspace/scratch/728dc229de80/pkm-atelier-img-4/img/토네로스_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     305  흉내내_glossy_promo_f_casual2.webp\n     316  야돈_glossy_promo_f_casual2.webp\n     316  이상해씨_glossy_promo_f_casual1.webp\n/workspace/scratch/728dc229de80/pkm-atelier-img-4/img/토네로스_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     286  치라미_glossy_promo_f_casual1.webp\n     308  이상해풀_glossy_promo_f_casual1.webp\n     312  기기기어르_glossy_promo_f_casual1.webp\n/workspace/scratch/728dc229de80/pkm-atelier-img-4/img/토네로스_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     319  마그카르고_glossy_promo_f_casual2.webp\n     322  도나리_glossy_promo_f_casual1.webp\n     322  마자용_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "e4652c28210148177ffbf635cfae8cd9dde72db91cdf29cdafced6d5f8eb5896",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "흰색 웨이브 머리·보라색 눈과 뿔·녹색 에나멜 슈트·구름 모양 깃·말린 보라색 허리자락. 오른팔은 몸 옆으로, 왼팔은 허리에 손을 얹어 두 팔꿈치와 손목이 연결된다. 머리 장식 끝이 위 테두리에 조금 닿는다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 몸 옆의 느슨한 주먹으로 일부 손가락 겹침. 왼손: 허리에 얹은 네 손가락과 안쪽 엄지, 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "8d19edc149cdf243f896186678daade0ec77cb60e4eb47ab4b56d7488e3e1372",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "흉갑·복부·어깨·골반·허벅지·정강이에 넓고 두꺼운 이중 판이 보인다. 열린 얼굴 장식은 눈·턱을 가리지 않고 두 팔과 두 다리는 경장과 같은 비례다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 몸 옆의 느슨한 주먹으로 일부 손가락 겹침. 왼손: 허리에 얹은 네 손가락과 안쪽 엄지, 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "9032bc12e7361e968b98ff42c78cfd094ab1b2a827d5452861592f12c0ff0374",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "어깨·허리·종아리의 얇은 흰색·보라색 패널이 뒤로 벌어지고 작은 원형 추진기와 판 사이 공간이 보인다. 경장의 구름 깃과 말린 허리자락이 유지된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 몸 옆의 느슨한 주먹으로 일부 손가락 겹침. 왼손: 허리에 얹은 네 손가락과 안쪽 엄지, 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "e9e8133b3293db602c5b3a9aa11c25713f98a70e9576b8edf97d10d17d61638f",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "경장의 얼굴·손·발·배경 구도 그대로 얇은 판이 이음새에서 들리고 푸른 내부 프레임·바람빛이 보인다. 오른손·허리 위 왼손 위로 광원이 겹쳐 손 모양을 가리지 않는다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 몸 옆의 느슨한 주먹으로 일부 손가락 겹침. 왼손: 허리에 얹은 네 손가락과 안쪽 엄지, 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "aade50337a792459ca1da2fb25844413516cfbf72d956bad5351cc25b322986f",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "중장의 겹친 외판이 힌지에서 떨어져 넓은 공극과 푸른 내부 빛이 보인다. 얼굴과 장식·허리자락 및 양손·발 위치가 닫힌 중장과 이어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 몸 옆의 느슨한 주먹으로 일부 손가락 겹침. 왼손: 허리에 얹은 네 손가락과 안쪽 엄지, 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "cfb3bce3c0a50f702ac66c78d4ffa65f1025960403d804474df659a9730e2fa7",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "고기동의 펼친 패널 사이가 더 벌어지고 추진기 커버 안의 원형 푸른 광원이 보인다. 패널의 변화를 제외한 체형·표정 구조·손·발 위치는 기준과 이어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 몸 옆의 느슨한 주먹으로 일부 손가락 겹침. 왼손: 허리에 얹은 네 손가락과 안쪽 엄지, 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "2dc3c7194d99b1c96f345327e6d8b7b23e2c4b84d0437a3d062acc5f231c4690",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "석조 계단 좌석과 공연 무대 앞에서 무릎을 꿇고 양손으로 카메라 뒷면 화면을 본다. 흰 구름 트리밍과 보라색 리본의 녹색 홀터 바디수트·허벅지 스타킹이 토네로스 코스튬으로 읽힌다. 두 팔꿈치와 양손이 카메라로 자연스럽게 이어진다. 원래와 닮은 손목 장식이 코스튬에 남아 있다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 카메라 그립을 쥐어 일부 손가락이 기기에 가려짐. 왼손: 밑면을 받치는 손가락과 손바닥, 엄지는 카메라 뒤로 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "342ea9226435cf6375c99371eaecd750819d2a0bcd6c24ad756140a0cb9bc222",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "목재 바닥·벽 거울·연습 바와 수건 선반이 보인다. 코발트색 스트랩리스 상의 양옆에 컷아웃과 작은 버클이 있다. 오른손은 펼쳐 인사하고 왼손은 쇄골 위에 놓여 두 팔이 몸 앞에서 분리된다. 머리장식은 선반의 소품으로만 보인다. 반바지는 상반신 크롭 밖이다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 엄지와 네 손가락이 각각 펼쳐짐. 왼손: 쇄골 위로 놓인 네 손가락과 안쪽으로 접힌 엄지.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "a666e15fc9519eeda0379eaf6068c09ed70ebea38bb387cb803258591ab3a2fe",
+      "identity": {
+        "match": true,
+        "evidence": "긴 흰 웨이브·가까운 보라색 눈·좁고 긴 턱과 입 비율이 경장과 이어진다."
+      },
+      "observation": "조수 웅덩이와 바위 해안의 평평한 돌 위 담요에 옆으로 누워 있다. 검정·흰색 메이드 보디스·앞치마·짧은 퍼프 소매와 열린 어깨, 짧은 치마가 보인다. 한 팔은 접어 뺨을 받치고 다른 팔은 몸 앞에서 담요에 손을 짚는다. 무릎을 접은 두 다리와 두 신발이 서로 분리된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; exit code 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "뺨을 받치는 손은 접힌 손가락 일부가 얼굴 아래로 가려짐. 담요를 짚는 손의 네 손가락과 옆 엄지는 쟁반 가장자리에 일부 겹침.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 손가락을 원본에서 확인. 크롭 밖이나 물체·얼굴에 가려진 부분은 직접 센 것으로 기록하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  }
+}

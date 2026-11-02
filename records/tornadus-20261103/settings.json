@@ -1,0 +1,286 @@
+{
+ "version": 1,
+ "card": "토네로스",
+ "no": 641,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/728dc229de80/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Green enamel armor with purple accents and white cloud-like ruffled collar and trim; the two long sharp purple horns become a horned circlet, the purple curling tail becomes a long curling belt sash, and the spiky white moustache becomes fine whisker-shaped marks on the circlet.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Late-afternoon beams rake across the stone seating tiers; a purple camera wrist strap catches a glint of gold.",
+   "outfit": "A Tornadus adult costume cut as a high-cut green halter bodysuit with sheer thigh-high tights, white cloud trim and purple curling costume ribbons; its brief lower silhouette keeps the upper thighs exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "야외 공연장과 카메라 확인 동작에 없는 오후 사광과 카메라 스트랩을 더한다.",
+    "outfit": "바디수트와 타이츠를 유지하며 홀터 목선과 짧은 하단 기장을 표현한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_open_air / pokemon_costume / pc_bodysuit / kneel / three_quarter / camera_check",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_open_air",
+      "ko": "야외 공연장",
+      "en": "an outdoor theatre of tiered seats facing a stage"
+     },
+     "role": null,
+     "use": {
+      "key": "camera_check",
+      "ko": "찍은 사진을 확인한다",
+      "en": "checks the photo on the back screen of a camera at chest height",
+      "prop": "카메라"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "kneel",
+      "ko": "무릎 꿇기",
+      "en": "kneeling on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "halter neck",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A red portable music player and pale towels rest on the rehearsal-room shelf, with afternoon light diffused through high windows.",
+   "outfit": "A cobalt strapless top with side cutouts and matching tailored shorts, in matte stretch fabric with small silver fastenings.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "연습실의 2010년 무렵 소품과 창문빛은 선택지에 없어 음악 재생기와 수건을 덧붙인다.",
+    "outfit": "자동 의상 계열 안에서 계획의 반바지·옆선 컷아웃·스트랩리스 상의를 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_studio / everyday / stand / chest_up",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_studio",
+      "ko": "연습실",
+      "en": "a mirrored dance, yoga or Pilates studio with a wooden floor"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "wave · chest_hand"
+    },
+    "garments": [
+     "shorts"
+    ],
+    "expose": [
+     "side cutouts",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "The rocky coast path broadens into a dry smooth stone platform beside tide pools, dressed as a seaside costume-photo set with a linen picnic cloth.",
+   "outfit": "A black-and-white adult maid event costume with a structured bodice, short puffed sleeves and a full apron over a short skirt; the neckline falls off one shoulder, exposing both collarbones and the upper arm.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "바닷길에서 옆으로 눕는 역할극 컷을 해변 코스튬 촬영으로 연결하고 평평한 돌 받침을 정한다.",
+    "outfit": "메이드 보디스·퍼프 소매·앞치마를 유지하며 한쪽 어깨와 열린 목선으로 두 노출 방식을 통합한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_coast / roleplay / adult_maid / lie_side / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_coast",
+      "ko": "바닷가 산책길",
+      "en": "a rocky coast path with tide pools"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_maid",
+      "ko": "메이드 코스튬",
+      "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "apron"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "off-shoulder neckline"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}

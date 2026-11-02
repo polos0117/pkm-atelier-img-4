@@ -1,0 +1,60 @@
+{
+  "design": {
+    "name": "토네로스",
+    "en": "Tornadus",
+    "line": "토네로스",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "narrow",
+      "jaw & chin": "long chin with defined jaw",
+      "eye shape": "sharp",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "straight slender bridge",
+      "lips": "wide mouth"
+    },
+    "why": "선풍의 흐르는 구름과 강한 상체를 긴 윤곽과 강한 사선 눈썹으로 해석한다.",
+    "cues": [
+      "‘two purple long and sharp horns’ → 얼굴형 길고 세련된 얼굴형",
+      "‘two purple long and sharp horns’ → 얼굴 길이 긴 얼굴",
+      "‘two purple long and sharp horns’ → 얼굴 폭 좁은 얼굴",
+      "‘two purple long and sharp horns’ → 턱선 · 턱끝 턱끝이 길고 턱선이 또렷한",
+      "‘two purple long and sharp horns’ → 눈매 강하게 치켜올라간 눈",
+      "‘two purple long and sharp horns’ → 눈꼬리 각도 올라간 눈꼬리"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운, 코 보통 → 곧고 가는 콧대",
+    "hair": {
+      "hairstyle": "wavy",
+      "hair length": "very long",
+      "bangs": "choppy bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘trailing cloud’·‘white, wavy, and billowy styled hair’(원작의 머리칼)에서 웨이브 헤어(웨이브·곱슬) · 매우 긴 머리 · 끝을 불규칙하게 친 앞머리",
+    "hair_cues": [
+      "‘trailing cloud’ → 헤어스타일 웨이브 헤어",
+      "‘white, wavy, and billowy styled hair’(원작의 머리칼) → 머리 길이 매우 긴 머리",
+      "‘spiky white mustache’ → 앞머리 끝을 불규칙하게 친 앞머리"
+    ]
+  },
+  "rationale": "선풍의 흐르는 구름과 강한 상체를 긴 윤곽과 강한 사선 눈썹으로 해석한다.",
+  "source": "pkm-code/data/source-appearance.json#641",
+  "wear_override_reason": "외형 자료는 녹색을 기본색으로 적지만 자동 PALETTE는 뿔·꼬리·구름에서 보라·흰색만 추출했다. 신규 경장의 motifs 칸으로 녹색 에나멜과 원작 뿔·구름·말린 자락을 명시했다.",
+  "anchor": {
+    "source": "/workspace/scratch/728dc229de80/generated_images/exec-19715722-60e3-4cc7-bdfa-f335c16be58d.png",
+    "original_sha256": "301202df9c3357c550bb8dea897f3d3ab809baa632c623c1cae0690b3b420e8a",
+    "output": "/workspace/scratch/728dc229de80/pkm-atelier-img-4/img/토네로스_light_glossy_promo_f.webp",
+    "sha256": "e4652c28210148177ffbf635cfae8cd9dde72db91cdf29cdafced6d5f8eb5896",
+    "reference": null
+  },
+  "compared": [
+    "코바르온",
+    "테라키온",
+    "비리디온"
+  ],
+  "observations": "토네로스는 길고 좁은 윤곽·가깝고 올라간 눈매·낮은 짙은 눈썹·넓은 입으로 비리디온의 넓은 수평 눈 간격, 테라키온의 큰 눈·짧은 턱, 코바르온의 가는 눈매와 구분된다. 실제 경장들을 나란히 확인했다."
+}
