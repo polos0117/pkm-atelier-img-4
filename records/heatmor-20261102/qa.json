@@ -182,14 +182,30 @@
   }
  },
  "casual2": {
-  "accepted": false,
-  "generated": false,
-  "reason": "image tool safety rejection: sexual, output stage",
-  "detail": {
-   "slot": "casual2",
-   "generated": false,
-   "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8c5f1436-a189-40c6-af7a-5546d0819484. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
-  }
+  "accepted": true,
+  "observations": "전망대 나무 난간과 계곡 배경, 옆모습으로 서서 양 손으로 종이 지도를 펼침. 같은 콘로·갈색 피부·얼굴, 붉은색과 노란 밴드의 불투명 후드 원피스, 두 다리와 신발이 화면 안에 있음. 몸 강조 없이 전신·풍경 구도.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "가까운 손은 네 손가락이 지도 앞에 있고 엄지는 종이 뒤에 가려짐. 먼 손은 지도 가장자리를 감싼 손가락과 엄지 확인. 먼 팔은 몸통과 지도에 일부 가려짐. 팔꿈치·손목·무릎의 비정상 꺾임 없음.",
+   "overlay_checked": false,
+   "note": "원본 전신과 두 손 확대를 눈으로 검수."
+  },
+  "diversity_comparison": "기존 욕실의 어깨 너머 니트 근접 컷·마트의 정면 레이스 컷과 달리, 전망대·지도·전신 옆모습·후드 원피스가 구분됨. 최근 벌차이·워글·수리둥보와도 배경·활동·의상·구도 조합이 다름.",
+  "history": [
+   {
+    "accepted": false,
+    "generated": false,
+    "reason": "image tool safety rejection: sexual, output stage",
+    "detail": {
+     "slot": "casual2",
+     "generated": false,
+     "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 8c5f1436-a189-40c6-af7a-5546d0819484. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+   }
+  ],
+  "user_request": "일상2번 다른 구도로 다시 만들어줘"
  },
  "casual3": {
   "accepted": true,

@@ -1,0 +1,160 @@
+{
+ "session": "heatmor-casual2-reframe-3065",
+ "planner": "lib/casual-plan.js planV2 with published cuts 1 and 3 kept; costume requirement retained",
+ "characters": [
+  {
+   "card": "앤티골",
+   "species": "heatmor-20261102",
+   "refill": true,
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "release",
+     "place": "home_bath",
+     "weather": null,
+     "ofam": "everyday",
+     "item": null,
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "side",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "brush_hair",
+     "legs": null,
+     "gaze": "camera",
+     "expr": "gentle",
+     "preset": "lookback_raise",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "leggings",
+      "sweater"
+     ],
+     "act": "brush_hair",
+     "orient": "side+over_shoulder",
+     "pose": "lookback_raise",
+     "expose": [
+      "strapless top",
+      "open back"
+     ]
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "travel_lookout",
+     "ofam": "pokemon_costume",
+     "item": "pc_hoodie",
+     "garments": [
+      "dress"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "environmental",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "map_open",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "preset": "stand_use",
+     "expr": "calm",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "strapless top",
+      "open back"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_grocery",
+     "weather": null,
+     "ofam": "lingerie",
+     "item": "kebaya_lace",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "reach",
+     "left": "chest_hand",
+     "use": null,
+     "legs": null,
+     "gaze": "camera",
+     "expr": "provocative",
+     "preset": "reach_waist",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "tank"
+     ],
+     "act": "stand:reach:chest_hand",
+     "orient": "front+with_body",
+     "pose": "reach_waist",
+     "expose": [
+      "cropped hem",
+      "side cutouts"
+     ]
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "costume": 2,
+    "low": [
+     "home",
+     "arcade",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "stage",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": [
+     "environmental"
+    ]
+   }
+  }
+ ]
+}

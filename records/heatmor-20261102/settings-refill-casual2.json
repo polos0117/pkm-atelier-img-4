@@ -1,0 +1,285 @@
+{
+ "version": 1,
+ "card": "앤티골",
+ "no": 631,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/3065180195e3/HEATMOR-REFILL.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "guide": {
+    "tree": 2,
+    "path": "release / home_bath / everyday / stand / chest_up / brush_hair",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "home_bath",
+      "ko": "욕실",
+      "en": "a bright bathroom with a mirror, tiles and folded towels"
+     },
+     "role": null,
+     "use": {
+      "key": "brush_hair",
+      "ko": "머리를 빗는다",
+      "en": "brushes her hair with a hairbrush",
+      "prop": "빗"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "leggings",
+     "sweater"
+    ],
+    "expose": [
+     "strapless top",
+     "open back"
+    ],
+    "lead": ""
+   }
+  },
+  "casual2": {
+   "scene": "A hilltop lookout with a wooden safety railing and distant green hills in clear daylight.",
+   "outfit": "An opaque red short-sleeved hooded costume dress inspired by Heatmor, with raised yellow bands, a relaxed knee-length skirt and a simple crew neckline. The softly structured hood echoes Heatmor's head and rests behind her human head; plain walking shoes complete the travel costume.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "새 구도 요청에 따라 노래방 뒤돌아보기를 전망대 지도 읽기로 바꿨다. 선택한 전망대의 난간과 낮빛만 보완한다.",
+    "outfit": "계획기의 후드 원피스 코스튬을 유지하며 불투명한 여행복, 평범한 목선과 무릎 기장으로 구체화한다. 이전 바디수트와 별개인 비성적 코스튬이다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_lookout / pokemon_costume / pc_hoodie / stand / environmental / map_open",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_lookout",
+      "ko": "전망대",
+      "en": "a hilltop lookout over a wide valley"
+     },
+     "role": null,
+     "use": {
+      "key": "map_open",
+      "ko": "지도를 두 손으로 펼친다",
+      "en": "unfolds a folded paper map in both hands in front of her",
+      "prop": "종이 지도"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_hoodie",
+      "ko": "후드 원피스형",
+      "en": "a daring adult costume version of {costume}, cut as a short fitted hooded dress with the hood shaped like its head"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "strapless top",
+     "open back"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "guide": {
+    "tree": 2,
+    "path": "now / street_grocery / lingerie / kebaya_lace / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_grocery",
+      "ko": "마트·편의점",
+      "en": "a neighbourhood grocery or convenience store with bright aisles"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "reach · chest_hand"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "cropped hem",
+     "side cutouts"
+    ],
+    "lead": ""
+   }
+  }
+ }
+}
