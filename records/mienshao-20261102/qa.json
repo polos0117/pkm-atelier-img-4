@@ -1,0 +1,236 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "automatic_anatomy_tool": "unavailable: mediapipe is not installed",
+  "face_reason": "비조푸의 둥글고 짧은 인상과 달리 길고 좁은 윤곽, 가로로 긴 눈과 완만한 눈꼬리, 아랫입술을 사용한다. 원작의 흐르는 소매와 유연한 격투 실루엣을 얼굴 비율로 해석했다.",
+  "face_source": "data/face-design.json 620; data/source-appearance.json 620",
+  "compared_characters": [
+    "비조푸",
+    "메더",
+    "어지리더"
+  ],
+  "face_comparison": "비조푸보다 길고 좁은 턱과 작은 눈 높이, 메더보다 가는 광대·턱선, 어지리더보다 긴 눈과 부드러운 눈썹 곡선으로 구분된다.",
+  "diversity_comparison": "최근 비조푸·메더·어지리더의 9컷 실제 이미지와 비교. 토큰을 든 레이스 상반신, 잔을 든 코스튬 근접, 온천길의 뒤 3/4 멜빵바지 장면으로 활동·의상·카메라가 구분된다. 앞선 수영장·꽃집·동료 돌봄 구성을 복제하지 않는다.",
+  "similarity_check": "casual-look.cjs passed, no close matches below 245",
+  "images": {
+    "light": {
+      "image_sha256": "2b2e9986b4928e0add4d493ab84679032354ba2f99b70f53c1fd0a109e01db20",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "펴진 손은 엄지와 네 손가락; 반대 손은 느슨한 주먹으로 일부 손끝이 겹쳐 가려짐. 두 손목은 각 팔에 연결된다.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "form": {
+        "match": true,
+        "evidence": "어깨·허벅지·정강이 얇은 판과 소매형 장갑"
+      }
+    },
+    "heavy": {
+      "image_sha256": "73e692f625a7779cfd49104657b1d942024d9f5fe83e853ab63b1e11f0b6e8a7",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "펴진 손은 엄지와 네 손가락; 반대 손은 느슨한 주먹으로 일부 손끝이 겹쳐 가려짐. 두 손목은 각 팔에 연결된다.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "form": {
+        "match": true,
+        "evidence": "어깨·팔·허벅지·정강이의 넓고 두꺼운 겹판"
+      }
+    },
+    "mobility": {
+      "image_sha256": "93bd070198857a55135d867cf6200d40d9f6ea57b5339d7d10101d3e789259e1",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "펴진 손은 엄지와 네 손가락; 반대 손은 느슨한 주먹으로 일부 손끝이 겹쳐 가려짐. 두 손목은 각 팔에 연결된다.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "form": {
+        "match": true,
+        "evidence": "가늘게 분할된 패널과 보라색 소형 추진기"
+      }
+    },
+    "light_overdrive": {
+      "image_sha256": "820efcf0e31914046ba3ba6d50540e54b9c6b1e4c0ed85f9078343d3c578f21e",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "펴진 손은 엄지와 네 손가락; 반대 손은 느슨한 주먹으로 일부 손끝이 겹쳐 가려짐. 두 손목은 각 팔에 연결된다.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "form": {
+        "match": true,
+        "evidence": "대응 일반 폼의 구도·손 위치·발 위치를 유지하고 이음새가 벌어져 주황빛 프레임이 드러남"
+      }
+    },
+    "heavy_overdrive": {
+      "image_sha256": "d3f3bfdedb814dda9c3181bfb5a5b8c1188b4fc1dd583fb731e6da586e4c34d6",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "펴진 손은 엄지와 네 손가락; 반대 손은 느슨한 주먹으로 일부 손끝이 겹쳐 가려짐. 두 손목은 각 팔에 연결된다.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "form": {
+        "match": true,
+        "evidence": "대응 일반 폼의 구도·손 위치·발 위치를 유지하고 이음새가 벌어져 주황빛 프레임이 드러남"
+      }
+    },
+    "mobility_overdrive": {
+      "image_sha256": "ae4c23dd3b89ae988509e2e9bfdc13516d10722d1c7c15dd7cd65837c1844bdc",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "펴진 손은 엄지와 네 손가락; 반대 손은 느슨한 주먹으로 일부 손끝이 겹쳐 가려짐. 두 손목은 각 팔에 연결된다.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "form": {
+        "match": true,
+        "evidence": "대응 일반 폼의 구도·손 위치·발 위치를 유지하고 이음새가 벌어져 주황빛 프레임이 드러남"
+      }
+    },
+    "casual1": {
+      "image_sha256": "70fef892ccd9334674bc87373b6a458bc6795ec2075ecd306e2f4b60024ca1c5",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "토큰 든 오른손 엄지·검지와 굽힌 세 손가락 확인. 반대 팔·다리는 프레임 밖.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "라운지 선반과 게임판 앞에서 오른손이 토큰을 쥐고 어깨 너머로 봄; 레이스 소매와 불투명 상의, 허리 일부 노출"
+      },
+      "deviations_not_regenerated": "chest_up보다 아래 허리까지 담김; 얼굴은 계획보다 카메라 쪽"
+    },
+    "casual2": {
+      "image_sha256": "34a1c2e81b933ff66ebe4e665ab0ad0eee43f5ed5b3ecf00c452e873966c9835",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "잔을 든 손의 다섯 손가락이 컵에 따라 겹침. 반대 손·다리는 프레임 밖.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "피아노·커튼·촛불이 있는 바에서 한 손으로 잔을 입술에 대고 미소; 흰색·보라 후드와 황색 수염 장식"
+      },
+      "deviations_not_regenerated": "face_close보다 가슴·어깨까지 담김; 드레스 밑단은 프레임 밖"
+    },
+    "casual3": {
+      "image_sha256": "311e056455bc0b339c6b717f784dacf3eb44975a59f3bfde81f1afebbd9c1601",
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024 x 1536 PNG, converted without crop or stretch"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "흰 장발 올림머리, 보라색 눈, 좁고 긴 턱, 같은 허리·다리 비율"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "오른손은 공을 감싸며 엄지와 네 손가락, 왼손은 아래로 편 다섯 손가락. 두 팔꿈치가 각 어깨에 연결.",
+        "note": "원본 및 손 확대를 눈으로 확인. 추가팔·떨어진 손 없음. 가려진 손가락은 추정 통과로 쓰지 않는다."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "야외 온천길에서 몸은 뒤 3/4, 얼굴은 돌아봄; 오른팔로 몬스터볼을 들고 왼팔은 아래로 이어짐, 짧은 멜빵바지와 홀터 크롭 상의"
+      },
+      "deviations_not_regenerated": "걷기보다는 멈춰 돌아본 자세. 멜빵 앞판은 내려져 뒷 끈·반바지 중심으로 보임"
+    }
+  }
+}

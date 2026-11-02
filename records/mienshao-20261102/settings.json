@@ -1,0 +1,301 @@
+{
+ "version": 1,
+ "card": "비조도",
+ "no": 620,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/bd73ce7fb59c/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "White and lavender armor with long flowing sleeve-like forearm guards, tapered purple wrist rings, yellow-tipped whisker-shaped temple ornaments and a narrow sash trailing from the waist. An elegant martial-arts silhouette.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s",
+    "hair color": "white",
+    "eye color": "purple",
+    "body type": "slender"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "She is selecting a coin-sized game token under warm pendant lamps; burgundy velvet booths and stacked wooden game boxes add depth.",
+   "outfit": "A cropped ivory floral-lace kebaya-inspired top rests off the shoulders over a fully opaque strapless fitted camisole, with bare shoulders and a visible band of midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·소품 동작을 유지하면서 이 컷의 빛과 주변 사물의 재질을 구체화한다: She is selecting a coin-sized game token under warm pendant lamps; burgundy velvet booths and stacked wooden game boxes add depth.",
+    "outfit": "선택된 옷의 종류를 유지하고 계획의 드러내기 방식과 소재를 의복 구조에 반영한다: A cropped ivory floral-lace kebaya-inspired top rests off the shoulders over a fully opaque strapless fitted camisole, with bare shoulders and a visible band of midriff."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / boardgame_lounge / lingerie / kebaya_lace / stand / chest_up / coin_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "boardgame_lounge",
+      "ko": "보드게임 라운지",
+      "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+     },
+     "role": null,
+     "use": {
+      "key": "coin_hold",
+      "ko": "동전을 들어 보인다",
+      "en": "holds a single coin up between two fingers",
+      "prop": "동전"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "bare midriff",
+     "strapless top"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Amber piano lights reflect in the glass rim, with an indigo curtain behind the grand piano.",
+   "outfit": "An adult Mienshao costume fitted mini hooded dress in white and lavender, with yellow-tipped whisker ornaments on the hood, an off-shoulder neckline and an open back; fully opaque fitted fabric.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·소품 동작을 유지하면서 이 컷의 빛과 주변 사물의 재질을 구체화한다: Amber piano lights reflect in the glass rim, with an indigo curtain behind the grand piano.",
+    "outfit": "선택된 옷의 종류를 유지하고 계획의 드러내기 방식과 소재를 의복 구조에 반영한다: An adult Mienshao costume fitted mini hooded dress in white and lavender, with yellow-tipped whisker ornaments on the hood, an off-shoulder neckline and an open back; fully opaque fitted fabric."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_jazz / pokemon_costume / pc_hoodie / sit_chair / face_close / glass_sip",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_jazz",
+      "ko": "재즈바",
+      "en": "a dim jazz bar with a grand piano"
+     },
+     "role": null,
+     "use": {
+      "key": "glass_sip",
+      "ko": "잔을 입에 댄다",
+      "en": "brings a cocktail glass to her lips",
+      "prop": "칵테일 잔"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_hoodie",
+      "ko": "후드 원피스형",
+      "en": "a daring adult costume version of {costume}, cut as a short fitted hooded dress with the hood shaped like its head"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "open back"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "Smooth wet stepping stones lead past the steaming spring toward a timber changing pavilion.",
+   "outfit": "Fitted short denim overalls over a rust-orange halter crop top, with a cropped hem, open shoulders and visible waist through the open overall sides.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·소품 동작을 유지하면서 이 컷의 빛과 주변 사물의 재질을 구체화한다: Smooth wet stepping stones lead past the steaming spring toward a timber changing pavilion.",
+    "outfit": "선택된 옷의 종류를 유지하고 계획의 드러내기 방식과 소재를 의복 구조에 반영한다: Fitted short denim overalls over a rust-orange halter crop top, with a cropped hem, open shoulders and visible waist through the open overall sides."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_bath / everyday / overalls / walk / three_quarter / ball_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_bath",
+      "ko": "포켓몬 세계 온천",
+      "en": "an outdoor hot spring of a Pokémon-world mountain town, steam over smooth rocks"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_hold",
+      "ko": "몬스터볼을 든다",
+      "en": "holds a Poké Ball at chest height",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "overalls",
+      "ko": "멜빵바지",
+      "en": "fitted denim overalls over a cropped top"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "crop_top",
+     "overalls"
+    ],
+    "expose": [
+     "cropped hem",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}
