@@ -1,0 +1,296 @@
+{
+ "version": 1,
+ "card": "코바르온",
+ "no": 638,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/72c34cc9bb23/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Warm bedside light glints across the compact mirror rim; city windows glow beyond a half-open suitcase.",
+   "outfit": "An adult Cobalion costume has an opaque laced corset bustier, a plunging neckline and a short flared skirt with high-cut opaque briefs underneath. Aqua panels, white collar tufts, small grey spots and golden horn ornaments belong to the costume.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "호텔 손거울의 조명·도시 창문 디테일 보충.",
+    "outfit": "선택 코르셋형과 짧은 플레어 스커트를 유지하며 깊은 목선·하이컷을 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_hotel / pokemon_costume / pc_corset / stand / chest_up / compact_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_hotel",
+      "ko": "호텔 방",
+      "en": "a hotel suite with a city view and an open suitcase"
+     },
+     "role": null,
+     "use": {
+      "key": "compact_look",
+      "ko": "손거울을 본다",
+      "en": "holds a compact mirror open in front of her face",
+      "prop": "손거울"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high-cut leg"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A compact camera with a short hand strap catches the light from a crescent-moon photo prop.",
+   "outfit": "A loose off-shoulder sleep shirt in plum satin is cut to upper-thigh length, with a strapless inner neckline and an open shoulder line exposing the collarbones and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "카메라와 행사장의 포토 소품만 구체화.",
+    "outfit": "잠옷 셔츠를 선택 그대로 유지하고 어깨와 미니 기장을 계획에 맞게 표현."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_event / homewear / sleep_shirt / walk / three_quarter / camera_carry",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_event",
+      "ko": "테마 행사장",
+      "en": "a themed costume event venue with props and a photo wall"
+     },
+     "role": null,
+     "use": {
+      "key": "camera_carry",
+      "ko": "카메라를 든다",
+      "en": "carries a camera by its grip at her side",
+      "prop": "카메라"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "sleep_shirt",
+      "ko": "오프숄더 잠옷 셔츠",
+      "en": "a loose off-shoulder sleep shirt"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "strapless top",
+     "mini length"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "A late dessert break accompanies the mall atrium fountain, its chrome rim reflecting soft peach light.",
+   "outfit": "A retro space-age event costume is a fitted white jumpsuit with silver trim and moon boots; its off-shoulder neckline and open-back construction reveal the shoulders and back.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "쇼핑몰 아이스크림 휴식 장면에 분수의 빛·재질만 보충.",
+    "outfit": "레트로 우주복 점프슈트를 유지하며 오프숄더와 열린 등을 재단으로 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / street_mall / roleplay / retro_astronaut / lean_rail / waist_up / icecream_hold",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "street_mall",
+      "ko": "쇼핑몰",
+      "en": "a shopping mall atrium with a fountain and glass railings"
+     },
+     "role": null,
+     "use": {
+      "key": "icecream_hold",
+      "ko": "아이스크림을 든다",
+      "en": "holds an ice cream cone at chest height",
+      "prop": "아이스크림"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "retro_astronaut",
+      "ko": "레트로 우주비행사",
+      "en": "a retro space-age costume — a fitted white jumpsuit with silver trim and moon boots"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · rail"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "open back",
+     "off-shoulder neckline"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

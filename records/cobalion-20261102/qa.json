@@ -1,0 +1,251 @@
+{
+ "card": "코바르온",
+ "accepted": true,
+ "images": [
+  {
+   "slot": "light",
+   "file": "코바르온_light_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [],
+   "original_sha256": "7591d6d1e7a414ae80796aa2bce0bcf21999c07ab5d6045b4bf22e8028697526",
+   "webp_sha256": "80d977a9751d0b21cb0591c2f850c03cfcc1220e5baaa27c1319cc071f6e7b01",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "긴 턱·좁은 윤곽과 수평 눈매, 검은 긴 콘로. 양팔 아래로 이완·장갑 손 둘, 청록/백색 가는 판. 두 발 전체가 프레임 안.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "two five-digit gloved hands, relaxed curled fingers overlap",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  },
+  {
+   "slot": "heavy",
+   "file": "코바르온_heavy_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "7312a5bfbba7bc3c7b27b431b7d2901b215657173af91b84999bcb6632b2b3ff",
+   "webp_sha256": "452c0c23741f0c3042730dc2998f9e9e9cdd98c95dd23378c66b60bca5780f41",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "경장 얼굴·콘로 유지, 흉부·어깨·허벅지·정강이에 겹장갑. 양손 이완, 전신 프레임.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "two five-digit gloved hands, relaxed curled fingers overlap",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  },
+  {
+   "slot": "mobility",
+   "file": "코바르온_mobility_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "27889cee22f9fe37043b301a03d0c8f815a3341cdd238a66225ed9985fbc6f3d",
+   "webp_sha256": "58d0e759627b6e34b2aa9842c3320707f81c395ff5cf07b0c01d313dc500c188",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "얼굴·머리 유지, 어깨·허리·종아리 분할 핀과 작은 청백 추진기. 양팔/다리 자연스럽게 연결.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "two five-digit gloved hands, relaxed curled fingers overlap",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  },
+  {
+   "slot": "light_overdrive",
+   "file": "코바르온_light_overdrive_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "4ed0012803174a68e3c166ff206769b7e36b64afce0b625da902ab20a29b662d",
+   "webp_sha256": "13dfad5fc283f60e955ddb5aec2106fe77b74d752c713c2a0fc67d11bee126bc",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "경장과 같은 인물 위치·자세·배경. 얇은 판 이음새가 열리고 흰빛 내부 프레임이 보임.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "two five-digit gloved hands, relaxed curled fingers overlap",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  },
+  {
+   "slot": "heavy_overdrive",
+   "file": "코바르온_heavy_overdrive_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [
+    "heavy",
+    "light"
+   ],
+   "original_sha256": "95fc19bb599a5b122b80dbdde46a9faf3382fc61ebba0f84edf269db6f94ef16",
+   "webp_sha256": "879af15d6e817e3b027bf3025bb6e4065940d776b075c92d22445dee3002aeae",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "중장 위치·발 위치 유지, 넓은 겹장갑 사이 원형 힌지와 흰빛 내부가 보임. 눈썹이 더 찌푸려져 기록.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "two five-digit gloved hands, relaxed curled fingers overlap",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  },
+  {
+   "slot": "mobility_overdrive",
+   "file": "코바르온_mobility_overdrive_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [
+    "mobility",
+    "light"
+   ],
+   "original_sha256": "18711999814f4dce8f2d89f12c8b29c1c6850d14d4b4131e94beb5c708499ca7",
+   "webp_sha256": "5d44b3322be9f22efeb4071239bcd1477d3cd81697a2ca8d874935ceb571062e",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "고기동 위치·자세 유지, 핀의 판이 벌어지고 내부 골격과 빛이 드러남.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "two five-digit gloved hands, relaxed curled fingers overlap",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  },
+  {
+   "slot": "casual1",
+   "file": "코바르온_glossy_promo_f_casual1.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "9a58e35295fddcb589c6ac3ec861208560665b082a496ddd67e2af467d6abdc7",
+   "webp_sha256": "4ba78d78bd616ea649989b2ce7146c932aafa94b20fd9d6907dc7f01a57019f5",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "호텔 도시 창문·열린 여행가방, 손거울을 든 오른팔이 어깨-팔꿈치-손목으로 연결. 코르셋/목선과 콘로 유지. 왼손과 하체 프레임 밖.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "right five-digit grip with mirror occlusion; left out of crop",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  },
+  {
+   "slot": "casual2",
+   "file": "코바르온_glossy_promo_f_casual2.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "d8d1ab9eae9e1ee7243c25a609b3f10b95edb22a2ac718585c4d7f74d5f077b0",
+   "webp_sha256": "574e0a5ef662d6d43617ef0ce0fa959e1f8ab38497b76224ec9872e9baaeabe9",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "행사장 초승달 포토 소품, 짧은 보라색 오프숄더 잠옷 셔츠. 뒤 3/4로 몸을 돌려 카메라를 오른손에 들고 왼팔은 내림. 양손 다섯 손가락 구조, 카메라 그립에 일부 가림.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "two five-digit hands, right grip partly occluded by camera",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  },
+  {
+   "slot": "casual3",
+   "file": "코바르온_glossy_promo_f_casual3.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs actual settings and built-in image_gen",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "27d82723cd85b5375d86475840161ef53c2cd6ec80c606bfdef759bcead507d1",
+   "webp_sha256": "7db727ac35812c4c11f648018404826861b67062da8ec2982a385ffe799fb849",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "분수·유리 난간 쇼핑몰, 흰 은색 테두리 오프숄더 점프슈트. 옆얼굴과 낮춘 시선, 오른손 아이스크림·왼손 난간. 양팔 연결 자연스러움. 신발·하체는 크롭 밖.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "two five-digit hands, right grip partly occluded by cone",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인. 프레임 밖과 가려진 손가락은 추정하지 않음."
+   }
+  }
+ ],
+ "casual_look": "passed; minimum cobalion nearest score 224, rejection threshold 215",
+ "diversity": "코스튬/잠옷 셔츠/우주복, 호텔/행사장/몰, 거울/카메라/아이스크림과 정면근접/뒤3/4/옆모습이 구분됨."
+}

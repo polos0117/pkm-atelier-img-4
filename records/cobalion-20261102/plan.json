@@ -1,0 +1,353 @@
+{
+ "session": "cobalion-terrakion-72c3",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "코바르온",
+   "species": "cobalion-20261102",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "evening_hotel",
+     "weather": "",
+     "ofam": "pokemon_costume",
+     "item": "pc_corset",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "compact_look",
+     "legs": "",
+     "gaze": "",
+     "expr": "amused",
+     "preset": "raise_chest",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "lingerie_set",
+      "skirt"
+     ],
+     "expose": [
+      "plunging neckline",
+      "high-cut leg"
+     ],
+     "lead": "light",
+     "act": "compact_look",
+     "orient": "front_3q+tilt",
+     "pose": "raise_chest"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "stage_event",
+     "ofam": "homewear",
+     "item": "sleep_shirt",
+     "garments": [
+      "shirt"
+     ],
+     "weather": "",
+     "posture": "walk",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "rear_3q",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "down",
+     "use": "camera_carry",
+     "legs": "walk_pause",
+     "gaze": "camera",
+     "preset": "walk_lookback",
+     "expr": "half_smile",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "strapless top",
+      "mini length"
+     ],
+     "lead": "detail"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "street_mall",
+     "weather": "",
+     "ofam": "roleplay",
+     "item": "retro_astronaut",
+     "posture": "lean_rail",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "rail",
+     "use": "icecream_hold",
+     "legs": "",
+     "gaze": "at_prop",
+     "expr": "wistful",
+     "preset": "counter_cup",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "jumpsuit"
+     ],
+     "expose": [
+      "open back",
+      "off-shoulder neckline"
+     ],
+     "lead": "action",
+     "act": "icecream_hold",
+     "orient": "side+with_body",
+     "pose": "counter_cup"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      1,
+      2
+     ]
+    },
+    "costume": null,
+    "low": [
+     "water",
+     "sports",
+     "stage",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "shirt"
+    ],
+    "orient": [
+     "rear_3q+over_shoulder"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "테라키온",
+   "species": "terrakion-20261102",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_mall",
+     "weather": "",
+     "ofam": "lingerie",
+     "item": "sari_blouse_set",
+     "posture": "lean_wall",
+     "support": "back_wall",
+     "frame": "full_body",
+     "body": "front",
+     "head": "over_shoulder",
+     "camera": "high",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "step_forward",
+     "gaze": "window",
+     "expr": "half_smile",
+     "preset": "",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "blouse",
+      "traditional"
+     ],
+     "expose": [
+      "side cutouts",
+      "open back"
+     ],
+     "lead": "light",
+     "act": "lean_wall:-:-",
+     "orient": "front+over_shoulder",
+     "pose": null
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "evening_hotel",
+     "weather": "",
+     "ofam": "pokemon_costume",
+     "item": "pc_bodysuit",
+     "posture": "sit_lean",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "book_turn",
+     "legs": "",
+     "gaze": "",
+     "expr": "candid",
+     "preset": "desk_work",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "bodysuit",
+      "leggings"
+     ],
+     "expose": [
+      "strapless top",
+      "bare midriff"
+     ],
+     "lead": "place",
+     "act": "book_turn",
+     "orient": "front_3q+with_body",
+     "pose": "desk_work"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "work_hide",
+     "weather": "",
+     "ofam": "homewear",
+     "item": "sleep_shirt",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
+     "right": "v_sign",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "cold_smile",
+     "preset": "vsign_close",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt"
+     ],
+     "expose": [
+      "mini length",
+      "one-shoulder cut"
+     ],
+     "lead": "action",
+     "act": "stand:v_sign:out",
+     "orient": "front+tilt",
+     "pose": "vsign_close"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "costume": null,
+    "low": [
+     "water",
+     "sports",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  }
+ ],
+ "submission_mode": "built-in image_gen",
+ "ledger_check": "passed with actual published casual filename inventory; metadata links used instead of unrelated image downloads",
+ "reserved_commit": "4154d094be92ca4abb0bebaca6877cca147bc4d0",
+ "compared_characters": [
+  {
+   "card": "삼삼드래",
+   "file": "삼삼드래_light_glossy_promo_f.webp",
+   "path": "comparison-0.webp"
+  },
+  {
+   "card": "디헤드",
+   "file": "디헤드_light_glossy_promo_f.webp",
+   "path": "comparison-1.webp"
+  },
+  {
+   "card": "모노두",
+   "file": "모노두_light_glossy_promo_f.webp",
+   "path": "comparison-2.webp"
+  }
+ ],
+ "selection_reasons": {
+  "1": {
+   "action_level": "stand / compact_look",
+   "source_influence": "subtle in evening_hotel",
+   "separates_preference": "pc_corset / lingerie_set,skirt"
+  },
+  "2": {
+   "action_level": "walk / camera_carry",
+   "source_influence": "strong in stage_event",
+   "separates_preference": "sleep_shirt / shirt"
+  },
+  "3": {
+   "action_level": "lean_rail / icecream_hold",
+   "source_influence": "strong in street_mall",
+   "separates_preference": "retro_astronaut / jumpsuit"
+  }
+ }
+}
