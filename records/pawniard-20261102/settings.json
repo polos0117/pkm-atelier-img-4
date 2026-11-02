@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "card": "자망칼",
+  "no": 624,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/8f9a2c04b811/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Magenta footlights catch the edge of the dance floor and its polished wood.",
+      "outfit": "An adult Pawniard costume: a red-and-black laced corset bustier with opaque coverage, side cutouts and a high-cut short flared skirt, silver blade-shaped trim and a small rounded headpiece.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "light 첫머리로 무대 조명과 바닥 재질만 보충",
+        "outfit": "선택된 코르셋·스커트와 high-cut leg·side cutouts를 자망칼의 빨강·검정·은색 코스튬에 반영"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / stage_dance / pokemon_costume / pc_corset / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "stage_dance",
+            "ko": "댄스 무대",
+            "en": "a lit dance stage or milonga floor"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_corset",
+            "ko": "코르셋형",
+            "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "v_sign · out"
+        },
+        "garments": [
+          "lingerie_set",
+          "skirt"
+        ],
+        "expose": [
+          "high-cut leg",
+          "side cutouts"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "A brass star chart and a narrow telescope silhouette frame the open dome.",
+      "outfit": "An ivory kebaya-inspired floral lace top over an opaque fitted camisole, with a one-shoulder cut and an off-shoulder neckline; a charcoal satin skirt completes the look.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "detail 첫머리로 천문대의 황동 성도·망원경 소품을 보충",
+        "outfit": "크바야 레이스·캐미솔 구조를 보존하고 계획의 한쪽 어깨와 오프숄더 목선을 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_observatory / lingerie / kebaya_lace / stand / chest_up",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_observatory",
+            "ko": "밤 천문대",
+            "en": "a night observatory under an open dome"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "kebaya_lace",
+            "ko": "크바야 응용 레이스",
+            "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "strap · out"
+        },
+        "garments": [
+          "tank"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "off-shoulder neckline"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual3": {
+      "scene": "She pauses at the sound desk between sets; warm amber stage lamps reflect off the mixing console.",
+      "outfit": "A 1970s silver-lurex halter jumpsuit with flared legs, a short upper bodice joined at the waist and high side openings that reveal the upper thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "action 첫머리로 라이브 하우스 작업대를 음향 데스크로 구체화",
+        "outfit": "디스코 점프수트·나팔바지를 보존하며 할터 목선과 짧은 기장 계획을 상부·옆트임으로 반영"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_livehouse / retro / disco_halter / lean_counter / environmental",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_livehouse",
+            "ko": "라이브 하우스",
+            "en": "a small live house with a low stage, a crowd barrier and amps"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "retro",
+            "ko": "레트로",
+            "en": "a period look from a past decade"
+          },
+          "item": {
+            "key": "disco_halter",
+            "ko": "70년대 디스코",
+            "en": "a 1970s lurex halter jumpsuit with flared legs"
+          },
+          "posture": {
+            "key": "lean_counter",
+            "ko": "작업대에 몸 숙이기",
+            "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "mini length",
+          "halter neck"
+        ],
+        "lead": "action"
+      }
+    }
+  }
+}

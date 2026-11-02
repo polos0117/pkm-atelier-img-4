@@ -1,0 +1,175 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generator": "built-in image_gen, prompt-pack exact text, one call per asset",
+  "face_reason": "원작의 작은 날붙이 선을 좁고 날렵한 턱·수평으로 긴 눈·얇은 입으로 해석; 계열 절각참의 넓은 둥근 얼굴·치켜올라간 눈·긴 머리와 구분",
+  "face_basis": [
+    "data/face-design.json:624",
+    "data/source-appearance.json:624"
+  ],
+  "anchor": {
+    "path": "/workspace/scratch/8f9a2c04b811/generated_images/exec-14beedf9-e30a-4f8a-ad63-ca5da16fbb3c.png",
+    "sha256": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+  },
+  "compared_characters": [
+    "골비람",
+    "골루그",
+    "비조도"
+  ],
+  "diversity_comparison": "골비람의 박물관 스마트폰·누운 스파·앉은 주방 책, 골루그의 누운 온천·도예 스케치·박물관 손가락 입가, 비조도의 바·마녀 코스튬·온천과 실제 contact 이미지를 비교. 자망칼은 V 사인 얼굴 근접·천문대 상체·음향 데스크에 기댄 전신으로 활동·의상·카메라가 구별됨. 레이스 상체 자체는 비조도 첫 컷과 비슷하지만 방향·장소·손동작이 다름.",
+  "images": {
+    "light": {
+      "image_sha256": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "검정 슈트 위 빨강·은색 얇은 판, 짧은 비대칭 흑적색 머리와 좁은 눈. 어깨부터 양손·양발까지 몸에 이어짐. 양손은 아래로 느슨하게 굽힘.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5손가락의 자연스러운 구조. 굽힌 손가락이 일부 겹쳐 끝마디는 가려짐; 양 엄지 방향과 손목 연결 확인.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    },
+    "heavy": {
+      "image_sha256": "f9b092519800b490947f47da8842a8b3281b9f46080ac932d8411752a1d04c45",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "경장과 같은 머리·얼굴. 어깨·팔뚝·허벅지·정강이에 겹친 은색 판이 늘고 얼굴 개방형 머리 장식이 추가됨. 양손은 원래 위치에 연결.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5손가락의 자연스러운 구조. 굽힌 손가락이 일부 겹쳐 끝마디는 가려짐; 양 엄지 방향과 손목 연결 확인.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    },
+    "mobility": {
+      "image_sha256": "08e4feb30916e6cafe207aca2a203ec7f1c608aab89d5447dbfc4a05c6a17b59",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "어깨·골반·종아리 판이 뒤로 갈라지고 붉은 소형 추진구가 보임. 허리 윤곽과 얼굴은 경장과 일치.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5손가락의 자연스러운 구조. 굽힌 손가락이 일부 겹쳐 끝마디는 가려짐; 양 엄지 방향과 손목 연결 확인.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    },
+    "light_overdrive": {
+      "image_sha256": "3ea2898dec1245d5d701f04aa9e7d2a44672a997d124b99ed567d0af7dbc8dd9",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "경장의 같은 폐허·발 위치·머리 크기. 어깨·팔·골반·정강이 판 틈이 벌어지고 보라색 내부 빛이 보임. 무기 추가 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5손가락의 자연스러운 구조. 굽힌 손가락이 일부 겹쳐 끝마디는 가려짐; 양 엄지 방향과 손목 연결 확인.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    },
+    "heavy_overdrive": {
+      "image_sha256": "c95c8b4ecc2893c7f26f8026c805152404a42eeef303e2833c0d15515c25bf80",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "중장의 겹판·머리 장식을 유지하며 겹판 사이에 보라색 내부 프레임이 드러남. 양발 위치와 손 위치가 닫힌 중장과 동일.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5손가락의 자연스러운 구조. 굽힌 손가락이 일부 겹쳐 끝마디는 가려짐; 양 엄지 방향과 손목 연결 확인.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    },
+    "mobility_overdrive": {
+      "image_sha256": "d1809b63c37a99761ff43bc7a26c3599a4127b065ce33371353186c598472f4a",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "고기동의 갈라진 판과 원형 추진구를 유지하고 판이 더 벌어짐. 같은 얼굴·서 있는 자세·카메라. 보라색 추진 에너지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5손가락의 자연스러운 구조. 굽힌 손가락이 일부 겹쳐 끝마디는 가려짐; 양 엄지 방향과 손목 연결 확인.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    },
+    "casual1": {
+      "image_sha256": "f38b469d6fedf28feb5503ea6638668f42fed018e0ef822ffa23e00b7a45eac9",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "마젠타 무대·나무 바닥 앞 V 사인, 붉은 검정 코르셋과 은색 날 장식. 얼굴 가까이 잘린 구도로 하의는 프레임 밖. 보이는 오른손의 검지·중지는 펴지고 약지·소지는 굽히며 엄지는 안쪽에 붙음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 5개: 검지·중지 V, 약지·소지 굽힘, 엄지 안쪽. 왼손은 크롭 밖.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    },
+    "casual2": {
+      "image_sha256": "90d2c7d6ef687db8714dc3e7b38a260d03a1089fe0acca7b573823273f0a2a82",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "황동 망원경·별자리 장치·돔 창 앞. 상체는 3/4, 흰 자수 레이스와 불투명 캐미솔, 한쪽 쇄골·어깨가 드러남. 양손은 아래 크롭 밖으로 빠짐; 계획의 스트랩 손동작은 나오지 않음. 프레이밍은 가슴 위보다 넓음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 크롭 밖; 보이는 손가락 없음. 어깨·상완은 자연스럽게 아래로 이어짐.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    },
+    "casual3": {
+      "image_sha256": "7c012508e8afe306d599296f7cd05b9c81522babf99c676bd99de24618b87184",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "짧은 검정 비대칭 머리와 붉은 안쪽 가닥, 좁은 붉은 눈과 날렵한 턱 유지"
+      },
+      "observations": "음향 데스크 위에 두 손을 짚고 상체를 앞으로 기울임. 골반은 뒤 3/4, 얼굴은 왼쪽 어깨 너머 측면. 은색 할터 점프수트와 나팔바지, 등·옆 허벅지 틈. 드럼·앰프·마이크가 있는 라이브하우스.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손목이 각 팔 끝에서 데스크에 닿음. 가까운 손은 손가락이 겹쳐 눌리고 먼 손은 손등·굽힘에 일부 가려져 개별 끝마디 모두 세기 어려움. 떨어진 손·추가 손 없음.",
+        "overlay_checked": false,
+        "note": "전체와 손 확대 시각검토. 일상 1·2는 팔·다리 일부가 프레이밍 밖임; 가려진 손가락 수를 단정하지 않음."
+      }
+    }
+  }
+}

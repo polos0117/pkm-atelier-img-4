@@ -1,0 +1,155 @@
+[
+  {
+    "slot": "light",
+    "file": "자망칼_light_glossy_promo_f.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5",
+    "sha256": "5383ca7a3d74fb86aada2a1e122e1a564f79fcde7c48f8318a8d254647f9653c",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {}
+  },
+  {
+    "slot": "heavy",
+    "file": "자망칼_heavy_glossy_promo_f.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "f9b092519800b490947f47da8842a8b3281b9f46080ac932d8411752a1d04c45",
+    "sha256": "6cd542f9d4933ffa72db48cfb3dff0c62e810563b3877076a92da89dff93014f",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+    }
+  },
+  {
+    "slot": "mobility",
+    "file": "자망칼_mobility_glossy_promo_f.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "08e4feb30916e6cafe207aca2a203ec7f1c608aab89d5447dbfc4a05c6a17b59",
+    "sha256": "593a95f78a820cafd18eec953c458e8ca4ee32ddead3edd49e77f01537113383",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+    }
+  },
+  {
+    "slot": "light_overdrive",
+    "file": "자망칼_light_overdrive_glossy_promo_f.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "3ea2898dec1245d5d701f04aa9e7d2a44672a997d124b99ed567d0af7dbc8dd9",
+    "sha256": "033f1551e43746a820b55c76cb79d75c77e15e74c811419f8bdb157fadd1a410",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+    }
+  },
+  {
+    "slot": "heavy_overdrive",
+    "file": "자망칼_heavy_overdrive_glossy_promo_f.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "c95c8b4ecc2893c7f26f8026c805152404a42eeef303e2833c0d15515c25bf80",
+    "sha256": "9f824869db2af1c8c82a3299d8253bf3348fe49b2ef2ff4e9f84fa178449d98f",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "heavy": "f9b092519800b490947f47da8842a8b3281b9f46080ac932d8411752a1d04c45",
+      "light": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+    }
+  },
+  {
+    "slot": "mobility_overdrive",
+    "file": "자망칼_mobility_overdrive_glossy_promo_f.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "d1809b63c37a99761ff43bc7a26c3599a4127b065ce33371353186c598472f4a",
+    "sha256": "4e38e351ca9eea8856e38a631a6b368da16f982082761d0714cb892de5b5e986",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "mobility": "08e4feb30916e6cafe207aca2a203ec7f1c608aab89d5447dbfc4a05c6a17b59",
+      "light": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+    }
+  },
+  {
+    "slot": "casual1",
+    "file": "자망칼_glossy_promo_f_casual1.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "f38b469d6fedf28feb5503ea6638668f42fed018e0ef822ffa23e00b7a45eac9",
+    "sha256": "82f5ca9f99f747d836a4a9afca1e01698334c3c5bbe7f7e475e886e017141c09",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+    }
+  },
+  {
+    "slot": "casual2",
+    "file": "자망칼_glossy_promo_f_casual2.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "90d2c7d6ef687db8714dc3e7b38a260d03a1089fe0acca7b573823273f0a2a82",
+    "sha256": "9080e56d50931316652efab6c7160f30e828831e42d6c18c108275bf8db6655d",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+    }
+  },
+  {
+    "slot": "casual3",
+    "file": "자망칼_glossy_promo_f_casual3.webp",
+    "card": "자망칼",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack generator settings",
+    "source_sha256": "7c012508e8afe306d599296f7cd05b9c81522babf99c676bd99de24618b87184",
+    "sha256": "25279dedbcf73921eb9c1ece8c92dedff2d1ffbca410c19df833bd10c915eee8",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "5c80cf5479ae94fa8dc74d94dae5af9a7206e170f1ae5f32fef896d18c9aaef5"
+    }
+  }
+]
