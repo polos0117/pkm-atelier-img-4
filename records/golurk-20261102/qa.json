@@ -1,0 +1,132 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generation": "built-in image_gen; one call per asset",
+  "face_reason": "같은 계열 골비람보다 넓은 얼굴과 수평 아몬드 눈, 도톰한 입 및 한쪽을 민 매우 긴 머리로 구분",
+  "compared_characters": [
+    "비조도",
+    "비조푸",
+    "메더"
+  ],
+  "anatomy_tool": "unavailable: mediapipe not installed",
+  "images": {
+    "light": {
+      "image_sha256": "4bdf892302138017537c19f5af066bf5d120b14f6034bc7854d836dd609b73d5",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 자연스러운 다섯 손가락 구조; 잡기·굽힘으로 일부 가려짐",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "한 명의 같은 얼굴·사이드뱅, 얼굴과 발이 프레임 안; 청록 판의 두께와 분할이 폼에 따라 구분됨"
+    },
+    "heavy": {
+      "image_sha256": "7e8cebbbcc4a6e70049eea0d250ee045c5b6d3c8d36dbb808b2f9661cacc0b50",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 자연스러운 다섯 손가락 구조; 잡기·굽힘으로 일부 가려짐",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "한 명의 같은 얼굴·사이드뱅, 얼굴과 발이 프레임 안; 청록 판의 두께와 분할이 폼에 따라 구분됨"
+    },
+    "mobility": {
+      "image_sha256": "d7130a7cd27620b87ef10368e640790a1d3c7a9ea34a5dff29e7c02aa72956e5",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 자연스러운 다섯 손가락 구조; 잡기·굽힘으로 일부 가려짐",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "한 명의 같은 얼굴·사이드뱅, 얼굴과 발이 프레임 안; 청록 판의 두께와 분할이 폼에 따라 구분됨"
+    },
+    "light_overdrive": {
+      "image_sha256": "f79bfe354fd088c6c7f39c85cdfac62e8f88bc3f4ecd71bfb826d82ecc4d56ac",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 자연스러운 다섯 손가락 구조; 잡기·굽힘으로 일부 가려짐",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "닫힌 폼과 카메라·서 있는 자세·얼굴 크기 유지. 기존 판이 들리고 노란 내부 프레임과 에너지 틈이 드러남. 새 무기 없음."
+    },
+    "heavy_overdrive": {
+      "image_sha256": "d30d61147218a1db6469e58a0256644d52516419859d46ccdcf7ac74f512e1e1",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 자연스러운 다섯 손가락 구조; 잡기·굽힘으로 일부 가려짐",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "닫힌 폼과 카메라·서 있는 자세·얼굴 크기 유지. 기존 판이 들리고 노란 내부 프레임과 에너지 틈이 드러남. 새 무기 없음."
+    },
+    "mobility_overdrive": {
+      "image_sha256": "4cccc67f1976f424d8306dc604d0bea9e4fc4b008dcd863ade83d9b67e4ac16d",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 자연스러운 다섯 손가락 구조; 잡기·굽힘으로 일부 가려짐",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "닫힌 폼과 카메라·서 있는 자세·얼굴 크기 유지. 기존 판이 들리고 노란 내부 프레임과 에너지 틈이 드러남. 새 무기 없음."
+    },
+    "casual1": {
+      "image_sha256": "46ca288531951f3712fcf6f76d146242c75f72dfd29683381d8f56d43bb574a6",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "왼손 다섯 손가락과 엄지 연결 확인. 오른손은 머리 뒤에 가려 셈 불가.",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "스파의 원형 창과 노을, 붉은 유카타·검정 수영복. 옆으로 누워 오른팔을 머리 뒤로, 왼손은 바닥을 짚음. 두 다리·두 발이 이어짐. 입은 작게 벌어지고 시선은 카메라 쪽."
+    },
+    "casual2": {
+      "image_sha256": "f5e89c5f750fae7f0922c27e0f3bd63561d9fb991b0975e13b5304705d6f9aa3",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 자연스러운 다섯 손가락 구조; 잡기·굽힘으로 일부 가려짐",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "점토 모형·도구·작업대가 있는 공방, 오른손 펜과 왼손 노트 누르기가 구분됨. 분홍 비단 로브·검정 슬립. 눈꺼풀을 낮추고 페이지를 보며 상체를 기울임. 다리는 테이블 뒤/프레임 밖."
+    },
+    "casual3": {
+      "image_sha256": "32b181dae6051c363b362dbcb6fea3da9a9cbd9d88ed3f4141f437a8e8cff40c",
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 오른손 검지·엄지와 굽힌 나머지 손가락의 연결 자연스러움. 왼손은 크롭 밖으로 셈 불가.",
+        "overlay_checked": false,
+        "note": "원본 시각검토: 추가 팔이나 떨어진 손 없음; 관절 연결과 엄지 방향 확인"
+      },
+      "observations": "박물관 조각상과 진열장 배경의 얼굴 근접 구도. 한쪽 민 머리·푸른 눈과 사이드뱅 유지. 오른손 검지를 입술 앞에 댐. 다른 손과 하체는 화면 밖. 청록·금색·푸른 원형 장식의 코스튬 상의가 보임."
+    }
+  },
+  "diversity_comparison": "비조도·비조푸·메더 및 이번 골비람의 실제 이미지와 비교. 골루그의 스파 전신 옆눕기·유카타와 구부린 오른팔은 골비람의 짧은 의상·가로로 누운 근접 구도와 다름. 공방에서 숙여 노트 쓰기, 박물관 얼굴 근접 검지 동작이 서로 구분됨. 골비람의 주방 의자·책과 박물관 스마트폰 측면도 반복되지 않음."
+}

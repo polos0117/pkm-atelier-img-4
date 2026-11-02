@@ -1,0 +1,322 @@
+{
+ "session": "golett-golurk-7d8e",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "골비람",
+   "species": "golett-20261102",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "evening_museum",
+     "ofam": "pokemon_costume",
+     "item": "pc_bodysuit",
+     "garments": [
+      "bodysuit",
+      "leggings"
+     ],
+     "weather": "",
+     "posture": "lean_rail",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "rail",
+     "use": "phone_look",
+     "legs": "",
+     "gaze": "at_prop",
+     "preset": "counter_cup",
+     "expr": "laughing_open",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "open back"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_spa",
+     "ofam": "roleplay",
+     "item": "uniform_inspired",
+     "garments": [
+      "uniform"
+     ],
+     "weather": "",
+     "posture": "lie_side",
+     "support": "side_floor",
+     "frame": "three_quarter",
+     "body": "front",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "knee_up",
+     "gaze": "screen_right",
+     "preset": "",
+     "expr": "calm",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "halter neck"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "home_kitchen",
+     "ofam": "work",
+     "item": "lab_coat",
+     "garments": [
+      "coat",
+      "knit_top",
+      "trousers"
+     ],
+     "weather": "",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "environmental",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "book_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "preset": "bench_sit",
+     "expr": "focused",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "strapless top"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "costume": 1,
+    "low": [
+     "home",
+     "studio",
+     "spa",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "uniform",
+     "coat",
+     "knit_top"
+    ],
+    "orient": [
+     "front+over_shoulder",
+     "front+turn_side"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "골루그",
+   "species": "golurk-20261102",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_spa",
+     "ofam": "swimwear",
+     "item": "yukata_over",
+     "garments": [
+      "traditional"
+     ],
+     "weather": "",
+     "posture": "lie_side",
+     "support": "side_floor",
+     "frame": "full_body",
+     "body": "front",
+     "head": "tilt",
+     "camera": "high",
+     "right": "behind_head",
+     "left": "floor_brace",
+     "use": "",
+     "legs": "legs_bent_side",
+     "gaze": "camera",
+     "preset": "lie_side_full",
+     "expr": "surprised",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "high thigh slit"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "studio_art",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "notebook_write",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "preset": "camera_shot",
+     "expr": "sleepy",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "open back"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "evening_museum",
+     "ofam": "pokemon_costume",
+     "item": "pc_crop_set",
+     "garments": [
+      "crop_top",
+      "skirt"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "shush",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "shush_close",
+     "expr": "determined",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "cropped hem"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "costume": 3,
+    "low": [
+     "home",
+     "studio",
+     "spa",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "traditional",
+     "robe",
+     "slip",
+     "skirt"
+    ],
+    "orient": [
+     "front+tilt"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "version": 1,
+ "card": "골루그",
+ "no": 623,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/7d8e20c4d757/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Massive teal ceramic armor with broad squared shoulder rims, dark blue circular insets and a gold sealing band crossing the breastplate; a compact ancient-golem crest is expressed as a temple ornament.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Late sunset pours through circular roof windows onto a pale mosaic lounging deck beside the spa pool. A little blue stone seal and a small geometric ear stud suggest her source.",
+   "outfit": "A black one-piece swimsuit with a light crimson yukata worn open over it; the yukata falls off one shoulder and its deeply split hem reveals the thigh and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "light 첫머리로 스파의 원형 천창과 모자이크 데크 및 원작 소품 구체화",
+    "outfit": "수영복과 가벼운 유카타를 유지하며 계획의 어깨선·높은 슬릿을 반영"
+   }
+  },
+  "casual2": {
+   "scene": "A sketchbook lies between clay samples and a small dish of sculpting tools on the paint-marked worktable.",
+   "outfit": "A pearl-pink silk robe draped open over a black evening slip with a plunging neckline and an open back; the robe rests loosely below her shoulders.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "detail 첫머리로 노트와 점토 샘플·조각도 접시만 보충",
+    "outfit": "비단 로브와 이브닝 슬립을 유지하며 깊은 목선과 열린 등 반영"
+   }
+  },
+  "casual3": {
+   "scene": "She pauses beside a glass display of ancient ceramic figurines during the museum costume event.",
+   "outfit": "An adult Golurk costume as a teal crop top and matching skirt with gold sealing-band trim and dark-blue circular insets, made from soft costume fabrics; a cropped hem leaves her midriff open.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "action 첫머리에 박물관 코스튬 행사와 세라믹 진열장의 구체 맥락 추가",
+    "outfit": "골루그 크롭 투피스의 색·봉인 띠·푸른 원형 무늬를 옷으로만 표현, 계획의 crop top과 skirt 보존"
+   }
+  }
+ }
+}
