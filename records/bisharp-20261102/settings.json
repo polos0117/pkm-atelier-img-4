@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "card": "절각참",
+  "no": 625,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/8f9a2c04b811/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "Morning sun filters through woven stall awnings onto baskets of blue and golden berries.",
+      "outfit": "A traditional embroidered folk blouse with a cropped hem and wide neckline, paired with a short woven skirt; her midriff and legs are visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "light 첫머리로 열매 시장의 차양과 아침빛을 구체화",
+        "outfit": "전통 의상의 blouse와 계획의 bare midriff·mini length를 자수 블라우스와 짧은 직조 스커트로 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / berry_market / traditional / stand / chest_up / ball_raise",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "berry_market",
+            "ko": "마을 열매 시장",
+            "en": "a village market stall piled with fresh berries"
+          },
+          "role": null,
+          "use": {
+            "key": "ball_raise",
+            "ko": "몬스터볼을 얼굴 옆에 든다",
+            "en": "raises a Poké Ball beside her face",
+            "prop": "몬스터볼"
+          },
+          "ofam": {
+            "key": "traditional",
+            "ko": "전통 의상",
+            "en": "a traditional dress that suits her, worn naturally",
+            "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "blouse"
+        ],
+        "expose": [
+          "bare midriff",
+          "mini length"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "The live-house side aisle runs past stacked amplifiers and a low violet-lit stage.",
+      "outfit": "An adult Bisharp costume in red and black, a fitted high-cut bodysuit with a strapless neckline and a single decorative shoulder ribbon, sheer thigh-high tights, golden axe-shaped headband trim and silver cuff details.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "place 첫머리로 기타를 들고 지날 라이브 하우스 측면 통로만 구체화",
+        "outfit": "바디수트·타이츠와 strapless·한쪽 어깨 구조를 보존하며 절각참의 금색 볏과 은색 손 장식을 코스튬으로 반영"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_livehouse / pokemon_costume / pc_bodysuit / walk / three_quarter / guitar_carry",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_livehouse",
+            "ko": "라이브 하우스",
+            "en": "a small live house with a low stage, a crowd barrier and amps"
+          },
+          "role": null,
+          "use": {
+            "key": "guitar_carry",
+            "ko": "기타를 든다",
+            "en": "carries an acoustic guitar by its neck at her side",
+            "prop": "기타"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_bodysuit",
+            "ko": "바디수트형",
+            "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "bodysuit",
+          "leggings"
+        ],
+        "expose": [
+          "strapless top",
+          "one-shoulder cut"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual3": {
+      "scene": "She turns an illustrated star-atlas page during the observatory-themed western costume rehearsal.",
+      "outfit": "A rodeo cowgirl event costume: a fringed cropped vest with an open back, a western hat, short denim shorts and cowboy boots.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "action 첫머리로 책을 성도로 구체화하고 천문대의 카우걸 테마 리허설임을 보충",
+        "outfit": "카우걸의 조끼·모자·데님·부츠를 유지하며 cropped hem과 open back을 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_observatory / roleplay / rodeo_cowgirl / sit_chair / full_body / book_turn",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_observatory",
+            "ko": "밤 천문대",
+            "en": "a night observatory under an open dome"
+          },
+          "role": null,
+          "use": {
+            "key": "book_turn",
+            "ko": "탁자 위 책장을 넘긴다",
+            "en": "turns a page of a book lying open on the table",
+            "prop": "책"
+          },
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "rodeo_cowgirl",
+            "ko": "로데오 카우걸",
+            "en": "a rodeo cowgirl costume — a fringed cropped vest, a western hat, short denim and cowboy boots"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "vest"
+        ],
+        "expose": [
+          "cropped hem",
+          "open back"
+        ],
+        "lead": "action"
+      }
+    }
+  }
+}

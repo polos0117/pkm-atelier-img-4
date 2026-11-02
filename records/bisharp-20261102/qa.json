@@ -1,0 +1,176 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generator": "built-in image_gen, prompt-pack exact text, one call per asset",
+  "face_reason": "원작 둥근 머리와 삼각 눈을 짧고 넓은 둥근 얼굴·올라간 눈꼬리로 해석. 자망칼의 좁고 뾰족한 턱·수평 긴 눈·짧은 머리와 차이를 둠.",
+  "face_basis": [
+    "data/face-design.json:625",
+    "data/source-appearance.json:625"
+  ],
+  "anchor": {
+    "path": "/workspace/scratch/8f9a2c04b811/generated_images/exec-7c9aca74-2552-47c2-8302-1847170ea863.png",
+    "sha256": "f39dcd02be935625d08c34c070db1b4bd02ece5016aa2fe50d6cbbc92be89576"
+  },
+  "compared_characters": [
+    "자망칼",
+    "골비람",
+    "골루그",
+    "비조도"
+  ],
+  "diversity_comparison": "이번 자망칼은 무대 V 사인 근접·천문대 레이스 상체·음향 데스크에 기댄 전신. 절각참은 열매 시장 몬스터볼 근접·기타를 든 뒤 3/4 무릎 위·천문대 책장을 넘기는 옆모습 앉은 전신. 같은 장소 묶음이 일부 있지만 활동·의상 실루엣·몸 방향·프레이밍 조합이 구별된다. 골비람·골루그·비조도의 contact 이미지와도 실제 배치 대조.",
+  "images": {
+    "light": {
+      "image_sha256": "f39dcd02be935625d08c34c070db1b4bd02ece5016aa2fe50d6cbbc92be89576",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "붉은 흉갑과 검정 슈트, 금색 테두리와 은색 팔·정강이 판. 긴 흑적색 비대칭 머리·금빛 눈·짧고 넓은 턱. 오른손은 느슨한 주먹, 왼손은 아래로 굽힘. 양발은 바닥 위.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 자연스러운 다섯 손가락 구조; 오른손 주먹에서 일부 끝마디가 가려짐. 왼손의 굽힌 손가락 겹침을 확인. 엄지가 각 손 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    },
+    "heavy": {
+      "image_sha256": "0f0d2908548e900a0b5b0c03fb089610a2011f7d3c32b181b3d8376f206cbe9c",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "어깨·골반·허벅지에 겹친 큰 붉은 은색 금색 판, 얼굴을 열어 둔 투구. 경장의 긴 머리와 금색 앞쪽 가닥, 같은 눈매와 얼굴 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 자연스러운 다섯 손가락 구조; 오른손 주먹에서 일부 끝마디가 가려짐. 왼손의 굽힌 손가락 겹침을 확인. 엄지가 각 손 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    },
+    "mobility": {
+      "image_sha256": "3b0207b930985d6018f9fb06289cb41e2b3e97d665a0b553134b1a5d14ea0664",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "어깨·허리·종아리 판이 바깥과 뒤로 길게 갈라지고 금색 원형 추진구. 거대한 날개·새 무기 없이 장갑 분할로 고기동 윤곽을 만듦. 어깨 판 끝은 왼쪽 테두리 근처.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 자연스러운 다섯 손가락 구조; 오른손 주먹에서 일부 끝마디가 가려짐. 왼손의 굽힌 손가락 겹침을 확인. 엄지가 각 손 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    },
+    "light_overdrive": {
+      "image_sha256": "584ccc2fd7202c5fd22b2aa23e9356e3c92e77c8f79d6a21daa8854be520e999",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "경장의 같은 궁전·일식·서 있는 발 위치·손 위치를 유지. 어깨·골반·정강이 판이 들려 보라색 내부 프레임과 빛이 드러남.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 자연스러운 다섯 손가락 구조; 오른손 주먹에서 일부 끝마디가 가려짐. 왼손의 굽힌 손가락 겹침을 확인. 엄지가 각 손 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    },
+    "heavy_overdrive": {
+      "image_sha256": "028782f36e1f330281002b28743700e22513ac6c31ce009f5c36bd57dbc24d77",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "중장 투구와 어깨 겹판·허벅지 겹판 그대로, 판 사이에 보랏빛 틈. 같은 얼굴과 두 팔·다리 자세 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 자연스러운 다섯 손가락 구조; 오른손 주먹에서 일부 끝마디가 가려짐. 왼손의 굽힌 손가락 겹침을 확인. 엄지가 각 손 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    },
+    "mobility_overdrive": {
+      "image_sha256": "79c4ddaf71e8b66044f52a3a1cbd3017b5557ffa2d0a7284acaeab57d9da9f32",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "고기동의 길게 갈라진 판·추진구 위치 유지하며 내부 보랏빛 추진 에너지. 기존 어깨판의 끝이 왼쪽 테두리에 걸리는 점 기록.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 자연스러운 다섯 손가락 구조; 오른손 주먹에서 일부 끝마디가 가려짐. 왼손의 굽힌 손가락 겹침을 확인. 엄지가 각 손 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    },
+    "casual1": {
+      "image_sha256": "42ba420ee9556f736f3c0233a4dd162de9e94ee4ec827e68fd55be88410bf123",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "열매 바구니와 직조 차양 앞에서 오른손으로 얼굴 옆 몬스터볼을 듦. 어깨가 드러난 자수 블라우스·복부 틈. 얼굴이 옆에서 카메라로 돌아보고 왼손은 크롭 밖. 계획의 짧은 치마는 크롭 밖.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손: 엄지는 공 아래 받침, 나머지 네 손가락은 공 옆으로 굽혀 잡고 일부가 공 뒤로 가려짐. 왼손 크롭 밖.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    },
+    "casual2": {
+      "image_sha256": "56d533af36efc9bdd3a7d97e4717da7837704533869810eb7617bdd69afcf642",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "앰프와 보라색 낮은 무대 옆 통로에서 오른손으로 기타 목을 잡고 왼손은 아래로 내림. 뒤 3/4 몸·어깨 너머 미소. 붉은 검정 코스튬 보디수트·타이츠·금색 볏·은색 커프. 양팔이 어깨-팔꿈치-손목으로 이어짐.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손은 기타 목을 감싸 엄지가 뒤로 일부 가려지고 네 손가락은 목 앞쪽에 굽힘. 왼손은 느슨하게 굽힌 다섯 손가락, 손목이 왼팔에 이어짐.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    },
+    "casual3": {
+      "image_sha256": "488f6ed7cbf8ab59b6af3be2f769d32b28394c095d011dc1e5a6f8346adec7f9",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "긴 흑적색 비대칭 머리·금색 전면 가닥과 금빛 치켜올라간 눈·둥근 턱 유지"
+      },
+      "observations": "천문대의 황동 망원경·밤하늘 아래 의자에 옆모습으로 앉아 성도 책장을 넘김. 두 팔이 몸 앞에 따로 이어지고 두 손이 다른 페이지에 닿음. 갈색 모자·프린지 크롭 조끼·짧은 데님·카우보이 부츠. 양다리 무릎·발 연결 자연스러움; 등은 측면 머리카락에 일부 가려짐.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손 모두 다섯 손가락의 정상 구조. 페이지를 잡는 손의 일부 손가락 끝·엄지가 책에 가려지고 아래 손은 페이지 위에 네 손가락과 엄지가 모여 놓임. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "전체와 양손 확대 시각검토. 일상1 왼팔·하체는 프레이밍 밖; 가려진 손가락 끝 수를 단정하지 않음."
+      }
+    }
+  }
+}
