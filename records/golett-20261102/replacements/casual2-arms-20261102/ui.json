@@ -1,0 +1,163 @@
+{
+  "storage": {
+    "last": "골비람",
+    "cards": {
+      "골비람": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "treeV": 2,
+            "expr": "calm",
+            "scene": "She takes a pause between spa-theme fashion rehearsals on a broad upholstered platform, under a pearl-white curved ceiling. A tiny spiral pendant and a ceramic seal sculpture recall her motif.",
+            "outfit": "A cream-and-plum uniform-inspired event costume with crisp lapels and decorative epaulettes, made as a one-shoulder cropped jacket over a halter-neck top and tailored shorts.",
+            "custom": "",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "era": true,
+              "place": true,
+              "ofam": true,
+              "item": true,
+              "posture": true,
+              "support": true,
+              "frame": true,
+              "body": true,
+              "head": true,
+              "camera": true,
+              "legs": true,
+              "gaze": true,
+              "expr": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true,
+              "aspect": true
+            },
+            "era": "fantasy",
+            "place": "fx_spa",
+            "ofam": "roleplay",
+            "item": "uniform_inspired",
+            "posture": "lie_side",
+            "support": "side_floor",
+            "frame": "three_quarter",
+            "body": "front",
+            "head": "over_shoulder",
+            "camera": "eye",
+            "legs": "knee_up",
+            "gaze": "screen_right",
+            "use": ""
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Golett (골비람) personified, ground / ghost type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSETTING: a stylised stage, editorial or fantasy set, not bound to a real year — still one real adult woman in a believable space, no creatures.\n\nSCENE (chosen):\nPlace: a futuristic spa of white curves and soft light\nOutfit: A cream-and-plum uniform-inspired event costume with crisp lapels and decorative epaulettes, made as a one-shoulder cropped jacket over a halter-neck top and tailored shorts.\nPOSTURE: lying on her side.\nSUPPORT: she lies on her side, supported along her hip and shoulder.\nCOMPOSITION: a three-quarter shot from her head to just above the knees; body facing the camera; head turned back over her shoulder; camera at her eye level.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nLEGS: one knee drawn up, the other leg resting flat.\nGAZE: she looks toward the right of the frame.\nEXPRESSION: relaxed brow, softly open eyes, lips closed and unstrained, no smile.\nScene note: She takes a pause between spa-theme fashion rehearsals on a broad upholstered platform, under a pearl-white curved ceiling. A tiny spiral pendant and a ceramic seal sculpture recall her motif.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+  "plan": {
+    "cut": 2,
+    "treeV": 2,
+    "era": "fantasy",
+    "place": "fx_spa",
+    "ofam": "roleplay",
+    "item": "uniform_inspired",
+    "garments": [
+      "uniform"
+    ],
+    "weather": "",
+    "posture": "lie_side",
+    "support": "side_floor",
+    "frame": "three_quarter",
+    "body": "front",
+    "head": "over_shoulder",
+    "camera": "eye",
+    "right": "",
+    "left": "",
+    "use": "",
+    "legs": "knee_up",
+    "gaze": "screen_right",
+    "preset": "",
+    "expr": "calm",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "one-shoulder cut",
+      "halter neck"
+    ],
+    "lead": "action"
+  },
+  "manual_inputs": {
+    "scene": "She takes a pause between spa-theme fashion rehearsals on a broad upholstered platform, under a pearl-white curved ceiling. A tiny spiral pendant and a ceramic seal sculpture recall her motif.",
+    "outfit": "A cream-and-plum uniform-inspired event costume with crisp lapels and decorative epaulettes, made as a one-shoulder cropped jacket over a halter-neck top and tailored shorts."
+  },
+  "manual_why": {
+    "scene": "action 첫머리로 스파 테마 패션 리허설의 휴식과 받침 플랫폼을 구체화",
+    "outfit": "원래 유니폼풍 행사복의 라펠과 견장을 보존하며 한쪽 어깨·홀터와 분리형 실루엣 반영"
+  },
+  "edit_request": {
+    "user_request": "골비람 일상컷2번 한쪽팔이 없어. 수정해줘",
+    "mode": "precise-object-edit",
+    "generator_settings_changed": false,
+    "prompt_file": "edit-prompt.txt",
+    "references": [
+      {
+        "role": "edit_target",
+        "source_sha256": "f42a03ff3e265b959941b5011cf56bcfaeb5be29055ed8ea470fdb8e8df19903"
+      },
+      {
+        "role": "identity_reference",
+        "source_sha256": "0c94150974e321dc237e113cd399b8ab39296183500cbe6891dd7c926979dcea"
+      }
+    ]
+  }
+}

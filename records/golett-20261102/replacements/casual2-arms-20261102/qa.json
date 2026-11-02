@@ -1,0 +1,24 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "image_sha256": "bb418e608f8a9ed50ea667e37aca714f69b8a0896dc549618bcff125c84fb6d7",
+  "webp_sha256": "cb31664d87c34e1dd6ddc9d2061cb2ac57a5eef8b4737643e6def996a5342378",
+  "size": [
+    1024,
+    1536
+  ],
+  "observations": [
+    "양팔이 각 어깨에서 소매·팔꿈치·아래팔·손목으로 이어진다. 오른손은 앞쪽 허벅지 위, 왼손은 쿠션 위로 구분된다.",
+    "오른손은 엄지와 네 손가락이 분리돼 보인다. 왼손은 네 손가락과 엄지 밑 부분이 읽히며 엄지 끝 일부는 쿠션 쪽으로 가려진다.",
+    "추가 팔이나 떨어진 손이 없고 얼굴·비대칭 머리·크림/자주색 의상·스파 배경·옆으로 누운 자세가 유지됐다."
+  ],
+  "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "right: five; left: four extended fingers plus partially obscured thumb",
+    "overlay_checked": false,
+    "note": "원본 및 양손 확대 시각검수. 두 다리는 기존 무릎 위 크롭 그대로."
+  },
+  "previous_qa_correction": "이전 QA의 화면 밖/가려짐 판정으로 통과시킨 팔 배치가 사용자에게 누락으로 보였음. 이번 수정은 두 팔과 손의 연결이 화면 안에서 읽히게 함."
+}
