@@ -1,0 +1,245 @@
+[
+ {
+  "slot": "light",
+  "file": "활화르바_light_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [],
+  "original_sha256": "6fc2541266e4db29b656f7f616ab8ec9690836656e670401c03786338f9b45a1",
+  "webp_sha256": "6594c7462202b1d90b025e7611a4a6c50869db8e4a5d5c66085f96ef18a9d7fa",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "흰 중간 길이 곱슬머리·붉은 눈·다섯 붉은 뿔 장식. 위쪽 장식 끝이 프레임에 조금 걸림.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "two human gloved hands, five-digit structure; fingers partly overlap in relaxed curl",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ },
+ {
+  "slot": "heavy",
+  "file": "활화르바_heavy_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [
+   "light"
+  ],
+  "original_sha256": "e636954be24092ef968324f8f1043dd7f8213b3e197527273e4a46fad3850a4a",
+  "webp_sha256": "f10fc088f80787951e00976f186cfb6ecb6e3bf69b4db8331d2cff44f2285b85",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "경장보다 넓고 겹쳐진 어깨·복부·허벅지 장갑. 원래 인물 외형 유지.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "two human gloved hands, five-digit structure; fingers partly overlap in relaxed curl",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ },
+ {
+  "slot": "mobility",
+  "file": "활화르바_mobility_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [
+   "light"
+  ],
+  "original_sha256": "9e630789bfd08ad2143ca608bf32026979852cd1aa1336b09b2574f427dd48d0",
+  "webp_sha256": "b2d2e3238befb1bd346c107ab7c408cdcbe124aadd35fb7ef7ca25b9bb8f71c4",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "어깨·허리·종아리의 분할 판과 소형 추진기. 외형 유지.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "two human gloved hands, five-digit structure; fingers partly overlap in relaxed curl",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ },
+ {
+  "slot": "light_overdrive",
+  "file": "활화르바_light_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [
+   "light"
+  ],
+  "original_sha256": "f81f42e56e134131b98628cc38643d9ccfe225aabcfaa6c72f4b10c81a8dd00c",
+  "webp_sha256": "504143d998fafb1a11ed48c441adf93a8c519894458ea49c6b23ff4db9522e9c",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "경장과 인물 위치·구도 동일, 얇은 판이 벌어지고 연두빛 내부 프레임 노출.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "two human gloved hands, five-digit structure; fingers partly overlap in relaxed curl",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ },
+ {
+  "slot": "heavy_overdrive",
+  "file": "활화르바_heavy_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [
+   "heavy",
+   "light"
+  ],
+  "original_sha256": "1f1c866f762e5cd27e774d57f499b85610ba9593fa941f0041b8d9b5a6d83a48",
+  "webp_sha256": "890c11207384f3abef3b4fdbddfc440590b5b749f5750b28efe2a8616c94f26c",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "중장 판의 겹이 열리고 연두빛으로 안쪽이 드러남. 새 무기 없음.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "two human gloved hands, five-digit structure; fingers partly overlap in relaxed curl",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ },
+ {
+  "slot": "mobility_overdrive",
+  "file": "활화르바_mobility_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [
+   "mobility",
+   "light"
+  ],
+  "original_sha256": "ad7f6a2a3ec9a17b0b5c56b81b81db7419474c366b5734fcdcbf837f4b44be2e",
+  "webp_sha256": "921a2c7c7938608fc61108f3160d1bd9d66eb587e6c99caa265aa336dcf1bd0e",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "고기동 판 사이가 넓어지고 연두빛 날개형 에너지. 인물 위치 유지.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "two human gloved hands, five-digit structure; fingers partly overlap in relaxed curl",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ },
+ {
+  "slot": "casual1",
+  "file": "활화르바_glossy_promo_f_casual1.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [
+   "light"
+  ],
+  "original_sha256": "16d00a7e9205e0d2989ef43a169e29934805f4c2c8284e61ff47b253f822e667",
+  "webp_sha256": "004bc0b02312c904c48818b3fb08fdb415ef29548169de4aa8a09c0ad86b61fd",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "오락실 조작대에 두 팔을 자연스럽게 잇고 청록 핀업 비키니. 오른손은 소품에 부분 가림, 왼손 펼침. 정면에 가까운 얼굴은 선택한 옆 시선과 차이 있어 기록.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "right fingers partly occluded by object, left five fingers",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ },
+ {
+  "slot": "casual2",
+  "file": "활화르바_glossy_promo_f_casual2.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [
+   "light"
+  ],
+  "original_sha256": "70bce9d4dc75c2af40afef9847779c3ca3b00e23a3f412078b4f44262b1fcde9",
+  "webp_sha256": "0c44a73b3db70b03255798a2444ebd23b98808669c9745f8d24eb16127c7b5f8",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "불투명 후드 원피스 코스튬, 빨래방 의자에 앉아 오른손으로 컵, 왼손은 무릎. 무릎·팔꿈치 자연스럽게 연결. 환경 와이드보다 인물이 크게 나와 기록.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "right five digits with grip occlusion, left five digits resting on knee",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ },
+ {
+  "slot": "casual3",
+  "file": "활화르바_glossy_promo_f_casual3.webp",
+  "style": "glossy_promo",
+  "gender": "f",
+  "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+  "reference_slots": [
+   "light"
+  ],
+  "original_sha256": "5c8f8b6f62a561a7b0ea95e4e2a6b277e5845738e4422c853dd1ac6131a2b7c1",
+  "webp_sha256": "b328cca2c8a7ae89ed2af53ef37855bf0ec13d2086752d0fd68b326cd1891fa2",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "accepted": true,
+  "visual_note": "바 배경, 얼굴 중심 윙크와 어깨 너머 방향. 손·하체는 프레임 밖.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "both out of crop",
+   "overlay_checked": false,
+   "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+  }
+ }
+]

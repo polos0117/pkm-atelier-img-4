@@ -1,0 +1,384 @@
+{
+ "session": "larvesta-volcarona-e495",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "활화르바",
+   "species": "larvesta-20261102",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "arcade_hall",
+     "weather": "",
+     "ofam": "retro",
+     "item": "pinup_bikini",
+     "posture": "lean_counter",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "contrapposto",
+     "gaze": "horizon",
+     "expr": "confident",
+     "preset": "",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini"
+     ],
+     "expose": [
+      "halter neck",
+      "strapless top"
+     ],
+     "lead": "action",
+     "act": "lean_counter:-:-",
+     "orient": "front_3q+turn_side",
+     "pose": null
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_laundromat",
+     "ofam": "pokemon_costume",
+     "item": "pc_hoodie",
+     "garments": [
+      "dress"
+     ],
+     "weather": "",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "environmental",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "cup_hold",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "preset": "bench_sit",
+     "expr": "laughing_open",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "one-shoulder cut"
+     ],
+     "lead": "action"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "night_bar",
+     "weather": "",
+     "ofam": "costume",
+     "item": "",
+     "posture": "lean_counter",
+     "support": "none",
+     "frame": "face_close",
+     "body": "side",
+     "head": "over_shoulder",
+     "camera": "high",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "down",
+     "expr": "wink",
+     "preset": "",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "coat",
+      "dress"
+     ],
+     "expose": [
+      "high thigh slit",
+      "off-shoulder neckline"
+     ],
+     "lead": "light",
+     "act": "lean_counter:-:-",
+     "orient": "side+over_shoulder",
+     "pose": null
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "costume": 2,
+    "low": [
+     "arcade",
+     "studio",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "pokeworld"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [
+     "front+turn_side"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "불카모스",
+   "species": "volcarona-20261102",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "street_laundromat",
+     "weather": "",
+     "ofam": "swimwear",
+     "item": "yukata_over",
+     "posture": "stand",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "camera_shoot",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "expr": "laughing",
+     "preset": "camera_shot",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "traditional"
+     ],
+     "expose": [
+      "high thigh slit",
+      "cropped hem"
+     ],
+     "lead": "detail",
+     "act": "camera_shoot",
+     "orient": "front_3q+with_body",
+     "pose": "camera_shot"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_runway",
+     "weather": "",
+     "ofam": "retro",
+     "item": "nineties_slip",
+     "posture": "sit_floor",
+     "support": "none",
+     "frame": "environmental",
+     "body": "side",
+     "head": "with_body",
+     "camera": "high",
+     "right": "lap",
+     "left": "floor_brace",
+     "use": "",
+     "legs": "cross_legged",
+     "gaze": "horizon",
+     "expr": "pensive",
+     "preset": "floor_horizon",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "cardigan",
+      "dress",
+      "slip"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "halter neck"
+     ],
+     "lead": "place",
+     "act": "sit_floor:lap:floor_brace",
+     "orient": "side+with_body",
+     "pose": "floor_horizon"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "home_entry",
+     "weather": "",
+     "ofam": "pokemon_costume",
+     "item": "pc_crop_set",
+     "posture": "squat",
+     "support": "none",
+     "frame": "full_body",
+     "body": "front",
+     "head": "tilt",
+     "camera": "high",
+     "right": "prop",
+     "left": "lap",
+     "use": "phone_look",
+     "legs": "squat_heels",
+     "gaze": "at_prop",
+     "expr": "laughing_open",
+     "preset": "squat_prop",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "skirt"
+     ],
+     "expose": [
+      "mini length",
+      "side cutouts"
+     ],
+     "lead": "action",
+     "act": "phone_look",
+     "orient": "front+tilt",
+     "pose": "squat_prop"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": true,
+     "prev": [
+      1
+     ]
+    },
+    "costume": null,
+    "low": [
+     "studio",
+     "spa",
+     "sports",
+     "evening",
+     "pokeworld"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  }
+ ],
+ "submission_mode": "built-in image_gen",
+ "sparse_evidence": "Published image existence checked from exact remote Git tree inventory; only casual selection records and reservations materialized, no unrelated image bytes.",
+ "compared_characters": [
+  [
+   "디헤드",
+   "/workspace/scratch/e49588fc01c0/comparison/디헤드_glossy_promo_f_casual1.webp"
+  ],
+  [
+   "디헤드",
+   "/workspace/scratch/e49588fc01c0/comparison/디헤드_glossy_promo_f_casual2.webp"
+  ],
+  [
+   "디헤드",
+   "/workspace/scratch/e49588fc01c0/comparison/디헤드_glossy_promo_f_casual3.webp"
+  ],
+  [
+   "디헤드",
+   "/workspace/scratch/e49588fc01c0/comparison/디헤드_light_glossy_promo_f.webp"
+  ],
+  [
+   "모노두",
+   "/workspace/scratch/e49588fc01c0/comparison/모노두_glossy_promo_f_casual1.webp"
+  ],
+  [
+   "모노두",
+   "/workspace/scratch/e49588fc01c0/comparison/모노두_glossy_promo_f_casual2.webp"
+  ],
+  [
+   "모노두",
+   "/workspace/scratch/e49588fc01c0/comparison/모노두_glossy_promo_f_casual3.webp"
+  ],
+  [
+   "모노두",
+   "/workspace/scratch/e49588fc01c0/comparison/모노두_light_glossy_promo_f.webp"
+  ],
+  [
+   "아이앤트",
+   "/workspace/scratch/e49588fc01c0/comparison/아이앤트_glossy_promo_f_casual1.webp"
+  ],
+  [
+   "아이앤트",
+   "/workspace/scratch/e49588fc01c0/comparison/아이앤트_glossy_promo_f_casual2.webp"
+  ],
+  [
+   "아이앤트",
+   "/workspace/scratch/e49588fc01c0/comparison/아이앤트_glossy_promo_f_casual3.webp"
+  ],
+  [
+   "아이앤트",
+   "/workspace/scratch/e49588fc01c0/comparison/아이앤트_light_glossy_promo_f.webp"
+  ]
+ ],
+ "selection_reasons": {
+  "1": {
+   "action_level": "lean_counter posture and resting hands",
+   "source_influence": "selected balanced by planner for arcade_hall",
+   "separates_preference": "outfit pinup_bikini with bikini"
+  },
+  "2": {
+   "action_level": "sit_chair posture and cup_hold",
+   "source_influence": "selected balanced by planner for street_laundromat",
+   "separates_preference": "outfit pc_hoodie with dress"
+  },
+  "3": {
+   "action_level": "lean_counter posture and resting hands",
+   "source_influence": "selected subtle by planner for night_bar",
+   "separates_preference": "outfit  with coat,dress"
+  }
+ }
+}

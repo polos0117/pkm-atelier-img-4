@@ -1,0 +1,282 @@
+{
+ "version": 1,
+ "card": "활화르바",
+ "no": 636,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/e49588fc01c0/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A late-night retro arcade event casts magenta and cyan reflections over the cabinet control shelf.",
+   "outfit": "A 1950s pin-up bikini pairs high-waisted bottoms with a bandeau-shaped halter top, exposing the shoulders and midriff. The fabric is deep sea-green with small ivory piping.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "오락실의 시각과 게임기 작업대 조명을 보충한다.",
+    "outfit": "핀업 비키니의 높은 허리와 홀터 구조를 유지하고 어깨·복부가 보이도록 소재와 색을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / arcade_hall / retro / pinup_bikini / lean_counter / three_quarter",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "pinup_bikini",
+      "ko": "50년대 핀업 비키니",
+      "en": "a 1950s pin-up bikini with a high-waisted bottom and a halter top"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "halter neck",
+     "strapless top"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Rows of chrome washer doors catch cool fluorescent light; a mesh laundry basket rests beside the central aisle.",
+   "outfit": "A Larvesta adult costume uses a one-shoulder high-cut bodysuit with side cutouts and sheer thigh-high tights; its five small red horn ornaments and ivory collar are costume details.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "빨래방 기계의 재질과 조명·주변 빨래 바구니를 보충한다.",
+    "outfit": "선택된 활화르바 바디수트형 코스튬에 한쪽 어깨와 옆구리 컷아웃을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_laundromat / pokemon_costume / pc_bodysuit / walk / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_laundromat",
+      "ko": "빨래방",
+      "en": "a coin laundromat late at night, rows of round machine doors"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Amber light from the backlit shelves mixes with a narrow violet neon reflection on the polished counter.",
+   "outfit": "An off-shoulder stage dress in midnight-blue satin has a high thigh slit, paired with a short open cape-coat that leaves the neckline uncovered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "바 카운터의 시대에 무관한 조명 질감만 보충한다.",
+    "outfit": "계획의 coat와 dress를 유지해 짧은 열린 케이프 코트와 슬릿 드레스로 어깨·다리 노출을 정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / night_bar / costume / lean_counter / face_close",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "night_bar",
+      "ko": "바",
+      "en": "a neon-lit bar counter with backlit bottles"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "coat",
+     "dress"
+    ],
+    "expose": [
+     "high thigh slit",
+     "off-shoulder neckline"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

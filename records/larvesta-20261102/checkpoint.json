@@ -1,0 +1,120 @@
+{
+ "card": "활화르바",
+ "slots": {
+  "light": {
+   "file": "img/활화르바_light_glossy_promo_f.webp",
+   "original_sha256": "6fc2541266e4db29b656f7f616ab8ec9690836656e670401c03786338f9b45a1",
+   "webp_sha256": "6594c7462202b1d90b025e7611a4a6c50869db8e4a5d5c66085f96ef18a9d7fa",
+   "reference_slots": []
+  },
+  "heavy": {
+   "file": "img/활화르바_heavy_glossy_promo_f.webp",
+   "original_sha256": "e636954be24092ef968324f8f1043dd7f8213b3e197527273e4a46fad3850a4a",
+   "webp_sha256": "f10fc088f80787951e00976f186cfb6ecb6e3bf69b4db8331d2cff44f2285b85",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "mobility": {
+   "file": "img/활화르바_mobility_glossy_promo_f.webp",
+   "original_sha256": "9e630789bfd08ad2143ca608bf32026979852cd1aa1336b09b2574f427dd48d0",
+   "webp_sha256": "b2d2e3238befb1bd346c107ab7c408cdcbe124aadd35fb7ef7ca25b9bb8f71c4",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "light_overdrive": {
+   "file": "img/활화르바_light_overdrive_glossy_promo_f.webp",
+   "original_sha256": "f81f42e56e134131b98628cc38643d9ccfe225aabcfaa6c72f4b10c81a8dd00c",
+   "webp_sha256": "504143d998fafb1a11ed48c441adf93a8c519894458ea49c6b23ff4db9522e9c",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "heavy_overdrive": {
+   "file": "img/활화르바_heavy_overdrive_glossy_promo_f.webp",
+   "original_sha256": "1f1c866f762e5cd27e774d57f499b85610ba9593fa941f0041b8d9b5a6d83a48",
+   "webp_sha256": "890c11207384f3abef3b4fdbddfc440590b5b749f5750b28efe2a8616c94f26c",
+   "reference_slots": [
+    "heavy",
+    "light"
+   ]
+  },
+  "mobility_overdrive": {
+   "file": "img/활화르바_mobility_overdrive_glossy_promo_f.webp",
+   "original_sha256": "ad7f6a2a3ec9a17b0b5c56b81b81db7419474c366b5734fcdcbf837f4b44be2e",
+   "webp_sha256": "921a2c7c7938608fc61108f3160d1bd9d66eb587e6c99caa265aa336dcf1bd0e",
+   "reference_slots": [
+    "mobility",
+    "light"
+   ]
+  },
+  "casual1": {
+   "file": "img/활화르바_glossy_promo_f_casual1.webp",
+   "original_sha256": "16d00a7e9205e0d2989ef43a169e29934805f4c2c8284e61ff47b253f822e667",
+   "webp_sha256": "004bc0b02312c904c48818b3fb08fdb415ef29548169de4aa8a09c0ad86b61fd",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "casual2": {
+   "file": "img/활화르바_glossy_promo_f_casual2.webp",
+   "original_sha256": "70bce9d4dc75c2af40afef9847779c3ca3b00e23a3f412078b4f44262b1fcde9",
+   "webp_sha256": "0c44a73b3db70b03255798a2444ebd23b98808669c9745f8d24eb16127c7b5f8",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "casual3": {
+   "file": "img/활화르바_glossy_promo_f_casual3.webp",
+   "original_sha256": "5c8f8b6f62a561a7b0ea95e4e2a6b277e5845738e4422c853dd1ac6131a2b7c1",
+   "webp_sha256": "b328cca2c8a7ae89ed2af53ef37855bf0ec13d2086752d0fd68b326cd1891fa2",
+   "reference_slots": [
+    "light"
+   ]
+  }
+ },
+ "published": false,
+ "canonical": "light",
+ "face_design": {
+  "name": "활화르바",
+  "en": "Larvesta",
+  "line": "활화르바",
+  "how": "draft",
+  "registered": false,
+  "face": {
+   "face shape": "angular",
+   "face length": "balanced",
+   "face width": "medium",
+   "jaw & chin": "square broad jaw",
+   "eye shape": "sharp",
+   "eye size": "medium",
+   "eye tilt": "upturned outer corners",
+   "eye spacing": "average eye spacing",
+   "eyebrows": "thick low brows",
+   "nose character": "prominent defined nose",
+   "lips": "thin lips"
+  },
+  "why": "",
+  "cues": [
+   "‘five red, slightly whorled horns’ → 얼굴형 각지고 선명한 얼굴형",
+   "‘five red, slightly whorled horns’ → 턱선 · 턱끝 넓고 각진 사각 턱",
+   "‘five red, slightly whorled horns’ → 눈매 강하게 치켜올라간 눈",
+   "‘five red, slightly whorled horns’ → 눈꼬리 각도 올라간 눈꼬리",
+   "‘five red, slightly whorled horns’ → 눈썹 굵고 눈 가까이 낮은",
+   "‘five red, slightly whorled horns’ → 코 크고 또렷한 코"
+  ],
+  "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 바깥에서 꺾이는 사선 → 굵고 눈 가까이 낮은, 코 작고 여린 코 → 크고 또렷한 코",
+  "hair": {
+   "hairstyle": "ringlet curls",
+   "hair length": "medium",
+   "bangs": "parted bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "‘five red, slightly whorled horns’에서 세로로 말린 드릴 컬(웨이브·곱슬) · 중간 길이 · 가운데를 가른 앞머리",
+  "hair_cues": [
+   "‘five red, slightly whorled horns’ → 헤어스타일 세로로 말린 드릴 컬",
+   "‘five red, slightly whorled horns’ → 앞머리 가운데를 가른 앞머리"
+  ]
+ }
+}
