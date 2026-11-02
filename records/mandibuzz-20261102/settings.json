@@ -1,0 +1,291 @@
+{
+ "version": 1,
+ "card": "버랜지나",
+ "no": 630,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/3065180195e3/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Mandibuzz bone relic fashion: ivory segmented bone belt and a single polished bone hairpin; dark feather-shaped layered cape, tan ruff collar and pink accent panels.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Rotating magenta and teal spotlights scatter over a curved velvet banquette and a karaoke screen.",
+   "outfit": "A 1950s ivory pin-up bikini with a high-waisted high-cut bottom and a halter top exposing shoulders and upper thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "회전 조명과 벨벳 좌석으로 선택된 노래방 공간을 구체화한다.",
+    "outfit": "핀업 비키니를 유지하고 계획의 하이컷·홀터를 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_karaoke / retro / pinup_bikini / sit_chair / full_body / glass_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_karaoke",
+      "ko": "노래방",
+      "en": "a private karaoke room with spinning coloured lights"
+     },
+     "role": null,
+     "use": {
+      "key": "glass_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cocktail glass by the stem at chest height",
+      "prop": "칵테일 잔"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "pinup_bikini",
+      "ko": "50년대 핀업 비키니",
+      "en": "a 1950s pin-up bikini with a high-waisted bottom and a halter top"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "halter neck"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A clear umbrella catches raindrops beside the grocery entrance beneath the awning; bright aisles extend through the glass doors.",
+   "outfit": "An adult Mandibuzz costume in a high-cut bodysuit with sheer thigh-high tights, side cutouts and an off-shoulder neckline, dark feather trim and a small ivory bone belt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "우산이 선택된 동작이라 비 내리는 매장 입구로 상황을 자연스럽게 잇는다.",
+    "outfit": "바디수트 코스튬 구조를 유지하고 계획의 옆 트임·오프숄더를 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_grocery / pokemon_costume / pc_bodysuit / walk / three_quarter / umbrella_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_grocery",
+      "ko": "마트·편의점",
+      "en": "a neighbourhood grocery or convenience store with bright aisles"
+     },
+     "role": null,
+     "use": {
+      "key": "umbrella_hold",
+      "ko": "우산을 쓴다",
+      "en": "holds an umbrella open over her shoulder",
+      "prop": "우산"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "side cutouts",
+     "off-shoulder neckline"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "A wooden rural platform and weathered bench recede beside the single track in 2010.",
+   "outfit": "A short ivory beaded after-party wedding dress with a plunging neckline and mini hem exposing collarbones and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "첫 등장 2010년의 시골 역 플랫폼을 구체화한다.",
+    "outfit": "2부 미니드레스와 계획의 미니·깊은 목선을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / travel_rural_station / bridal / beaded_mini / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "travel_rural_station",
+      "ko": "시골 역",
+      "en": "a small rural station with a wooden bench and a single platform"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "beaded_mini",
+      "ko": "2부 미니드레스",
+      "en": "a short beaded after-party wedding dress"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "mini length",
+     "plunging neckline"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "light": {
+  "accepted": true,
+  "observations": "두 팔과 두 다리가 정상 위치에서 이어지고 얼굴·머리·체형이 경장과 일치한다. 전신의 얼굴·두 손·발을 담고 폼의 장갑 두께와 실루엣이 구분된다.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "heavy": {
+  "accepted": true,
+  "observations": "두 팔과 두 다리가 정상 위치에서 이어지고 얼굴·머리·체형이 경장과 일치한다. 전신의 얼굴·두 손·발을 담고 폼의 장갑 두께와 실루엣이 구분된다.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "mobility": {
+  "accepted": true,
+  "observations": "두 팔과 두 다리가 정상 위치에서 이어지고 얼굴·머리·체형이 경장과 일치한다. 전신의 얼굴·두 손·발을 담고 폼의 장갑 두께와 실루엣이 구분된다.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "light_overdrive": {
+  "accepted": true,
+  "observations": "두 팔과 두 다리가 정상 위치에서 이어지고 얼굴·머리·체형이 경장과 일치한다. 기존 판의 틈에서 타입 빛이 드러나며 카메라·손·다리 위치가 닫힌 폼과 유지된다.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "heavy_overdrive": {
+  "accepted": true,
+  "observations": "두 팔과 두 다리가 정상 위치에서 이어지고 얼굴·머리·체형이 경장과 일치한다. 기존 판의 틈에서 타입 빛이 드러나며 카메라·손·다리 위치가 닫힌 폼과 유지된다.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "mobility_overdrive": {
+  "accepted": true,
+  "observations": "두 팔과 두 다리가 정상 위치에서 이어지고 얼굴·머리·체형이 경장과 일치한다. 기존 판의 틈에서 타입 빛이 드러나며 카메라·손·다리 위치가 닫힌 폼과 유지된다.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "casual1": {
+  "accepted": true,
+  "observations": "버건디 노래방 좌석에 다리를 교차해 앉음. 아이보리 홀터 비키니·하이컷, 칵테일 잔과 무릎 위 손. 계획의 잔 든 손 좌우와 머리 각도는 일부 달라 기록만 남김.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "casual2": {
+  "accepted": true,
+  "observations": "빗방울 맺힌 투명 우산 아래 마트 입구, 등을 비스듬히 보이며 왼 어깨 너머 시선. 깃털·뼈 코스튬 바디수트와 스타킹, 옆구리·어깨·허벅지 노출. 소매 장식은 큰 코스튬 트림으로 남음.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "casual3": {
+  "accepted": true,
+  "observations": "노을과 시골 역 선로 배경의 얼굴 근접 컷. 진주·비즈가 달린 아이보리 목선, 볼에 손, 미소. 아래쪽 드레스 길이는 크롭 밖이므로 확인 불가.",
+  "anatomy": {
+   "tool": "unavailable: mediapipe module is not installed",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양 손의 손목·팔꿈치 연결 확인, 보이는 손가락은 다섯 구성. 굽힌 장갑 손·소품 쥠·볼 뒤 손가락은 일부 가려짐. 크롭 밖 신체는 판단하지 않음.",
+   "overlay_checked": false,
+   "note": "원본 전체와 손 확대 이미지를 눈으로 확인."
+  },
+  "checks": {
+   "identity": {
+    "match": true,
+    "evidence": "기준과 같은 얼굴 윤곽·눈매·머리색·헤어스타일 유지"
+   },
+   "ratio": {
+    "match": true,
+    "evidence": "1024×1536"
+   },
+   "text_logo": {
+    "match": true,
+    "evidence": "식별 가능한 실상표 없음"
+   }
+  }
+ },
+ "diversity_comparison": {
+  "compared_characters": [
+   "벌차이",
+   "워글",
+   "수리둥보"
+  ],
+  "evidence": "비교 원본 12장 확인. 이번 버랜지나는 긴 갈색 머리, 노래방 전신 좌석·비 오는 마트 뒤돌아보기·시골 역 근접 얼굴이 각각 다른 의상·구도·상황이다. 기존 벌차이의 디스코 컵·정원·열람실, 워글의 숲 제복·발코니·바, 수리둥보의 운동복·센터·공원과 세 장 묶음이 구분된다."
+ }
+}
