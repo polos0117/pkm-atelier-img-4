@@ -1,0 +1,82 @@
+{
+ "card": "삼삼드래",
+ "slots": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "light": {
+  "card": "삼삼드래",
+  "slot": "light",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings",
+  "file": "삼삼드래_light_glossy_promo_f.webp",
+  "source_sha256": "543d3a3495e221738461ef09506778333daf9c3b682d9d6e8ecca5711d5ef9a7",
+  "webp_sha256": "651e7b12af1f25204a3842418cdd30cdf7f3877d408f1c8f06372b4af41a03de",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "reference": null,
+  "reference_sha256": null
+ },
+ "face_design": {
+  "name": "삼삼드래",
+  "en": "Hydreigon",
+  "line": "모노두",
+  "how": "species",
+  "registered": false,
+  "face": {
+   "face shape": "angular",
+   "face length": "long",
+   "face width": "medium",
+   "jaw & chin": "angular defined jaw",
+   "eye shape": "narrow",
+   "eye size": "small",
+   "eye tilt": "level outer corners",
+   "eye spacing": "average eye spacing",
+   "eyebrows": "thick low brows",
+   "nose character": "long nose with low tip",
+   "lips": "wide mouth"
+  },
+  "why": "거친 다두 용의 강한 턱을 각진 하관과 깊은 눈매로 해석한다. 사람 머리는 하나다.",
+  "cues": [
+   "드래곤 타입 → 얼굴형 각지고 선명한 얼굴형",
+   "‘secondary necks’ → 얼굴 길이 긴 얼굴",
+   "‘secondary necks’ → 코 길고 코끝이 내려온"
+  ],
+  "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴 길이 보통 → 긴 얼굴",
+  "hair": {
+   "hairstyle": "feathered",
+   "hair length": "long",
+   "bangs": "asymmetric bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "‘six thin, black wings’·‘black tuft’·키 1.8m에서 끝을 가볍게 친 페더컷(층 낸 컷) · 긴 머리 · 좌우 길이가 다른 앞머리 — 디헤드에서 이어 같은 묶음",
+  "hair_cues": [
+   "‘six thin, black wings’ → 헤어스타일 끝을 가볍게 친 페더컷",
+   "키 1.8m → 머리 길이 긴 머리",
+   "악 타입 → 앞머리 좌우 길이가 다른 앞머리"
+  ]
+ },
+ "face_selection_reason": "거친 다두 용의 강한 턱을 각진 하관과 깊은 눈매로 해석한다. 사람 머리는 하나다.",
+ "final_face_prompt": "INPUT: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\n\nSOURCE: Hydreigon (삼삼드래), dark / dragon type.\n\nPALETTE: black, blue.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nSUBJECT: A female mecha personification character with Hydreigon as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\n\nWEAR: the six thin, black wings become a split cape falling from her shoulders, cut in the same shape and colors; the black tuft becomes a feathered or ruffled collar and trim; its markings (fuchsia stripe) become painted lines and patterns on her plates and undersuit.\n\nFACE (her own structure, not the style's default face): angular face, long length, medium width; angular defined jaw; narrow eyes, small size, level outer corners, average spacing; thick low brows; long nose with low tip; wide mouth.\n\nHAIR: long feathered, asymmetric bangs.\n\nFORM — LIGHT: one close-fitting armor layer: slim plates at the shoulders, forearms, hips and shins over a fitted undersuit, joints free, a slim readable outline. No helmet; at most a slim headband or temple sensor.\n\nOUTPUT: one dynamic action image that is also this form's card art. Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion, face toward the camera (front or three-quarter, never a back view). Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Keep both hands relaxed — a loose fist, an open palm or resting on something. Gloves are full-finger and close-fitting; plates, water, sparks and effects stay off the fingers.\n",
+ "actual_compared": [
+  "모노두",
+  "아이앤트",
+  "벌차이",
+  "워글",
+  "수리둥보"
+ ],
+ "reservation": "zh-7884-20261103",
+ "method": "built-in image_gen",
+ "originals": "session only; sha256 preserved; PNG not published",
+ "publication": "pending main commit"
+}

@@ -1,0 +1,218 @@
+{
+ "light": {
+  "accepted": true,
+  "observations": "길고 각진 얼굴, 자주색 눈, 흑자주 페더컷과 파랑 안쪽 머리. 검정·파랑·자주 경장, 여섯 갈래 날개 모양 망토. 양팔을 내린 전신이며 양손·두 다리가 몸에 연결됨.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "길고 각진 얼굴, 자주색 눈, 흑자주 페더컷과 파랑 안쪽 머리. 검정·파랑·자주 경장, 여섯 갈래 날개 모양 망토. 양팔을 내린 전신이며 양손·두 다리가 몸에 연결됨."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "543d3a3495e221738461ef09506778333daf9c3b682d9d6e8ecca5711d5ef9a7"
+ },
+ "heavy": {
+  "accepted": true,
+  "observations": "경장과 같은 인물·각도. 얼굴 열린 뿔 장식과 두꺼운 겹판의 어깨·팔·허벅지·정강이가 중장 실루엣을 만든다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "경장과 같은 인물·각도. 얼굴 열린 뿔 장식과 두꺼운 겹판의 어깨·팔·허벅지·정강이가 중장 실루엣을 만든다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "598046ba4e5e1ebb8db152c145f89ec85da75cb1b387f3f0f80e798559a62a3a"
+ },
+ "mobility": {
+  "accepted": true,
+  "observations": "기준 인물을 유지하며 어깨·허리·정강이 패널이 후방으로 갈라져 펼쳐지고 자주색 소형 추진기가 보인다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "기준 인물을 유지하며 어깨·허리·정강이 패널이 후방으로 갈라져 펼쳐지고 자주색 소형 추진기가 보인다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "2b479b394940706eaacc0e2d508959f5c1f911469cb43e9e0a93c5d0d9d410b0"
+ },
+ "light_overdrive": {
+  "accepted": true,
+  "observations": "경장과 같은 구도와 손·발 위치. 판 이음새가 들려 자주빛 안쪽 프레임이 드러난다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "경장과 같은 구도와 손·발 위치. 판 이음새가 들려 자주빛 안쪽 프레임이 드러난다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "a4d9a3bea08cc120d7b5b756bbfac1908cd1526daa843eec4818adb8b5952c70"
+ },
+ "heavy_overdrive": {
+  "accepted": true,
+  "observations": "중장과 같은 구도·인물 크기. 기존 겹판의 틈이 열리고 자주색 빛이 새며 새 무기는 없다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "중장과 같은 구도·인물 크기. 기존 겹판의 틈이 열리고 자주색 빛이 새며 새 무기는 없다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "a03ef2214d10d35ea83b0b781b7cb57d943acd518df1c4c06105dc3b6650d833"
+ },
+ "mobility_overdrive": {
+  "accepted": true,
+  "observations": "고기동과 같은 구도·손·발 위치. 펼쳐진 패널 내부가 열리고 자주색 빛과 추진 흐름이 보인다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "고기동과 같은 구도·손·발 위치. 펼쳐진 패널 내부가 열리고 자주색 빛과 추진 흐름이 보인다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "e012dafb3870198be083a7710f6f36f29f69e68d63dd3d34ac83d3d552ed2c12"
+ },
+ "casual1": {
+  "accepted": true,
+  "observations": "젖은 골목에서 쪼그려 앉아 오른손으로 휴대폰을 보고 웃는다. 왼팔은 반대쪽 무릎에 두어 손을 아래로 내림. 양어깨에서 각각 팔꿈치·손목까지 연결을 확인. 폰에 가린 손가락은 가려짐. 크롭 투피스 코스튬과 짧은 치마, 복부·허벅지 노출. 망토형 코스튬 장식이 남음.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "젖은 골목에서 쪼그려 앉아 오른손으로 휴대폰을 보고 웃는다. 왼팔은 반대쪽 무릎에 두어 손을 아래로 내림. 양어깨에서 각각 팔꿈치·손목까지 연결을 확인. 폰에 가린 손가락은 가려짐. 크롭 투피스 코스튬과 짧은 치마, 복부·허벅지 노출. 망토형 코스튬 장식이 남음."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "0d8c52b2583d5caa0d849b8776a3dbaeecd3ca0f20d42b8ee87da6b0e8838885"
+ },
+ "casual2": {
+  "accepted": true,
+  "observations": "항구 지붕 테라스 의자에 다리를 교차해 앉음. 오른손에 몬스터볼, 왼손은 무릎 위. 살구색 겹옷의 어깨와 긴 슬릿에서 허벅지가 보이고, 흰 동정과 고름 형태는 있으나 선택 한복보다 교차 깃과 넓은 소매가 강조된 형태로 나옴. 계획 환경 중심보다 인물이 크게 나옴.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "항구 지붕 테라스 의자에 다리를 교차해 앉음. 오른손에 몬스터볼, 왼손은 무릎 위. 살구색 겹옷의 어깨와 긴 슬릿에서 허벅지가 보이고, 흰 동정과 고름 형태는 있으나 선택 한복보다 교차 깃과 넓은 소매가 강조된 형태로 나옴. 계획 환경 중심보다 인물이 크게 나옴."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "fdbc1050c9ef9e7ac0fa841e17770c0c32c02fa5b54d5bec748ab6ad92f22ec6"
+ },
+ "casual3": {
+  "accepted": true,
+  "observations": "보드게임 라운지 테이블에 몸을 약간 숙여 노트에 펜으로 기록함. 코랄 체크 하이웨이스트 홀터 비키니의 복부·허벅지 노출. 오른손은 펜을 쥐어 일부 손가락이 겹치고 왼손은 노트에 편 다섯 손가락. 양팔·손목이 몸 앞으로 자연스럽게 연결됨.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 각진 얼굴·자주색 눈과 흑자주 페더컷의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "보드게임 라운지 테이블에 몸을 약간 숙여 노트에 펜으로 기록함. 코랄 체크 하이웨이스트 홀터 비키니의 복부·허벅지 노출. 오른손은 펜을 쥐어 일부 손가락이 겹치고 왼손은 노트에 편 다섯 손가락. 양팔·손목이 몸 앞으로 자연스럽게 연결됨."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "4bb5cf7244399abb4d7bbe2d950cd2a5bc42ef86a1d4ccb80900be132d589e4d"
+ },
+ "diversity_comparison": {
+  "compared": [
+   "모노두",
+   "아이앤트",
+   "벌차이",
+   "워글",
+   "수리둥보",
+   "디헤드"
+  ],
+  "actual_images": [
+   "/workspace/scratch/507318404a53/deino-review.jpg",
+   "/workspace/scratch/507318404a53/durant-review.jpg",
+   "/workspace/scratch/3065180195e3/comparison/compare.jpg",
+   "/workspace/scratch/78843e1099a3/z-review.jpg"
+  ],
+  "evidence": "디헤드의 골목 내민 손·근접, 라운지 걷는 베이비돌 전신, 수선실 얼굴 근접과 비교. 삼삼드래는 골목에 낮게 앉아 휴대폰, 항구 테라스 의자에 앉아 몬스터볼과 전통 의상, 라운지 테이블에서 노트 기록·레트로 비키니로 활동·의상·자세·구도가 다르다. 모노두와 아이앤트 및 벌차이·워글·수리둥보의 실제 비교 이미지에서도 같은 조합을 재현하지 않는다.",
+  "automated_check": "/workspace/scratch/78843e1099a3/hydreigon/casual1-original.png — 가까운 컷 0장(점수 245 미만)\n     291  피오네_glossy_promo_f_casual2.webp\n     303  아머까오_glossy_promo_f_casual2.webp\n     306  콩둘기_glossy_promo_f_casual2.webp\n/workspace/scratch/78843e1099a3/hydreigon/casual2-original.png — 가까운 컷 1장(점수 245 미만)\n     242  암나이트_glossy_promo_f_casual2.webp\n     247  기기기어르_glossy_promo_f_casual2.webp\n     255  삐삐_glossy_promo_f_casual1.webp\n/workspace/scratch/78843e1099a3/hydreigon/casual3-original.png — 가까운 컷 0장(점수 245 미만)\n     281  나옹_glossy_promo_f_casual1.webp\n     283  슬리퍼_glossy_promo_f_casual3.webp\n     295  벌차이_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+ }
+}

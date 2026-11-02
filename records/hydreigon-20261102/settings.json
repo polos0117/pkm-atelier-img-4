@@ -1,0 +1,297 @@
+{
+ "version": 1,
+ "card": "삼삼드래",
+ "no": 635,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/78843e1099a3/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Neon shop windows cast fuchsia reflections through the damp alley at dusk.",
+   "outfit": "An adult Hydreigon costume with a cropped halter top and a micro skirt revealing the midriff and thighs; blue and black fabric with fuchsia stripes and six small wing-shaped costume panels.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 구체적 빛·시간·배경 재료를 보충한다: Neon shop windows cast fuchsia reflections through the damp alley at dusk.",
+    "outfit": "크롭 투피스에 계획의 홀터 목선과 복부 노출을 적용한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_alley / pokemon_costume / pc_crop_set / squat / full_body / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_alley",
+      "ko": "골목",
+      "en": "a narrow city alley with hanging signboards and wet pavement"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · natural"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "cropped hem",
+     "halter neck"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "Terracotta rooftops step down toward fishing boats and a sea-blue harbor.",
+   "outfit": "A formal Korean hanbok with a short off-shoulder jeogori retaining the white dongjeong collar and goreum bow, over a full high-wrapped chima with a high thigh slit; pale apricot and cream silk.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 구체적 빛·시간·배경 재료를 보충한다: Terracotta rooftops step down toward fishing boats and a sea-blue harbor.",
+    "outfit": "한복의 동정·고름·치마를 유지하며 계획의 어깨와 허벅지 노출을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_roof / traditional / hanbok_formal / sit_chair / environmental / ball_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_roof",
+      "ko": "항구 마을 지붕 테라스",
+      "en": "a rooftop terrace above a Pokémon-world harbor town"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_hold",
+      "ko": "몬스터볼을 든다",
+      "en": "holds a Poké Ball at chest height",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "hanbok_formal",
+      "ko": "한복 · 정장",
+      "en": "a formal Korean hanbok — short jeogori with goreum bow and white dongjeong collar over a full high-wrapped chima; not hanfu"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "high thigh slit",
+     "off-shoulder neckline"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Writing the score beside a wooden game table, a small brass lamp lights the notebook.",
+   "outfit": "A 1950s pin-up bikini with a high-waisted high-cut bottom and a halter top, in coral gingham, revealing the midriff and upper thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 구체적 빛·시간·배경 재료를 보충한다: Writing the score beside a wooden game table, a small brass lamp lights the notebook.",
+    "outfit": "레트로 비키니의 하이웨이스트와 홀터를 살리고 하이컷을 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / boardgame_lounge / retro / pinup_bikini / stand / three_quarter / notebook_write",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "boardgame_lounge",
+      "ko": "보드게임 라운지",
+      "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+     },
+     "role": null,
+     "use": {
+      "key": "notebook_write",
+      "ko": "노트에 쓴다",
+      "en": "writes in a notebook with a pen on the table",
+      "prop": "노트와 펜"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "pinup_bikini",
+      "ko": "50년대 핀업 비키니",
+      "en": "a 1950s pin-up bikini with a high-waisted bottom and a halter top"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "bare midriff"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
