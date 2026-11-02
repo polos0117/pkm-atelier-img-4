@@ -1,0 +1,155 @@
+[
+  {
+    "slot": "light",
+    "file": "벌차이_light_glossy_promo_f.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24",
+    "sha256": "d180917151775688f2cacb7910a2fa5afa8c97d6d328c084b0953b3711c000eb",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {}
+  },
+  {
+    "slot": "heavy",
+    "file": "벌차이_heavy_glossy_promo_f.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "94dcaee0980ddbedd0cf421a2393d9ffee53c0379497a9bc70667f5dddcb5dd3",
+    "sha256": "fcda0e58c7feec6448009f4a4de5419527c073948010652bc9af2df3d8cb9066",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24"
+    }
+  },
+  {
+    "slot": "mobility",
+    "file": "벌차이_mobility_glossy_promo_f.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "4dfa37e35b7375ccf3974fe4478d59cdc38c4ee13239efe2cf8804aa6689287f",
+    "sha256": "a8a1a9da561517c40a597aef2839e55d912c8026ce7e51430d4f0e9d10e2b43d",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24"
+    }
+  },
+  {
+    "slot": "light_overdrive",
+    "file": "벌차이_light_overdrive_glossy_promo_f.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "3e02d4a30760684f1aa4998dde7f75f0ca33d20d919cee601a148deccc9c7a7a",
+    "sha256": "a85d7245e0df0bce70d5aa1a2c79ff1f2fd24bfc01f02a92df5ea2988b336a44",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24"
+    }
+  },
+  {
+    "slot": "heavy_overdrive",
+    "file": "벌차이_heavy_overdrive_glossy_promo_f.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "703b5b6a7146ef9db0f48d5d77b8bdd24dae06c850ba0476d1d56dbfd68947cd",
+    "sha256": "04d0c5ab5bb7f9ffb262ee06cc3fc87d90a754ac8c3a548d7ea8d6f25318c1bc",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "heavy": "94dcaee0980ddbedd0cf421a2393d9ffee53c0379497a9bc70667f5dddcb5dd3",
+      "light": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24"
+    }
+  },
+  {
+    "slot": "mobility_overdrive",
+    "file": "벌차이_mobility_overdrive_glossy_promo_f.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "0af26bcc1b9519324a4a68749c9d7ead76dd5dfd1871b2d24244985cc45d82c7",
+    "sha256": "9d61a23ec55b69baf4ad87241a5d7a4320beb05d25e61f0d0b4c7041a2b0a842",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "mobility": "4dfa37e35b7375ccf3974fe4478d59cdc38c4ee13239efe2cf8804aa6689287f",
+      "light": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24"
+    }
+  },
+  {
+    "slot": "casual1",
+    "file": "벌차이_glossy_promo_f_casual1.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "ae4880abdfe0a96c906cbef87a4a78204130c1589a593cdab04cd8e1369cc25c",
+    "sha256": "e1f0c41878518b446ffd39a2659398699b6072088eccdef472dc34af78a887f0",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24"
+    }
+  },
+  {
+    "slot": "casual2",
+    "file": "벌차이_glossy_promo_f_casual2.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "d1bd9d501ab5d02d60562b9f8f9275eb310f8874a445796aea335b9cc334234c",
+    "sha256": "6846e6813c58de7c1dbc3088246e31655c40744536cdd5c0a4d13bbbac08f861",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24"
+    }
+  },
+  {
+    "slot": "casual3",
+    "file": "벌차이_glossy_promo_f_casual3.webp",
+    "card": "벌차이",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "935effbb13dad6fc6b70572b0cef6f87e033c005e157a95bab0a7dc930a428b1",
+    "sha256": "40794c2427d0159dc3144ecd13222c746917487d2fda3b75e64cf159e3fbe17a",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24"
+    }
+  }
+]

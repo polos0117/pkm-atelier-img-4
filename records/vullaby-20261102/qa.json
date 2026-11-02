@@ -1,0 +1,133 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generator": "built-in image_gen; exact prompt-pack text",
+  "face_reason": "원작의 둥근 분홍 머리를 짧고 넓은 둥근 윤곽과 작은 입으로, 작은 날개를 짧고 바람에 흩날리는 머리로 해석. 실제 워글의 길어진 윤곽·좁은 눈·가느다란 코와 달리 벌차이는 짧은 코·작은 입·넓은 눈매가 보임.",
+  "face_source": "data/face-design.json 629; data/source-appearance.json 629; card.json 629",
+  "compared_characters": [
+    "버프론",
+    "수리둥보",
+    "워글"
+  ],
+  "evolution_line": "벌차이 계열의 버랜지나는 아직 기준 이미지가 없고 같은 계열 외형자료만 확인. 신규 성인 여성으로 독립 설계.",
+  "diversity_comparison": "실제 버프론·수리둥보·절각참 비교 이미지와 이번 워글 세 컷을 확인. 벌차이는 클럽 카운터에서 두 손 컵, 정원 옆얼굴 무릎꿇은 꽃다발, 열람실에서 크게 웃는 유카타 상반신으로 구분. 워글과 도서관·정원을 공유하지만 활동·의상·자세·방향·프레이밍이 다름.",
+  "slots": {
+    "light": {
+      "image_sha256": "7fc6778d6eb2af7e5f6f79b450468522952348557fab22e186e1cab8d09efb24",
+      "accepted": true,
+      "observations": "짧은 회색 머리, 둥근 윤곽과 작은 입. 짙은 회색 깃털 장갑·아이보리 허리 껍질·분홍 장식. 두 팔·두 다리가 자연스럽게 연결되고 두 장갑 손은 힘을 빼고 굽혀 손가락 일부 겹침. 발끝까지 포함.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "natural right/left; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "짧은 회색 머리, 둥근 윤곽과 작은 입. 짙은 회색 깃털 장갑·아이보리 허리 껍질·분홍 장식. 두 팔·두 다리가 자연스럽게 연결되고 두 장갑 손은 힘을 빼고 굽혀 손가락 일부 겹침. 발끝까지 포함."
+      }
+    },
+    "heavy": {
+      "image_sha256": "94dcaee0980ddbedd0cf421a2393d9ffee53c0379497a9bc70667f5dddcb5dd3",
+      "accepted": true,
+      "observations": "가슴·어깨·허리·허벅지·정강이 판이 적층됨. 몸통·관절 크기 유지, 두 팔·두 다리 연결. 두 검은 장갑은 느슨한 자세.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "natural right/left; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "가슴·어깨·허리·허벅지·정강이 판이 적층됨. 몸통·관절 크기 유지, 두 팔·두 다리 연결. 두 검은 장갑은 느슨한 자세."
+      }
+    },
+    "mobility": {
+      "image_sha256": "4dfa37e35b7375ccf3974fe4478d59cdc38c4ee13239efe2cf8804aa6689287f",
+      "accepted": true,
+      "observations": "어깨·허리·종아리의 뒤로 펼친 가는 판과 작은 분홍 추력기, 얼굴·머리·체형 유지. 두 팔·두 다리와 손목 연결.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "natural right/left; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "어깨·허리·종아리의 뒤로 펼친 가는 판과 작은 분홍 추력기, 얼굴·머리·체형 유지. 두 팔·두 다리와 손목 연결."
+      }
+    },
+    "light_overdrive": {
+      "image_sha256": "3e02d4a30760684f1aa4998dde7f75f0ca33d20d919cee601a148deccc9c7a7a",
+      "accepted": true,
+      "observations": "경장의 화각·자세·배경·인물 크기 유지, 얇은 판의 이음새가 들리고 보라색 내부 프레임이 보임. 새 무기·헬멧 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "natural right/left; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "경장의 화각·자세·배경·인물 크기 유지, 얇은 판의 이음새가 들리고 보라색 내부 프레임이 보임. 새 무기·헬멧 없음."
+      }
+    },
+    "heavy_overdrive": {
+      "image_sha256": "703b5b6a7146ef9db0f48d5d77b8bdd24dae06c850ba0476d1d56dbfd68947cd",
+      "accepted": true,
+      "observations": "중장의 같은 자세에서 겹친 어깨·허리·다리 판이 벌어져 보라색 내부가 드러남. 두 손은 원래 자세 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "natural right/left; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "중장의 같은 자세에서 겹친 어깨·허리·다리 판이 벌어져 보라색 내부가 드러남. 두 손은 원래 자세 유지."
+      }
+    },
+    "mobility_overdrive": {
+      "image_sha256": "0af26bcc1b9519324a4a68749c9d7ead76dd5dfd1871b2d24244985cc45d82c7",
+      "accepted": true,
+      "observations": "고기동과 같은 포즈, 펼친 판과 추력기 덮개가 더 열림. 보라색 빛은 손가락 밖에 남음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "natural right/left; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "고기동과 같은 포즈, 펼친 판과 추력기 덮개가 더 열림. 보라색 빛은 손가락 밖에 남음."
+      }
+    },
+    "casual1": {
+      "image_sha256": "ae4880abdfe0a96c906cbef87a4a78204130c1589a593cdab04cd8e1369cc25c",
+      "accepted": true,
+      "observations": "코스튬 코르셋·아이보리 스커트·해골형 버클. 두 손이 각각 컵 양옆을 감싸며 팔목·팔꿈치에 연결. 손가락 네 개와 컵 뒤로 부분 가려진 엄지. 배경 군중은 흐릿하고 얼굴이 읽히지 않음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": 2,
+        "legs": "outside crop",
+        "hands": "four fingers and partly concealed thumb on each cup side",
+        "overlay_checked": false,
+        "note": "코스튬 코르셋·아이보리 스커트·해골형 버클. 두 손이 각각 컵 양옆을 감싸며 팔목·팔꿈치에 연결. 손가락 네 개와 컵 뒤로 부분 가려진 엄지. 배경 군중은 흐릿하고 얼굴이 읽히지 않음."
+      }
+    },
+    "casual2": {
+      "image_sha256": "d1bd9d501ab5d02d60562b9f8f9275eb310f8874a445796aea335b9cc334234c",
+      "accepted": true,
+      "observations": "아이보리 베이비돌, 열린 등·허벅지 슬릿, 정원에서 무릎을 꿇고 꽃다발을 듦. 앞쪽 팔은 어깨부터 손목까지 연결되며 줄기 둘레의 손가락이 보임. 반대 손·팔은 몸과 꽃다발 뒤에 가림, 추가 팔다리 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": "one visible, other occluded by torso and bouquet",
+        "legs": 2,
+        "hands": "gripping bouquet with partial occlusion",
+        "overlay_checked": false,
+        "note": "아이보리 베이비돌, 열린 등·허벅지 슬릿, 정원에서 무릎을 꿇고 꽃다발을 듦. 앞쪽 팔은 어깨부터 손목까지 연결되며 줄기 둘레의 손가락이 보임. 반대 손·팔은 몸과 꽃다발 뒤에 가림, 추가 팔다리 없음."
+      }
+    },
+    "casual3": {
+      "image_sha256": "935effbb13dad6fc6b70572b0cef6f87e033c005e157a95bab0a7dc930a428b1",
+      "accepted": true,
+      "observations": "연보라 유카타와 원숄더 수영복, 책상과 2010년대 소형 음악기기. 웃는 얼굴과 노출 어깨, 팔은 책상 쪽으로 이어지고 두 손·하체는 프레임 밖. 예정 가슴 위보다 조금 넓은 크롭은 기록만.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; original-size visual inspection and hand crops",
+        "arms": 2,
+        "legs": "outside crop",
+        "hands": "outside crop",
+        "overlay_checked": false,
+        "note": "연보라 유카타와 원숄더 수영복, 책상과 2010년대 소형 음악기기. 웃는 얼굴과 노출 어깨, 팔은 책상 쪽으로 이어지고 두 손·하체는 프레임 밖. 예정 가슴 위보다 조금 넓은 크롭은 기록만."
+      }
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "card": "벌차이",
+  "no": 629,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/ecd06f6b3334/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "Dark charcoal feather-shaped armor, a rounded ivory skull-shell-shaped hip skirt and small pink crest ornament, interpreted as costume pieces on an adult human woman.",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "The side counter has a dark stone surface that reflects magenta dance-floor lights; a warm ceramic cup sits in her hands.",
+      "outfit": "An adult Vullaby costume lingerie set with a short charcoal laced corset bustier, high-cut briefs and a short flared bone-white skirt; a narrow midriff gap separates the pieces, with a small ivory skull-shaped clasp and pink feather trim.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "place 첫머리로 돌 카운터와 보라색 조명·따뜻한 컵 보충",
+        "outfit": "코르셋형 상의·skirt·lingerie_set 유지, high-cut leg·bare midriff와 벌차이 해골 장식 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_club / pokemon_costume / pc_corset / lean_counter / waist_up / cup_wrap",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_club",
+            "ko": "클럽",
+            "en": "a nightclub with a dance floor under moving coloured lights and a velvet-rope queue at its door"
+          },
+          "role": null,
+          "use": {
+            "key": "cup_wrap",
+            "ko": "두 손으로 잔을 감싼다",
+            "en": "holds a cup in both hands, wrapped around its warm sides",
+            "prop": "잔·컵"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_corset",
+            "ko": "코르셋형",
+            "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+          },
+          "posture": {
+            "key": "lean_counter",
+            "ko": "작업대에 몸 숙이기",
+            "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "lingerie_set",
+          "skirt"
+        ],
+        "expose": [
+          "high-cut leg",
+          "bare midriff"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual2": {
+      "scene": "She has gathered a small bouquet of pale wildflowers beside a fern-lined garden path.",
+      "outfit": "An opaque ivory babydoll slip with narrow straps, an empire waist, a softly flared short hem, an open back and a high thigh slit.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "action 첫머리로 들꽃 꽃다발과 양치식물 길 보충",
+        "outfit": "베이비돌 슬립 유지, high thigh slit·open back 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_forest / lingerie / babydoll / kneel / three_quarter / bouquet_both",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_forest",
+            "ko": "요정 숲 정원",
+            "en": "a misty enchanted garden of moss, ivy and lanterns"
+          },
+          "role": null,
+          "use": {
+            "key": "bouquet_both",
+            "ko": "두 손으로 꽃다발을 든다",
+            "en": "holds a small bouquet in both hands at her waist",
+            "prop": "꽃다발"
+          },
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "babydoll",
+            "ko": "베이비돌",
+            "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+          },
+          "posture": {
+            "key": "kneel",
+            "ko": "무릎 꿇기",
+            "en": "kneeling on the ground"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "slip"
+        ],
+        "expose": [
+          "high thigh slit",
+          "open back"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "Soft afternoon light falls over pale wooden book stands and a 2010-era compact music player.",
+      "outfit": "A light lavender cropped yukata worn open over a securely lined one-shoulder swimsuit, with the wrap neckline resting below the bare shoulder.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "light 첫머리로 오후빛과 2010년대 소형 음악기기 보충",
+        "outfit": "유카타 위 수영복 유지, one-shoulder cut·cropped hem 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / library_reading / swimwear / yukata_over / sit_lean / chest_up",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "library_reading",
+            "ko": "도서관 열람실",
+            "en": "a quiet library reading room with tall bookshelves, reading desks and big windows"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "yukata_over",
+            "ko": "수영복 위 유카타",
+            "en": "swimwear with a light yukata worn open over it"
+          },
+          "posture": {
+            "key": "sit_lean",
+            "ko": "앉아 앞으로 기울이기",
+            "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "traditional"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "cropped hem"
+        ],
+        "lead": "light"
+      }
+    }
+  }
+}

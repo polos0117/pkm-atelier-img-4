@@ -1,0 +1,316 @@
+{
+ "session": "pkm-braviary-vullaby-ecd0",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "워글",
+   "species": "braviary-20261102",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "library_reading",
+     "ofam": "pokemon_costume",
+     "item": "pc_crop_set",
+     "garments": [
+      "crop_top",
+      "skirt"
+     ],
+     "weather": "",
+     "posture": "sit_floor",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "high",
+     "right": "chin_knee",
+     "left": "floor_brace",
+     "use": "",
+     "legs": "knee_up",
+     "gaze": "camera",
+     "preset": "floor_knee",
+     "expr": "curious",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "mini length"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_forest",
+     "ofam": "roleplay",
+     "item": "adult_maid",
+     "garments": [
+      "apron"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "wave",
+     "left": "chest_hand",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "wave_chest",
+     "expr": "confident",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "halter neck",
+      "off-shoulder neckline"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "pw_lodge",
+     "ofam": "bath",
+     "item": "",
+     "garments": [
+      "robe"
+     ],
+     "weather": "",
+     "posture": "sit_lean",
+     "support": "none",
+     "frame": "face_close",
+     "body": "side",
+     "head": "tilt",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "",
+     "expr": "cold_smile",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "strapless top"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "costume": 1,
+    "low": [
+     "home",
+     "street",
+     "studio",
+     "spa",
+     "travel",
+     "pokeworld",
+     "work",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "crop_top",
+     "apron",
+     "robe"
+    ],
+    "orient": [
+     "front_3q+tilt",
+     "side+tilt"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "벌차이",
+   "species": "vullaby-20261102",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_club",
+     "ofam": "pokemon_costume",
+     "item": "pc_corset",
+     "garments": [
+      "lingerie_set",
+      "skirt"
+     ],
+     "weather": "",
+     "posture": "lean_counter",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "cup_wrap",
+     "legs": "",
+     "gaze": "",
+     "preset": "counter_work",
+     "expr": "proud",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_forest",
+     "ofam": "lingerie",
+     "item": "babydoll",
+     "garments": [
+      "slip"
+     ],
+     "weather": "",
+     "posture": "kneel",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "bouquet_both",
+     "legs": "",
+     "gaze": "",
+     "preset": "kneel_work",
+     "expr": "sensual",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "open back"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "library_reading",
+     "ofam": "swimwear",
+     "item": "yukata_over",
+     "garments": [
+      "traditional"
+     ],
+     "weather": "",
+     "posture": "sit_lean",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "over_shoulder",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "",
+     "preset": "",
+     "expr": "laughing",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "cropped hem"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      2,
+      3
+     ],
+     "two": true,
+     "prev": [
+      2
+     ]
+    },
+    "costume": 1,
+    "low": [
+     "home",
+     "studio",
+     "spa",
+     "travel",
+     "work",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "lingerie_set",
+     "slip",
+     "traditional"
+    ],
+    "orient": [
+     "front_3q+over_shoulder"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
