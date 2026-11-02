@@ -1,0 +1,216 @@
+{
+ "light": {
+  "accepted": true,
+  "observations": "검정 긴 레이어드 머리·푸른 눈·넓은 하관. 검정·파랑의 얇은 어깨·팔·허리·정강이 장갑, 양팔을 내려 편 전신. 양손 장갑과 두 다리 연결이 정상이다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "검정 긴 레이어드 머리·푸른 눈·넓은 하관. 검정·파랑의 얇은 어깨·팔·허리·정강이 장갑, 양팔을 내려 편 전신. 양손 장갑과 두 다리 연결이 정상이다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "f1e1e3659079b9d0a9b6f1c4bfa514a90bf6df7fae9499053d6aaa5307ed6d8f"
+ },
+ "heavy": {
+  "accepted": true,
+  "observations": "기준 얼굴·머리를 유지한 겹판 중장갑. 얼굴 열린 머리 장식, 겹친 어깨·허벅지·정강이 판이 경장과 구별된다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "기준 얼굴·머리를 유지한 겹판 중장갑. 얼굴 열린 머리 장식, 겹친 어깨·허벅지·정강이 판이 경장과 구별된다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "59b2ce8ca579c8aa60fb5cd4d1f4c01cfd12371be5742537478ff5a6e0f5aeb5"
+ },
+ "mobility": {
+  "accepted": true,
+  "observations": "같은 얼굴·헤어. 어깨·허리·정강이 패널이 뒤로 펼쳐지고 소형 청색 추진기가 보이며 양손·양발이 화면 안에 있다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "같은 얼굴·헤어. 어깨·허리·정강이 패널이 뒤로 펼쳐지고 소형 청색 추진기가 보이며 양손·양발이 화면 안에 있다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "f20385226e6de1b1af64ce0cc3ae5c0f662fd80453a1aefbb0341f70d0851c96"
+ },
+ "light_overdrive": {
+  "accepted": true,
+  "observations": "경장과 카메라·팔다리 위치가 같고 판 이음새에 자주색 빛과 내부 틈이 드러난다. 장갑을 추가하거나 인물을 교체하지 않았다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "경장과 카메라·팔다리 위치가 같고 판 이음새에 자주색 빛과 내부 틈이 드러난다. 장갑을 추가하거나 인물을 교체하지 않았다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "65acd473e6b587bacd465689a30486f478e53f6fa0101c917157e7cc42ada5d1"
+ },
+ "heavy_overdrive": {
+  "accepted": true,
+  "observations": "중장과 같은 자세·구도를 유지하며 겹친 판이 들려 자주빛 내부를 드러낸다. 손·팔 위치를 유지한다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "중장과 같은 자세·구도를 유지하며 겹친 판이 들려 자주빛 내부를 드러낸다. 손·팔 위치를 유지한다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "a42b9375b6da3ff97506e1c98b77c0fc0eea938b8a7d38fdba4741074daa2b31"
+ },
+ "mobility_overdrive": {
+  "accepted": true,
+  "observations": "고기동과 같은 자세·구도를 유지한 채 펼쳐진 판 내부의 틈과 추진기가 자주색으로 빛난다.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "고기동과 같은 자세·구도를 유지한 채 펼쳐진 판 내부의 틈과 추진기가 자주색으로 빛난다."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "49deeca983f03b07e35bc62541b893786783241702827ea50fd5646ff2cab352"
+ },
+ "casual1": {
+  "accepted": true,
+  "observations": "비 젖은 골목에서 한 손을 카메라로 내밀고 반대 손은 가슴 위에 둠. 검정·파랑 바디수트 코스튬, 복부·허벅지 노출. 원근 손 다섯 손가락, 가슴 위 손은 네 손가락과 일부 가려진 엄지. 양 손목이 각 팔에 이어짐. 장갑과 원작 장식이 코스튬으로 남음.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "비 젖은 골목에서 한 손을 카메라로 내밀고 반대 손은 가슴 위에 둠. 검정·파랑 바디수트 코스튬, 복부·허벅지 노출. 원근 손 다섯 손가락, 가슴 위 손은 네 손가락과 일부 가려진 엄지. 양 손목이 각 팔에 이어짐. 장갑과 원작 장식이 코스튬으로 남음."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "0f267adca458bfaef5d2cb1a1ea40292e770d1a7bcf641e5140c855954563ad8"
+ },
+ "casual2": {
+  "accepted": true,
+  "observations": "보드게임 상자와 체스판이 있는 라운지를 걷는 전신. 아이보리 베이비돌 슬립의 짧은 자락과 허벅지 슬릿·열린 등이 보임. 한 손은 상자를 몸 앞에 받치고 반대 손은 아래로 내려 양팔이 자연스럽게 연결됨. 계획 환경 중심보다 인물이 크게 나옴.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "보드게임 상자와 체스판이 있는 라운지를 걷는 전신. 아이보리 베이비돌 슬립의 짧은 자락과 허벅지 슬릿·열린 등이 보임. 한 손은 상자를 몸 앞에 받치고 반대 손은 아래로 내려 양팔이 자연스럽게 연결됨. 계획 환경 중심보다 인물이 크게 나옴."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "00c2b61d7310712b8b4989567266d77336e2ee48df9a677ca148b27c2c448ed5"
+ },
+ "casual3": {
+  "accepted": true,
+  "observations": "실과 마네킹이 보이는 수선실에서 얼굴 근접. 볼에 한 손을 대고 손목·팔꿈치가 몸 앞으로 이어짐. 반대 팔과 하체는 프레임 밖. 탱크와 오버롤 끈·허리 일부가 보임.",
+  "identity": {
+   "match": true,
+   "evidence": "긴 검정 머리·푸른 눈과 넓은 턱의 비율 유지"
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "보이는 손의 다섯 손가락·엄지 방향·양팔 연결을 원본과 확대에서 확인. 소품·손 겹침·프레임 밖 부분은 가려짐으로 기록.",
+   "overlay_checked": false,
+   "note": "실과 마네킹이 보이는 수선실에서 얼굴 근접. 볼에 한 손을 대고 손목·팔꿈치가 몸 앞으로 이어짐. 반대 팔과 하체는 프레임 밖. 탱크와 오버롤 끈·허리 일부가 보임."
+  },
+  "ratio": {
+   "match": true,
+   "evidence": "1024x1536"
+  },
+  "recognizable_logo": false,
+  "source_sha256": "9b9190114f7630296a6f3c998e66eee802a2b8e4c9f507988895f36af6a99c0d"
+ },
+ "diversity_comparison": {
+  "compared": [
+   "모노두",
+   "아이앤트",
+   "벌차이",
+   "워글",
+   "수리둥보"
+  ],
+  "actual_images": [
+   "/workspace/scratch/507318404a53/deino-review.jpg",
+   "/workspace/scratch/507318404a53/durant-review.jpg",
+   "/workspace/scratch/3065180195e3/comparison/compare.jpg"
+  ],
+  "evidence": "디헤드 골목에서 내민 손·바디수트, 라운지의 걷는 전신·베이비돌, 수선실 근접·탱크와 오버롤은 서로 다른 장소·의상·프레이밍이다. 비교 캐릭터의 오페라 난간·수영복, 시장 후드 코스튬·맞잡은 손, 베이커리 검지·근접, 옥상 크롭 의상·잔, 오페라 의자·부채, 하맘 수건 동작과 조합이 다르다.",
+  "automated_check": "/workspace/scratch/78843e1099a3/zweilous/casual1-original.png — 가까운 컷 0장(점수 245 미만)\n     296  액슨도_glossy_promo_f_casual2.webp\n     302  어지리더_glossy_promo_f_casual1.webp\n     304  벌차이_glossy_promo_f_casual1.webp\n/workspace/scratch/78843e1099a3/zweilous/casual2-original.png — 가까운 컷 0장(점수 245 미만)\n     249  파이리_mecha_cinematic_keyart_f_casual3.webp\n     273  데스니칸_glossy_promo_f_casual1.webp\n     278  래비풋_glossy_promo_f_casual3.webp\n/workspace/scratch/78843e1099a3/zweilous/casual3-original.png — 가까운 컷 0장(점수 245 미만)\n     252  아머까오_glossy_promo_f_casual2.webp\n     273  쌍검킬_glossy_promo_f_casual2.webp\n     288  쪼마리_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+ }
+}

@@ -1,0 +1,283 @@
+{
+ "version": 1,
+ "card": "디헤드",
+ "no": 634,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/78843e1099a3/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The rain-slick alley walls reflect violet evening window light.",
+   "outfit": "An adult Zweilous costume bodysuit with a one-shoulder neckline, a short cropped side panel exposing the waist, opaque intimate coverage, and sheer thigh-high tights; blue and black wing-shaped costume trims.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 구체적 빛·시간·배경 재료를 보충한다: The rain-slick alley walls reflect violet evening window light.",
+    "outfit": "코스튬의 한쪽 어깨와 짧은 옆패널로 계획의 노출을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_alley / pokemon_costume / pc_bodysuit / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_alley",
+      "ko": "골목",
+      "en": "a narrow city alley with hanging signboards and wet pavement"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "reach · chest_hand"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "cropped hem",
+     "one-shoulder cut"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "Walking between the low tables, warm pendant light falls across an open chessboard.",
+   "outfit": "An opaque ivory babydoll slip with narrow straps, an empire waist, a softly flared short hem, an open back and a high thigh slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 구체적 빛·시간·배경 재료를 보충한다: Walking between the low tables, warm pendant light falls across an open chessboard.",
+    "outfit": "선택된 베이비돌 실루엣에 등과 허벅지 노출을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / boardgame_lounge / lingerie / babydoll / walk / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "boardgame_lounge",
+      "ko": "보드게임 라운지",
+      "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "babydoll",
+      "ko": "베이비돌",
+      "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "high thigh slit",
+     "open back"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Afternoon light passes through a 2010-era sewing room window onto spools of thread.",
+   "outfit": "A fitted tank with side cutouts revealing the midriff, worn with short work overalls whose bib sits low at the waist.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 구체적 빛·시간·배경 재료를 보충한다: Afternoon light passes through a 2010-era sewing room window onto spools of thread.",
+    "outfit": "수선실 직업복을 탱크와 짧은 오버롤로 정하고 옆구리와 복부를 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / tailor_room / work / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "tailor_room",
+      "ko": "의상 수선실",
+      "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "overalls",
+     "tank"
+    ],
+    "expose": [
+     "bare midriff",
+     "side cutouts"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}
