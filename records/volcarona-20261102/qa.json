@@ -1,0 +1,250 @@
+{
+ "card": "불카모스",
+ "accepted": true,
+ "images": [
+  {
+   "slot": "light",
+   "file": "불카모스_light_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [],
+   "original_sha256": "45cf2a0c5da156d485cfb4b7e8d0d17d0c30b846b91ea376ffdd6ad425cf3319",
+   "webp_sha256": "45e44914073dfaebad0863dae83ef6f77abce70849b73ea800eaad50281bf6a3",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "긴 흰 머리의 가는 땋은 머리 묶음·좁고 또렷한 턱·아몬드 눈매. 검정점이 있는 붉은 여섯 갈래 망토. locs 지정에 비해 풀린 머릿결 비중이 많아 기록.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "both gloved hands present; five-digit structure, some overlap from loose curl",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  },
+  {
+   "slot": "heavy",
+   "file": "불카모스_heavy_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "24932c630391cce33080e8367f33381979a349252e41b66182f92743087ca161",
+   "webp_sha256": "1befec74867a8b7e188b7b9829da868420c59978843989778d3627801c929ffc",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "기준 인물 유지. 머리 양옆 장식과 겹판·넓은 어깨·다리 장갑이 더해져 중장 실루엣.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "both gloved hands present; five-digit structure, some overlap from loose curl",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  },
+  {
+   "slot": "mobility",
+   "file": "불카모스_mobility_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "3cee811028140c1944c8586779ba50f0890a9ba20911f5517e0984111b09064b",
+   "webp_sha256": "cdaa220ec3adbc48a0ad5b0c4390e8ca6109225048b39231ed102477d3bc9d4d",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "기준 인물 유지. 어깨·허리·종아리 분할 판과 작은 추진기, 공기 틈이 있는 실루엣.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "both gloved hands present; five-digit structure, some overlap from loose curl",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  },
+  {
+   "slot": "light_overdrive",
+   "file": "불카모스_light_overdrive_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "e26740218130cb524d4a75bb09654ba164fd89f483896b5e28d2351fdbd79dcd",
+   "webp_sha256": "0561bfb240a9126d818e2e5879b702bb675187262d1fed0ba31ded0be83243da",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "닫힌 경장의 카메라·인물 위치 유지. 판 틈과 날개형 망토 사이로 연두빛 내부 프레임 노출. 눈에 연두 반사가 조금 강함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "both gloved hands present; five-digit structure, some overlap from loose curl",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  },
+  {
+   "slot": "heavy_overdrive",
+   "file": "불카모스_heavy_overdrive_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [
+    "heavy",
+    "light"
+   ],
+   "original_sha256": "456b18d20b1513f91169973b6b1dab646877b44489b0bf69d714b6a393210379",
+   "webp_sha256": "90fce5e534576766d6d2012d021e3bb16a7f84f4015af8c0ce9a90c79b775799",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "닫힌 중장과 구도 유지. 겹판이 열리고 연두빛 노출. 새 무기 없음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "both gloved hands present; five-digit structure, some overlap from loose curl",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  },
+  {
+   "slot": "mobility_overdrive",
+   "file": "불카모스_mobility_overdrive_glossy_promo_f.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [
+    "mobility",
+    "light"
+   ],
+   "original_sha256": "a28e081354f5a3358165e243e1c2d8e0f94ce109e6011a183ca4ed9d520f9f4a",
+   "webp_sha256": "9aa0466358aaa08c684847375dc688e0dc86f8aefae9b8c2043c8c77ccb7ce19",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "닫힌 고기동과 구도 유지. 분할 판이 펼쳐지고 추진기·안쪽 프레임에 연두빛. 장식 끝 일부 프레임 걸침.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "both gloved hands present; five-digit structure, some overlap from loose curl",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  },
+  {
+   "slot": "casual1",
+   "file": "불카모스_glossy_promo_f_casual1.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "99a40362048c2e3619f485942833dae3774885a300b7d47f7910c4bd251f56e2",
+   "webp_sha256": "41c6747046c0751b0a87f267ce595c32511d3cd7cb1725aef69034fdd3e421eb",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "빨래방에서 물색 수영복·연보라 유카타. 오른손 카메라 그립, 왼손 렌즈 아래. 두 팔이 어깨·팔꿈치·손목으로 이어짐. 손가락 일부는 카메라에 가려짐. 기기 가짜 작은 글자는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "right fingers wrap camera grip, thumb partly hidden; left fingers support lens, some occlusion",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  },
+  {
+   "slot": "casual2",
+   "file": "불카모스_glossy_promo_f_casual2.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "23d1b66f85b03f1365d329ab227f04193f7eea6dd426af9fb6f50f8f6173b91d",
+   "webp_sha256": "70d6b593e2b7e3cbb93bb2aa07ff5aa3e596cd54b8bdae2e5cd916a24358bc8b",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "샴페인색 슬립·짧은 카디건으로 런웨이에 다리를 접어 앉음. 오른손 무릎·왼손 바닥. 두 손 각각 다섯 손가락 확인. 와이드 선택보다 인물이 크게 나옴.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "both hands have five visible digits with natural thumb placement",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  },
+  {
+   "slot": "casual3",
+   "file": "불카모스_glossy_promo_f_casual3.webp",
+   "style": "glossy_promo",
+   "gender": "f",
+   "basis": "tools/prompt-pack.cjs built-in imagegen submission",
+   "reference_slots": [
+    "light"
+   ],
+   "original_sha256": "4c16077cb54f4ba806ae2fbe965fafd73308a6b5002941c6ee514ec9cb5a67a0",
+   "webp_sha256": "051c762fae5585d109ef07c1d57ffa746d1fa79f45b2d6d252b73465a987858b",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "accepted": true,
+   "visual_note": "현관에서 검정점의 주황·붉은 투피스 코스튬을 입고 쪼그려 앉아 휴대폰을 듦. 오른손 휴대폰·왼손 무릎, 두 팔·두 다리와 발 연결 자연스러움. 손가락 일부는 휴대폰에 가려짐. 거울은 같은 인물의 반사.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "right fingers grip phone with thumb partly hidden; left five digits rest on knee",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 확인: 추가·분리된 팔 또는 손 없음. 가려진 손가락은 추정으로 세지 않음."
+   }
+  }
+ ],
+ "diversity": "물색 수영복과 유카타·카메라 든 서기 / 샴페인 슬립의 바닥 앉기·옆얼굴 / 붉은 포켓몬 코스튬의 쪼그리기·정면이 구분됨. 비교 대상 디헤드·모노두·아이앤트 및 활화르바와 자세·의상·구도가 구분됨."
+}

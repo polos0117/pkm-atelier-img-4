@@ -1,0 +1,293 @@
+{
+ "version": 1,
+ "card": "불카모스",
+ "no": 637,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/e49588fc01c0/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A compact mirrorless camera has a plain dark grip; the washer portholes behind it reflect lavender ceiling light.",
+   "outfit": "A fully lined aqua swimsuit is worn beneath a lightweight cropped yukata, open at the front with high side slits, revealing the collarbones and upper thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "사진 촬영 소품의 종류와 빨래방의 조명을 보충한다.",
+    "outfit": "수영복 위 유카타를 짧고 열린 구조로 유지해 계획의 슬릿과 짧은 기장을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_laundromat / swimwear / yukata_over / stand / three_quarter / camera_shoot",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_laundromat",
+      "ko": "빨래방",
+      "en": "a coin laundromat late at night, rows of round machine doors"
+     },
+     "role": null,
+     "use": {
+      "key": "camera_shoot",
+      "ko": "사진을 찍는다",
+      "en": "raises a camera to her eye to take a photo",
+      "prop": "카메라"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "yukata_over",
+      "ko": "수영복 위 유카타",
+      "en": "swimwear with a light yukata worn open over it"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "high thigh slit",
+     "cropped hem"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "The raised runway is matte white, with small spotlights fading into a dark auditorium.",
+   "outfit": "A 1990s minimal champagne satin slip dress has an asymmetric halter strap on one shoulder and a short hem; a tiny cropped cardigan hangs open from her upper arms, leaving shoulders and legs visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "런웨이의 바닥 재질과 배경 조명 깊이를 보충한다.",
+    "outfit": "90년대 슬립과 짧은 카디건을 유지하면서 비대칭 홀터·한쪽 어깨의 드러내기를 넣는다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_runway / retro / nineties_slip / sit_floor / environmental",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_runway",
+      "ko": "런웨이",
+      "en": "a fashion runway under white spotlights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "nineties_slip",
+      "ko": "90년대 미니멀 슬립",
+      "en": "a 1990s minimal satin slip dress under a small cropped cardigan"
+     },
+     "posture": {
+      "key": "sit_floor",
+      "ko": "바닥에 앉기",
+      "en": "sitting on the ground"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "lap · floor_brace"
+    },
+    "garments": [
+     "cardigan",
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "A smartphone with a pearl-grey case glows softly; house keys and a folded scarf lie on the shoe bench.",
+   "outfit": "An adult Volcarona costume combines a cropped top with side cutouts and a secure lined mini skirt, leaving the midriff and thighs visible; orange-red wing-shaped fabric panels and black dots belong to the clothing.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "확정된 스마트폰 동작에 맞는 휴대폰과 현관 소품만 더한다.",
+    "outfit": "불카모스 크롭 투피스형의 미니 기장·옆구리 컷아웃을 명시하고 종의 무늬는 옷에 남긴다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / home_entry / pokemon_costume / pc_crop_set / squat / full_body / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_entry",
+      "ko": "현관",
+      "en": "the entryway of her home with a shoe bench, coat hooks and a long mirror"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "mini length",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

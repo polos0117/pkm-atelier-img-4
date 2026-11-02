@@ -1,0 +1,126 @@
+{
+ "card": "불카모스",
+ "slots": {
+  "light": {
+   "file": "img/불카모스_light_glossy_promo_f.webp",
+   "original_sha256": "45cf2a0c5da156d485cfb4b7e8d0d17d0c30b846b91ea376ffdd6ad425cf3319",
+   "webp_sha256": "45e44914073dfaebad0863dae83ef6f77abce70849b73ea800eaad50281bf6a3",
+   "reference_slots": []
+  },
+  "heavy": {
+   "file": "img/불카모스_heavy_glossy_promo_f.webp",
+   "original_sha256": "24932c630391cce33080e8367f33381979a349252e41b66182f92743087ca161",
+   "webp_sha256": "1befec74867a8b7e188b7b9829da868420c59978843989778d3627801c929ffc",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "mobility": {
+   "file": "img/불카모스_mobility_glossy_promo_f.webp",
+   "original_sha256": "3cee811028140c1944c8586779ba50f0890a9ba20911f5517e0984111b09064b",
+   "webp_sha256": "cdaa220ec3adbc48a0ad5b0c4390e8ca6109225048b39231ed102477d3bc9d4d",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "light_overdrive": {
+   "file": "img/불카모스_light_overdrive_glossy_promo_f.webp",
+   "original_sha256": "e26740218130cb524d4a75bb09654ba164fd89f483896b5e28d2351fdbd79dcd",
+   "webp_sha256": "0561bfb240a9126d818e2e5879b702bb675187262d1fed0ba31ded0be83243da",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "heavy_overdrive": {
+   "file": "img/불카모스_heavy_overdrive_glossy_promo_f.webp",
+   "original_sha256": "456b18d20b1513f91169973b6b1dab646877b44489b0bf69d714b6a393210379",
+   "webp_sha256": "90fce5e534576766d6d2012d021e3bb16a7f84f4015af8c0ce9a90c79b775799",
+   "reference_slots": [
+    "heavy",
+    "light"
+   ]
+  },
+  "mobility_overdrive": {
+   "file": "img/불카모스_mobility_overdrive_glossy_promo_f.webp",
+   "original_sha256": "a28e081354f5a3358165e243e1c2d8e0f94ce109e6011a183ca4ed9d520f9f4a",
+   "webp_sha256": "9aa0466358aaa08c684847375dc688e0dc86f8aefae9b8c2043c8c77ccb7ce19",
+   "reference_slots": [
+    "mobility",
+    "light"
+   ]
+  },
+  "casual1": {
+   "file": "img/불카모스_glossy_promo_f_casual1.webp",
+   "original_sha256": "99a40362048c2e3619f485942833dae3774885a300b7d47f7910c4bd251f56e2",
+   "webp_sha256": "41c6747046c0751b0a87f267ce595c32511d3cd7cb1725aef69034fdd3e421eb",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "casual2": {
+   "file": "img/불카모스_glossy_promo_f_casual2.webp",
+   "original_sha256": "23d1b66f85b03f1365d329ab227f04193f7eea6dd426af9fb6f50f8f6173b91d",
+   "webp_sha256": "70d6b593e2b7e3cbb93bb2aa07ff5aa3e596cd54b8bdae2e5cd916a24358bc8b",
+   "reference_slots": [
+    "light"
+   ]
+  },
+  "casual3": {
+   "file": "img/불카모스_glossy_promo_f_casual3.webp",
+   "original_sha256": "4c16077cb54f4ba806ae2fbe965fafd73308a6b5002941c6ee514ec9cb5a67a0",
+   "webp_sha256": "051c762fae5585d109ef07c1d57ffa746d1fa79f45b2d6d252b73465a987858b",
+   "reference_slots": [
+    "light"
+   ]
+  }
+ },
+ "published": false,
+ "canonical": "light",
+ "face_design": {
+  "name": "불카모스",
+  "en": "Volcarona",
+  "line": "활화르바",
+  "how": "draft",
+  "registered": false,
+  "face": {
+   "face shape": "angular",
+   "face length": "balanced",
+   "face width": "medium",
+   "jaw & chin": "angular defined jaw",
+   "eye shape": "almond",
+   "eye size": "medium",
+   "eye tilt": "upturned outer corners",
+   "eye spacing": "average eye spacing",
+   "eyebrows": "angled brows",
+   "nose character": "small delicate nose",
+   "lips": "straight even lips"
+  },
+  "why": "",
+  "cues": [
+   "‘red horn-like structure’ → 얼굴형 각지고 선명한 얼굴형",
+   "‘red horn-like structure’ → 턱선 · 턱끝 각지고 또렷한 턱",
+   "‘red horn-like structure’ → 눈꼬리 각도 올라간 눈꼬리",
+   "‘red horn-like structure’ → 눈썹 바깥에서 꺾이는 사선",
+   "‘red horn-like structure’ → 입술 굴곡 없이 곧은"
+  ],
+  "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈꼬리 각도 수평 → 올라간 눈꼬리, 입술 윗입술이 활 모양인 → 굴곡 없이 곧은 [머리] 진화 계열의 머리 잇기 규칙에 맞추려고 층을 살린 레이어드 → 로크스 / 드레드풍",
+  "hair": {
+   "hairstyle": "locs",
+   "hair length": "long",
+   "bangs": "parted bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "‘red horn-like structure’·키 1.6m에서 로크스 / 드레드풍(웨이브·곱슬) · 긴 머리 · 가운데를 가른 앞머리 — 활화르바에서 이어 같은 묶음",
+  "hair_cues": [
+   "키 1.6m → 머리 길이 긴 머리",
+   "‘red horn-like structure’ → 앞머리 가운데를 가른 앞머리"
+  ]
+ },
+ "face_reference_comparison": [
+  "활화르바",
+  "디헤드",
+  "모노두",
+  "아이앤트"
+ ],
+ "face_observation": "활화르바의 중간 길이 곱슬과 넓은 턱에 비해 긴 머리·좁은 턱·작은 코로 구분. 기준 경장이 후속의 정본."
+}
