@@ -1,0 +1,140 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generator": "built-in image_gen",
+  "face_basis": [
+    "data/face-design.json:626",
+    "data/source-appearance.json:626"
+  ],
+  "face_reason": "큰 머리털·소 모티프를 넓은 얼굴·묵직한 턱·굵고 낮은 눈썹·긴 층진 머리로 해석. 수리둥보의 짧은 페더컷·좁은 코와 구별.",
+  "anchor": {
+    "path": "/workspace/scratch/50d1607986af/generated_images/exec-17d4b12d-e094-4d45-8d3f-7194531bbed5.png",
+    "sha256": "ac84adf2e937da4d3044ccb53876e87984508edbb2fa225eba89fd977dab16a1"
+  },
+  "compared_characters": [
+    "자망칼",
+    "절각참",
+    "골루그",
+    "수리둥보"
+  ],
+  "diversity_comparison": "자망칼의 V 사인 코르셋·천문대 레이스·음향데스크 점프수트, 절각참의 열매시장 공·기타 보디수트·성도 읽기, 골루그의 기모노·작업대·입술 사인 실제 그림과 비교. 이번 엄지 비키니 상체·콘솔 드레스 전신·승강장 머리 넘기기 옆얼굴은 장소·활동·의상·구도 조합이 구분됨.",
+  "images": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "ac84adf2e937da4d3044ccb53876e87984508edbb2fa225eba89fd977dab16a1",
+      "observations": "갈색 긴 레이어드 머리·넓은 턱·낮은 눈썹, 금색 고리 달린 뿔 장식·갈기 칼라, 검정 슈트와 베이지 판. 양팔·양다리가 자연스러운 관절에 이어지고 양손은 느슨한 주먹. 뿔 끝·머리카락 일부 테두리 근처.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락이 자연스럽게 굽혀진 장갑 주먹. 접힌 끝마디는 일부 가려짐, 손목·아래팔·어깨 연결 정상. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "a110da86bad553f8a095a4b82b2e478f17724a58d13cc4a238b15f5cb6acbb74",
+      "observations": "경장의 얼굴·카메라·크기·양팔·발 위치 그대로, 어깨·골반·정강이 판이 들리고 금색 내부 빛. 새 무기 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락이 자연스럽게 굽혀진 장갑 주먹. 접힌 끝마디는 일부 가려짐, 손목·아래팔·어깨 연결 정상. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "bed8b041ba0d5f26bedbf671c7dc086012f60d10d9bbfed39cff853209780613",
+      "observations": "같은 인물과 배경, 어깨·팔·골반·허벅지·정강이의 큰 베이지 판을 겹침. 얼굴 개방형 머리 가드. 몸 크기는 경장과 같음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락이 자연스럽게 굽혀진 장갑 주먹. 접힌 끝마디는 일부 가려짐, 손목·아래팔·어깨 연결 정상. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "9f2ee6a845c0dd636a9db29b8861850ccf189c12fbb3bdbab80d6e4e1aad7f25",
+      "observations": "달·수정 별 무대에 산호색 크로셰 비키니. 오른손 엄지 올림·왼손 골반, 정면 허리 위 구도와 아련한 눈썹. 양팔이 어깨에서 각 손까지 이어짐.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 엄지 하나를 올리고 네 손가락을 접음. 왼손 골반 위에 네 긴 손가락과 안쪽 엄지, 양손 다섯 손가락 구조 확인.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "76d9f401009183996cd0a55bc8f62adb1d24b39853a1ad81ee39d031069173d9",
+      "observations": "도시 야경 창벽 앞 대리석 콘솔에 양손을 짚음. 갈색 미니 드레스 코스튬은 높은 양옆 트임과 목 스트랩·뿔·갈기 칼라. 계획보다 카메라를 많이 돌아봄. 양팔 두 개가 각각 몸 앞쪽으로 연결됨.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "콘솔 위 양손 각각 다섯 손가락 구조. 먼 손 엄지는 손바닥 아래에 일부 가려짐. 두 손목이 각각 팔에 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "e7780c00e89140439192bda76e5a18f970e6c0be4c25f5c26c4602e3dd8d23e8",
+      "observations": "비행 승강장 하네스와 풍향계 앞, 자주색 스트랩리스 드레스와 낮게 걸친 짧은 코트. 옆얼굴에 오른손으로 머리를 넘김. 왼팔·하체는 클로즈업 밖, 과도한 뒤쪽 팔 꺾임 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 검지·중지의 끝이 머리카락에 닿고 나머지 손가락·엄지는 머리와 손바닥 각도에 일부 가려짐. 손목이 앞팔로 이어짐. 왼손은 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "9ab3776332ea9f92232626118b3e85da1d28bff5f2b8f820a1cb512d354ef50f",
+      "observations": "어깨·골반·종아리 판이 뒤와 바깥으로 갈라지며 작은 추진구가 보임. 같은 얼굴·머리와 길게 선 자세 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락이 자연스럽게 굽혀진 장갑 주먹. 접힌 끝마디는 일부 가려짐, 손목·아래팔·어깨 연결 정상. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "152702e0e82f7934f1b3f83eb479867cf12670c3a1e7dcbf16573896cd59d759",
+      "observations": "중장의 기존 겹판이 들려 내부 골격과 금색 빛. 같은 뿔·머리 가드·주먹과 양발 위치 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락이 자연스럽게 굽혀진 장갑 주먹. 접힌 끝마디는 일부 가려짐, 손목·아래팔·어깨 연결 정상. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "bc9c9afb1d3f20de4c13fff034051892de0bdc055fd3564a073981894f38f8b1",
+      "observations": "고기동의 갈라진 어깨·허리·종아리 판이 열린 상태. 원래 추진구와 금색 빛, 같은 카메라와 자세. 판 끝이 화면 가장자리에 가까움.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지와 네 손가락이 자연스럽게 굽혀진 장갑 주먹. 접힌 끝마디는 일부 가려짐, 손목·아래팔·어깨 연결 정상. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 전체와 양손 확대를 시각 검수. 클로즈업의 크롭 밖 팔다리는 관찰 불가로 구분."
+      }
+    }
+  }
+}

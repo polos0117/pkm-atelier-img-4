@@ -1,0 +1,145 @@
+{
+ "storage": {
+  "last": "버프론",
+  "cards": {
+   "버프론": {
+    "style": "glossy_promo",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "soft_smile",
+      "scene": "She pauses over a polished marble console with a small bowl of dried flowers.",
+      "outfit": "An adult Bouffalant costume cut as a fitted strapless brown mini dress, with a detachable halter strap, high thigh slit, fluffy rounded collar and small curved horn ornaments with gold rings.",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "action": {},
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "ofam": true,
+       "item": true,
+       "posture": true,
+       "support": true,
+       "frame": true,
+       "body": true,
+       "head": true,
+       "camera": true,
+       "legs": true,
+       "expr": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "evening_penthouse",
+      "ofam": "pokemon_costume",
+      "item": "pc_mini_dress",
+      "posture": "lean_counter",
+      "support": "none",
+      "frame": "environmental",
+      "body": "front_3q",
+      "head": "turn_side",
+      "camera": "high",
+      "legs": "stand_relaxed",
+      "use": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Bouffalant (버프론) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her wearing the costume chosen in SCENE — a daring adult costume version of her source creature, as worn to a costume party, convention or photo shoot. In this cut her species shows in the outfit itself: its recognisable colours, shapes and parts. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a penthouse window wall over the city at night\nOutfit: An adult Bouffalant costume cut as a fitted strapless brown mini dress, with a detachable halter strap, high thigh slit, fluffy rounded collar and small curved horn ornaments with gold rings.\nPOSTURE: standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet.\nCOMPOSITION: an environmental long shot, her complete figure and enough of the place around her; body turned three-quarters toward the camera; head turned to the side; camera slightly above, looking down at her.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nLEGS: weight even on both legs.\nEXPRESSION: faint upward pull at the mouth corners, lips together, warmth reaching the lower eyelids.\nScene note: She pauses over a polished marble console with a small bowl of dried flowers.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely into the costume SCENE describes. From the attached image take only her face, hair and body — not its armor, garment, jewelry, hair ornaments or background. The costume must read at first glance as that creature's look, rebuilt as a glamorous adult outfit; she is a real woman in a costume — never the creature itself, its face on her face, fur or scales on her skin, a logo or readable text.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "plan": {
+  "cut": 2,
+  "treeV": 2,
+  "era": "now",
+  "place": "evening_penthouse",
+  "ofam": "pokemon_costume",
+  "item": "pc_mini_dress",
+  "garments": [
+   "dress"
+  ],
+  "weather": "",
+  "posture": "lean_counter",
+  "support": "none",
+  "frame": "environmental",
+  "body": "front_3q",
+  "head": "turn_side",
+  "camera": "high",
+  "right": "",
+  "left": "",
+  "use": "",
+  "legs": "stand_relaxed",
+  "gaze": "",
+  "preset": "",
+  "expr": "soft_smile",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "balanced",
+   "source_influence": "balanced",
+   "separates_preference": "balanced"
+  },
+  "expose": [
+   "high thigh slit",
+   "halter neck"
+  ],
+  "lead": "action"
+ },
+ "manual_inputs": {
+  "scene": "She pauses over a polished marble console with a small bowl of dried flowers.",
+  "outfit": "An adult Bouffalant costume cut as a fitted strapless brown mini dress, with a detachable halter strap, high thigh slit, fluffy rounded collar and small curved horn ornaments with gold rings."
+ },
+ "manual_why": {
+  "scene": "action 첫머리로 작업대를 대리석 콘솔로 구체화",
+  "outfit": "미니 드레스 구조·허벅지 슬릿·할터를 유지하며 버프론 뿔·갈기·금색 고리 모티프를 코스튬에 반영"
+ }
+}
