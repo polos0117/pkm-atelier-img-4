@@ -1,0 +1,132 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generator": "built-in image_gen; exact prompt-pack text",
+  "face_reason": "원작의 날카로운 작은 눈·긴 부리·큰 갈기를 작은 올라간 눈, 곧은 가는 콧대와 긴 페더컷으로 해석. 둥근 얼굴의 수리둥보와 달리 길어진 타원 윤곽과 낮은 눈 높이, 도톰한 입술이 보임.",
+  "face_source": "data/face-design.json 628; data/source-appearance.json 628",
+  "compared_characters": [
+    "절각참",
+    "버프론",
+    "수리둥보"
+  ],
+  "diversity_comparison": "실제 비교 이미지: 절각참의 연주·야간 공연장·자색 의상, 버프론의 지구본·분홍 수영복·갈색 드레스, 수리둥보의 실내 바디수트·무대 운동복·동료 돌봄. 이번은 바닥 앉은 코스튬·정원 메이드 손인사·벽난로 가운 접사로 옷 실루엣·장소·동작·크롭 구분.",
+  "slots": {
+    "light": {
+      "image_sha256": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f",
+      "accepted": true,
+      "observations": "두 팔과 두 다리가 자연스럽게 연결됨. 붉은색·흰색 긴 페더컷, 작은 눈과 곧은 콧대. 양 손은 검은 장갑 속으로 느슨하게 말려 일부 손가락이 겹침. 발끝 포함.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "right/left correct; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "두 팔과 두 다리가 자연스럽게 연결됨. 붉은색·흰색 긴 페더컷, 작은 눈과 곧은 콧대. 양 손은 검은 장갑 속으로 느슨하게 말려 일부 손가락이 겹침. 발끝 포함."
+      }
+    },
+    "heavy": {
+      "image_sha256": "cde4a7503c6f7c0e138ddada3a3ea8a1e9d28a004167b237a3f0319eb01dd403",
+      "accepted": true,
+      "observations": "흉갑·골반·어깨·정강이의 적층 판과 열린 얼굴 헬멧. 몸 크기 유지, 양팔·양다리 연결, 손은 이완된 장갑 자세.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "right/left correct; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "흉갑·골반·어깨·정강이의 적층 판과 열린 얼굴 헬멧. 몸 크기 유지, 양팔·양다리 연결, 손은 이완된 장갑 자세."
+      }
+    },
+    "mobility": {
+      "image_sha256": "cb6af64a616e448b1981b83f9229940cf2f1cd3ec886356b58f104be7d0f971b",
+      "accepted": true,
+      "observations": "어깨·허리·종아리의 펼친 판과 파란 추력. 손가락을 효과가 덮지 않음. 양팔·양다리 연결.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "right/left correct; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "어깨·허리·종아리의 펼친 판과 파란 추력. 손가락을 효과가 덮지 않음. 양팔·양다리 연결."
+      }
+    },
+    "light_overdrive": {
+      "image_sha256": "d9a038aa100db3abcbddc5206407e6c907722cf58dda23d1e91d7c12341bac08",
+      "accepted": true,
+      "observations": "경장과 같은 산맥·머리 각도·서있는 자세·화각, 판 사이 황금빛과 내부 기구 노출. 손 자세 동일.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "right/left correct; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "경장과 같은 산맥·머리 각도·서있는 자세·화각, 판 사이 황금빛과 내부 기구 노출. 손 자세 동일."
+      }
+    },
+    "heavy_overdrive": {
+      "image_sha256": "0aa45651903efbc67fa7584e86320d72ef8c081f3be2cc163b31d22afd2dac96",
+      "accepted": true,
+      "observations": "중장과 같은 적층 실루엣·자세, 어깨·허리·정강이 판이 열려 내부가 보임. 새 무기 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "right/left correct; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "중장과 같은 적층 실루엣·자세, 어깨·허리·정강이 판이 열려 내부가 보임. 새 무기 없음."
+      }
+    },
+    "mobility_overdrive": {
+      "image_sha256": "16e41ef44c6df844e4378c096a11802255ef644047b49b9ea41fafc2d7fe658c",
+      "accepted": true,
+      "observations": "고기동과 동일한 자세와 패널 배치. 추력 덮개 열림과 금백색 발광. 두 손 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "right/left correct; curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "고기동과 동일한 자세와 패널 배치. 추력 덮개 열림과 금백색 발광. 두 손 유지."
+      }
+    },
+    "casual1": {
+      "image_sha256": "640211b6037f58a73702eeaba02593e5b8f4374855b51f58b9daccf76fe9767d",
+      "accepted": true,
+      "observations": "도서관 바닥, 자기 오른팔 팔꿈치가 올라간 무릎에 닿고 오른손은 턱, 왼손은 바닥에 연결됨. 손가락 일부 겹침·프레임 가림. 붉은 깃털 미니스커트와 크롭 상의.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": 2,
+        "legs": 2,
+        "hands": "partly occluded or outside crop",
+        "overlay_checked": false,
+        "note": "도서관 바닥, 자기 오른팔 팔꿈치가 올라간 무릎에 닿고 오른손은 턱, 왼손은 바닥에 연결됨. 손가락 일부 겹침·프레임 가림. 붉은 깃털 미니스커트와 크롭 상의."
+      }
+    },
+    "casual2": {
+      "image_sha256": "410f112f58de07b67d538a4c6e7f20b7da698cf5469706169a162eb1ffa56502",
+      "accepted": true,
+      "observations": "정원에서 오른손을 펴 손가락 다섯이 구분됨. 왼손은 쇄골 부근에서 손가락을 나란히 두고 팔목과 연결됨. 앞치마·오프숄더 보디스. 예정 chest_up보다 허리까지 넓어짐은 기록만.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": 2,
+        "legs": "outside crop",
+        "hands": "right five visible, left five aligned with partial overlap",
+        "overlay_checked": false,
+        "note": "정원에서 오른손을 펴 손가락 다섯이 구분됨. 왼손은 쇄골 부근에서 손가락을 나란히 두고 팔목과 연결됨. 앞치마·오프숄더 보디스. 예정 chest_up보다 허리까지 넓어짐은 기록만."
+      }
+    },
+    "casual3": {
+      "image_sha256": "263c3eae55fd772a0701d2732474e57d01ca2d4e4e1bb179c498adf541224ec3",
+      "accepted": true,
+      "observations": "숙소 벽난로와 살구색 가운, 흰 목욕랩과 은 깃털 펜던트. 두 손과 하체는 프레임 밖. 얼굴 접사보다 상반신이 넓게 담긴 차이는 기록만.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing; manual inspection at original size and hand crops",
+        "arms": "upper arms visible, forearms outside crop",
+        "legs": "outside crop",
+        "hands": "partly occluded or outside crop",
+        "overlay_checked": false,
+        "note": "숙소 벽난로와 살구색 가운, 흰 목욕랩과 은 깃털 펜던트. 두 손과 하체는 프레임 밖. 얼굴 접사보다 상반신이 넓게 담긴 차이는 기록만."
+      }
+    }
+  }
+}

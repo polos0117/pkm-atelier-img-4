@@ -1,0 +1,155 @@
+[
+  {
+    "slot": "light",
+    "file": "워글_light_glossy_promo_f.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f",
+    "sha256": "f3bcb4fc8bf01068704f180d590618c7fce8e779b8d3327db5e64a69977f91c9",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {}
+  },
+  {
+    "slot": "heavy",
+    "file": "워글_heavy_glossy_promo_f.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "cde4a7503c6f7c0e138ddada3a3ea8a1e9d28a004167b237a3f0319eb01dd403",
+    "sha256": "95365826df8d5f757efee42d8e10c93fabe8f7b53c34a11e0d70eef988af8f41",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f"
+    }
+  },
+  {
+    "slot": "mobility",
+    "file": "워글_mobility_glossy_promo_f.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "cb6af64a616e448b1981b83f9229940cf2f1cd3ec886356b58f104be7d0f971b",
+    "sha256": "a177b832de4322bfa41c1c37767b86db0f10fa0d849ac9ecf6aff85b31050d51",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f"
+    }
+  },
+  {
+    "slot": "light_overdrive",
+    "file": "워글_light_overdrive_glossy_promo_f.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "d9a038aa100db3abcbddc5206407e6c907722cf58dda23d1e91d7c12341bac08",
+    "sha256": "0c3b536f5169a4a90e13e38e8409d23277d29246b0af26e9bd181c2aaa6cfd82",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f"
+    }
+  },
+  {
+    "slot": "heavy_overdrive",
+    "file": "워글_heavy_overdrive_glossy_promo_f.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "0aa45651903efbc67fa7584e86320d72ef8c081f3be2cc163b31d22afd2dac96",
+    "sha256": "4fba75ea5468e05d071701720fe6d61bc44b0fe5ce5e2221effabd6eda01fb12",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "heavy": "cde4a7503c6f7c0e138ddada3a3ea8a1e9d28a004167b237a3f0319eb01dd403",
+      "light": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f"
+    }
+  },
+  {
+    "slot": "mobility_overdrive",
+    "file": "워글_mobility_overdrive_glossy_promo_f.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "16e41ef44c6df844e4378c096a11802255ef644047b49b9ea41fafc2d7fe658c",
+    "sha256": "5c00e74986a198ed774d2dae4633379c36510c3889b179b3531b8f3bc50dcd38",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "mobility": "cb6af64a616e448b1981b83f9229940cf2f1cd3ec886356b58f104be7d0f971b",
+      "light": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f"
+    }
+  },
+  {
+    "slot": "casual1",
+    "file": "워글_glossy_promo_f_casual1.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "640211b6037f58a73702eeaba02593e5b8f4374855b51f58b9daccf76fe9767d",
+    "sha256": "a9cf8c30880f602805fafa1d763a7c008543a17685620881c55422657b1beaec",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f"
+    }
+  },
+  {
+    "slot": "casual2",
+    "file": "워글_glossy_promo_f_casual2.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "410f112f58de07b67d538a4c6e7f20b7da698cf5469706169a162eb1ffa56502",
+    "sha256": "a6fd5c3ea7347f8d0c27b417e11d9010e4b6a298f0365ab70ff9e5724eb00beb",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f"
+    }
+  },
+  {
+    "slot": "casual3",
+    "file": "워글_glossy_promo_f_casual3.webp",
+    "card": "워글",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings; built-in image_gen",
+    "source_sha256": "263c3eae55fd772a0701d2732474e57d01ca2d4e4e1bb179c498adf541224ec3",
+    "sha256": "1deef3057ae19e6e7acc1d16a7cd5a8a836de41faf6c8768a5a6879c4b44b4dc",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "references": {
+      "light": "46db8cdeb6fbb5f384552f99e3d3a6306efe6ece1c74f783336b06b4c8da077f"
+    }
+  }
+]

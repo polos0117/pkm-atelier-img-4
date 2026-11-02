@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "card": "워글",
+  "no": 628,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/ecd06f6b3334/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "White eagle feather crest and red navy feather-shaped armor with yellow tail bands and golden talon-like boot guards.",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "She has paused beside a low reading shelf, with an open illustrated atlas nearby.",
+      "outfit": "An adult Braviary costume with a navy cropped top, short red feather-edged micro skirt and compact white feather collar with yellow accents.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "action 첫머리로 낮은 책장과 삽화 지도책 보충",
+        "outfit": "크롭 상의·미니 스커트 유지, cropped hem·mini length와 워글의 깃털 색 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / library_reading / pokemon_costume / pc_crop_set / sit_floor / three_quarter",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "library_reading",
+            "ko": "도서관 열람실",
+            "en": "a quiet library reading room with tall bookshelves, reading desks and big windows"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_crop_set",
+            "ko": "크롭 투피스형",
+            "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+          },
+          "posture": {
+            "key": "sit_floor",
+            "ko": "바닥에 앉기",
+            "en": "sitting on the ground"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "chin_knee · floor_brace"
+        },
+        "garments": [
+          "crop_top",
+          "skirt"
+        ],
+        "expose": [
+          "cropped hem",
+          "mini length"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual2": {
+      "scene": "Pearl-white lantern light filters through ivy-covered glass arches.",
+      "outfit": "A black-and-white event maid costume with a structured halter bodice, detached off-shoulder puffed sleeves and a full apron over a short skirt.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "light 첫머리로 흰 등불과 유리 아치 보충",
+        "outfit": "메이드 앞치마·보디스 유지, halter neck·off-shoulder neckline 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_forest / roleplay / adult_maid / stand / chest_up",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_forest",
+            "ko": "요정 숲 정원",
+            "en": "a misty enchanted garden of moss, ivy and lanterns"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "adult_maid",
+            "ko": "메이드 코스튬",
+            "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "wave · chest_hand"
+        },
+        "garments": [
+          "apron"
+        ],
+        "expose": [
+          "halter neck",
+          "off-shoulder neckline"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "A small silver feather pendant catches the warm firelight beside a ceramic saucer.",
+      "outfit": "A soft apricot bath robe wrapped securely over a strapless bathing wrap, with a low plunging neckline above the covered chest.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "detail 첫머리로 작은 깃털 펜던트와 받침접시 보충",
+        "outfit": "목욕 가운 유지, plunging neckline·strapless top과 가슴·엉덩이 가림 구현"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / pw_lodge / bath / sit_lean / face_close",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "pw_lodge",
+            "ko": "트레이너 숙소 휴게실",
+            "en": "a trainers' lodge lounge at night with a fireplace, a small bar counter and wooden tables"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "bath",
+            "ko": "목욕 차림",
+            "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "sit_lean",
+            "ko": "앉아 앞으로 기울이기",
+            "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "robe"
+        ],
+        "expose": [
+          "plunging neckline",
+          "strapless top"
+        ],
+        "lead": "detail"
+      }
+    }
+  }
+}
