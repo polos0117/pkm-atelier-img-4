@@ -1,0 +1,133 @@
+{
+  "card": "비리디온",
+  "request": "새 미형 경장을 기준으로 전체 9장 재생성",
+  "canonical": {
+    "source": "/workspace/scratch/728dc229de80/generated_images/exec-a6d92612-dd7b-4271-b8a8-5148fe9c7b9f.png",
+    "original_sha256": "bc3f0cb68bf710caf112ff82a621c04adae2691baed091866b13f3950d1cd3be",
+    "output": "img/비리디온_light_glossy_promo_f.webp",
+    "output_sha256": "be37136bb9ac21161f0ad9257eae6698c6162e8297debcec9040759207083901",
+    "previous_public_sha256": "4f990ef32276e4b385ca9a4b66c57a7e41ab480bc6ece40ab6bd4a626b9482fc",
+    "previous_blob_sha": "f384ee18dfcaed67be262aa03360802df6c61f53",
+    "reference_slot": null,
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  "generator_commit": "51990c50bb2ff6ec082c0890b40760fa811ae204",
+  "style_reference": "테라키온 경장은 신규 경장의 화풍·비율에만 사용; 후속 컷은 새 비리디온 경장을 참조",
+  "body_target": "approximately 7.5 heads; actual exact ratio is not asserted",
+  "anatomy_tool": "unavailable: mediapipe not installed; manually reviewed",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observation": "타원형의 균형 있는 턱·보통 눈 간격·수평 아몬드 눈매와 초록 포니테일. 두 팔과 두 다리가 몸통에 연결되고 손·발이 프레임 안에 있다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "be37136bb9ac21161f0ad9257eae6698c6162e8297debcec9040759207083901"
+    },
+    "heavy": {
+      "accepted": true,
+      "observation": "새 경장의 얼굴과 머리·골격 크기는 유지하고 어깨·흉부·허리·허벅지·정강이 판이 이중으로 넓어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "44c06899997e7382014bdb1a034c9d4ff3bc67bc136d315abc2e5c7506ccfca6"
+    },
+    "mobility": {
+      "accepted": true,
+      "observation": "경장의 얼굴을 유지하며 어깨·허리·종아리의 잎 패널이 뒤로 벌어지고 작은 추진기가 보인다. 양팔과 양다리가 서로 분리된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "b39b451d3a27199ada680a0ccf35233635ce1d2f18dd7d3978575643ebd7d70a"
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observation": "경장의 카메라·서 있는 자세·손·발 위치를 유지하고 얇은 판이 들려 녹색 내부 프레임이 드러난다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "294ed85ce74000f1709538426a8c50b1142bbf4d548e6b85fb6b6e42c5fe6551"
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observation": "중장의 겹친 외판이 힌지로 벌어지며 같은 얼굴·머리·체형과 손·발 위치가 유지된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "307c98174a635c4656132cebb37bcb96439dc7e29c6d6d506e6c17b40dd470b5"
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "observation": "고기동의 패널 사이 공극과 추진기 빛이 커진다. 닫힌 폼의 구도와 인물 크기·손·발 위치가 이어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "18616bc54a6e943858f7a2eb1e6b541561f5dffd869a5307b98f9657494c3cf6"
+    },
+    "casual1": {
+      "accepted": true,
+      "observation": "대회 무대에서 몸을 옆으로 돌려 마이크를 입가에 들고 어깨 너머로 본다. 초록 레이스업 코르셋과 원작 장식이 있는 코스튬. 오른손의 일부 손가락은 마이크에 겹치고 왼손은 크롭 밖이다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "930c5edfb31958f475c26abd61ddcbbec7882bbd86af1b8b62b315632348ba42"
+    },
+    "casual2": {
+      "accepted": true,
+      "observation": "눈 덮인 산장 온천 테라스에서 버건디 랩 수영복을 입고 걷는다. 오른손은 가방끈을 잡고 왼손은 자연스럽게 내려가며 손·발가락이 구분된다. 얼굴은 새 경장의 짧고 균형 있는 윤곽을 유지한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "3969d383d62a3218046c8bc2f50e7066550716b8d65cab5fd070f9774682eda9"
+    },
+    "casual3": {
+      "accepted": true,
+      "observation": "그늘 잔디와 피크닉 담요 앞에서 사철록 한 마리에게 오른손으로 열매를 내민다. 눈썹은 안으로 내려가고 열매를 바라본다. 왼팔은 몸 뒤쪽에 가려져 손이 직접 보이지 않음을 기록한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; manually reviewed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 손목을 통해 연결됨. 주먹·물체·크롭에 가려진 손가락 수는 추정으로 채우지 않음.",
+        "overlay_checked": false
+      },
+      "output_sha256": "77663f7df01300c2ccc74ca617ccfd0f4030a88ecdaf6d111bfc977ebb493859"
+    }
+  },
+  "look_check": "/workspace/scratch/728dc229de80/beauty-img/img/비리디온_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     332  파라스_glossy_promo_f_casual1.webp\n     344  더스트나_glossy_promo_f_casual2.webp\n     344  덩쿠림보_glossy_promo_f_casual1.webp\n/workspace/scratch/728dc229de80/beauty-img/img/비리디온_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     280  야도킹_glossy_promo_f_casual3.webp\n     286  파르빗_glossy_promo_f_casual3.webp\n     291  레돔벌레_glossy_promo_f_casual3.webp\n/workspace/scratch/728dc229de80/beauty-img/img/비리디온_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     257  아노딥스_glossy_promo_f_casual3.webp\n     263  불켜미_glossy_promo_f_casual1.webp\n     278  왕눈해_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n",
+  "accepted": true
+}
