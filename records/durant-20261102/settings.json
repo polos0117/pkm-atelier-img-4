@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "card": "아이앤트",
+  "no": 632,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/507318404a53/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {
+        "apparent age": "20s"
+      },
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "The glass catches tiny reflections from the rooftop fairy lights.",
+      "outfit": "A Durant-inspired adult costume cropped top with a one-shoulder neckline and a micro skirt, exposing her midriff; silver metal-like fabric, segmented plates and red accents are costume details.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 장소·활동을 유지하고 이 컷의 소품·시간대만 구체화함: The glass catches tiny reflections from the rooftop fairy lights.",
+        "outfit": "고른 옷 종류를 유지하며 계획의 드러내기 두 항목을 옷 구조로 반영함: A Durant-inspired adult costume cropped top with a one-shoulder neckline and a micro skirt, exposing her midriff; silver metal-like fabric, segmented plates and red accents are costume details."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_rooftop / pokemon_costume / pc_crop_set / walk / full_body / cup_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_rooftop",
+            "ko": "옥상 파티",
+            "en": "a city rooftop party under string lights"
+          },
+          "role": null,
+          "use": {
+            "key": "cup_hold",
+            "ko": "잔을 든다",
+            "en": "holds a cup at chest height",
+            "prop": "잔·컵"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_crop_set",
+            "ko": "크롭 투피스형",
+            "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "crop_top",
+          "skirt"
+        ],
+        "expose": [
+          "bare midriff",
+          "one-shoulder cut"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual2": {
+      "scene": "She opens an ivory folding fan before the evening costume reception.",
+      "outfit": "A stylised uniform-inspired event costume with crisp lapels and decorative epaulettes, off-shoulder neckline and mini length, leaving shoulders and thighs visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 장소·활동을 유지하고 이 컷의 소품·시간대만 구체화함: She opens an ivory folding fan before the evening costume reception.",
+        "outfit": "고른 옷 종류를 유지하며 계획의 드러내기 두 항목을 옷 구조로 반영함: A stylised uniform-inspired event costume with crisp lapels and decorative epaulettes, off-shoulder neckline and mini length, leaving shoulders and thighs visible."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_opera / roleplay / uniform_inspired / sit_chair / environmental / fan_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_opera",
+            "ko": "극장·오페라",
+            "en": "the grand lobby and staircase of an opera house"
+          },
+          "role": null,
+          "use": {
+            "key": "fan_hold",
+            "ko": "부채를 든다",
+            "en": "holds a folding fan open near her chest",
+            "prop": "접부채"
+          },
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "uniform_inspired",
+            "ko": "유니폼풍",
+            "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "uniform"
+        ],
+        "expose": [
+          "mini length",
+          "off-shoulder neckline"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "Brass wash bowls and pale marble benches catch the warm hammam light.",
+      "outfit": "A halter-neck subculture top with side cutouts paired with low-rise trousers, exposing shoulders and sides of her waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 장소·활동을 유지하고 이 컷의 소품·시간대만 구체화함: Brass wash bowls and pale marble benches catch the warm hammam light.",
+        "outfit": "고른 옷 종류를 유지하며 계획의 드러내기 두 항목을 옷 구조로 반영함: A halter-neck subculture top with side cutouts paired with low-rise trousers, exposing shoulders and sides of her waist."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / spa_hammam / subculture / stand / chest_up / towel_dry",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "spa_hammam",
+            "ko": "하맘",
+            "en": "a domed marble hammam with warm stone slabs and brass bowls"
+          },
+          "role": null,
+          "use": {
+            "key": "towel_dry",
+            "ko": "수건으로 머리를 말린다",
+            "en": "dries her hair with a towel",
+            "prop": "수건"
+          },
+          "ofam": {
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "trousers"
+        ],
+        "expose": [
+          "halter neck",
+          "side cutouts"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}

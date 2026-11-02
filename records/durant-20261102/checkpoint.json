@@ -1,0 +1,86 @@
+{
+ "card": "아이앤트",
+ "completed_slots": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "reference": {
+  "slot": "light",
+  "card": "아이앤트",
+  "filename": "아이앤트_light_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "c5c6da4141065ede2a307bac90054128f2ba4c62a91dba69834a2c27ed5050e0",
+  "webp_sha256": "0e1656364076486859fdb933563135b8a92d7cc1c589db5da872bc4ba3272c59",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": null,
+  "reference_sha256": null
+ },
+ "face_design": {
+  "name": "아이앤트",
+  "en": "Durant",
+  "line": "아이앤트",
+  "how": "draft",
+  "registered": false,
+  "face": {
+   "face shape": "angular",
+   "face length": "balanced",
+   "face width": "medium",
+   "jaw & chin": "angular defined jaw",
+   "eye shape": "narrow",
+   "eye size": "medium",
+   "eye tilt": "level outer corners",
+   "eye spacing": "average eye spacing",
+   "eyebrows": "straight medium brows",
+   "nose character": "straight slender bridge",
+   "lips": "straight even lips"
+  },
+  "why": "",
+  "cues": [
+   "‘steel body’ → 얼굴형 각지고 선명한 얼굴형",
+   "‘steel body’ → 턱선 · 턱끝 각지고 또렷한 턱",
+   "‘steel body’ → 눈매 가늘고 날카로운 눈",
+   "‘steel body’ → 코 곧고 가는 콧대",
+   "‘steel body’ → 입술 굴곡 없이 곧은"
+  ],
+  "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 바깥에서 꺾이는 사선 → 중간 두께의 직선, 코 보통 → 곧고 가는 콧대, 입술 얇은 입술 → 굴곡 없이 곧은",
+  "hair": {
+   "hairstyle": "twin tail",
+   "hair length": "short",
+   "bangs": "straight bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "‘two long antennae’·키 0.3m에서 트윈테일(묶은 꼬리) · 짧은 머리 · 일자 앞머리",
+  "hair_cues": [
+   "‘two long antennae’ → 헤어스타일 트윈테일",
+   "키 0.3m → 머리 길이 짧은 머리"
+  ]
+ },
+ "face_selection_reason": [
+  "‘steel body’ → 얼굴형 각지고 선명한 얼굴형",
+  "‘steel body’ → 턱선 · 턱끝 각지고 또렷한 턱",
+  "‘steel body’ → 눈매 가늘고 날카로운 눈",
+  "‘steel body’ → 코 곧고 가는 콧대",
+  "‘steel body’ → 입술 굴곡 없이 곧은"
+ ],
+ "actual_compared": [
+  "벌차이",
+  "워글",
+  "수리둥보"
+ ],
+ "light_location": "img/아이앤트_light_glossy_promo_f.webp",
+ "source": "built-in image_gen",
+ "reservation": "durant-deino-5073",
+ "originals": "session only; sha256 recorded, PNG not committed",
+ "publication": "pending main commit"
+}

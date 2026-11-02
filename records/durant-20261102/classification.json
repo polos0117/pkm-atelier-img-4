@@ -1,0 +1,137 @@
+[
+ {
+  "slot": "light",
+  "card": "아이앤트",
+  "filename": "아이앤트_light_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "c5c6da4141065ede2a307bac90054128f2ba4c62a91dba69834a2c27ed5050e0",
+  "webp_sha256": "0e1656364076486859fdb933563135b8a92d7cc1c589db5da872bc4ba3272c59",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": null,
+  "reference_sha256": null
+ },
+ {
+  "slot": "heavy",
+  "card": "아이앤트",
+  "filename": "아이앤트_heavy_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "9d30286d77f4524be1b9e6f4e1624aa01043c557c9ffcf3022eff4be7565c439",
+  "webp_sha256": "468a20b812ae0362b7ca4af618671b1b84c78bea6691adb702adeee62e0db4b8",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "c5c6da4141065ede2a307bac90054128f2ba4c62a91dba69834a2c27ed5050e0"
+ },
+ {
+  "slot": "mobility",
+  "card": "아이앤트",
+  "filename": "아이앤트_mobility_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "27c7467cc34470341aba1b30baf69136edd88e36e8d564538c807e17d7b58cde",
+  "webp_sha256": "61058fb3d930cecd9d45cd7c272ba1d099208affffc4b747a50c962f9ded76a4",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "c5c6da4141065ede2a307bac90054128f2ba4c62a91dba69834a2c27ed5050e0"
+ },
+ {
+  "slot": "light_overdrive",
+  "card": "아이앤트",
+  "filename": "아이앤트_light_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "b067041cd3a410eddb71118c14b28c8af3aaa57272061f1a6d87b9a605d055b8",
+  "webp_sha256": "0aaea202b4d57db2bb3a5ac98a825ee96c3fa557c12d1c849554f658378e9b01",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "c5c6da4141065ede2a307bac90054128f2ba4c62a91dba69834a2c27ed5050e0"
+ },
+ {
+  "slot": "heavy_overdrive",
+  "card": "아이앤트",
+  "filename": "아이앤트_heavy_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "1d9fbb915ca576fe4d26bf6e5a6b6081e5fa292d0f379c2d60bcde1ee0774048",
+  "webp_sha256": "999ae3f8a775b7070f1c054b600eee745557af270a7dcd6e23d0e4b24b385436",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "heavy",
+  "reference_sha256": "9d30286d77f4524be1b9e6f4e1624aa01043c557c9ffcf3022eff4be7565c439"
+ },
+ {
+  "slot": "mobility_overdrive",
+  "card": "아이앤트",
+  "filename": "아이앤트_mobility_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "48a52771c6dff1a4d45e5d393fe60fcd13d9fbff5ca3a4dfd45f9e6d8e33e08f",
+  "webp_sha256": "d08a6eac65c805e94236cdfcd1d6a5c2e4481875728c248ed00d0e2008c980ba",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "mobility",
+  "reference_sha256": "27c7467cc34470341aba1b30baf69136edd88e36e8d564538c807e17d7b58cde"
+ },
+ {
+  "slot": "casual1",
+  "card": "아이앤트",
+  "filename": "아이앤트_glossy_promo_f_casual1.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "702624c731621412817df151b7031f4c53d7d07bf113e8fb1f34bfcb50e30a55",
+  "webp_sha256": "e7d056670ece83145bc06647262ca553a4acce2a7e5da75f03cd6659bcf8f6f7",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "c5c6da4141065ede2a307bac90054128f2ba4c62a91dba69834a2c27ed5050e0"
+ },
+ {
+  "slot": "casual2",
+  "card": "아이앤트",
+  "filename": "아이앤트_glossy_promo_f_casual2.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "0911fd9ad5ebd8964d015c357dc97d00cad093a77235732bc39636ab5982a845",
+  "webp_sha256": "142b65ce34d24a0b9e3d668737c9157afc5d83bfe52b915f9385f20f17d104d4",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "c5c6da4141065ede2a307bac90054128f2ba4c62a91dba69834a2c27ed5050e0"
+ },
+ {
+  "slot": "casual3",
+  "card": "아이앤트",
+  "filename": "아이앤트_glossy_promo_f_casual3.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "c613005ec5cc4071bdb3014823900f6cdfbe50ee39f31dc2da5bc99ff45518d1",
+  "webp_sha256": "f900a0ebdc176a1720c11a428eafa317e8b9229abbbefbae34de1d9fbeb7cfc0",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "c5c6da4141065ede2a307bac90054128f2ba4c62a91dba69834a2c27ed5050e0"
+ }
+]
