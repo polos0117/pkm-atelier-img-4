@@ -1,0 +1,137 @@
+[
+ {
+  "slot": "light",
+  "card": "모노두",
+  "filename": "모노두_light_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "7e3b12902d36d08f9860b0e3c3ae7e7a561dcc6ec8f935b625f77b4e72a4e5a1",
+  "webp_sha256": "90979738812effd6143a8bdd07f94e0f9f1ed13ab324ade6c7cb97717b2c17b1",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": null,
+  "reference_sha256": null
+ },
+ {
+  "slot": "heavy",
+  "card": "모노두",
+  "filename": "모노두_heavy_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "f9e564819d5597baf6da7e1c532ba060aa6582d776bb9d1cb67e79977afa2c34",
+  "webp_sha256": "9e7778e0bdb9289c66b1f0a027849915f91441f38f8b2f0d1acf6c55860ac52b",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "7e3b12902d36d08f9860b0e3c3ae7e7a561dcc6ec8f935b625f77b4e72a4e5a1"
+ },
+ {
+  "slot": "mobility",
+  "card": "모노두",
+  "filename": "모노두_mobility_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "82d1a827df0ba0dc422604729d51237fd0015ef717cfd3a3efb4adbae25dbfa8",
+  "webp_sha256": "3b113ffe93d5ff81dd0a00e83e6ca6f82b21cb92fbc58b447a0f33add93e6146",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "7e3b12902d36d08f9860b0e3c3ae7e7a561dcc6ec8f935b625f77b4e72a4e5a1"
+ },
+ {
+  "slot": "light_overdrive",
+  "card": "모노두",
+  "filename": "모노두_light_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "6cedbe179455214a07256dd6437a5f69e6407bb583f07287e81095e5fb218c06",
+  "webp_sha256": "880c952c953b1344a2b841b23719d6bd4bc3ef74c9789f489962b10f8a49daf7",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "7e3b12902d36d08f9860b0e3c3ae7e7a561dcc6ec8f935b625f77b4e72a4e5a1"
+ },
+ {
+  "slot": "heavy_overdrive",
+  "card": "모노두",
+  "filename": "모노두_heavy_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "3f2af45ee4741e30141079e01bb4b801fe4025a11485ddb419fb50a1f11ab91a",
+  "webp_sha256": "3c18f3540cf8c2520f356dae6f7a2744c05fbc018e176ebb462bd4343f7f73cd",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "heavy",
+  "reference_sha256": "f9e564819d5597baf6da7e1c532ba060aa6582d776bb9d1cb67e79977afa2c34"
+ },
+ {
+  "slot": "mobility_overdrive",
+  "card": "모노두",
+  "filename": "모노두_mobility_overdrive_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "b431d57028b7730bc5dac5f821561a81e0aca28c7d5f166611063c91f0467b5f",
+  "webp_sha256": "edf5797b38ef670c8f9ed614add5e9435e5877d581823a1d93df2c80be880b28",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "mobility",
+  "reference_sha256": "82d1a827df0ba0dc422604729d51237fd0015ef717cfd3a3efb4adbae25dbfa8"
+ },
+ {
+  "slot": "casual1",
+  "card": "모노두",
+  "filename": "모노두_glossy_promo_f_casual1.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "f5b8608c7c7f4a72da56b66d4951df9e123fe8b8f1995756e986f62e9fcf396c",
+  "webp_sha256": "12288fec19b54094aa7514ae92057b8b6bac922e53030411b54fcde1f9d3a356",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "7e3b12902d36d08f9860b0e3c3ae7e7a561dcc6ec8f935b625f77b4e72a4e5a1"
+ },
+ {
+  "slot": "casual2",
+  "card": "모노두",
+  "filename": "모노두_glossy_promo_f_casual2.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "7aa4d3f9de8185ee61eca57c67c55b1d33a7158cbca8d6829ec559667ba81b5a",
+  "webp_sha256": "0f80c382a47d32071d53093120fd6336b0f74b3217ed668053f3960db2d11341",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "7e3b12902d36d08f9860b0e3c3ae7e7a561dcc6ec8f935b625f77b4e72a4e5a1"
+ },
+ {
+  "slot": "casual3",
+  "card": "모노두",
+  "filename": "모노두_glossy_promo_f_casual3.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "b26b749e57f7fb514e8fa33e42a0d75f576a0bf4166a61a4b498084f506f2e9d",
+  "webp_sha256": "4a00130667ffc3edf13a633e2a7f45dda6eebe91e20127dd34850c2371b2e2dd",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": "light",
+  "reference_sha256": "7e3b12902d36d08f9860b0e3c3ae7e7a561dcc6ec8f935b625f77b4e72a4e5a1"
+ }
+]

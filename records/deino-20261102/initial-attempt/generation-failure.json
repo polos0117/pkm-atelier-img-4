@@ -1,0 +1,11 @@
+{
+  "error": "moderation_blocked",
+  "stage": "output",
+  "category": "sexual",
+  "request_id": "1cd7a97b-0e2b-453d-817b-f853c4a2a212",
+  "unresolved_slots": [
+    "casual2",
+    "casual3"
+  ],
+  "note": "Concurrent batch rejected before slot-specific failure was retained. One other request had no retained return. No identical prompt resubmission."
+}

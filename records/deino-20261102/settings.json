@@ -1,0 +1,284 @@
+{
+  "version": 1,
+  "card": "모노두",
+  "no": 633,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/507318404a53/DEINO-REPLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {
+        "apparent age": "20s"
+      },
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "A folded silk program rests on the opera-house balustrade during a swimwear fashion reception.",
+      "outfit": "A fully lined swimsuit with a short light yukata worn open over it, cropped hem and high thigh openings that expose waist and legs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 장소·활동을 유지하고 이 컷의 소품·시간대만 구체화함: A folded silk program rests on the opera-house balustrade during a swimwear fashion reception.",
+        "outfit": "고른 옷 종류를 유지하며 계획의 드러내기 두 항목을 옷 구조로 반영함: A fully lined swimsuit with a short light yukata worn open over it, cropped hem and high thigh openings that expose waist and legs."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_opera / swimwear / yukata_over / lean_rail / three_quarter",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_opera",
+            "ko": "극장·오페라",
+            "en": "the grand lobby and staircase of an opera house"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "yukata_over",
+            "ko": "수영복 위 유카타",
+            "en": "swimwear with a light yukata worn open over it"
+          },
+          "posture": {
+            "key": "lean_rail",
+            "ko": "난간·창턱에 기대 서기",
+            "en": "standing at a waist-high railing or sill, leaning lightly on it"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "traditional"
+        ],
+        "expose": [
+          "high thigh slit",
+          "cropped hem"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual2": {
+      "scene": "Paper lanterns and food-stall awnings frame a local costume festival.",
+      "outfit": "A Deino-inspired opaque hooded costume dress in midnight blue with a black plush hood, one-shoulder neckline and a side slit. The shaped hood and zigzag appliques are sewn costume details.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "시장 트리에는 축제 성격이 없어 종이등과 가판 천막으로 지역 코스튬 축제를 구체화함.",
+        "outfit": "후드 원피스형을 유지하고 바디수트와 시스루 대신 불투명 후드 드레스를 사용함. 고른 한쪽 어깨와 옆 슬릿 구조 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / street_market / pokemon_costume / pc_hoodie / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "street_market",
+            "ko": "시장",
+            "en": "a busy street market of food stalls and strung bulbs"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_hoodie",
+            "ko": "후드 원피스형",
+            "en": "a daring adult costume version of {costume}, cut as a short fitted hooded dress with the hood shaped like its head"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "clasp_both · clasp_both"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "high thigh slit",
+          "one-shoulder cut"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual3": {
+      "scene": "A tray of freshly baked croissants cools on the flour-dusted worktable.",
+      "outfit": "A short tuxedo jacket worn open over a halter-neck silk camisole and tailored trousers, with a narrow strip of midriff visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "베이커리 작업실의 소품 차이를 갓 구운 크루아상 트레이로 구체화함.",
+        "outfit": "턱시도 재킷·캐미솔·정장 바지를 유지하고 크롭 재킷과 홀터 목선으로 계획의 드러내기 항목 반영. 얼굴 근접 크롭이 우선함."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / bakery_kitchen / evening / tuxedo_cami_trousers / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "bakery_kitchen",
+            "ko": "베이커리 작업실",
+            "en": "a small bakery workroom with a floury wooden worktable and warm ovens"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "evening",
+            "ko": "저녁 드레스",
+            "en": "an evening dress or night-out outfit"
+          },
+          "item": {
+            "key": "tuxedo_cami_trousers",
+            "ko": "턱시도 재킷 + 캐미솔 + 정장 바지",
+            "en": "a sharp tuxedo jacket over a silk camisole with tailored trousers"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "shush · out"
+        },
+        "garments": [
+          "jacket",
+          "tank",
+          "trousers"
+        ],
+        "expose": [
+          "bare midriff",
+          "halter neck"
+        ],
+        "lead": "detail"
+      }
+    }
+  }
+}

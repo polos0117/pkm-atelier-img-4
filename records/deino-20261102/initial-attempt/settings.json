@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "card": "모노두",
+  "no": 633,
+  "style": "glossy_promo",
+  "plan": "/workspace/scratch/507318404a53/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {
+        "apparent age": "20s"
+      },
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "heavy": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "mobility": {
+      "motifs": "",
+      "formOverride": "",
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      }
+    },
+    "light_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "heavy_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "mobility_overdrive": {
+      "motifs": "",
+      "formOverride": "",
+      "custom": ""
+    },
+    "casual1": {
+      "scene": "A folded silk program rests on the opera-house balustrade during a swimwear fashion reception.",
+      "outfit": "A fully lined swimsuit with a short light yukata worn open over it, cropped hem and high thigh openings that expose waist and legs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 장소·활동을 유지하고 이 컷의 소품·시간대만 구체화함: A folded silk program rests on the opera-house balustrade during a swimwear fashion reception.",
+        "outfit": "고른 옷 종류를 유지하며 계획의 드러내기 두 항목을 옷 구조로 반영함: A fully lined swimsuit with a short light yukata worn open over it, cropped hem and high thigh openings that expose waist and legs."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_opera / swimwear / yukata_over / lean_rail / three_quarter",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_opera",
+            "ko": "극장·오페라",
+            "en": "the grand lobby and staircase of an opera house"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "yukata_over",
+            "ko": "수영복 위 유카타",
+            "en": "swimwear with a light yukata worn open over it"
+          },
+          "posture": {
+            "key": "lean_rail",
+            "ko": "난간·창턱에 기대 서기",
+            "en": "standing at a waist-high railing or sill, leaning lightly on it"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "traditional"
+        ],
+        "expose": [
+          "high thigh slit",
+          "cropped hem"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual2": {
+      "scene": "The alteration table holds folded linen, paper patterns and a 2010-era portable music player.",
+      "outfit": "A cropped halter work shirt under a short canvas workshop apron that leaves a strip of midriff visible, with safety glasses pushed up and practical tailored trousers.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 장소·활동을 유지하고 이 컷의 소품·시간대만 구체화함: The alteration table holds folded linen, paper patterns and a 2010-era portable music player.",
+        "outfit": "고른 옷 종류를 유지하며 계획의 드러내기 두 항목을 옷 구조로 반영함: A cropped halter work shirt under a short canvas workshop apron that leaves a strip of midriff visible, with safety glasses pushed up and practical tailored trousers."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / tailor_room / work / workshop_apron / stand / waist_up / phones_neck",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "tailor_room",
+            "ko": "의상 수선실",
+            "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+          },
+          "role": null,
+          "use": {
+            "key": "phones_neck",
+            "ko": "목에 건 헤드폰을 잡는다",
+            "en": "holds one ear cup of over-ear headphones resting around her neck",
+            "prop": "헤드폰"
+          },
+          "ofam": {
+            "key": "work",
+            "ko": "직업복",
+            "en": "practical clothing for her Pokémon-world job, readable through its tools",
+            "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+          },
+          "item": {
+            "key": "workshop_apron",
+            "ko": "공방 앞치마",
+            "en": "a work shirt under a canvas workshop apron, safety glasses pushed up"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · pocket"
+        },
+        "garments": [
+          "apron",
+          "shirt"
+        ],
+        "expose": [
+          "bare midriff",
+          "halter neck"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual3": {
+      "scene": "Warm fairy lights shimmer above the rooftop party counter.",
+      "outfit": "A Deino-inspired adult costume high-cut one-shoulder bodysuit with sheer thigh-high tights, midnight-blue fabric, a black furry collar and decorative zigzag trim; shoulders and upper thighs exposed.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 장소·활동을 유지하고 이 컷의 소품·시간대만 구체화함: Warm fairy lights shimmer above the rooftop party counter.",
+        "outfit": "고른 옷 종류를 유지하며 계획의 드러내기 두 항목을 옷 구조로 반영함: A Deino-inspired adult costume high-cut one-shoulder bodysuit with sheer thigh-high tights, midnight-blue fabric, a black furry collar and decorative zigzag trim; shoulders and upper thighs exposed."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_rooftop / pokemon_costume / pc_bodysuit / lean_counter / environmental",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_rooftop",
+            "ko": "옥상 파티",
+            "en": "a city rooftop party under string lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_bodysuit",
+            "ko": "바디수트형",
+            "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+          },
+          "posture": {
+            "key": "lean_counter",
+            "ko": "작업대에 몸 숙이기",
+            "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "bodysuit",
+          "leggings"
+        ],
+        "expose": [
+          "mini length",
+          "one-shoulder cut"
+        ],
+        "lead": "light"
+      }
+    }
+  }
+}

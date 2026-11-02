@@ -1,0 +1,77 @@
+{
+ "card": "모노두",
+ "completed_slots": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "reference": {
+  "slot": "light",
+  "card": "모노두",
+  "filename": "모노두_light_glossy_promo_f.webp",
+  "style": "glossy_promo",
+  "style_basis": "tools/prompt-pack.cjs settings selection",
+  "source_sha256": "7e3b12902d36d08f9860b0e3c3ae7e7a561dcc6ec8f935b625f77b4e72a4e5a1",
+  "webp_sha256": "90979738812effd6143a8bdd07f94e0f9f1ed13ab324ade6c7cb97717b2c17b1",
+  "size": [
+   1024,
+   1536
+  ],
+  "reference": null,
+  "reference_sha256": null
+ },
+ "face_design": {
+  "name": "모노두",
+  "en": "Deino",
+  "line": "모노두",
+  "how": "species",
+  "registered": false,
+  "face": {
+   "face shape": "oval",
+   "face length": "balanced",
+   "face width": "medium",
+   "jaw & chin": "soft rounded jaw",
+   "eye shape": "drooping",
+   "eye size": "medium",
+   "eye tilt": "downturned outer corners",
+   "eye spacing": "wide-set eyes",
+   "eyebrows": "angled brows",
+   "nose character": "balanced nose",
+   "lips": "wide mouth"
+  },
+  "why": "눈을 덮은 작은 용의 앞머리와 큰 입을 낮은 눈꺼풀과 넓은 입으로 해석한다.",
+  "cues": [
+   "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+   "악 타입 → 눈썹 바깥에서 꺾이는 사선"
+  ],
+  "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 코끝이 둥근 → 보통 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 높이 묶은 포니테일 → 한쪽만 밀고 나머지는 긴 머리",
+  "hair": {
+   "hairstyle": "side-shaved long hair",
+   "hair length": "long",
+   "bangs": "asymmetric bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "악 타입에서 한쪽만 밀고 나머지는 긴 머리(층 낸 컷) · 긴 머리 · 좌우 길이가 다른 앞머리",
+  "hair_cues": [
+   "악 타입 → 헤어스타일 한쪽만 밀고 나머지는 긴 머리",
+   "악 타입 → 앞머리 좌우 길이가 다른 앞머리"
+  ]
+ },
+ "face_selection_reason": "눈을 덮은 작은 용의 앞머리와 큰 입을 낮은 눈꺼풀과 넓은 입으로 해석한다.",
+ "actual_compared": [
+  "벌차이",
+  "워글",
+  "수리둥보"
+ ],
+ "light_location": "img/모노두_light_glossy_promo_f.webp",
+ "source": "built-in image_gen",
+ "reservation": "durant-deino-5073",
+ "originals": "session only; sha256 recorded, PNG not committed",
+ "publication": "pending main commit"
+}
