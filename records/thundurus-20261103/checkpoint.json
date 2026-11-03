@@ -1,0 +1,116 @@
+{
+  "card": "볼트로스",
+  "style": "glossy_promo",
+  "generator_commit": "82fb6c8",
+  "reference_slot": "light",
+  "slots": {
+    "light": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-e817e27d-8fc0-464e-9d2a-1abf0072331d.png",
+      "original_sha256": "b6f89e4b8034e125358946470c154cc2df03a52dfd4accf8151be9693e4713cf",
+      "output": "img/볼트로스_light_glossy_promo_f.webp",
+      "output_sha256": "13d441ac88370441585c1b382e06de959e1f84b6c8b9dd5b24a1881b5554599b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": null,
+      "prompt_sha256": "1d4e0274c17a69e5868a21fe0a52dae1606a550eb3602380d2a2af05e17dbd72"
+    },
+    "heavy": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-493f9429-b46a-4165-8b22-cd1789755abb.png",
+      "original_sha256": "71d9fec725773c81ab89f07c5e38a80d1616cd875c55f5fd9f1c91bb664abcc9",
+      "output": "img/볼트로스_heavy_glossy_promo_f.webp",
+      "output_sha256": "a7ef7e02f9ab499c6765efaf07991c82ee70e3619dcd7e1941055644ad0431dd",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "prompt_sha256": "71f71193dc7512f3028bd7802fc94ea59519c908e9d6b0b7b5a19ee756df0b09"
+    },
+    "mobility": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-d0a46432-250d-41a4-8d34-eeba2995ac7e.png",
+      "original_sha256": "34e25f853145c421e03ac9fcfac3ec3842ef09b96872241d84f2be85dc3674ca",
+      "output": "img/볼트로스_mobility_glossy_promo_f.webp",
+      "output_sha256": "2252ff252b3baf840b33648d7acedb25856c7d62e6b4a412546cbfed92b1d404",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "prompt_sha256": "4c6d35fe1020f272672b5c86f47a829deaa525a143d5f1052d84a5e473d4d16c"
+    },
+    "light_overdrive": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-7cd2b58b-27a2-41e4-ae67-d0585c4c65ba.png",
+      "original_sha256": "bd28073c16e3de57f49fb3add1d0c1c6891b2fae9258eff9c96ae88b583d664d",
+      "output": "img/볼트로스_light_overdrive_glossy_promo_f.webp",
+      "output_sha256": "ca890d2e3057ae1786b1b7bdac56878f48c14938ede85cfb22c2687f50d5b073",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "prompt_sha256": "61e94a57f651ccb9eae67a105645923b2d77533ead29e67aee95f7263a043258"
+    },
+    "heavy_overdrive": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-c683693a-586d-42a6-beea-b813821f4609.png",
+      "original_sha256": "f19cea3ff5a532f571acc19bc54dca25ab1f424171229e3f7e17e2d7afab323b",
+      "output": "img/볼트로스_heavy_overdrive_glossy_promo_f.webp",
+      "output_sha256": "1f96b7e5e11b15b8e8cbb0f8b3b1dc87de7a90b9355a69598594aacf79df1e5f",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": "heavy",
+      "prompt_sha256": "54b2b56f0732800560024277de2c49a7ed8334aa7aa774b329a3d69798f1df9f"
+    },
+    "mobility_overdrive": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-17cebf26-3590-436a-99df-9296f7d0c885.png",
+      "original_sha256": "0ce8127f91b31d8c4ce2199528fbeefc15640312d95f6f8f51b02bff011bd8fd",
+      "output": "img/볼트로스_mobility_overdrive_glossy_promo_f.webp",
+      "output_sha256": "6596b5ac361d1c37443694f2faf97aee8b739934a56f71b9892edf198533e169",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": "mobility",
+      "prompt_sha256": "72136835de55d9ba6e953163fac50b10b4dc31b66a91d98d1e3a85f1ac1aa3cf"
+    },
+    "casual1": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-f460c400-979f-4f05-88dd-19d8b8143439.png",
+      "original_sha256": "2387d588f91b0ed6b092b3f06546f2fe1d7bcdc6386918e171bb1ac7847618ee",
+      "output": "img/볼트로스_glossy_promo_f_casual1.webp",
+      "output_sha256": "c3c3e4279aac9bd12a01e98c0d14f51eeaf41396eb98979d6ed7e804599fba96",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "prompt_sha256": "84301f629b901beee6cac88762355861da7bbf15c17c05d686c58576e6cbb602"
+    },
+    "casual2": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-0dbade03-7ef2-43cb-b4d6-a2cb8f98ad6e.png",
+      "original_sha256": "09b9e0efc89ea5f43ad0e9540d90c67c05dd06242a3dee89771c62253c9e542a",
+      "output": "img/볼트로스_glossy_promo_f_casual2.webp",
+      "output_sha256": "069a6dd5d724ff6ce23f420077634bf82dbad0718a4a9c98ca604d9ce1c932b2",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "prompt_sha256": "758c98b12cb736e3c59c86014a524ae9b7d6d246e334b4cca0b60a8d40f8790b"
+    },
+    "casual3": {
+      "source_session_path": "/workspace/scratch/93e28ff713cd/generated_images/exec-3a6bed3d-aa77-4b8c-a168-350a6504a99f.png",
+      "original_sha256": "54f5c5608302a0221b9a8eac069537a269a2aa19ef43e574ad9e106e828bddd7",
+      "output": "img/볼트로스_glossy_promo_f_casual3.webp",
+      "output_sha256": "c7d7a38cfd51d51b2b210cc8b95366b6de261d11b7b894d22667e030a6e5bea8",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "prompt_sha256": "ed20176177fc709bca6d290f1507217c2bbfabc99e8ddde21fb945e2b4308573"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "anatomy_tool": "unavailable: mediapipe not installed",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "identity": "각진 턱과 수평의 좁은 보라 눈, 층진 은보라 단발을 가진 성인 여성. 흰 칼라와 보라색 뿔·허리 사슬이 원작 특징을 의상으로 옮긴다.",
+        "form": "몸에 붙는 보라 슈트 위 어깨·팔·골반·정강이의 한 겹 판. 양발이 바위에 닿으며 전신이 보인다.",
+        "hands": "좌우 장갑 손이 각 팔목에 연결되고 엄지 1+손가락 4의 윤곽을 확인했다.",
+        "note": "머리 뿔 끝이 상단 경계에 조금 걸림: 기록만 하는 항목."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "좌우 장갑 손이 각 팔목에 연결되고 엄지 1+손가락 4의 윤곽을 확인했다."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "form": "어깨·흉갑·허벅지·정강이에 두꺼운 판이 여러 겹으로 포개지고 얼굴이 드러난 관형 헬멧이 생겼다.",
+        "identity": "기준의 보라 눈, 은보라 앞머리와 턱 모양·체형이 유지된다.",
+        "hands": "두 팔이 자연스럽게 아래로 이어지며 양 장갑 손에서 엄지와 네 손가락을 구분했다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "두 팔이 자연스럽게 아래로 이어지며 양 장갑 손에서 엄지와 네 손가락을 구분했다."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "form": "어깨·허리·종아리의 얇은 패널이 뒤로 펼쳐지고 작은 보라 추진기가 보인다.",
+        "identity": "기준 얼굴과 머리·바디슈트 비율을 유지했다.",
+        "hands": "오른손과 왼손이 각각 해당 아래팔 끝에 붙어 있고 엄지와 네 손가락이 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "오른손과 왼손이 각각 해당 아래팔 끝에 붙어 있고 엄지와 네 손가락이 보인다."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "form": "경장과 동일한 바위·전신 구도에서 기존 어깨·허리·정강이 판이 들어올려지고 금빛 전기와 내부 기구가 드러난다.",
+        "identity": "카메라와 양팔·양다리의 위치가 일반 경장과 대응한다.",
+        "hands": "기준의 양손이 보존되고 새 손이나 손 주변 효과가 추가되지 않았다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "기준의 양손이 보존되고 새 손이나 손 주변 효과가 추가되지 않았다."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "form": "겹친 중장 판의 간격이 벌어져 검은 내부 프레임과 전기 발광이 보인다. 새 무기는 없다.",
+        "identity": "중장의 헬멧·양발·손 위치와 전신 크기를 유지했다.",
+        "hands": "장갑 손 둘이 아래팔에 연결되고 손가락 윤곽이 일반 중장과 같다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "장갑 손 둘이 아래팔에 연결되고 손가락 윤곽이 일반 중장과 같다."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "form": "고기동의 펼친 패널 내부에 전기 빛이 나타나며 추진기·바위·카메라 구도는 유지된다.",
+        "identity": "기준과 같은 은보라 머리와 보라 눈, 양팔·다리의 위치를 유지했다.",
+        "hands": "두 장갑 손의 엄지와 네 손가락 윤곽이 보존되며 팔·손이 추가되지 않았다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "두 장갑 손의 엄지와 네 손가락 윤곽이 보존되며 팔·손이 추가되지 않았다."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "place_activity": "화분·고사리 선반 앞에 서서 두 손을 가슴 앞에 맞잡았다.",
+        "wardrobe": "흰 꽃 자수 레이스와 불투명한 캐미솔, 짧은 밑단 아래의 배와 쇄골·어깨가 보인다.",
+        "expression_framing": "입을 닫고 눈썹을 낮춘 정면 허리 위 구도; 머리가 조금 기울어 있다.",
+        "hands": "두 손목이 각각 팔에 연결되고 맞잡은 손가락은 일부 가려진다. 확대에서 독립된 세 번째 손은 없다.",
+        "note": "캐미솔이 기준의 보라색과 비슷하게 나왔으나 갑옷·원작 무늬는 없으며 실제 관찰로 기록."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "2, cropped where framing requires",
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "두 손목이 각각 팔에 연결되고 맞잡은 손가락은 일부 가려진다. 확대에서 독립된 세 번째 손은 없다."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "place_activity": "샹들리에 무도회장의 의자에 앉아 오른손으로 펼친 부채를 들고 왼손은 허벅지 위에 놓았다.",
+        "wardrobe": "구리빛 홀터 플레어 점프슈트의 깊은 목선과 양쪽 긴 트임이 보인다.",
+        "expression_framing": "왼쪽을 보는 3/4 얼굴과 작은 미소. 무대·의자·발까지 담겨 첫 컷과 명확히 다르다.",
+        "hands": "부채 쥔 오른손의 손가락은 일부 겹쳐 가려짐; 허벅지 위 왼손은 엄지와 네 손가락으로 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "2, cropped where framing requires",
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "부채 쥔 오른손의 손가락은 일부 겹쳐 가려짐; 허벅지 위 왼손은 엄지와 네 손가락으로 보인다."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "observations": {
+        "place_activity": "거울과 전구가 있는 파우더룸에서 뒤돌아보며 오른손으로 잔을 들었다.",
+        "wardrobe": "보라·흰색 미니 드레스와 작은 뿔·허리 사슬 장식이 볼트로스 성인 코스튬을 만든다. 등과 어깨·허벅지 노출이 보인다.",
+        "expression_framing": "몸은 뒤 3/4, 고개는 카메라로 돌아왔고 허벅지 위까지 담겼다.",
+        "hands": "잔을 쥔 오른손의 엄지·검지·중지 등 그립이 자연스럽고 일부 손가락 가림. 아래로 내린 왼손은 어깨부터 연결되고 다섯 손가락 윤곽을 확인했다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "2, cropped where framing requires",
+        "hands": "two correctly attached hands; visible finger groups checked; gripping fingers partly occluded where noted",
+        "overlay_checked": false,
+        "note": "잔을 쥔 오른손의 엄지·검지·중지 등 그립이 자연스럽고 일부 손가락 가림. 아래로 내린 왼손은 어깨부터 연결되고 다섯 손가락 윤곽을 확인했다."
+      }
+    }
+  },
+  "casual_look": "passed; no near-duplicate below threshold 245",
+  "diversity": "식물 가게의 서기·허리 위 레이스 상의, 무도회장의 앉기·전신 플레어 점프슈트, 파우더룸의 뒤돌아보기·미니 코스튬으로 장소·활동·의상·인물 실루엣이 서로 다르다. 생김새 검사 통과.",
+  "reference_comparison": "최근 토네로스·비리디온·테라키온의 경장과 일상 썸네일 12개를 실제 비교했다. 볼트로스는 상대적으로 좁고 수평인 눈과 낮은 눈썹·각진 턱을 유지하며, 다른 셋의 큰 아몬드눈·치켜올린 눈매와 구분된다. 이번 식물가게 손 모으기·부채 든 앉은 점프슈트·파우더룸 잔을 든 뒤돌아보기는 비교 컷의 무릎앉기 촬영·물가 비키니·책상 코스튬·브이 셀카와 다르다."
+}

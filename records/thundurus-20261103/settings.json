@@ -1,0 +1,141 @@
+{
+ "version": 1,
+ "card": "볼트로스",
+ "no": 642,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/93e28ff713cd/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "adult woman in her twenties",
+    "facial character": "refined",
+    "body type": "slender athletic feminine adult build, approximately 7.5 heads tall, natural neck length and balanced torso and limbs"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "Both natural human hands are visible, with five fingers on each hand, relaxed and clearly joined to their respective forearms.",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "styleReference": ""
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Late afternoon sunlight falls across ceramic pots and crowded fern shelves in a neighborhood plant shop.",
+   "outfit": "A cropped kebaya-inspired lace top with floral embroidery over an opaque fitted camisole, its short hem revealing the midriff; charcoal low-rise shorts complete the separates.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택 길에는 가게 종류가 셋이라 화분 선반이 있는 식물 가게와 오후 햇빛으로 확정했다.",
+    "outfit": "크바야와 캐미솔을 유지하면서 예약된 cropped hem·bare midriff가 보이도록 짧은 밑단을 명시했다."
+   }
+  },
+  "casual2": {
+   "scene": "Crystal chandeliers illuminate an amber mirrored ballroom, with velvet chairs set beside the dance floor.",
+   "outfit": "A copper 1970s lurex halter jumpsuit with flared legs, a plunging neckline and long side slits reaching the upper thighs; the opaque fitted bodice keeps full coverage.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "무도회장 선택에 없는 호박빛 거울과 벨벳 의자로 부채 장면의 조명을 구체화했다.",
+    "outfit": "70년대 루렉스 점프슈트를 유지하고 high thigh slit·plunging neckline을 플레어 바지와 홀터 목선에 반영했다."
+   }
+  },
+  "casual3": {
+   "scene": "Warm vanity bulbs glow around the marble counters of an evening powder room; a clear glass contains sparkling water.",
+   "outfit": "A fitted strapless Thundurus mini dress in purple and white, a low sweetheart neckline, short hem and high side slit; a curled cable motif forms a small decorative belt sash.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "파우더룸의 전구·대리석과 잔의 탄산수를 보충해 선택한 glass_hold의 물건을 확정했다.",
+    "outfit": "볼트로스 미니 드레스에 high thigh slit·낮은 목선을 넣고 코스튬 예외에 맞춰 보라·흰색과 작은 케이블 허리 장식을 정했다."
+   }
+  }
+ }
+}
