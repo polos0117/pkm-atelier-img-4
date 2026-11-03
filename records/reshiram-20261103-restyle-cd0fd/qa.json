@@ -1,0 +1,147 @@
+{
+ "card": "레시라무",
+ "reference": {
+  "file": "img/레시라무_light_glossy_promo_f.webp",
+  "sha256": "79b95ff5eb1d2e5e6ae2ba91ffafe0a7fedbb75912b0b6f0fd87ed5f1fa43f5b"
+ },
+ "anatomy_tool": "unavailable: mediapipe not installed; visual inspection used",
+ "casual_plan": "Reuse existing registered scene settings for style replacement; no new casual scene reservation required.",
+ "slots": {
+  "heavy": {
+   "style_25d": {
+    "verdict": "dimensional",
+    "evidence": "Soft gradients model nose, cheek, lips and jaw; colored contours; face and outfit have coordinated polished shading."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two connected arms and hands, five-finger silhouettes with some overlap; two legs and feet, normal joint direction.",
+    "overlay_checked": false,
+    "note": "Visible anatomy inspected at output size; cropped body parts not inferred as missing."
+   },
+   "reference_match": "Face, silver braids and adult proportions retained.",
+   "composition": "Scene-specific framing.",
+   "notes": ""
+  },
+  "mobility": {
+   "style_25d": {
+    "verdict": "dimensional",
+    "evidence": "Soft gradients model nose, cheek, lips and jaw; colored contours; face and outfit have coordinated polished shading."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two connected arms and hands, five-finger silhouettes with some overlap; two legs and feet, normal joint direction.",
+    "overlay_checked": false,
+    "note": "Visible anatomy inspected at output size; cropped body parts not inferred as missing."
+   },
+   "reference_match": "Face, silver braids and adult proportions retained.",
+   "composition": "Scene-specific framing.",
+   "notes": ""
+  },
+  "light_overdrive": {
+   "style_25d": {
+    "verdict": "dimensional",
+    "evidence": "Soft gradients model nose, cheek, lips and jaw; colored contours; face and outfit have coordinated polished shading."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two connected arms and hands, five-finger silhouettes with some overlap; two legs and feet, normal joint direction.",
+    "overlay_checked": false,
+    "note": "Visible anatomy inspected at output size; cropped body parts not inferred as missing."
+   },
+   "reference_match": "Face, silver braids and adult proportions retained.",
+   "composition": "Closed/open pose and framing retained.",
+   "notes": ""
+  },
+  "heavy_overdrive": {
+   "style_25d": {
+    "verdict": "dimensional",
+    "evidence": "Soft gradients model nose, cheek, lips and jaw; colored contours; face and outfit have coordinated polished shading."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two connected arms and hands, five-finger silhouettes with some overlap; two legs and feet, normal joint direction.",
+    "overlay_checked": false,
+    "note": "Visible anatomy inspected at output size; cropped body parts not inferred as missing."
+   },
+   "reference_match": "Face, silver braids and adult proportions retained.",
+   "composition": "Closed/open pose and framing retained.",
+   "notes": ""
+  },
+  "mobility_overdrive": {
+   "style_25d": {
+    "verdict": "dimensional",
+    "evidence": "Soft gradients model nose, cheek, lips and jaw; colored contours; face and outfit have coordinated polished shading."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two connected arms and hands, five-finger silhouettes with some overlap; two legs and feet, normal joint direction.",
+    "overlay_checked": false,
+    "note": "Visible anatomy inspected at output size; cropped body parts not inferred as missing."
+   },
+   "reference_match": "Face, silver braids and adult proportions retained.",
+   "composition": "Closed/open pose and framing retained.",
+   "notes": ""
+  },
+  "casual1": {
+   "style_25d": {
+    "verdict": "dimensional",
+    "evidence": "Soft gradients model nose, cheek, lips and jaw; colored contours; face and outfit have coordinated polished shading."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "One hand grips the cup; thumb and curled fingers follow the grip, some hidden by cup. Other arm continues below crop. Cup is held by her left hand instead of selected right.",
+    "overlay_checked": false,
+    "note": "Visible anatomy inspected at output size; cropped body parts not inferred as missing."
+   },
+   "reference_match": "Face, silver braids and adult proportions retained.",
+   "composition": "Scene-specific framing.",
+   "notes": "Crop extends to upper waist and cup uses opposite hand."
+  },
+  "casual2": {
+   "style_25d": {
+    "verdict": "dimensional",
+    "evidence": "Soft gradients model nose, cheek, lips and jaw; colored contours; face and outfit have coordinated polished shading."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right thumbs-up has one thumb and four curled fingers; left hand rests on hip, partly hidden; both wrists connected.",
+    "overlay_checked": false,
+    "note": "Visible anatomy inspected at output size; cropped body parts not inferred as missing."
+   },
+   "reference_match": "Face, silver braids and adult proportions retained.",
+   "composition": "Scene-specific framing.",
+   "notes": ""
+  },
+  "casual3": {
+   "style_25d": {
+    "verdict": "dimensional",
+    "evidence": "Soft gradients model nose, cheek, lips and jaw; colored contours; face and outfit have coordinated polished shading."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "One hand tucks hair; fingers partly hidden in braids, forearm continues below frame. Other hand and lower body outside crop.",
+    "overlay_checked": false,
+    "note": "Visible anatomy inspected at output size; cropped body parts not inferred as missing."
+   },
+   "reference_match": "Face, silver braids and adult proportions retained.",
+   "composition": "Scene-specific framing.",
+   "notes": "Close-up is wider than planned face-only crop."
+  }
+ }
+}
