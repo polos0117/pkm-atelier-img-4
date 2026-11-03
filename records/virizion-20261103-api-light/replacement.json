@@ -1,0 +1,13 @@
+{
+ "note": "교체한 그림 — 앞 그림의 sha256(webp · 원본 png)과 까닭",
+ "items": [
+  {
+   "file": "비리디온_light_glossy_promo_f.webp",
+   "replaced": "2026-11-03",
+   "old_webp_sha256": "be37136bb9ac21161f0ad9257eae6698c6162e8297debcec9040759207083901",
+   "old_png_sha256": "bc3f0cb68bf710caf112ff82a621c04adae2691baed091866b13f3950d1cd3be",
+   "old_record": "records/virizion-20261103-beauty-rebuild",
+   "why": "GPT 세션 image_gen 화풍이 2D 셀 애니로 바뀜(11-03 테라키온부터, 사용자 「포켓몬쪽 며칠전부터 화풍이 2d 애니쪽으로 치우치는것 같아」). 같은 지시문을 API 로 넣으면 기존 화풍이라 경장만 API 로 다시 그림(사용자 「api로 경장 이미지만 다 재생성 해줘」). ②~⑨ 는 아직 옛 경장 기준"
+  }
+ ]
+}

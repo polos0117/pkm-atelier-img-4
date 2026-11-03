@@ -1,0 +1,310 @@
+{
+ "version": 1,
+ "card": "비리디온",
+ "no": 640,
+ "style": "glossy_promo",
+ "plan": "",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "adult woman in her twenties",
+    "facial character": "refined",
+    "body type": "slender athletic feminine adult build, approximately 7.5 heads tall; a normally sized head, natural neck length and balanced arm, torso and leg lengths",
+    "height impression": "average",
+    "shoulder build": "average",
+    "torso / chest build": "balanced",
+    "torso length": "balanced",
+    "waist / hip silhouette": "balanced",
+    "leg proportion": "balanced",
+    "lower-body build": "balanced",
+    "hair color": "green",
+    "eye color": "green"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "A beautiful adult anime heroine with delicately balanced features. Her standing figure is about 7.5 heads tall, with a natural neck and balanced torso and limbs; preserve that scale inside the full-body frame. Both natural human hands are visible, five fingers each, relaxed and clearly joined to the forearms.",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A silver microphone grille catches the amber spotlight; emerald curtains and low pink footlights mark the contest finale.",
+   "outfit": "A Virizion adult costume cut as a laced green corset bustier with a short flared skirt, pink leaf-shaped trim and black accents; a plunging neckline and a narrow gap above the skirt expose the midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 무대와 마이크 동작에는 조명의 색과 무대막 모습이 없어 추가한다.",
+    "outfit": "코르셋과 스커트 선택을 유지하고 계획의 깊은 목선·허리 노출을 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_contest / pokemon_costume / pc_corset / stand / chest_up / mic_sing",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_contest",
+      "ko": "대회 무대",
+      "en": "a contest or tournament stage under spotlights"
+     },
+     "role": null,
+     "use": {
+      "key": "mic_sing",
+      "ko": "마이크를 입가에 댄다",
+      "en": "holds a microphone close to her lips",
+      "prop": "마이크"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "plunging neckline",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "The timber terrace adjoins a steaming outdoor spa, its warm deck sheltered by a glass windbreak while snow covers the distant valley.",
+   "outfit": "A burgundy wrap-front swimsuit with a crossed bodice tied at the waist, high-cut legs and an open back, worn with simple spa sandals.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "겨울 산장 테라스에서 수영복이 자연스럽게 읽히도록 온천 데크와 바람막이를 더한다.",
+    "outfit": "랩 프론트 수영복을 유지하고 하이컷·등 노출과 버건디 소재색을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / lodge_terrace / swimwear / wrap_swim / walk / full_body / tote_shoulder",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "lodge_terrace",
+      "ko": "겨울 산장 테라스",
+      "en": "a snowy mountain-lodge terrace with a wooden railing and benches above a winter valley"
+     },
+     "role": null,
+     "use": {
+      "key": "tote_shoulder",
+      "ko": "가방끈을 어깨에 걸쳐 잡는다",
+      "en": "holds the strap of a canvas tote bag on her shoulder",
+      "prop": "토트백"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "wrap_swim",
+      "ko": "랩 프론트",
+      "en": "a wrap-front swimsuit with a crossed bodice tied at the waist"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · natural"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "open back"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Low winter sunlight filters through the bare branches beside the evergreen lawn; a small Deerling companion approaches the berry treat across the picnic blanket.",
+   "outfit": "An ivory fitted ski jacket cropped at the waist and worn open at an off-shoulder neckline, with charcoal padded ski pants; the exposed shoulder and waist remain visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "그늘 잔디밭의 계절광과 동료 종류가 선택지에 없어 사철록 한 마리와 겨울빛을 정한다.",
+    "outfit": "스키 재킷·팬츠를 유지하며 크롭 기장과 열린 어깨선으로 계획의 노출 두 방식을 담는다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_lawn / active / ski_set / stand / waist_up / treat_offer",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_lawn",
+      "ko": "그늘진 잔디밭",
+      "en": "a shaded lawn with a picnic blanket under a broad tree"
+     },
+     "role": null,
+     "use": {
+      "key": "treat_offer",
+      "ko": "동료에게 간식을 내민다",
+      "en": "offers a small berry treat to her companion",
+      "prop": "나무열매 간식"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "ski_set",
+      "ko": "스키 재킷 + 스키 팬츠",
+      "en": "a fitted ski jacket and padded ski pants"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · pocket"
+    },
+    "garments": [
+     "jacket",
+     "trousers"
+    ],
+    "expose": [
+     "cropped hem",
+     "off-shoulder neckline"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}
