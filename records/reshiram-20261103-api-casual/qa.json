@@ -1,0 +1,51 @@
+{
+ "card": "레시라무",
+ "cuts": [
+  {
+   "slot": "casual1",
+   "generation_mode": "API images/edits",
+   "reference": "img/레시라무_light_glossy_promo_f.webp",
+   "reference_sha256": "79b95ff5eb1d2e5e6ae2ba91ffafe0a7fedbb75912b0b6f0fd87ed5f1fa43f5b",
+   "prompt_sha256": "99be1cf7c5c94a890a8da17433e443f4f2413faede30b680edfdb6f67d8c8b0d",
+   "image_sha256": "07a10c0204f84d52b73267262a9b9bd2e9ea1c464ec7af1d0afc00348e77b544",
+   "webp_sha256": "921fdb3ca76d1eb52d2cdea7cfd66bbee4fc35e01b39b7e17804c6ccfa7f1c53",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual2",
+   "generation_mode": "API images/edits",
+   "reference": "img/레시라무_light_glossy_promo_f.webp",
+   "reference_sha256": "79b95ff5eb1d2e5e6ae2ba91ffafe0a7fedbb75912b0b6f0fd87ed5f1fa43f5b",
+   "prompt_sha256": "b865e5ed2998a96b48753314eb0c5b7d5b34c9ddec07d38a71f778f4c0c0eacc",
+   "image_sha256": "eacc17f82ca8081675f1a9e67e46db707ac758a1537e8c8119fa38ac0303915c",
+   "webp_sha256": "cae78866c3c481c963e8097fa9664868de27c4ed7e4ea428f37d7ee4c1331717",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual3",
+   "generation_mode": "API images/edits",
+   "reference": "img/레시라무_light_glossy_promo_f.webp",
+   "reference_sha256": "79b95ff5eb1d2e5e6ae2ba91ffafe0a7fedbb75912b0b6f0fd87ed5f1fa43f5b",
+   "prompt_sha256": "aa65073c63a5bec2195f9f06a08b008a88342bb71033e5343df74baf02949303",
+   "image_sha256": "ea49a5e324a168ae0a51e406241ef87ed20bc10fad5e93189ff16195f836226c",
+   "webp_sha256": "e3f90ca85645fedf029d13636c681af39d3f2d957a48d676eec5e7087a71e16e",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  }
+ ],
+ "source_prompts": "GPT 세션 마지막 기록의 casual 지시문에 일상컷 새 줄(refLock)만 적용"
+}
