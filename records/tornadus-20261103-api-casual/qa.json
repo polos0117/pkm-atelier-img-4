@@ -1,0 +1,51 @@
+{
+ "card": "토네로스",
+ "cuts": [
+  {
+   "slot": "casual1",
+   "generation_mode": "API images/edits",
+   "reference": "img/토네로스_light_glossy_promo_f.webp",
+   "reference_sha256": "f9d4ae16bf802e6e58fd428b013ca08938ab5da5e16cdd2c2fa5c86914be5dd9",
+   "prompt_sha256": "6843b05d1660417a9acc42eb39639eb782fd23078f00ea88c41b98b29e863b82",
+   "image_sha256": "5441dcbbb72bcf776c09c4ea4f662fb6cb85ef7d2647ccd7f32faf965493833b",
+   "webp_sha256": "ada6d7d98f112d1164f49a13567065e8fe007f21d80d79e3ced2eb215bf0e82e",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual2",
+   "generation_mode": "API images/edits",
+   "reference": "img/토네로스_light_glossy_promo_f.webp",
+   "reference_sha256": "f9d4ae16bf802e6e58fd428b013ca08938ab5da5e16cdd2c2fa5c86914be5dd9",
+   "prompt_sha256": "98124c231427c6e44dbc692ed3c6677929633ad72c815eae818592c19a8efcb0",
+   "image_sha256": "93058a398a6f64e9244b18130f0e2d97b1adab1cde5eb86645d457115b6747ef",
+   "webp_sha256": "c4876c728648a1245ff97ba0fc80131f1a098f5e92a14ab4c88b8c27d2bab041",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual3",
+   "generation_mode": "API images/edits",
+   "reference": "img/토네로스_light_glossy_promo_f.webp",
+   "reference_sha256": "f9d4ae16bf802e6e58fd428b013ca08938ab5da5e16cdd2c2fa5c86914be5dd9",
+   "prompt_sha256": "a31d1d1a75b2e5b5b1d62a4760de1933d7eca97bf9a0d5899c1c7751ce1f9afa",
+   "image_sha256": "e675db5341b106cb3db4fe128a3680fb560e2462218be93a993dede5ee2b99de",
+   "webp_sha256": "aaa1818c4048efe4f11b4249400e44306aad0d2231a437016d46ed26ebf25556",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  }
+ ],
+ "source_prompts": "GPT 세션 마지막 기록의 casual 지시문에 일상컷 새 줄(refLock)만 적용"
+}
