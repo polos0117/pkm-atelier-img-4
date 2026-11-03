@@ -30,6 +30,21 @@
     "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
    ],
    "accepted": true
+  },
+  {
+   "slot": "casual3",
+   "generation_mode": "API images/edits",
+   "reference": "img/비리디온_light_glossy_promo_f.webp",
+   "reference_sha256": "573e026bbb79ad6495e2449406f51caa0a41f9adfd303d4bd67c2243f7759812",
+   "prompt_sha256": "04aff4c019fce3c3081093e10fa53ca9a26339076cfb7485396008373d18ee42",
+   "image_sha256": "13f354fc5e70f6f5ca129c318e0822b111d22e8f7c50497a0b896a8fa16d46af",
+   "webp_sha256": "c303b76e604a697321167583f7ab6647f094864a2c25f92198ef2b77a0927c44",
+   "reviewer": "claude + user",
+   "observations": [
+    "오른팔이 어깨에서 앞 아래로 이어지고 손바닥 위 열매",
+    "사용자 「응 올려줘」"
+   ],
+   "accepted": true
   }
  ],
  "source_prompts": "GPT 세션 마지막 기록의 casual 지시문에 일상컷 새 줄(refLock)만 적용"
