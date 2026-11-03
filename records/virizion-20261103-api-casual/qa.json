@@ -1,0 +1,36 @@
+{
+ "card": "비리디온",
+ "cuts": [
+  {
+   "slot": "casual1",
+   "generation_mode": "API images/edits",
+   "reference": "img/비리디온_light_glossy_promo_f.webp",
+   "reference_sha256": "573e026bbb79ad6495e2449406f51caa0a41f9adfd303d4bd67c2243f7759812",
+   "prompt_sha256": "3f56c01c2791dc8bb56a7bc687211e2d20601ce17856b1a95ef2366bc77774d5",
+   "image_sha256": "acf1cc322e72fa57ef968366789fc0ae59e028a069d88a5ff70221bd88df8850",
+   "webp_sha256": "faec75a7f5645da081c67ad43c514054769ce62da756e3a7b071bbeddfd14eff",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual2",
+   "generation_mode": "API images/edits",
+   "reference": "img/비리디온_light_glossy_promo_f.webp",
+   "reference_sha256": "573e026bbb79ad6495e2449406f51caa0a41f9adfd303d4bd67c2243f7759812",
+   "prompt_sha256": "9478aad55ce1c636cf0b70b32d7f9699cb4b902f26c2e695c16c0f67392b999c",
+   "image_sha256": "644a55fec2596498cd1c23acee8e3d89fe3a82bd402bd063b975ae356dc9c90a",
+   "webp_sha256": "a93807d57f64c1d797a525db05bf4a38a3939e2224c916116cff0b389e3392f0",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  }
+ ],
+ "source_prompts": "GPT 세션 마지막 기록의 casual 지시문에 일상컷 새 줄(refLock)만 적용"
+}
