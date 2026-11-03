@@ -1,0 +1,140 @@
+{
+ "version": 1,
+ "card": "레시라무",
+ "no": 643,
+ "style": "glossy_promo",
+ "plan": "",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "adult woman in her twenties",
+    "facial character": "refined",
+    "body type": "slender athletic feminine adult build, approximately 7.5 heads tall, natural neck length and balanced torso and limbs"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "Both natural human hands are visible, with five fingers on each hand, relaxed and clearly joined to their respective forearms.",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A ceramic cup of iced herbal tea comes from the counter of a sunlit seaside plant shop, surrounded by dense green shelves.",
+   "outfit": "An opaque coral bandeau bikini with a high-cut bottom and small secure side cutouts, paired with a very short open-knit crop top that leaves shoulders and midriff exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "작은 가게 선택을 바닷가 식물 가게로 좁히고 cup_sip에 쓸 아이스 허브차 컵을 정했다.",
+    "outfit": "반도 비키니를 유지하고 high-cut leg·side cutouts 및 짧은 덧상의로 어깨·복부가 드러나는 구조를 정했다."
+   }
+  },
+  "casual2": {
+   "scene": "Silver chandeliers and deep-blue velvet drapes frame a masquerade ballroom photo corner.",
+   "outfit": "A Reshiram costume cropped asymmetric white top with a strapless side and a single feather-shaped shoulder strap, paired with a fitted mini skirt, feather-edged trim and a small turbine-shaped belt ornament.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "가면무도회장의 은빛 샹들리에와 파란 벨벳 포토 코너를 보충했다.",
+    "outfit": "크롭 투피스 코스튬을 유지하면서 strapless top·one-shoulder cut을 비대칭 흰 상의에 구현하고 미니스커트와 작은 터빈 장식을 정했다."
+   }
+  },
+  "casual3": {
+   "scene": "Soft amber light and a faint veil of steam fill a cedar sauna lounge in 2010.",
+   "outfit": "A short opaque spa robe in pale peach, securely wrapped across the chest with a high thigh slit and mini hem; the relaxed neckline leaves the collarbones exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "출시 무렵 현실의 사우나를 2010년 삼나무 휴게실과 호박빛 증기로 구체화했다.",
+    "outfit": "스파 가운을 불투명하게 여미고 예약된 high thigh slit·mini length와 쇄골이 보이는 느슨한 목선을 적용했다."
+   }
+  }
+ }
+}
