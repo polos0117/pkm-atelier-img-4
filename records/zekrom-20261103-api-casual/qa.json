@@ -1,0 +1,51 @@
+{
+ "card": "제크로무",
+ "cuts": [
+  {
+   "slot": "casual1",
+   "generation_mode": "API images/edits",
+   "reference": "img/제크로무_light_glossy_promo_f.webp",
+   "reference_sha256": "34ed16d699594e3ea9c421c628d9aaf988807129ed07952d7795b47f4737e731",
+   "prompt_sha256": "f2ec7e927e474630d9fe3dc4af0b5efc47a321a81cbf2ec38360c89e61fba465",
+   "image_sha256": "305cc5b595fc6199a72a401531d4f7c2d01966f510abb6904b1740afb08981d0",
+   "webp_sha256": "f77cc52991894817ea1d830fa2df6f9c539bda2178288073c4259338c80b258d",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual2",
+   "generation_mode": "API images/edits",
+   "reference": "img/제크로무_light_glossy_promo_f.webp",
+   "reference_sha256": "34ed16d699594e3ea9c421c628d9aaf988807129ed07952d7795b47f4737e731",
+   "prompt_sha256": "f8ddbfa3a05d7408e3e5dd9a38c4452001d45b142eb4e297bf7bcc13e392b33a",
+   "image_sha256": "1485873e89627c081c023e2b2d1452f0fc7ae43a179f5bda44d67a278427bead",
+   "webp_sha256": "b1518b45ed371746ea08f127bbaa211b19973fc0540882e21634c4fce6622da4",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual3",
+   "generation_mode": "API images/edits",
+   "reference": "img/제크로무_light_glossy_promo_f.webp",
+   "reference_sha256": "34ed16d699594e3ea9c421c628d9aaf988807129ed07952d7795b47f4737e731",
+   "prompt_sha256": "4d4a4eab693661a238cc107944dc9481536a4777caf212b891ccd4141636c4ce",
+   "image_sha256": "00ff9669b471afa2ee52cfc57fedccd4dad8b76448949f1320ee239e1b25c3ff",
+   "webp_sha256": "bea4e189519a69cd75b95b64ae6201efefafc13df0af1dcead60fcc173415416",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  }
+ ],
+ "source_prompts": "GPT 세션 마지막 기록의 casual 지시문에 일상컷 새 줄(refLock)만 적용"
+}
