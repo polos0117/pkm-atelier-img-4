@@ -1,0 +1,35 @@
+{
+ "card": "토네로스",
+ "slot": "light",
+ "accepted": true,
+ "generation_mode": "API images/generations",
+ "generator": {
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque"
+ },
+ "prompt_sha256": "e510f2de10c076b70e95aca8e3bd5a6a67ca9e2fae28ae7454a76a0a34ae6963",
+ "prompt_note": "기록 settings 에서 styleReference(지운 칸)와 「attached collection image as the rendering guide」 문장만 뺐다 — 미형 재설계 값 · 무늬 문장은 그대로",
+ "image_sha256": "905542193bd7dac7526f9ca215d65e45bcc0224808a1f4fa9d20a9553144ef9d",
+ "webp_sha256": "f9d4ae16bf802e6e58fd428b013ca08938ab5da5e16cdd2c2fa5c86914be5dd9",
+ "reviewer": "claude",
+ "style_25d": {
+  "판정": "2.5D",
+  "근거": "코 · 광대 · 입술에 칠한 음영, 눈선이 부드럽고 피부가 면으로 칠해짐, 갑옷에 광택 · 질감 — 11-02 코바르온까지의 기존 화풍과 같다"
+ },
+ "anatomy": {
+  "tool": "육안(원본 크기 손 잘라 봄)",
+  "arms": 2,
+  "legs": 2,
+  "hands": "두 손 모두 손가락 다섯 · 엄지 방향 맞음 · 손목에 이어짐",
+  "note": "추가 팔다리 없음"
+ },
+ "visual_checks": [
+  "성인 여성 한 명",
+  "머리 · 발이 들어간 세로 전신 2:3",
+  "얼굴이 카메라 쪽",
+  "글자 · 로고 없음"
+ ],
+ "follow_up": "②~⑨ 는 옛(2D) 경장을 보고 그린 그림 — 새 경장을 첨부해 다시 그리기 전까지 얼굴 · 머리가 조금 다르다"
+}
