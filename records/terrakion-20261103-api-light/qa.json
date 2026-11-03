@@ -1,0 +1,35 @@
+{
+ "card": "테라키온",
+ "slot": "light",
+ "accepted": true,
+ "generation_mode": "API images/generations",
+ "generator": {
+  "model": "gpt-image-2.5-sunburst",
+  "size": "1024x1536",
+  "quality": "high",
+  "background": "opaque"
+ },
+ "prompt_sha256": "c886197dfb4c37cc385f90ae8744be3c9ea7d45605b800eb44adb1b4c9a9ebb3",
+ "prompt_note": "기록의 light-prompt.txt 와 바이트까지 같다",
+ "image_sha256": "bd44a1c96e15d1f4e18aa175a27ca35603dcfc1e269b9e6840448a6d9797c6ba",
+ "webp_sha256": "222fbfabc3bb009ba37df883b2b1c454d6a46d08dd5ba1848b0e2595980fa8b7",
+ "reviewer": "claude",
+ "style_25d": {
+  "판정": "2.5D",
+  "근거": "코 · 광대 · 입술에 칠한 음영, 눈선이 부드럽고 피부가 면으로 칠해짐, 갑옷에 광택 · 질감 — 11-02 코바르온까지의 기존 화풍과 같다"
+ },
+ "anatomy": {
+  "tool": "육안(원본 크기 손 잘라 봄)",
+  "arms": 2,
+  "legs": 2,
+  "hands": "두 손 모두 손가락 다섯 · 엄지 방향 맞음 · 손목에 이어짐",
+  "note": "추가 팔다리 없음"
+ },
+ "visual_checks": [
+  "성인 여성 한 명",
+  "머리 · 발이 들어간 세로 전신 2:3",
+  "얼굴이 카메라 쪽",
+  "글자 · 로고 없음"
+ ],
+ "follow_up": "②~⑨ 는 옛(2D) 경장을 보고 그린 그림 — 새 경장을 첨부해 다시 그리기 전까지 얼굴 · 머리가 조금 다르다"
+}
