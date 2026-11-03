@@ -1,0 +1,84 @@
+{
+  "scope": "제크로무 경장 1장",
+  "slot": "light",
+  "accepted": true,
+  "generation_mode": "built-in image_gen",
+  "submitted_same": true,
+  "submitted_sha256": "dd7ddb3ba9e7262d6bc46ef6fac9c67540f346229094d440a8b45a08052287a8",
+  "size": [
+    1024,
+    1536
+  ],
+  "style": "glossy_promo",
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named mediapipe)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "오른손(화면 왼쪽)은 손바닥을 펼쳐 다섯 손가락과 엄지 방향을 확인. 왼손(화면 오른쪽)은 주먹으로 손가락 일부가 접혀 가려짐. 양 손목은 각각 팔에 연결됨.",
+    "overlay_checked": false,
+    "note": "원본을 육안 검수. 팔 둘·다리 둘이 몸에 연결되고 자연스럽게 굽힘. 추가 팔다리 없음."
+  },
+  "visual_checks": [
+    "성인 여성 한 명",
+    "머리·발이 들어간 세로 전신",
+    "얼굴이 카메라 쪽",
+    "검은 밀착 경장 한 겹",
+    "손가락 위를 가리는 이펙트 없음",
+    "글자·로고 없음"
+  ],
+  "face_design": {
+    "name": "제크로무",
+    "en": "Zekrom",
+    "line": "제크로무",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "angular",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "angled brows",
+      "nose character": "short nose with upturned tip",
+      "lips": "thin lips"
+    },
+    "why": "검은 용의 금속 같은 각과 전기적 선을 각진 얼굴과 수평 눈으로 해석한다.",
+    "cues": [
+      "‘small wing-spike’ → 얼굴형 각지고 선명한 얼굴형",
+      "‘small wing-spike’ → 턱선 · 턱끝 각지고 또렷한 턱",
+      "‘small wing-spike’ → 눈매 가늘고 날카로운 눈",
+      "‘small wing-spike’ → 눈썹 바깥에서 꺾이는 사선",
+      "‘small wing-spike’ → 입술 얇은 입술"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운, 코 보통 → 짧고 코끝이 들린 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 높이 묶은 포니테일 → 뒤로 넘긴 스타일",
+    "hair": {
+      "hairstyle": "slicked back",
+      "hair length": "long",
+      "bangs": "none"
+    },
+    "hair_locked": false,
+    "hair_why": "‘thundercloud-like crest’에서 뒤로 넘긴 스타일(곧은 결) · 긴 머리 · 앞머리 없음",
+    "hair_cues": [
+      "‘thundercloud-like crest’ → 헤어스타일 뒤로 넘긴 스타일"
+    ]
+  },
+  "face_sentence": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; narrow eyes, medium size, level outer corners, close-set; angled brows; short nose with upturned tip; thin lips.",
+  "comparison": {
+    "characters": [
+      "토네로스",
+      "볼트로스",
+      "레시라무"
+    ],
+    "observed": "토네로스·볼트로스보다 좁고 수평인 눈과 사선 눈썹, 얇은 입술로 엄격한 인상. 레시라무의 땋은 머리와 달리 긴 흑발을 뒤로 넘김. 각진 검은 판으로 구별됨.",
+    "sources": [
+      "/workspace/scratch/728dc229de80/beauty-img/img/토네로스_light_glossy_promo_f.webp",
+      "/workspace/scratch/93e28ff713cd/pkm-atelier-img-4/img/볼트로스_light_glossy_promo_f.webp",
+      "/workspace/scratch/93e28ff713cd/pkm-atelier-img-4/img/레시라무_light_glossy_promo_f.webp"
+    ]
+  },
+  "original_sha256": "1d232c22540cb567c7d0fed221a9800296f8c519937b52742a26adf3703e9617",
+  "webp_sha256": "c603de2def2f1bcd065268b4a67f1dda9bcafd69aac0f2475dcff353b7df247f"
+}
