@@ -1,0 +1,51 @@
+{
+ "card": "테라키온",
+ "cuts": [
+  {
+   "slot": "casual1",
+   "generation_mode": "API images/edits",
+   "reference": "img/테라키온_light_glossy_promo_f.webp",
+   "reference_sha256": "222fbfabc3bb009ba37df883b2b1c454d6a46d08dd5ba1848b0e2595980fa8b7",
+   "prompt_sha256": "59d697b58cecf4068b5944674a3d6363dfd3f3c0ff0ae2b1af92abc9c1020bba",
+   "image_sha256": "f14cf937bc5f43cb76f7e1036ed11ae638ed88fab898b0c26a4dd7409b324911",
+   "webp_sha256": "15ecc604a766c713b74d87f6b8792478701f1a369858b47892f2a1f050618174",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual2",
+   "generation_mode": "API images/edits",
+   "reference": "img/테라키온_light_glossy_promo_f.webp",
+   "reference_sha256": "222fbfabc3bb009ba37df883b2b1c454d6a46d08dd5ba1848b0e2595980fa8b7",
+   "prompt_sha256": "1ffc67ccece1830b84466ca954d56b8f24db1a3110e4201b4ac0122c943675e0",
+   "image_sha256": "466884a7c64da753ba532ecf1f1e4aea12d47151c2a0c2128de8a91a5222827c",
+   "webp_sha256": "df8e649328adeb0785d5ad3696b6b815d12f502bad964fb99cc189b6aea75ddf",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  },
+  {
+   "slot": "casual3",
+   "generation_mode": "API images/edits",
+   "reference": "img/테라키온_light_glossy_promo_f.webp",
+   "reference_sha256": "222fbfabc3bb009ba37df883b2b1c454d6a46d08dd5ba1848b0e2595980fa8b7",
+   "prompt_sha256": "87cb5cf78e233fb361e4c3ec26654b786b28f465e06f06e207ec1c0b5017fd97",
+   "image_sha256": "b4c24182a4fc5c922b38e07bb9b378d59ef442de6c1fe7df2b874a0090c67c92",
+   "webp_sha256": "3e1ccd0062e71d694c5b02535aa6e3f9a0f4a5fb528e798069d45f5ec885485a",
+   "reviewer": "claude + user",
+   "observations": [
+    "경장과 같은 얼굴 · 그림체",
+    "사용자 확인(비교판) — 「두 개 빼면 다 올려도 돼」"
+   ],
+   "accepted": true
+  }
+ ],
+ "source_prompts": "GPT 세션 마지막 기록의 casual 지시문에 일상컷 새 줄(refLock)만 적용"
+}
