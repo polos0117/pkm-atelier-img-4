@@ -1,0 +1,13 @@
+{
+ "note": "교체한 그림 — 앞 그림의 sha256(webp · 원본 png)과 까닭",
+ "items": [
+  {
+   "file": "제크로무_light_glossy_promo_f.webp",
+   "replaced": "2026-11-03",
+   "old_webp_sha256": "c603de2def2f1bcd065268b4a67f1dda9bcafd69aac0f2475dcff353b7df247f",
+   "old_png_sha256": "1d232c22540cb567c7d0fed221a9800296f8c519937b52742a26adf3703e9617",
+   "old_record": "records/제크로무-2026-11-03-light",
+   "why": "GPT 세션 image_gen 화풍이 2D 셀 애니로 바뀜(11-03 테라키온부터, 사용자 「포켓몬쪽 며칠전부터 화풍이 2d 애니쪽으로 치우치는것 같아」). 같은 지시문을 API 로 넣으면 기존 화풍이라 경장만 API 로 다시 그림(사용자 「api로 경장 이미지만 다 재생성 해줘」). ②~⑨ 는 아직 옛 경장 기준"
+  }
+ ]
+}
