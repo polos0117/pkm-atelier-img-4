@@ -1,0 +1,40 @@
+{
+ "card": "꼬부기",
+ "style": "anime_gloss",
+ "made": "2026-11-06",
+ "tool": "OpenAI images API gpt-image-2.6-sunburst · high · 1024x1536 — light: /v1/images/generations(첨부 없음) · casual: /v1/images/edits(light 첨부)",
+ "light": "tools/concept-mecha.cjs — 2D MMORPG 메카 컨셉(docs/CONCEPT_MECHA.md), 기본 화풍 anime_gloss(자연광 윤기) · 꼬부기는 같은 글을 손으로 지은 판(light-prompt.txt)",
+ "casual": "tools/casual-plan.cjs 계획(세션 concept-casual, 예약은 공개 장부에 안 올렸다) → tools/prompt-pack.cjs build 지시문 그대로 제출(casualN-submitted.txt · submitted.json)",
+ "files": [
+  {
+   "file": "꼬부기_light_anime_gloss_f.webp",
+   "source": "squirtle-gloss3.png",
+   "source_sha256": "b9debb490409013a76de829423a29160d5f20602b8a2196939ee07a6744d9d4c",
+   "webp_sha256": "03711bd4c88d82d73f62262f7515dcaf494abf477d94e3d75b93ba0e0b8d20f6",
+   "bytes": 322502
+  },
+  {
+   "file": "꼬부기_anime_gloss_f_casual1.webp",
+   "source": "squirtle-casual1-nat.png",
+   "source_sha256": "b8a98f7d73822b41bf573c98ecababd3720c48531fc2ce59b96a1c955e656481",
+   "webp_sha256": "402e928492bcc5497abdaa3a3f98c2265127b4f9928e1e7baf1612d13c8a1a0f",
+   "bytes": 271956
+  },
+  {
+   "file": "꼬부기_anime_gloss_f_casual2.webp",
+   "source": "squirtle-casual2-nat.png",
+   "source_sha256": "356b818ff0651fce9f178b47a375aea73fec3c29796f69cee76d3502ae80245e",
+   "webp_sha256": "d40bf5491aa52a8869396dd4da4824a20d87e534705c166ace4c6403f1673e8e",
+   "bytes": 190276
+  },
+  {
+   "file": "꼬부기_anime_gloss_f_casual3.webp",
+   "source": "squirtle-casual3-nat2.png",
+   "source_sha256": "235064cb36612f12cba04d419d4dfc687ffd1a3f61a797ceda7626dd9864e4ce",
+   "webp_sha256": "3092ac72f491d6a86ac612f4f5ac389cf8e56989347d69d2fcc3a974a4a94fdf",
+   "bytes": 267946
+  }
+ ],
+ "notes": "casual3 은 뒤 3/4 돌아보기가 얼굴 · 몸이 비틀려 계획기 --avoid 꼬부기:3:body=rear_3q 로 다시 정했다(사용자 확인)",
+ "originals": "생성 원본 PNG 는 올리지 않는다(IMAGE_RULES 6절) — sha256 만"
+}

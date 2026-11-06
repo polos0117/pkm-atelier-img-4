@@ -1,0 +1,40 @@
+{
+ "card": "이상해씨",
+ "style": "anime_gloss",
+ "made": "2026-11-06",
+ "tool": "OpenAI images API gpt-image-2.6-sunburst · high · 1024x1536 — light: /v1/images/generations(첨부 없음) · casual: /v1/images/edits(light 첨부)",
+ "light": "tools/concept-mecha.cjs — 2D MMORPG 메카 컨셉(docs/CONCEPT_MECHA.md), 기본 화풍 anime_gloss(자연광 윤기) · 자동 초안",
+ "casual": "tools/casual-plan.cjs 계획(세션 concept-casual, 예약은 공개 장부에 안 올렸다) → tools/prompt-pack.cjs build 지시문 그대로 제출(casualN-submitted.txt · submitted.json)",
+ "files": [
+  {
+   "file": "이상해씨_light_anime_gloss_f.webp",
+   "source": "bulbasaur-mecha.png",
+   "source_sha256": "419a3b2905857013f4411b488678a93c9040c9e3928549766d835d99690b8294",
+   "webp_sha256": "c7f550b2ad2d5e6efa192e0b6bf5e073498c506c5b22d753560f3fe6848e5e0e",
+   "bytes": 380824
+  },
+  {
+   "file": "이상해씨_anime_gloss_f_casual1.webp",
+   "source": "bulbasaur-casual1-g4a.png",
+   "source_sha256": "ee76184183581fb30d8566d5a005de1ea71a5fdd35e8b41527258affe30ddacb",
+   "webp_sha256": "3ee9b630ca28a3a11f49481e8a38fbbdb0db3d108ccc5215f8cf4b1eef6f1e50",
+   "bytes": 248984
+  },
+  {
+   "file": "이상해씨_anime_gloss_f_casual2.webp",
+   "source": "bulbasaur-casual2-g.png",
+   "source_sha256": "228006ace9bb9f8ca7de2b3e8f3a45bc585f37329c4e37c3693a17a74cf85eda",
+   "webp_sha256": "586c6056a101b72e53b388b7eb0014a090bb159c09332938ea17dc30fe6dc783",
+   "bytes": 334906
+  },
+  {
+   "file": "이상해씨_anime_gloss_f_casual3.webp",
+   "source": "bulbasaur-casual3-g.png",
+   "source_sha256": "860421384e2275bf488acf1d195e9368db933165e13bebc63691e947a8172b2a",
+   "webp_sha256": "0c1d120ddb54499d890f9ce51945916628b8508f2c48373a8f45eb8d2939176a",
+   "bytes": 284144
+  }
+ ],
+ "notes": "casual3 은 휴대폰 동작 겹침 · 막히는 바디수트 코스튬을 --avoid 로 다시 정했다. casual1 은 셀카 쥐는 손이 어색해 custom 에 쥐는 법을 적어 다시 그린 두 장 가운데 사용자가 고른 것",
+ "originals": "생성 원본 PNG 는 올리지 않는다(IMAGE_RULES 6절) — sha256 만"
+}

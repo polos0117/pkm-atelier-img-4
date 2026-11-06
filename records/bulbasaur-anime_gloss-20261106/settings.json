@@ -1,0 +1,296 @@
+{
+ "version": 1,
+ "card": "이상해씨",
+ "no": 1,
+ "style": "glossy_promo",
+ "plan": "/tmp/claude-0/-home-user-atelier/bc7bc145-312e-5a4a-8461-32d6d0ea4734/scratchpad/pkm-concept/casual/PLAN-이상해씨.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A small leaf-shaped phone charm dangles from her phone as she holds it up for a selfie by the café window seat.",
+   "outfit": "A playful café-waitress event costume — a fitted cropped strapless vest with a crisp collar bow and a tiny waist apron over a pleated mini skirt, clearly a costume rather than a real uniform.",
+   "camera": "",
+   "custom": "Only her right hand is raised; her left arm stays lowered out of frame. The raised hand is unmistakably a right hand: as seen in the image its thumb is on the left side of the hand and its little finger on the right side, and its fingers curl around the phone's right edge onto the back of the phone while the thumb rests on the phone's left edge.",
+   "why": {
+    "scene": "lead detail — 휴대폰 잎 고리(원작 모티프 소품)부터, 카페 창가",
+    "outfit": "역할극 계열에 옷 문장이 비어 계획 옷 종류 vest · 드러내기 strapless top · cropped hem 으로, 무대 종류는 카페 이벤트",
+    "custom": "두 번째 판은 손가락이 오른쪽을 감쌌지만 손이 왼손 모양이 됐다(사용자 「지금은 또 왼손이 드네」) — 올린 손은 오른손 하나 · 엄지와 새끼손가락 자리 · 쥐는 쪽을 같이 적는다"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_cafe / roleplay / stand / chest_up / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_cafe",
+      "ko": "카페",
+      "en": "a neighbourhood café with a counter and window seats"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "vest"
+    ],
+    "expose": [
+     "strapless top",
+     "cropped hem"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "Crouching low between the game shelves, she checks the rules on her phone beside a half-finished board game on the low table.",
+   "outfit": "A 1950s halter playsuit in cherry red with a plunging neckline and a deep open back, short fitted legs and a narrow belt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "lead action — 쪼그려 앉아 휴대폰으로 규칙 보는 동작부터, 보드게임",
+    "outfit": "계획 드러내기 plunging neckline · open back 을 플레이수트 문장에 — 원작 색(초록)은 옷에 안 옮기고 체리 레드"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / boardgame_lounge / retro / halter_playsuit / squat / full_body / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "boardgame_lounge",
+      "ko": "보드게임 라운지",
+      "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "halter_playsuit",
+      "ko": "50년대 홀터 플레이수트",
+      "en": "a 1950s halter playsuit"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "plunging neckline",
+     "open back"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "A club powder room with a bulb-lit mirror and pink-and-green neon reflected on the glossy tiles, a lipstick and a set-down glass on the counter.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "lead place — 파우더룸 모습부터, 잔을 내려놓은 자리"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_powder / pokemon_costume / pc_corset / sit_chair / three_quarter / cup_set",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_powder",
+      "ko": "파우더룸",
+      "en": "a club powder room with a lit mirror and neon on the tiles"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_set",
+      "ko": "잔을 내려놓는다",
+      "en": "sets a cup down on the surface in front of her",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "strapless top",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}

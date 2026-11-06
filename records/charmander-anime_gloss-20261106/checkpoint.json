@@ -1,0 +1,40 @@
+{
+ "card": "파이리",
+ "style": "anime_gloss",
+ "made": "2026-11-06",
+ "tool": "OpenAI images API gpt-image-2.6-sunburst · high · 1024x1536 — light: /v1/images/generations(첨부 없음) · casual: /v1/images/edits(light 첨부)",
+ "light": "tools/concept-mecha.cjs — 2D MMORPG 메카 컨셉(docs/CONCEPT_MECHA.md), 기본 화풍 anime_gloss(자연광 윤기) · 자동 초안",
+ "casual": "tools/casual-plan.cjs 계획(세션 concept-casual, 예약은 공개 장부에 안 올렸다) → tools/prompt-pack.cjs build 지시문 그대로 제출(casualN-submitted.txt · submitted.json)",
+ "files": [
+  {
+   "file": "파이리_light_anime_gloss_f.webp",
+   "source": "charmander-mecha.png",
+   "source_sha256": "4d4a6b438b749d178ec52a501246a6c6b2d9c066310338ec69fb66a1a32c824b",
+   "webp_sha256": "b80dc8dcfced31368e54a947a95b860d3bce02e4c029e33ac1ef254e2f104adc",
+   "bytes": 327724
+  },
+  {
+   "file": "파이리_anime_gloss_f_casual1.webp",
+   "source": "charmander-casual1-g.png",
+   "source_sha256": "0cfe40913024bac2836d61acb32a29fe7da79bb3b3b1e8966d6dc5c4a63ce0ee",
+   "webp_sha256": "802b63e7ea8d52efe76f9c49db1262f25b8102e0bddbd7d11bc07d1055d656f4",
+   "bytes": 274732
+  },
+  {
+   "file": "파이리_anime_gloss_f_casual2.webp",
+   "source": "charmander-casual2-g.png",
+   "source_sha256": "030ef1c7c8a9e4d614bba0a768e1a166bc78e2d362c281e7d420b666264b9dae",
+   "webp_sha256": "16bdea36258b379bde49e0f84d79fdfdca6a669a61355586a1921045a57c88e5",
+   "bytes": 271716
+  },
+  {
+   "file": "파이리_anime_gloss_f_casual3.webp",
+   "source": "charmander-casual3-g.png",
+   "source_sha256": "bdd14ff5d03e43ea1740737020750d98af247f6ca98157327e490ce0fd2fdf1f",
+   "webp_sha256": "65f93b4be19258470b83e2c1720930f122820fee7d138f80b97fc1a60b376760",
+   "bytes": 253904
+  }
+ ],
+ "notes": "",
+ "originals": "생성 원본 PNG 는 올리지 않는다(IMAGE_RULES 6절) — sha256 만"
+}

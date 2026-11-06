@@ -1,0 +1,290 @@
+{
+ "version": 1,
+ "card": "파이리",
+ "no": 4,
+ "style": "glossy_promo",
+ "plan": "/tmp/claude-0/-home-user-atelier/bc7bc145-312e-5a4a-8461-32d6d0ea4734/scratchpad/pkm-concept/casual/PLAN-파이리.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Golden late-afternoon light floods the swaying cable car cabin as it glides over a misty valley, her long veil drifting against the window.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "lead light — 케이블카 안 시간대 빛부터, 베일"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / travel_cablecar / bridal / slip_wedding / stand / environmental / handheld_play",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "travel_cablecar",
+      "ko": "케이블카",
+      "en": "a cable car cabin over a misty valley"
+     },
+     "role": null,
+     "use": {
+      "key": "handheld_play",
+      "ko": "휴대용 게임기로 논다",
+      "en": "plays on a handheld game console",
+      "prop": "휴대용 게임기"
+     },
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "slip_wedding",
+      "ko": "슬립 웨딩드레스",
+      "en": "a simple slip wedding dress with a long veil"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "halter neck",
+     "high thigh slit"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A small flame-shaped keychain swings from the camera strap as she leans over the snack shelf in the bright convenience store aisle.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "lead detail — 카메라 끈의 불꽃 열쇠고리(원작 모티프 소품)부터"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_grocery / pokemon_costume / pc_crop_set / lean_counter / waist_up / camera_shoot",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_grocery",
+      "ko": "마트·편의점",
+      "en": "a neighbourhood grocery or convenience store with bright aisles"
+     },
+     "role": null,
+     "use": {
+      "key": "camera_shoot",
+      "ko": "사진을 찍는다",
+      "en": "raises a camera to her eye to take a photo",
+      "prop": "카메라"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "bare midriff",
+     "side cutouts"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "She leans back against the curved observatory wall beside the great telescope, the dome open to a sky full of stars.",
+   "outfit": "A fully lined bias-cut satin slip in soft champagne with an off-the-shoulder neckline on one side and a single narrow strap on the other, falling to a straight mid-thigh hem.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "lead action — 벽에 기대는 동작부터, 망원경 · 열린 돔 · 별",
+    "outfit": "계획 드러내기 off-shoulder neckline · one-shoulder cut 을 슬립 문장에 — 옷 종류 slip 그대로, 원작 색(주황)은 옷에 안 옮기고 샴페인"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_observatory / lingerie / slip_lingerie / lean_wall / three_quarter",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_observatory",
+      "ko": "밤 천문대",
+      "en": "a night observatory under an open dome"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "slip_lingerie",
+      "ko": "란제리 슬립",
+      "en": "a bias-cut satin slip with narrow straps and a straight hem"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "version": 1,
+ "card": "꼬부기",
+ "no": 7,
+ "style": "glossy_promo",
+ "plan": "/tmp/claude-0/-home-user-atelier/bc7bc145-312e-5a4a-8461-32d6d0ea4734/scratchpad/pkm-concept/casual/PLAN-꼬부기.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Daydreaming on a curved white chrome sofa in a retro-futurist living room, a round porthole window glowing with soft dusk light behind her.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "lead action — 하던 일(공상)부터, 레트로 퓨처 집의 소파 · 둥근 창 · 시간대"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_retro_home / pokemon_costume / pc_corset / lie_front / full_body",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_retro_home",
+      "ko": "레트로 퓨처 집",
+      "en": "a retro-futurist home of rounded chrome appliances and soft panels"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "chin_both · chin_both"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "plunging neckline",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "A coin laundromat late at night under humming fluorescent light, round machine doors spinning behind her; the cup is a paper cup of vending-machine cocoa.",
+   "outfit": "A fully lined one-piece swimsuit in sunny coral with a deep open back and high-cut legs, worn with a small turtle-shell charm on a thin necklace.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "lead place — 빨래방 모습부터, 잔이 무엇인지",
+    "outfit": "수영복 계열에 옷 문장이 비어 계획 옷 종류 swimsuit · 드러내기 open back · high-cut leg 로 — 원작 색(하늘색)은 옷에 안 옮기고 코랄, 원작 모티프는 등딱지 목걸이 하나"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / street_laundromat / swimwear / stand / chest_up / cup_sip",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "street_laundromat",
+      "ko": "빨래방",
+      "en": "a coin laundromat late at night, rows of round machine doors"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_sip",
+      "ko": "잔을 입에 댄다",
+      "en": "brings a cup to her lips",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "open back"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Pausing mid-stroll by the fountain in a small town square of tiled roofs and flower beds, warm afternoon sun on the water spray behind her.",
+   "outfit": "A loose white linen shirt with side cutouts at the waist, over short denim shorts, with a small turtle-shell hairclip.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "lead action — 산책하다 멈춘 동작부터, 마을 광장 분수 · 오후 빛",
+    "outfit": "옷 종류 shirt+shorts · 드러내기 side cutouts(mini length 는 얼굴 클로즈업이라 안 보인다) — 원작 모티프는 등딱지 머리핀 하나"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_town / everyday / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_town",
+      "ko": "포켓몬 세계 마을",
+      "en": "a small town square of the Pokémon world with a fountain, flower beds and tiled roofs"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "v_sign · out"
+    },
+    "garments": [
+     "shirt",
+     "shorts"
+    ],
+    "expose": [
+     "mini length",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
