@@ -1,0 +1,192 @@
+{
+  "card": "가디",
+  "style": "anime_gloss",
+  "style_policy": "최신 요청의 2D anime_gloss 적용",
+  "comparison": {
+    "characters": [
+      "리자몽",
+      "거북왕",
+      "리자드",
+      "이상해풀"
+    ],
+    "evidence": "최근 비교 이미지와 함께 보아 도서관·런웨이·야경·장터·발코니·연회장 배경과 의상 실루엣을 구분했다. 리자몽 세트와 팔짱 등 개별 자세는 있지만 장소·복장·전신/근접 구도가 갈린다."
+  },
+  "slots": {
+    "light": {
+      "visual": {
+        "result": "accepted with documented deviations",
+        "evidence": "베이지색 얇은 장갑과 발목 추진기, 어깨 깃털 장식, 불을 만드는 열린 왼손과 오른손 주먹. 양팔·양다리·발끝이 보인다. 열린 손은 다섯 손가락, 주먹은 접힌 일부가 가려짐."
+      },
+      "identity": {
+        "result": "consistent",
+        "evidence": "베이지색 높은 포니테일·호박색 눈·부드러운 턱과 같은 성인 얼굴"
+      },
+      "style_25d": {
+        "result": "2D as requested",
+        "evidence": "가는 윤곽선·셀 및 그라데이션 얼굴 음영·반짝이는 머리카락"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "manual_original_and_hand_crops_checked": true,
+        "overlay_checked": false,
+        "note": "베이지색 얇은 장갑과 발목 추진기, 어깨 깃털 장식, 불을 만드는 열린 왼손과 오른손 주먹. 양팔·양다리·발끝이 보인다. 열린 손은 다섯 손가락, 주먹은 접힌 일부가 가려짐."
+      },
+      "submitted_same": true,
+      "submitted_sha256": "986e8e9661de0981d4c3fe4a9b112adcd5cc9c865582665a84589bc4e62490a9"
+    },
+    "casual1": {
+      "visual": {
+        "result": "accepted with documented deviations",
+        "evidence": "도서관 책장·책·쿠션, 모브 사리 블라우스 세트. 몸을 옆으로 누이고 한 손은 얼굴 옆, 한 손은 책 위에 둔다. 두 팔 연결 정상, 엄지 일부 가려짐. 하체는 크롭."
+      },
+      "identity": {
+        "result": "consistent",
+        "evidence": "베이지색 높은 포니테일·호박색 눈·부드러운 턱과 같은 성인 얼굴"
+      },
+      "style_25d": {
+        "result": "2D as requested",
+        "evidence": "가는 윤곽선·셀 및 그라데이션 얼굴 음영·반짝이는 머리카락"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "manual_original_and_hand_crops_checked": true,
+        "overlay_checked": false,
+        "note": "도서관 책장·책·쿠션, 모브 사리 블라우스 세트. 몸을 옆으로 누이고 한 손은 얼굴 옆, 한 손은 책 위에 둔다. 두 팔 연결 정상, 엄지 일부 가려짐. 하체는 크롭."
+      },
+      "submitted_same": true,
+      "submitted_sha256": "34050ba034170209f00b166f72b536f7064a867ee882e2d8226658d0df58af9c"
+    },
+    "casual2": {
+      "visual": {
+        "result": "accepted with documented deviations",
+        "evidence": "콘테스트 무대 장비·조명·천 소품, 라일락 수영복과 한복 선 커버업. 한 손은 가슴 근처, 다른 손은 아래로 내려 손목과 다섯 손가락 확인. 무릎 아래는 크롭. 머리 귀 장식은 유지된 차이로 기록."
+      },
+      "identity": {
+        "result": "consistent",
+        "evidence": "베이지색 높은 포니테일·호박색 눈·부드러운 턱과 같은 성인 얼굴"
+      },
+      "style_25d": {
+        "result": "2D as requested",
+        "evidence": "가는 윤곽선·셀 및 그라데이션 얼굴 음영·반짝이는 머리카락"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "manual_original_and_hand_crops_checked": true,
+        "overlay_checked": false,
+        "note": "콘테스트 무대 장비·조명·천 소품, 라일락 수영복과 한복 선 커버업. 한 손은 가슴 근처, 다른 손은 아래로 내려 손목과 다섯 손가락 확인. 무릎 아래는 크롭. 머리 귀 장식은 유지된 차이로 기록."
+      },
+      "submitted_same": true,
+      "submitted_sha256": "e7e5dfface913d583a197057e37cf4ec21f5b602b25f9818a8b412d668cf03d3"
+    },
+    "casual3": {
+      "visual": {
+        "result": "accepted with documented deviations",
+        "evidence": "런웨이 바닥과 스포트라이트, 크림색 크롭 조끼·검정 이너·마술사 모자. 엎드린 두 팔이 앞에서 겹치며 두 주먹은 서로 닿아 손가락 일부 가려짐. 하체는 부분 크롭."
+      },
+      "identity": {
+        "result": "consistent",
+        "evidence": "베이지색 높은 포니테일·호박색 눈·부드러운 턱과 같은 성인 얼굴"
+      },
+      "style_25d": {
+        "result": "2D as requested",
+        "evidence": "가는 윤곽선·셀 및 그라데이션 얼굴 음영·반짝이는 머리카락"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "manual_original_and_hand_crops_checked": true,
+        "overlay_checked": false,
+        "note": "런웨이 바닥과 스포트라이트, 크림색 크롭 조끼·검정 이너·마술사 모자. 엎드린 두 팔이 앞에서 겹치며 두 주먹은 서로 닿아 손가락 일부 가려짐. 하체는 부분 크롭."
+      },
+      "submitted_same": true,
+      "submitted_sha256": "1ab6547431730ca0438a4e67808dba766b12c61b8fe32d72bc69f665f2a358cf"
+    },
+    "casual4": {
+      "visual": {
+        "result": "accepted with documented deviations",
+        "evidence": "도시 야경 펜트하우스, 검정 벨벳 바디수트·시폰 망토·뾰족 모자. 팔짱에서 한 손의 네 손가락이 보이고 엄지와 반대 손은 팔과 천에 가려짐. 양다리·힐 정상."
+      },
+      "identity": {
+        "result": "consistent",
+        "evidence": "베이지색 높은 포니테일·호박색 눈·부드러운 턱과 같은 성인 얼굴"
+      },
+      "style_25d": {
+        "result": "2D as requested",
+        "evidence": "가는 윤곽선·셀 및 그라데이션 얼굴 음영·반짝이는 머리카락"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "manual_original_and_hand_crops_checked": true,
+        "overlay_checked": false,
+        "note": "도시 야경 펜트하우스, 검정 벨벳 바디수트·시폰 망토·뾰족 모자. 팔짱에서 한 손의 네 손가락이 보이고 엄지와 반대 손은 팔과 천에 가려짐. 양다리·힐 정상."
+      },
+      "submitted_same": true,
+      "submitted_sha256": "e5201211a3f54d5678796d52582b25770705c59d78e9d54e9b8fd3134cacc83b"
+    },
+    "casual5": {
+      "visual": {
+        "result": "accepted with documented deviations",
+        "evidence": "장터 차 가판과 바구니·차양, 민트 목욕 유카타. 의자에 앉아 왼손은 찻잔, 오른손은 의자 팔걸이 아래. 두 손의 손가락은 컵 쥠과 원근으로 일부 가려짐, 양팔과 두 다리 정상."
+      },
+      "identity": {
+        "result": "consistent",
+        "evidence": "베이지색 높은 포니테일·호박색 눈·부드러운 턱과 같은 성인 얼굴"
+      },
+      "style_25d": {
+        "result": "2D as requested",
+        "evidence": "가는 윤곽선·셀 및 그라데이션 얼굴 음영·반짝이는 머리카락"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "manual_original_and_hand_crops_checked": true,
+        "overlay_checked": false,
+        "note": "장터 차 가판과 바구니·차양, 민트 목욕 유카타. 의자에 앉아 왼손은 찻잔, 오른손은 의자 팔걸이 아래. 두 손의 손가락은 컵 쥠과 원근으로 일부 가려짐, 양팔과 두 다리 정상."
+      },
+      "submitted_same": true,
+      "submitted_sha256": "dd7273bfeafc49b1ed1c7242a05bbb431a1ee717c8b1f7c559541ad6f81d4fb0"
+    },
+    "casual6": {
+      "visual": {
+        "result": "accepted with documented deviations",
+        "evidence": "허브 화분과 발코니 난간, 검정 가죽 미니스커트·비대칭 크롭 조끼. 한 손은 머리 옆, 한 손은 세운 무릎 위. 두 팔과 두 다리 확인, 일부 손가락은 머리와 겹침. 먼 배경이 현실 도시보다 환상 도시로 표현된 차이는 기록."
+      },
+      "identity": {
+        "result": "consistent",
+        "evidence": "베이지색 높은 포니테일·호박색 눈·부드러운 턱과 같은 성인 얼굴"
+      },
+      "style_25d": {
+        "result": "2D as requested",
+        "evidence": "가는 윤곽선·셀 및 그라데이션 얼굴 음영·반짝이는 머리카락"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "manual_original_and_hand_crops_checked": true,
+        "overlay_checked": false,
+        "note": "허브 화분과 발코니 난간, 검정 가죽 미니스커트·비대칭 크롭 조끼. 한 손은 머리 옆, 한 손은 세운 무릎 위. 두 팔과 두 다리 확인, 일부 손가락은 머리와 겹침. 먼 배경이 현실 도시보다 환상 도시로 표현된 차이는 기록."
+      },
+      "submitted_same": true,
+      "submitted_sha256": "b06fa8fc25e6a8d9b922e85a338894aa73ce3fb3087228ff7157c9ee950081ef"
+    },
+    "casual7": {
+      "visual": {
+        "result": "accepted with documented deviations",
+        "evidence": "꽃으로 장식한 연회장 작업대, 가디 모티프 크롭 상의·미니스커트·꼬리·귀 장식. 몸은 뒤 3/4, 얼굴을 돌리고 양손을 테이블에 댄다. 장갑 손가락 일부 원근 겹침, 두 팔·다리·발 연결 정상."
+      },
+      "identity": {
+        "result": "consistent",
+        "evidence": "베이지색 높은 포니테일·호박색 눈·부드러운 턱과 같은 성인 얼굴"
+      },
+      "style_25d": {
+        "result": "2D as requested",
+        "evidence": "가는 윤곽선·셀 및 그라데이션 얼굴 음영·반짝이는 머리카락"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "manual_original_and_hand_crops_checked": true,
+        "overlay_checked": false,
+        "note": "꽃으로 장식한 연회장 작업대, 가디 모티프 크롭 상의·미니스커트·꼬리·귀 장식. 몸은 뒤 3/4, 얼굴을 돌리고 양손을 테이블에 댄다. 장갑 손가락 일부 원근 겹침, 두 팔·다리·발 연결 정상."
+      },
+      "submitted_same": true,
+      "submitted_sha256": "f7dc2f6035bcd0e9be8a9223998cf21404ec7919c6161586e4f86de7ce0dd224"
+    }
+  }
+}

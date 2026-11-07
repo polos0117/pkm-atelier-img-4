@@ -1,0 +1,495 @@
+{
+ "version": 2,
+ "card": "가디",
+ "no": 58,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/1320edc45a50/planning/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "light_agile"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "fire"
+     },
+     {
+      "key": "aura",
+      "type": "fire"
+     },
+     {
+      "key": "ground",
+      "type": "fire"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "light_agile"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "fire"
+     },
+     {
+      "key": "aura",
+      "type": "fire"
+     },
+     {
+      "key": "ground",
+      "type": "fire"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "tail_unit",
+    "segmented_parts",
+    "cape_plates",
+    "long_coat_plate",
+    "hover_rings"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Leather-bound books and a tasseled cushion furnish the reading alcove for a 1996 fashion editorial.",
+   "outfit": "A mauve sari-blouse-inspired set with a short fitted one-shoulder top, an open back and an opaque draped lower piece, securely covering the chest and hips.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 도서관 열람실에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "사리 블라우스 응용 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / library_reading / lingerie / sari_blouse_set / lie_side / waist_up",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "library_reading",
+      "ko": "도서관 열람실",
+      "en": "a quiet library reading room with tall bookshelves, reading desks and big windows"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "sari_blouse_set",
+      "ko": "사리 블라우스 응용",
+      "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "blouse",
+     "traditional"
+    ],
+    "expose": [
+     "open back",
+     "one-shoulder cut"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "The rehearsal platform is set for a swimwear presentation with folded fabric props at the sides.",
+   "outfit": "A lilac lined swimsuit with side cutouts beneath a hanbok-line cover-up with a high waist and wide short skirt, its neckline worn off the shoulders.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 콘테스트 무대 뒤에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "한복 선 커버업 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_contest / swimwear / hanbok_coverup / stand / three_quarter",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_contest",
+      "ko": "콘테스트 무대 뒤",
+      "en": "backstage of a Pokémon Contest hall with a rehearsal platform, prop racks and stage lights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "hanbok_coverup",
+      "ko": "한복 선 커버업",
+      "en": "swimwear under a hanbok-line cover-up with a high waist and wide skirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "skirt",
+     "traditional"
+    ],
+    "expose": [
+     "side cutouts",
+     "off-shoulder neckline"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "A playful magician-costume editorial occupies the white runway stage.",
+   "outfit": "An adult magician party costume built around a cropped fitted cream vest over a securely opaque bandeau and tailored short bottoms, exposing the midriff and thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 런웨이에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "자동 — 계열 안에서 장면에 맞게 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_runway / roleplay / lie_front / chest_up",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_runway",
+      "ko": "런웨이",
+      "en": "a fashion runway under white spotlights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "vest"
+    ],
+    "expose": [
+     "bare midriff",
+     "cropped hem"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual4": {
+   "scene": "City lights reflect softly across the penthouse windows.",
+   "outfit": "A witch costume with a strapless black velvet bodysuit, a sheer black chiffon cape, a crooked pointed hat and sheer thigh-high stockings, with fully opaque intimate coverage.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 펜트하우스에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "마녀 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_penthouse / halloween / hw_witch / lean_wall / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_penthouse",
+      "ko": "펜트하우스",
+      "en": "a penthouse window wall over the city at night"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "halloween",
+      "ko": "할로윈 코스튬",
+      "en": "a daring adult Halloween costume"
+     },
+     "item": {
+      "key": "hw_witch",
+      "ko": "마녀",
+      "en": "a dark witch costume — a plunging black velvet bodysuit under a sheer black chiffon cape, a crooked wide-brimmed pointed hat and sheer thigh-high stockings"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bodysuit",
+     "coat"
+    ],
+    "expose": [
+     "strapless top",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual5": {
+   "scene": "A shaded tea stall at the edge of the market offers a rest after the town bathhouse.",
+   "outfit": "A pale mint cotton bath yukata with a soft sash, an asymmetric one-shoulder neckline and a small upper-back opening, securely overlapping across the chest and hips with a short hem.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 포켓몬 세계 장터에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "목욕 유카타 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_market / bath / bath_yukata / sit_chair / three_quarter",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_market",
+      "ko": "포켓몬 세계 장터",
+      "en": "a market street of a Pokémon-world town with awnings and baskets of goods"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bath",
+      "ko": "목욕 차림",
+      "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+     },
+     "item": {
+      "key": "bath_yukata",
+      "ko": "목욕 유카타",
+      "en": "a light cotton bath yukata with a soft sash"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "open back",
+     "one-shoulder cut"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual6": {
+   "scene": "A rest between rehearsals unfolds beside potted herbs and the balcony rail.",
+   "outfit": "A rock outfit of a leather mini skirt, a cropped asymmetric one-shoulder vest with an open back, and a choker.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 발코니에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "록 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / home_balcony / subculture / rock_leather / lie_side / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_balcony",
+      "ko": "발코니",
+      "en": "a small balcony with potted plants, a railing and the city beyond"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "rock_leather",
+      "ko": "록",
+      "en": "rock — a leather mini skirt, a cropped vest and a choker"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "skirt",
+     "vest"
+    ],
+    "expose": [
+     "open back",
+     "one-shoulder cut"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual7": {
+   "scene": "Late afternoon light catches pastel flowers on the reception worktable before a themed wedding party.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 결혼식장에 시간과 주변 사물의 구체 정보를 보충한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_wedding / pokemon_costume / pc_crop_set / lean_counter / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_wedding",
+      "ko": "결혼식장",
+      "en": "a bridal room, garden aisle or reception hall"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "open back",
+     "one-shoulder cut"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}
