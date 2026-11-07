@@ -1,0 +1,593 @@
+{
+  "version": 2,
+  "card": "아보크",
+  "no": 24,
+  "style": "anime_gloss",
+  "plan": "/workspace/scratch/203afac66830/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {
+        "body type": "a tall, statuesque athletic-curvaceous figure with a full bust, a defined waist, rounded hips and long legs"
+      },
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "tail_unit"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "poison"
+          },
+          {
+            "key": "aura",
+            "type": "poison"
+          },
+          {
+            "key": "trail",
+            "type": "poison"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "tail_unit"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "poison"
+          },
+          {
+            "key": "aura",
+            "type": "poison"
+          },
+          {
+            "key": "trail",
+            "type": "poison"
+          }
+        ]
+      },
+      "mecha_recent": [
+        "wing_binder",
+        "knight_plate",
+        "slim_suit",
+        "wing_binder",
+        "segmented_parts",
+        "segmented_parts",
+        "cape_plates",
+        "sub_arms",
+        "hover_rings",
+        "frame_exposed"
+      ],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "A tortoiseshell comb and a folded linen pillowcase rest on the bedside table.",
+      "outfit": "A camel one-shoulder sweater with an open back and chocolate leggings; the wide neckline leaves her collarbone and shoulder bare.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "침실 소품을 구체화하며 detail 첫머리를 따름.",
+        "outfit": "지정 sweater·leggings 및 one-shoulder·open-back 구조를 카멜 계열에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / home_bedroom / everyday / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "home_bedroom",
+            "ko": "침실",
+            "en": "her bedroom, an unmade bed and soft window light"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "hair_tuck · out"
+        },
+        "garments": [
+          "leggings",
+          "sweater"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "open back"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "brown",
+          "ko": "카멜 · 초콜릿",
+          "en": "camel and chocolate brown",
+          "words": [
+            "brown",
+            "camel",
+            "tan",
+            "chocolate",
+            "beige",
+            "khaki",
+            "taupe",
+            "caramel"
+          ]
+        }
+      }
+    },
+    "casual2": {
+      "scene": "Velvet curtain swags frame the vanity bulbs, with scattered flower petals on the tabletop.",
+      "outfit": "A black kebaya-inspired floral lace top draped off both shoulders over an opaque cropped camisole, exposing her midriff; a charcoal high-waisted split skirt completes the look.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "대기실의 커튼과 꽃다발에 어울리는 탁자 디테일 추가.",
+        "outfit": "크바야 레이스와 불투명 tank를 유지하고 지정 허리·어깨 노출 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / backstage_dressing / lingerie / kebaya_lace / sit_chair / environmental / bouquet_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "backstage_dressing",
+            "ko": "공연장 대기실",
+            "en": "a backstage dressing room with a bulb-lit mirror, a vanity table and costume racks"
+          },
+          "role": null,
+          "use": {
+            "key": "bouquet_hold",
+            "ko": "꽃다발을 든다",
+            "en": "holds a small bouquet at chest height",
+            "prop": "꽃다발"
+          },
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "kebaya_lace",
+            "ko": "크바야 응용 레이스",
+            "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "tank"
+        ],
+        "expose": [
+          "bare midriff",
+          "off-shoulder neckline"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "black",
+          "ko": "블랙 · 차콜",
+          "en": "black with charcoal accents",
+          "words": [
+            "black",
+            "charcoal",
+            "jet",
+            "onyx"
+          ]
+        }
+      }
+    },
+    "casual3": {
+      "scene": "A themed costume reception has just begun beyond the tiled powder-room doorway.",
+      "outfit": "An ivory-and-cream adult maid costume: a cropped strapless structured bodice, detached short puff sleeves, and a full miniature apron over a short skirt, with secure opaque coverage.",
+      "camera": "",
+      "custom": "For this local correction, keep the second attached image unchanged except replace the two distant people in its doorway with the continuation of the vacant corridor. The first attached image is the approved character reference.",
+      "why": {
+        "scene": "1996년 테마 리셉션 맥락을 더하며 action 첫머리 사용.",
+        "outfit": "메이드 apron·bodice를 유지하면서 cropped·strapless와 지정 아이보리 반영.",
+        "custom": "최초 결과 문 너머에 불필요한 배경 인물 두 명이 추가되어 그 부분만 빈 복도로 수정. 인물·의상·자세·카메라는 원본을 보존."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / night_powder / roleplay / adult_maid / walk / three_quarter / glass_hold",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "night_powder",
+            "ko": "파우더룸",
+            "en": "a club powder room with a lit mirror and neon on the tiles"
+          },
+          "role": null,
+          "use": {
+            "key": "glass_hold",
+            "ko": "잔을 든다",
+            "en": "holds a cocktail glass by the stem at chest height",
+            "prop": "칵테일 잔"
+          },
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "adult_maid",
+            "ko": "메이드 코스튬",
+            "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "apron"
+        ],
+        "expose": [
+          "cropped hem",
+          "strapless top"
+        ],
+        "lead": "action",
+        "color": {
+          "key": "ivory",
+          "ko": "아이보리 · 크림",
+          "en": "ivory and warm cream",
+          "words": [
+            "ivory",
+            "cream",
+            "white",
+            "off-white",
+            "pearl"
+          ]
+        }
+      }
+    },
+    "casual4": {
+      "scene": "Amber museum spotlights catch the marble and warm the red-rose flower crown.",
+      "outfit": "An ivory-and-charcoal skeleton-print stretch bodysuit with a halter neckline and side cutouts exposing the shoulders and waist, plus a red-rose flower crown.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "박물관 조명을 light 첫머리로 구체화.",
+        "outfit": "뼈 프린트 bodysuit를 유지하고 할터·옆구리 컷아웃과 아이보리 선택 적용."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_museum / halloween / hw_skeleton / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_museum",
+            "ko": "박물관 갈라",
+            "en": "a grand museum hall with marble statues at night"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "halloween",
+            "ko": "할로윈 코스튬",
+            "en": "a daring adult Halloween costume"
+          },
+          "item": {
+            "key": "hw_skeleton",
+            "ko": "해골",
+            "en": "a skeleton costume — a black stretch catsuit printed with white bones, worn with a red-rose flower crown"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "cheek · out"
+        },
+        "garments": [
+          "bodysuit"
+        ],
+        "expose": [
+          "halter neck",
+          "side cutouts"
+        ],
+        "lead": "light",
+        "color": {
+          "key": "ivory",
+          "ko": "아이보리 · 크림",
+          "en": "ivory and warm cream",
+          "words": [
+            "ivory",
+            "cream",
+            "white",
+            "off-white",
+            "pearl"
+          ]
+        }
+      }
+    },
+    "casual5": {
+      "scene": "A rehearsal break leaves a rolled exercise mat beside the mirrored wall.",
+      "outfit": "An emo outfit with a deep-red striped one-shoulder mini-length top, a studded belt, slim wine-colored trousers and checkered sneakers; the short asymmetric top exposes her midriff and shoulder.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "연습실 휴식 맥락과 매트만 보충.",
+        "outfit": "지정 trousers와 이모 요소를 유지하고 짧은 상의·한쪽 어깨를 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / sports_studio / subculture / emo / lie_side / full_body",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "sports_studio",
+            "ko": "연습실",
+            "en": "a mirrored dance, yoga or Pilates studio with a wooden floor"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
+          },
+          "item": {
+            "key": "emo",
+            "ko": "이모",
+            "en": "emo — a fitted striped long-sleeve top, a studded belt, skinny jeans and checkered sneakers"
+          },
+          "posture": {
+            "key": "lie_side",
+            "ko": "옆으로 눕기",
+            "en": "lying on her side"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "behind_head · floor_brace"
+        },
+        "garments": [
+          "trousers"
+        ],
+        "expose": [
+          "mini length",
+          "one-shoulder cut"
+        ],
+        "lead": "action",
+        "color": {
+          "key": "red",
+          "ko": "레드 · 와인",
+          "en": "deep red and wine",
+          "words": [
+            "red",
+            "crimson",
+            "scarlet",
+            "burgundy",
+            "wine",
+            "cherry"
+          ]
+        }
+      }
+    },
+    "casual6": {
+      "scene": "Brass star charts surround the open observatory dome and its deep indigo night sky.",
+      "outfit": "An adult Arbok costume cut as a fitted purple strapless mini dress with a securely fitted plunging neckline and a high thigh slit; the cobra hood pattern becomes fabric panels across the bodice.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "천문대 구조를 place 첫머리로 구체화.",
+        "outfit": "미니 드레스와 아보크 코스튬을 유지하며 지정 목선·슬릿을 적용."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_observatory / pokemon_costume / pc_mini_dress / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_observatory",
+            "ko": "밤 천문대",
+            "en": "a night observatory under an open dome"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_mini_dress",
+            "ko": "미니 드레스형",
+            "en": "a daring adult costume version of {costume}, cut as a fitted strapless mini dress"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "clasp_both · clasp_both"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "plunging neckline",
+          "high thigh slit"
+        ],
+        "lead": "place",
+        "color": null
+      }
+    },
+    "casual7": {
+      "scene": "A polished Poké Ball catches the amber light from small atelier task lamps.",
+      "outfit": "A lined coral swimsuit with a cropped soft-orange yukata worn open over it, its high side slits and short hem exposing the legs and collarbone.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "몬스터볼을 detail 첫머리로 구체화.",
+        "outfit": "수영복 위 유카타 traditional 구성을 유지하며 짧은 기장·높은 슬릿 적용."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / work_atelier / swimwear / yukata_over / stand / chest_up / ball_raise",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "work_atelier",
+            "ko": "장구 아틀리에",
+            "en": "an equipment atelier with saddle pads, travel harnesses and design samples on display"
+          },
+          "role": null,
+          "use": {
+            "key": "ball_raise",
+            "ko": "몬스터볼을 얼굴 옆에 든다",
+            "en": "raises a Poké Ball beside her face",
+            "prop": "몬스터볼"
+          },
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "yukata_over",
+            "ko": "수영복 위 유카타",
+            "en": "swimwear with a light yukata worn open over it"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "traditional"
+        ],
+        "expose": [
+          "high thigh slit",
+          "cropped hem"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "orange",
+          "ko": "코랄 · 오렌지",
+          "en": "coral and soft orange",
+          "words": [
+            "coral",
+            "orange",
+            "peach",
+            "apricot",
+            "tangerine",
+            "terracotta",
+            "rust"
+          ]
+        }
+      }
+    }
+  }
+}
