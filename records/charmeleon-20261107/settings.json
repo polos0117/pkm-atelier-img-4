@@ -1,0 +1,509 @@
+{
+  "version": 2,
+  "card": "리자드",
+  "no": 5,
+  "style": "anime_gloss",
+  "plan": "/workspace/scratch/5511754f5daf/charmeleon-pack/plan.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "cape_plates"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "fire"
+          },
+          {
+            "key": "seams",
+            "type": "fire"
+          },
+          {
+            "key": "trail",
+            "type": "fire"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "cape_plates"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "fire"
+          },
+          {
+            "key": "seams",
+            "type": "fire"
+          },
+          {
+            "key": "trail",
+            "type": "fire"
+          }
+        ]
+      },
+      "mecha_recent": [],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "",
+      "outfit": "A bias-cut champagne satin slip with narrow straps, an open back and a straight mini hem, leaving the shoulders and upper back bare.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "선택 슬립의 색과 등 파임·기장만 보충한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_taxi / lingerie / slip_lingerie / stand / waist_up / phones_neck",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_taxi",
+            "ko": "밤 택시",
+            "en": "the back seat of a taxi at night, city lights streaking past"
+          },
+          "role": null,
+          "use": {
+            "key": "phones_neck",
+            "ko": "목에 건 헤드폰을 잡는다",
+            "en": "holds one ear cup of over-ear headphones resting around her neck",
+            "prop": "헤드폰"
+          },
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "slip_lingerie",
+            "ko": "란제리 슬립",
+            "en": "a bias-cut satin slip with narrow straps and a straight hem"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · natural"
+        },
+        "garments": [
+          "slip"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "open back"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual2": {
+      "scene": "",
+      "outfit": "A sleeveless pale lavender silk robe worn open over an evening slip with a plunging neckline and small side cutouts at the waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "선택한 로브와 슬립을 유지하면서 목선·옆트임과 민소매를 명확히 한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / berry_kitchen / evening / silk_robe_slip / sit_chair / face_close / ball_raise",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "berry_kitchen",
+            "ko": "포켓몬 세계 부엌",
+            "en": "a sunny home kitchen in a Pokémon-world town, bowls of berries on the counter"
+          },
+          "role": null,
+          "use": {
+            "key": "ball_raise",
+            "ko": "몬스터볼을 얼굴 옆에 든다",
+            "en": "raises a Poké Ball beside her face",
+            "prop": "몬스터볼"
+          },
+          "ofam": {
+            "key": "evening",
+            "ko": "저녁 드레스",
+            "en": "an evening dress or night-out outfit"
+          },
+          "item": {
+            "key": "silk_robe_slip",
+            "ko": "슬립 위 실크 로브",
+            "en": "a silk robe over an evening slip"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "robe",
+          "slip"
+        ],
+        "expose": [
+          "plunging neckline",
+          "side cutouts"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual3": {
+      "scene": "",
+      "outfit": "A cropped sky-blue hoodie and high-waisted charcoal leggings; the short hem leaves her midriff bare and the wide neckline exposes one shoulder.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "후디와 레깅스를 유지하고 선택 노출값을 짧은 밑단과 넓은 목선으로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / sports_track / everyday / hoodie_leggings / stand / waist_up / towel_hold",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "sports_track",
+            "ko": "육상 트랙",
+            "en": "a running track with lane lines and a grandstand"
+          },
+          "role": null,
+          "use": {
+            "key": "towel_hold",
+            "ko": "수건을 안는다",
+            "en": "holds a towel folded against her chest",
+            "prop": "수건"
+          },
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "hoodie_leggings",
+            "ko": "후디 + 레깅스",
+            "en": "a cropped hoodie and leggings"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · pocket"
+        },
+        "garments": [
+          "leggings",
+          "sweater"
+        ],
+        "expose": [
+          "bare midriff",
+          "cropped hem"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual4": {
+      "scene": "",
+      "outfit": "A black-and-white maid event costume with a structured one-shoulder bodice, one short puffed sleeve, a full apron and a mini skirt.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "메이드 행사 의상에 계획의 원숄더·미니 기장을 적용한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / street_park / roleplay / adult_maid / recline / chest_up / phones_neck",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "street_park",
+            "ko": "공원",
+            "en": "a city park with benches, old trees and a fountain"
+          },
+          "role": null,
+          "use": {
+            "key": "phones_neck",
+            "ko": "목에 건 헤드폰을 잡는다",
+            "en": "holds one ear cup of over-ear headphones resting around her neck",
+            "prop": "헤드폰"
+          },
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "adult_maid",
+            "ko": "메이드 코스튬",
+            "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+          },
+          "posture": {
+            "key": "recline",
+            "ko": "기대 눕기",
+            "en": "reclining on her back"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "behind_head · prop"
+        },
+        "garments": [
+          "apron"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "mini length"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual5": {
+      "scene": "",
+      "outfit": "A plush ivory spa robe tied securely at the waist, with a sleeveless halter neckline and a high thigh slit, keeping chest and hips fully covered.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "스파 가운에 계획의 홀터 목선·허벅지 슬릿을 적용한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / spa_cedar / bath / spa_robe / stand / environmental / towel_dry",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "spa_cedar",
+            "ko": "히노키 탕",
+            "en": "a cedar-wood tub by the window of a mountain inn"
+          },
+          "role": null,
+          "use": {
+            "key": "towel_dry",
+            "ko": "수건으로 머리를 말린다",
+            "en": "dries her hair with a towel",
+            "prop": "수건"
+          },
+          "ofam": {
+            "key": "bath",
+            "ko": "목욕 차림",
+            "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+          },
+          "item": {
+            "key": "spa_robe",
+            "ko": "스파 가운",
+            "en": "a plush spa robe tied at the waist"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "robe"
+        ],
+        "expose": [
+          "high thigh slit",
+          "halter neck"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual6": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "guide": {
+        "tree": 2,
+        "path": "now / home_bedroom / pokemon_costume / pc_bodysuit / squat / full_body / phones_neck",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "home_bedroom",
+            "ko": "침실",
+            "en": "her bedroom, an unmade bed and soft window light"
+          },
+          "role": null,
+          "use": {
+            "key": "phones_neck",
+            "ko": "목에 건 헤드폰을 잡는다",
+            "en": "holds one ear cup of over-ear headphones resting around her neck",
+            "prop": "헤드폰"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_bodysuit",
+            "ko": "바디수트형",
+            "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+          },
+          "posture": {
+            "key": "squat",
+            "ko": "쪼그려 앉기",
+            "en": "crouching low on her heels"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "bodysuit",
+          "leggings"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "open back"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual7": {
+      "scene": "",
+      "outfit": "A fully lined teal one-piece swimsuit with large cut-outs at the sides of the waist, a secure strapless top and high-cut legs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "선택 원피스 수영복에 계획의 스트랩리스·하이컷을 적용한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_circus / swimwear / cutout_onepiece / sit_floor / three_quarter",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_circus",
+            "ko": "서커스 천막",
+            "en": "a circus tent ring under a striped canopy"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "cutout_onepiece",
+            "ko": "컷아웃 원피스",
+            "en": "a fully lined one-piece swimsuit with large cut-outs at the sides of the waist"
+          },
+          "posture": {
+            "key": "sit_floor",
+            "ko": "바닥에 앉기",
+            "en": "sitting on the ground"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "chin_knee · floor_brace"
+        },
+        "garments": [
+          "swimsuit"
+        ],
+        "expose": [
+          "high-cut leg",
+          "strapless top"
+        ],
+        "lead": "place"
+      }
+    }
+  }
+}
