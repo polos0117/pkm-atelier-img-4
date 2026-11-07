@@ -1,0 +1,39 @@
+{
+  "card": "푸린",
+  "slot": "casual7",
+  "style": "anime_gloss",
+  "mode": "targeted anatomy edit expressly requested by user",
+  "tool": "image_gen.imagegen",
+  "model_id": "not exposed",
+  "quality_setting": "not exposed",
+  "transparent_background": false,
+  "submitted_sha256": "44842d61070840142326baa600abde0d4a1c3c46b2cc6e0a407acd13591564ed",
+  "submitted_same": true,
+  "references": [
+    {
+      "role": "edit_target",
+      "path": "/workspace/scratch/0977a186e83a/generated_images/exec-18a8d71a-330f-4afb-acb4-29e25bb12807.png",
+      "sha256": "0d0d3a02a3f1f75ebee9ac366b028e4de7d6d280c34f7bf19a8ad2409407ef82"
+    },
+    {
+      "role": "identity_reference",
+      "path": "/workspace/scratch/0977a186e83a/generated_images/exec-720e04b1-689c-44b1-9a8e-5b50de05253f.png",
+      "sha256": "e399d530aac69f0d7b0cdddcf91fcaff066e4bbcf4b0dd566fba13011f958e1c"
+    }
+  ],
+  "original_png": {
+    "path": "/workspace/scratch/0977a186e83a/generated_images/exec-bceb0737-a5e1-4d07-9add-3efbe12448b8.png",
+    "sha256": "e4b7c8af7a45db34af257e12b0a16acd045585325cc8199573c72ffa690edfff",
+    "session_only": true
+  },
+  "replaced_file": "img/푸린_anime_gloss_f_casual7.webp",
+  "before_webp_sha256": "56efee73781009f928f7943915290f412bdcd751c761a1f9d3515542fae4a7c0",
+  "after_webp_sha256": "0028b7c79c0b232265670932effa1ee7e07bbf4327b4b5e713177430a6dbc513",
+  "encoding": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6
+  },
+  "original_selection_state": "original-ui.json; no new plan choices were invented",
+  "approval": "User asked to fix both generated images; earlier main publication authorization continues for these fixes."
+}

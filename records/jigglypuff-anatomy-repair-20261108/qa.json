@@ -1,0 +1,26 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "user_requested_correction": true,
+  "previous_qa_correction": "The original QA missed continuity of the complete limb and, for Jigglypuff, the neck/torso alignment. The original positive limb-continuity statement is superseded by this repair assessment.",
+  "observations": {
+    "neck_torso": "A visible neck rises between two relaxed shoulders, with clavicles continuing into one ribcage; the head no longer joins a raised shoulder. Ribcage and waist form one continuous reclining torso.",
+    "petting_arm": "The upper arm descends from the shoulder at image right to one elbow beside the waist, then the forearm reaches diagonally down to the wrist and hand on Clefairy. No S-shaped arm or extra elbow.",
+    "support_arm": "The other arm continues from its shoulder down to the palm planted on grass."
+  },
+  "inspection": "Full 1024x1536 output and enlarged shoulder-to-wrist/neck-to-waist crops inspected; hand-only inspection was insufficient.",
+  "face_style_scene": "Face features, pink hair and eyes, rendering, outfit, companion if present, and background retained; local anatomy and nearby fabric changed.",
+  "anatomy": {
+    "tool": "unavailable: mediapipe module missing",
+    "overlay_checked": false,
+    "arms": 2,
+    "legs": 2,
+    "hands": "Petting and support hands remain attached; five-digit structure with overlap/cropping noted, no additional hand.",
+    "occlusion": "Folded legs partly covered by sari, support-hand fingertips partly cropped."
+  },
+  "exposure_regeneration": false,
+  "dimensions": [
+    1024,
+    1536
+  ]
+}
