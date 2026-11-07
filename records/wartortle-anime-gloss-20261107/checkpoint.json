@@ -1,5 +1,5 @@
 {
-  "status": "ready_to_publish",
+  "status": "registered",
   "card": "어니부기",
   "style": "anime_gloss",
   "slots": [
@@ -144,5 +144,30 @@
     "style": "anime_gloss",
     "reference": null
   },
-  "submission_verified": true
+  "submission_verified": true,
+  "image_commit": "efa5d215474d632afe7df5e0be6089a98c4809e4",
+  "thumbnail_commit": "aad180678a39ce2940497041a46ae8a48e78d293",
+  "thumbnail_workflow": {
+    "id": 42337397930,
+    "conclusion": "success"
+  },
+  "registration_workflow": {
+    "id": 42337501765,
+    "conclusion": "success"
+  },
+  "publication_method": "GitHub connector commit + fast-forward ref update, force=false. Ordinary CLI push unavailable because executor has no GitHub credentials.",
+  "code_commit": "f7caabf38f3765f35db28ba7fbf48c4641040505",
+  "verification": {
+    "new_style_files": 8,
+    "old_style_files_preserved": 9,
+    "new_shard": 3,
+    "all_webp_dimensions": [
+      1024,
+      1536
+    ],
+    "all_thumbnails_long_edge": 512,
+    "forms_test": "passed",
+    "prompt_submission_equality": "8/8",
+    "automatic_anatomy": "unavailable: mediapipe missing; manual full-image and enlarged-hand review completed"
+  }
 }
