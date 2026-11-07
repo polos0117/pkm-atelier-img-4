@@ -1,0 +1,22 @@
+{
+  "returned_images_recreated_for_exposure": 0,
+  "initial_unreturned_batch": {
+    "slots": [
+      "casual5",
+      "casual6",
+      "casual7"
+    ],
+    "result": "No images returned for this character from concurrent request group; one moderation error aborted that group. All returned images preserved."
+  },
+  "recovery": {
+    "replanned_only_unreturned": true,
+    "pose_changes": "Avoided prone poses for unreturned roleplay/costume scenes. Nidoran casual6 changed from bodysuit to hooded costume after another request returned no image."
+  },
+  "reference_images": "Every casual image uses original light PNG directly. No previous casual output used as identity reference.",
+  "diversity": {
+    "current_character_images": "All eight originals inspected; seven casual scenes differ in setting, wardrobe silhouette, framing or activity.",
+    "recent_history": "Planner compared selected UI metadata and reservations. Other-character image downloads omitted to respect sparse-only user instruction."
+  },
+  "anatomy_tool": "unavailable: mediapipe module missing",
+  "manual_review": "Original images and visible hand crops checked; occluded and outside-frame joints noted per image."
+}
