@@ -1,0 +1,166 @@
+{
+  "status": "partial_blocked",
+  "requested": 8,
+  "generated": 6,
+  "published_slots": [
+    "light",
+    "casual1",
+    "casual2",
+    "casual3",
+    "casual5",
+    "casual7"
+  ],
+  "blocked": {
+    "casual4": {
+      "code": "moderation_blocked",
+      "category": "sexual",
+      "stage": "output",
+      "request_id": "ac6f83f5-5a90-4ee4-9fc9-821dce8c5b8d",
+      "retried": false,
+      "extra_note": "전체 장부 교차검사에서 (side+with_body,three_quarter) 중복도 확인. 생성 결과 없음. 재계획 미게시."
+    },
+    "casual6": {
+      "code": "moderation_blocked",
+      "category": "sexual",
+      "stage": "output",
+      "request_id": "1104febc-e71f-9e4c-9ab0-ed59ad242362",
+      "retried": false
+    }
+  },
+  "canonical": {
+    "slot": "light",
+    "original": "/workspace/scratch/33c9d9a44752/generated_images/exec-2110b381-eb9e-4e2c-852a-4ccd0ec68d85.png",
+    "file": "꼬부기_light_gloss_daylight_f.webp",
+    "source_sha256": "61039671d65c70e7fc982a91c717e12e6cd3ff484c559590fe478275876993fa",
+    "webp_sha256": "617d66a2bb27c3ab55b06cd6abd7f37fbbedb052106220cc046b0a52613d861a",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_availability": "session_only",
+    "references": []
+  },
+  "tool": {
+    "name": "built-in image_gen",
+    "model_id": "not exposed",
+    "size_setting": "not exposed; prompt 1024x1536; all outputs verified",
+    "quality": "not exposed",
+    "reference_configuration": "light: none; casuals: referenced_image_paths=[light original], one reference"
+  },
+  "submitted": {
+    "light": [
+      {
+        "slot": "light",
+        "at": "2026-11-07T15:20:42.563Z",
+        "prompt_sha256": "0111419aea87e9a555b367188340e07e609acebcce4dbd62c67462c62b8f9ebb",
+        "submitted_sha256": "0111419aea87e9a555b367188340e07e609acebcce4dbd62c67462c62b8f9ebb",
+        "same": true,
+        "prompt_words": 738,
+        "submitted_words": 738,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ],
+    "casual1": [
+      {
+        "slot": "casual1",
+        "at": "2026-11-07T15:21:51.315Z",
+        "prompt_sha256": "a049914f251d3ce32c42d114e8fdb460b354b61b23fa20d59b26a61859263fe0",
+        "submitted_sha256": "a049914f251d3ce32c42d114e8fdb460b354b61b23fa20d59b26a61859263fe0",
+        "same": true,
+        "prompt_words": 961,
+        "submitted_words": 961,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ],
+    "casual2": [
+      {
+        "slot": "casual2",
+        "at": "2026-11-07T15:21:51.391Z",
+        "prompt_sha256": "ea77c1d842ce05924bbb2b00af6c109585602bc38dab14c45a272e1ead0931d7",
+        "submitted_sha256": "ea77c1d842ce05924bbb2b00af6c109585602bc38dab14c45a272e1ead0931d7",
+        "same": true,
+        "prompt_words": 1005,
+        "submitted_words": 1005,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ],
+    "casual3": [
+      {
+        "slot": "casual3",
+        "at": "2026-11-07T15:21:51.480Z",
+        "prompt_sha256": "2205c6f1eb854f1fd314d5cdedb63eb188dd3989b197cefe8a66058801b83b6a",
+        "submitted_sha256": "2205c6f1eb854f1fd314d5cdedb63eb188dd3989b197cefe8a66058801b83b6a",
+        "same": true,
+        "prompt_words": 1032,
+        "submitted_words": 1032,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ],
+    "casual4": [
+      {
+        "slot": "casual4",
+        "at": "2026-11-07T15:21:51.610Z",
+        "prompt_sha256": "f8230276ccef1b3ee6608d9f0d58673a57fd199ea52e1d28e7854bb8f50408a3",
+        "submitted_sha256": "f8230276ccef1b3ee6608d9f0d58673a57fd199ea52e1d28e7854bb8f50408a3",
+        "same": true,
+        "prompt_words": 967,
+        "submitted_words": 967,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ],
+    "casual5": [
+      {
+        "slot": "casual5",
+        "at": "2026-11-07T15:21:51.693Z",
+        "prompt_sha256": "ff4a4723b211c415c4ae2e8d8a8a49c4e1a346faf085f2e863615135f7cec145",
+        "submitted_sha256": "ff4a4723b211c415c4ae2e8d8a8a49c4e1a346faf085f2e863615135f7cec145",
+        "same": true,
+        "prompt_words": 955,
+        "submitted_words": 955,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ],
+    "casual6": [
+      {
+        "slot": "casual6",
+        "at": "2026-11-07T15:21:51.778Z",
+        "prompt_sha256": "5646f1b1393cac2354f0de6a7b0bb7b3de1e766a0c8818cead4974f216c767e1",
+        "submitted_sha256": "5646f1b1393cac2354f0de6a7b0bb7b3de1e766a0c8818cead4974f216c767e1",
+        "same": true,
+        "prompt_words": 991,
+        "submitted_words": 991,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ],
+    "casual7": [
+      {
+        "slot": "casual7",
+        "at": "2026-11-07T15:21:51.867Z",
+        "prompt_sha256": "acc6834a1cacaf77626abc899e62b1b6fbaa402c93d925335d3504f676b6fb48",
+        "submitted_sha256": "acc6834a1cacaf77626abc899e62b1b6fbaa402c93d925335d3504f676b6fb48",
+        "same": true,
+        "prompt_words": 978,
+        "submitted_words": 978,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "plan_validation": "처음 준비 시 sparse 목록 인코딩 때문에 장부 일부만 읽힘. UTF-8 전체 경로를 복원한 뒤 교차검사: 4번만 구도 중복, 해당 컷은 안전 필터 거절로 결과가 없고 게시하지 않음. 나머지 컷의 구도 중복 없음. 생김새 검사 5컷 모두 통과.",
+  "retained_existing": true
+}

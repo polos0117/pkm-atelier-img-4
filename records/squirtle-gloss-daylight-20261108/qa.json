@@ -1,0 +1,136 @@
+{
+  "reviewer": "gpt",
+  "requested": 8,
+  "generated": 6,
+  "accepted": 6,
+  "blocked_slots": [
+    "casual4",
+    "casual6"
+  ],
+  "anatomy_tool": "unavailable: mediapipe is not installed",
+  "comparison": {
+    "characters": [
+      "라이츄",
+      "모래두지",
+      "이상해씨"
+    ],
+    "images": "최근 세 캐릭터의 경장 및 일상1 썸네일을 실제 비교. 금발 포니테일의 라이츄·모래두지, 녹발 안경 이상해씨와 다른 짧은 청발·넓고 짧은 타원 얼굴. 일상은 정장 앉기·코스튬 등불·측면 책·카우걸 엄지척·하맘 눕기로 구분.",
+    "face_reason": "둥근 등껍질과 말린 꼬리를 짧고 둥근 얼굴 곡선으로 해석한 data/face-design.json 7번 문장을 사용. 머리 표는 기존 잠금이나 값이 없어 생성 결과 짧은 청발을 새 화풍 기준으로 기록."
+  },
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "61039671d65c70e7fc982a91c717e12e6cd3ff484c559590fe478275876993fa",
+      "observations": "전신 2:3, 파란 짧은 머리와 청보라 눈, 밝은 피부 광택. 등딱지 망토·노란 흉갑·기계 꼬리·수구 효과. 팔 둘 다리 둘 정상, 왼쪽 화면 펼친 장갑손 다섯, 반대는 느슨한 주먹으로 일부 가림.",
+      "style_25d": {
+        "verdict": "illustrated 2D glossy, follows current gloss_daylight",
+        "evidence": "부드러운 색 선과 얼굴의 얕은 그라데이션, 코·어깨·팔·의상에 밝은 광택. 현재 화풍의 명시적인 2D anime/no 3D 지시를 따름."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": ", 왼쪽 화면 펼친 장갑손 다섯, 반대는 느슨한 주먹으로 일부 가림.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 크롭 확대 육안 확인. 크롭 밖 신체는 미관측."
+      },
+      "reference": null,
+      "submitted_same": true
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "508e7225782c34f714a1ce1ced9b41cc0b11b69c426f3445846adab3a7364ea1",
+      "observations": "야영 조리장, 코랄 턱시도 정장과 캐미솔·바지. 의자에 앉아 오른손으로 컵을 내려놓고 반대 손은 무릎. 전신 다리 두 개, 양손 다섯 구조; 컵 잡은 손가락 일부 가림. 무늬 컵·가방 모티프. 긴소매는 이 컷 하나.",
+      "style_25d": {
+        "verdict": "illustrated 2D glossy, follows current gloss_daylight",
+        "evidence": "부드러운 색 선과 얼굴의 얕은 그라데이션, 코·어깨·팔·의상에 밝은 광택. 현재 화풍의 명시적인 2D anime/no 3D 지시를 따름."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "야영 조리장, 코랄 턱시도 정장과 캐미솔·바지. 의자에 앉아 오른손으로 컵을 내려놓고 반대 손은 무릎. 전신 다리 두 개, 양손 다섯 구조; 컵 잡은 손가락 일부 가림. 무늬 컵·가방 모티프. 긴소매는 이 컷 하나.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 크롭 확대 육안 확인. 크롭 밖 신체는 미관측."
+      },
+      "reference": "61039671d65c70e7fc982a91c717e12e6cd3ff484c559590fe478275876993fa",
+      "submitted_same": true
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "9fa2ff3d65a39fb6e30be6fa9d21bd6cbe9d1326d465d80402d2e632b06de3dc",
+      "observations": "성 계단 배경, 꼬부기 코스튬 코르셋·후드. 등불 고리를 쥔 손의 엄지와 접힌 네 손가락, 다른 팔은 아래 크롭. 인물 한 명, 청보라 눈·짧은 청발 일치.",
+      "style_25d": {
+        "verdict": "illustrated 2D glossy, follows current gloss_daylight",
+        "evidence": "부드러운 색 선과 얼굴의 얕은 그라데이션, 코·어깨·팔·의상에 밝은 광택. 현재 화풍의 명시적인 2D anime/no 3D 지시를 따름."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "성 계단 배경, 꼬부기 코스튬 코르셋·후드. 등불 고리를 쥔 손의 엄지와 접힌 네 손가락, 다른 팔은 아래 크롭. 인물 한 명, 청보라 눈·짧은 청발 일치.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 크롭 확대 육안 확인. 크롭 밖 신체는 미관측."
+      },
+      "reference": "61039671d65c70e7fc982a91c717e12e6cd3ff484c559590fe478275876993fa",
+      "submitted_same": true
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "3f9845b670e8b4dae9c48b874e5812117fbe136eac5725a8322f807887945216",
+      "observations": "트레이너 숙소 난간, 노란 운동 크롭 상의. 옆모습으로 책을 안고 반대 손은 난간; 양팔 정상, 책 쥔 손가락 부분 가림, 난간 손 엄지 부분 가림. 원본과 같은 헤어·눈·부드러운 턱.",
+      "style_25d": {
+        "verdict": "illustrated 2D glossy, follows current gloss_daylight",
+        "evidence": "부드러운 색 선과 얼굴의 얕은 그라데이션, 코·어깨·팔·의상에 밝은 광택. 현재 화풍의 명시적인 2D anime/no 3D 지시를 따름."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": ", 책 쥔 손가락 부분 가림, 난간 손 엄지 부분 가림. 원본과 같은 헤어·눈·부드러운 턱.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 크롭 확대 육안 확인. 크롭 밖 신체는 미관측."
+      },
+      "reference": "61039671d65c70e7fc982a91c717e12e6cd3ff484c559590fe478275876993fa",
+      "submitted_same": true
+    },
+    "casual5": {
+      "accepted": true,
+      "image_sha256": "9323b66381b9063c4b282b256379c5fd9daaae88649f8eb6bc6e07b5992b9f30",
+      "observations": "숲길의 파랑 로데오 카우걸 이벤트 의상. 엄지척 한 손과 허리에 댄 손은 각 다섯 구조. 졸린 반쯤 뜬 눈. 의상종류·장소·행동이 다른 컷과 구분됨.",
+      "style_25d": {
+        "verdict": "illustrated 2D glossy, follows current gloss_daylight",
+        "evidence": "부드러운 색 선과 얼굴의 얕은 그라데이션, 코·어깨·팔·의상에 밝은 광택. 현재 화풍의 명시적인 2D anime/no 3D 지시를 따름."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "숲길의 파랑 로데오 카우걸 이벤트 의상. 엄지척 한 손과 허리에 댄 손은 각 다섯 구조. 졸린 반쯤 뜬 눈. 의상종류·장소·행동이 다른 컷과 구분됨.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 크롭 확대 육안 확인. 크롭 밖 신체는 미관측."
+      },
+      "reference": "61039671d65c70e7fc982a91c717e12e6cd3ff484c559590fe478275876993fa",
+      "submitted_same": true
+    },
+    "casual7": {
+      "accepted": true,
+      "image_sha256": "b8f6b2625c4530b331510d694823304a731e002ea08b788660539e4324513988",
+      "observations": "하맘 라운저, 청록 사리 블라우스 응용 란제리풍 패션·민트 슬릿 치마. 한 팔 머리 뒤로 손 가림, 다른 손은 타월 잡아 손가락 일부 가림. 양다리·발 연결 정상. 원본과 동일한 헤어·얼굴; 높은 카메라와 누운 자세.",
+      "style_25d": {
+        "verdict": "illustrated 2D glossy, follows current gloss_daylight",
+        "evidence": "부드러운 색 선과 얼굴의 얕은 그라데이션, 코·어깨·팔·의상에 밝은 광택. 현재 화풍의 명시적인 2D anime/no 3D 지시를 따름."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": ". 원본과 동일한 헤어·얼굴; 높은 카메라와 누운 자세.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 크롭 확대 육안 확인. 크롭 밖 신체는 미관측."
+      },
+      "reference": "61039671d65c70e7fc982a91c717e12e6cd3ff484c559590fe478275876993fa",
+      "submitted_same": true
+    }
+  }
+}
