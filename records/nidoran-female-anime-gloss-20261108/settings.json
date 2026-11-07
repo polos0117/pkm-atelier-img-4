@@ -1,0 +1,592 @@
+{
+  "version": 2,
+  "card": "니드런♀",
+  "no": 29,
+  "style": "anime_gloss",
+  "plan": "/workspace/scratch/624c68ee528d/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {
+        "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+      },
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "light_agile"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "poison"
+          },
+          {
+            "key": "seams",
+            "type": "poison"
+          },
+          {
+            "key": "trail",
+            "type": "poison"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "light_agile"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "poison"
+          },
+          {
+            "key": "seams",
+            "type": "poison"
+          },
+          {
+            "key": "trail",
+            "type": "poison"
+          }
+        ]
+      },
+      "mecha_recent": [
+        "segmented_parts",
+        "heavy_assault",
+        "cape_plates",
+        "sub_arms",
+        "hover_rings",
+        "frame_exposed",
+        "skirt_plate",
+        "full_armor",
+        "tail_unit",
+        "wing_binder"
+      ],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "A small Pikachu companion sits beside the feeding bowl on the grass, near a potted blue hydrangea and a wooden plant label.",
+      "outfit": "Sky-blue fitted denim short overalls over a navy cropped halter top with a sweetheart neckline, exposing her shoulders and side waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "정원에서 함께 쉬는 동료를 작은 피카츄로 명시하고 화분을 배경 요소로만 보충한다.",
+        "outfit": "멜빵바지의 옷 종류 crop_top,overalls를 유지하고 스카이 · 네이비 및 sweetheart neckline, halter neck를 구현."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / partner_garden / everyday / overalls / squat / full_body / treat_offer",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "partner_garden",
+            "ko": "조용한 정원",
+            "en": "a quiet garden with a feeding bowl set on the grass"
+          },
+          "role": null,
+          "use": {
+            "key": "treat_offer",
+            "ko": "동료에게 간식을 내민다",
+            "en": "offers a small berry treat to her companion",
+            "prop": "나무열매 간식"
+          },
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "overalls",
+            "ko": "멜빵바지",
+            "en": "fitted denim overalls over a cropped top"
+          },
+          "posture": {
+            "key": "squat",
+            "ko": "쪼그려 앉기",
+            "en": "crouching low on her heels"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "crop_top",
+          "overalls"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "halter neck"
+        ],
+        "lead": "action",
+        "color": {
+          "key": "blue",
+          "ko": "스카이 · 네이비",
+          "en": "sky blue and navy",
+          "words": [
+            "blue",
+            "navy",
+            "cobalt",
+            "sky",
+            "azure",
+            "denim"
+          ]
+        }
+      }
+    },
+    "casual2": {
+      "scene": "A brass compass and coiled rope decorate the festival seating beside a moored riverboat used for a costume party.",
+      "outfit": "A camel-and-chocolate pirate captain party costume: a cropped brocade coat with an off-shoulder deep-V bodice, a cinched waist, short tailored bottoms, a tricorn hat and tall boots, exposing her shoulders and midriff.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "불꽃놀이 강변에 맞는 소품과 행사 맥락을 detail 첫머리로 보충. 선택된 몸·손 동작은 그대로 유지.",
+        "outfit": "해적 선장의 옷 종류 coat를 유지하고 카멜 · 초콜릿 및 deep V neckline, off-shoulder neckline를 구현."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / stage_fireworks / roleplay / pirate_captain / walk / three_quarter / fan_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "stage_fireworks",
+            "ko": "불꽃놀이 강변",
+            "en": "a riverside seating area waiting for festival fireworks"
+          },
+          "role": null,
+          "use": {
+            "key": "fan_hold",
+            "ko": "부채를 든다",
+            "en": "holds a folding fan open near her chest",
+            "prop": "접부채"
+          },
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "pirate_captain",
+            "ko": "해적 선장",
+            "en": "a pirate captain party costume — a cropped brocade coat over a cinched waist, a tricorn hat and tall boots"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "coat"
+        ],
+        "expose": [
+          "deep V neckline",
+          "off-shoulder neckline"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "brown",
+          "ko": "카멜 · 초콜릿",
+          "en": "camel and chocolate brown",
+          "words": [
+            "brown",
+            "camel",
+            "tan",
+            "chocolate",
+            "beige",
+            "khaki",
+            "taupe",
+            "caramel"
+          ]
+        }
+      }
+    },
+    "casual3": {
+      "scene": "The roller rink hosts an editorial fashion shoot on a padded lavender mat beside the polished skating floor.",
+      "outfit": "An opaque plum babydoll slip with narrow straps, a securely covered plunging neckline, an open back, an empire waist and a softly flared lavender mini hem, exposing her shoulders and upper thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "롤러장에 맞는 소품과 행사 맥락을 place 첫머리로 보충. 선택된 몸·손 동작은 그대로 유지.",
+        "outfit": "베이비돌의 옷 종류 slip를 유지하고 라벤더 · 플럼 및 plunging neckline, backless를 구현."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / sports_rink / lingerie / babydoll / lie_front / full_body",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "sports_rink",
+            "ko": "롤러장",
+            "en": "a roller rink under coloured lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "babydoll",
+            "ko": "베이비돌",
+            "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+          },
+          "posture": {
+            "key": "lie_front",
+            "ko": "엎드리기",
+            "en": "lying on her front"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "chin_both · chin_both"
+        },
+        "garments": [
+          "slip"
+        ],
+        "expose": [
+          "plunging neckline",
+          "backless"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "purple",
+          "ko": "라벤더 · 플럼",
+          "en": "lavender and plum",
+          "words": [
+            "purple",
+            "lavender",
+            "lilac",
+            "violet",
+            "plum",
+            "mauve"
+          ]
+        }
+      }
+    },
+    "casual4": {
+      "scene": "Buttery morning sunlight passes through the wooden footbath shelter and glints on a folded towel.",
+      "outfit": "Butter-yellow subculture trousers with side-waist cutouts, paired with a mustard sweetheart cropped top, exposing her shoulders and midriff.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "온천 마을 족욕에 맞는 소품과 행사 맥락을 light 첫머리로 보충. 선택된 몸·손 동작은 그대로 유지.",
+        "outfit": "자동 — 계열 안에서 장면에 맞게의 옷 종류 trousers를 유지하고 옐로 · 머스터드 및 sweetheart neckline, side cutouts를 구현."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / spa_footbath / subculture / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "spa_footbath",
+            "ko": "온천 마을 족욕",
+            "en": "a hot-spring town footbath under a wooden roof"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "v_sign · out"
+        },
+        "garments": [
+          "trousers"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "side cutouts"
+        ],
+        "lead": "light",
+        "color": {
+          "key": "yellow",
+          "ko": "옐로 · 머스터드",
+          "en": "butter yellow and mustard",
+          "words": [
+            "yellow",
+            "mustard",
+            "lemon",
+            "butter",
+            "gold",
+            "golden"
+          ]
+        }
+      }
+    },
+    "casual5": {
+      "scene": "A folded cream pool towel and a cool glass pitcher sit beside a small rooftop plunge pool overlooking the harbor.",
+      "outfit": "A fully lined ivory halter bikini with a neck tie, a deep-V front, an underbust band and warm-cream waist cutouts, exposing her shoulders and midriff.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "항구 마을 지붕 테라스에 맞는 소품과 행사 맥락을 detail 첫머리로 보충. 선택된 몸·손 동작은 그대로 유지.",
+        "outfit": "홀터 비키니의 옷 종류 bikini를 유지하고 아이보리 · 크림 및 deep V neckline, cutout waist를 구현."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / pw_roof / swimwear / halter_bikini / stand / three_quarter",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "pw_roof",
+            "ko": "항구 마을 지붕 테라스",
+            "en": "a rooftop terrace above a Pokémon-world harbor town"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "halter_bikini",
+            "ko": "홀터 비키니",
+            "en": "a halter bikini with a neck tie and an underbust band"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "hip · hair_tuck"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "deep V neckline",
+          "cutout waist"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "ivory",
+          "ko": "아이보리 · 크림",
+          "en": "ivory and warm cream",
+          "words": [
+            "ivory",
+            "cream",
+            "white",
+            "off-white",
+            "pearl"
+          ]
+        }
+      }
+    },
+    "casual6": {
+      "scene": "Soft violet mirror lights illuminate a round upholstered stool, a closed makeup case and tiny blue costume ribbons in the club powder room.",
+      "outfit": "An adult Nidoran female costume: a blue-and-white cropped halter top with a securely fitted sweetheart neckline and a matching short skirt, dark-blue spot appliques, soft fabric spiny-ear ornaments and a small horn-shaped hair clip, exposing her shoulders and midriff.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "새로 선택한 파우더룸의 조명과 소품을 light 첫머리로 구체화한다.",
+        "outfit": "계획기가 새로 정한 크롭 투피스를 유지하고 니드런의 푸른 반점과 귀를 천 코스튬으로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_powder / pokemon_costume / pc_crop_set / sit_chair / waist_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_powder",
+            "ko": "파우더룸",
+            "en": "a club powder room with a lit mirror and neon on the tiles"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_crop_set",
+            "ko": "크롭 투피스형",
+            "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "crop_top",
+          "skirt"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "halter neck"
+        ],
+        "lead": "light",
+        "color": null
+      }
+    },
+    "casual7": {
+      "scene": "The roadside stall is fitted with a compact repair corner, a canvas tool roll and a tray of berry-shaped clasps beside the juice pitcher.",
+      "outfit": "A wine-red work shirt, short at the sleeves and open into a sweetheart neckline, under a deep-red canvas workshop apron with a mini-length hem and safety glasses pushed up, exposing her collarbones and thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "길가 노점에 맞는 소품과 행사 맥락을 place 첫머리로 보충. 선택된 몸·손 동작은 그대로 유지.",
+        "outfit": "공방 앞치마의 옷 종류 apron,shirt를 유지하고 레드 · 와인 및 sweetheart neckline, mini length를 구현."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / berry_stall / work / workshop_apron / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "berry_stall",
+            "ko": "길가 노점",
+            "en": "a small roadside stall with a counter, a juice pitcher and steaming pots"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "work",
+            "ko": "직업복",
+            "en": "practical clothing for her Pokémon-world job, readable through its tools",
+            "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+          },
+          "item": {
+            "key": "workshop_apron",
+            "ko": "공방 앞치마",
+            "en": "a work shirt under a canvas workshop apron, safety glasses pushed up"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "hair_tuck · out"
+        },
+        "garments": [
+          "apron",
+          "shirt"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "mini length"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "red",
+          "ko": "레드 · 와인",
+          "en": "deep red and wine",
+          "words": [
+            "red",
+            "crimson",
+            "scarlet",
+            "burgundy",
+            "wine",
+            "cherry"
+          ]
+        }
+      }
+    }
+  }
+}

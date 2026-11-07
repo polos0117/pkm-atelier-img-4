@@ -1,0 +1,257 @@
+{
+  "card": "니드런♀",
+  "style": "anime_gloss",
+  "reviewed_at": "2026-11-08",
+  "accepted": true,
+  "tool_settings": {
+    "tool": "image_gen.imagegen",
+    "actual_model_id": null,
+    "size_parameter": "unsupported; prompt specifies 1024x1536; actual verified",
+    "quality_parameter": "unsupported",
+    "reference": "light PNG for every casual image; no reference for light"
+  },
+  "items": {
+    "light": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "은보라색 단발, 넓게 떨어진 보라 눈, 좁은 턱이 후속 얼굴 기준. 큰 귀 장식 끝이 상단에 조금 걸린다."
+      },
+      "scene_and_pose": {
+        "match": "with noted deviations",
+        "evidence": "전신의 두 팔과 두 다리가 연결되고 발끝까지 보인다. 보라색 독 기포를 띄운 손과 아래로 내린 주먹이 있다."
+      },
+      "style_25d": {
+        "judgment": "intentional illustrated 2D; current anime_gloss rule overrides legacy 2.5D gate",
+        "evidence": "가는 색선, 보라 눈의 층별 하이라이트와 피부의 부드러운 그라데이션. 얼굴이 실사나 3D로 바뀌지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "내린 손은 느슨한 주먹으로 일부 손가락 가려짐. 펼친 손은 엄지와 네 손가락이 구분됨.",
+        "overlay_checked": false,
+        "note": "전신의 두 팔과 두 다리가 연결되고 발끝까지 보인다. 보라색 독 기포를 띄운 손과 아래로 내린 주먹이 있다. 원본과 손 확대 이미지를 눈으로 확인; 가려진 부분은 추정해 다섯 개 확인으로 쓰지 않음."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "16c8e5afccb1afaa89ee9c95ea5f2200c212f917028b52029b380c0fed4f641c"
+    },
+    "casual1": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "청색 오버롤과 할터 상의, 닫힌 입의 미소. 큰 귀 장식이 남은 점은 허용 항목으로 기록."
+      },
+      "scene_and_pose": {
+        "match": "with noted deviations",
+        "evidence": "정원에서 낮게 앉아 오른손의 열매를 작은 피카츄에게 내밀고 왼손은 무릎에 얹었다. 두 다리가 접혀 운동화로 이어진다."
+      },
+      "style_25d": {
+        "judgment": "intentional illustrated 2D; current anime_gloss rule overrides legacy 2.5D gate",
+        "evidence": "가는 색선, 보라 눈의 층별 하이라이트와 피부의 부드러운 그라데이션. 얼굴이 실사나 3D로 바뀌지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "열매 집은 손은 엄지·검지 외 손가락이 부분 가려짐. 무릎 위 손은 다섯 손가락.",
+        "overlay_checked": false,
+        "note": "정원에서 낮게 앉아 오른손의 열매를 작은 피카츄에게 내밀고 왼손은 무릎에 얹었다. 두 다리가 접혀 운동화로 이어진다. 원본과 손 확대 이미지를 눈으로 확인; 가려진 부분은 추정해 다섯 개 확인으로 쓰지 않음."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "916a82d6adeff08e01a65ef8ad4ede60eaa40b9771dca701e64265911a50da06"
+    },
+    "casual2": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "갈색 브로케이드 해적 모자와 크롭 코트·반바지. 눈을 가늘게 뜨고 입을 벌린 웃음."
+      },
+      "scene_and_pose": {
+        "match": "with noted deviations",
+        "evidence": "불꽃놀이 강변에서 몸을 뒤 3/4로 틀고 부채를 든다. 다른 손은 아래로 내려 있고 양팔 연결이 보인다."
+      },
+      "style_25d": {
+        "judgment": "intentional illustrated 2D; current anime_gloss rule overrides legacy 2.5D gate",
+        "evidence": "가는 색선, 보라 눈의 층별 하이라이트와 피부의 부드러운 그라데이션. 얼굴이 실사나 3D로 바뀌지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "내린 손 다섯 손가락과 엄지 방향 정상. 부채 쥔 손의 세 손가락은 부채 뒤로 가려짐.",
+        "overlay_checked": false,
+        "note": "불꽃놀이 강변에서 몸을 뒤 3/4로 틀고 부채를 든다. 다른 손은 아래로 내려 있고 양팔 연결이 보인다. 원본과 손 확대 이미지를 눈으로 확인; 가려진 부분은 추정해 다섯 개 확인으로 쓰지 않음."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "90300786f94b889632c2f3c9296b50117f24d3912f3c1611d1c4f0d9e87eec71"
+    },
+    "casual3": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "라벤더 슬립, 촬영 우산·필름카메라가 배경에 있다. 은보라 단발과 보라 눈 유지."
+      },
+      "scene_and_pose": {
+        "match": "with noted deviations",
+        "evidence": "롤러장 촬영 매트에 엎드려 두 손으로 턱을 받치고 무릎을 굽혀 롤러스케이트 두 발을 들었다."
+      },
+      "style_25d": {
+        "judgment": "intentional illustrated 2D; current anime_gloss rule overrides legacy 2.5D gate",
+        "evidence": "가는 색선, 보라 눈의 층별 하이라이트와 피부의 부드러운 그라데이션. 얼굴이 실사나 3D로 바뀌지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 아래 두 손은 손목에서 팔꿈치로 자연스럽게 이어짐. 접힌 손가락 일부는 볼과 머리로 가려짐.",
+        "overlay_checked": false,
+        "note": "롤러장 촬영 매트에 엎드려 두 손으로 턱을 받치고 무릎을 굽혀 롤러스케이트 두 발을 들었다. 원본과 손 확대 이미지를 눈으로 확인; 가려진 부분은 추정해 다섯 개 확인으로 쓰지 않음."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "4e6e82655e318fbec3e60d2e4a2222eac695ff105a3ebf2df919691f976c747f"
+    },
+    "casual4": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "머스터드 상의 목선이 보이고 입꼬리가 거의 올라가지 않아 무심한 표정. 바지와 허리 컷아웃은 크롭으로 안 보임."
+      },
+      "scene_and_pose": {
+        "match": "with noted deviations",
+        "evidence": "족욕장 나무 지붕과 타월 앞 얼굴 클로즈업. 한 손으로 V자를 하며 다른 팔과 다리는 프레임 밖이다."
+      },
+      "style_25d": {
+        "judgment": "intentional illustrated 2D; current anime_gloss rule overrides legacy 2.5D gate",
+        "evidence": "가는 색선, 보라 눈의 층별 하이라이트와 피부의 부드러운 그라데이션. 얼굴이 실사나 3D로 바뀌지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "V 손은 검지·중지 펼침, 나머지 세 손가락 접힘. 다른 손은 화면 밖.",
+        "overlay_checked": false,
+        "note": "족욕장 나무 지붕과 타월 앞 얼굴 클로즈업. 한 손으로 V자를 하며 다른 팔과 다리는 프레임 밖이다. 원본과 손 확대 이미지를 눈으로 확인; 가려진 부분은 추정해 다섯 개 확인으로 쓰지 않음."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "345d6c2846770d739142fc9e7c073f6bf9038618bf72920718efdbc5fb8a9055"
+    },
+    "casual5": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "아이보리 할터 수영복과 옆 허리 컷아웃. 계획의 비키니가 중앙 연결된 모노키니 형태로 나옴을 기록. 놀란 듯 작은 O자 입."
+      },
+      "scene_and_pose": {
+        "match": "with noted deviations",
+        "evidence": "항구가 내려다보이는 옥상 풀에서 한 손은 골반, 다른 손은 머리에 댔다. 두 팔·손목 연결 정상. 다리 아래는 화면 밖."
+      },
+      "style_25d": {
+        "judgment": "intentional illustrated 2D; current anime_gloss rule overrides legacy 2.5D gate",
+        "evidence": "가는 색선, 보라 눈의 층별 하이라이트와 피부의 부드러운 그라데이션. 얼굴이 실사나 3D로 바뀌지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "골반 위 손의 엄지와 네 손가락 구분. 머리 옆 손은 일부 손가락이 머리에 가려짐.",
+        "overlay_checked": false,
+        "note": "항구가 내려다보이는 옥상 풀에서 한 손은 골반, 다른 손은 머리에 댔다. 두 팔·손목 연결 정상. 다리 아래는 화면 밖. 원본과 손 확대 이미지를 눈으로 확인; 가려진 부분은 추정해 다섯 개 확인으로 쓰지 않음."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "40347f5e5c115063c3678b444f24b92e37ce491746450d1eb46476bbc20726d6"
+    },
+    "casual6": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "니드런 귀 장식과 반점이 있는 천 크롭 상의·짧은 스커트. 계획의 뒤 3/4보다 정면에 가깝게 나왔고 이를 기록."
+      },
+      "scene_and_pose": {
+        "match": "with noted deviations",
+        "evidence": "보라 네온과 화장 거울 옆 의자에 앉아 한 손은 턱 근처, 다른 손은 의자에 내려 둔다. 팔은 모두 몸에 연결."
+      },
+      "style_25d": {
+        "judgment": "intentional illustrated 2D; current anime_gloss rule overrides legacy 2.5D gate",
+        "evidence": "가는 색선, 보라 눈의 층별 하이라이트와 피부의 부드러운 그라데이션. 얼굴이 실사나 3D로 바뀌지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 근처 손은 일부 손가락이 겹쳐 가려짐. 의자 위 손은 엄지와 네 손가락으로 자연스럽고 손끝은 하단에 일부 걸림.",
+        "overlay_checked": false,
+        "note": "보라 네온과 화장 거울 옆 의자에 앉아 한 손은 턱 근처, 다른 손은 의자에 내려 둔다. 팔은 모두 몸에 연결. 원본과 손 확대 이미지를 눈으로 확인; 가려진 부분은 추정해 다섯 개 확인으로 쓰지 않음."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "8d739d8b3d1b55b29e996e0905533714395b9f8dcc6c2591f779eb553629f910"
+    },
+    "casual7": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "붉은 작업 셔츠·앞치마·올린 보안경. 계획의 놀람보다 입을 벌린 밝은 웃음. 얼굴은 단발·보라 눈의 같은 사람."
+      },
+      "scene_and_pose": {
+        "match": "with noted deviations",
+        "evidence": "노점의 공구 말이·베리·음료 피처 앞에서 머리를 귀 뒤로 넘기는 손. 다른 팔과 다리는 크롭 밖."
+      },
+      "style_25d": {
+        "judgment": "intentional illustrated 2D; current anime_gloss rule overrides legacy 2.5D gate",
+        "evidence": "가는 색선, 보라 눈의 층별 하이라이트와 피부의 부드러운 그라데이션. 얼굴이 실사나 3D로 바뀌지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "귀 옆 손은 다섯 손가락 구조이며 끝 일부가 머리카락에 가려짐. 화면 밖 손은 셈하지 않음.",
+        "overlay_checked": false,
+        "note": "노점의 공구 말이·베리·음료 피처 앞에서 머리를 귀 뒤로 넘기는 손. 다른 팔과 다리는 크롭 밖. 원본과 손 확대 이미지를 눈으로 확인; 가려진 부분은 추정해 다섯 개 확인으로 쓰지 않음."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "571d9f3900abedaf3c370ccb9db9986c3b73f527e13a80563d2d72d8ecda2cc6"
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "삐삐",
+      "식스테일",
+      "고지"
+    ],
+    "basis": "기존 세션의 실제 contact 이미지와 이번 원본 비교; 다른 캐릭터 이미지 다운로드·복사 없음",
+    "result": "정원의 열매 건네기, 강변 부채를 든 해적, 엎드린 롤러장 촬영, 족욕장 V 클로즈업, 옥상 풀, 파우더룸 코스튬, 작업 노점 측면 얼굴로 장소·활동·의상·구도가 구분됨. 기존 최근 세트의 앉아 지도 보기·피카츄 동료·클로즈업 같은 개별 요소는 일부 공유하지만 전체 구도는 구분됨."
+  },
+  "blocked_attempts": [
+    {
+      "slot": "casual6",
+      "count": 1,
+      "reason": "output safety moderation sexual",
+      "request_id": "ad8055e8-f4c1-46aa-8344-ac46be551498",
+      "action": "다른 의상과 장소로 계획기를 통해 재계획; 원 거절 문구의 우회 재작성 없음"
+    }
+  ]
+}
