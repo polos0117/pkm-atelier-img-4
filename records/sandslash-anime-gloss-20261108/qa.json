@@ -1,0 +1,170 @@
+{
+  "card": "고지",
+  "style": "anime_gloss",
+  "requested": 8,
+  "accepted": 8,
+  "tool": "built-in image_gen",
+  "tool_controls": {
+    "model_id": "not exposed",
+    "size": "not exposed; actual files verified 1024x1536",
+    "quality": "not exposed",
+    "references": "light: none; every casual: original light PNG only"
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "observed": "황금·백은색 경장 전신, 열린 손의 흙빛과 부유석, 양발과 머리 여백 확인. 매끈한 하관과 금빛 눈, 금갈색 가시형 머리.",
+      "identity": "기준의 금갈색 가시형 긴 머리·금빛 눈·가느다란 턱과 얼굴 비율 유지",
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선·눈 하이라이트·부드러운 그라데이션 피부 채색. 과거 2.5D 검사 기준보다 최신 기본 화풍의 clean 2D 지시를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "열린 손의 다섯 손가락 확인. 반대 손은 느슨한 주먹으로 손가락 일부 가려짐. 양 손목이 장갑·아래팔에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대에서 눈으로 확인; 크롭 밖의 팔다리는 가려짐으로 기록."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "observed": "회색 유카타와 화실, 뺨을 짚는 손·기울인 고개·차분한 굳은 입. 선택한 face_close보다 몸이 넓게 보이고 머리 장식 유지: 기록 사항.",
+      "identity": "기준의 금갈색 가시형 긴 머리·금빛 눈·가느다란 턱과 얼굴 비율 유지",
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선·눈 하이라이트·부드러운 그라데이션 피부 채색. 과거 2.5D 검사 기준보다 최신 기본 화풍의 clean 2D 지시를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "뺨을 짚는 손은 펴거나 접은 손가락의 겹침이 있음; 다른 손은 프레임 밖. 손목과 팔 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대에서 눈으로 확인; 크롭 밖의 팔다리는 가려짐으로 기록."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "observed": "런웨이 바닥에 옆으로 앉은 고지 성인 코스튬. 노란 미니드레스와 갈색 가시형 패널. 1인과 접힌 두 다리 확인.",
+      "identity": "기준의 금갈색 가시형 긴 머리·금빛 눈·가느다란 턱과 얼굴 비율 유지",
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선·눈 하이라이트·부드러운 그라데이션 피부 채색. 과거 2.5D 검사 기준보다 최신 기본 화풍의 clean 2D 지시를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "바닥을 짚는 손과 무릎 위 손 각각 다섯 손가락, 측면 겹침 있음. 팔 둘·다리 둘 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대에서 눈으로 확인; 크롭 밖의 팔다리는 가려짐으로 기록."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "observed": "포켓몬 미용실의 수건·브러시·세척대, 세이지 원숄더 수영복, 얼굴 옆 몬스터볼. 어깨 너머 얼굴과 미소.",
+      "identity": "기준의 금갈색 가시형 긴 머리·금빛 눈·가느다란 턱과 얼굴 비율 유지",
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선·눈 하이라이트·부드러운 그라데이션 피부 채색. 과거 2.5D 검사 기준보다 최신 기본 화풍의 clean 2D 지시를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "몬스터볼을 잡은 손의 펴진 손가락과 접은 손가락, 공 뒤로 가려진 손가락 확인. 추가 손가락 없음. 다른 손은 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대에서 눈으로 확인; 크롭 밖의 팔다리는 가려짐으로 기록."
+      }
+    },
+    "casual4": {
+      "accepted": true,
+      "observed": "폭포와 물웅덩이, 핑크 플리스 홀터와 조거, 접은 선글라스. 계획의 주머니 손 대신 귀 옆으로 올라간 손: 기록 사항.",
+      "identity": "기준의 금갈색 가시형 긴 머리·금빛 눈·가느다란 턱과 얼굴 비율 유지",
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선·눈 하이라이트·부드러운 그라데이션 피부 채색. 과거 2.5D 검사 기준보다 최신 기본 화풍의 clean 2D 지시를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "선글라스 쥔 손은 일부 손가락이 소품과 겹침. 귀 옆의 반대 손은 머리카락에 일부 가림. 팔 둘 정상 연결.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대에서 눈으로 확인; 크롭 밖의 팔다리는 가려짐으로 기록."
+      }
+    },
+    "casual5": {
+      "accepted": true,
+      "observed": "오페라 극장의 계단·조명, 아이보리 브라이덜 레이스와 베일, 입 앞 검지. 얼굴 클로즈업보다 넓은 상반신: 기록 사항.",
+      "identity": "기준의 금갈색 가시형 긴 머리·금빛 눈·가느다란 턱과 얼굴 비율 유지",
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선·눈 하이라이트·부드러운 그라데이션 피부 채색. 과거 2.5D 검사 기준보다 최신 기본 화풍의 clean 2D 지시를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "입 앞 검지 하나와 접힌 손가락 넷, 총 다섯. 반대 손은 프레임 밖. 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대에서 눈으로 확인; 크롭 밖의 팔다리는 가려짐으로 기록."
+      }
+    },
+    "casual6": {
+      "accepted": true,
+      "observed": "테마 촬영 행사장, 코랄 레이스와 오렌지 치마. 옆으로 앉아 카메라로 촬영. 팔 둘과 손 둘 확인.",
+      "identity": "기준의 금갈색 가시형 긴 머리·금빛 눈·가느다란 턱과 얼굴 비율 유지",
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선·눈 하이라이트·부드러운 그라데이션 피부 채색. 과거 2.5D 검사 기준보다 최신 기본 화풍의 clean 2D 지시를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카메라 셔터를 잡는 손과 렌즈를 받치는 손의 손가락은 소품에 일부 가려짐. 양 손목·아래팔·팔꿈치 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대에서 눈으로 확인; 크롭 밖의 팔다리는 가려짐으로 기록."
+      }
+    },
+    "casual7": {
+      "accepted": true,
+      "observed": "1996 노래방의 미러볼·노래 기기·소파, 민트 유니폼풍 이벤트 의상, 따뜻한 컵을 두 손으로 감쌈. 은은한 미소.",
+      "identity": "기준의 금갈색 가시형 긴 머리·금빛 눈·가느다란 턱과 얼굴 비율 유지",
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선·눈 하이라이트·부드러운 그라데이션 피부 채색. 과거 2.5D 검사 기준보다 최신 기본 화풍의 clean 2D 지시를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "컵을 감싼 두 손에서 각 네 손가락, 엄지는 컵 뒤로 가려짐. 양쪽 팔꿈치와 손목 정상 연결.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대에서 눈으로 확인; 크롭 밖의 팔다리는 가려짐으로 기록."
+      }
+    }
+  },
+  "regenerations": [
+    {
+      "slot": "casual3",
+      "attempt": 1,
+      "original_sha256": "0fe757bec757b697ab55c51c04b3da6f4cf5eab448953d0b12c8aa8c9e43df72",
+      "rejected_reason": "몬스터볼을 잡은 손에 손가락 여섯 개",
+      "changed_input": "없음 — 같은 생성기 프롬프트와 동일 light 원본 참조",
+      "accepted_attempt": 2,
+      "accepted_sha256": "e353bd5717a35d44787815f3326f7cdb3a0b5a30c3e3f7c122e24a425a0156e9"
+    }
+  ],
+  "visual_comparison": {
+    "cards": {
+      "모래두지": 7,
+      "이상해씨": 7,
+      "꼬부기": 5
+    },
+    "observed": "고지는 가시형 긴 머리와 금빛 눈·좁고 단정한 턱으로 모래두지의 귀 장식과 부드러운 머리 흐름, 꼬부기의 짧은 청색머리, 이상해씨의 녹색 단발과 구별된다. 이번 일상은 런웨이 바닥앉기·화실 뺨손·미용실 몬스터볼·폭포 선글라스·오페라 쉿·행사장 카메라·노래방 컵으로 최근 컷과 장소/활동/실루엣/구도 조합이 구별됨."
+  }
+}
