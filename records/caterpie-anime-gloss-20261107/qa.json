@@ -1,0 +1,154 @@
+{
+  "light": {
+    "accepted": true,
+    "observation": "전신·초록 단발·황록 눈·회색/초록 분절 장갑. 양팔과 다리 연결 정상.",
+    "identity": "얼굴 주변 밝은 셀/그라데이션과 가는 윤곽선: 최신 anime_gloss의 2D 규칙을 따른다.",
+    "style_25d": {
+      "verdict": "2D — intended anime_gloss",
+      "evidence": "얼굴 주변 밝은 셀/그라데이션과 가는 윤곽선: 최신 anime_gloss의 2D 규칙을 따른다.",
+      "basis": "2026-11-07 default style explicitly clean 2D; older 2.5D gate is superseded for this style."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "오른손 열린 손의 일부 손가락은 투시로 겹침; 왼손은 구부린 손가락과 엄지가 분리돼 보임.",
+      "overlay_checked": false,
+      "note": "Manual inspection of returned 1024x1536 image; no obvious detached or extra limb."
+    },
+    "submitted_same": true
+  },
+  "casual1": {
+    "accepted": true,
+    "observation": "온실 의자, 보라 벨벳 미니 가운, 책을 안은 동작. 계획보다 얼굴이 정면에 가까움; 장식 유지와 바닥의 여분 책은 기록.",
+    "identity": "기준의 황록 눈과 초록 단발 및 부드러운 볼 형태 유지.",
+    "style_25d": {
+      "verdict": "2D — intended anime_gloss",
+      "evidence": "기준의 황록 눈과 초록 단발 및 부드러운 볼 형태 유지.",
+      "basis": "2026-11-07 default style explicitly clean 2D; older 2.5D gate is superseded for this style."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "책을 쥔 오른손 일부 가려짐; 무릎 위 왼손 손가락 다섯, 양손목 정상.",
+      "overlay_checked": false,
+      "note": "Manual inspection of returned 1024x1536 image; no obvious detached or extra limb."
+    },
+    "submitted_same": true
+  },
+  "casual2": {
+    "accepted": true,
+    "observation": "산호색 사리형 하의·아이보리 어깨 노출 상의, 등불과 뒤돌아본 구도.",
+    "identity": "기준 얼굴 비율 유지, 하관 연장 없음.",
+    "style_25d": {
+      "verdict": "2D — intended anime_gloss",
+      "evidence": "기준 얼굴 비율 유지, 하관 연장 없음.",
+      "basis": "2026-11-07 default style explicitly clean 2D; older 2.5D gate is superseded for this style."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "등불 쥔 손은 그립으로 일부 가려짐; 반대 손 다섯 손가락 분리.",
+      "overlay_checked": false,
+      "note": "Manual inspection of returned 1024x1536 image; no obvious detached or extra limb."
+    },
+    "submitted_same": true
+  },
+  "casual3": {
+    "accepted": true,
+    "observation": "열차 전신, 네이비 수영복 위 열린 복숭아 유카타, 컵을 든 윙크.",
+    "identity": "기준 그림의 선과 밝은 피부 표현 유지.",
+    "style_25d": {
+      "verdict": "2D — intended anime_gloss",
+      "evidence": "기준 그림의 선과 밝은 피부 표현 유지.",
+      "basis": "2026-11-07 default style explicitly clean 2D; older 2.5D gate is superseded for this style."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "컵 손의 엄지는 뒤로 가려짐; 내려둔 손의 손가락은 부분 겹침. 양팔·양다리 정상.",
+      "overlay_checked": false,
+      "note": "Manual inspection of returned 1024x1536 image; no obvious detached or extra limb."
+    },
+    "submitted_same": true
+  },
+  "casual4": {
+    "accepted": true,
+    "observation": "카지노 행사 무대 옆 테이블, 크롭 조끼와 반바지, 필름 카메라 촬영. 카메라가 얼굴 일부 가림.",
+    "identity": "측면에서도 단발과 작은 코·턱의 비율 유지.",
+    "style_25d": {
+      "verdict": "2D — intended anime_gloss",
+      "evidence": "측면에서도 단발과 작은 코·턱의 비율 유지.",
+      "basis": "2026-11-07 default style explicitly clean 2D; older 2.5D gate is superseded for this style."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": "partially visible or outside crop",
+      "hands": "카메라 오른손 검지/세 손가락 보임, 엄지는 그립 뒤; 받침 왼손은 렌즈가 일부 가림.",
+      "overlay_checked": false,
+      "note": "Manual inspection of returned 1024x1536 image; no obvious detached or extra limb."
+    },
+    "submitted_same": true
+  },
+  "casual5": {
+    "accepted": true,
+    "observation": "박물관 갈라 사리와 금 장신구, 쉬쉬 손동작의 얼굴 클로즈업.",
+    "identity": "기준의 둥근 얼굴과 눈색 유지. 2D이며 사실 피부 질감 추가 없음.",
+    "style_25d": {
+      "verdict": "2D — intended anime_gloss",
+      "evidence": "기준의 둥근 얼굴과 눈색 유지. 2D이며 사실 피부 질감 추가 없음.",
+      "basis": "2026-11-07 default style explicitly clean 2D; older 2.5D gate is superseded for this style."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "one visible, other outside crop",
+      "legs": "partially visible or outside crop",
+      "hands": "오른손 검지와 굽힌 손가락은 보이나 엄지/일부 손가락 가려짐. 왼손은 프레임 밖.",
+      "overlay_checked": false,
+      "note": "Manual inspection of returned 1024x1536 image; no obvious detached or extra limb."
+    },
+    "submitted_same": true
+  },
+  "casual6": {
+    "accepted": true,
+    "observation": "별빛 무대 캐터피 바디수트, 양손 맞잡기. 허리 위 계획보다 허벅지까지 넓게 담김.",
+    "identity": "코스튬에서 기준 단발과 눈·얼굴 구조 유지.",
+    "style_25d": {
+      "verdict": "2D — intended anime_gloss",
+      "evidence": "코스튬에서 기준 단발과 눈·얼굴 구조 유지.",
+      "basis": "2026-11-07 default style explicitly clean 2D; older 2.5D gate is superseded for this style."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": "partially visible or outside crop",
+      "hands": "양손 맞잡아 손가락 일부 가려짐, 손목 두 개가 각각 팔에 연결됨.",
+      "overlay_checked": false,
+      "note": "Manual inspection of returned 1024x1536 image; no obvious detached or extra limb."
+    },
+    "submitted_same": true
+  },
+  "casual7": {
+    "accepted": true,
+    "observation": "정원에서 쪼그려 화분 물주기, 동료 캐터피 한 마리. 측면·셔츠와 유틸리티 반바지.",
+    "identity": "웃는 측면 표정에서도 단발·황록 눈·작고 둥근 턱 유지.",
+    "style_25d": {
+      "verdict": "2D — intended anime_gloss",
+      "evidence": "웃는 측면 표정에서도 단발·황록 눈·작고 둥근 턱 유지.",
+      "basis": "2026-11-07 default style explicitly clean 2D; older 2.5D gate is superseded for this style."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "물뿌리개 쥔 손 일부 가려짐; 무릎 위 손 다섯 손가락. 두 다리와 부츠 연결 정상.",
+      "overlay_checked": false,
+      "note": "Manual inspection of returned 1024x1536 image; no obvious detached or extra limb."
+    },
+    "submitted_same": true
+  }
+}

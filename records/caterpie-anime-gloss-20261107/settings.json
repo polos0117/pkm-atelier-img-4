@@ -1,0 +1,519 @@
+{
+  "version": 2,
+  "card": "캐터피",
+  "no": 10,
+  "style": "anime_gloss",
+  "plan": "/workspace/scratch/d45a07cb8169/planning/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "segmented_parts"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "bug"
+          },
+          {
+            "key": "seams",
+            "type": "bug"
+          },
+          {
+            "key": "orbit",
+            "type": "bug"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "segmented_parts"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "bug"
+          },
+          {
+            "key": "seams",
+            "type": "bug"
+          },
+          {
+            "key": "orbit",
+            "type": "bug"
+          }
+        ]
+      },
+      "mecha_recent": [
+        "cape_plates",
+        "long_coat_plate",
+        "hover_rings"
+      ],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "A burgundy botanical folio lies against the velvet; afternoon sun turns the greenhouse glass amber.",
+      "outfit": "a vampire countess costume — a high-collared velvet cape worn open over a fitted plum mini gown with a cinched waist and plunging neckline",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 온실·식물원에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 무대·판타지 의상 의상과 옷 종류를 유지하면서 plunging neckline, mini length 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / greenhouse / costume / vampire_gala / sit_chair / environmental / book_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "greenhouse",
+            "ko": "온실·식물원",
+            "en": "a glass greenhouse full of plants with a wooden potting bench"
+          },
+          "role": null,
+          "use": {
+            "key": "book_hold",
+            "ko": "책을 안는다",
+            "en": "holds a book closed against her chest",
+            "prop": "책"
+          },
+          "ofam": {
+            "key": "costume",
+            "ko": "무대·판타지 의상",
+            "en": "a stage or fantasy costume"
+          },
+          "item": {
+            "key": "vampire_gala",
+            "ko": "뱀파이어 백작 부인",
+            "en": "a vampire countess costume — a high-collared velvet cape over a fitted gown with a cinched waist"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "coat",
+          "dress"
+        ],
+        "expose": [
+          "plunging neckline",
+          "mini length"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual2": {
+      "scene": "Fireflies trace the verge between two small towns at blue hour.",
+      "outfit": "a sari-blouse-inspired set with a short fitted ivory top, an asymmetric off-shoulder neckline and a draped coral lower piece, exposing one shoulder and the waist",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 풀숲 길에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 란제리풍 의상과 옷 종류를 유지하면서 off-shoulder neckline, one-shoulder cut 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / pw_route / lingerie / sari_blouse_set / walk / three_quarter / lantern_low",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "pw_route",
+            "ko": "풀숲 길",
+            "en": "a route of tall grass and a dirt path between two Pokémon-world towns"
+          },
+          "role": null,
+          "use": {
+            "key": "lantern_low",
+            "ko": "등불을 든다",
+            "en": "holds a small hand lantern low at her side",
+            "prop": "등불"
+          },
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "sari_blouse_set",
+            "ko": "사리 블라우스 응용",
+            "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "blouse",
+          "traditional"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "one-shoulder cut"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual3": {
+      "scene": "Warm afternoon light crosses the luggage racks; the train is returning from a seaside excursion.",
+      "outfit": "a side-cutout navy swimsuit with a light peach yukata worn open over it, its high side slit revealing the thigh",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 여행 열차 객실에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 수영복 의상과 옷 종류를 유지하면서 side cutouts, high thigh slit 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / work_train / swimwear / yukata_over / walk / full_body / cup_hold",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "work_train",
+            "ko": "여행 열차 객실",
+            "en": "a carriage of a Pokémon travel train with luggage racks and resting cushions"
+          },
+          "role": null,
+          "use": {
+            "key": "cup_hold",
+            "ko": "잔을 든다",
+            "en": "holds a cup at chest height",
+            "prop": "잔·컵"
+          },
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "yukata_over",
+            "ko": "수영복 위 유카타",
+            "en": "swimwear with a light yukata worn open over it"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · natural"
+        },
+        "garments": [
+          "traditional"
+        ],
+        "expose": [
+          "side cutouts",
+          "high thigh slit"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual4": {
+      "scene": "A 1996 casino-themed charity contest has a small photographers table beside the stage.",
+      "outfit": "a casino dealer costume with a fitted cropped strapless black waistcoat, burgundy shorts, a separate bow tie and cuffs, showing shoulders and midriff",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 대회 무대에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 역할극·직업 의상 의상과 옷 종류를 유지하면서 bare midriff, strapless top 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / stage_contest / roleplay / casino_dealer / sit_lean / three_quarter / camera_shoot",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "stage_contest",
+            "ko": "대회 무대",
+            "en": "a contest or tournament stage under spotlights"
+          },
+          "role": null,
+          "use": {
+            "key": "camera_shoot",
+            "ko": "사진을 찍는다",
+            "en": "raises a camera to her eye to take a photo",
+            "prop": "카메라"
+          },
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "casino_dealer",
+            "ko": "카지노 딜러",
+            "en": "a casino dealer costume with a fitted waistcoat, bow tie and cuffs"
+          },
+          "posture": {
+            "key": "sit_lean",
+            "ko": "앉아 앞으로 기울이기",
+            "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "vest"
+        ],
+        "expose": [
+          "bare midriff",
+          "strapless top"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual5": {
+      "scene": "Marble sculptures frame the museum gala beneath amber chandelier light.",
+      "outfit": "a traditional Indian sari ensemble with a cropped open-back silk blouse and a draped ivory sari, exposing the waist and upper back",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 박물관 갈라에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 전통 의상 의상과 옷 종류를 유지하면서 cropped hem, open back 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_museum / traditional / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_museum",
+            "ko": "박물관 갈라",
+            "en": "a grand museum hall with marble statues at night"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "traditional",
+            "ko": "전통 의상",
+            "en": "a traditional dress that suits her, worn naturally",
+            "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "shush · out"
+        },
+        "garments": [
+          "blouse"
+        ],
+        "expose": [
+          "cropped hem",
+          "open back"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual6": {
+      "scene": "Crystal stars glitter over a polished midnight-blue stage floor.",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 별빛 무대에 시간·소품·배경의 구체적인 모습이 없어 보충한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_starstage / pokemon_costume / pc_bodysuit / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_starstage",
+            "ko": "별빛 무대",
+            "en": "a stage under a painted night sky of crystal stars"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_bodysuit",
+            "ko": "바디수트형",
+            "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "clasp_both · clasp_both"
+        },
+        "garments": [
+          "bodysuit",
+          "leggings"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "mini length"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual7": {
+      "scene": "Early sunlight illuminates the herbs; one small Caterpie rests beside the flowerpot.",
+      "outfit": "a fitted off-shoulder ranger shirt knotted at the waist over high-waisted mini utility shorts and lace-up boots, showing shoulders and thighs",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 조용한 정원에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 직업복 의상과 옷 종류를 유지하면서 off-shoulder neckline, mini length 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / partner_garden / work / glam_ranger / squat / full_body / can_water",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "partner_garden",
+            "ko": "조용한 정원",
+            "en": "a quiet garden with a feeding bowl set on the grass"
+          },
+          "role": null,
+          "use": {
+            "key": "can_water",
+            "ko": "화분에 물을 준다",
+            "en": "waters a potted plant with a small watering can",
+            "prop": "작은 물뿌리개"
+          },
+          "ofam": {
+            "key": "work",
+            "ko": "직업복",
+            "en": "practical clothing for her Pokémon-world job, readable through its tools",
+            "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+          },
+          "item": {
+            "key": "glam_ranger",
+            "ko": "글래머 레인저룩",
+            "en": "a fitted ranger shirt knotted at the waist over high-waisted utility shorts and lace-up boots"
+          },
+          "posture": {
+            "key": "squat",
+            "ko": "쪼그려 앉기",
+            "en": "crouching low on her heels"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · natural"
+        },
+        "garments": [
+          "shirt",
+          "shorts"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "mini length"
+        ],
+        "lead": "light"
+      }
+    }
+  }
+}
