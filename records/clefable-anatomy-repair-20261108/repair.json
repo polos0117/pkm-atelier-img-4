@@ -1,0 +1,39 @@
+{
+  "card": "픽시",
+  "slot": "casual3",
+  "style": "anime_gloss",
+  "mode": "targeted anatomy edit expressly requested by user",
+  "tool": "image_gen.imagegen",
+  "model_id": "not exposed",
+  "quality_setting": "not exposed",
+  "transparent_background": false,
+  "submitted_sha256": "fa0ecfcd435549329d89ffe8823d85260c9425d335ae572d05f9665d23d42b8b",
+  "submitted_same": true,
+  "references": [
+    {
+      "role": "edit_target",
+      "path": "/workspace/scratch/0977a186e83a/generated_images/exec-b19a2fd5-a0b6-4bd5-aef4-db4ff3fe2587.png",
+      "sha256": "9e411fba967ef1871b0d0802d4d56bd041152d134cd834d9614271dd29b30671"
+    },
+    {
+      "role": "identity_reference",
+      "path": "/workspace/scratch/0977a186e83a/generated_images/exec-7b1d1bf1-a01d-4a43-9d89-7e6434f63278.png",
+      "sha256": "c6bd40ca29a8960f06219d0a11a37534eae81071b8ed01f6d15c8b2401855bb4"
+    }
+  ],
+  "original_png": {
+    "path": "/workspace/scratch/0977a186e83a/generated_images/exec-c0e8e3de-4c51-4c7b-8b5d-30aedaf91510.png",
+    "sha256": "e3de5bcaefa6d319f71864b7bc956d354f29f31a96c60fa52a9e6bdb29f83118",
+    "session_only": true
+  },
+  "replaced_file": "img/픽시_anime_gloss_f_casual3.webp",
+  "before_webp_sha256": "d8a9e802dd268249c8020c45ef1bb2120ef373182f39decce9b68c0c20f4d09f",
+  "after_webp_sha256": "286cc804dff6e36daee93867fe9f0c73090d70ef72402b2b9cde5a7fdf15a772",
+  "encoding": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6
+  },
+  "original_selection_state": "original-ui.json; no new plan choices were invented",
+  "approval": "User asked to fix both generated images; earlier main publication authorization continues for these fixes."
+}
