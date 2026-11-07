@@ -1,0 +1,255 @@
+{
+  "reviewer": "gpt",
+  "card": "푸린",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observations": "커다란 앞머리 컬과 분홍 웨이브, 둥근 얼굴과 수평에 가까운 큰 눈. 꽃잎 형태 목깃과 슬림한 흰 분홍 장갑, 열린 손의 따뜻한 빛. 머리와 양발에 여백이 있음.",
+      "identity": {
+        "match": true,
+        "evidence": "커다란 앞머리 컬과 분홍 웨이브, 둥근 얼굴과 수평에 가까운 큰 눈. 꽃잎 형태 목깃과 슬림한 흰 분홍 장갑, 열린 손의 따뜻한 빛. 머리와 양발에 여백이 있음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "열린 손은 엄지와 네 손가락이 구분됨. 내려간 손은 느슨한 주먹이라 손가락 일부가 겹침. 팔 둘과 다리 둘이 연결됨.",
+        "overlay_checked": false,
+        "note": "Visible anatomy checked visually; counts describe the human figure, with hidden or cropped parts noted."
+      },
+      "style_25d": {
+        "판정": "2D — latest anime_gloss style as requested",
+        "근거": "가는 윤곽선, 코와 볼의 부드러운 단층-그라데이션 음영, 선으로 읽히는 눈과 입술. 최신 화풍은 2D를 명시하므로 예전 2.5D 재생성 조건을 적용하지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 file reopened with Pillow"
+      },
+      "exposure_regeneration": false
+    },
+    "casual1": {
+      "accepted": true,
+      "observations": "재단 마네킹과 원단 선반이 있는 수선실에서 빨간 무대 의상, 검지를 입술 앞에 둠. 둥근 턱과 커다란 컬이 기준과 이어짐.",
+      "identity": {
+        "match": true,
+        "evidence": "재단 마네킹과 원단 선반이 있는 수선실에서 빨간 무대 의상, 검지를 입술 앞에 둠. 둥근 턱과 커다란 컬이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "입술 앞 손의 검지와 접힌 손가락이 연결되고 엄지는 접힌 쪽. 다른 손과 하체는 얼굴 크롭 밖.",
+        "overlay_checked": false,
+        "note": "Visible anatomy checked visually; counts describe the human figure, with hidden or cropped parts noted."
+      },
+      "style_25d": {
+        "판정": "2D — latest anime_gloss style as requested",
+        "근거": "가는 윤곽선, 코와 볼의 부드러운 단층-그라데이션 음영, 선으로 읽히는 눈과 입술. 최신 화풍은 2D를 명시하므로 예전 2.5D 재생성 조건을 적용하지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 file reopened with Pillow"
+      },
+      "exposure_regeneration": false
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "피아노가 있는 재즈바에서 분홍 코르셋과 짧은 치마 형태 푸린 코스튬. 한 손을 앞으로 내밀고 다른 손을 목 리본 가까이 둠.",
+      "identity": {
+        "match": true,
+        "evidence": "피아노가 있는 재즈바에서 분홍 코르셋과 짧은 치마 형태 푸린 코스튬. 한 손을 앞으로 내밀고 다른 손을 목 리본 가까이 둠."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손은 엄지와 네 손가락이 보임. 목 부근 손은 각 손가락이 자연스럽게 펼쳐져 손목에 연결됨.",
+        "overlay_checked": false,
+        "note": "Visible anatomy checked visually; counts describe the human figure, with hidden or cropped parts noted."
+      },
+      "style_25d": {
+        "판정": "2D — latest anime_gloss style as requested",
+        "근거": "가는 윤곽선, 코와 볼의 부드러운 단층-그라데이션 음영, 선으로 읽히는 눈과 입술. 최신 화풍은 2D를 명시하므로 예전 2.5D 재생성 조건을 적용하지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 file reopened with Pillow"
+      },
+      "exposure_regeneration": false
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "게임 상자와 보드판이 있는 라운지에서 베레와 초커, 올리브 계열 의상. 낮은 눈꺼풀과 다문 입술. 얼굴 중심 크롭이라 계획의 엎드린 자세와 하의는 확인 범위 밖.",
+      "identity": {
+        "match": true,
+        "evidence": "게임 상자와 보드판이 있는 라운지에서 베레와 초커, 올리브 계열 의상. 낮은 눈꺼풀과 다문 입술. 얼굴 중심 크롭이라 계획의 엎드린 자세와 하의는 확인 범위 밖."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "손은 크롭 밖. 한쪽 팔 일부만 아래 테두리로 자연스럽게 이어지며 떨어진 손은 없음.",
+        "overlay_checked": false,
+        "note": "Visible anatomy checked visually; counts describe the human figure, with hidden or cropped parts noted."
+      },
+      "style_25d": {
+        "판정": "2D — latest anime_gloss style as requested",
+        "근거": "가는 윤곽선, 코와 볼의 부드러운 단층-그라데이션 음영, 선으로 읽히는 눈과 입술. 최신 화풍은 2D를 명시하므로 예전 2.5D 재생성 조건을 적용하지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 file reopened with Pillow"
+      },
+      "exposure_regeneration": false
+    },
+    "casual4": {
+      "accepted": true,
+      "observations": "빗방울 맺힌 케이블카 창과 안개 계곡 앞, 라벤더 랩 수영복과 허리에 묶인 자락. 어깨 가방 끈과 유선 음악기, 뒤 3/4 몸과 돌아본 얼굴.",
+      "identity": {
+        "match": true,
+        "evidence": "빗방울 맺힌 케이블카 창과 안개 계곡 앞, 라벤더 랩 수영복과 허리에 묶인 자락. 어깨 가방 끈과 유선 음악기, 뒤 3/4 몸과 돌아본 얼굴."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "가방끈 손은 접힌 손가락이 겹침. 내려간 손은 다섯 손가락 윤곽이 자연스럽게 이어짐. 다리는 무릎 위 크롭 밖으로 계속됨.",
+        "overlay_checked": false,
+        "note": "Visible anatomy checked visually; counts describe the human figure, with hidden or cropped parts noted."
+      },
+      "style_25d": {
+        "판정": "2D — latest anime_gloss style as requested",
+        "근거": "가는 윤곽선, 코와 볼의 부드러운 단층-그라데이션 음영, 선으로 읽히는 눈과 입술. 최신 화풍은 2D를 명시하므로 예전 2.5D 재생성 조건을 적용하지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 file reopened with Pillow"
+      },
+      "exposure_regeneration": false
+    },
+    "casual5": {
+      "accepted": true,
+      "observations": "도시가 보이는 호텔 방, 긴 베일과 카멜빛 슬립 웨딩드레스. 탁자 위 펼친 책장을 넘기고 열린 여행가방이 옆에 있음. 옆모습의 코와 짧은 둥근 턱 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "도시가 보이는 호텔 방, 긴 베일과 카멜빛 슬립 웨딩드레스. 탁자 위 펼친 책장을 넘기고 열린 여행가방이 옆에 있음. 옆모습의 코와 짧은 둥근 턱 유지."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "한 손은 책장 모서리를 집고 다른 손은 책 위에 펼침. 종이에 가려진 손가락 일부를 제외하고 손목이 각 팔에 연결됨. 두 다리는 긴 치마 일부에 가려짐.",
+        "overlay_checked": false,
+        "note": "Visible anatomy checked visually; counts describe the human figure, with hidden or cropped parts noted."
+      },
+      "style_25d": {
+        "판정": "2D — latest anime_gloss style as requested",
+        "근거": "가는 윤곽선, 코와 볼의 부드러운 단층-그라데이션 음영, 선으로 읽히는 눈과 입술. 최신 화풍은 2D를 명시하므로 예전 2.5D 재생성 조건을 적용하지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 file reopened with Pillow"
+      },
+      "exposure_regeneration": false
+    },
+    "casual6": {
+      "accepted": true,
+      "observations": "행사 배경과 의상 행거가 있는 스파 라운지에서 아이보리 메이드 의상. 찻잔을 양손으로 잡고 고개를 위쪽으로 돌려 미소. 선택 손동작보다 찻잔 동작으로 바뀐 것은 기록만 함.",
+      "identity": {
+        "match": true,
+        "evidence": "행사 배경과 의상 행거가 있는 스파 라운지에서 아이보리 메이드 의상. 찻잔을 양손으로 잡고 고개를 위쪽으로 돌려 미소. 선택 손동작보다 찻잔 동작으로 바뀐 것은 기록만 함."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "찻잔 양쪽 손의 엄지가 잔 쪽으로 향하고 네 손가락은 잔과 손잡이 뒤로 일부 가려짐. 팔 둘의 연결은 보임. 다리는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "Visible anatomy checked visually; counts describe the human figure, with hidden or cropped parts noted."
+      },
+      "style_25d": {
+        "판정": "2D — latest anime_gloss style as requested",
+        "근거": "가는 윤곽선, 코와 볼의 부드러운 단층-그라데이션 음영, 선으로 읽히는 눈과 입술. 최신 화풍은 2D를 명시하므로 예전 2.5D 재생성 조건을 적용하지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 file reopened with Pillow"
+      },
+      "exposure_regeneration": false
+    },
+    "casual7": {
+      "accepted": true,
+      "observations": "울타리 풀밭에서 푸른 사리풍 상하의를 입고 옆으로 누워 팔 하나로 받침. 별도 작은 삐삐 한 마리를 다른 손으로 쓰다듬음. 동료는 사람과 분리되어 있음.",
+      "identity": {
+        "match": true,
+        "evidence": "울타리 풀밭에서 푸른 사리풍 상하의를 입고 옆으로 누워 팔 하나로 받침. 별도 작은 삐삐 한 마리를 다른 손으로 쓰다듬음. 동료는 사람과 분리되어 있음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "바닥을 짚은 손은 일부 손가락이 프레임 왼쪽에 걸림. 동료 위 손은 손가락과 엄지가 자연스럽게 연결됨. 두 다리는 옆으로 접혀 각 발과 이어짐.",
+        "overlay_checked": false,
+        "note": "Visible anatomy checked visually; counts describe the human figure, with hidden or cropped parts noted."
+      },
+      "style_25d": {
+        "판정": "2D — latest anime_gloss style as requested",
+        "근거": "가는 윤곽선, 코와 볼의 부드러운 단층-그라데이션 음영, 선으로 읽히는 눈과 입술. 최신 화풍은 2D를 명시하므로 예전 2.5D 재생성 조건을 적용하지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 file reopened with Pillow"
+      },
+      "exposure_regeneration": false
+    }
+  },
+  "face_reason": "풍선의 원형과 큰 파란 눈을 둥근 볼과 큰 사람 눈으로 옮긴다.",
+  "face_design": {
+    "name": "푸린",
+    "en": "Jigglypuff",
+    "line": "푸푸린",
+    "how": "species",
+    "registered": true,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "fine soft arches",
+      "nose character": "balanced nose",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "풍선의 원형과 큰 파란 눈을 둥근 볼과 큰 사람 눈으로 옮긴다.",
+    "cues": [
+      "‘spherical body’ → 얼굴형 부드럽고 둥근 얼굴형",
+      "‘spherical body’ → 얼굴 길이 짧은 얼굴",
+      "‘spherical body’ → 얼굴 폭 넓은 얼굴",
+      "‘spherical body’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "‘spherical body’ → 눈매 큰 눈",
+      "‘spherical body’ → 눈썹 가늘고 완만한 곡선"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 작고 여린 코 → 보통",
+    "hair": {},
+    "hair_locked": true,
+    "hair_why": "확정한 ① 그림이 정본 — 기록(pkm-atelier-img/records/20261008-jigglypuff-glossy-promo-f.json)에 머리 선택이 없어(모델 기본) 표가 정하지 않는다",
+    "hair_cues": [],
+    "hair_record": {
+      "path": "pkm-atelier-img/records/20261008-jigglypuff-glossy-promo-f.json",
+      "kind": "prompt",
+      "raw": {}
+    }
+  },
+  "compared_characters": [
+    "식스테일",
+    "삐삐",
+    "고지"
+  ],
+  "face_comparison": "픽시는 삐삐보다 완만한 타원 윤곽과 내려가는 눈꼬리, 푸린은 짧고 넓은 둥근 얼굴과 수평 큰 눈. 식스테일의 올라간 눈꼬리와 고지의 길고 날카로운 눈·턱과 구별됨. 두 새 인물은 각자 기준 원본을 직접 참조함.",
+  "diversity_comparison": "최근 식스테일의 지도 펼치기, 삐삐의 테이크아웃 컵, 고지의 상체 근접 구도와 실제 이미지 비교. 이번 픽시의 잔·안경·손거울·가방끈·바구니·수건·모은 손, 푸린의 쉿 제스처·내민 손·얼굴 근접·케이블카·책장 넘기기·찻잔·동료와 눕기는 배경, 의상 실루엣, 구도가 구별됨.",
+  "casual_look": "passed; no near-duplicate casual images",
+  "user_instruction": "Do not regenerate returned images because of exposure censorship. All returned outputs retained."
+}
