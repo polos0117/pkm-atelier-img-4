@@ -1,0 +1,498 @@
+{
+ "version": 2,
+ "card": "리자몽",
+ "no": 6,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/1320edc45a50/planning/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "heavy_assault"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "flying"
+     },
+     {
+      "key": "aura",
+      "type": "fire"
+     },
+     {
+      "key": "orbit",
+      "type": "flying"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "heavy_assault"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "flying"
+     },
+     {
+      "key": "aura",
+      "type": "fire"
+     },
+     {
+      "key": "orbit",
+      "type": "flying"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "tail_unit",
+    "segmented_parts",
+    "cape_plates",
+    "long_coat_plate",
+    "hover_rings"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Late morning light falls through the tall aviary windows onto a woven resting mat.",
+   "outfit": "A pale lavender kebaya-inspired lace top with floral embroidery over an opaque fitted camisole, with an open back and small side cutouts, paired with matching opaque short bottoms.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 새 포켓몬 보호소에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "크바야 응용 레이스 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_aviary / lingerie / kebaya_lace / lie_front / full_body",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_aviary",
+      "ko": "새 포켓몬 보호소",
+      "en": "a spacious aviary with high perches and woven nest boxes"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "chin_both · chin_both"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "open back",
+     "side cutouts"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "The lodge fireplace warms a timber alcove beside the indoor bathing terrace.",
+   "outfit": "A deep plum halter bikini with a neck tie and underbust band, a bare midriff and high-cut lined bottoms.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 산장에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "홀터 비키니 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_lodge / swimwear / halter_bikini / lean_wall / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_lodge",
+      "ko": "산장",
+      "en": "a mountain lodge with a front counter and a fireplace"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "halter_bikini",
+      "ko": "홀터 비키니",
+      "en": "a halter bikini with a neck tie and an underbust band"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "arms_crossed · arms_crossed"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "bare midriff"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Brass bowls and soft towels dress the marble set for a 1996 costume editorial.",
+   "outfit": "A navy police-style party costume with a short-brimmed cap and a fitted short button shirt, asymmetrically slipped off one shoulder over a secure strapless opaque top, with matching short bottoms and no real insignia.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 하맘에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "경찰 코스튬 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / spa_hammam / roleplay / adult_police / lie_side / waist_up",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "spa_hammam",
+      "ko": "하맘",
+      "en": "a domed marble hammam with warm stone slabs and brass bowls"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_police",
+      "ko": "경찰 코스튬",
+      "en": "a fitted navy police-style party costume with a short-brimmed cap and a short-sleeved button shirt, no real insignia"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual4": {
+   "scene": "Swimming ripples catch the midday sun beneath the weathered wooden dock.",
+   "outfit": "A seafoam 1950s halter playsuit with a deep V neckline and short split side hems at the upper thighs, securely lined.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 강가 선착장에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "50년대 홀터 플레이수트 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / water_river / retro / halter_playsuit / swim / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "water_river",
+      "ko": "강가 선착장",
+      "en": "a wooden river dock above calm water"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "halter_playsuit",
+      "ko": "50년대 홀터 플레이수트",
+      "en": "a 1950s halter playsuit"
+     },
+     "posture": {
+      "key": "swim",
+      "ko": "헤엄치기",
+      "en": "swimming breaststroke, head and shoulders above the water"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high thigh slit"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual5": {
+   "scene": "Enamel cookware and berry baskets surround the folding table at the campsite.",
+   "outfit": "A smoky rose halter-neck evening slip with a silk robe worn loosely off the shoulders, leaving the collarbones and legs visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 야영 조리장에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "슬립 위 실크 로브 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_camp / evening / silk_robe_slip / sit_edge / environmental",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_camp",
+      "ko": "야영 조리장",
+      "en": "an outdoor cooking site at a campsite with a camp stove and a folding table"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "silk_robe_slip",
+      "ko": "슬립 위 실크 로브",
+      "en": "a silk robe over an evening slip"
+     },
+     "posture": {
+      "key": "sit_edge",
+      "ko": "가장자리에 걸터앉기",
+      "en": "perched on a ledge or edge"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "robe",
+     "slip"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "halter neck"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual6": {
+   "scene": "Afternoon sun fills the garden reception room after a costume wedding rehearsal.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 결혼식장에 시간과 주변 사물의 구체 정보를 보충한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_wedding / pokemon_costume / pc_bodysuit / sit_chair / three_quarter / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_wedding",
+      "ko": "결혼식장",
+      "en": "a bridal room, garden aisle or reception hall"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "cropped hem",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual7": {
+   "scene": "A bridal editorial session pauses among pottery tools and paint-splashed easels.",
+   "outfit": "A simple ivory slip wedding dress with a long veil, a plunging neckline and a high thigh slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 화실·공방에 시간과 주변 사물의 구체 정보를 보충한다.",
+    "outfit": "슬립 웨딩드레스 구조를 유지하고 색·소재와 계획의 드러내는 방식을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / studio_art / bridal / slip_wedding / lean_counter / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "studio_art",
+      "ko": "화실·공방",
+      "en": "an art or pottery studio of easels, clay and paint-splattered tables"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "slip_wedding",
+      "ko": "슬립 웨딩드레스",
+      "en": "a simple slip wedding dress with a long veil"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high thigh slit"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
