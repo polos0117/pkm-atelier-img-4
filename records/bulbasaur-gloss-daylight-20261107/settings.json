@@ -1,0 +1,588 @@
+{
+ "version": 2,
+ "card": "이상해씨",
+ "no": 1,
+ "style": "gloss_daylight",
+ "plan": "/workspace/scratch/a500c2eac4e2/pack/plan.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a very slim, tightly cinched narrow waist and very wide, curvy rounded hips; her upper thighs are slightly full and soft where they meet the hips, tapering to slender knees and long slender lower legs — not thick or heavy legs"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "float_units"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "aura",
+      "type": "grass"
+     },
+     {
+      "key": "trail",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "float_units"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "aura",
+      "type": "grass"
+     },
+     {
+      "key": "trail",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "tail_unit",
+    "power_limbs",
+    "light_agile",
+    "knight_plate",
+    "slim_suit",
+    "light_agile",
+    "segmented_parts",
+    "segmented_parts",
+    "heavy_assault",
+    "cape_plates"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Beyond the rescue-gear hooks, an open doorway leads to the station’s hot-spring rest deck; warm steam catches afternoon light.",
+   "outfit": "The chocolate bandeau has a subtly curved sweetheart edge, paired with high-cut matching bottoms leaving the midriff bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "레인저 초소의 수영복 휴식 장면을 잇는 온천 데크와 오후 빛 보충.",
+    "outfit": "반두 형태를 유지하며 계획의 목선과 허리 드러내기를 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_station / swimwear / bandeau_bikini / walk / three_quarter / cup_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_station",
+      "ko": "레인저 초소",
+      "en": "a mountain-trail Pokémon ranger station with rescue gear on the wall"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cup at chest height",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "bandeau_bikini",
+      "ko": "반두 비키니",
+      "en": "a bandeau bikini with a straight strapless top"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "bikini",
+     "crop_top"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "bare midriff"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "brown",
+     "ko": "카멜 · 초콜릿",
+     "en": "camel and chocolate brown",
+     "words": [
+      "brown",
+      "camel",
+      "tan",
+      "chocolate",
+      "beige",
+      "khaki",
+      "taupe",
+      "caramel"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "Fern fronds and a folded picnic blanket edge frame a shaded clearing beside the wooden trail marker; dappled morning sunlight falls across the moss.",
+   "outfit": "Butter-yellow opaque satin falls from a deep V empire bodice; its low open back and short flared hem leave the upper back and legs bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "숲길 표지 주변의 눕는 자리에 담요와 이끼를 보충.",
+    "outfit": "베이비돌의 제국선과 불투명 소재를 유지하며 계획의 목선과 등 파임 구현."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_trail / lingerie / babydoll / lie_side / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_trail",
+      "ko": "숲길",
+      "en": "a forest trail junction with a wooden marker"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "babydoll",
+      "ko": "베이비돌",
+      "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "behind_head · floor_brace"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "deep V neckline",
+     "backless"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "yellow",
+     "ko": "옐로 · 머스터드",
+     "en": "butter yellow and mustard",
+     "words": [
+      "yellow",
+      "mustard",
+      "lemon",
+      "butter",
+      "gold",
+      "golden"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "Crystal stars scatter cool points of light over a midnight-blue velvet stage floor, with one warm spotlight softening the shadows.",
+   "outfit": "The Bulbasaur costume is a blue-green strapless mini dress with dark patch embroidery and a green bud-like gathered overskirt, a plunging neckline and small waist cutouts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "별빛 무대의 바닥 재질과 따뜻한 스포트라이트로 밤 조명 구체화.",
+    "outfit": "이상해씨의 종 모티프를 성인 미니 드레스에 옮기고 계획의 목선과 허리 컷아웃 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_starstage / pokemon_costume / pc_mini_dress / lie_front / full_body",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_starstage",
+      "ko": "별빛 무대",
+      "en": "a stage under a painted night sky of crystal stars"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_mini_dress",
+      "ko": "미니 드레스형",
+      "en": "a daring adult costume version of {costume}, cut as a fitted strapless mini dress"
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "chin_both · chin_both"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "plunging neckline",
+     "cutout waist"
+    ],
+    "lead": "light",
+    "color": null
+   }
+  },
+  "casual4": {
+   "scene": "A 1996 themed costume-party rehearsal uses the heated-floor hall, with rolled sleeping mats along its amber-lit edge.",
+   "outfit": "The plum brocade coat is cropped and open over a fitted sweetheart bodice with an open back; a short lavender skirt meets tall boots beneath the tricorn hat.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "첫 등장 연도와 찜질방을 해적 테마 행사 리허설의 장소로 연결.",
+    "outfit": "해적 코트와 모자·부츠를 유지하며 목선과 열린 등, 짧은 기장 보충."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / spa_jjimjil / roleplay / pirate_captain / stand / three_quarter",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "spa_jjimjil",
+      "ko": "찜질방",
+      "en": "a Korean jjimjilbang hall with heated floors and sleeping mats"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "pirate_captain",
+      "ko": "해적 선장",
+      "en": "a pirate captain party costume — a cropped brocade coat over a cinched waist, a tricorn hat and tall boots"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "hip · hair_tuck"
+    },
+    "garments": [
+     "coat"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "open back"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "purple",
+     "ko": "라벤더 · 플럼",
+     "en": "lavender and plum",
+     "words": [
+      "purple",
+      "lavender",
+      "lilac",
+      "violet",
+      "plum",
+      "mauve"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "A cyan arcade screen reflects softly on the edge of the raised phone, with warm cabinet lights blurred behind.",
+   "outfit": "Ivory translucent chiffon lies over an opaque short satin slip, with a deep V neckline and a high thigh slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "셀카 장면에 오락실의 청록 화면 반사와 따뜻한 조명 보충.",
+    "outfit": "유령 시폰 아래 불투명 슬립을 유지하며 계획의 목선과 슬릿 구현."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / arcade_hall / halloween / hw_sheer_ghost / sit_chair / face_close / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "halloween",
+      "ko": "할로윈 코스튬",
+      "en": "a daring adult Halloween costume"
+     },
+     "item": {
+      "key": "hw_sheer_ghost",
+      "ko": "시스루 유령",
+      "en": "a sheer ghost costume — layers of translucent white chiffon draped over a short white satin slip"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "deep V neckline",
+     "high thigh slit"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "Late-afternoon sunshine falls across the fenced partner yard; a small Pikachu sits beside a woven cushion and a watering can.",
+   "outfit": "The flowing black boubou robe has a sweetheart neckline and a deep open back, with broad draped fabric pooling securely around her crossed legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "동료 마당의 쿠션과 작은 피카츄 한 마리를 보충.",
+    "outfit": "새 계획의 부부 로브를 넉넉한 드레이프로 구체화하고 목선과 열린 등 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_porch / traditional / kebaya_daily / walk / waist_up",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_porch",
+      "ko": "지붕 있는 현관",
+      "en": "a covered porch on a rainy day, umbrellas resting by the door"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "kebaya_daily",
+      "ko": "크바야",
+      "en": "a daily kebaya — a sheer embroidered fitted blouse over a batik sarong"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "blouse"
+    ],
+    "expose": [
+     "plunging neckline",
+     "halter neck"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "Red sunset light grazes the track’s rubber surface after a small alternative-music field festival; the grandstand casts long striped shadows.",
+   "outfit": "The wine-red emo top has a strapless sweetheart neckline with detached striped long sleeves; a studded belt sits over fitted dark-red trousers and checkered sneakers.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "육상 트랙에 이모 의상으로 쉬는 배경을 음악 행사 이후로 구체화.",
+    "outfit": "이모 줄무늬 소매와 벨트·바지를 보존하며 계획의 어깨와 목선 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / sports_track / subculture / emo / lie_side / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_track",
+      "ko": "육상 트랙",
+      "en": "a running track with lane lines and a grandstand"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "emo",
+      "ko": "이모",
+      "en": "emo — a fitted striped long-sleeve top, a studded belt, skinny jeans and checkered sneakers"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "strapless top"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "red",
+     "ko": "레드 · 와인",
+     "en": "deep red and wine",
+     "words": [
+      "red",
+      "crimson",
+      "scarlet",
+      "burgundy",
+      "wine",
+      "cherry"
+     ]
+    }
+   }
+  }
+ }
+}
