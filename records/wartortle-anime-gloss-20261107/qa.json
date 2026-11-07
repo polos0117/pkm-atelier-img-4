@@ -1,0 +1,233 @@
+{
+  "card": "어니부기",
+  "style": "anime_gloss",
+  "generated": 8,
+  "requested": 8,
+  "tool": "built-in image_gen",
+  "tool_model_id": null,
+  "tool_model_note": "Built-in tool schema does not expose model ID, quality or seed. Requested size is in exact prompt; actual files verified 1024x1536.",
+  "default_style_note": "2026-11-07 anime_gloss explicitly requests clean 2D; supersedes older 2.5D-only checkpoint.",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "visual_observation": "Full body and both boots inside frame; top feather tip touches border. Oval face, pale blue-violet eyes, long periwinkle high ponytail. Brown shell mantle and floating waist/ankle rings.",
+      "style_25d": {
+        "判정": "2D — expected anime_gloss",
+        "근거": "Thin ink contours, cel-to-gradient skin tones, bright layered hair and eye highlights, consistent with new style."
+      },
+      "identity": "Same oval face, violet-blue eyes and long periwinkle high ponytail; expression/angle changes only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected arms and legs; relaxed right fist has overlapping fingers; left open palm shows five digits. No extra limbs.",
+        "overlay_checked": false,
+        "manual_detail_checked": true,
+        "note": "Counts refer to connected body where visible; crop/pose occlusions noted rather than claiming hidden fingers were counted."
+      },
+      "submitted_sha256": "7cd8ffc3f95bb5b42e28f57298b06c296b6f4b61e3b073fa2be6868712ee250b",
+      "submitted_same": true,
+      "source_sha256": "2d303e5d6233eedd29f20de7670dd5a80760a50a81ca35d2c5e8d03ddedc1adf",
+      "webp_sha256": "38e6afd4c8010ab169c835a98201813a345ac3665f955207ad6df9e6c2600851",
+      "references": []
+    },
+    "casual1": {
+      "accepted": true,
+      "visual_observation": "Chest-up look-back with black bandeau, handheld wave mask and silver pendant. One blurred incidental attendee in far background; sole featured character.",
+      "style_25d": {
+        "判정": "2D — expected anime_gloss",
+        "근거": "Thin ink contours, cel-to-gradient skin tones, bright layered hair and eye highlights, consistent with new style."
+      },
+      "identity": "Same oval face, violet-blue eyes and long periwinkle high ponytail; expression/angle changes only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "One visible hand gripping the mask stick, five digits with partial overlaps; other hand and lower body outside crop.",
+        "overlay_checked": false,
+        "manual_detail_checked": true,
+        "note": "Counts refer to connected body where visible; crop/pose occlusions noted rather than claiming hidden fingers were counted."
+      },
+      "submitted_sha256": "d334a36448f80b4921340fb02877832ef3d52bb7c7ad28985625d0668a5961a2",
+      "submitted_same": true,
+      "source_sha256": "f6ab058601c256fa9fb0cefffec099825d9184bc77b6177bce7a908ac89b93b2",
+      "webp_sha256": "10eb464eeae1cee9d5414da71ae50c80152fb27b126bf7210a48825aec24e095",
+      "references": [
+        "2d303e5d6233eedd29f20de7670dd5a80760a50a81ca35d2c5e8d03ddedc1adf"
+      ]
+    },
+    "casual2": {
+      "accepted": true,
+      "visual_observation": "Full-body walking pose, cropped white ski jacket and charcoal padded trousers, Poké Ball and snow-habitat models. Feather ornament and tail-shaped sash retained from reference; noted under ornament tolerance.",
+      "style_25d": {
+        "判정": "2D — expected anime_gloss",
+        "근거": "Thin ink contours, cel-to-gradient skin tones, bright layered hair and eye highlights, consistent with new style."
+      },
+      "identity": "Same oval face, violet-blue eyes and long periwinkle high ponytail; expression/angle changes only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms, two walking legs. Ball-gripping hand has fingers partly occluded; relaxed lowered hand shows overlapping fingers. Natural joints.",
+        "overlay_checked": false,
+        "manual_detail_checked": true,
+        "note": "Counts refer to connected body where visible; crop/pose occlusions noted rather than claiming hidden fingers were counted."
+      },
+      "submitted_sha256": "cc80d6d306497d531bf8e67bef062c6fb1bf3ba36e9aec73e04bf71dbd2528cb",
+      "submitted_same": true,
+      "source_sha256": "261e790fd04e67959115a2d8481430bb02aaa917213b67abd232efcf4105e1f3",
+      "webp_sha256": "79a6d0a0a7c0fe857140d772d63167cc12bb84ace17f177c68caefa9baa1e26f",
+      "references": [
+        "2d303e5d6233eedd29f20de7670dd5a80760a50a81ca35d2c5e8d03ddedc1adf"
+      ]
+    },
+    "casual3": {
+      "accepted": true,
+      "visual_observation": "Covered knee-length hooded Wartortle dress, castle stair hall, side view leaning on stone table. Substantially safer alternative after rejected bodysuit output; flat shoe request rendered with a small heel.",
+      "style_25d": {
+        "判정": "2D — expected anime_gloss",
+        "근거": "Thin ink contours, cel-to-gradient skin tones, bright layered hair and eye highlights, consistent with new style."
+      },
+      "identity": "Same oval face, violet-blue eyes and long periwinkle high ponytail; expression/angle changes only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms descend to table; two overlapping hands with partially hidden far fingers. Two legs close together with partial occlusion; no detached parts.",
+        "overlay_checked": false,
+        "manual_detail_checked": true,
+        "note": "Counts refer to connected body where visible; crop/pose occlusions noted rather than claiming hidden fingers were counted."
+      },
+      "submitted_sha256": "8557dd8ffddf65f93df65c687138795d41b6cb531d2e2be48d44a86c8572ba91",
+      "submitted_same": true,
+      "source_sha256": "0e81e8c6208374bc2c14ec21e6b100d98be90793874a7b77588deb8692bb5780",
+      "webp_sha256": "4e13e3df774ac9dd3ffcbefe0f4f17bebd4f7705ff311fc7a4c06ae7db67dd95",
+      "references": [
+        "2d303e5d6233eedd29f20de7670dd5a80760a50a81ca35d2c5e8d03ddedc1adf"
+      ]
+    },
+    "casual4": {
+      "accepted": true,
+      "visual_observation": "Peach one-shoulder loungewear; side-profile smile at Poké Ball, rain and one Squirtle on porch railing. Lower crop reaches upper hips.",
+      "style_25d": {
+        "判정": "2D — expected anime_gloss",
+        "근거": "Thin ink contours, cel-to-gradient skin tones, bright layered hair and eye highlights, consistent with new style."
+      },
+      "identity": "Same oval face, violet-blue eyes and long periwinkle high ponytail; expression/angle changes only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected arms, one hand around ball and one on railing, fingers partly obscured by grip/overlap. Lower legs outside crop.",
+        "overlay_checked": false,
+        "manual_detail_checked": true,
+        "note": "Counts refer to connected body where visible; crop/pose occlusions noted rather than claiming hidden fingers were counted."
+      },
+      "submitted_sha256": "988b5e108d88da646802d6d717e9dfb48ca7262ad64b8fca52c2ccad6f70b7e4",
+      "submitted_same": true,
+      "source_sha256": "7354a100c2471a2664c9c9f4b782d471d6e29659689ef49a5dfa959f1cc3a419",
+      "webp_sha256": "997ddef7db37ddae0fb0845e0c2eba95089ef2d20327c9f4101ae81a146b154d",
+      "references": [
+        "2d303e5d6233eedd29f20de7670dd5a80760a50a81ca35d2c5e8d03ddedc1adf"
+      ]
+    },
+    "casual5": {
+      "accepted": true,
+      "visual_observation": "Opaque plum back-strap lingerie; full-body side view seated at arcade controls. Intimate areas covered. Active joystick/button interaction distinct from comparison set.",
+      "style_25d": {
+        "判정": "2D — expected anime_gloss",
+        "근거": "Thin ink contours, cel-to-gradient skin tones, bright layered hair and eye highlights, consistent with new style."
+      },
+      "identity": "Same oval face, violet-blue eyes and long periwinkle high ponytail; expression/angle changes only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms reach control panel. Joystick hand has partly occluded grip; button hand has overlapping fingers. Two seated legs with feet separately grounded.",
+        "overlay_checked": false,
+        "manual_detail_checked": true,
+        "note": "Counts refer to connected body where visible; crop/pose occlusions noted rather than claiming hidden fingers were counted."
+      },
+      "submitted_sha256": "b1fa5278bac1f33581e323728bdbeac1f215eb05ae5553ae66438534be79cdb1",
+      "submitted_same": true,
+      "source_sha256": "2df42e9aa7a2e53443501f2464b5dea52d39ef2afb7e97e8cd9009cfc974a88d",
+      "webp_sha256": "c961af0a97f9bd4eefe2ce677e6854b343e48192e63d38a3781a6d896c0b7be1",
+      "references": [
+        "2d303e5d6233eedd29f20de7670dd5a80760a50a81ca35d2c5e8d03ddedc1adf"
+      ]
+    },
+    "casual6": {
+      "accepted": true,
+      "visual_observation": "Chest-up magician-assistant event costume in jazz bar; record held partly outside geometric sleeve. Black sequins, hat and gloves. Feather ornaments retained.",
+      "style_25d": {
+        "判정": "2D — expected anime_gloss",
+        "근거": "Thin ink contours, cel-to-gradient skin tones, bright layered hair and eye highlights, consistent with new style."
+      },
+      "identity": "Same oval face, violet-blue eyes and long periwinkle high ponytail; expression/angle changes only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both connected forearms and gloved hands visible. Record grip shows finger overlaps; sleeve grip has four fingertips and hidden thumb. Lower body outside crop.",
+        "overlay_checked": false,
+        "manual_detail_checked": true,
+        "note": "Counts refer to connected body where visible; crop/pose occlusions noted rather than claiming hidden fingers were counted."
+      },
+      "submitted_sha256": "c73121b6d31ccfeedccb33b579e8feb37f39cb2e1552777be7256260e429353e",
+      "submitted_same": true,
+      "source_sha256": "4033a2818e8abd6d1b395d55550e8dc48a82d7075ac5c60a70bb5d97c53d3ad0",
+      "webp_sha256": "a2b9027119e5f5d5a2a75a72aa87b44fb1d3a3db8500ac78dc1546383e377c66",
+      "references": [
+        "2d303e5d6233eedd29f20de7670dd5a80760a50a81ca35d2c5e8d03ddedc1adf"
+      ]
+    },
+    "casual7": {
+      "accepted": true,
+      "visual_observation": "Coral lined swimsuit, open ivory yukata, kneeling on rooftop pool deck. More three-quarter twist than planned front orientation; retained as allowed pose variance.",
+      "style_25d": {
+        "判정": "2D — expected anime_gloss",
+        "근거": "Thin ink contours, cel-to-gradient skin tones, bright layered hair and eye highlights, consistent with new style."
+      },
+      "identity": "Same oval face, violet-blue eyes and long periwinkle high ponytail; expression/angle changes only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms and two folded legs; supporting hand has five visible fingers, collar-grip hand five with overlap. Feet partly hidden by kneeling pose.",
+        "overlay_checked": false,
+        "manual_detail_checked": true,
+        "note": "Counts refer to connected body where visible; crop/pose occlusions noted rather than claiming hidden fingers were counted."
+      },
+      "submitted_sha256": "13922cd0330c77f28f48153df705eaab1c390340f183ae6d9b284b5870aa5b05",
+      "submitted_same": true,
+      "source_sha256": "34566cf8e1a3723cfa3676e4f475d7df867fb2b5106e709a5843ba68ea878d32",
+      "webp_sha256": "89a74f943d3ace59d7c88f257dd856343a13772d74f7e9d3390bb94b3f1d34e1",
+      "references": [
+        "2d303e5d6233eedd29f20de7670dd5a80760a50a81ca35d2c5e8d03ddedc1adf"
+      ]
+    }
+  },
+  "comparison": {
+    "actual_images": [
+      "꼬부기 anime_gloss casual1-3",
+      "파이리 anime_gloss casual1-3",
+      "이상해씨 anime_gloss casual1-3"
+    ],
+    "method": "Downloaded only those nine existing thumbnails; viewed a contact sheet alongside generated images.",
+    "result": "Distinct environments and activities: mask photo zone, design models, castle table, rain porch with companion, arcade controls, vinyl record jazz bar, kneeling rooftop pool. Existing comparison scenes include sofa, vending machine, fountain, train, supermarket camera, telescope, phone mirror, cafe and vanity."
+  },
+  "safety_event": {
+    "slot": "casual3",
+    "failed_calls": 1,
+    "error": "moderation_blocked at output; sexual",
+    "request_id": "f5e54478-4d2a-4758-82b0-5782c86a493c",
+    "action": "Did not resubmit blocked prompt. Planner kept six other slots and selected hooded dress; changed to opaque relaxed knee-length short-sleeved costume. User informed.",
+    "blocked_prompt_sha256": "f87000581db92adf2615807c3dd5c15dd6db29c07c956087499e1929f9b8e8ac"
+  },
+  "planning": {
+    "method": "Unmodified planBatch and check_plan; fresh record metadata joined against authoritative git-tree img inventory, so omitted binary files do not hide existing publication. Existing own card excluded only when planning explicitly authorized new style set; old set preserved.",
+    "entry_count": 512,
+    "shared_data": "Existing shared Git object databases, separate task worktrees, blob:none, only needed comparison metadata and 9 thumbnail downloads.",
+    "reservation_commit": "6ef655245802fc20d70ea79bb4680190abd8560c"
+  }
+}

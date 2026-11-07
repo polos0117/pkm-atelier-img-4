@@ -1,0 +1,512 @@
+{
+ "version": 2,
+ "card": "어니부기",
+ "no": 8,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/c76c61fef6f1/wartortle-pack/plan.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "hover_rings"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "water"
+     },
+     {
+      "key": "seams",
+      "type": "water"
+     },
+     {
+      "key": "trail",
+      "type": "water"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "hover_rings"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "water"
+     },
+     {
+      "key": "seams",
+      "type": "water"
+     },
+     {
+      "key": "trail",
+      "type": "water"
+     }
+    ]
+   },
+   "mecha_recent": [],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Warm event lights glint on a small wave-shaped silver pendant.",
+   "outfit": "A black strapless bandeau with a narrow decorative halter ribbon and burgundy high-waisted trousers, a 1990s subculture street look exposing the shoulders and collarbones.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "행사의 빛과 작은 물결 펜던트 추가.",
+    "outfit": "선택한 서브컬처 계열에 1996년대 색과 원단·목선이 없어 추가; trousers 종류 유지."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / stage_convention / subculture / stand / chest_up / mask_raise",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "stage_convention",
+      "ko": "코스프레 행사",
+      "en": "a convention photo zone under ring lights"
+     },
+     "role": null,
+     "use": {
+      "key": "mask_raise",
+      "ko": "가면을 든다",
+      "en": "holds a masquerade mask on a stick up to her eyes",
+      "prop": "가면"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "halter neck",
+     "strapless top"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A Poké Ball catches the studio skylight beside scale models of snowy mountain shelters.",
+   "outfit": "A fitted white ski jacket cropped to a mini bolero length, worn open and slipped off one shoulder over a short sports top, with padded charcoal ski pants; her shoulder and midriff remain visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "설산 서식지 모형으로 선택한 스키복과 설계실 상황 연결.",
+    "outfit": "선택한 스키 재킷·바지를 유지하며 설계실의 설산 모형과 짧은 재킷·열린 목선을 보충."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_design / active / ski_set / walk / full_body / ball_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_design",
+      "ko": "서식 공간 설계실",
+      "en": "a habitat design studio with shelter scale models and nest materials on a large table"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_hold",
+      "ko": "몬스터볼을 든다",
+      "en": "holds a Poké Ball at chest height",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "ski_set",
+      "ko": "스키 재킷 + 스키 팬츠",
+      "en": "a fitted ski jacket and padded ski pants"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "jacket",
+     "trousers"
+    ],
+    "expose": [
+     "mini length",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Amber candlelight flickers across the carved stone balustrades.",
+   "outfit": "A casual Wartortle-themed hooded dress in pale blue with a pale yellow front panel and brown shell-inspired piping, an opaque relaxed knee-length silhouette with short sleeves; the hood has soft feather-shaped ear decorations. Comfortable flat shoes, an everyday costume fashion photo.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "성 계단의 촛불 조명과 돌 난간 재질 추가.",
+    "outfit": "도구 안전 거절 후 바디수트와 시스루 타이츠를 제외하고 불투명 무릎길이 후드 원피스로 안전하게 변경."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_castle / pokemon_costume / pc_bodysuit / sit_edge / environmental",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_castle",
+      "ko": "성 계단",
+      "en": "the grand staircase of an old castle"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "sit_edge",
+      "ko": "가장자리에 걸터앉기",
+      "en": "perched on a ledge or edge"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "open back"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual4": {
+   "scene": "Rain-darkened timber and hanging ferns border the porch; a small Squirtle sits beside her at the railing.",
+   "outfit": "A peach one-shoulder lounge top with a small side waist cutout and matching soft pants, exposing one shoulder and a strip of waist.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "동료 묶음에서 요구한 한 마리 꼬부기 지정과 빗물·식물 세부.",
+    "outfit": "원숄더 라운지 선택의 색·허리 옆 트임 추가; 바지 실루엣 유지."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_porch / homewear / one_shoulder_lounge / lean_rail / waist_up / ball_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_porch",
+      "ko": "지붕 있는 현관",
+      "en": "a covered porch on a rainy day, umbrellas resting by the door"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_hold",
+      "ko": "몬스터볼을 든다",
+      "en": "holds a Poké Ball at chest height",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "one_shoulder_lounge",
+      "ko": "원숄더 라운지",
+      "en": "a one-shoulder lounge top and matching soft pants"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · rail"
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "side cutouts",
+     "one-shoulder cut"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual5": {
+   "scene": "Coloured light from the game controls falls across her fingertips.",
+   "outfit": "An opaque plum lingerie set with a decorative strap arrangement across the upper back, a plunging neckline and high-cut leg openings, securely covering the bust and intimate areas.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "오락기 버튼의 색광을 손의 조명으로 구체화.",
+    "outfit": "백스트랩 세트의 자두색과 계획의 목선·하이컷 구조를 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / arcade_hall / lingerie / back_strap / sit_chair / full_body / panel_play",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow"
+     },
+     "role": null,
+     "use": {
+      "key": "panel_play",
+      "ko": "오락기를 조작한다",
+      "en": "plays at the control panel of the arcade cabinet in front of her",
+      "prop": "오락기 조작대"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "back_strap",
+      "ko": "백스트랩",
+      "en": "a lingerie set with a decorative strap arrangement across the upper back"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "plunging neckline"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual6": {
+   "scene": "A vinyl sleeve with a geometric pattern rests beside the piano during a cabaret rehearsal.",
+   "outfit": "A stage magician assistant costume: a black sequined strapless leotard with a slim decorative halter ribbon, a very short sleeveless tailcoat, fitted gloves and a small top hat; shoulders and collarbones are bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "레코드와 피아노가 있는 재즈바의 행사 맥락을 리허설로 보충.",
+    "outfit": "마술사 조수 의상을 유지하고 재즈바 리허설에 맞춘 색·목선·짧은 테일코트 보충."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_jazz / roleplay / magician_assistant / stand / chest_up / vinyl_both",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_jazz",
+      "ko": "재즈바",
+      "en": "a dim jazz bar with a grand piano"
+     },
+     "role": null,
+     "use": {
+      "key": "vinyl_both",
+      "ko": "레코드판을 두 손으로 든다",
+      "en": "holds a vinyl record half out of its sleeve in both hands",
+      "prop": "레코드판"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "magician_assistant",
+      "ko": "마술사 조수",
+      "en": "a stage magician's assistant costume — a sequined fitted leotard-style top, a short tailcoat, gloves and a small top hat"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "bodysuit"
+    ],
+    "expose": [
+     "halter neck",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual7": {
+   "scene": "Late-afternoon sunlight warms the rooftop poolside deck beneath the string lights.",
+   "outfit": "A fully lined coral swimsuit with a light ivory yukata worn open over it; the yukata has a cropped hem and deep side openings exposing her thighs and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "옥상 수영장 데크와 늦은 오후 조명으로 수영복 상황 보충.",
+    "outfit": "수영복 위 열린 유카타 유지; 계획의 짧은 기장·높은 트임과 색 추가."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_rooftop / swimwear / yukata_over / kneel / three_quarter",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_rooftop",
+      "ko": "옥상",
+      "en": "a city rooftop with a water tank, string lights and the skyline"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "yukata_over",
+      "ko": "수영복 위 유카타",
+      "en": "swimwear with a light yukata worn open over it"
+     },
+     "posture": {
+      "key": "kneel",
+      "ko": "무릎 꿇기",
+      "en": "kneeling on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "cropped hem",
+     "high thigh slit"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}
