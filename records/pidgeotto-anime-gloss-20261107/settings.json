@@ -1,0 +1,596 @@
+{
+ "version": 2,
+ "card": "피죤",
+ "no": 17,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/19eda3501cf2/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "slim_suit"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "normal"
+     },
+     {
+      "key": "seams",
+      "type": "flying"
+     },
+     {
+      "key": "ground",
+      "type": "normal"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "slim_suit"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "normal"
+     },
+     {
+      "key": "seams",
+      "type": "flying"
+     },
+     {
+      "key": "ground",
+      "type": "normal"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "heavy_assault",
+    "cape_plates",
+    "light_agile",
+    "long_coat_plate",
+    "tail_unit",
+    "wing_binder",
+    "wing_binder",
+    "sub_arms",
+    "hover_rings",
+    "frame_exposed"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Fabric rolls and a half-finished dress surround the cutting table; a cup of tea rests beside the fabric swatches.",
+   "outfit": "A lavender satin robe with a halter-neck inner panel, loosely tied at the waist and cut with a high thigh slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / tailor_room / homewear / robe_morning / stand / chest_up / cup_sip",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "tailor_room",
+      "ko": "의상 수선실",
+      "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_sip",
+      "ko": "잔을 입에 댄다",
+      "en": "brings a cup to her lips",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "robe_morning",
+      "ko": "아침 로브",
+      "en": "a loosely tied robe"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "high thigh slit",
+     "halter neck"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "purple",
+     "ko": "라벤더 · 플럼",
+     "en": "lavender and plum",
+     "words": [
+      "purple",
+      "lavender",
+      "lilac",
+      "violet",
+      "plum",
+      "mauve"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "A cotton towel and a gym bag rest beside the training equipment after an afternoon workout.",
+   "outfit": "An ivory fine-knit cardigan draped off one shoulder over a strapless top, with an open back and slim cream trousers.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / sports_gym / work / curator_cardigan / stand / environmental / towel_dry",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_gym",
+      "ko": "체육관·복싱장",
+      "en": "a training gym with a heavy bag, ring ropes, a fencing strip and racks of weights"
+     },
+     "role": null,
+     "use": {
+      "key": "towel_dry",
+      "ko": "수건으로 머리를 말린다",
+      "en": "dries her hair with a towel",
+      "prop": "수건"
+     },
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "curator_cardigan",
+      "ko": "학예사 카디건",
+      "en": "a neat cardigan over slim trousers with white cotton gloves"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "cardigan",
+     "trousers"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "open back"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "Late afternoon light glints on the ferry windows and the sea beyond the rail.",
+   "outfit": "An adult Pidgeotto costume bodysuit in brown and cream with a red crest ornament and feather-shaped trims, a one-shoulder neckline above a strapless bodice, and sheer thigh-high leggings.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_ferry / pokemon_costume / pc_bodysuit / lean_rail / waist_up / tote_shoulder",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_ferry",
+      "ko": "페리 갑판",
+      "en": "the rail of a harbour ferry deck in the wind"
+     },
+     "role": null,
+     "use": {
+      "key": "tote_shoulder",
+      "ko": "가방끈을 어깨에 걸쳐 잡는다",
+      "en": "holds the strap of a canvas tote bag on her shoulder",
+      "prop": "토트백"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · rail"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "strapless top",
+     "one-shoulder cut"
+    ],
+    "lead": "light",
+    "color": null
+   }
+  },
+  "casual4": {
+   "scene": "Fresh berry juice runs into a glass beside a basket of ripe berries at the stall counter.",
+   "outfit": "A butter-yellow backless column gown with a plunging neckline and small side cutouts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_stall / evening / column_gown / stand / three_quarter / juice_pour",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_stall",
+      "ko": "길가 노점",
+      "en": "a small roadside stall with a counter, a juice pitcher and steaming pots"
+     },
+     "role": null,
+     "use": {
+      "key": "juice_pour",
+      "ko": "주스를 잔에 따른다",
+      "en": "pours from a pitcher of berry juice into a glass",
+      "prop": "나무열매 주스 주전자"
+     },
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "column_gown",
+      "ko": "칼럼 가운",
+      "en": "a backless column gown"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "plunging neckline",
+     "side cutouts"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "yellow",
+     "ko": "옐로 · 머스터드",
+     "en": "butter yellow and mustard",
+     "words": [
+      "yellow",
+      "mustard",
+      "lemon",
+      "butter",
+      "gold",
+      "golden"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "Cool morning light enters the linen storeroom; folded towels and lounge cushions give the swimsuit editorial a resort setting.",
+   "outfit": "A black heritage-pattern monokini swimsuit with charcoal textile trim, high-cut legs and an open midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_storeroom / swimwear / heritage_pattern_swim / lie_front / environmental",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_storeroom",
+      "ko": "열매 저장고",
+      "en": "a cool berry storeroom stacked with padded crates"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "heritage_pattern_swim",
+      "ko": "전통 문양 수영복",
+      "en": "a swimsuit in a heritage textile pattern with matching trim"
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "bare midriff"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "A folded wine-red hand towel rests beside a cedar screen on the dry veranda outside the hot-spring bath.",
+   "outfit": "A deep-red satin lingerie set with a smooth bias-cut strapless top and matching opaque high-cut bottoms.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / spa_onsen / lingerie / satin_set / lean_wall / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "spa_onsen",
+      "ko": "노천 온천",
+      "en": "an open-air hot spring among steaming rocks"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "satin_set",
+      "ko": "새틴 세트",
+      "en": "a satin lingerie set with a smooth bias-cut top and matching bottoms in a single deep colour"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "strapless top"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "red",
+     "ko": "레드 · 와인",
+     "en": "deep red and wine",
+     "words": [
+      "red",
+      "crimson",
+      "scarlet",
+      "burgundy",
+      "wine",
+      "cherry"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "Before the themed ballroom performance, a curved balustrade borders a stage of champagne-coloured lights.",
+   "outfit": "A coral uniform-inspired event costume with crisp lapels and decorative epaulettes, a cropped fitted bodice and a matching mini skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_ballroom / roleplay / uniform_inspired / lean_rail / chest_up",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_ballroom",
+      "ko": "가면무도회장",
+      "en": "a chandelier ballroom at a masquerade"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "uniform_inspired",
+      "ko": "유니폼풍",
+      "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "uniform"
+    ],
+    "expose": [
+     "mini length",
+     "cropped hem"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "orange",
+     "ko": "코랄 · 오렌지",
+     "en": "coral and soft orange",
+     "words": [
+      "coral",
+      "orange",
+      "peach",
+      "apricot",
+      "tangerine",
+      "terracotta",
+      "rust"
+     ]
+    }
+   }
+  }
+ }
+}
