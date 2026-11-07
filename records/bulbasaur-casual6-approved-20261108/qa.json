@@ -1,0 +1,73 @@
+{
+ "card": "이상해씨",
+ "style": "gloss_daylight",
+ "slot": "casual6",
+ "file": "이상해씨_gloss_daylight_f_casual6.webp",
+ "user_approval": "2026-11-08 user: 이것도 올려줘 — most recent identity-restored seated preview",
+ "source_png": "/workspace/scratch/a500c2eac4e2/generated_images/exec-9b20147a-ceb6-46b6-b8bf-342fb92d516c.png",
+ "original_sha256": "824bdac7d607d539ca5bca5381d3e51555378ef3b5398d8951356cc0a80dd9bb",
+ "webp_sha256": "82851b301e11a3ca6dc06cd497bdb342a8bb65e742984690a83eaae3818c27d8",
+ "replaced_webp_sha256": "a1a5f3d2b7d7df3a33c3207c3ea246b948ff0eeee34bd7dcf6c1f43346b81095",
+ "submitted_sha256": "81b69667c3973efb56e3ac87b0f7e30076b0918e3626298abb6ec89c26ab63c3",
+ "tool": "built-in image_gen",
+ "model_id": "not exposed",
+ "quality_setting": "not exposed",
+ "size": [
+  1024,
+  1536
+ ],
+ "reference_priority": {
+  "face_identity": "Original canonical mecha only: exec-d39eade4-1832-499f-be52-6229bb01ed08.png",
+  "composition_clothes_only": "Seated preview: exec-120d44fb-52ea-4e66-b341-61fa8bb4944d.png; its incorrect face was explicitly replaced"
+ },
+ "manual_plan_override": "User requested different composition and subtle smile; upright seated front-three-quarter portrait, eye-height camera, hands resting on knees. Base UI is provenance only and does not describe the final seated composition.",
+ "observation": "정본의 짧고 둥근 얼굴·큰 녹색 눈·작은 코와 입, 청록 단발과 어두운 무늬를 대조. 은은한 입 다문 미소, 무대 가장자리에 앉아 무릎에 양손을 올린 구도.",
+ "anatomy": {
+  "tool": "unavailable: mediapipe not installed; prior exit 3",
+  "arms": 2,
+  "legs": 2,
+  "hands": "두 손이 각각 전완·손목에 연결. 무릎 위 양손의 네 긴 손가락과 엄지 확인; 관절 방향 자연스러움.",
+  "overlay_checked": false,
+  "note": "원본 크기로 눈으로 확인. 무릎까지 두 다리 보이고 하단 발은 프레임 밖. 추가 팔다리 없음."
+ },
+ "style_25d": {
+  "판정": "2D as explicitly specified by gloss_daylight",
+  "근거": "정본의 색 윤곽·애니 얼굴·광택 하이라이트 유지."
+ },
+ "scope": "Publish only this approved casual6; preserve casual2 and all other images.",
+ "casual_look": {
+  "crowd_below": 245,
+  "cuts": [
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual6.webp",
+    "near": [
+     [
+      "캥카_glossy_promo_f_casual3.webp",
+      306
+     ],
+     [
+      "마임맨_glossy_promo_f_casual2.webp",
+      317
+     ],
+     [
+      "암나이트_glossy_promo_f_casual3.webp",
+      329
+     ],
+     [
+      "파치리스_glossy_promo_f_casual2.webp",
+      330
+     ],
+     [
+      "어지리더_glossy_promo_f_casual3.webp",
+      340
+     ]
+    ],
+    "same_as_own": []
+   }
+  ],
+  "dup_below": 215,
+  "ok": true
+ }
+}
