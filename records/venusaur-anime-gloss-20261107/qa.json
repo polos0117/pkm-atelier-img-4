@@ -1,0 +1,247 @@
+{
+  "reviewer": "gpt",
+  "card": "이상해꽃",
+  "style": "anime_gloss",
+  "style_rule": "2026-11-07 clean 2D anime_gloss takes precedence over older 2.5D requirement",
+  "anatomy_tool": "unavailable: mediapipe not installed; manual original-size and hand-crop inspection completed",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "76144e62ac1192bdf78049448f89c1a5641683ad1ac76359a1ed6b3bd64e2a2f",
+      "observations": "은백색 슈트 위 잎 형태 장갑과 분홍 꽃, 양쪽 방패형 기계 보조팔. 긴 청록 머리·분홍 눈·완만한 아몬드 눈매. 사람 팔 둘과 다리 둘이 이어져 있다.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 청록색 머리, 분홍 눈, 완만한 아몬드 눈매와 짧게 좁아지는 턱을 기준 그림과 대조"
+      },
+      "style_25d": {
+        "판정": "2D — requested anime_gloss",
+        "근거": "가는 진한 선화, 피부의 부드러운 셀-그라데이션과 흰 하이라이트; 사실적 피부 텍스처 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "visibility": "크롭·포개짐으로 가려진 부위는 관찰 한계에 포함",
+        "hands": "한 손은 펼쳐져 겹친 손가락과 엄지가 보이고 반대손은 느슨한 주먹으로 손가락 일부가 가려진다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 명확한 추가 사지나 관절 단절을 발견하지 못함"
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "은백색 슈트 위 잎 형태 장갑과 분홍 꽃, 양쪽 방패형 기계 보조팔. 긴 청록 머리·분홍 눈·완만한 아몬드 눈매. 사람 팔 둘과 다리 둘이 이어져 있다."
+      },
+      "record_only_deviations": "전신·3/4·머리와 발 여백 충족. 얼굴 턱 폭은 설계의 wide heavy보다 가늘게 해석됨."
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "f7ce59c8684a8e54ebf90c92756b5ea714ed4827a556cf63dbc708ffd117ed36",
+      "observations": "온천 나무 가장자리에 앉아 양손을 짚고 무릎을 모음. 아이보리 레이스의 한쪽 어깨와 새틴 쇼츠, 졸린 눈매.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 청록색 머리, 분홍 눈, 완만한 아몬드 눈매와 짧게 좁아지는 턱을 기준 그림과 대조"
+      },
+      "style_25d": {
+        "판정": "2D — requested anime_gloss",
+        "근거": "가는 진한 선화, 피부의 부드러운 셀-그라데이션과 흰 하이라이트; 사실적 피부 텍스처 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "visibility": "크롭·포개짐으로 가려진 부위는 관찰 한계에 포함",
+        "hands": "양손이 팔 끝에 이어지고 바닥을 짚는다. 양쪽 손가락 일부는 옆면 겹침으로 전부 분리해 세기 어렵다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 명확한 추가 사지나 관절 단절을 발견하지 못함"
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "온천 나무 가장자리에 앉아 양손을 짚고 무릎을 모음. 아이보리 레이스의 한쪽 어깨와 새틴 쇼츠, 졸린 눈매."
+      },
+      "record_only_deviations": "3/4 프레임보다 무릎 아래까지 넓게 담김. 큰 꽃 머리장식 유지. 램프가 있지만 낮빛이 강함."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "4e8acbeaf56b4e7d309b3a1f40a9e94c5cf5f0705fd4af09352dbbf34ce288f7",
+      "observations": "목장의 짚더미·나무 사료통·작은 물가 앞 산호색 비키니. 눈썹을 올리고 입을 작게 벌린 표정.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 청록색 머리, 분홍 눈, 완만한 아몬드 눈매와 짧게 좁아지는 턱을 기준 그림과 대조"
+      },
+      "style_25d": {
+        "판정": "2D — requested anime_gloss",
+        "근거": "가는 진한 선화, 피부의 부드러운 셀-그라데이션과 흰 하이라이트; 사실적 피부 텍스처 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "visibility": "크롭·포개짐으로 가려진 부위는 관찰 한계에 포함",
+        "hands": "손과 다리는 프레임 밖. 양쪽 어깨와 팔의 이어짐은 자연스럽다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 명확한 추가 사지나 관절 단절을 발견하지 못함"
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "목장의 짚더미·나무 사료통·작은 물가 앞 산호색 비키니. 눈썹을 올리고 입을 작게 벌린 표정."
+      },
+      "record_only_deviations": "가슴 위보다 복부 일부까지 담김. 끈을 잡는 동작은 보이지 않음. 큰 꽃 유지."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "8032ca8bb15258b3ca12b1cc458f15c5b24ed1ecfaffdef4934ef2f4525e8c22",
+      "observations": "수선실 원단과 마네킹 옆 벽에 기대어 팔짱. 남색 모자·크롭 셔츠·튜브 이너·반바지와 하이힐.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 청록색 머리, 분홍 눈, 완만한 아몬드 눈매와 짧게 좁아지는 턱을 기준 그림과 대조"
+      },
+      "style_25d": {
+        "판정": "2D — requested anime_gloss",
+        "근거": "가는 진한 선화, 피부의 부드러운 셀-그라데이션과 흰 하이라이트; 사실적 피부 텍스처 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "visibility": "크롭·포개짐으로 가려진 부위는 관찰 한계에 포함",
+        "hands": "인간 팔 둘·다리 둘. 한 손은 팔 위에 손가락을 포개고 엄지는 가려짐, 반대손은 팔짱 아래 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 명확한 추가 사지나 관절 단절을 발견하지 못함"
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "수선실 원단과 마네킹 옆 벽에 기대어 팔짱. 남색 모자·크롭 셔츠·튜브 이너·반바지와 하이힐."
+      },
+      "record_only_deviations": "선택은 뒤 3/4였으나 실제는 앞 3/4. 치아 보이는 장난스러운 미소. 활동·옷·장소 확인."
+    },
+    "casual4": {
+      "accepted": true,
+      "image_sha256": "5957a631ee28bea7ac1d14549b9ec7c445f32d746a4396575887ff11e1828ee1",
+      "observations": "폭포와 초록 나뭇잎을 뒤로 흰 베일과 가는 새틴 어깨끈. 얼굴 옆 손으로 V 사인.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 청록색 머리, 분홍 눈, 완만한 아몬드 눈매와 짧게 좁아지는 턱을 기준 그림과 대조"
+      },
+      "style_25d": {
+        "판정": "2D — requested anime_gloss",
+        "근거": "가는 진한 선화, 피부의 부드러운 셀-그라데이션과 흰 하이라이트; 사실적 피부 텍스처 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "visibility": "크롭·포개짐으로 가려진 부위는 관찰 한계에 포함",
+        "hands": "V를 만든 검지·중지, 접힌 약지·새끼손가락, 옆 엄지가 구분된다. 반대손과 다리는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 명확한 추가 사지나 관절 단절을 발견하지 못함"
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "폭포와 초록 나뭇잎을 뒤로 흰 베일과 가는 새틴 어깨끈. 얼굴 옆 손으로 V 사인."
+      },
+      "record_only_deviations": "선택한 얼굴 클로즈업보다 가슴까지 넓어짐. 얼굴은 기준과 동일한 청록 앞머리·분홍 눈·짧은 턱."
+    },
+    "casual5": {
+      "accepted": true,
+      "image_sha256": "ac4eea2b91a6cbb256c96aed6f351e9ea297bec9eed5d1f736f51e6c4460df33",
+      "observations": "열매 바구니와 줄무늬 차양 앞 복숭아색 가운. 옆얼굴로 눈을 내리고 귀 뒤로 머리카락을 넘김.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 청록색 머리, 분홍 눈, 완만한 아몬드 눈매와 짧게 좁아지는 턱을 기준 그림과 대조"
+      },
+      "style_25d": {
+        "판정": "2D — requested anime_gloss",
+        "근거": "가는 진한 선화, 피부의 부드러운 셀-그라데이션과 흰 하이라이트; 사실적 피부 텍스처 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "visibility": "크롭·포개짐으로 가려진 부위는 관찰 한계에 포함",
+        "hands": "보이는 한 손의 검지·중지와 나머지 손가락 일부는 머리카락에 가려진다. 손목-아래팔 연결 자연스러움. 반대손·다리는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 명확한 추가 사지나 관절 단절을 발견하지 못함"
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "열매 바구니와 줄무늬 차양 앞 복숭아색 가운. 옆얼굴로 눈을 내리고 귀 뒤로 머리카락을 넘김."
+      },
+      "record_only_deviations": "얼굴 클로즈업보다 상체가 넓게 담김. 머리 장식이 크게 유지됨."
+    },
+    "casual6": {
+      "accepted": true,
+      "image_sha256": "b655ad7b6f176f563f1cc26af4233f4e4b3c4fa077e0e0b3d7b697f4dde86f10",
+      "observations": "찜질방 온돌·접힌 매트·불빛 앞 연청색 도트 홀터 플레이수트. 등이 열리고 뒤 3/4 방향으로 이동하는 순간.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 청록색 머리, 분홍 눈, 완만한 아몬드 눈매와 짧게 좁아지는 턱을 기준 그림과 대조"
+      },
+      "style_25d": {
+        "판정": "2D — requested anime_gloss",
+        "근거": "가는 진한 선화, 피부의 부드러운 셀-그라데이션과 흰 하이라이트; 사실적 피부 텍스처 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "visibility": "크롭·포개짐으로 가려진 부위는 관찰 한계에 포함",
+        "hands": "양팔은 어깨부터 이어진다. 화면 오른쪽 손은 느슨한 주먹, 접힌 손가락과 엄지가 부분 중첩. 반대손과 다리는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 명확한 추가 사지나 관절 단절을 발견하지 못함"
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "찜질방 온돌·접힌 매트·불빛 앞 연청색 도트 홀터 플레이수트. 등이 열리고 뒤 3/4 방향으로 이동하는 순간."
+      },
+      "record_only_deviations": "허리 위보다 허벅지 위까지 담김. 얼굴 옆선과 놀란 눈·살짝 열린 입 확인. 원작 장식은 작은 꽃으로 축소."
+    },
+    "casual7": {
+      "accepted": true,
+      "image_sha256": "550c9614ba967b6284f071d18b242fc27fd9595edd1a1010196e755d550379a9",
+      "observations": "조리대와 팬·선반이 있는 주방, 열매 타르트 앞 꽃잎·잎 아플리케의 청록 코르셋과 짧은 스커트. 오른손 엄지 올림·왼손 허리.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 청록색 머리, 분홍 눈, 완만한 아몬드 눈매와 짧게 좁아지는 턱을 기준 그림과 대조"
+      },
+      "style_25d": {
+        "판정": "2D — requested anime_gloss",
+        "근거": "가는 진한 선화, 피부의 부드러운 셀-그라데이션과 흰 하이라이트; 사실적 피부 텍스처 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "visibility": "크롭·포개짐으로 가려진 부위는 관찰 한계에 포함",
+        "hands": "엄지를 세운 손의 접힌 네 손가락이 구분됨. 허리 위 손은 네 긴 손가락과 가려진 엄지. 양팔 손목 연결 자연스러움. 다리 아래는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 명확한 추가 사지나 관절 단절을 발견하지 못함"
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "조리대와 팬·선반이 있는 주방, 열매 타르트 앞 꽃잎·잎 아플리케의 청록 코르셋과 짧은 스커트. 오른손 엄지 올림·왼손 허리."
+      },
+      "record_only_deviations": "허리 위보다 스커트까지 넓게 담김. 선택한 주방·코스튬·손동작 모두 확인."
+    }
+  },
+  "face_reason": {
+    "source": "data/face-design.json faces[3], data/source-appearance.json entries[3]",
+    "why": "큰 꽃의 넓은 펼침과 차분한 표정을 사람 얼굴로 해석한 저장소 종별 설계를 그대로 사용",
+    "compared_characters": [
+      "이상해씨",
+      "이상해풀",
+      "어니부기"
+    ],
+    "comparison": "이상해씨의 더 둥근 큰 눈·작은 입, 이상해풀의 더 날렵하고 좁은 얼굴, 어니부기의 가늘고 길게 뻗은 눈매와 비교. 이상해꽃은 볼이 넓고 입술이 더 도톰하며 눈꼬리가 부드럽게 내려감.",
+    "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; almond eyes, medium size, downturned outer corners, wide-set; fine soft arches; rounded soft tip nose; full lips."
+  },
+  "diversity_comparison": {
+    "characters": [
+      "이상해씨",
+      "이상해풀",
+      "어니부기"
+    ],
+    "actual_images_reviewed": true,
+    "result": "pass",
+    "evidence": "이번 세트는 온천 난간의 정면 착석, 목장 수영복 상반신, 수선실 팔짱 전신, 폭포 베일 V사인, 시장 옆얼굴 머리 넘기기, 찜질방 뒤 3/4 보행, 주방 엄지 올림으로 구분된다. 기존 이상해씨 셀카·차 마시기·테이블 코스튬, 이상해풀 부채·수영장 착석·엘프, 어니부기 게임·마술·베란다 장면과 장소·손동작·의상 조합이 다름.",
+    "machine_check": "casual-look-check.json: ok=true; no duplicate_of or same_as_own for seven cuts"
+  }
+}

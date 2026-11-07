@@ -1,0 +1,491 @@
+{
+ "version": 2,
+ "card": "이상해꽃",
+ "no": 3,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/1b4aad86e292/venusaur-pack/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "sub_arms"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "grass"
+     },
+     {
+      "key": "seams",
+      "type": "poison"
+     },
+     {
+      "key": "orbit",
+      "type": "grass"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "sub_arms"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "grass"
+     },
+     {
+      "key": "seams",
+      "type": "poison"
+     },
+     {
+      "key": "orbit",
+      "type": "grass"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "cape_plates",
+    "long_coat_plate",
+    "hover_rings"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "The mountain-town bathing terrace has warm timber ledges beside smooth volcanic rocks, with lantern light catching the rising steam.",
+   "outfit": "A kebaya-inspired floral lace top in warm ivory, tailored with one shoulder bare and an open back over a securely fitted opaque camisole, paired with short satin lounge shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "온천 테라스의 받침과 조명을 구체화한다.",
+    "outfit": "크바야와 캐미솔을 유지하면서 계획의 한쪽 어깨·등 노출과 하의를 지정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_bath / lingerie / kebaya_lace / sit_edge / three_quarter",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_bath",
+      "ko": "포켓몬 세계 온천",
+      "en": "an outdoor hot spring of a Pokémon-world mountain town, steam over smooth rocks"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "sit_edge",
+      "ko": "가장자리에 걸터앉기",
+      "en": "perched on a ledge or edge"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "edge_brace_both · edge_brace_both"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "open back",
+     "one-shoulder cut"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A summer swim break takes place at the ranch shelter beside its small bathing pond; straw bundles and feed bins remain visible behind her.",
+   "outfit": "A fully lined coral bikini with secure side-cutout bands and high-cut bottoms.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "목장이라는 선택 장소를 유지하며 수영복을 입은 여름 물놀이 맥락을 더한다.",
+    "outfit": "자동 수영복 칸에 계획의 비키니·하이컷·옆 트임을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_ranch / swimwear / stand / chest_up",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_ranch",
+      "ko": "포켓몬 목장",
+      "en": "a sunlit Pokémon ranch shelter with fresh straw and feed bins"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "strap · out"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "A dress form holds unfinished party accessories beside an alteration table prepared for a themed costume fitting.",
+   "outfit": "A fitted navy police-style party costume with a short-brimmed cap and a cropped short-sleeved button shirt worn open over a strapless opaque top, paired with tailored mini shorts; no real insignia.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "수선실에서 행사 코스튬을 맞추는 상황을 보충한다.",
+    "outfit": "선택된 경찰 행사 셔츠를 유지하고 크롭 밑단·스트랩리스 이너를 반영한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / tailor_room / roleplay / adult_police / lean_wall / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "tailor_room",
+      "ko": "의상 수선실",
+      "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_police",
+      "ko": "경찰 코스튬",
+      "en": "a fitted navy police-style party costume with a short-brimmed cap and a short-sleeved button shirt, no real insignia"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "cropped hem",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual4": {
+   "scene": "Soft afternoon light passes through the leaves and catches the waterfall mist during a 1996 bridal portrait session.",
+   "outfit": "A simple ivory satin mini slip wedding dress with a long veil and a high side slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "첫 등장 무렵의 웨딩 촬영 시각과 빛을 구체화한다.",
+    "outfit": "슬립 웨딩드레스를 유지하며 계획의 미니 기장과 슬릿을 지정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / water_waterfall / bridal / slip_wedding / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "water_waterfall",
+      "ko": "폭포 웅덩이",
+      "en": "a rocky waterfall pool under green trees"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "slip_wedding",
+      "ko": "슬립 웨딩드레스",
+      "en": "a simple slip wedding dress with a long veil"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "v_sign · out"
+    },
+    "garments": [
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "high thigh slit",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual5": {
+   "scene": "Late morning light filters through the striped awning of a berry stall along the village bathhouse lane.",
+   "outfit": "A securely wrapped peach bathhouse robe with an off-shoulder neckline and a deep overlapping V front, keeping the chest and hips fully covered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "목욕 차림과 열매 시장의 위치를 온천 마을 거리로 연결한다.",
+    "outfit": "자동 목욕 차림에 가운 종류와 계획된 목선을 지정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_market / bath / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_market",
+      "ko": "마을 열매 시장",
+      "en": "a village market stall piled with fresh berries"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bath",
+      "ko": "목욕 차림",
+      "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "hair_tuck · out"
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "plunging neckline",
+     "off-shoulder neckline"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual6": {
+   "scene": "A retro costume-event break unfolds in a jjimjilbang relaxation hall, its heated floor lined with folded sleeping mats.",
+   "outfit": "A 1950s powder-blue halter playsuit with an open back and short split-side legs that reveal the upper thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "찜질방 휴게 공간을 레트로 행사 중 휴식 장면으로 구체화한다.",
+    "outfit": "플레이수트 종류를 유지하며 등과 허벅지가 드러나는 재단을 지정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / spa_jjimjil / retro / halter_playsuit / walk / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "spa_jjimjil",
+      "ko": "찜질방",
+      "en": "a Korean jjimjilbang hall with heated floors and sleeping mats"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "halter_playsuit",
+      "ko": "50년대 홀터 플레이수트",
+      "en": "a 1950s halter playsuit"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "high thigh slit",
+     "open back"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual7": {
+   "scene": "A small plate of homemade berry pastries rests on the kitchen counter before a costume-party departure.",
+   "outfit": "An adult Venusaur party costume made as an opaque laced corset bustier with side cutouts and a short flared skirt over high-cut opaque dance briefs; blue-green fabric, pink flower petals and green leaf-shaped fabric appliques make the species recognisable.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "주방 조리대의 열매 페이스트리로 코스튬 파티에 나서기 전 맥락을 더한다.",
+    "outfit": "계획기의 코르셋·플레어 스커트 형태를 유지하고 색·천 장식과 덮임을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / home_kitchen / pokemon_costume / pc_corset / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_kitchen",
+      "ko": "주방",
+      "en": "her home kitchen with a counter, open shelves and hanging pans"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "thumbs_up · hip"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "high-cut leg",
+     "side cutouts"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}
