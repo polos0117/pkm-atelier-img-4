@@ -1,0 +1,165 @@
+{
+ "reviewer": "gpt",
+ "style": "anime_gloss",
+ "style_rule": "2026-11-07 explicit clean 2D replaces prior 2.5D gate",
+ "compared_characters": [
+  "꼬부기",
+  "파이리",
+  "이상해씨"
+ ],
+ "diversity_comparison": "최근 3종의 실제 일상 9장 비교 시트 확인. 성 계단 전신·해적 꽃다발 상반신·물품점 휴식·우산 측면·아케이드 전신·재즈바 상반신·옥상 와이드가 장소와 옷, 구도로 구분됨.",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "image_sha256": "d7024e2d03751d4299bc568054d25a458ae300fe2ee70ac2de05e019faa935d9",
+   "observations": "전신과 두 발, 두 팔. 열린 손에 다섯 손가락, 반대 주먹은 손가락이 접힘. 등딱지 망토와 물 효과, 분절 꼬리 장갑.",
+   "style_25d": {
+    "판정": "2D — 최신 anime_gloss 규칙 일치",
+    "근거": "가는 윤곽선·애니 눈·피부의 부드러운 그라데이션·머리 가닥 하이라이트"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "전신과 두 발, 두 팔. 열린 손에 다섯 손가락, 반대 주먹은 손가락이 접힘. 등딱지 망토와 물 효과, 분절 꼬리 장갑.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 화면으로 확인; 크롭 밖·가려진 부분 직접 계수 불가"
+   },
+   "submitted_sha256": "7fdd238df5a6d8d59c122e2039c8d521be815b033734b99829e88c045be54c88",
+   "submitted_same": true
+  },
+  "casual1": {
+   "accepted": true,
+   "image_sha256": "9b6a5e89d689f4df8c642fd1f45dca6cd59c0d25b8d3d2f83e66a685cda86e7f",
+   "observations": "성 계단에서 코르셋과 짧은 스커트 코스튬. 전신, 양팔과 다리 둘. 뒤 3/4 계획과 달리 정면 3/4. 양손 장갑 손가락은 일부 겹침. 등딱지·포 장식이 큼.",
+   "style_25d": {
+    "판정": "2D — 최신 anime_gloss 규칙 일치",
+    "근거": "가는 윤곽선·애니 눈·피부의 부드러운 그라데이션·머리 가닥 하이라이트"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "성 계단에서 코르셋과 짧은 스커트 코스튬. 전신, 양팔과 다리 둘. 뒤 3/4 계획과 달리 정면 3/4. 양손 장갑 손가락은 일부 겹침. 등딱지·포 장식이 큼.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 화면으로 확인; 크롭 밖·가려진 부분 직접 계수 불가"
+   },
+   "submitted_sha256": "62906a5942e5fe31bf0823577ef02ff9b638a6b154a766f40424eea52f99c315",
+   "submitted_same": true
+  },
+  "casual2": {
+   "accepted": true,
+   "image_sha256": "8c123fe56ba1bd5404e437cd8204874e58d7049a0c34c531bbaf23130cf35c7b",
+   "observations": "레드카펫 해적 모자·코르셋, 꽃다발 향기를 맡는 상반신. 쥔 손의 네 손가락과 가려진 엄지. 반대 팔·하체는 크롭 밖.",
+   "style_25d": {
+    "판정": "2D — 최신 anime_gloss 규칙 일치",
+    "근거": "가는 윤곽선·애니 눈·피부의 부드러운 그라데이션·머리 가닥 하이라이트"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "레드카펫 해적 모자·코르셋, 꽃다발 향기를 맡는 상반신. 쥔 손의 네 손가락과 가려진 엄지. 반대 팔·하체는 크롭 밖.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 화면으로 확인; 크롭 밖·가려진 부분 직접 계수 불가"
+   },
+   "submitted_sha256": "cb080247505edeb4e7b4da36be8a8a1e3796994966c1c09435dcd1a09e3dd543",
+   "submitted_same": true
+  },
+  "casual3": {
+   "accepted": true,
+   "image_sha256": "9503af1fca5b42bd926f7e7861d5ec1224271c4de3973b4f7e1fed164dae5ca4",
+   "observations": "목재 물품점, 라벤더 원숄더와 허리 컷아웃. 목 뒤 손 일부 머리로 가림. 반대 손 다섯 손가락과 손목 연결. 무릎 아래 크롭 밖.",
+   "style_25d": {
+    "판정": "2D — 최신 anime_gloss 규칙 일치",
+    "근거": "가는 윤곽선·애니 눈·피부의 부드러운 그라데이션·머리 가닥 하이라이트"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "목재 물품점, 라벤더 원숄더와 허리 컷아웃. 목 뒤 손 일부 머리로 가림. 반대 손 다섯 손가락과 손목 연결. 무릎 아래 크롭 밖.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 화면으로 확인; 크롭 밖·가려진 부분 직접 계수 불가"
+   },
+   "submitted_sha256": "a3ce226d878d4d5614d49ecad2ab62fcc846954605f219ff4cc561bd20b055b0",
+   "submitted_same": true
+  },
+  "casual4": {
+   "accepted": true,
+   "image_sha256": "4fe6cf14e320271cb0122e3bd54bffc557ec6747c1f996d510dfc80ae7b218aa",
+   "observations": "현관 우산을 쥔 손과 난간에 놓인 손이 소매로 각각 이어짐. 손가락 일부 그립·겹침. 팔 둘. 꼬부기 한 마리. 첫 출력의 여분 팔 때문에 동일 프롬프트로 재생성.",
+   "style_25d": {
+    "판정": "2D — 최신 anime_gloss 규칙 일치",
+    "근거": "가는 윤곽선·애니 눈·피부의 부드러운 그라데이션·머리 가닥 하이라이트"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "현관 우산을 쥔 손과 난간에 놓인 손이 소매로 각각 이어짐. 손가락 일부 그립·겹침. 팔 둘. 꼬부기 한 마리. 첫 출력의 여분 팔 때문에 동일 프롬프트로 재생성.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 화면으로 확인; 크롭 밖·가려진 부분 직접 계수 불가"
+   },
+   "submitted_sha256": "415c7b43706bc9cfe2769158e23d3fad13204df4cec8a31d41d20759adb7af16",
+   "submitted_same": true
+  },
+  "casual5": {
+   "accepted": true,
+   "image_sha256": "144bf9ba73b4de44441b313e21c2c30b4585c2bb4be4b41d481065f731a632e1",
+   "observations": "아케이드 조작대에 양손을 짚은 전신. 버건디 가터 패션, 두 다리와 하이힐. 양손 손가락 일부 겹침, 손목·팔 자연스러운 연결.",
+   "style_25d": {
+    "판정": "2D — 최신 anime_gloss 규칙 일치",
+    "근거": "가는 윤곽선·애니 눈·피부의 부드러운 그라데이션·머리 가닥 하이라이트"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "아케이드 조작대에 양손을 짚은 전신. 버건디 가터 패션, 두 다리와 하이힐. 양손 손가락 일부 겹침, 손목·팔 자연스러운 연결.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 화면으로 확인; 크롭 밖·가려진 부분 직접 계수 불가"
+   },
+   "submitted_sha256": "6b7ff4c66f4abc2684625382122c7d33c1f0dee56f3224b4dd48968f4c773ae9",
+   "submitted_same": true
+  },
+  "casual6": {
+   "accepted": true,
+   "image_sha256": "7b16d457a3261504d49a18a86ad080e60a2f97694ecc0ab18e4f963a6032ff23",
+   "observations": "피아노가 있는 재즈 바. 붉은 정비사 행사복과 고글. 얼굴·어깨 크롭으로 손과 다리는 화면 밖.",
+   "style_25d": {
+    "판정": "2D — 최신 anime_gloss 규칙 일치",
+    "근거": "가는 윤곽선·애니 눈·피부의 부드러운 그라데이션·머리 가닥 하이라이트"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "피아노가 있는 재즈 바. 붉은 정비사 행사복과 고글. 얼굴·어깨 크롭으로 손과 다리는 화면 밖.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 화면으로 확인; 크롭 밖·가려진 부분 직접 계수 불가"
+   },
+   "submitted_sha256": "242ab2c0ca002b00910c1886e3c7ba2c2ab21f6bdffd2a30f0a2ba31806f0f58",
+   "submitted_same": true
+  },
+  "casual7": {
+   "accepted": true,
+   "image_sha256": "8ac4e60753d2255e7bfe39f16368595f2a7c8e4b9f5de97ba869f33362502688",
+   "observations": "물탱크와 라디오가 있는 옥상. 주황 수영복과 열린 유카타. 벽에 모은 양손 일부 겹침, 두 다리와 맨발. 뒤 3/4 전신.",
+   "style_25d": {
+    "판정": "2D — 최신 anime_gloss 규칙 일치",
+    "근거": "가는 윤곽선·애니 눈·피부의 부드러운 그라데이션·머리 가닥 하이라이트"
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "물탱크와 라디오가 있는 옥상. 주황 수영복과 열린 유카타. 벽에 모은 양손 일부 겹침, 두 다리와 맨발. 뒤 3/4 전신.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대 화면으로 확인; 크롭 밖·가려진 부분 직접 계수 불가"
+   },
+   "submitted_sha256": "0048cdb0ba63e2bacefca95c41dfa6aee57e8bc5500619629c48d52a9cd70bb3",
+   "submitted_same": true
+  }
+ }
+}

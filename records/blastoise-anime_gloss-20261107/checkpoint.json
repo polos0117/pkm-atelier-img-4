@@ -1,0 +1,190 @@
+{
+ "card": "거북왕",
+ "style": "anime_gloss",
+ "completed_slots": 8,
+ "light": {
+  "slot": "light",
+  "original_path": "/workspace/scratch/8b92a9a54117/generated_images/exec-b5589c8f-7f62-4351-8c2f-4c53de686d5f.png",
+  "original_sha256": "eff7087ae772dedcea5aff46f5eb2c2ca808db9abcf066f7e92d8445aadfb190",
+  "file": "거북왕_light_anime_gloss_f.webp",
+  "path": "/workspace/scratch/8b92a9a54117/pkm-atelier-img-4/img/거북왕_light_anime_gloss_f.webp",
+  "sha256": "d7024e2d03751d4299bc568054d25a458ae300fe2ee70ac2de05e019faa935d9",
+  "size": [
+   1024,
+   1536
+  ],
+  "bytes": 330416,
+  "style": "anime_gloss",
+  "reference": null
+ },
+ "face_reason": {
+  "name": "거북왕",
+  "en": "Blastoise",
+  "line": "꼬부기",
+  "how": "species",
+  "registered": true,
+  "face": {
+   "face shape": "oval",
+   "face length": "balanced",
+   "face width": "wide",
+   "jaw & chin": "wide heavy chin",
+   "eye shape": "narrow",
+   "eye size": "medium",
+   "eye tilt": "level outer corners",
+   "eye spacing": "average eye spacing",
+   "eyebrows": "thick low brows",
+   "nose character": "balanced nose",
+   "lips": "wide mouth"
+  },
+  "why": "거대한 거북의 체적과 강한 수류를 넓은 하관과 안정적인 수평 눈매로 옮긴다.",
+  "cues": [
+   "몸 형태 upright → 얼굴형 균형 잡힌 타원형"
+  ],
+  "adjusted": "",
+  "hair": {},
+  "hair_locked": true,
+  "hair_why": "확정한 ① 그림이 정본 — 머리 기록을 찾지 못해 표가 정하지 않는다",
+  "hair_cues": [],
+  "hair_record": null
+ },
+ "identity": "Silver-white long hair with side braid; blue eyes; adult woman, kept from light reference.",
+ "compared_characters": [
+  "꼬부기",
+  "파이리",
+  "이상해씨"
+ ],
+ "generation": {
+  "tool": "image_gen",
+  "model_id": "not exposed",
+  "quality": "not exposed",
+  "size": "1024x1536 observed",
+  "light_references": [],
+  "casual_references": [
+   "/workspace/scratch/8b92a9a54117/generated_images/exec-b5589c8f-7f62-4351-8c2f-4c53de686d5f.png"
+  ]
+ },
+ "attempts": [
+  {
+   "slot": "casual4",
+   "rejected_path": "generated_images/exec-fc25c6fd-1892-4f2c-887c-922f4df29045.png",
+   "reason": "extra apparent arm/sleeve",
+   "changed_input": "none; same prompt and light reference",
+   "accepted_original_sha256": "38774ea56a0695048c800d832ad30701c9cefd476cb5beac834ef2598b7b20a7"
+  }
+ ],
+ "submission": {
+  "light": [
+   {
+    "slot": "light",
+    "at": "2026-11-07T04:18:39.913Z",
+    "prompt_sha256": "7fdd238df5a6d8d59c122e2039c8d521be815b033734b99829e88c045be54c88",
+    "submitted_sha256": "7fdd238df5a6d8d59c122e2039c8d521be815b033734b99829e88c045be54c88",
+    "same": true,
+    "prompt_words": 634,
+    "submitted_words": 634,
+    "style_kept": true,
+    "missing": [],
+    "added": []
+   }
+  ],
+  "casual1": [
+   {
+    "slot": "casual1",
+    "at": "2026-11-07T04:19:35.725Z",
+    "prompt_sha256": "62906a5942e5fe31bf0823577ef02ff9b638a6b154a766f40424eea52f99c315",
+    "submitted_sha256": "62906a5942e5fe31bf0823577ef02ff9b638a6b154a766f40424eea52f99c315",
+    "same": true,
+    "prompt_words": 780,
+    "submitted_words": 780,
+    "style_kept": true,
+    "missing": [],
+    "added": []
+   }
+  ],
+  "casual2": [
+   {
+    "slot": "casual2",
+    "at": "2026-11-07T04:19:35.792Z",
+    "prompt_sha256": "cb080247505edeb4e7b4da36be8a8a1e3796994966c1c09435dcd1a09e3dd543",
+    "submitted_sha256": "cb080247505edeb4e7b4da36be8a8a1e3796994966c1c09435dcd1a09e3dd543",
+    "same": true,
+    "prompt_words": 885,
+    "submitted_words": 885,
+    "style_kept": true,
+    "missing": [],
+    "added": []
+   }
+  ],
+  "casual3": [
+   {
+    "slot": "casual3",
+    "at": "2026-11-07T04:19:35.858Z",
+    "prompt_sha256": "a3ce226d878d4d5614d49ecad2ab62fcc846954605f219ff4cc561bd20b055b0",
+    "submitted_sha256": "a3ce226d878d4d5614d49ecad2ab62fcc846954605f219ff4cc561bd20b055b0",
+    "same": true,
+    "prompt_words": 811,
+    "submitted_words": 811,
+    "style_kept": true,
+    "missing": [],
+    "added": []
+   }
+  ],
+  "casual4": [
+   {
+    "slot": "casual4",
+    "at": "2026-11-07T04:19:35.918Z",
+    "prompt_sha256": "415c7b43706bc9cfe2769158e23d3fad13204df4cec8a31d41d20759adb7af16",
+    "submitted_sha256": "415c7b43706bc9cfe2769158e23d3fad13204df4cec8a31d41d20759adb7af16",
+    "same": true,
+    "prompt_words": 993,
+    "submitted_words": 993,
+    "style_kept": true,
+    "missing": [],
+    "added": []
+   }
+  ],
+  "casual5": [
+   {
+    "slot": "casual5",
+    "at": "2026-11-07T04:19:35.996Z",
+    "prompt_sha256": "6b7ff4c66f4abc2684625382122c7d33c1f0dee56f3224b4dd48968f4c773ae9",
+    "submitted_sha256": "6b7ff4c66f4abc2684625382122c7d33c1f0dee56f3224b4dd48968f4c773ae9",
+    "same": true,
+    "prompt_words": 817,
+    "submitted_words": 817,
+    "style_kept": true,
+    "missing": [],
+    "added": []
+   }
+  ],
+  "casual6": [
+   {
+    "slot": "casual6",
+    "at": "2026-11-07T04:19:36.076Z",
+    "prompt_sha256": "242ab2c0ca002b00910c1886e3c7ba2c2ab21f6bdffd2a30f0a2ba31806f0f58",
+    "submitted_sha256": "242ab2c0ca002b00910c1886e3c7ba2c2ab21f6bdffd2a30f0a2ba31806f0f58",
+    "same": true,
+    "prompt_words": 847,
+    "submitted_words": 847,
+    "style_kept": true,
+    "missing": [],
+    "added": []
+   }
+  ],
+  "casual7": [
+   {
+    "slot": "casual7",
+    "at": "2026-11-07T04:19:36.145Z",
+    "prompt_sha256": "0048cdb0ba63e2bacefca95c41dfa6aee57e8bc5500619629c48d52a9cd70bb3",
+    "submitted_sha256": "0048cdb0ba63e2bacefca95c41dfa6aee57e8bc5500619629c48d52a9cd70bb3",
+    "same": true,
+    "prompt_words": 927,
+    "submitted_words": 927,
+    "style_kept": true,
+    "missing": [],
+    "added": []
+   }
+  ]
+ },
+ "storage_note": "Original PNG files are session-local and not committed."
+}
