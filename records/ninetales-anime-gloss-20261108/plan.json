@@ -667,5 +667,18 @@
     ]
    }
   }
+ ],
+ "repairs": [
+  {
+   "slot": "casual6",
+   "reason": "사용자 지적: 바구니 위 손과 팔이 몸에서 떨어져 있음",
+   "changed_inputs": "원래 장면·의상·선택값 유지; 사용자 요청 부분 수정을 별도 지시문으로 기록",
+   "references": [
+    "generated_images/exec-5b2719f1-ed5a-4fcc-8581-c789e670e22b.png",
+    "generated_images/exec-cafec040-d439-4ad6-9b96-8ffc76a6d5ba.png"
+   ],
+   "prompt": "repairs/20261108-casual6-arm/edit-prompt.txt",
+   "output_sha256": "d5b9e5d08b95f9efd7dc91a924d1734e960b2fc02447258f177c8e04edb32ab2"
+  }
  ]
 }

@@ -1,0 +1,37 @@
+{
+  "previous_published_review": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "아이보리 해적 모자·코르셋·오프숄더 블라우스·미니 스커트. 할로윈 호박과 천 망토가 주변에 보임."
+    },
+    "scene_and_pose": {
+      "match": "with noted framing variation",
+      "evidence": "빨래방 둥근 세탁기 앞에서 한 손으로 세탁 바구니를 잡고 반대 손은 아래로 내려 있다. 팔둘이 모두 몸에 연결."
+    },
+    "style_25d": {
+      "judgment": "intentional 2D under current anime_gloss rule",
+      "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "바구니 쥔 손은 엄지와 네 손가락, 일부 굽힌 마디 가려짐. 내린 손은 하단 크롭에 걸려 끝 일부 안 보임.",
+      "overlay_checked": false,
+      "note": "빨래방 둥근 세탁기 앞에서 한 손으로 세탁 바구니를 잡고 반대 손은 아래로 내려 있다. 팔둘이 모두 몸에 연결. 원본과 손 확대 이미지 확인."
+    },
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "3627b939364457719de7054517ebb9d14a2bf2ceee192e210bee025c62e8da72"
+  },
+  "correction": {
+    "previous_judgment_valid": false,
+    "previous_asset_accepted": false,
+    "reported_by": "user",
+    "reason": "Basket-side hand and cuff were disconnected from the shoulder/upper arm. Previous claim that both arms were attached was incorrect.",
+    "previous_webp_sha256": "3627b939364457719de7054517ebb9d14a2bf2ceee192e210bee025c62e8da72"
+  }
+}

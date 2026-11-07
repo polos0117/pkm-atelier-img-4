@@ -183,11 +183,11 @@
       "accepted": true,
       "identity": {
         "match": true,
-        "evidence": "아이보리 해적 모자·코르셋·오프숄더 블라우스·미니 스커트. 할로윈 호박과 천 망토가 주변에 보임."
+        "evidence": "금백색 포니테일·황금 눈·옆으로 돌아본 얼굴과 해적 모자·코르셋·빨래방 구도가 수정 전과 일관된다. 부분 수정으로 미세한 채색 차이는 있다."
       },
       "scene_and_pose": {
-        "match": "with noted framing variation",
-        "evidence": "빨래방 둥근 세탁기 앞에서 한 손으로 세탁 바구니를 잡고 반대 손은 아래로 내려 있다. 팔둘이 모두 몸에 연결."
+        "match": "targeted arm repair only",
+        "evidence": "같은 빨래방과 바구니. 화면 오른쪽의 소매가 몸 옆에서 연속해 내려와 팔꿈치에서 굽혀지고, 바구니 앞 손목과 손으로 이어진다. 화면 왼쪽의 내린 팔은 유지."
       },
       "style_25d": {
         "judgment": "intentional 2D under current anime_gloss rule",
@@ -197,15 +197,28 @@
         "tool": "unavailable: mediapipe not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "바구니 쥔 손은 엄지와 네 손가락, 일부 굽힌 마디 가려짐. 내린 손은 하단 크롭에 걸려 끝 일부 안 보임.",
+        "hands": "바구니 위 손은 엄지 1개와 굽힌 네 손가락이 구별된다. 반대 손은 원본처럼 화면 하단에 일부 잘려 가려진 손가락을 확인했다고 쓰지 않음.",
         "overlay_checked": false,
-        "note": "빨래방 둥근 세탁기 앞에서 한 손으로 세탁 바구니를 잡고 반대 손은 아래로 내려 있다. 팔둘이 모두 몸에 연결. 원본과 손 확대 이미지 확인."
+        "note": "원본 전체와 어깨→상완→팔꿈치→아래팔→손목→손을 담은 연속 확대 영역을 비교했다. 바구니 쪽 상완 일부는 가슴과 의상에 겹치지만 소매가 몸 옆에서 팔꿈치와 손목까지 연속해 이어진다. 바구니에서 단독으로 나오는 소매·손은 없어졌다. 다리 아래는 기존 크롭 밖.",
+        "connection_path_checked": true,
+        "review_crop": "session-only arm-connection-review.jpg and hand-review.jpg"
       },
       "size": [
         1024,
         1536
       ],
-      "sha256": "3627b939364457719de7054517ebb9d14a2bf2ceee192e210bee025c62e8da72"
+      "sha256": "d5b9e5d08b95f9efd7dc91a924d1734e960b2fc02447258f177c8e04edb32ab2",
+      "repair_record": "repairs/20261108-casual6-arm/submission.json",
+      "tool_settings": {
+        "tool": "image_gen.imagegen",
+        "actual_model_id": null,
+        "quality_parameter": "unsupported",
+        "reference_paths": [
+          "generated_images/exec-5b2719f1-ed5a-4fcc-8581-c789e670e22b.png",
+          "generated_images/exec-cafec040-d439-4ad6-9b96-8ffc76a6d5ba.png"
+        ],
+        "prompt": "repairs/20261108-casual6-arm/edit-prompt.txt"
+      }
     },
     "casual7": {
       "accepted": true,
@@ -245,5 +258,13 @@
     ],
     "basis": "이번 원본과 기존 세션의 실제 contact 이미지 비교; 다른 캐릭터 이미지 복사·다운로드 없음",
     "result": "별빛 코스튬·강변 수영복·롤러장 무릎 자세·침대칸 여행·항구 사리·빨래방 해적·베이커리 드레스로 구분됨. 상반신 컷의 앞 3/4 얼굴은 일부 공통이지만 장소·옷 실루엣·손·전체 구도는 다름."
-  }
+  },
+  "corrections": [
+    {
+      "slot": "casual6",
+      "at": "2026-11-08",
+      "reason": "User reported detached basket arm; erroneous original QA corrected and image partially edited.",
+      "record": "repairs/20261108-casual6-arm/previous-qa-correction.json"
+    }
+  ]
 }
