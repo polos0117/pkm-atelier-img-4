@@ -1,0 +1,249 @@
+{
+  "card": "나인테일",
+  "style": "anime_gloss",
+  "accepted": true,
+  "reviewed_at": "2026-11-08",
+  "tool_settings": {
+    "tool": "image_gen.imagegen",
+    "actual_model_id": null,
+    "size_parameter": "unsupported; prompt 1024x1536; actual verified",
+    "quality_parameter": "unsupported",
+    "reference": "light PNG directly attached to every casual call"
+  },
+  "items": {
+    "light": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "길고 좁은 얼굴, 가는 황금 눈, 긴 금백색 포니테일과 아홉 갈래 자락. 얼굴 높이의 완만한 3/4."
+      },
+      "scene_and_pose": {
+        "match": "with noted framing variation",
+        "evidence": "금백색 장갑의 전신, 불꽃을 띄운 열린 손과 내린 느슨한 손. 두 팔·두 다리·부츠 연결이 보인다."
+      },
+      "style_25d": {
+        "judgment": "intentional 2D under current anime_gloss rule",
+        "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "펼친 손은 엄지·네 손가락. 내린 손은 굽힌 손가락 일부가 겹쳐 가려짐.",
+        "overlay_checked": false,
+        "note": "금백색 장갑의 전신, 불꽃을 띄운 열린 손과 내린 느슨한 손. 두 팔·두 다리·부츠 연결이 보인다. 원본과 손 확대 이미지 확인."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "07dda1cc9f957425274c9722dc26001bcc677f113262084c3d10b0342246c0ec"
+    },
+    "casual1": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "금백색 미니 드레스와 원작 모티프의 아홉 자락 코스튬. 입술을 약간 열고 카메라를 봄. 옷의 가장자리가 판처럼 보이지만 코스튬 조각으로 기록."
+      },
+      "scene_and_pose": {
+        "match": "with noted framing variation",
+        "evidence": "별빛 무대 가장자리에 앉아 두 손으로 지지하고 무릎을 모았다. 팔·손목이 몸에서 이어진다."
+      },
+      "style_25d": {
+        "judgment": "intentional 2D under current anime_gloss rule",
+        "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "좌우 지지 손은 다섯 손가락 구조이며 일부 손가락이 겹쳐 보임. 엄지 방향 정상.",
+        "overlay_checked": false,
+        "note": "별빛 무대 가장자리에 앉아 두 손으로 지지하고 무릎을 모았다. 팔·손목이 몸에서 이어진다. 원본과 손 확대 이미지 확인."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "26108da1aecf0b85f45a5b0445b982dcffef196d135e3fce5ba8216eeea33607"
+    },
+    "casual2": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "카멜색 수영복과 초콜릿색 옆 허리 패널. 눈을 내리깔고 작은 미소. 원본과 같은 눈·코·입 비율."
+      },
+      "scene_and_pose": {
+        "match": "with noted framing variation",
+        "evidence": "불꽃놀이 강변의 등롱과 수영 부두를 배경으로 한 상반신. 두 팔은 아래로 이어지고 양손·다리는 프레임 밖."
+      },
+      "style_25d": {
+        "judgment": "intentional 2D under current anime_gloss rule",
+        "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손 모두 화면 밖; 보이지 않는 손가락 수를 확인했다고 기록하지 않음.",
+        "overlay_checked": false,
+        "note": "불꽃놀이 강변의 등롱과 수영 부두를 배경으로 한 상반신. 두 팔은 아래로 이어지고 양손·다리는 프레임 밖. 원본과 손 확대 이미지 확인."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "4c4ee2ddb48d2aa2bc15ef29dd2de9e2d2cc726b0c90e5933921199c89c0eb9a"
+    },
+    "casual3": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "민트 스트랩리스 상의·짧은 비닐 재킷·부츠, 위쪽을 향한 옆얼굴과 입을 다문 표정. 선택 장소·역할극 의상이 보인다."
+      },
+      "scene_and_pose": {
+        "match": "with noted framing variation",
+        "evidence": "롤러장 바닥에 무릎을 꿇고 두 손을 허벅지 위에 댔다. 팔둘·다리둘이 정상 연결되고 발끝은 부츠 안이다."
+      },
+      "style_25d": {
+        "judgment": "intentional 2D under current anime_gloss rule",
+        "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 엄지와 네 손가락이 허벅지 위로 자연스럽게 연결. 일부 겹침은 관찰 기록.",
+        "overlay_checked": false,
+        "note": "롤러장 바닥에 무릎을 꿇고 두 손을 허벅지 위에 댔다. 팔둘·다리둘이 정상 연결되고 발끝은 부츠 안이다. 원본과 손 확대 이미지 확인."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1fc9c5ef576a50a8ca30d397d03a8f913ff077f650c80cb53c506bb166608ee2"
+    },
+    "casual4": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "로즈 핑크 짧은 운동 점프슈트와 체육 가방·물병. 눈을 가늘게 뜨고 어깨를 약간 웅크려 피곤함을 표현. 창문 반사는 같은 인물의 자연스러운 반사."
+      },
+      "scene_and_pose": {
+        "match": "with noted framing variation",
+        "evidence": "기차 침대칸에 앉아 접이식 테이블 위로 두 손을 모았다. 두 다리와 운동화가 프레임 안."
+      },
+      "style_25d": {
+        "judgment": "intentional 2D under current anime_gloss rule",
+        "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "겹친 두 손의 일부 손가락은 다른 손 뒤에 가려짐. 별도 손이나 셋째 팔은 없음.",
+        "overlay_checked": false,
+        "note": "기차 침대칸에 앉아 접이식 테이블 위로 두 손을 모았다. 두 다리와 운동화가 프레임 안. 원본과 손 확대 이미지 확인."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "9d3b4440ca9e99bc2114ff9edd036f408ce04b18a83332fb7e20eb09f7a1b379"
+    },
+    "casual5": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회색·은색 사리 블라우스와 드레이프. 카메라 쪽으로 살짝 돌아본 긴 눈매와 입술을 약간 연 표정. 하의 슬릿은 크롭으로 안 보임."
+      },
+      "scene_and_pose": {
+        "match": "with noted framing variation",
+        "evidence": "항구를 내려다보는 옥상 의자에 앉은 상반신. 병풍·은 쟁반·주전자가 배경에 있다. 두 손과 하체는 프레임 밖."
+      },
+      "style_25d": {
+        "judgment": "intentional 2D under current anime_gloss rule",
+        "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 화면 밖.",
+        "overlay_checked": false,
+        "note": "항구를 내려다보는 옥상 의자에 앉은 상반신. 병풍·은 쟁반·주전자가 배경에 있다. 두 손과 하체는 프레임 밖. 원본과 손 확대 이미지 확인."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b2d6c46c8e887d23bb7e3683f3fdeb8dd16e470f5b20c6bd81bc9bfebf97ab92"
+    },
+    "casual6": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "아이보리 해적 모자·코르셋·오프숄더 블라우스·미니 스커트. 할로윈 호박과 천 망토가 주변에 보임."
+      },
+      "scene_and_pose": {
+        "match": "with noted framing variation",
+        "evidence": "빨래방 둥근 세탁기 앞에서 한 손으로 세탁 바구니를 잡고 반대 손은 아래로 내려 있다. 팔둘이 모두 몸에 연결."
+      },
+      "style_25d": {
+        "judgment": "intentional 2D under current anime_gloss rule",
+        "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "바구니 쥔 손은 엄지와 네 손가락, 일부 굽힌 마디 가려짐. 내린 손은 하단 크롭에 걸려 끝 일부 안 보임.",
+        "overlay_checked": false,
+        "note": "빨래방 둥근 세탁기 앞에서 한 손으로 세탁 바구니를 잡고 반대 손은 아래로 내려 있다. 팔둘이 모두 몸에 연결. 원본과 손 확대 이미지 확인."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "3627b939364457719de7054517ebb9d14a2bf2ceee192e210bee025c62e8da72"
+    },
+    "casual7": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "코랄 오프숄더 미니 드레스와 과일 타르트·리본 상자·오븐. 턱을 약간 들고 입을 벌린 표정. 원본의 긴 얼굴 비율 유지."
+      },
+      "scene_and_pose": {
+        "match": "with noted framing variation",
+        "evidence": "베이커리 작업대에 두 손을 짚고 뒤로 기대섰다. 양팔 손목 연결 정상; 다리 아래는 프레임 밖."
+      },
+      "style_25d": {
+        "judgment": "intentional 2D under current anime_gloss rule",
+        "evidence": "가는 윤곽선·황금 눈 하이라이트·부드러운 셀-그라데이션 피부. 얼굴과 옷이 일관된 애니 일러스트."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "작업대 위 양손은 엄지와 네 손가락 구조, 옆으로 본 손은 손가락 일부가 겹쳐짐.",
+        "overlay_checked": false,
+        "note": "베이커리 작업대에 두 손을 짚고 뒤로 기대섰다. 양팔 손목 연결 정상; 다리 아래는 프레임 밖. 원본과 손 확대 이미지 확인."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "a0b2566abfcf132381fa808f992229c053faea4c6f36261a36bf8c90c3fca5e5"
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "니드런♀",
+      "삐삐",
+      "식스테일",
+      "고지"
+    ],
+    "basis": "이번 원본과 기존 세션의 실제 contact 이미지 비교; 다른 캐릭터 이미지 복사·다운로드 없음",
+    "result": "별빛 코스튬·강변 수영복·롤러장 무릎 자세·침대칸 여행·항구 사리·빨래방 해적·베이커리 드레스로 구분됨. 상반신 컷의 앞 3/4 얼굴은 일부 공통이지만 장소·옷 실루엣·손·전체 구도는 다름."
+  }
+}
