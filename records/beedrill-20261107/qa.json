@@ -1,0 +1,155 @@
+{
+  "card": "독침붕",
+  "style": "anime_gloss",
+  "accepted": true,
+  "tool": "built-in image_gen",
+  "model_id": "not exposed by tool",
+  "quality": "not exposed by tool",
+  "size": "1024x1536 verified from PNG",
+  "reference_policy": "light no references; every casual only approved light PNG",
+  "comparison_characters": [
+    "버터플",
+    "딱충이",
+    "구구",
+    "단데기"
+  ],
+  "visual_diversity": "Compared full recent seven-cut sheets and current Butterfree set. Distinct ponytail and angular face; maid arms-crossed, ferry tote grip, spa wave, clasped hands, ledge perch, icecream face-close and photo-booth side seating. Fireworks environment shared within batch but different pose, garments and camera direction.",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observation": "은백색 하이 포니테일·금색 눈·길고 가는 턱, 검정 노랑 분할 장갑과 흰 날개 망토. 전신과 양발이 화면 안.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "가는 얼굴 윤곽선과 부드러운 셀·그라데이션 음영. 최신 규칙의 clean 2D anime_gloss와 일치."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "펼친 손 다섯 손가락, 반대 손 느슨한 주먹 일부 가림. 팔 둘·다리 둘 연결.",
+        "overlay_checked": false,
+        "note": "Full-resolution output visually checked; occluded and off-frame parts documented."
+      },
+      "submitted_same": true
+    },
+    "casual1": {
+      "accepted": true,
+      "observation": "클럽 메이드 코스튬, 벽 기대 팔짱. 가슴 위로 계획했지만 허리까지 보이는 크롭은 기록만.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "가는 얼굴 윤곽선과 부드러운 셀·그라데이션 음영. 최신 규칙의 clean 2D anime_gloss와 일치."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "교차한 팔 둘 연결 확인. 팔 위 손의 네 긴 손가락과 가려진 엄지, 반대 손은 팔 아래에 가려짐.",
+        "overlay_checked": false,
+        "note": "Full-resolution output visually checked; occluded and off-frame parts documented."
+      },
+      "submitted_same": true
+    },
+    "casual2": {
+      "accepted": true,
+      "observation": "페리 난간과 아침 항구, 코랄 탑과 오렌지 오버롤, 토트백 끈을 잡음.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "가는 얼굴 윤곽선과 부드러운 셀·그라데이션 음영. 최신 규칙의 clean 2D anime_gloss와 일치."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "끈 쥔 손의 엄지와 구부린 네 손가락, 반대 손은 프레임 아래. 양팔 연결.",
+        "overlay_checked": false,
+        "note": "Full-resolution output visually checked; occluded and off-frame parts documented."
+      },
+      "submitted_same": true
+    },
+    "casual3": {
+      "accepted": true,
+      "observation": "미래 스파의 라벤더 수영복, 한 손 흔들고 다른 손을 쇄골에 올린 가슴 위 구도.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "가는 얼굴 윤곽선과 부드러운 셀·그라데이션 음영. 최신 규칙의 clean 2D anime_gloss와 일치."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "흔드는 손 다섯, 쇄골 손 네 긴 손가락과 가려진 엄지. 양팔이 어깨에 연결.",
+        "overlay_checked": false,
+        "note": "Full-resolution output visually checked; occluded and off-frame parts documented."
+      },
+      "submitted_same": true
+    },
+    "casual4": {
+      "accepted": true,
+      "observation": "1996 편의점 촬영 전시 곁 세이지 그린 베이비돌 슬립. 가슴 앞 두 손 모음. 배경 인물은 종이 사진.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "가는 얼굴 윤곽선과 부드러운 셀·그라데이션 음영. 최신 규칙의 clean 2D anime_gloss와 일치."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "맞잡은 손 둘의 손가락이 서로 일부 가려짐. 분리된 추가 손 없음. 양팔 연결.",
+        "overlay_checked": false,
+        "note": "Full-resolution output visually checked; occluded and off-frame parts documented."
+      },
+      "submitted_same": true
+    },
+    "casual5": {
+      "accepted": true,
+      "observation": "불꽃놀이 강변 난간에 걸터앉은 노랑 검정 크롭 니트+쇼츠 코스튬, 작은 날개 천. 장갑형 소매끝·부츠 장식은 기록.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "가는 얼굴 윤곽선과 부드러운 셀·그라데이션 음영. 최신 규칙의 clean 2D anime_gloss와 일치."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 받친 손은 일부 손가락 겹침. 두 팔·두 다리와 양발 연결 확인.",
+        "overlay_checked": false,
+        "note": "Full-resolution output visually checked; occluded and off-frame parts documented."
+      },
+      "submitted_same": true
+    },
+    "casual6": {
+      "accepted": true,
+      "observation": "카바나에서 아이스크림을 맛보는 얼굴 클로즈업. 실버 원숄더 웨딩 슬립.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "가는 얼굴 윤곽선과 부드러운 셀·그라데이션 음영. 최신 규칙의 clean 2D anime_gloss와 일치."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "콘을 잡은 손의 구부린 손가락 일부가 콘에 가려짐, 엄지 연결 확인. 반대 팔과 다리는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "Full-resolution output visually checked; occluded and off-frame parts documented."
+      },
+      "submitted_same": true
+    },
+    "casual7": {
+      "accepted": true,
+      "observation": "1996 사진부스, 핑크 스키 재킷·차콜 패딩 팬츠. 옆으로 의자에 앉아 턱 괴기.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "가는 얼굴 윤곽선과 부드러운 셀·그라데이션 음영. 최신 규칙의 clean 2D anime_gloss와 일치."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "탁자에서 내려진 손 다섯, 턱 받친 손은 일부 가림. 양팔·양다리 연결; 뒤쪽 신발 일부 가림.",
+        "overlay_checked": false,
+        "note": "Full-resolution output visually checked; occluded and off-frame parts documented."
+      },
+      "submitted_same": true
+    }
+  }
+}
