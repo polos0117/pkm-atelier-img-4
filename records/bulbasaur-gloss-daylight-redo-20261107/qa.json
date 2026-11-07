@@ -1,0 +1,368 @@
+{
+ "style": "gloss_daylight",
+ "tool": "built-in image_gen",
+ "model_id": "not exposed",
+ "size_setting": "not exposed; prompt and actual images 1024x1536",
+ "quality_setting": "not exposed",
+ "source_commit": "244558f1f856251b7e42c0cfc9b9c079fbe06e87",
+ "generator_changes": [
+  "slim waist",
+  "smooth hip-to-thigh line with gradual taper",
+  "about 7.5 heads tall; head proportional to body"
+ ],
+ "reference": "light without references; all seven casuals reference only regenerated light",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observation": "숲 유적의 전신 메카. 골반에서 허벅지로 완만하게 이어지고 무릎 쪽으로 좁아짐. 두 팔·두 다리 연결. 펴진 손의 긴 손가락 네 개와 부분 가려진 엄지, 반대 손은 느슨한 주먹이라 일부 손가락 겹침.",
+   "identity": "새 메카의 청록 단발·녹색 눈·둥근 얼굴·부드러운 골반선과 대조. 이전 버전의 적갈색 눈은 참조하지 않음.",
+   "style_25d": {
+    "판정": "2D as explicitly specified by gloss_daylight",
+    "근거": "색 윤곽, 큰 반짝이는 눈, 간결한 얼굴 음영과 매끈한 자연광 반사. 최신 화풍 문장 우선."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "숲 유적의 전신 메카. 골반에서 허벅지로 완만하게 이어지고 무릎 쪽으로 좁아짐. 두 팔·두 다리 연결. 펴진 손의 긴 손가락 네 개와 부분 가려진 엄지, 반대 손은 느슨한 주먹이라 일부 손가락 겹침.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 눈으로 확인. 가림·프레임 밖을 별도 기록."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "observation": "그물 관찰 은신처의 갈색 베이비돌. 머리 뒤 손은 가려짐, 바닥 받침 손 다섯 손가락. 두 다리 교차와 발 둘, 발가락 정상. 계획의 옆으로 눕기보다 상체를 세움은 허용 편차 기록.",
+   "identity": "새 메카의 청록 단발·녹색 눈·둥근 얼굴·부드러운 골반선과 대조. 이전 버전의 적갈색 눈은 참조하지 않음.",
+   "style_25d": {
+    "판정": "2D as explicitly specified by gloss_daylight",
+    "근거": "색 윤곽, 큰 반짝이는 눈, 간결한 얼굴 음영과 매끈한 자연광 반사. 최신 화풍 문장 우선."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "그물 관찰 은신처의 갈색 베이비돌. 머리 뒤 손은 가려짐, 바닥 받침 손 다섯 손가락. 두 다리 교차와 발 둘, 발가락 정상. 계획의 옆으로 눕기보다 상체를 세움은 허용 편차 기록.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 눈으로 확인. 가림·프레임 밖을 별도 기록."
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "observation": "바닷길의 노란 크로셰 비키니와 낚싯대. 한 손은 어깨 위 낚싯대를 쥐어 일부 가림, 내려놓은 손 다섯 손가락. 두 팔 연결, 다리 하단 프레임 밖.",
+   "identity": "새 메카의 청록 단발·녹색 눈·둥근 얼굴·부드러운 골반선과 대조. 이전 버전의 적갈색 눈은 참조하지 않음.",
+   "style_25d": {
+    "판정": "2D as explicitly specified by gloss_daylight",
+    "근거": "색 윤곽, 큰 반짝이는 눈, 간결한 얼굴 음영과 매끈한 자연광 반사. 최신 화풍 문장 우선."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "바닷길의 노란 크로셰 비키니와 낚싯대. 한 손은 어깨 위 낚싯대를 쥐어 일부 가림, 내려놓은 손 다섯 손가락. 두 팔 연결, 다리 하단 프레임 밖.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 눈으로 확인. 가림·프레임 밖을 별도 기록."
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "observation": "라벤더 오락실의 펑크 드레스 셀카. 보이는 손은 폰을 쥐어 손가락 일부 가림·프레임 밖. 반대 팔과 다리 클로즈업 밖. 녹색 눈과 짧고 둥근 얼굴 유지.",
+   "identity": "새 메카의 청록 단발·녹색 눈·둥근 얼굴·부드러운 골반선과 대조. 이전 버전의 적갈색 눈은 참조하지 않음.",
+   "style_25d": {
+    "판정": "2D as explicitly specified by gloss_daylight",
+    "근거": "색 윤곽, 큰 반짝이는 눈, 간결한 얼굴 음영과 매끈한 자연광 반사. 최신 화풍 문장 우선."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "라벤더 오락실의 펑크 드레스 셀카. 보이는 손은 폰을 쥐어 손가락 일부 가림·프레임 밖. 반대 팔과 다리 클로즈업 밖. 녹색 눈과 짧고 둥근 얼굴 유지.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 눈으로 확인. 가림·프레임 밖을 별도 기록."
+   }
+  },
+  "casual4": {
+   "accepted": true,
+   "observation": "붉은 해적 의상으로 찜질방 리허설 매트에 엎드림. 두 팔꿈치와 턱 받치는 손 둘 연결. 접힌 손가락 일부 가림. 두 다리 굽혀 부츠 둘이 교차.",
+   "identity": "새 메카의 청록 단발·녹색 눈·둥근 얼굴·부드러운 골반선과 대조. 이전 버전의 적갈색 눈은 참조하지 않음.",
+   "style_25d": {
+    "판정": "2D as explicitly specified by gloss_daylight",
+    "근거": "색 윤곽, 큰 반짝이는 눈, 간결한 얼굴 음영과 매끈한 자연광 반사. 최신 화풍 문장 우선."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "붉은 해적 의상으로 찜질방 리허설 매트에 엎드림. 두 팔꿈치와 턱 받치는 손 둘 연결. 접힌 손가락 일부 가림. 두 다리 굽혀 부츠 둘이 교차.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 눈으로 확인. 가림·프레임 밖을 별도 기록."
+   }
+  },
+  "casual5": {
+   "accepted": true,
+   "observation": "비 오는 현관의 검은 자수 크바야와 피카츄 한 마리. 한 손 허리 다섯 손가락, 다른 손 머리 옆에 엄지·손가락 곡선 자연스러움. 두 팔 연결. 다리 아래 프레임 밖.",
+   "identity": "새 메카의 청록 단발·녹색 눈·둥근 얼굴·부드러운 골반선과 대조. 이전 버전의 적갈색 눈은 참조하지 않음.",
+   "style_25d": {
+    "판정": "2D as explicitly specified by gloss_daylight",
+    "근거": "색 윤곽, 큰 반짝이는 눈, 간결한 얼굴 음영과 매끈한 자연광 반사. 최신 화풍 문장 우선."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "비 오는 현관의 검은 자수 크바야와 피카츄 한 마리. 한 손 허리 다섯 손가락, 다른 손 머리 옆에 엄지·손가락 곡선 자연스러움. 두 팔 연결. 다리 아래 프레임 밖.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 눈으로 확인. 가림·프레임 밖을 별도 기록."
+   }
+  },
+  "casual6": {
+   "accepted": true,
+   "observation": "별빛 무대에 엎드린 이상해씨 바디수트 코스튬. 두 팔은 전완까지 보이며 손과 다리 프레임 밖. 낮은 각도에서도 눈·턱 형태와 녹색 눈 유지. 원작 잎 장식은 코스튬에 남음.",
+   "identity": "새 메카의 청록 단발·녹색 눈·둥근 얼굴·부드러운 골반선과 대조. 이전 버전의 적갈색 눈은 참조하지 않음.",
+   "style_25d": {
+    "판정": "2D as explicitly specified by gloss_daylight",
+    "근거": "색 윤곽, 큰 반짝이는 눈, 간결한 얼굴 음영과 매끈한 자연광 반사. 최신 화풍 문장 우선."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "별빛 무대에 엎드린 이상해씨 바디수트 코스튬. 두 팔은 전완까지 보이며 손과 다리 프레임 밖. 낮은 각도에서도 눈·턱 형태와 녹색 눈 유지. 원작 잎 장식은 코스튬에 남음.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 눈으로 확인. 가림·프레임 밖을 별도 기록."
+   }
+  },
+  "casual7": {
+   "accepted": true,
+   "observation": "아침 트랙의 데님 멜빵 쇼츠와 네이비 상의. 쪼그린 두 무릎이 보이고 두 팔은 아래 프레임으로 이어짐. 손과 발은 프레임 밖. 얼굴·머리·눈 색 일관됨.",
+   "identity": "새 메카의 청록 단발·녹색 눈·둥근 얼굴·부드러운 골반선과 대조. 이전 버전의 적갈색 눈은 참조하지 않음.",
+   "style_25d": {
+    "판정": "2D as explicitly specified by gloss_daylight",
+    "근거": "색 윤곽, 큰 반짝이는 눈, 간결한 얼굴 음영과 매끈한 자연광 반사. 최신 화풍 문장 우선."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "아침 트랙의 데님 멜빵 쇼츠와 네이비 상의. 쪼그린 두 무릎이 보이고 두 팔은 아래 프레임으로 이어짐. 손과 발은 프레임 밖. 얼굴·머리·눈 색 일관됨.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 눈으로 확인. 가림·프레임 밖을 별도 기록."
+   }
+  }
+ },
+ "casual_look": {
+  "crowd_below": 245,
+  "cuts": [
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual1.webp",
+    "near": [
+     [
+      "개무소_glossy_promo_f_casual1.webp",
+      296
+     ],
+     [
+      "루카리오_glossy_promo_f_casual3.webp",
+      307
+     ],
+     [
+      "엑스레그_glossy_promo_f_casual1.webp",
+      314
+     ],
+     [
+      "루기아_glossy_promo_f_casual1.webp",
+      318
+     ],
+     [
+      "롱스톤_glossy_promo_f_casual2.webp",
+      321
+     ]
+    ],
+    "same_as_own": []
+   },
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual2.webp",
+    "near": [
+     [
+      "암스타_glossy_promo_f_casual2.webp",
+      248
+     ],
+     [
+      "가재군_glossy_promo_f_casual2.webp",
+      261
+     ],
+     [
+      "킹크랩_glossy_promo_f_casual3.webp",
+      273
+     ],
+     [
+      "주리비얀_glossy_promo_f_casual2.webp",
+      275
+     ],
+     [
+      "루카리오_glossy_promo_f_casual3.webp",
+      276
+     ]
+    ],
+    "same_as_own": []
+   },
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual3.webp",
+    "near": [
+     [
+      "꾸왁스_glossy_promo_f_casual1.webp",
+      332
+     ],
+     [
+      "아보_anime_gloss_f_casual5.webp",
+      342
+     ],
+     [
+      "투구뿌논_glossy_promo_f_casual1.webp",
+      342
+     ],
+     [
+      "이상해꽃_anime_gloss_f_casual2.webp",
+      343
+     ],
+     [
+      "푸크린_glossy_promo_f_casual2.webp",
+      345
+     ]
+    ],
+    "same_as_own": []
+   },
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual4.webp",
+    "near": [
+     [
+      "너트령_glossy_promo_f_casual3.webp",
+      297
+     ],
+     [
+      "히드런_glossy_promo_f_casual3.webp",
+      301
+     ],
+     [
+      "크리만_glossy_promo_f_casual1.webp",
+      310
+     ],
+     [
+      "비퀸_glossy_promo_f_casual3.webp",
+      326
+     ],
+     [
+      "식스테일_glossy_promo_f_casual1.webp",
+      326
+     ]
+    ],
+    "same_as_own": []
+   },
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual5.webp",
+    "near": [
+     [
+      "마나피_glossy_promo_f_casual2.webp",
+      301
+     ],
+     [
+      "두코_glossy_promo_f_casual1.webp",
+      312
+     ],
+     [
+      "앱솔_glossy_promo_f_casual3.webp",
+      312
+     ],
+     [
+      "점토도리_glossy_promo_f_casual1.webp",
+      312
+     ],
+     [
+      "토게피_glossy_promo_f_casual1.webp",
+      314
+     ]
+    ],
+    "same_as_own": []
+   },
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual6.webp",
+    "near": [
+     [
+      "니드런♀_glossy_promo_f_casual3.webp",
+      308
+     ],
+     [
+      "뽀뽀라_glossy_promo_f_casual1.webp",
+      331
+     ],
+     [
+      "플러시_glossy_promo_f_casual2.webp",
+      332
+     ],
+     [
+      "아노딥스_glossy_promo_f_casual3.webp",
+      333
+     ],
+     [
+      "블레이범_glossy_promo_f_casual2.webp",
+      335
+     ]
+    ],
+    "same_as_own": []
+   },
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual7.webp",
+    "near": [
+     [
+      "두빅굴_glossy_promo_f_casual3.webp",
+      319
+     ],
+     [
+      "조로아크_glossy_promo_f_casual1.webp",
+      324
+     ],
+     [
+      "아보_anime_gloss_f_casual2.webp",
+      331
+     ],
+     [
+      "절각참_glossy_promo_f_casual1.webp",
+      333
+     ],
+     [
+      "레트라_anime_gloss_f_casual5.webp",
+      334
+     ]
+    ],
+    "same_as_own": []
+   }
+  ],
+  "dup_below": 215,
+  "ok": true
+ },
+ "blocked_attempts": [
+  {
+   "slot": "casual2",
+   "reason": "output moderation_blocked sexual",
+   "request_id": "ff86ba3d-916d-48cd-8f67-e93d745b1b8f",
+   "outcome": "no output; planner changed place, swimsuit and prop action; rejected prompt/UI preserved"
+  }
+ ],
+ "diversity": {
+  "result": "pass",
+  "observed": "야생 은신처·바닷가 낚시·펑크 셀카·해적 리허설·크바야 현관·별빛 코스튬·데님 트랙. 의상·장소·프레임 구분됨.",
+  "comparison": "최근 10명 선택값·유효 예약 sparse metadata와 전체 등록 생김새 색인 검사. 다른 캐릭터 전체 이미지는 다운로드하지 않음."
+ }
+}
