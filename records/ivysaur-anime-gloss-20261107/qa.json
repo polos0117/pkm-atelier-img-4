@@ -1,0 +1,148 @@
+{
+  "card": "이상해풀",
+  "style": "anime_gloss",
+  "rule_set": "2026-11-07 light + seven casuals",
+  "overall": "accepted with documented visual deviations",
+  "anatomy_tool": "unavailable: mediapipe not installed; exit 3; visual inspection and enlarged hand/foot review completed",
+  "style_note": "Current user-approved anime_gloss is explicitly clean 2D; legacy 2.5D rejection gate does not apply to the requested new style.",
+  "similarity": "tools/casual-look.cjs passed: all seven no duplicates, own-pair check passed",
+  "comparison_note": "Only task assets downloaded. Other-character comparisons used the repository visual index; no claim of manually viewing other-character originals.",
+  "slots": {
+    "light": {
+      "observation": "전신·머리와 발 여백, 분홍 꽃봉오리 망토·잎 장갑·긴 판 코트가 보인다. 청록빛 머리, 분홍 눈, 선명한 2D 선과 단계형 음영.",
+      "style_25d": {
+        "verdict": "2D as requested",
+        "evidence": "Thin illustrated outlines and airy cel-to-gradient facial shading; no realistic skin texture."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 연결 정상. 열린 손은 엄지와 네 손가락, 내려 둔 손은 느슨한 주먹으로 일부 가림.",
+        "overlay_checked": false,
+        "enlarged_visual_review": true
+      },
+      "submitted_same": true,
+      "submitted_sha256": "8f8c7d4570185961e129014d92c1d6727bc6e1c91d231d954141a1a071da8b7f"
+    },
+    "casual1": {
+      "observation": "현관과 공구 가방, 녹슨 주황색 홀터와 크림 오버롤. 활짝 웃으며 입가에 손가락. 계획보다 가슴까지 넓게 잡힌 크롭은 기록만 한다.",
+      "style_25d": {
+        "verdict": "2D as requested",
+        "evidence": "Thin illustrated outlines and airy cel-to-gradient facial shading; no realistic skin texture."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "cropped",
+        "hands": "입가의 손에 편 검지와 굽힌 손가락, 엄지는 안쪽 일부 가림. 반대 손과 하체는 프레임 밖.",
+        "overlay_checked": false,
+        "enlarged_visual_review": true
+      },
+      "submitted_same": true,
+      "submitted_sha256": "0f2802ebada5befd018fc98b9eae94ac6ac7e62852c7a69974b76482aaf3e930"
+    },
+    "casual2": {
+      "observation": "베이커리의 오븐·빵, 아이보리 자수 부부와 머리싸개, 뒤돌아 윙크하며 목 수건을 잡는다. 옷 실루엣은 계획의 넓은 로브보다 몸에 붙게 생성됨.",
+      "style_25d": {
+        "verdict": "2D as requested",
+        "evidence": "Thin illustrated outlines and airy cel-to-gradient facial shading; no realistic skin texture."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "수건 쥔 손은 네 손가락과 반대쪽 엄지 일부 가림, 아래 손은 엄지와 네 손가락의 자연스러운 겹침.",
+        "overlay_checked": false,
+        "enlarged_visual_review": true
+      },
+      "submitted_same": true,
+      "submitted_sha256": "42fa20f8817e828c9e235931b96449e673d57f83824002d0f352d9f2216e4178"
+    },
+    "casual3": {
+      "observation": "갈라장에서 접부채를 들고 의자에 앉은 이상해풀 코스튬. 크롭 상의·짧은 스커트는 읽힌다. 기준의 장갑·꽃봉오리 망토·부츠가 코스튬에 남은 편차를 기록한다.",
+      "style_25d": {
+        "verdict": "2D as requested",
+        "evidence": "Thin illustrated outlines and airy cel-to-gradient facial shading; no realistic skin texture."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "부채 손은 쥔 엄지 일부 가림, 네 손가락 연결. 무릎 위 손은 네 손가락과 옆 엄지가 보인다.",
+        "overlay_checked": false,
+        "enlarged_visual_review": true
+      },
+      "submitted_same": true,
+      "submitted_sha256": "2c1bfc0838f8ff2c63a3f6ede36c079d7aec8709ab8a2a89e24f2cf6c24d070e"
+    },
+    "casual4": {
+      "observation": "사진 부스의 링 조명과 자주색 벨벳 세트, 정면으로 두 손을 맞잡는다. 뒤 노출은 전면 구도로 확인 불가.",
+      "style_25d": {
+        "verdict": "2D as requested",
+        "evidence": "Thin illustrated outlines and airy cel-to-gradient facial shading; no realistic skin texture."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "cropped",
+        "hands": "양 손목과 아래팔이 연결되고 손가락은 맞잡아 겹친다. 모든 손가락을 독립적으로 셀 수 없어 가림으로 기록.",
+        "overlay_checked": false,
+        "enlarged_visual_review": true
+      },
+      "submitted_same": true,
+      "submitted_sha256": "dd0d4d66a1a4a11e9d894ed7e991d0556b92debcf8eb16a82bc4623b176cab8f"
+    },
+    "casual5": {
+      "observation": "1996년 분위기의 라디오가 있는 야간 옥상 풀 파티. 산호색 반두 비키니, 뒤 3/4 앉은 구도와 풀 가장자리, 두 발이 보인다.",
+      "style_25d": {
+        "verdict": "2D as requested",
+        "evidence": "Thin illustrated outlines and airy cel-to-gradient facial shading; no realistic skin texture."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손이 테두리를 짚고 손가락 일부는 테두리에 가림. 두 발가락은 원근·겹침 있음; 추가 손발이나 분리된 관절 없음.",
+        "overlay_checked": false,
+        "enlarged_visual_review": true
+      },
+      "submitted_same": true,
+      "submitted_sha256": "2a5a8bb1bfc6e778088d7fe92152bd3f9c6bdf0f2ed33acab0e22d65fb10290c"
+    },
+    "casual6": {
+      "observation": "역 플랫폼 테마의 흰색·적색 행사 유니폼. 한 손은 허리, 다른 손은 머리카락을 넘김. 어깨·옆 허리·허벅지 노출, 눈을 감고 웃음.",
+      "style_25d": {
+        "verdict": "2D as requested",
+        "evidence": "Thin illustrated outlines and airy cel-to-gradient facial shading; no realistic skin texture."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "허리 손은 다섯 손가락, 머리 손은 머리카락 때문에 일부 가림. 양팔 연결 정상.",
+        "overlay_checked": false,
+        "enlarged_visual_review": true
+      },
+      "submitted_same": true,
+      "submitted_sha256": "e327e3d570f5486945c993a40ed62ae76a2ffd11350764169f10bd29e2602fbc"
+    },
+    "casual7": {
+      "observation": "스타디움 배경에서 볼에 손을 대고 찡그린 표정. 보라색 엘프 의상과 귀 장식·반망토. 얼굴 클로즈업보다 상체까지 넓게 잡힌 편차를 기록한다.",
+      "style_25d": {
+        "verdict": "2D as requested",
+        "evidence": "Thin illustrated outlines and airy cel-to-gradient facial shading; no realistic skin texture."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "cropped",
+        "hands": "볼의 손은 세 손가락 끝이 보이며 나머지는 머리·손에 가림. 반대 손과 하체는 프레임 밖.",
+        "overlay_checked": false,
+        "enlarged_visual_review": true
+      },
+      "submitted_same": true,
+      "submitted_sha256": "6248ea3d89d81c6242685965e2b504ee0c309e0c6f8c9a8bf4e3c108008c77a5"
+    }
+  }
+}

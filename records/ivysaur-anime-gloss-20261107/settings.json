@@ -1,0 +1,500 @@
+{
+  "version": 2,
+  "card": "이상해풀",
+  "no": 2,
+  "style": "anime_gloss",
+  "plan": "/workspace/scratch/9ba3cb76389b/ivysaur-final/plan.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "long_coat_plate"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "poison"
+          },
+          {
+            "key": "seams",
+            "type": "grass"
+          },
+          {
+            "key": "trail",
+            "type": "poison"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "long_coat_plate"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "poison"
+          },
+          {
+            "key": "seams",
+            "type": "grass"
+          },
+          {
+            "key": "trail",
+            "type": "poison"
+          }
+        ]
+      },
+      "mecha_recent": [],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "Returning from her workshop, she has left a small tool pouch on the shoe bench.",
+      "outfit": "Cream short overalls with one shoulder strap released over a rust-coloured halter tank, leaving the shoulders and upper back bare.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "선택된 overalls와 tank를 유지하며 one-shoulder·halter 노출 방식과 직업복의 색을 구체화한다.",
+        "scene": "현관 선택지에는 출근·귀가 맥락과 작업 도구가 없어 귀가와 공구 파우치만 보충한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / home_entry / work / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "home_entry",
+            "ko": "현관",
+            "en": "the entryway of her home with a shoe bench, coat hooks and a long mirror"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "work",
+            "ko": "직업복",
+            "en": "practical clothing for her Pokémon-world job, readable through its tools",
+            "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "shush · out"
+        },
+        "garments": [
+          "overalls",
+          "tank"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "halter neck"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual2": {
+      "scene": "A terracotta bowl of cooling bread rests beside the flour-dusted worktable.",
+      "outfit": "A flowing ivory West African boubou with copper embroidery and a matching head wrap, styled with a securely fitted strapless neckline and a high thigh slit in its floor-length drape.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "부부의 바닥 길이와 자수를 유지하며 계획의 strapless·high thigh slit을 구체화한다.",
+        "scene": "베이커리의 기본 설명에 없는 빵과 테라코타 그릇을 추가한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / bakery_kitchen / traditional / boubou_flow / walk / three_quarter / towel_neck",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "bakery_kitchen",
+            "ko": "베이커리 작업실",
+            "en": "a small bakery workroom with a floury wooden worktable and warm ovens"
+          },
+          "role": null,
+          "use": {
+            "key": "towel_neck",
+            "ko": "목에 건 수건 끝을 잡는다",
+            "en": "holds one end of a towel hung around her neck",
+            "prop": "수건"
+          },
+          "ofam": {
+            "key": "traditional",
+            "ko": "전통 의상",
+            "en": "a traditional dress that suits her, worn naturally",
+            "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+          },
+          "item": {
+            "key": "boubou_flow",
+            "ko": "부부",
+            "en": "a flowing West African boubou — a wide floor-length embroidered robe with a matching head wrap"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "prop · down"
+        },
+        "garments": [
+          "robe"
+        ],
+        "expose": [
+          "high thigh slit",
+          "strapless top"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual3": {
+      "scene": "Tall ivory candles reflect in polished dark-wood banquet tables with burgundy velvet chairs.",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "갈라장 기본 문장에 없는 테이블·의자의 재질을 보충한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_gala / pokemon_costume / pc_crop_set / sit_chair / environmental / fan_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_gala",
+            "ko": "갈라 만찬장",
+            "en": "a candlelit gala dinner hall"
+          },
+          "role": null,
+          "use": {
+            "key": "fan_hold",
+            "ko": "부채를 든다",
+            "en": "holds a folding fan open near her chest",
+            "prop": "접부채"
+          },
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_crop_set",
+            "ko": "크롭 투피스형",
+            "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · lap"
+        },
+        "garments": [
+          "crop_top",
+          "skirt"
+        ],
+        "expose": [
+          "mini length",
+          "cropped hem"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual4": {
+      "scene": "Warm pink light from the booth curtains mixes with the cool white ring lights.",
+      "outfit": "A deep plum velvet bralette with an open back and matching opaque high-waisted bottoms, leaving her midriff bare.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "벨벳 세트의 색과 open back·bare midriff 구조를 보충한다.",
+        "scene": "사진 부스의 링 조명과 대비하는 커튼의 반사광을 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / arcade_photo / lingerie / velvet_set / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "arcade_photo",
+            "ko": "스티커 사진기",
+            "en": "an arcade photo-sticker booth under bright ring lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "velvet_set",
+            "ko": "벨벳 세트",
+            "en": "a deep-coloured velvet bralette and high-waisted bottoms"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "clasp_both · clasp_both"
+        },
+        "garments": [
+          "crop_top"
+        ],
+        "expose": [
+          "open back",
+          "bare midriff"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual5": {
+      "scene": "The rooftop party surrounds a small plunge pool beside a low tiled seating edge; warm string lights reflect on the water.",
+      "outfit": "A fully lined coral bandeau bikini with a straight strapless top and high-cut bottoms, leaving the shoulders and midriff bare.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "반두의 직선 목선은 선택된 옷의 정의를 유지한다. high-cut을 적용하고 반두와 양립하지 않는 plunging neckline 대신 이미 드러나는 어깨와 복부를 명시한다.",
+        "scene": "옥상 파티와 수영복에 맞는 작은 풀장과 낮은 앉는 테두리를 보충한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / night_rooftop / swimwear / bandeau_bikini / sit_edge / environmental",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "night_rooftop",
+            "ko": "옥상 파티",
+            "en": "a city rooftop party under string lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "bandeau_bikini",
+            "ko": "반두 비키니",
+            "en": "a bandeau bikini with a straight strapless top"
+          },
+          "posture": {
+            "key": "sit_edge",
+            "ko": "가장자리에 걸터앉기",
+            "en": "perched on a ledge or edge"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "bikini",
+          "crop_top"
+        ],
+        "expose": [
+          "high-cut leg",
+          "plunging neckline"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual6": {
+      "scene": "Late-afternoon light reaches a station platform dressed as the set of a transport-themed costume photo event.",
+      "outfit": "A white and scarlet uniform-inspired event mini dress with crisp decorative lapels, epaulettes, an off-shoulder neckline and fitted side waist cutouts.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "선택된 유니폼풍의 라펠과 견장을 유지하며 노출 구조와 행사 의상의 색을 구체화한다.",
+        "scene": "실제 직장복이 아닌 역할극이 되도록 기존 역 공간에서 교통 테마 촬영 행사를 설정한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / street_station / roleplay / uniform_inspired / stand / three_quarter",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "street_station",
+            "ko": "역·전철",
+            "en": "a city station platform or the inside of a commuter train"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "uniform_inspired",
+            "ko": "유니폼풍",
+            "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "hip · hair_tuck"
+        },
+        "garments": [
+          "uniform"
+        ],
+        "expose": [
+          "side cutouts",
+          "off-shoulder neckline"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual7": {
+      "scene": "A small gold ticket clasp catches the stadium daylight against the half-cape.",
+      "outfit": "A mauve one-shoulder elf costume dress with leaf edging and a high thigh slit, a short hooded half-cape and costume pointed ear tips.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "엘프 옷의 짧은 드레스·반망토·귀 장식을 유지하며 계획의 one-shoulder와 slit을 반영한다.",
+        "scene": "스타디움의 세부 소품으로 작은 티켓 고정 장식을 보충한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / pw_stadium / costume / elf_costume / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "pw_stadium",
+            "ko": "배틀 스타디움",
+            "en": "the stands of an open-air Pokémon battle stadium above a marked battle court"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "costume",
+            "ko": "무대·판타지 의상",
+            "en": "a stage or fantasy costume"
+          },
+          "item": {
+            "key": "elf_costume",
+            "ko": "엘프",
+            "en": "an elf costume — a leaf-trimmed short dress, a hooded half-cape and pointed ear tips"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "cheek · out"
+        },
+        "garments": [
+          "coat",
+          "dress"
+        ],
+        "expose": [
+          "high thigh slit",
+          "one-shoulder cut"
+        ],
+        "lead": "detail"
+      }
+    }
+  }
+}
