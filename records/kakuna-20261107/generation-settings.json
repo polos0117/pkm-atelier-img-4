@@ -1,0 +1,15 @@
+{
+ "tool": "image_gen.imagegen",
+ "model_id": "not exposed",
+ "size_parameter": "not exposed; 1024x1536 specified in prompt and verified in all returned images",
+ "quality_parameter": "not exposed",
+ "transparent_background": false,
+ "reference_images": {
+  "light": [],
+  "casual1-7": [
+   "light PNG, SHA256 recorded per slot"
+  ]
+ },
+ "prompt_delivery": "exact file strings; submitted checks passed",
+ "publication_method": "GitHub connector fast-forward update; terminal has no write credentials"
+}

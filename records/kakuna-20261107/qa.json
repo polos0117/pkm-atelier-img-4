@@ -1,0 +1,231 @@
+{
+ "reviewer": "gpt",
+ "card": "딱충이",
+ "style": "anime_gloss",
+ "style_basis": "Latest 2026-11-07 rule selects 2D anime_gloss. Legacy 2.5D style requirement superseded for new style set.",
+ "compared_characters": [
+  "가디",
+  "리자몽",
+  "뿔충이",
+  "캐터피"
+ ],
+ "comparison": "Actual thumbnail images inspected. Growlithe has wavy long hair; Charizard orange curls; Weedle brown ponytail; Caterpie green bob. New character face/hair and scene silhouettes compared visually.",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observations": "Gold segmented-tail mecha; blonde ponytail, amber eyes, pointed chin. Full body with two arms and legs. Five fingers on raised hand; curled glove fingers overlap naturally. Tail is clearly armored costume equipment.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Gold segmented-tail mecha; blonde ponytail, amber eyes, pointed chin. Full body with two arms and legs. Five fingers on raised hand; curled glove fingers overlap naturally. Tail is clearly armored costume equipment.",
+    "overlay_checked": false
+   },
+   "slot": "light",
+   "card": "딱충이",
+   "style": "anime_gloss",
+   "file": "딱충이_light_anime_gloss_f.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "8e79889524dcb67d5fb8c0f1d8954f8bed404aad2b792e714ec5c3f2cb0fb57a",
+   "original_sha256": "1d79a3e5ed79f6eb3ae44dc28087046c9442b8362a563ee3825c83d47cca0f0e",
+   "reference_sha256": null,
+   "submitted_sha256": "92d99161d1ed0910e6b8384d49b8827ee0a8a9b32d1124bee7e3179b16be128d",
+   "submitted_same": true
+  },
+  "casual1": {
+   "accepted": true,
+   "observations": "Teal off-shoulder activewear in berry orchard. Waving hand five fingers, chest-resting hand five fingers with natural overlap. Two connected arms; lower body outside chest crop. Small original hair jewelry remains.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Teal off-shoulder activewear in berry orchard. Waving hand five fingers, chest-resting hand five fingers with natural overlap. Two connected arms; lower body outside chest crop. Small original hair jewelry remains.",
+    "overlay_checked": false
+   },
+   "slot": "casual1",
+   "card": "딱충이",
+   "style": "anime_gloss",
+   "file": "딱충이_anime_gloss_f_casual1.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "f63633878d3a18e4fe994eb1116ce6d38c78af27045f39811bc2f8a72a8e0f1c",
+   "original_sha256": "bf47930a21723be977807e3073b3e01d9d3af47c6bd08f9debdd5d1a750cf796",
+   "reference_sha256": "1d79a3e5ed79f6eb3ae44dc28087046c9442b8362a563ee3825c83d47cca0f0e",
+   "submitted_sha256": "056b2b519c2d014f236ad834092258eb98f9e16b6f8d7c5a2663836c51f9b55e",
+   "submitted_same": true
+  },
+  "casual2": {
+   "accepted": true,
+   "observations": "Dusty-rose short robe in spa, seated holding book and winking. Two legs and feet visible; toes read as five per foot. Book grip hides several fingers; resting hand five visible fingers. Closer framing than environmental setting is noted.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Dusty-rose short robe in spa, seated holding book and winking. Two legs and feet visible; toes read as five per foot. Book grip hides several fingers; resting hand five visible fingers. Closer framing than environmental setting is noted.",
+    "overlay_checked": false
+   },
+   "slot": "casual2",
+   "card": "딱충이",
+   "style": "anime_gloss",
+   "file": "딱충이_anime_gloss_f_casual2.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "da2dd3d8925c55fe4bb2c85016631df311bd1644d61b3ac4bcb57b2ace954e65",
+   "original_sha256": "1df4a2a8b1d5b3884acd324308db8796d6da2406d0e00ea22d7381d8085fbb13",
+   "reference_sha256": "1d79a3e5ed79f6eb3ae44dc28087046c9442b8362a563ee3825c83d47cca0f0e",
+   "submitted_sha256": "b91c6dba1646f8940b90b2cc1b3aed5cf100f8decf89b2acf2cdf32f6f0307cf",
+   "submitted_same": true
+  },
+  "casual3": {
+   "accepted": true,
+   "observations": "Gold cropped costume and skirt on lavender studio background; clasped hands naturally overlap fingers. Both wrists connect to corresponding arms. Triangular head ornament is more ear-like than cocoon silhouette; costume color and plated ridges remain recognizable. Open-mouth smile stronger than mild expression instruction.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Gold cropped costume and skirt on lavender studio background; clasped hands naturally overlap fingers. Both wrists connect to corresponding arms. Triangular head ornament is more ear-like than cocoon silhouette; costume color and plated ridges remain recognizable. Open-mouth smile stronger than mild expression instruction.",
+    "overlay_checked": false
+   },
+   "slot": "casual3",
+   "card": "딱충이",
+   "style": "anime_gloss",
+   "file": "딱충이_anime_gloss_f_casual3.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "f0a224876689a5ac01b923f723324f4c543bff271a3c99659b36dbe70b551edd",
+   "original_sha256": "55a9b750538bf7bca3830328604ab2b10ac2c92391cd51fad7a82f192f6cadcb",
+   "reference_sha256": "1d79a3e5ed79f6eb3ae44dc28087046c9442b8362a563ee3825c83d47cca0f0e",
+   "submitted_sha256": "014c758831ccce1c6d257e95c1017767728e48882d35122ebd01bc399158eceb",
+   "submitted_same": true
+  },
+  "casual4": {
+   "accepted": true,
+   "observations": "Denim overalls and ivory strapless tank, warm mug in both hands at campsite. Four fingers on each near side, thumbs hidden around mug. Face and hairstyle consistent; lower body outside chest crop.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Denim overalls and ivory strapless tank, warm mug in both hands at campsite. Four fingers on each near side, thumbs hidden around mug. Face and hairstyle consistent; lower body outside chest crop.",
+    "overlay_checked": false
+   },
+   "slot": "casual4",
+   "card": "딱충이",
+   "style": "anime_gloss",
+   "file": "딱충이_anime_gloss_f_casual4.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "2be8ece85e5ecd97174165d8d5d546494a36c77dd31625420073aba3191c64f3",
+   "original_sha256": "23f8e5717b8b5d3008f5b05f1d42597a98088532d7e53f3ce0a768385f84c9de",
+   "reference_sha256": "1d79a3e5ed79f6eb3ae44dc28087046c9442b8362a563ee3825c83d47cca0f0e",
+   "submitted_sha256": "c61a27a4e63f69e90ab050d74ac4e076c027cba3670f6b4da29dead03abf2819",
+   "submitted_same": true
+  },
+  "casual5": {
+   "accepted": true,
+   "observations": "Ivory satin slip on grooming mat with exactly one small Weedle. Side-folded legs with two connected feet. Two palms resting on mat, each with five digits visible or partly overlapping. Thigh and shoulder coverage match chosen fashion; neckline differs slightly.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Ivory satin slip on grooming mat with exactly one small Weedle. Side-folded legs with two connected feet. Two palms resting on mat, each with five digits visible or partly overlapping. Thigh and shoulder coverage match chosen fashion; neckline differs slightly.",
+    "overlay_checked": false
+   },
+   "slot": "casual5",
+   "card": "딱충이",
+   "style": "anime_gloss",
+   "file": "딱충이_anime_gloss_f_casual5.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "46e1b3fe5fba2e021671bd22bedc37109232f94f2b53c6318f8dba03c6c72fca",
+   "original_sha256": "a4945e34d53b308103a424b932378f64292271b05bf40fd2e5179c056cc258b6",
+   "reference_sha256": "1d79a3e5ed79f6eb3ae44dc28087046c9442b8362a563ee3825c83d47cca0f0e",
+   "submitted_sha256": "269f546288e9becb7d1200a0917e6bf05f52c7737201d2d0cc66125e12ca4b2f",
+   "submitted_same": true
+  },
+  "casual6": {
+   "accepted": true,
+   "observations": "Cobalt ring bikini at reed-lined wooden lookout. Side-reclining pose interpreted as partly propped/seated. One hand near cheek has curled overlapping digits; other rests on thigh with thumb partly hidden. Two connected arms and legs; lower legs outside crop. Body angle more frontal than selected rear-three-quarter, recorded as allowed pose deviation.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Cobalt ring bikini at reed-lined wooden lookout. Side-reclining pose interpreted as partly propped/seated. One hand near cheek has curled overlapping digits; other rests on thigh with thumb partly hidden. Two connected arms and legs; lower legs outside crop. Body angle more frontal than selected rear-three-quarter, recorded as allowed pose deviation.",
+    "overlay_checked": false
+   },
+   "slot": "casual6",
+   "card": "딱충이",
+   "style": "anime_gloss",
+   "file": "딱충이_anime_gloss_f_casual6.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "8016e34267f4806431b97c1c3eff6bfed3836fc8d1d6cfd3ef7bb78aae4b68b5",
+   "original_sha256": "e89f57608492aad84ddaaf4ed54d8185afcc839c167b0b9e505e5ce7c8926826",
+   "reference_sha256": "1d79a3e5ed79f6eb3ae44dc28087046c9442b8362a563ee3825c83d47cca0f0e",
+   "submitted_sha256": "10cfa2b29082a503a5e9e20a759bb549260ef45648c35af09f775dfbfe4bd300",
+   "submitted_same": true
+  },
+  "casual7": {
+   "accepted": true,
+   "observations": "Night taxi costume-party return, cropped uniform with lapels and epaulettes, shorts and stockings. Two legs and shoes visible. One hand by chin and one on knee, curled fingers naturally overlap. Profile face with same amber eye and ponytail; no second person.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Night taxi costume-party return, cropped uniform with lapels and epaulettes, shorts and stockings. Two legs and shoes visible. One hand by chin and one on knee, curled fingers naturally overlap. Profile face with same amber eye and ponytail; no second person.",
+    "overlay_checked": false
+   },
+   "slot": "casual7",
+   "card": "딱충이",
+   "style": "anime_gloss",
+   "file": "딱충이_anime_gloss_f_casual7.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "0b3a737008fccddda75de5e97aafbd1831aacdaae0d8eae51c928f95f6989edd",
+   "original_sha256": "9474dd1c5049420da6384f1f61bf960ec99666420165e3eed180f4bbf619b83a",
+   "reference_sha256": "1d79a3e5ed79f6eb3ae44dc28087046c9442b8362a563ee3825c83d47cca0f0e",
+   "submitted_sha256": "b08af32dda585a989a93e099d6f4cdfd67525da1d053c419b1b740b516ae0621",
+   "submitted_same": true
+  }
+ }
+}
