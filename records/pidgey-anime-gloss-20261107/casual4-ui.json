@@ -1,0 +1,153 @@
+{
+ "storage": {
+  "last": "구구",
+  "cards": {
+   "구구": {
+    "style": "anime_gloss",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "soft_smile",
+      "scene": "Warm reflections from the shop windows shimmer across a broad dry wooden platform above the wet alley paving.",
+      "outfit": "The costume bodysuit has a strapless neckline and high-cut leg openings, with fine sheer thigh-high tights.",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "ofam": true,
+       "item": true,
+       "posture": true,
+       "support": true,
+       "frame": true,
+       "body": true,
+       "head": true,
+       "camera": true,
+       "right": true,
+       "left": true,
+       "legs": true,
+       "gaze": true,
+       "expr": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "street_alley",
+      "ofam": "pokemon_costume",
+      "item": "pc_bodysuit",
+      "posture": "lie_front",
+      "support": "front_floor",
+      "frame": "full_body",
+      "body": "front",
+      "head": "with_body",
+      "camera": "low",
+      "right": "chin_both",
+      "left": "chin_both",
+      "legs": "feet_up",
+      "gaze": "camera",
+      "preset": "lie_front_full",
+      "use": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Pidgey (구구) personified, normal / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nSTYLE: keep the attached image's rendering exactly — the same finish, skin rendering, line weight, colour palette, saturation and lighting quality. Do not restyle her: no more realistic, no more painterly, no more 2D than the attached image. Only the outfit, pose, expression, framing and place change.\n\nOUTPUT: one standalone off-duty scene of her wearing the costume chosen in SCENE — a daring adult costume version of her source creature, as worn to a costume party, convention or photo shoot. In this cut her species shows in the outfit itself: its recognisable colours, shapes and parts. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a narrow city alley with hanging signboards and wet pavement\nOutfit: The costume bodysuit has a strapless neckline and high-cut leg openings, with fine sheer thigh-high tights.\nPOSTURE: lying on her front.\nSUPPORT: she lies on her front, propped on her forearms.\nCOMPOSITION: a full-body shot, her complete head, hands and feet inside the frame with restrained margins; body facing the camera; camera slightly below, looking up at her.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nBOTH HANDS: both hands cup her chin, her forearms propped beneath her.\nLEGS: lower legs raised behind her, ankles loosely crossed.\nGAZE: she looks into the camera.\nEXPRESSION: faint upward pull at the mouth corners, lips together, warmth reaching the lower eyelids. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\nScene note: Warm reflections from the shop windows shimmer across a broad dry wooden platform above the wet alley paving.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely into the costume SCENE describes. From the attached image take only her face, hair and body — not its armor, garment, jewelry, hair ornaments or background. The costume must read at first glance as that creature's look, rebuilt as a glamorous adult outfit; she is a real woman in a costume — never the creature itself, its face on her face, fur or scales on her skin, a logo or readable text.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "plan": {
+  "cut": 4,
+  "treeV": 2,
+  "era": "now",
+  "place": "street_alley",
+  "ofam": "pokemon_costume",
+  "item": "pc_bodysuit",
+  "garments": [
+   "bodysuit",
+   "leggings"
+  ],
+  "weather": "",
+  "posture": "lie_front",
+  "support": "front_floor",
+  "frame": "full_body",
+  "body": "front",
+  "head": "with_body",
+  "camera": "low",
+  "right": "chin_both",
+  "left": "chin_both",
+  "use": "",
+  "legs": "feet_up",
+  "gaze": "camera",
+  "preset": "lie_front_full",
+  "expr": "soft_smile",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly posed",
+   "source_influence": "subtle",
+   "separates_preference": "prefer separates"
+  },
+  "expose": [
+   "strapless top",
+   "mini length"
+  ],
+  "lead": "light"
+ },
+ "manual_inputs": {
+  "scene": "Warm reflections from the shop windows shimmer across a broad dry wooden platform above the wet alley paving.",
+  "outfit": "The costume bodysuit has a strapless neckline and high-cut leg openings, with fine sheer thigh-high tights."
+ },
+ "manual_why": {
+  "scene": "젖은 골목에서 엎드릴 수 있는 마른 받침만 보충한다.",
+  "outfit": "원작 코스튬 바디수트의 목선과 다리선을 구체화하며 색·모티프는 생성기가 정한다."
+ }
+}

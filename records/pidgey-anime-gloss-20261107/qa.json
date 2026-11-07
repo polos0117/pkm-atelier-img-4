@@ -1,0 +1,265 @@
+{
+  "card": "구구",
+  "style": "anime_gloss",
+  "requested": 8,
+  "generated": 8,
+  "accepted": 8,
+  "anatomy_tool": "unavailable: mediapipe is not installed; tools/anatomy-check.py exit 3",
+  "visual_review": "원본 전체와 손 확대 및 8장 비교 시트를 검수함. 가려진 손가락과 프레임 밖 부위는 관찰하지 않은 것으로 구분함.",
+  "casual_look": {
+    "result": "pass",
+    "threshold": 245,
+    "all_seven_clear": true
+  },
+  "comparison": {
+    "characters": [
+      "뿔충이",
+      "어니부기",
+      "이상해꽃"
+    ],
+    "images": "각 캐릭터 anime_gloss 일상컷 1~7의 기존 파일을 읽어 비교함; 새 이미지로 복사하지 않음",
+    "observations": "구구는 라운지의 측면 기대기, 뒤돌아본 후디·레깅스, 데님 멜빵과 이브이, 골목 엎드린 코스튬, 택시 수영복, 스파 클로즈업, 예배당 메이드로 배경·활동·의상 실루엣·구도가 갈린다. 비교 캐릭터의 수영장·이벤트장·마이크·부케·아케이드와 같은 묶음을 복제하지 않는다."
+  },
+  "slots": {
+    "light": {
+      "approved": true,
+      "identity": {
+        "result": "match",
+        "evidence": "①의 갈색 눈과 작은 입, 완만한 턱·갈색 머리의 크림색 안쪽 가닥을 유지함. 수평 3/4 성인 여성 전신, 크림·갈색의 넓은 판형 윙바인더, 검은 각진 무늬와 푸른 관절선. 두 발과 머리가 화면 안에 있다."
+      },
+      "scene_outfit_composition": {
+        "result": "match with noted deviations",
+        "evidence": "수평 3/4 성인 여성 전신, 크림·갈색의 넓은 판형 윙바인더, 검은 각진 무늬와 푸른 관절선. 두 발과 머리가 화면 안에 있다.",
+        "note": "카드 기준: 큰 윙바인더 끝은 좌우 화면에 걸리지만 얼굴·팔·다리와 전신이 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑: 펼친 손의 다섯 손가락이 갈라지며, 반대 손은 느슨하게 말아 일부 손가락 끝이 겹친다. 양 손목이 전완에 연결된다.",
+        "overlay_checked": false,
+        "note": "몸과 연결된 부위에서 추가·누락·꺾임 오류를 발견하지 못함. 화면 밖·가려진 부위는 추정하지 않음."
+      },
+      "style_25d": {
+        "판정": "clean 2D / current anime_gloss target",
+        "근거": "눈·윤곽에 얇은 선, 코와 입의 간결한 음영, 머리의 세밀한 광택과 셀-그라데이션 채색. 최신 anime_gloss가 명시적으로 2D를 지시하므로 예전 glossy_promo의 2.5D 재시도 규칙을 적용하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "submitted_same": true,
+      "submitted_sha256": "40cbc3c3855abef85e72812b498f28e8430cbf422322d107eb7df5a5fb8e59f9"
+    },
+    "casual1": {
+      "approved": true,
+      "identity": {
+        "result": "match",
+        "evidence": "①의 갈색 눈과 작은 입, 완만한 턱·갈색 머리의 크림색 안쪽 가닥을 유지함. 보드게임 상자·브라운관·카세트와 낮은 탁자, 로즈 새틴 상하의와 흰 오픈 셔츠, 옆으로 모은 두 다리."
+      },
+      "scene_outfit_composition": {
+        "result": "match with noted deviations",
+        "evidence": "보드게임 상자·브라운관·카세트와 낮은 탁자, 로즈 새틴 상하의와 흰 오픈 셔츠, 옆으로 모은 두 다리.",
+        "note": "선택은 옆으로 눕기이나 실제는 옆으로 기대어 앉은 모습에 가깝다. 표정은 약한 미소. 옷과 라운지 활동은 유지되어 기록만 한다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "바닥 짚은 손은 손가락 다섯과 엄지 방향이 읽힌다. 머리 뒤 팔의 손은 머리카락에 가려진다.",
+        "overlay_checked": false,
+        "note": "몸과 연결된 부위에서 추가·누락·꺾임 오류를 발견하지 못함. 화면 밖·가려진 부위는 추정하지 않음."
+      },
+      "style_25d": {
+        "판정": "clean 2D / current anime_gloss target",
+        "근거": "눈·윤곽에 얇은 선, 코와 입의 간결한 음영, 머리의 세밀한 광택과 셀-그라데이션 채색. 최신 anime_gloss가 명시적으로 2D를 지시하므로 예전 glossy_promo의 2.5D 재시도 규칙을 적용하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "submitted_same": true,
+      "submitted_sha256": "991b83c420ebf66fdd56d4bd893ed1865bbd7aed88069df3183080b1f500ef41"
+    },
+    "casual2": {
+      "approved": true,
+      "identity": {
+        "result": "match",
+        "evidence": "①의 갈색 눈과 작은 입, 완만한 턱·갈색 머리의 크림색 안쪽 가닥을 유지함. 금색 난간과 붉은 오페라 계단, 라벤더 크롭 후디와 차콜 레깅스. 몸통은 뒤 3/4, 고개는 어깨 너머로 돌아본다."
+      },
+      "scene_outfit_composition": {
+        "result": "match with noted deviations",
+        "evidence": "금색 난간과 붉은 오페라 계단, 라벤더 크롭 후디와 차콜 레깅스. 몸통은 뒤 3/4, 고개는 어깨 너머로 돌아본다.",
+        "note": "후디·레깅스 실루엣과 허리·어깨가 보인다. 회고적인 표정보다 부드러운 미소로 나온 점을 기록한다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "부채를 쥔 손은 엄지와 굽힌 손가락이 겹쳐 일부 가려짐. 아래로 편 반대 손은 다섯 갈래이며 손목이 이어진다.",
+        "overlay_checked": false,
+        "note": "몸과 연결된 부위에서 추가·누락·꺾임 오류를 발견하지 못함. 화면 밖·가려진 부위는 추정하지 않음."
+      },
+      "style_25d": {
+        "판정": "clean 2D / current anime_gloss target",
+        "근거": "눈·윤곽에 얇은 선, 코와 입의 간결한 음영, 머리의 세밀한 광택과 셀-그라데이션 채색. 최신 anime_gloss가 명시적으로 2D를 지시하므로 예전 glossy_promo의 2.5D 재시도 규칙을 적용하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "submitted_same": true,
+      "submitted_sha256": "95bd47f59667e43c28975b0e6eada2a480615506649ec2adb22145f4c9bfdcfe"
+    },
+    "casual3": {
+      "approved": true,
+      "identity": {
+        "result": "match",
+        "evidence": "①의 갈색 눈과 작은 입, 완만한 턱·갈색 머리의 크림색 안쪽 가닥을 유지함. 햇빛 드는 그루밍 방에서 나무열매를 내민다. 이브이 한 마리가 타월 매트 위에 있다. 흰 할터 크롭톱과 옆이 열린 데님 멜빵바지."
+      },
+      "scene_outfit_composition": {
+        "result": "match with noted deviations",
+        "evidence": "햇빛 드는 그루밍 방에서 나무열매를 내민다. 이브이 한 마리가 타월 매트 위에 있다. 흰 할터 크롭톱과 옆이 열린 데님 멜빵바지.",
+        "note": "①의 큰 볏 장식이 남아 있다. 허리 위 구도로 다리 하단과 반대 손이 가려짐. 동료는 한 마리이며 몸과 분리되어 있다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "열매를 집은 손: 검지·엄지 집기, 나머지 세 손가락은 말아 겹침. 반대 손은 주머니 안에 가려짐.",
+        "overlay_checked": false,
+        "note": "몸과 연결된 부위에서 추가·누락·꺾임 오류를 발견하지 못함. 화면 밖·가려진 부위는 추정하지 않음."
+      },
+      "style_25d": {
+        "판정": "clean 2D / current anime_gloss target",
+        "근거": "눈·윤곽에 얇은 선, 코와 입의 간결한 음영, 머리의 세밀한 광택과 셀-그라데이션 채색. 최신 anime_gloss가 명시적으로 2D를 지시하므로 예전 glossy_promo의 2.5D 재시도 규칙을 적용하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "submitted_same": true,
+      "submitted_sha256": "c19ed746e45b1736c270ff284c1979e6a2bae98b25f01ab935607ba4a6b89b39"
+    },
+    "casual4": {
+      "approved": true,
+      "identity": {
+        "result": "match",
+        "evidence": "①의 갈색 눈과 작은 입, 완만한 턱·갈색 머리의 크림색 안쪽 가닥을 유지함. 젖은 골목보다 높은 나무 받침 위에 엎드려 두 손으로 턱을 괴고, 구구 크림·갈색 바디수트와 스타킹, 위로 접은 두 다리가 보인다."
+      },
+      "scene_outfit_composition": {
+        "result": "match with noted deviations",
+        "evidence": "젖은 골목보다 높은 나무 받침 위에 엎드려 두 손으로 턱을 괴고, 구구 크림·갈색 바디수트와 스타킹, 위로 접은 두 다리가 보인다.",
+        "note": "원작 장식이 코스튬의 머리·손목·허리 장식과 부츠로 남는다. 판형 윙바인더와 전신 장갑은 없다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 턱·볼을 받치며 각각 네 손가락 윤곽과 가려진 엄지 위치가 자연스럽다. 손목에서 팔꿈치까지 두 전완이 연결된다.",
+        "overlay_checked": false,
+        "note": "몸과 연결된 부위에서 추가·누락·꺾임 오류를 발견하지 못함. 화면 밖·가려진 부위는 추정하지 않음."
+      },
+      "style_25d": {
+        "판정": "clean 2D / current anime_gloss target",
+        "근거": "눈·윤곽에 얇은 선, 코와 입의 간결한 음영, 머리의 세밀한 광택과 셀-그라데이션 채색. 최신 anime_gloss가 명시적으로 2D를 지시하므로 예전 glossy_promo의 2.5D 재시도 규칙을 적용하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "submitted_same": true,
+      "submitted_sha256": "c62698122fafd9dd696b5213c7845fe25247cb7f214a3e071dfd092b5454fb21"
+    },
+    "casual5": {
+      "approved": true,
+      "identity": {
+        "result": "match",
+        "evidence": "①의 갈색 눈과 작은 입, 완만한 턱·갈색 머리의 크림색 안쪽 가닥을 유지함. 밤 택시 뒷좌석, 보라 도시 반사광, 청록색 기하 테두리 수영복. 뚜껑 있는 컵을 들고 웃으며 두 다리를 모아 앉는다."
+      },
+      "scene_outfit_composition": {
+        "result": "match with noted deviations",
+        "evidence": "밤 택시 뒷좌석, 보라 도시 반사광, 청록색 기하 테두리 수영복. 뚜껑 있는 컵을 들고 웃으며 두 다리를 모아 앉는다.",
+        "note": "환경 와이드 선택보다 인물이 크게 담긴 전신이다. 등 파임은 정면 때문에 확인할 수 없다. 어깨·다리의 노출은 유지된다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "컵을 쥔 손은 엄지 일부가 컵 뒤로 가려지고 네 손가락이 앞에 보인다. 무릎 위 손은 네 손가락과 측면 엄지가 이어진다.",
+        "overlay_checked": false,
+        "note": "몸과 연결된 부위에서 추가·누락·꺾임 오류를 발견하지 못함. 화면 밖·가려진 부위는 추정하지 않음."
+      },
+      "style_25d": {
+        "판정": "clean 2D / current anime_gloss target",
+        "근거": "눈·윤곽에 얇은 선, 코와 입의 간결한 음영, 머리의 세밀한 광택과 셀-그라데이션 채색. 최신 anime_gloss가 명시적으로 2D를 지시하므로 예전 glossy_promo의 2.5D 재시도 규칙을 적용하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "submitted_same": true,
+      "submitted_sha256": "670b168511e4604cfcc4bd960ab1ad42c29a68cfb5905e11b2b51a9722a8bd37"
+    },
+    "casual6": {
+      "approved": true,
+      "identity": {
+        "result": "match",
+        "evidence": "①의 갈색 눈과 작은 입, 완만한 턱·갈색 머리의 크림색 안쪽 가닥을 유지함. 호박색 스파 조명과 접은 타월·찻잔. 한쪽 어깨의 아이보리 상의, 턱을 받치고 입을 벌려 웃는 얼굴 클로즈업."
+      },
+      "scene_outfit_composition": {
+        "result": "match with noted deviations",
+        "evidence": "호박색 스파 조명과 접은 타월·찻잔. 한쪽 어깨의 아이보리 상의, 턱을 받치고 입을 벌려 웃는 얼굴 클로즈업.",
+        "note": "얼굴 클로즈업이므로 반바지·배와 나머지 팔다리가 보이지 않는다. 얼굴형과 갈색 눈, 갈색·크림 머리의 정체성은 유지된다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 받친 손의 굽힌 네 손가락과 안쪽 엄지가 머리·볼에 부분 가려진다. 반대 팔과 다리는 프레임 밖이라 세지 않는다.",
+        "overlay_checked": false,
+        "note": "몸과 연결된 부위에서 추가·누락·꺾임 오류를 발견하지 못함. 화면 밖·가려진 부위는 추정하지 않음."
+      },
+      "style_25d": {
+        "판정": "clean 2D / current anime_gloss target",
+        "근거": "눈·윤곽에 얇은 선, 코와 입의 간결한 음영, 머리의 세밀한 광택과 셀-그라데이션 채색. 최신 anime_gloss가 명시적으로 2D를 지시하므로 예전 glossy_promo의 2.5D 재시도 규칙을 적용하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "submitted_same": true,
+      "submitted_sha256": "044f3d821d815f37f6b390e3f5ca66e6a41ff6e00e731013ae3af882aa6de437"
+    },
+    "casual7": {
+      "approved": true,
+      "identity": {
+        "result": "match",
+        "evidence": "①의 갈색 눈과 작은 입, 완만한 턱·갈색 머리의 크림색 안쪽 가닥을 유지함. 스테인드글라스와 촛불의 테마 촬영 세트. 흑백 메이드 보디스와 떨어진 퍼프 소매. 한 눈을 감고 한 손을 흔든다."
+      },
+      "scene_outfit_composition": {
+        "result": "match with noted deviations",
+        "evidence": "스테인드글라스와 촛불의 테마 촬영 세트. 흑백 메이드 보디스와 떨어진 퍼프 소매. 한 눈을 감고 한 손을 흔든다.",
+        "note": "가슴 위 구도로 미니 앞치마 아래와 다리는 프레임 밖이다. 목·어깨는 선택한 옷 구조대로 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "흔드는 손은 다섯 손가락과 안쪽 엄지가 분리된다. 가슴 위 손은 네 손가락과 아래쪽 엄지가 이어진다. 두 전완은 자연스럽다.",
+        "overlay_checked": false,
+        "note": "몸과 연결된 부위에서 추가·누락·꺾임 오류를 발견하지 못함. 화면 밖·가려진 부위는 추정하지 않음."
+      },
+      "style_25d": {
+        "판정": "clean 2D / current anime_gloss target",
+        "근거": "눈·윤곽에 얇은 선, 코와 입의 간결한 음영, 머리의 세밀한 광택과 셀-그라데이션 채색. 최신 anime_gloss가 명시적으로 2D를 지시하므로 예전 glossy_promo의 2.5D 재시도 규칙을 적용하지 않음."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "submitted_same": true,
+      "submitted_sha256": "3dce88f3e904df1a46de232022fc49179d27a2d6ee657aa46006d0dd6ec9d1b1"
+    }
+  }
+}

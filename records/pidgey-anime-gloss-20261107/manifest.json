@@ -1,0 +1,119 @@
+{
+  "card": "구구",
+  "no": 16,
+  "style": "anime_gloss",
+  "gender": "f",
+  "reference": {
+    "slot": "light",
+    "file": "구구_light_anime_gloss_f.webp",
+    "original_sha256": "dc6246c3b76cd79bfb153b4d2b6e65df51f541d43de9c88f0d9e7e03df35caab",
+    "sha256": "c402cefe86f71f80a713c4ee0ccb74d2add6308d74a344bb1486cbcf5c716e4c"
+  },
+  "scope": "Latest rules: add a new anime_gloss set, preserve all existing glossy_promo files and records.",
+  "tool": {
+    "name": "image_gen.imagegen",
+    "model_id": "not exposed by tool",
+    "size_setting": "not exposed by tool; prompt requests 1024x1536",
+    "quality": "not exposed by tool",
+    "transparent_background": false,
+    "light_reference": [],
+    "casual_references": [
+      "light only"
+    ]
+  },
+  "encoding": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6
+  },
+  "files": [
+    {
+      "slot": "light",
+      "original_sha256": "dc6246c3b76cd79bfb153b4d2b6e65df51f541d43de9c88f0d9e7e03df35caab",
+      "file": "구구_light_anime_gloss_f.webp",
+      "sha256": "c402cefe86f71f80a713c4ee0ccb74d2add6308d74a344bb1486cbcf5c716e4c",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "none"
+    },
+    {
+      "slot": "casual1",
+      "original_sha256": "eea7f4d9bf013499952a10a5d14af3c4683cc36fc8f628bcad113e2f23035bd7",
+      "file": "구구_anime_gloss_f_casual1.webp",
+      "sha256": "a2f40e7ba84a4b5cf71d09537cdb2911e3427b033f503d713d1139f9e13a1b63",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "구구_light_anime_gloss_f.webp"
+    },
+    {
+      "slot": "casual2",
+      "original_sha256": "b1122aad729a78c2eddadfac6f788e4f11a557d231ea0a6089c83f64f48518e5",
+      "file": "구구_anime_gloss_f_casual2.webp",
+      "sha256": "133c1dfbed1fb3a68b8a609a08edcadf000d7eeffd2193975096c60e33af8538",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "구구_light_anime_gloss_f.webp"
+    },
+    {
+      "slot": "casual3",
+      "original_sha256": "870dee12b0eb9688e5193fdfff3a43c5f76d8cd4f662381742194f7296c2c473",
+      "file": "구구_anime_gloss_f_casual3.webp",
+      "sha256": "0027bb367a905e2276051503a8a4a476938b1ed17489cceedd019038552351de",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "구구_light_anime_gloss_f.webp"
+    },
+    {
+      "slot": "casual4",
+      "original_sha256": "a9b9ff00bf7e3e83427a635bcf5e8d80516d0342567fd0d9b43f48737e5afdc8",
+      "file": "구구_anime_gloss_f_casual4.webp",
+      "sha256": "4bc64762a0a237c3d9d98f4abbdea50e966bbac77d8ab7fa5bcbc18093a2d071",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "구구_light_anime_gloss_f.webp"
+    },
+    {
+      "slot": "casual5",
+      "original_sha256": "e80d92e535eeab077c7260ab54fbd5f505b39c97d9600f81b8b7bec8b7f84920",
+      "file": "구구_anime_gloss_f_casual5.webp",
+      "sha256": "254fa7e5b3be16ba9b0524d8cd51a1edde196247df1303474ab584ea2c47def6",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "구구_light_anime_gloss_f.webp"
+    },
+    {
+      "slot": "casual6",
+      "original_sha256": "9a1c30e235fc29b0ccca26d21ef48e4deca491c11d8193ea516826868f3c944a",
+      "file": "구구_anime_gloss_f_casual6.webp",
+      "sha256": "1ee8dfdf1e176d3fda897d11119f63fdbd47e0a926fe769d882658abfb19d0ab",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "구구_light_anime_gloss_f.webp"
+    },
+    {
+      "slot": "casual7",
+      "original_sha256": "5414dafa4c86298900970dba160040e0705e970c6a1045f69cb10d37e6d3e22a",
+      "file": "구구_anime_gloss_f_casual7.webp",
+      "sha256": "32b225ac7cc9d3b038b2892597357be84f9482d325dfdebe0ad963d78d6f2e73",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference": "구구_light_anime_gloss_f.webp"
+    }
+  ]
+}

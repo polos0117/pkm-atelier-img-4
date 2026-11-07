@@ -1,0 +1,57 @@
+{
+  "status": "ready_to_publish",
+  "reservation_commit": "82cba51d52bb7ecc6ed33f4d97fdea4b15e9e996",
+  "light": {
+    "slot": "light",
+    "file": "구구_light_anime_gloss_f.webp",
+    "original_sha256": "dc6246c3b76cd79bfb153b4d2b6e65df51f541d43de9c88f0d9e7e03df35caab",
+    "sha256": "c402cefe86f71f80a713c4ee0ccb74d2add6308d74a344bb1486cbcf5c716e4c"
+  },
+  "face_design": {
+    "source": "data/face-design.json entry 16 + data/source-appearance.json entry 16",
+    "reason": "작고 짧은 부리와 크림색 깃의 부드러움을 작은 코·입과 완만한 턱으로 해석함.",
+    "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; open rounded eyes, medium size, level outer corners, close-set; fine soft arches; small delicate nose; small mouth.",
+    "compared": [
+      "뿔충이",
+      "어니부기",
+      "이상해꽃"
+    ],
+    "observation": "뿔충이의 가늘고 길게 뜬 눈·짧은 턱, 어니부기의 좁은 윤곽·긴 눈매, 이상해꽃의 넓은 뺨과 구분되는 완만한 타원·둥근 눈·작은 입. 머리색 외 얼굴 구조를 보아 비교함."
+  },
+  "submitted": {
+    "light": {
+      "submitted_sha256": "40cbc3c3855abef85e72812b498f28e8430cbf422322d107eb7df5a5fb8e59f9",
+      "submitted_same": true
+    },
+    "casual1": {
+      "submitted_sha256": "991b83c420ebf66fdd56d4bd893ed1865bbd7aed88069df3183080b1f500ef41",
+      "submitted_same": true
+    },
+    "casual2": {
+      "submitted_sha256": "95bd47f59667e43c28975b0e6eada2a480615506649ec2adb22145f4c9bfdcfe",
+      "submitted_same": true
+    },
+    "casual3": {
+      "submitted_sha256": "c19ed746e45b1736c270ff284c1979e6a2bae98b25f01ab935607ba4a6b89b39",
+      "submitted_same": true
+    },
+    "casual4": {
+      "submitted_sha256": "c62698122fafd9dd696b5213c7845fe25247cb7f214a3e071dfd092b5454fb21",
+      "submitted_same": true
+    },
+    "casual5": {
+      "submitted_sha256": "670b168511e4604cfcc4bd960ab1ad42c29a68cfb5905e11b2b51a9722a8bd37",
+      "submitted_same": true
+    },
+    "casual6": {
+      "submitted_sha256": "044f3d821d815f37f6b390e3f5ca66e6a41ff6e00e731013ae3af882aa6de437",
+      "submitted_same": true
+    },
+    "casual7": {
+      "submitted_sha256": "3dce88f3e904df1a46de232022fc49179d27a2d6ee657aa46006d0dd6ec9d1b1",
+      "submitted_same": true
+    }
+  },
+  "publication": "publish WebP and text records only; no generated PNG uploaded",
+  "planning_note": "기존 구구의 다른 화풍 세트는 완성된 옛 작업이므로 이번 새 anime_gloss 일곱 컷 계획 비교에서 구구만 제외한 읽기용 장부를 사용. 다른 캐릭터·예약은 보존. 선택값은 tools/casual-plan.cjs planBatch가 생성하고 casual-ledger check/reserve를 통과함."
+}
