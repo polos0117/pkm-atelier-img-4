@@ -1,0 +1,122 @@
+{
+  "light": {
+    "style_25d": {
+      "verdict": "2D; matches requested anime_gloss",
+      "evidence": "Illustrated face with thin contours and cel-to-gradient cheek and nose shading."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module missing",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Raised palm has five digits; lowered hand partly curled with thumb and fingers overlapping. Wrists join forearms.",
+      "overlay_checked": false,
+      "note": "Human arms and legs continuous; floating drones/shields are separate equipment.",
+      "original_and_zoom_checked": true
+    }
+  },
+  "casual2": {
+    "style_25d": {
+      "verdict": "2D; matches reference",
+      "evidence": "Same bob hair, violet eyes and softly illustrated facial contours."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module missing",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Table hand extended with overlapping fingers; towel hand in grip with digits partly hidden. Each attaches to a continuous forearm.",
+      "overlay_checked": false,
+      "note": "Robed shoulders connect to both arms. Lower legs outside three-quarter crop; head leaf ornament retained.",
+      "original_and_zoom_checked": true
+    }
+  },
+  "casual1": {
+    "style_25d": {
+      "verdict": "2D; matches reference",
+      "evidence": "Soft contours, violet eyes, blue bob preserved."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module missing",
+      "arms": 2,
+      "legs": "outside waist-up crop",
+      "hands": "Chin hand: five fingers in relaxed curl; lap hand partially outside lower crop. Both wrists meet forearms.",
+      "overlay_checked": false,
+      "note": "Chin hand connects via bent elbow on chair arm; opposite forearm crosses lap continuously. No detached hand.",
+      "original_and_zoom_checked": true
+    }
+  },
+  "casual3": {
+    "style_25d": {
+      "verdict": "2D; matches reference",
+      "evidence": "Same face and bob with anime gradient shading."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module missing",
+      "arms": 2,
+      "legs": "outside chest-up crop",
+      "hands": "Both hands outside crop beneath foreground counter; no floating hand.",
+      "overlay_checked": false,
+      "note": "Both shoulders and arms continuous to lower frame, neck joins torso naturally.",
+      "original_and_zoom_checked": true
+    }
+  },
+  "casual4": {
+    "style_25d": {
+      "verdict": "2D; matches reference",
+      "evidence": "Same violet eyes, round face and blue bob."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module missing",
+      "arms": 2,
+      "legs": "outside waist-up crop",
+      "hands": "Berry hand: five-digit pinch with bent fingers. Bowl hand: thumb visible with four supporting fingers partly occluded by bowl.",
+      "overlay_checked": false,
+      "note": "Both sleeves follow shoulder-elbow-wrist continuously; bowl arm is attached to body.",
+      "original_and_zoom_checked": true
+    }
+  },
+  "casual5": {
+    "style_25d": {
+      "verdict": "2D; matches reference",
+      "evidence": "Blue bob, violet eyes and round adult face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module missing",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Bench hand flat with five-digit structure; knee hand has four long digits plus thumb. Both wrists connect.",
+      "overlay_checked": false,
+      "note": "Sleeved arm joins bench wrist continuously; bare arm joins knee hand continuously. Crossed legs connect through knees to two shoes.",
+      "original_and_zoom_checked": true
+    }
+  },
+  "casual7": {
+    "style_25d": {
+      "verdict": "2D; matches reference",
+      "evidence": "Same blue bob, violet eyes and face structure despite laughing expression."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module missing",
+      "arms": "One near arm visible to lower crop; far arm hidden behind torso",
+      "legs": "outside chest-up crop",
+      "hands": "Both outside crop.",
+      "overlay_checked": false,
+      "note": "Near shoulder and upper arm join torso naturally; far arm obscured, no floating limb. Leaf headpiece partly intersects top edge.",
+      "original_and_zoom_checked": true
+    }
+  },
+  "casual6": {
+    "style_25d": {
+      "verdict": "2D; matches reference",
+      "evidence": "Same blue bob, violet eyes and soft illustrated face."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module missing",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands lie on worktop with five-digit structures; fingers overlap slightly in perspective.",
+      "overlay_checked": false,
+      "note": "Two shoulders connect to straight upper arms, elbows, forearms and wrists resting on counter. Lower legs outside crop.",
+      "original_and_zoom_checked": true
+    }
+  }
+}
