@@ -1,0 +1,71 @@
+{
+ "card": "이상해씨",
+ "style": "gloss_daylight",
+ "slot": "casual2",
+ "file": "이상해씨_gloss_daylight_f_casual2.webp",
+ "original_sha256": "9b3d3d480666fccc4c2cee415d9305da73f3ae058e37f0c2b1e7ac441d69a4eb",
+ "webp_sha256": "f87441a43238ac58633ff25a34f8f876b379c70d8502299dc08a59eefea8b199",
+ "replaced_webp_sha256": "992a1c820d4ddd211755dfe44cf940b64bd3cb3fd12129bca62c75cd69cc48fe",
+ "references": [
+  "/workspace/scratch/a500c2eac4e2/generated_images/exec-6f636d6d-eddd-4520-beef-b968e64ff03a.png",
+  "/workspace/scratch/a500c2eac4e2/generated_images/exec-d39eade4-1832-499f-be52-6229bb01ed08.png"
+ ],
+ "user_approval": "2026-11-08 user: 2번은 올려주고",
+ "tool": "built-in image_gen",
+ "model_id": "not exposed",
+ "quality_setting": "not exposed",
+ "size": [
+  1024,
+  1536
+ ],
+ "anatomy": {
+  "tool": "unavailable: mediapipe not installed; prior exit 3",
+  "arms": 2,
+  "legs": 2,
+  "hands": "낚싯대 쥔 손은 일부 손가락 겹침. 내려놓은 손은 다섯 손가락. 손목·팔꿈치 방향 정상.",
+  "overlay_checked": false,
+  "note": "어깨에서 위팔·팔꿈치·아래팔·손목으로 이어지는 팔 윤곽을 원본 크기로 확인. 두 팔만 존재하며 끊김 없음. 다리 하단은 프레임 밖."
+ },
+ "style_25d": {
+  "판정": "2D as explicitly requested by gloss_daylight",
+  "근거": "원본의 색 윤곽·애니 얼굴·매끈한 하이라이트 유지."
+ },
+ "preserved": "닫힌 눈의 웃음, 청록 머리, 노란 크로셰 수영복, 해안 낚시 장면과 렌더링.",
+ "scope": "Only casual2 approved for publication. Casual6 previews remain unpublished.",
+ "submitted_sha256": "60bba03793e5aef6b6fb84e360978765d865caa7b8f0f851aa69dc017cfeb41b",
+ "casual_look": {
+  "crowd_below": 245,
+  "cuts": [
+   {
+    "crowd": 0,
+    "duplicate_of": [],
+    "file": "../pkm-atelier-img-4/img/이상해씨_gloss_daylight_f_casual2.webp",
+    "near": [
+     [
+      "암스타_glossy_promo_f_casual2.webp",
+      257
+     ],
+     [
+      "가재군_glossy_promo_f_casual2.webp",
+      263
+     ],
+     [
+      "주리비얀_glossy_promo_f_casual2.webp",
+      274
+     ],
+     [
+      "킹크랩_glossy_promo_f_casual3.webp",
+      275
+     ],
+     [
+      "루카리오_glossy_promo_f_casual3.webp",
+      276
+     ]
+    ],
+    "same_as_own": []
+   }
+  ],
+  "dup_below": 215,
+  "ok": true
+ }
+}
