@@ -1,0 +1,202 @@
+{
+  "card": "삐삐",
+  "style": "anime_gloss",
+  "requested": 8,
+  "accepted": 8,
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "controls": {
+    "model_id": "not exposed",
+    "size_control": "not exposed; actual size 1024x1536",
+    "quality_control": "not exposed",
+    "reference_settings": "light: text only; every casual: original light PNG directly attached"
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "c793f8f05bf76b2e7248a4fb9acc124ffd3fc8dd6e75928f6c1ea7531b8f0833",
+      "observed": "분홍 곱슬 장발과 이마 말림·분홍 눈·둥근 짧은 얼굴. 백색·분홍 경장, 허리의 단단한 스커트 판, 펼친 손의 별빛, 양발과 머리 여백.",
+      "identity": {
+        "match": true,
+        "evidence": "기준의 분홍 곱슬 장발·분홍 눈·이마 말림·짧고 둥근 턱과 얼굴 비율을 유지"
+      },
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선, 눈의 겹 하이라이트와 피부의 부드러운 그라데이션. 과거 2.5D 게이트보다 최신 기본화풍 clean 2D 명세를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "열린 손은 엄지와 네 손가락 확인, 내려 둔 느슨한 주먹은 접힌 손가락이 겹침. 두 손목이 아래팔에 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 시각 검수. 프레임 밖의 팔다리는 보이지 않음으로 기록."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "5d78a8453157915ef37ed5bd2ddf93dfcc73dee8932b3aab2dfe5be2df26ebaf",
+      "observed": "여행 안내소 지도와 안내 책자, 라벤더 반두 수영복, 컵을 든 뒤 3/4 인물과 돌아본 얼굴·윙크. 반대 손은 아래로 내려옴.",
+      "identity": {
+        "match": true,
+        "evidence": "기준의 분홍 곱슬 장발·분홍 눈·이마 말림·짧고 둥근 턱과 얼굴 비율을 유지"
+      },
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선, 눈의 겹 하이라이트와 피부의 부드러운 그라데이션. 과거 2.5D 게이트보다 최신 기본화풍 clean 2D 명세를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "컵을 감싼 손은 네 손가락과 반대편 엄지 일부 가림, 내려 둔 손은 엄지와 네 손가락이 자연스럽게 겹침.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 시각 검수. 프레임 밖의 팔다리는 보이지 않음으로 기록."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "67ea14a171b326410455b49cd36508f47a3eb026372de949a7f9938693ab7092",
+      "observed": "대리석 조각상이 있는 야간 박물관, 분홍 바디수트형 삐삐 코스튬과 휴대폰. 코스튬 팔 장식이 기준의 브레이서와 닮게 남음; 다른 장갑 폼은 아님.",
+      "identity": {
+        "match": true,
+        "evidence": "기준의 분홍 곱슬 장발·분홍 눈·이마 말림·짧고 둥근 턱과 얼굴 비율을 유지"
+      },
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선, 눈의 겹 하이라이트와 피부의 부드러운 그라데이션. 과거 2.5D 게이트보다 최신 기본화풍 clean 2D 명세를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "휴대폰은 엄지 일부 가림·네 손가락이 앞을 감쌈. 내려 둔 반대 손은 다섯 손가락과 손목 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 시각 검수. 프레임 밖의 팔다리는 보이지 않음으로 기록."
+      }
+    },
+    "casual4": {
+      "accepted": true,
+      "image_sha256": "a0d8c24df5ed9916f76a03a337dbec205164a7345e88181227296725682925c4",
+      "observed": "미러볼·컬러 조명·벨벳 좌석, 검은 새틴 슬립, 가슴 앞에서 맞잡은 손과 은은한 미소. 멀리 작고 흐릿한 배경 관객은 주인공을 다투지 않음.",
+      "identity": {
+        "match": true,
+        "evidence": "기준의 분홍 곱슬 장발·분홍 눈·이마 말림·짧고 둥근 턱과 얼굴 비율을 유지"
+      },
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선, 눈의 겹 하이라이트와 피부의 부드러운 그라데이션. 과거 2.5D 게이트보다 최신 기본화풍 clean 2D 명세를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "맞잡은 두 손은 손가락이 서로 겹치며 일부 가려짐. 두 손목·두 팔꿈치가 자연스럽게 이어지고 여분 손 없음.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 시각 검수. 프레임 밖의 팔다리는 보이지 않음으로 기록."
+      }
+    },
+    "casual5": {
+      "accepted": true,
+      "image_sha256": "22ca00b38be52d7c8010193cc09d237f87d150f9de0522ea0b89f4b81ed63ac1",
+      "observed": "링 조명 사진 부스와 별 장식, 레드 할터 사리풍 블라우스, 얼굴 옆 동전을 든 손, 크게 웃는 입.",
+      "identity": {
+        "match": true,
+        "evidence": "기준의 분홍 곱슬 장발·분홍 눈·이마 말림·짧고 둥근 턱과 얼굴 비율을 유지"
+      },
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선, 눈의 겹 하이라이트와 피부의 부드러운 그라데이션. 과거 2.5D 게이트보다 최신 기본화풍 clean 2D 명세를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "동전을 잡는 검지·엄지와 접힌 나머지 세 손가락. 반대 손은 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 시각 검수. 프레임 밖의 팔다리는 보이지 않음으로 기록."
+      }
+    },
+    "casual6": {
+      "accepted": true,
+      "image_sha256": "36dcff4408c61d94dfae395db74d118d0a65c008549226183919f778bfe081e1",
+      "observed": "넓은 나무 그늘과 피크닉 매트, 그림 도구·노랑 물감 셔츠와 쇼츠. 무릎을 꿇고 두 손을 모음. 피카츄 한 마리와 인물 한 명.",
+      "identity": {
+        "match": true,
+        "evidence": "기준의 분홍 곱슬 장발·분홍 눈·이마 말림·짧고 둥근 턱과 얼굴 비율을 유지"
+      },
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선, 눈의 겹 하이라이트와 피부의 부드러운 그라데이션. 과거 2.5D 게이트보다 최신 기본화풍 clean 2D 명세를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손을 모아 깍지 낀 손가락 일부 겹침·가려짐, 각각 한 손목씩 아래팔로 이어짐. 양 무릎 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 시각 검수. 프레임 밖의 팔다리는 보이지 않음으로 기록."
+      }
+    },
+    "casual7": {
+      "accepted": true,
+      "image_sha256": "122c97248adffaaf2de8e71e27c67dd3a4e48b937468c3d42a0312418e584065",
+      "observed": "거울·발레 바·매트가 있는 연습실, 아이보리 작업 오버롤과 크림색 탑. 옆얼굴, 머리카락을 귀로 넘기는 한 손.",
+      "identity": {
+        "match": true,
+        "evidence": "기준의 분홍 곱슬 장발·분홍 눈·이마 말림·짧고 둥근 턱과 얼굴 비율을 유지"
+      },
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선, 눈의 겹 하이라이트와 피부의 부드러운 그라데이션. 과거 2.5D 게이트보다 최신 기본화풍 clean 2D 명세를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "머리를 넘기는 손의 보이는 네 손가락과 머리 뒤로 일부 가린 엄지. 반대 손은 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 시각 검수. 프레임 밖의 팔다리는 보이지 않음으로 기록."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "0e255698942561251635693a0c58482fea6688c707a19a9d3d463f146061afff",
+      "observed": "레드카펫·트로피·난간과 갈색 크롭 조끼·미니 쇼츠. 한 손은 난간 위, 반대 손은 클립보드. 환경 와이드보다 인물이 크게 나옴; 기록 사항.",
+      "identity": {
+        "match": true,
+        "evidence": "기준의 분홍 곱슬 장발·분홍 눈·이마 말림·짧고 둥근 턱과 얼굴 비율을 유지"
+      },
+      "style_25d": {
+        "판정": "2D — 최신 anime_gloss 명세와 일치",
+        "근거": "가는 윤곽선, 눈의 겹 하이라이트와 피부의 부드러운 그라데이션. 과거 2.5D 게이트보다 최신 기본화풍 clean 2D 명세를 우선."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe'; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "난간을 짚는 손의 엄지와 겹친 네 손가락, 클립보드는 네 손가락이 앞에서 감싸고 엄지는 뒤로 가려짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 시각 검수. 프레임 밖의 팔다리는 보이지 않음으로 기록."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "꼬부기",
+      "이상해씨",
+      "모래두지"
+    ],
+    "evidence": "최근 세 캐릭터 비교 이미지와 이번 세트를 시각 대조. 여행안내소·시상식·박물관·클럽·사진부스·잔디밭·연습실로 장소·의상·소품·카메라 범위를 구분. 전신·반신·얼굴 클로즈업과 뒤돌아보기·무릎꿇기·측면을 확인.",
+    "metric": "casual-look check passed; duplicate_of and same_as_own empty for all seven"
+  },
+  "attempts": [
+    {
+      "slot": "casual2",
+      "attempt": 1,
+      "result": "moderation_blocked; no output file",
+      "request_id": "7aff1632-138c-40a9-9678-474c034a537a",
+      "changed": "계획기로 다른 장소·활동·의상·프레이밍 선택, 생성된 다른 여섯 컷은 keep으로 보존"
+    }
+  ]
+}

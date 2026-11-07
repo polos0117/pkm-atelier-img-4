@@ -1,0 +1,156 @@
+{
+ "storage": {
+  "last": "삐삐",
+  "cards": {
+   "삐삐": {
+    "style": "anime_gloss",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "nostalgic",
+      "scene": "A slim ivory smartphone has a small star charm on its wrist strap.",
+      "outfit": "An adult Clefairy costume: a pink high-cut bodysuit with a securely covered plunging neckline and side-waist cutouts, sheer thigh-high tights, brown-tipped fabric ear ornaments and tiny butterfly-wing shoulder accents.",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "ofam": true,
+       "item": true,
+       "expose": true,
+       "posture": true,
+       "support": true,
+       "frame": true,
+       "body": true,
+       "head": true,
+       "camera": true,
+       "right": true,
+       "left": true,
+       "use": true,
+       "expr": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "evening_museum",
+      "ofam": "pokemon_costume",
+      "item": "pc_bodysuit",
+      "expose": [
+       "plunging neckline",
+       "cutout waist"
+      ],
+      "posture": "walk",
+      "support": "none",
+      "frame": "full_body",
+      "body": "front_3q",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "prop",
+      "left": "natural",
+      "use": "phone_look",
+      "preset": "walk_beside"
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Clefairy (삐삐) personified, fairy type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY LINE: keep her figure from the attached image and show its line slightly emphasized — a subtly full bust, a slim waist and very wide, curvy rounded hips read clearly through the outfit, flowing smoothly into softly full thighs that taper gradually toward the knees with no sudden narrowing below the hips, and slender lower legs, never thick or heavy; her head stays in natural adult proportion to her body.\n\nSTYLE: keep the attached image's rendering exactly — the same finish, skin rendering, line weight, colour palette, saturation and lighting quality. Do not restyle her: no more realistic, no more painterly, no more 2D than the attached image. Only the outfit, pose, expression, framing and place change.\n\nOUTPUT: one standalone off-duty scene of her wearing the costume chosen in SCENE — a daring adult costume version of her source creature, as worn to a costume party, convention or photo shoot. In this cut her species shows in the outfit itself: its recognisable colours, shapes and parts. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a grand museum hall with marble statues at night\nOutfit: An adult Clefairy costume: a pink high-cut bodysuit with a securely covered plunging neckline and side-waist cutouts, sheer thigh-high tights, brown-tipped fabric ear ornaments and tiny butterfly-wing shoulder accents.\nCut: plunging neckline and cutout waist built into the outfit — a figure-hugging fit that follows her curves; chest and pelvis stay securely covered.\nPOSTURE: walking.\nCOMPOSITION: a full-body shot, her complete head, hands and feet inside the frame with restrained margins; body turned three-quarters toward the camera; camera at her eye level.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand is in PROP.\nLEFT HAND: her own left hand rests naturally for the posture, relaxed and empty.\nPROP: with her own right hand she holds a smartphone at chest height, screen toward her; it is all she holds.\nGAZE: her eyes rest on what she holds.\nEXPRESSION: soft distant eyes, faint wistful half-smile, brows gently raised at the inner ends. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\nScene note: A slim ivory smartphone has a small star charm on its wrist strap.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely into the costume SCENE describes. From the attached image take only her face, hair and body — not its armor, garment, jewelry, hair ornaments or background. The costume must read at first glance as that creature's look, rebuilt as a glamorous adult outfit; she is a real woman in a costume — never the creature itself, its face on her face, fur or scales on her skin, a logo or readable text.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "plan": {
+  "cut": 3,
+  "treeV": 2,
+  "era": "now",
+  "place": "evening_museum",
+  "ofam": "pokemon_costume",
+  "item": "pc_bodysuit",
+  "garments": [
+   "bodysuit",
+   "leggings"
+  ],
+  "ocolor": "",
+  "weather": "",
+  "posture": "walk",
+  "support": "none",
+  "frame": "full_body",
+  "body": "front_3q",
+  "head": "with_body",
+  "camera": "eye",
+  "right": "prop",
+  "left": "natural",
+  "use": "phone_look",
+  "legs": "",
+  "gaze": "",
+  "preset": "walk_beside",
+  "expr": "nostalgic",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly active",
+   "source_influence": "subtle",
+   "separates_preference": "prefer separates"
+  },
+  "expose": [
+   "plunging neckline",
+   "cutout waist"
+  ],
+  "lead": "detail"
+ },
+ "manual_inputs": {
+  "scene": "A slim ivory smartphone has a small star charm on its wrist strap.",
+  "outfit": "An adult Clefairy costume: a pink high-cut bodysuit with a securely covered plunging neckline and side-waist cutouts, sheer thigh-high tights, brown-tipped fabric ear ornaments and tiny butterfly-wing shoulder accents."
+ },
+ "manual_why": {
+  "scene": "박물관 갈라에 맞는 소품·빛·행사 맥락을 detail 첫머리로 구체화. 계획의 몸·손 동작은 그대로 사용.",
+  "outfit": "바디수트형의 옷 종류 bodysuit,leggings를 유지하며 원작 코스튬 색와 plunging neckline, cutout waist를 구현."
+ }
+}
