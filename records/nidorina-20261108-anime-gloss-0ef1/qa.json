@@ -1,0 +1,176 @@
+{
+  "reviewer": "gpt",
+  "images": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "observations": "은청색 긴 포니테일, 보라색 눈, 균형 잡힌 타원형 얼굴과 각진 작은 턱. 흰색·청색 얇은 장갑과 방패형 기계 보조팔, 오른쪽 화면의 열린 손에서 독 기포. 두 발이 모두 프레임 안에 있다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 오른쪽 손은 엄지와 네 손가락이 분리되어 보이며, 반대 손은 느슨한 주먹으로 일부 손가락이 가려짐. 기계 보조팔과 인체 팔 둘은 구분됨.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 눈으로 확인. 크롭 밖·가려진 부위는 보이는 것으로 세지 않음."
+      },
+      "style_25d": {
+        "판정": "anime_gloss clean 2D with gradient shading",
+        "근거": "가는 윤곽선과 단계·그라데이션 음영, 반짝이는 머리와 부드러운 피부 하이라이트. 최신 기본 스타일은 2D를 명시하므로 옛 2.5D 재생성 규정은 적용하지 않음."
+      },
+      "exposure_regeneration": false,
+      "image_sha256": "e6d13927e4e20c32b1ceeb27d5dd26de70a3c349920eb8b682c6be7265939a80"
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "observations": "거울과 타일 욕실의 가장자리에 옆으로 걸터앉고 양손을 뒤쪽 받침에 둠. 세이지색 레오타드와 레그워머, 발은 얕은 물 안에 있음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "받침에 놓인 양손의 엄지와 네 손가락은 자연스럽게 이어지고 일부는 접혀 겹침. 무릎 둘과 정강이가 발까지 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 눈으로 확인. 크롭 밖·가려진 부위는 보이는 것으로 세지 않음."
+      },
+      "style_25d": {
+        "판정": "anime_gloss clean 2D with gradient shading",
+        "근거": "가는 윤곽선과 단계·그라데이션 음영, 반짝이는 머리와 부드러운 피부 하이라이트. 최신 기본 스타일은 2D를 명시하므로 옛 2.5D 재생성 규정은 적용하지 않음."
+      },
+      "exposure_regeneration": false,
+      "image_sha256": "caab1152e456c88e5fc8f8d18979b7e2c2a451d4be732a35057386ace6343a4b"
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "observations": "피아노와 병 선반의 재즈바에서 니드리나 코스튬과 잔을 든 상체. 옆으로 향한 몸과 카메라를 보는 얼굴, 보라 눈과 긴 포니테일이 유지됨.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "잔을 쥔 손은 굽힌 네 손가락과 잔 뒤의 엄지가 연결됨. 다른 손과 다리는 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 눈으로 확인. 크롭 밖·가려진 부위는 보이는 것으로 세지 않음."
+      },
+      "style_25d": {
+        "판정": "anime_gloss clean 2D with gradient shading",
+        "근거": "가는 윤곽선과 단계·그라데이션 음영, 반짝이는 머리와 부드러운 피부 하이라이트. 최신 기본 스타일은 2D를 명시하므로 옛 2.5D 재생성 규정은 적용하지 않음."
+      },
+      "exposure_regeneration": false,
+      "image_sha256": "b39ead58bfe45d65cbc26c0fea46c411c5702faec46a1df74108dc5a57e6a2f8"
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "observations": "정박 요트와 마리나가 배경이며 핑크 목욕 랩을 두르고 손가락을 뺨에 댄 얼굴 중심 구도. 원본의 눈매와 짧은 턱선이 유지됨.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "뺨에 댄 손의 검지와 구부린 다른 손가락이 연결됨. 다른 손과 다리는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 눈으로 확인. 크롭 밖·가려진 부위는 보이는 것으로 세지 않음."
+      },
+      "style_25d": {
+        "판정": "anime_gloss clean 2D with gradient shading",
+        "근거": "가는 윤곽선과 단계·그라데이션 음영, 반짝이는 머리와 부드러운 피부 하이라이트. 최신 기본 스타일은 2D를 명시하므로 옛 2.5D 재생성 규정은 적용하지 않음."
+      },
+      "exposure_regeneration": false,
+      "image_sha256": "32bd02a0763b94aacbcb3bfda49aba7cffc8ff545a6fc42fda07e90a861220ad"
+    },
+    {
+      "slot": "casual4",
+      "accepted": true,
+      "observations": "링 조명과 행사 부스 앞 그레이 링 비키니. 가슴 앞에 두 손을 포개고 눈썹 안쪽을 올린 표정. 귀 장식이 남은 점은 기록만 함.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "포갠 손은 손가락 일부가 서로 가려짐. 양쪽 손목·아래팔이 각각 팔꿈치와 어깨에 연결됨. 하체는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 눈으로 확인. 크롭 밖·가려진 부위는 보이는 것으로 세지 않음."
+      },
+      "style_25d": {
+        "판정": "anime_gloss clean 2D with gradient shading",
+        "근거": "가는 윤곽선과 단계·그라데이션 음영, 반짝이는 머리와 부드러운 피부 하이라이트. 최신 기본 스타일은 2D를 명시하므로 옛 2.5D 재생성 규정은 적용하지 않음."
+      },
+      "exposure_regeneration": false,
+      "image_sha256": "789087573193ac6d48f8288526185995296aabcb1e2b18abdc3be8414bdef929"
+    },
+    {
+      "slot": "casual5",
+      "accepted": true,
+      "observations": "나무열매 과수원의 잔디에 앉아 민트색 짧은 플리스와 조거 팬츠를 입음. 한 손은 무릎, 다른 손은 바닥을 짚고 두 다리는 접혀 있음. 계획의 풀오버가 집업으로 표현됨.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "무릎 위와 바닥 위 손은 각각 엄지와 네 손가락 윤곽이 이어짐. 바지로 무릎 세부가 가려지지만 두 다리와 신발은 자연스럽게 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 눈으로 확인. 크롭 밖·가려진 부위는 보이는 것으로 세지 않음."
+      },
+      "style_25d": {
+        "판정": "anime_gloss clean 2D with gradient shading",
+        "근거": "가는 윤곽선과 단계·그라데이션 음영, 반짝이는 머리와 부드러운 피부 하이라이트. 최신 기본 스타일은 2D를 명시하므로 옛 2.5D 재생성 규정은 적용하지 않음."
+      },
+      "exposure_regeneration": false,
+      "image_sha256": "6adfa2d46785e30cf3cef745d65f22c87c79737bfe475344f95b2ab86de1660b"
+    },
+    {
+      "slot": "casual6",
+      "accepted": true,
+      "observations": "화보 조명과 배경지 앞 코랄 레이스 상의, 어깨 끈을 집고 카메라를 봄. 안쪽 불투명 의상과 꽃 자수가 보이며 머리와 얼굴은 원본을 따름.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "끈을 집은 손의 검지·엄지와 접힌 손가락이 손목에 이어짐. 다른 손과 하체는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 눈으로 확인. 크롭 밖·가려진 부위는 보이는 것으로 세지 않음."
+      },
+      "style_25d": {
+        "판정": "anime_gloss clean 2D with gradient shading",
+        "근거": "가는 윤곽선과 단계·그라데이션 음영, 반짝이는 머리와 부드러운 피부 하이라이트. 최신 기본 스타일은 2D를 명시하므로 옛 2.5D 재생성 규정은 적용하지 않음."
+      },
+      "exposure_regeneration": false,
+      "image_sha256": "3a208369f9e67e6f7d683f1faaf428e66afb2a72a6a37c755512fe61ade60edc"
+    },
+    {
+      "slot": "casual7",
+      "accepted": true,
+      "observations": "체인 펜스와 농구대가 있는 야외 코트에서 노란 유니폼풍 행사 의상. 농구공을 옆구리에 끼고 한 발 앞으로 걸음. 양발과 촬영 배경이 보임.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "공을 받친 손은 일부 손가락이 공에 가려짐. 내려간 손은 엄지와 네 손가락이 이어지고 두 다리는 발까지 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 및 손 확대를 눈으로 확인. 크롭 밖·가려진 부위는 보이는 것으로 세지 않음."
+      },
+      "style_25d": {
+        "판정": "anime_gloss clean 2D with gradient shading",
+        "근거": "가는 윤곽선과 단계·그라데이션 음영, 반짝이는 머리와 부드러운 피부 하이라이트. 최신 기본 스타일은 2D를 명시하므로 옛 2.5D 재생성 규정은 적용하지 않음."
+      },
+      "exposure_regeneration": false,
+      "image_sha256": "4a9a3265a4d008c4581455828f982009483ff362bd974e1cfaab3edfd232e251"
+    }
+  ],
+  "diversity_comparison": {
+    "actual_compared_characters": [
+      "식스테일",
+      "삐삐",
+      "고지"
+    ],
+    "evidence": "기존 비교 이미지의 관광 안내 지도·수영복 테이크아웃컵·숯빛 상의 얼굴 구도와 이번 욕실 전신·칵테일 코스튬·요트 얼굴·행사 비키니·과수원 좌식·레이스 화보·농구공 걷기를 비교. 일부 얼굴 구도는 있으나 장소·활동·의상·전체 실루엣 조합이 구별됨.",
+    "look_check": "passed; see casual-look.txt"
+  },
+  "face_reason": {
+    "basis": "data/face-design.json and source-appearance.json",
+    "compared_characters": [
+      "식스테일",
+      "삐삐",
+      "고지"
+    ],
+    "observation": "니드리나의 넓은 눈 간격과 균형 잡힌 얼굴·작은 각진 턱이 삐삐의 둥근 얼굴, 식스테일의 좁고 가는 눈, 고지의 보다 뾰족한 턱과 구별된다."
+  },
+  "user_instruction": "생성된 이미지를 노출검열을 이유로 재생성하지 않는다."
+}
