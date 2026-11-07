@@ -1,0 +1,154 @@
+{
+  "card": "버터플",
+  "style": "anime_gloss",
+  "accepted": true,
+  "tool": "built-in image_gen",
+  "model_id": "not exposed by tool",
+  "quality": "not exposed by tool",
+  "size": "1024x1536 verified from PNG",
+  "reference_policy": "light no references; every casual only approved light PNG",
+  "comparison_characters": [
+    "딱충이",
+    "구구",
+    "단데기"
+  ],
+  "visual_diversity": "Compared all seven cuts of each recent character; current set varies standing look-back, face close-up, side reclining, railing lean, floor sitting and hotel chair; distinct clothing and places. Similar chair/recline categories have different costume, hands and framing.",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observation": "은보라 보브, 보라 눈, 좁은 턱과 하트형 얼굴. 날개 무늬 분할 망토, 전신 카드 구도.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 펼침 다섯, 왼손 느슨한 주먹의 굽힌 손가락 일부 가림. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+      },
+      "submitted_same": true
+    },
+    "casual1": {
+      "accepted": true,
+      "observation": "뒤 3/4로 걷다 돌아보며 잔을 든 수영복+브라운 유카타. 클럽 배경의 흐린 군중 실루엣은 기록.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "잔을 쥔 오른손 다섯 손가락 중 겹침 있음. 내려간 왼손 다섯. 팔 둘 연결 확인.",
+        "overlay_checked": false,
+        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+      },
+      "submitted_same": true
+    },
+    "casual2": {
+      "accepted": true,
+      "observation": "포켓몬센터에서 와인색 어깨 노출 드레스, 입술 앞 손가락, 얼굴 클로즈업.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "입술 앞 검지와 구부린 나머지 손가락, 엄지 연결 확인. 반대 손은 프레임 밖.",
+        "overlay_checked": false,
+        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+      },
+      "submitted_same": true
+    },
+    "casual3": {
+      "accepted": true,
+      "observation": "틸 보디수트로 스파 플랫폼에 옆으로 기대 누움. 한 팔 머리 뒤, 다른 팔 받침.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "받친 손 다섯, 머리 뒤 손 가려짐. 팔 둘 다 어깨부터 연결. 다리 둘과 발 둘 확인.",
+        "overlay_checked": false,
+        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+      },
+      "submitted_same": true
+    },
+    "casual4": {
+      "accepted": true,
+      "observation": "핑크 행사 스태프 베스트와 목걸이 명찰. 난간에 팔을 놓고 턱을 괴는 허리 위 구도.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "난간 손 다섯, 턱을 받친 손의 일부 손가락은 턱에 가려짐. 팔 둘 연결.",
+        "overlay_checked": false,
+        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+      },
+      "submitted_same": true
+    },
+    "casual5": {
+      "accepted": true,
+      "observation": "강변 불꽃놀이, 날개무늬 바디수트 코스튬, 바닥에 앉은 옆얼굴 와이드. 장갑형 소매끝과 신발 장식은 기록.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "무릎 위 장갑 손 다섯, 바닥 받친 장갑 손 다섯. 교차한 다리 둘·발 둘 연결.",
+        "overlay_checked": false,
+        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+      },
+      "submitted_same": true
+    },
+    "casual6": {
+      "accepted": true,
+      "observation": "1996 롤러장, 블루 크바야와 바틱 사롱. 무릎에 턱을 괴고 바닥에 앉은 구도.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 손은 구부린 손가락 일부 가림. 바닥 손 다섯. 양팔 연결, 두 다리 겹침 일부 가림.",
+        "overlay_checked": false,
+        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+      },
+      "submitted_same": true
+    },
+    "casual7": {
+      "accepted": true,
+      "observation": "도시 야경 호텔, 검정 서큐버스 코스튬, 닫힌 책을 가슴 앞에 든 의자 앉기.",
+      "style_25d": {
+        "judgement": "2D, intentional anime_gloss",
+        "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "책 손 손가락 일부 책에 가림, 무릎 손 다섯. 팔 둘·다리 둘 연결.",
+        "overlay_checked": false,
+        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+      },
+      "submitted_same": true
+    }
+  }
+}
