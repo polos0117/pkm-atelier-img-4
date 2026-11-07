@@ -1,0 +1,507 @@
+{
+  "version": 2,
+  "card": "뿔충이",
+  "no": 13,
+  "style": "anime_gloss",
+  "plan": "/workspace/scratch/d45a07cb8169/planning/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "frame_exposed"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "bug"
+          },
+          {
+            "key": "aura",
+            "type": "poison"
+          },
+          {
+            "key": "ground",
+            "type": "bug"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "frame_exposed"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "bug"
+          },
+          {
+            "key": "aura",
+            "type": "poison"
+          },
+          {
+            "key": "ground",
+            "type": "bug"
+          }
+        ]
+      },
+      "mecha_recent": [
+        "cape_plates",
+        "long_coat_plate",
+        "hover_rings"
+      ],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "Paint-splattered tables surround a cassette player and clay studies in a 1996 studio.",
+      "outfit": "a 1990s subculture street look: a side-cutout cropped violet top with low-rise trousers and a short open jacket, revealing the waist and sides",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 화실·공방에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 서브컬처 의상과 옷 종류를 유지하면서 bare midriff, side cutouts 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / studio_art / subculture / stand / chest_up / phones_press",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "studio_art",
+            "ko": "화실·공방",
+            "en": "an art or pottery studio of easels, clay and paint-splattered tables"
+          },
+          "role": null,
+          "use": {
+            "key": "phones_press",
+            "ko": "헤드폰을 두 손으로 귀에 누른다",
+            "en": "presses over-ear headphones to her ears with both hands",
+            "prop": "헤드폰"
+          },
+          "ofam": {
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "crop_top",
+          "jacket",
+          "trousers"
+        ],
+        "expose": [
+          "bare midriff",
+          "side cutouts"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual2": {
+      "scene": "Winter morning light reflects from snow beyond the sheltered lodge terrace.",
+      "outfit": "a kebaya-inspired floral lace top, cut short and asymmetrically off one shoulder, over an opaque fitted camisole with a draped skirt, showing one shoulder and the waist",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 겨울 산장 테라스에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 란제리풍 의상과 옷 종류를 유지하면서 one-shoulder cut, cropped hem 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / lodge_terrace / lingerie / kebaya_lace / stand / three_quarter / map_open",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "lodge_terrace",
+            "ko": "겨울 산장 테라스",
+            "en": "a snowy mountain-lodge terrace with a wooden railing and benches above a winter valley"
+          },
+          "role": null,
+          "use": {
+            "key": "map_open",
+            "ko": "지도를 두 손으로 펼친다",
+            "en": "unfolds a folded paper map in both hands in front of her",
+            "prop": "종이 지도"
+          },
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "kebaya_lace",
+            "ko": "크바야 응용 레이스",
+            "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "tank"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "cropped hem"
+        ],
+        "lead": "light"
+      }
+    },
+    "casual3": {
+      "scene": "A folded towel waits on a nearby shelf beside the bathroom mirror.",
+      "outfit": "a fully lined teal halter bikini with a neck tie, an underbust band and high-cut legs",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 욕실에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 수영복 의상과 옷 종류를 유지하면서 high-cut leg, halter neck 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / home_bath / swimwear / halter_bikini / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "home_bath",
+            "ko": "욕실",
+            "en": "a bright bathroom with a mirror, tiles and folded towels"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "halter_bikini",
+            "ko": "홀터 비키니",
+            "en": "a halter bikini with a neck tie and an underbust band"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "reach · chest_hand"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "high-cut leg",
+          "halter neck"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual4": {
+      "scene": "A brass party invitation rests beside the karaoke console during a themed costume afterparty.",
+      "outfit": "a stylised uniform-inspired strapless mini costume with crisp decorative lapels, epaulettes on a small collar piece and an open back, showing shoulders and upper back",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 노래방에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 역할극·직업 의상 의상과 옷 종류를 유지하면서 open back, strapless top 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_karaoke / roleplay / uniform_inspired / lean_wall / environmental",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_karaoke",
+            "ko": "노래방",
+            "en": "a private karaoke room with spinning coloured lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "uniform_inspired",
+            "ko": "유니폼풍",
+            "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "uniform"
+        ],
+        "expose": [
+          "open back",
+          "strapless top"
+        ],
+        "lead": "detail"
+      }
+    },
+    "casual5": {
+      "scene": "The runway lights are switched on for a private costume fitting before the fashion show opens.",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "첫 결과의 배경 관객 때문에 단독 인물 규칙에 맞게 개장 전 개인 피팅 시간으로 구체화한다. 패션쇼장과 의상·구도 선택값은 유지한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / stage_show / pokemon_costume / pc_crop_set / sit_chair / chest_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "stage_show",
+            "ko": "패션쇼장",
+            "en": "the front row of a fashion show beside a lit runway"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_crop_set",
+            "ko": "크롭 투피스형",
+            "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "crop_top",
+          "skirt"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "mini length"
+        ],
+        "lead": "place"
+      }
+    },
+    "casual6": {
+      "scene": "Afternoon sun reaches the tennis court between games.",
+      "outfit": "a 1950s halter playsuit with a plunging neckline and short split hems at the upper thighs",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 코트에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 레트로 의상과 옷 종류를 유지하면서 plunging neckline, high thigh slit 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / sports_court / retro / halter_playsuit / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "sports_court",
+            "ko": "코트",
+            "en": "an outdoor court for tennis or basketball"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "retro",
+            "ko": "레트로",
+            "en": "a period look from a past decade"
+          },
+          "item": {
+            "key": "halter_playsuit",
+            "ko": "50년대 홀터 플레이수트",
+            "en": "a 1950s halter playsuit"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "cheek · out"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "plunging neckline",
+          "high thigh slit"
+        ],
+        "lead": "action"
+      }
+    },
+    "casual7": {
+      "scene": "Sunset glows over the moored yacht and its pale deck cushions.",
+      "outfit": "a silk robe worn open over a one-shoulder evening slip with a plunging neckline, revealing one shoulder and the upper chest",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "선택한 요트 갑판에 시간·소품·배경의 구체적인 모습이 없어 보충한다.",
+        "outfit": "선택한 저녁 드레스 의상과 옷 종류를 유지하면서 plunging neckline, one-shoulder cut 구조와 소재를 구체화한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / water_yacht / evening / silk_robe_slip / recline / environmental / shades_hold",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "water_yacht",
+            "ko": "요트 갑판",
+            "en": "the cushioned foredeck of a moored yacht"
+          },
+          "role": null,
+          "use": {
+            "key": "shades_hold",
+            "ko": "접은 선글라스를 든다",
+            "en": "holds folded a pair of sunglasses by one arm",
+            "prop": "선글라스"
+          },
+          "ofam": {
+            "key": "evening",
+            "ko": "저녁 드레스",
+            "en": "an evening dress or night-out outfit"
+          },
+          "item": {
+            "key": "silk_robe_slip",
+            "ko": "슬립 위 실크 로브",
+            "en": "a silk robe over an evening slip"
+          },
+          "posture": {
+            "key": "recline",
+            "ko": "기대 눕기",
+            "en": "reclining on her back"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "behind_head · prop"
+        },
+        "garments": [
+          "robe",
+          "slip"
+        ],
+        "expose": [
+          "plunging neckline",
+          "one-shoulder cut"
+        ],
+        "lead": "light"
+      }
+    }
+  }
+}
