@@ -1,0 +1,581 @@
+{
+ "version": 2,
+ "card": "꼬렛",
+ "no": 19,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/19eda3501cf2/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "segmented_parts"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "normal"
+     },
+     {
+      "key": "aura",
+      "type": "normal"
+     },
+     {
+      "key": "ground",
+      "type": "normal"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "segmented_parts"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "normal"
+     },
+     {
+      "key": "aura",
+      "type": "normal"
+     },
+     {
+      "key": "ground",
+      "type": "normal"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "heavy_assault",
+    "cape_plates",
+    "light_agile",
+    "long_coat_plate",
+    "tail_unit",
+    "wing_binder",
+    "wing_binder",
+    "sub_arms",
+    "hover_rings",
+    "frame_exposed"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "A rural platform clock and a canvas overnight bag frame the wooden station bench.",
+   "outfit": "An adult Rattata costume with purple and cream panels, rounded ear ornaments and a curled-tail belt detail, an off-shoulder cropped halter top and a matching micro skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_rural_station / pokemon_costume / pc_crop_set / sit_chair / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_rural_station",
+      "ko": "시골 역",
+      "en": "a small rural station with a wooden bench and a single platform"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "halter neck"
+    ],
+    "lead": "action",
+    "color": null
+   }
+  },
+  "casual2": {
+   "scene": "The pool terrace has a striped parasol and a low mosaic wall in the summer of 1996.",
+   "outfit": "A sky-blue cotton bath yukata with navy edging and a soft sash, a cropped hem and a high thigh slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / water_pool / bath / bath_yukata / recline / environmental / shades_hold",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "water_pool",
+      "ko": "수영장",
+      "en": "an outdoor pool with lounge chairs and clear blue water"
+     },
+     "role": null,
+     "use": {
+      "key": "shades_hold",
+      "ko": "접은 선글라스를 든다",
+      "en": "holds folded a pair of sunglasses by one arm",
+      "prop": "선글라스"
+     },
+     "ofam": {
+      "key": "bath",
+      "ko": "목욕 차림",
+      "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+     },
+     "item": {
+      "key": "bath_yukata",
+      "ko": "목욕 유카타",
+      "en": "a light cotton bath yukata with a soft sash"
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "behind_head · prop"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "high thigh slit",
+     "cropped hem"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "blue",
+     "ko": "스카이 · 네이비",
+     "en": "sky blue and navy",
+     "words": [
+      "blue",
+      "navy",
+      "cobalt",
+      "sky",
+      "azure",
+      "denim"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "Soft green light reflected from the hotel garden brushes the marble entrance.",
+   "outfit": "A sage-green 1950s halter playsuit with a plunging neckline and an open back.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_hotel / retro / halter_playsuit / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_hotel",
+      "ko": "호텔 방",
+      "en": "a hotel suite with a city view and an open suitcase"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "halter_playsuit",
+      "ko": "50년대 홀터 플레이수트",
+      "en": "a 1950s halter playsuit"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "plunging neckline",
+     "open back"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "green",
+     "ko": "세이지 · 올리브",
+     "en": "sage and olive green",
+     "words": [
+      "green",
+      "sage",
+      "olive",
+      "emerald",
+      "moss",
+      "forest"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "A small Pidgey accompanies her along the garden path; silver water reflections move across the park stones.",
+   "outfit": "A dove-grey mermaid-show outfit with a one-shoulder scale-sequined bodice and a short flowing silver chiffon wrap skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_park / costume / mermaid_show / walk / three_quarter",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_park",
+      "ko": "공원 산책길",
+      "en": "a park path lined with trees and benches"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "mermaid_show",
+      "ko": "인어 쇼",
+      "en": "a mermaid show costume — a scale-sequined bodice and a flowing chiffon wrap skirt"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "skirt"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "mini length"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "grey",
+     "ko": "그레이 · 실버",
+     "en": "dove grey and silver",
+     "words": [
+      "grey",
+      "gray",
+      "silver",
+      "slate",
+      "pewter"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "A mint scarf and a small travel case lie beside the dry cedar bench in the hot-spring changing lounge.",
+   "outfit": "A mint retro flight-attendant event costume with a cropped open fitted jacket over a strapless top, a bare midriff, scarf and fitted skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / spa_onsen / roleplay / flight_attendant / sit_edge / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "spa_onsen",
+      "ko": "노천 온천",
+      "en": "an open-air hot spring among steaming rocks"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "flight_attendant",
+      "ko": "승무원풍",
+      "en": "a retro flight-attendant-inspired costume with a fitted jacket, scarf and original airline-style trim"
+     },
+     "posture": {
+      "key": "sit_edge",
+      "ko": "가장자리에 걸터앉기",
+      "en": "perched on a ledge or edge"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "jacket"
+    ],
+    "expose": [
+     "strapless top",
+     "bare midriff"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "teal",
+     "ko": "민트 · 틸",
+     "en": "mint and teal",
+     "words": [
+      "mint",
+      "teal",
+      "turquoise",
+      "aqua",
+      "seafoam",
+      "jade"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "The lagoon deck overlooks still turquoise water; wicker cushions sit beside a shaded cabana.",
+   "outfit": "A camel-brown triangle bikini with slider cups, chocolate trim, tie-side bottoms and high-cut legs with open sides.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_lagoon / swimwear / triangle_bikini / recline / environmental",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_lagoon",
+      "ko": "리조트 라군 데크",
+      "en": "a resort lagoon deck with stacked towels and lounge cushions"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "triangle_bikini",
+      "ko": "트라이앵글 비키니",
+      "en": "a triangle bikini with slider cups and tie-side bottoms"
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "side cutouts"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "brown",
+     "ko": "카멜 · 초콜릿",
+     "en": "camel and chocolate brown",
+     "words": [
+      "brown",
+      "camel",
+      "tan",
+      "chocolate",
+      "beige",
+      "khaki",
+      "taupe",
+      "caramel"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "Warm tungsten light glows through the patterned glass of the retro living room.",
+   "outfit": "A rose-pink kebaya-inspired floral lace top over an opaque blush camisole, cut with an asymmetrical one-shoulder and off-shoulder neckline, with matching fitted shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소와 활동에 맞는 소품·빛·행사 맥락만 보충한다.",
+    "outfit": "선택한 옷 종류와 계획 색을 유지하며 계획의 드러내기 두 방식을 옷 구조로 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_retro_home / lingerie / kebaya_lace / recline / full_body",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_retro_home",
+      "ko": "레트로 퓨처 집",
+      "en": "a retro-futurist home of rounded chrome appliances and soft panels"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  }
+ }
+}

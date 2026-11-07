@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "model_id": "not exposed by tool",
+  "size_control": "not exposed; prompt says 1024x1536; all actual outputs verified 1024x1536",
+  "quality": "not exposed by tool",
+  "reference_setting": {
+    "light": "no reference fields",
+    "casual1-7": "referenced_image_paths: original light PNG only"
+  },
+  "transparent_background": false,
+  "conversion": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "existing_art": "glossy_promo files preserved; anime_gloss is a new requested set",
+  "reservation_commit": "b38167c690a93932ae69310fe648d4aab4ec8210"
+}
