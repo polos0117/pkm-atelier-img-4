@@ -1,0 +1,586 @@
+{
+  "version": 2,
+  "card": "라이츄",
+  "no": 26,
+  "style": "anime_gloss",
+  "plan": "/workspace/scratch/401bb2cd33f7/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {
+        "body type": "a graceful athletic-curvaceous figure with a full bust, a defined waist and rounded hips"
+      },
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "light_agile"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "electric"
+          },
+          {
+            "key": "aura",
+            "type": "electric"
+          },
+          {
+            "key": "trail",
+            "type": "electric"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "light_agile"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "electric"
+          },
+          {
+            "key": "aura",
+            "type": "electric"
+          },
+          {
+            "key": "trail",
+            "type": "electric"
+          }
+        ]
+      },
+      "mecha_recent": [
+        "wing_binder",
+        "knight_plate",
+        "slim_suit",
+        "wing_binder",
+        "segmented_parts",
+        "segmented_parts",
+        "cape_plates",
+        "sub_arms",
+        "hover_rings",
+        "frame_exposed"
+      ],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "The dance stage is dressed for a 1996 evening showcase, with amber footlights and polished parquet.",
+      "outfit": "A camel sari-blouse-inspired opaque lingerie-fashion set: a deep-V cropped blouse and a chocolate draped skirt, leaving her midriff and shoulders exposed.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "place 첫머리로 댄스 무대의 소품·행사·조명만 구체화하며 자세와 구도는 계획에 맡김.",
+        "outfit": "사리 블라우스 응용의 옷 종류를 유지하며 카멜 · 초콜릿와 지정 드러내기 deep V neckline, cropped hem를 의상 구조에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / stage_dance / lingerie / sari_blouse_set / stand / chest_up",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "stage_dance",
+            "ko": "댄스 무대",
+            "en": "a lit dance stage or milonga floor"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "sari_blouse_set",
+            "ko": "사리 블라우스 응용",
+            "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "wave · chest_hand"
+        },
+        "garments": [
+          "blouse",
+          "traditional"
+        ],
+        "expose": [
+          "deep V neckline",
+          "cropped hem"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "brown",
+          "ko": "카멜 · 초콜릿",
+          "en": "camel and chocolate brown",
+          "words": [
+            "brown",
+            "camel",
+            "tan",
+            "chocolate",
+            "beige",
+            "khaki",
+            "taupe",
+            "caramel"
+          ]
+        }
+      }
+    },
+    "casual2": {
+      "scene": "A new board-game session is beginning beside shelves of colorful game boxes.",
+      "outfit": "Sky-blue fitted denim overalls with wide waist cutouts over a navy sweetheart cropped top, exposing her collarbones and side waist.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "action 첫머리로 보드게임 라운지의 소품·행사·조명만 구체화하며 자세와 구도는 계획에 맡김.",
+        "outfit": "멜빵바지의 옷 종류를 유지하며 스카이 · 네이비와 지정 드러내기 sweetheart neckline, cutout waist를 의상 구조에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / boardgame_lounge / everyday / overalls / stand / face_close",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "boardgame_lounge",
+            "ko": "보드게임 라운지",
+            "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "overalls",
+            "ko": "멜빵바지",
+            "en": "fitted denim overalls over a cropped top"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "v_sign · out"
+        },
+        "garments": [
+          "crop_top",
+          "overalls"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "cutout waist"
+        ],
+        "lead": "action",
+        "color": {
+          "key": "blue",
+          "ko": "스카이 · 네이비",
+          "en": "sky blue and navy",
+          "words": [
+            "blue",
+            "navy",
+            "cobalt",
+            "sky",
+            "azure",
+            "denim"
+          ]
+        }
+      }
+    },
+    "casual3": {
+      "scene": "A lavender ribbon around the sun hat catches the breeze above the city skyline.",
+      "outfit": "A lavender bridal gown with a securely fitted plunging neckline and an open back, its long skirt falling in soft pleats.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "detail 첫머리로 루프탑 인피니티 풀의 소품·행사·조명만 구체화하며 자세와 구도는 계획에 맡김.",
+        "outfit": "자동 — 계열 안에서 장면에 맞게의 옷 종류를 유지하며 라벤더 · 플럼와 지정 드러내기 plunging neckline, backless를 의상 구조에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / water_infinity / bridal / stand / chest_up / hat_brim",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "water_infinity",
+            "ko": "루프탑 인피니티 풀",
+            "en": "a rooftop infinity pool with the city skyline behind it"
+          },
+          "role": null,
+          "use": {
+            "key": "hat_brim",
+            "ko": "쓴 모자 챙을 잡는다",
+            "en": "holds the brim of a wide-brimmed sun hat she wears",
+            "prop": "챙 넓은 모자"
+          },
+          "ofam": {
+            "key": "bridal",
+            "ko": "웨딩",
+            "en": "bridal wear"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "plunging neckline",
+          "backless"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "purple",
+          "ko": "라벤더 · 플럼",
+          "en": "lavender and plum",
+          "words": [
+            "purple",
+            "lavender",
+            "lilac",
+            "violet",
+            "plum",
+            "mauve"
+          ]
+        }
+      }
+    },
+    "casual4": {
+      "scene": "Warm lamplight filters through the mountain inn window onto folded towels beside the cedar tub.",
+      "outfit": "A wine-red fleece pullover with a deep V and wide off-shoulder neckline, paired with relaxed burgundy jogger pants, leaving both shoulders and collarbones bare.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "light 첫머리로 히노키 탕의 소품·행사·조명만 구체화하며 자세와 구도는 계획에 맡김.",
+        "outfit": "플리스 상의 + 조거 팬츠의 옷 종류를 유지하며 레드 · 와인와 지정 드러내기 deep V neckline, off-shoulder neckline를 의상 구조에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / spa_cedar / homewear / fleece_joggers / stand / full_body",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "spa_cedar",
+            "ko": "히노키 탕",
+            "en": "a cedar-wood tub by the window of a mountain inn"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "homewear",
+            "ko": "홈웨어",
+            "en": "soft homewear or loungewear"
+          },
+          "item": {
+            "key": "fleece_joggers",
+            "ko": "플리스 상의 + 조거 팬츠",
+            "en": "a soft fleece pullover with relaxed jogger pants"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "wave · down"
+        },
+        "garments": [
+          "sweater",
+          "trousers"
+        ],
+        "expose": [
+          "deep V neckline",
+          "off-shoulder neckline"
+        ],
+        "lead": "light",
+        "color": {
+          "key": "red",
+          "ko": "레드 · 와인",
+          "en": "deep red and wine",
+          "words": [
+            "red",
+            "crimson",
+            "scarlet",
+            "burgundy",
+            "wine",
+            "cherry"
+          ]
+        }
+      }
+    },
+    "casual5": {
+      "scene": "The live house is hosting a western-themed costume concert, with a red curtain and amplifiers beside the low stage.",
+      "outfit": "A navy halter cowgirl costume with a sweetheart front, a fringed cropped vest, short denim shorts, a western hat and cowboy boots, exposing her shoulders and midriff.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "place 첫머리로 라이브 하우스의 소품·행사·조명만 구체화하며 자세와 구도는 계획에 맡김.",
+        "outfit": "로데오 카우걸의 옷 종류를 유지하며 스카이 · 네이비와 지정 드러내기 sweetheart neckline, halter neck를 의상 구조에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_livehouse / roleplay / rodeo_cowgirl / lean_wall / waist_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_livehouse",
+            "ko": "라이브 하우스",
+            "en": "a small live house with a low stage, a crowd barrier and amps"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "rodeo_cowgirl",
+            "ko": "로데오 카우걸",
+            "en": "a rodeo cowgirl costume — a fringed cropped vest, a western hat, short denim and cowboy boots"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "hair_tuck · out"
+        },
+        "garments": [
+          "vest"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "halter neck"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "blue",
+          "ko": "스카이 · 네이비",
+          "en": "sky blue and navy",
+          "words": [
+            "blue",
+            "navy",
+            "cobalt",
+            "sky",
+            "azure",
+            "denim"
+          ]
+        }
+      }
+    },
+    "casual6": {
+      "scene": "A training cone and a folded black towel rest beside the chalk boundary line.",
+      "outfit": "A fully lined black halter bikini with charcoal trim, a securely fitted plunging front, neck tie and underbust band, leaving her midriff and shoulders exposed.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "detail 첫머리로 배틀 연습장의 소품·행사·조명만 구체화하며 자세와 구도는 계획에 맡김.",
+        "outfit": "홀터 비키니의 옷 종류를 유지하며 블랙 · 차콜와 지정 드러내기 plunging neckline, bare midriff를 의상 구조에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / work_practice / swimwear / halter_bikini / sit_floor / three_quarter",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "work_practice",
+            "ko": "배틀 연습장",
+            "en": "an outdoor battle practice field marked with cones and chalk lines"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "halter_bikini",
+            "ko": "홀터 비키니",
+            "en": "a halter bikini with a neck tie and an underbust band"
+          },
+          "posture": {
+            "key": "sit_floor",
+            "ko": "바닥에 앉기",
+            "en": "sitting on the ground"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "chin_knee · floor_brace"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "plunging neckline",
+          "bare midriff"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "black",
+          "ko": "블랙 · 차콜",
+          "en": "black with charcoal accents",
+          "words": [
+            "black",
+            "charcoal",
+            "jet",
+            "onyx"
+          ]
+        }
+      }
+    },
+    "casual7": {
+      "scene": "Golden circus spotlights wash the striped canopy and the ring’s red sawdust floor.",
+      "outfit": "An adult Raichu costume: an orange high-cut bodysuit with an ivory sweetheart chest panel, small side-waist cutouts, sheer brown thigh-high tights and two round yellow fabric ornaments, with secure opaque coverage.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "light 첫머리로 서커스 천막의 소품·행사·조명만 구체화하며 자세와 구도는 계획에 맡김.",
+        "outfit": "바디수트형의 옷 종류를 유지하며 원작 코스튬 색와 지정 드러내기 sweetheart neckline, side cutouts를 의상 구조에 반영."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_circus / pokemon_costume / pc_bodysuit / sit_floor / environmental",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_circus",
+            "ko": "서커스 천막",
+            "en": "a circus tent ring under a striped canopy"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "pc_bodysuit",
+            "ko": "바디수트형",
+            "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+          },
+          "posture": {
+            "key": "sit_floor",
+            "ko": "바닥에 앉기",
+            "en": "sitting on the ground"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "lap · floor_brace"
+        },
+        "garments": [
+          "bodysuit",
+          "leggings"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "side cutouts"
+        ],
+        "lead": "light",
+        "color": null
+      }
+    }
+  }
+}

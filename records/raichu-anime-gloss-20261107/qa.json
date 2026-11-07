@@ -1,0 +1,186 @@
+{
+  "light": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "갈색 긴 포니테일·금빛 아몬드 눈·작은 코·도톰한 입술, 부드러운 턱. 최근 아보크·깨비드릴조·아보와 대조해 얼굴 폭과 눈매·코입 비율 구별."
+    },
+    "composition_expression_outfit": {
+      "evidence": "흰 경장·갈색 줄·노란 원형 장식, 종아리 추력과 전기. 귀 장식 위 끝 약간 잘림."
+    },
+    "style_25d": {
+      "判定": "2D; 最新 anime_gloss と一致",
+      "근거": "얇은 윤곽선, 피부의 셀-그라데이션 음영과 세밀한 머리 광택; 최신 clean 2D 지정."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe 모듈 없음; exit 3",
+      "arms": "2; 화면 밖은 보였다고 세지 않음",
+      "legs": "2; 화면 밖은 보였다고 세지 않음",
+      "hands": "두 팔·다리 연결. 열린 장갑 손 다섯 손가락. 반대 느슨한 주먹은 일부 가려짐. 양발 화면 안.",
+      "overlay_checked": false,
+      "note": "생성 원본 직접 검수; 가려진 손가락 개수 확정하지 않음"
+    },
+    "original_sha256": "de865dc4d6735069eb0bb2eedddf48aeb4ea2348109510a6957da56a94570ab4"
+  },
+  "casual1": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "기준의 갈색 머리·금빛 눈·동일한 코와 입술 유지."
+    },
+    "composition_expression_outfit": {
+      "evidence": "카멜 블라우스와 드레이프·댄스 무대·웨이브. 계획 chest_up보다 허리까지 넓음."
+    },
+    "style_25d": {
+      "判定": "2D; 最新 anime_gloss と一致",
+      "근거": "얇은 윤곽선, 피부의 셀-그라데이션 음영과 세밀한 머리 광택; 최신 clean 2D 지정."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe 모듈 없음; exit 3",
+      "arms": "2; 화면 밖은 보였다고 세지 않음",
+      "legs": "2; 화면 밖은 보였다고 세지 않음",
+      "hands": "흔드는 손 엄지와 네 손가락. 쇄골 손은 네 손가락 보이고 엄지 일부 가려짐. 팔 둘 이어짐, 하체 프레임 밖.",
+      "overlay_checked": false,
+      "note": "생성 원본 직접 검수; 가려진 손가락 개수 확정하지 않음"
+    },
+    "original_sha256": "817e230b6e8ef5d21c4464c3195e6c604d3ae34782d29fc6b4dd66afe713a03f"
+  },
+  "casual2": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "같은 갈색 포니테일·금빛 눈, 웃음에서 눈꺼풀과 입꼬리만 변화."
+    },
+    "composition_expression_outfit": {
+      "evidence": "보드게임 선반과 주사위·네이비 상의·데님 멜빵. face_close보다 넓게 가슴까지."
+    },
+    "style_25d": {
+      "判定": "2D; 最新 anime_gloss と一致",
+      "근거": "얇은 윤곽선, 피부의 셀-그라데이션 음영과 세밀한 머리 광택; 최신 clean 2D 지정."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe 모듈 없음; exit 3",
+      "arms": "2; 화면 밖은 보였다고 세지 않음",
+      "legs": "2; 화면 밖은 보였다고 세지 않음",
+      "hands": "V 손 검지·중지 펴짐, 약지·소지 접힘·엄지 연결. 반대 손·다리 프레임 밖.",
+      "overlay_checked": false,
+      "note": "생성 원본 직접 검수; 가려진 손가락 개수 확정하지 않음"
+    },
+    "original_sha256": "ac6c7f27f7a254e7fe966b903276e105a842097060b23f42daf454930cdb2136"
+  },
+  "casual3": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "같은 머리·눈·부드러운 턱을 어깨 너머로 유지."
+    },
+    "composition_expression_outfit": {
+      "evidence": "라벤더 웨딩·모자·풀과 스카이라인, 열린 등과 목선. 계획 옆모습보다 뒤3/4."
+    },
+    "style_25d": {
+      "判定": "2D; 最新 anime_gloss と一致",
+      "근거": "얇은 윤곽선, 피부의 셀-그라데이션 음영과 세밀한 머리 광택; 최신 clean 2D 지정."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe 모듈 없음; exit 3",
+      "arms": "2; 화면 밖은 보였다고 세지 않음",
+      "legs": "2; 화면 밖은 보였다고 세지 않음",
+      "hands": "모자 챙 손 검지와 접힌 손가락 연결; 엄지 일부 가려짐. 반대 팔은 아래 테두리로 이어짐.",
+      "overlay_checked": false,
+      "note": "생성 원본 직접 검수; 가려진 손가락 개수 확정하지 않음"
+    },
+    "original_sha256": "80d68e14373f5435225ed252bdc69e147dc42c3072d86fa0052e51ec2c3ada10"
+  },
+  "casual4": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "갈색 포니테일·금빛 눈·같은 코입을 뒤돌아 유지."
+    },
+    "composition_expression_outfit": {
+      "evidence": "와인 오프숄더 상의·조거팬츠, 나무 욕조와 산장. 꼬리형 장식 남음. 옆모습보다 뒤3/4."
+    },
+    "style_25d": {
+      "判定": "2D; 最新 anime_gloss と一致",
+      "근거": "얇은 윤곽선, 피부의 셀-그라데이션 음영과 세밀한 머리 광택; 최신 clean 2D 지정."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe 모듈 없음; exit 3",
+      "arms": "2; 화면 밖은 보였다고 세지 않음",
+      "legs": "2; 화면 밖은 보였다고 세지 않음",
+      "hands": "올린 손 다섯, 내린 손 손가락 일부 겹침. 두 팔·다리와 두 맨발 연결, 발가락 일부 포개짐.",
+      "overlay_checked": false,
+      "note": "생성 원본 직접 검수; 가려진 손가락 개수 확정하지 않음"
+    },
+    "original_sha256": "aba0ccdfe85bb8e039f28897cca8d5d2a8511fe9a6fe2001037133dbbc35a7ab"
+  },
+  "casual5": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "갈색 머리·금빛 눈, 같은 턱과 입술에 굳은 표정."
+    },
+    "composition_expression_outfit": {
+      "evidence": "라이브하우스·벽·카우보이 모자·프린지 조끼·홀터·데님 쇼츠. 귀 장식은 모자에 가림."
+    },
+    "style_25d": {
+      "判定": "2D; 最新 anime_gloss と一致",
+      "근거": "얇은 윤곽선, 피부의 셀-그라데이션 음영과 세밀한 머리 광택; 최신 clean 2D 지정."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe 모듈 없음; exit 3",
+      "arms": "2; 화면 밖은 보였다고 세지 않음",
+      "legs": "2; 화면 밖은 보였다고 세지 않음",
+      "hands": "머리 만지는 손 접힌 손가락과 엄지 일부 가려짐. 다른 손·다리 프레임 밖, 두 팔 자연스럽게 이어짐.",
+      "overlay_checked": false,
+      "note": "생성 원본 직접 검수; 가려진 손가락 개수 확정하지 않음"
+    },
+    "original_sha256": "c8e4f85d91896d85f24eb270b2b69fdaed27136251051d0dbcd943beb8ca6eb9"
+  },
+  "casual6": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "기준 얼굴과 머리·눈 유지, 턱 괴어도 하관 과장 없음."
+    },
+    "composition_expression_outfit": {
+      "evidence": "검정 홀터 비키니·연습장 콘·수건·chalk line, 바닥 앉음."
+    },
+    "style_25d": {
+      "判定": "2D; 最新 anime_gloss と一致",
+      "근거": "얇은 윤곽선, 피부의 셀-그라데이션 음영과 세밀한 머리 광택; 최신 clean 2D 지정."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe 모듈 없음; exit 3",
+      "arms": "2; 화면 밖은 보였다고 세지 않음",
+      "legs": "2; 화면 밖은 보였다고 세지 않음",
+      "hands": "턱 괴는 손 일부 볼 뒤 가려짐. 바닥 지지 손 다섯 손가락. 두 팔·다리 연결, 앞발 일부 하단 잘림.",
+      "overlay_checked": false,
+      "note": "생성 원본 직접 검수; 가려진 손가락 개수 확정하지 않음"
+    },
+    "original_sha256": "1a30ead282f8ac46eb943d8c3e69b8d870fd63a53b051ac87d3de01be8d6baa6"
+  },
+  "casual7": {
+    "accepted": true,
+    "identity": {
+      "match": true,
+      "evidence": "같은 갈색 머리·금빛 눈, 옆얼굴로 같은 코·턱."
+    },
+    "composition_expression_outfit": {
+      "evidence": "서커스 조명·오렌지 바디수트·갈색 스타킹·Raichu 귀와 꼬리 코스튬. 계획 환경 와이드보다 인물 비중 큼."
+    },
+    "style_25d": {
+      "判定": "2D; 最新 anime_gloss と一致",
+      "근거": "얇은 윤곽선, 피부의 셀-그라데이션 음영과 세밀한 머리 광택; 최신 clean 2D 지정."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe 모듈 없음; exit 3",
+      "arms": "2; 화면 밖은 보였다고 세지 않음",
+      "legs": "2; 화면 밖은 보였다고 세지 않음",
+      "hands": "무릎 위 손과 바닥 손 다섯 손가락, 팔 둘 이어짐. 교차한 다리 둘·구두 둘 연결.",
+      "overlay_checked": false,
+      "note": "생성 원본 직접 검수; 가려진 손가락 개수 확정하지 않음"
+    },
+    "original_sha256": "fc06399dee7b631ca4984393b4d867c1622c379d7c07e2882f564543dedd8c24"
+  }
+}
