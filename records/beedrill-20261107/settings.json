@@ -3,7 +3,7 @@
   "card": "독침붕",
   "no": 15,
   "style": "anime_gloss",
-  "plan": "/workspace/scratch/a5aafbe82665/PLAN.json",
+  "plan": "/workspace/scratch/a5aafbe82665/PLAN-corrected.json",
   "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
   "slots": {
     "light": {
@@ -157,17 +157,17 @@
       }
     },
     "casual2": {
-      "scene": "Peach morning light glitters across the harbour beyond the ferry rail.",
-      "outfit": "Soft-orange work overalls over a fitted off-shoulder tank top with a low open back and short overall legs, accompanied by rubber boots.",
+      "scene": "The street market is holding a summer beachwear pop-up among striped food-stall awnings.",
+      "outfit": "A fully lined teal triangle bikini with slider cups, high-cut tie-side bottoms and open sides.",
       "camera": "",
       "custom": "",
       "why": {
-        "scene": "페리 갑판의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: Peach morning light glitters across the harbour beyond the ferry rail.",
-        "outfit": "직업복에서 정한 옷 종류와 색을 살리고 open back, off-shoulder neckline를 의상 구조로 표현한다."
+        "scene": "시장의 고른 길을 유지하며 새 시간·공간 단서를 넣음: The street market is holding a summer beachwear pop-up among striped food-stall awnings.",
+        "outfit": "수영복 옷의 형태를 살리고 high-cut leg, side cutouts를 표현함."
       },
       "guide": {
         "tree": 2,
-        "path": "now / travel_ferry / work / keeper_overalls / stand / waist_up / tote_shoulder",
+        "path": "now / street_market / swimwear / triangle_bikini / stand / waist_up",
         "v2": {
           "era": {
             "key": "now",
@@ -175,88 +175,9 @@
             "en": "present-day real world"
           },
           "place": {
-            "key": "travel_ferry",
-            "ko": "페리 갑판",
-            "en": "the rail of a harbour ferry deck in the wind"
-          },
-          "role": null,
-          "use": {
-            "key": "tote_shoulder",
-            "ko": "가방끈을 어깨에 걸쳐 잡는다",
-            "en": "holds the strap of a canvas tote bag on her shoulder",
-            "prop": "토트백"
-          },
-          "ofam": {
-            "key": "work",
-            "ko": "직업복",
-            "en": "practical clothing for her Pokémon-world job, readable through its tools",
-            "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
-          },
-          "item": {
-            "key": "keeper_overalls",
-            "ko": "사육 작업복",
-            "en": "work overalls over a fitted tank top and rubber boots"
-          },
-          "posture": {
-            "key": "stand",
-            "ko": "서기",
-            "en": "standing"
-          },
-          "frame": "waist_up",
-          "body": {
-            "key": "front_3q",
-            "ko": "3/4 정면",
-            "en": "body turned three-quarters toward the camera"
-          },
-          "hands": "prop · pocket"
-        },
-        "garments": [
-          "overalls",
-          "tank"
-        ],
-        "expose": [
-          "open back",
-          "off-shoulder neckline"
-        ],
-        "lead": "light",
-        "color": {
-          "key": "orange",
-          "ko": "코랄 · 오렌지",
-          "en": "coral and soft orange",
-          "words": [
-            "coral",
-            "orange",
-            "peach",
-            "apricot",
-            "tangerine",
-            "terracotta",
-            "rust"
-          ]
-        }
-      }
-    },
-    "casual3": {
-      "scene": "Soft ceiling light reflects in the futuristic spa pools beside the white curved walkway.",
-      "outfit": "A lavender strapless one-piece swimsuit with a secure plunging neckline and high-cut legs, fully lined.",
-      "camera": "",
-      "custom": "",
-      "why": {
-        "scene": "미래풍 스파의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: Soft ceiling light reflects in the futuristic spa pools beside the white curved walkway.",
-        "outfit": "수영복에서 정한 옷 종류와 색을 살리고 plunging neckline, strapless top를 의상 구조로 표현한다."
-      },
-      "guide": {
-        "tree": 2,
-        "path": "fantasy / fx_spa / swimwear / stand / chest_up",
-        "v2": {
-          "era": {
-            "key": "fantasy",
-            "ko": "무대·환상",
-            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
-          },
-          "place": {
-            "key": "fx_spa",
-            "ko": "미래풍 스파",
-            "en": "a futuristic spa of white curves and soft light"
+            "key": "street_market",
+            "ko": "시장",
+            "en": "a busy street market of food stalls and strung bulbs"
           },
           "role": null,
           "use": null,
@@ -266,80 +187,9 @@
             "en": "modern swimwear, fully lined and secure during movement"
           },
           "item": {
-            "key": "",
-            "ko": "자동 — 계열 안에서 장면에 맞게",
-            "en": ""
-          },
-          "posture": {
-            "key": "stand",
-            "ko": "서기",
-            "en": "standing"
-          },
-          "frame": "chest_up",
-          "body": {
-            "key": "front",
-            "ko": "정면",
-            "en": "body facing the camera"
-          },
-          "hands": "wave · chest_hand"
-        },
-        "garments": [
-          "swimsuit"
-        ],
-        "expose": [
-          "plunging neckline",
-          "strapless top"
-        ],
-        "lead": "action",
-        "color": {
-          "key": "purple",
-          "ko": "라벤더 · 플럼",
-          "en": "lavender and plum",
-          "words": [
-            "purple",
-            "lavender",
-            "lilac",
-            "violet",
-            "plum",
-            "mauve"
-          ]
-        }
-      }
-    },
-    "casual4": {
-      "scene": "The convenience store has a small fashion-shoot display beside shelves of period groceries in 1996.",
-      "outfit": "A sage-green babydoll slip with narrow halter straps, an empire waist, a softly flared hem and a high thigh slit, fully opaque with secure intimate coverage.",
-      "camera": "",
-      "custom": "",
-      "why": {
-        "scene": "마트·편의점의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: The convenience store has a small fashion-shoot display beside shelves of period groceries in 1996.",
-        "outfit": "란제리풍에서 정한 옷 종류와 색을 살리고 high thigh slit, halter neck를 의상 구조로 표현한다."
-      },
-      "guide": {
-        "tree": 2,
-        "path": "release / street_grocery / lingerie / babydoll / stand / waist_up",
-        "v2": {
-          "era": {
-            "key": "release",
-            "ko": "첫 등장 무렵 현실",
-            "en": "the real world around the year her Pokémon first appeared"
-          },
-          "place": {
-            "key": "street_grocery",
-            "ko": "마트·편의점",
-            "en": "a neighbourhood grocery or convenience store with bright aisles"
-          },
-          "role": null,
-          "use": null,
-          "ofam": {
-            "key": "lingerie",
-            "ko": "란제리풍",
-            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
-          },
-          "item": {
-            "key": "babydoll",
-            "ko": "베이비돌",
-            "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+            "key": "triangle_bikini",
+            "ko": "트라이앵글 비키니",
+            "en": "a triangle bikini with slider cups and tie-side bottoms"
           },
           "posture": {
             "key": "stand",
@@ -352,27 +202,170 @@
             "ko": "정면",
             "en": "body facing the camera"
           },
-          "hands": "clasp_both · clasp_both"
+          "hands": "thumbs_up · hip"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "high-cut leg",
+          "side cutouts"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "teal",
+          "ko": "민트 · 틸",
+          "en": "mint and teal",
+          "words": [
+            "mint",
+            "teal",
+            "turquoise",
+            "aqua",
+            "seafoam",
+            "jade"
+          ]
+        }
+      }
+    },
+    "casual3": {
+      "scene": "The cabana daybed has bronze piping and a folded champagne veil for a 1996 bridal editorial.",
+      "outfit": "A camel and chocolate-brown bridal slip with a strapless neckline and high thigh slit, its opaque satin folds held securely.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "리조트 카바나의 고른 길을 유지하며 새 시간·공간 단서를 넣음: The cabana daybed has bronze piping and a folded champagne veil for a 1996 bridal editorial.",
+        "outfit": "웨딩 옷의 형태를 살리고 high thigh slit, strapless top를 표현함."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / water_resort / bridal / lie_side / waist_up",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "water_resort",
+            "ko": "리조트 카바나",
+            "en": "a resort cabana with a shaded daybed by the water"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "bridal",
+            "ko": "웨딩",
+            "en": "bridal wear"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "lie_side",
+            "ko": "옆으로 눕기",
+            "en": "lying on her side"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
         },
         "garments": [
           "slip"
         ],
         "expose": [
           "high thigh slit",
-          "halter neck"
+          "strapless top"
         ],
-        "lead": "place",
+        "lead": "action",
         "color": {
-          "key": "green",
-          "ko": "세이지 · 올리브",
-          "en": "sage and olive green",
+          "key": "brown",
+          "ko": "카멜 · 초콜릿",
+          "en": "camel and chocolate brown",
           "words": [
-            "green",
-            "sage",
-            "olive",
-            "emerald",
-            "moss",
-            "forest"
+            "brown",
+            "camel",
+            "tan",
+            "chocolate",
+            "beige",
+            "khaki",
+            "taupe",
+            "caramel"
+          ]
+        }
+      }
+    },
+    "casual4": {
+      "scene": "A folded silver ribbon and a small embroidery hoop rest on the living-room low table.",
+      "outfit": "A cropped dove-grey kebaya-inspired sheer lace top with floral embroidery over a fitted silver camisole, paired with opaque mini-length lingerie shorts, exposing the midriff and thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "거실의 고른 길을 유지하며 새 시간·공간 단서를 넣음: A folded silver ribbon and a small embroidery hoop rest on the living-room low table.",
+        "outfit": "란제리풍 옷의 형태를 살리고 mini length, bare midriff를 표현함."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / home_living / lingerie / kebaya_lace / lean_wall / full_body",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "home_living",
+            "ko": "거실",
+            "en": "her living room with a deep sofa, floor cushions and a low table"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "kebaya_lace",
+            "ko": "크바야 응용 레이스",
+            "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "tank"
+        ],
+        "expose": [
+          "mini length",
+          "bare midriff"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "grey",
+          "ko": "그레이 · 실버",
+          "en": "dove grey and silver",
+          "words": [
+            "grey",
+            "gray",
+            "silver",
+            "slate",
+            "pewter"
           ]
         }
       }
@@ -438,17 +431,17 @@
       }
     },
     "casual6": {
-      "scene": "The ice cream is pale peach with a crisp wafer cone beside the cabana daybed.",
-      "outfit": "A dove-grey and silver bridal slip with a one-shoulder cut and high thigh slit, its satin drape leaving the shoulder and leg exposed.",
+      "scene": "Pale morning light draws long lines across the wind-rippled dune trail.",
+      "outfit": "A sage-green rock look with a leather mini skirt, a cropped halter-cut vest and a choker, leaving the midriff and shoulders exposed.",
       "camera": "",
       "custom": "",
       "why": {
-        "scene": "리조트 카바나의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: The ice cream is pale peach with a crisp wafer cone beside the cabana daybed.",
-        "outfit": "웨딩에서 정한 옷 종류와 색을 살리고 one-shoulder cut, high thigh slit를 의상 구조로 표현한다."
+        "scene": "사막 길의 고른 길을 유지하며 새 시간·공간 단서를 넣음: Pale morning light draws long lines across the wind-rippled dune trail.",
+        "outfit": "서브컬처 옷의 형태를 살리고 cropped hem, halter neck를 표현함."
       },
       "guide": {
         "tree": 2,
-        "path": "now / water_resort / bridal / sit_chair / face_close / icecream_taste",
+        "path": "now / travel_dunes / subculture / rock_leather / kneel / three_quarter",
         "v2": {
           "era": {
             "key": "now",
@@ -456,58 +449,55 @@
             "en": "present-day real world"
           },
           "place": {
-            "key": "water_resort",
-            "ko": "리조트 카바나",
-            "en": "a resort cabana with a shaded daybed by the water"
+            "key": "travel_dunes",
+            "ko": "사막 길",
+            "en": "a wind-rippled desert dune trail"
           },
           "role": null,
-          "use": {
-            "key": "icecream_taste",
-            "ko": "아이스크림을 먹는다",
-            "en": "brings an ice cream cone to her lips",
-            "prop": "아이스크림"
-          },
+          "use": null,
           "ofam": {
-            "key": "bridal",
-            "ko": "웨딩",
-            "en": "bridal wear"
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
           },
           "item": {
-            "key": "",
-            "ko": "자동 — 계열 안에서 장면에 맞게",
-            "en": ""
+            "key": "rock_leather",
+            "ko": "록",
+            "en": "rock — a leather mini skirt, a cropped vest and a choker"
           },
           "posture": {
-            "key": "sit_chair",
-            "ko": "의자에 앉기",
-            "en": "seated on a chair"
+            "key": "kneel",
+            "ko": "무릎 꿇기",
+            "en": "kneeling on the ground"
           },
-          "frame": "face_close",
+          "frame": "three_quarter",
           "body": {
-            "key": "front_3q",
-            "ko": "3/4 정면",
-            "en": "body turned three-quarters toward the camera"
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
           },
-          "hands": "prop · out"
+          "hands": "clasp_both · clasp_both"
         },
         "garments": [
-          "slip"
+          "skirt",
+          "vest"
         ],
         "expose": [
-          "one-shoulder cut",
-          "high thigh slit"
+          "cropped hem",
+          "halter neck"
         ],
-        "lead": "action",
+        "lead": "light",
         "color": {
-          "key": "grey",
-          "ko": "그레이 · 실버",
-          "en": "dove grey and silver",
+          "key": "green",
+          "ko": "세이지 · 올리브",
+          "en": "sage and olive green",
           "words": [
-            "grey",
-            "gray",
-            "silver",
-            "slate",
-            "pewter"
+            "green",
+            "sage",
+            "olive",
+            "emerald",
+            "moss",
+            "forest"
           ]
         }
       }

@@ -1,0 +1,587 @@
+{
+  "version": 2,
+  "card": "독침붕",
+  "no": 15,
+  "style": "anime_gloss",
+  "plan": "/workspace/scratch/a5aafbe82665/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {},
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "segmented_parts"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "poison"
+          },
+          {
+            "key": "aura",
+            "type": "bug"
+          },
+          {
+            "key": "orbit",
+            "type": "poison"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "segmented_parts"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "poison"
+          },
+          {
+            "key": "aura",
+            "type": "bug"
+          },
+          {
+            "key": "orbit",
+            "type": "poison"
+          }
+        ]
+      },
+      "mecha_recent": [
+        "heavy_assault",
+        "cape_plates",
+        "light_agile",
+        "long_coat_plate",
+        "tail_unit",
+        "wing_binder",
+        "wing_binder",
+        "sub_arms",
+        "hover_rings",
+        "frame_exposed"
+      ],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "A small cream apron bow catches the coloured light at a themed costume party in the nightclub.",
+      "outfit": "An ivory-and-black maid costume with a structured bodice, puffed sleeves and full apron, side cutouts and a mini-length skirt exposing the shoulders and thighs.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "클럽의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: A small cream apron bow catches the coloured light at a themed costume party in the nightclub.",
+        "outfit": "역할극·직업 의상에서 정한 옷 종류와 색을 살리고 side cutouts, mini length를 의상 구조로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / night_club / roleplay / adult_maid / lean_wall / chest_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "night_club",
+            "ko": "클럽",
+            "en": "a nightclub with a dance floor under moving coloured lights and a velvet-rope queue at its door"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "adult_maid",
+            "ko": "메이드 코스튬",
+            "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "arms_crossed · arms_crossed"
+        },
+        "garments": [
+          "apron"
+        ],
+        "expose": [
+          "side cutouts",
+          "mini length"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "ivory",
+          "ko": "아이보리 · 크림",
+          "en": "ivory and warm cream",
+          "words": [
+            "ivory",
+            "cream",
+            "white",
+            "off-white",
+            "pearl"
+          ]
+        }
+      }
+    },
+    "casual2": {
+      "scene": "Peach morning light glitters across the harbour beyond the ferry rail.",
+      "outfit": "Soft-orange work overalls over a fitted off-shoulder tank top with a low open back and short overall legs, accompanied by rubber boots.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "페리 갑판의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: Peach morning light glitters across the harbour beyond the ferry rail.",
+        "outfit": "직업복에서 정한 옷 종류와 색을 살리고 open back, off-shoulder neckline를 의상 구조로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / travel_ferry / work / keeper_overalls / stand / waist_up / tote_shoulder",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "travel_ferry",
+            "ko": "페리 갑판",
+            "en": "the rail of a harbour ferry deck in the wind"
+          },
+          "role": null,
+          "use": {
+            "key": "tote_shoulder",
+            "ko": "가방끈을 어깨에 걸쳐 잡는다",
+            "en": "holds the strap of a canvas tote bag on her shoulder",
+            "prop": "토트백"
+          },
+          "ofam": {
+            "key": "work",
+            "ko": "직업복",
+            "en": "practical clothing for her Pokémon-world job, readable through its tools",
+            "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+          },
+          "item": {
+            "key": "keeper_overalls",
+            "ko": "사육 작업복",
+            "en": "work overalls over a fitted tank top and rubber boots"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · pocket"
+        },
+        "garments": [
+          "overalls",
+          "tank"
+        ],
+        "expose": [
+          "open back",
+          "off-shoulder neckline"
+        ],
+        "lead": "light",
+        "color": {
+          "key": "orange",
+          "ko": "코랄 · 오렌지",
+          "en": "coral and soft orange",
+          "words": [
+            "coral",
+            "orange",
+            "peach",
+            "apricot",
+            "tangerine",
+            "terracotta",
+            "rust"
+          ]
+        }
+      }
+    },
+    "casual3": {
+      "scene": "Soft ceiling light reflects in the futuristic spa pools beside the white curved walkway.",
+      "outfit": "A lavender strapless one-piece swimsuit with a secure plunging neckline and high-cut legs, fully lined.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "미래풍 스파의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: Soft ceiling light reflects in the futuristic spa pools beside the white curved walkway.",
+        "outfit": "수영복에서 정한 옷 종류와 색을 살리고 plunging neckline, strapless top를 의상 구조로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "fantasy / fx_spa / swimwear / stand / chest_up",
+        "v2": {
+          "era": {
+            "key": "fantasy",
+            "ko": "무대·환상",
+            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+          },
+          "place": {
+            "key": "fx_spa",
+            "ko": "미래풍 스파",
+            "en": "a futuristic spa of white curves and soft light"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "wave · chest_hand"
+        },
+        "garments": [
+          "swimsuit"
+        ],
+        "expose": [
+          "plunging neckline",
+          "strapless top"
+        ],
+        "lead": "action",
+        "color": {
+          "key": "purple",
+          "ko": "라벤더 · 플럼",
+          "en": "lavender and plum",
+          "words": [
+            "purple",
+            "lavender",
+            "lilac",
+            "violet",
+            "plum",
+            "mauve"
+          ]
+        }
+      }
+    },
+    "casual4": {
+      "scene": "The convenience store has a small fashion-shoot display beside shelves of period groceries in 1996.",
+      "outfit": "A sage-green babydoll slip with narrow halter straps, an empire waist, a softly flared hem and a high thigh slit, fully opaque with secure intimate coverage.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "마트·편의점의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: The convenience store has a small fashion-shoot display beside shelves of period groceries in 1996.",
+        "outfit": "란제리풍에서 정한 옷 종류와 색을 살리고 high thigh slit, halter neck를 의상 구조로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / street_grocery / lingerie / babydoll / stand / waist_up",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "street_grocery",
+            "ko": "마트·편의점",
+            "en": "a neighbourhood grocery or convenience store with bright aisles"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "babydoll",
+            "ko": "베이비돌",
+            "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "clasp_both · clasp_both"
+        },
+        "garments": [
+          "slip"
+        ],
+        "expose": [
+          "high thigh slit",
+          "halter neck"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "green",
+          "ko": "세이지 · 올리브",
+          "en": "sage and olive green",
+          "words": [
+            "green",
+            "sage",
+            "olive",
+            "emerald",
+            "moss",
+            "forest"
+          ]
+        }
+      }
+    },
+    "casual5": {
+      "scene": "The riverside terrace glows in the first gold light of the evening fireworks.",
+      "outfit": "An adult Beedrill costume consisting of a cropped yellow-and-black knit top and high-waisted shorts exposing the midriff, slim antenna hair ornaments and small white wing-shaped costume drapes; all markings are on clothing.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "불꽃놀이 강변의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: The riverside terrace glows in the first gold light of the evening fireworks.",
+        "outfit": "포켓몬 코스튬에서 정한 옷 종류와 색을 살리고 bare midriff, cropped hem를 의상 구조로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / stage_fireworks / pokemon_costume / sit_edge / environmental",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "stage_fireworks",
+            "ko": "불꽃놀이 강변",
+            "en": "a riverside seating area waiting for festival fireworks"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "sit_edge",
+            "ko": "가장자리에 걸터앉기",
+            "en": "perched on a ledge or edge"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "knit_top",
+          "shorts"
+        ],
+        "expose": [
+          "bare midriff",
+          "cropped hem"
+        ],
+        "lead": "light",
+        "color": null
+      }
+    },
+    "casual6": {
+      "scene": "The ice cream is pale peach with a crisp wafer cone beside the cabana daybed.",
+      "outfit": "A dove-grey and silver bridal slip with a one-shoulder cut and high thigh slit, its satin drape leaving the shoulder and leg exposed.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "리조트 카바나의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: The ice cream is pale peach with a crisp wafer cone beside the cabana daybed.",
+        "outfit": "웨딩에서 정한 옷 종류와 색을 살리고 one-shoulder cut, high thigh slit를 의상 구조로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / water_resort / bridal / sit_chair / face_close / icecream_taste",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "water_resort",
+            "ko": "리조트 카바나",
+            "en": "a resort cabana with a shaded daybed by the water"
+          },
+          "role": null,
+          "use": {
+            "key": "icecream_taste",
+            "ko": "아이스크림을 먹는다",
+            "en": "brings an ice cream cone to her lips",
+            "prop": "아이스크림"
+          },
+          "ofam": {
+            "key": "bridal",
+            "ko": "웨딩",
+            "en": "bridal wear"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "face_close",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · out"
+        },
+        "garments": [
+          "slip"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "high thigh slit"
+        ],
+        "lead": "action",
+        "color": {
+          "key": "grey",
+          "ko": "그레이 · 실버",
+          "en": "dove grey and silver",
+          "words": [
+            "grey",
+            "gray",
+            "silver",
+            "slate",
+            "pewter"
+          ]
+        }
+      }
+    },
+    "casual7": {
+      "scene": "A pair of ski goggles rests on the photo-booth prop shelf during a 1996 winter-sports promotion.",
+      "outfit": "A rose-pink fitted ski jacket cut short with side waist cutouts and an open-back inset over a fitted top, paired with charcoal padded ski pants.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "스티커 사진기의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: A pair of ski goggles rests on the photo-booth prop shelf during a 1996 winter-sports promotion.",
+        "outfit": "운동복에서 정한 옷 종류와 색을 살리고 side cutouts, open back를 의상 구조로 표현한다."
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / arcade_photo / active / ski_set / sit_chair / full_body",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "arcade_photo",
+            "ko": "스티커 사진기",
+            "en": "an arcade photo-sticker booth under bright ring lights"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "active",
+            "ko": "운동복",
+            "en": "activewear made for the activity"
+          },
+          "item": {
+            "key": "ski_set",
+            "ko": "스키 재킷 + 스키 팬츠",
+            "en": "a fitted ski jacket and padded ski pants"
+          },
+          "posture": {
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
+          },
+          "frame": "full_body",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "jacket",
+          "trousers"
+        ],
+        "expose": [
+          "side cutouts",
+          "open back"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "pink",
+          "ko": "핑크 · 로즈",
+          "en": "rose pink and blush",
+          "words": [
+            "pink",
+            "rose",
+            "blush",
+            "fuchsia",
+            "magenta"
+          ]
+        }
+      }
+    }
+  }
+}

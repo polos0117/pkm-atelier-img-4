@@ -1,6 +1,6 @@
 # 독침붕 (0015 · Beedrill) — 지시문 묶음
 
-화풍 `anime_gloss` · 만든 도구 `tools/prompt-pack.cjs build` · 생성기 코드 93af16d · 2026-11-07T06:57:15.040Z
+화풍 `anime_gloss` · 만든 도구 `tools/prompt-pack.cjs build` · 생성기 코드 93af16d · 2026-11-07T07:23:36.093Z
 
 자리마다 `<자리>-prompt.txt` 를 **고치지 않고 그대로** 제출하고, 첨부 칸의 그림을 붙인다. 고칠 것이 있으면 settings.json 을 고쳐 build 를 다시 돌린다.
 기록에는 `<자리>-ui.json`(생성기 저장값과 같은 꼴)과 지시문을 둔다 — 관리기를 쓰면 `python3 tools/image-runner.py intent --card 15 --slot <자리> --prompt <이 폴더>/<자리>-prompt.txt --ui <이 폴더>/<자리>-ui.json`.
@@ -9,11 +9,11 @@
 |---|---|---|---|---|---|---|
 | ① | light | 없음 | `light-prompt.txt` | 624 | `42091e59d389` | `독침붕_light_anime_gloss_f.webp` |
 | ② | casual1 | ① 독침붕_light_anime_gloss_f.webp | `casual1-prompt.txt` | 895 | `309ac5aad327` | `독침붕_anime_gloss_f_casual1.webp` |
-| ③ | casual2 | ① 독침붕_light_anime_gloss_f.webp | `casual2-prompt.txt` | 906 | `92f9e479507a` | `독침붕_anime_gloss_f_casual2.webp` |
-| ④ | casual3 | ① 독침붕_light_anime_gloss_f.webp | `casual3-prompt.txt` | 891 | `fc724690ec22` | `독침붕_anime_gloss_f_casual3.webp` |
-| ⑤ | casual4 | ① 독침붕_light_anime_gloss_f.webp | `casual4-prompt.txt` | 918 | `105c2d5e70ed` | `독침붕_anime_gloss_f_casual4.webp` |
+| ③ | casual2 | ① 독침붕_light_anime_gloss_f.webp | `casual2-prompt.txt` | 865 | `b83b5482f851` | `독침붕_anime_gloss_f_casual2.webp` |
+| ④ | casual3 | ① 독침붕_light_anime_gloss_f.webp | `casual3-prompt.txt` | 932 | `538b43725cde` | `독침붕_anime_gloss_f_casual3.webp` |
+| ⑤ | casual4 | ① 독침붕_light_anime_gloss_f.webp | `casual4-prompt.txt` | 844 | `85c5805214bd` | `독침붕_anime_gloss_f_casual4.webp` |
 | ⑥ | casual5 | ① 독침붕_light_anime_gloss_f.webp | `casual5-prompt.txt` | 780 | `43ba4788149f` | `독침붕_anime_gloss_f_casual5.webp` |
-| ⑦ | casual6 | ① 독침붕_light_anime_gloss_f.webp | `casual6-prompt.txt` | 930 | `008ee888f33c` | `독침붕_anime_gloss_f_casual6.webp` |
+| ⑦ | casual6 | ① 독침붕_light_anime_gloss_f.webp | `casual6-prompt.txt` | 787 | `ce4d0816d785` | `독침붕_anime_gloss_f_casual6.webp` |
 | ⑧ | casual7 | ① 독침붕_light_anime_gloss_f.webp | `casual7-prompt.txt` | 885 | `d644a5672cd9` | `독침붕_anime_gloss_f_casual7.webp` |
 
 ## ② casual1 — 고른 장면(버전2)
@@ -34,39 +34,39 @@
 | 칸 | 고른 것 | 지시문 문장 |
 |---|---|---|
 | 시대 | 지금 현실 | present-day real world |
-| 장소 | 페리 갑판 | the rail of a harbour ferry deck in the wind |
+| 장소 | 시장 | a busy street market of food stalls and strung bulbs |
 | 역할 | — |  |
-| 의상 | 직업복 · 사육 작업복 | work overalls over a fitted tank top and rubber boots |
-| 몸 자세 · 구도 | 서기 · waist_up · 3/4 정면 | standing |
-| 손 · 소품 동작 | prop · pocket · 토트백 · 가방끈을 어깨에 걸쳐 잡는다 | holds the strap of a canvas tote bag on her shoulder |
+| 의상 | 수영복 · 트라이앵글 비키니 | a triangle bikini with slider cups and tie-side bottoms |
+| 몸 자세 · 구도 | 서기 · waist_up · 정면 | standing |
+| 손 · 소품 동작 | thumbs_up · hip |  |
 
-옷 종류 overalls + tank · 옷 색 코랄 · 오렌지 (coral and soft orange) · 드러내기 open back, off-shoulder neckline · 장면 칸 첫머리 light · 직접 입력 scene, outfit
+옷 종류 bikini · 옷 색 민트 · 틸 (mint and teal) · 드러내기 high-cut leg, side cutouts · 장면 칸 첫머리 place · 직접 입력 scene, outfit
 
 ## ④ casual3 — 고른 장면(버전2)
 
 | 칸 | 고른 것 | 지시문 문장 |
 |---|---|---|
-| 시대 | 무대·환상 | a stylised stage, editorial or fantasy setting not bound to a real year |
-| 장소 | 미래풍 스파 | a futuristic spa of white curves and soft light |
+| 시대 | 첫 등장 무렵 현실 | the real world around the year her Pokémon first appeared |
+| 장소 | 리조트 카바나 | a resort cabana with a shaded daybed by the water |
 | 역할 | — |  |
-| 의상 | 수영복 · 자동 — 계열 안에서 장면에 맞게 | modern swimwear, fully lined and secure during movement |
-| 몸 자세 · 구도 | 서기 · chest_up · 정면 | standing |
-| 손 · 소품 동작 | wave · chest_hand |  |
+| 의상 | 웨딩 · 자동 — 계열 안에서 장면에 맞게 | bridal wear |
+| 몸 자세 · 구도 | 옆으로 눕기 · waist_up · 뒤 3/4 | lying on her side |
+| 손 · 소품 동작 | AUTO · AUTO |  |
 
-옷 종류 swimsuit · 옷 색 라벤더 · 플럼 (lavender and plum) · 드러내기 plunging neckline, strapless top · 장면 칸 첫머리 action · 직접 입력 scene, outfit
+옷 종류 slip · 옷 색 카멜 · 초콜릿 (camel and chocolate brown) · 드러내기 high thigh slit, strapless top · 장면 칸 첫머리 action · 직접 입력 scene, outfit
 
 ## ⑤ casual4 — 고른 장면(버전2)
 
 | 칸 | 고른 것 | 지시문 문장 |
 |---|---|---|
-| 시대 | 첫 등장 무렵 현실 | the real world around the year her Pokémon first appeared |
-| 장소 | 마트·편의점 | a neighbourhood grocery or convenience store with bright aisles |
+| 시대 | 지금 현실 | present-day real world |
+| 장소 | 거실 | her living room with a deep sofa, floor cushions and a low table |
 | 역할 | — |  |
-| 의상 | 란제리풍 · 베이비돌 | a babydoll slip with narrow straps, an empire waist and a softly flared hem |
-| 몸 자세 · 구도 | 서기 · waist_up · 정면 | standing |
-| 손 · 소품 동작 | clasp_both · clasp_both |  |
+| 의상 | 란제리풍 · 크바야 응용 레이스 | a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole |
+| 몸 자세 · 구도 | 벽에 기대 서기 · full_body · 옆모습 | standing, leaning back against a wall |
+| 손 · 소품 동작 | AUTO · AUTO |  |
 
-옷 종류 slip · 옷 색 세이지 · 올리브 (sage and olive green) · 드러내기 high thigh slit, halter neck · 장면 칸 첫머리 place · 직접 입력 scene, outfit
+옷 종류 tank · 옷 색 그레이 · 실버 (dove grey and silver) · 드러내기 mini length, bare midriff · 장면 칸 첫머리 detail · 직접 입력 scene, outfit
 
 ## ⑥ casual5 — 고른 장면(버전2)
 
@@ -86,13 +86,13 @@
 | 칸 | 고른 것 | 지시문 문장 |
 |---|---|---|
 | 시대 | 지금 현실 | present-day real world |
-| 장소 | 리조트 카바나 | a resort cabana with a shaded daybed by the water |
+| 장소 | 사막 길 | a wind-rippled desert dune trail |
 | 역할 | — |  |
-| 의상 | 웨딩 · 자동 — 계열 안에서 장면에 맞게 | bridal wear |
-| 몸 자세 · 구도 | 의자에 앉기 · face_close · 3/4 정면 | seated on a chair |
-| 손 · 소품 동작 | prop · out · 아이스크림 · 아이스크림을 먹는다 | brings an ice cream cone to her lips |
+| 의상 | 서브컬처 · 록 | rock — a leather mini skirt, a cropped vest and a choker |
+| 몸 자세 · 구도 | 무릎 꿇기 · three_quarter · 정면 | kneeling on the ground |
+| 손 · 소품 동작 | clasp_both · clasp_both |  |
 
-옷 종류 slip · 옷 색 그레이 · 실버 (dove grey and silver) · 드러내기 one-shoulder cut, high thigh slit · 장면 칸 첫머리 action · 직접 입력 scene, outfit
+옷 종류 skirt + vest · 옷 색 세이지 · 올리브 (sage and olive green) · 드러내기 cropped hem, halter neck · 장면 칸 첫머리 light · 직접 입력 scene, outfit
 
 ## ⑧ casual7 — 고른 장면(버전2)
 
