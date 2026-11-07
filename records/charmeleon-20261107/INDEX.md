@@ -1,6 +1,6 @@
 # 리자드 (0005 · Charmeleon) — 지시문 묶음
 
-화풍 `anime_gloss` · 만든 도구 `tools/prompt-pack.cjs build` · 생성기 코드 6c0eb4b · 2026-11-07T04:12:27.343Z
+화풍 `anime_gloss` · 만든 도구 `tools/prompt-pack.cjs build` · 생성기 코드 f7caabf · 2026-11-07T04:22:41.054Z
 
 자리마다 `<자리>-prompt.txt` 를 **고치지 않고 그대로** 제출하고, 첨부 칸의 그림을 붙인다. 고칠 것이 있으면 settings.json 을 고쳐 build 를 다시 돌린다.
 기록에는 `<자리>-ui.json`(생성기 저장값과 같은 꼴)과 지시문을 둔다 — 관리기를 쓰면 `python3 tools/image-runner.py intent --card 5 --slot <자리> --prompt <이 폴더>/<자리>-prompt.txt --ui <이 폴더>/<자리>-ui.json`.

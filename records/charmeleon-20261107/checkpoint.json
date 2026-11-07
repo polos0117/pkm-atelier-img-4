@@ -1,7 +1,7 @@
 {
   "card": "리자드",
   "style": "anime_gloss",
-  "status": "generated_verified_pending_publication",
+  "status": "registered_complete",
   "requested": 8,
   "generated": 8,
   "light": {
@@ -172,5 +172,19 @@
     "references": "none for light; original light PNG for all seven casuals"
   },
   "preserved_existing_style": "mecha_cinematic_keyart",
-  "comparison": "513 cached ledger entries merged with current checked-out record metadata; current reservations included; seven outputs visually compared for outfit, setting, pose and crop. No wholesale historical-image download."
+  "comparison": "513 cached ledger entries merged with current checked-out record metadata; current reservations included; seven outputs visually compared for outfit, setting, pose and crop. No wholesale historical-image download.",
+  "publication": {
+    "image_commit": "cd00b6ed8a20defcefcee17c2696bdd53dacb82b",
+    "thumbnail_commit": "f6b100467bde946477cdb86feb15bc7ec9f9f6d9",
+    "catalog_commit": "db9dc90b155618e7ca535167371db63ccf676828",
+    "image_count": 8,
+    "thumbnail_count": 8,
+    "catalog_count": 8,
+    "method": "GitHub Git Data API; expected old main head and force=false; local git push unavailable due missing credential"
+  },
+  "comparison_actual": [
+    "꼬부기 casual1: 소파 코스튬",
+    "이상해씨 casual1: 셀카",
+    "파이리 casual1: 기차 드레스"
+  ]
 }
