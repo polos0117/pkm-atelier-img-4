@@ -3,7 +3,7 @@
   "card": "버터플",
   "no": 12,
   "style": "anime_gloss",
-  "plan": "/workspace/scratch/a5aafbe82665/PLAN.json",
+  "plan": "/workspace/scratch/a5aafbe82665/PLAN-corrected.json",
   "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
   "slots": {
     "light": {
@@ -87,17 +87,17 @@
       "mecha_why": ""
     },
     "casual1": {
-      "scene": "Amber spotlights catch the velvet queue ropes during a pool-party night at the club.",
-      "outfit": "Camel swimwear with side cutouts beneath a chocolate-brown light yukata worn open, its skirt divided by a high thigh slit.",
+      "scene": "The nightclub stage has a crescent-shaped platform and soft amber floor lights.",
+      "outfit": "A black lingerie bodysuit with a deep scooped neckline, wide straps, opaque-backed lace side panels and high-cut legs.",
       "camera": "",
       "custom": "",
       "why": {
-        "scene": "클럽의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: Amber spotlights catch the velvet queue ropes during a pool-party night at the club.",
-        "outfit": "수영복에서 정한 옷 종류와 색을 살리고 high thigh slit, side cutouts를 의상 구조로 표현한다."
+        "scene": "클럽의 고른 길을 유지하며 새 시간·공간 단서를 넣음: The nightclub stage has a crescent-shaped platform and soft amber floor lights.",
+        "outfit": "란제리풍 옷의 형태를 살리고 high-cut leg, plunging neckline를 표현함."
       },
       "guide": {
         "tree": 2,
-        "path": "now / night_club / swimwear / yukata_over / walk / three_quarter / glass_hold",
+        "path": "now / night_club / lingerie / bodysuit / stand / chest_up / mic_sing",
         "v2": {
           "era": {
             "key": "now",
@@ -111,55 +111,52 @@
           },
           "role": null,
           "use": {
-            "key": "glass_hold",
-            "ko": "잔을 든다",
-            "en": "holds a cocktail glass by the stem at chest height",
-            "prop": "칵테일 잔"
+            "key": "mic_sing",
+            "ko": "마이크를 입가에 댄다",
+            "en": "holds a microphone close to her lips",
+            "prop": "마이크"
           },
           "ofam": {
-            "key": "swimwear",
-            "ko": "수영복",
-            "en": "modern swimwear, fully lined and secure during movement"
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
           },
           "item": {
-            "key": "yukata_over",
-            "ko": "수영복 위 유카타",
-            "en": "swimwear with a light yukata worn open over it"
+            "key": "bodysuit",
+            "ko": "보디수트",
+            "en": "a lingerie bodysuit with a scooped neckline, wide straps and lace side panels"
           },
           "posture": {
-            "key": "walk",
-            "ko": "걷기",
-            "en": "walking"
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
           },
-          "frame": "three_quarter",
+          "frame": "chest_up",
           "body": {
-            "key": "rear_3q",
-            "ko": "뒤 3/4",
-            "en": "body turned three-quarters away from the camera"
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
           },
-          "hands": "prop · down"
+          "hands": "prop · out"
         },
         "garments": [
-          "traditional"
+          "bodysuit",
+          "lingerie_set"
         ],
         "expose": [
-          "high thigh slit",
-          "side cutouts"
+          "high-cut leg",
+          "plunging neckline"
         ],
-        "lead": "light",
+        "lead": "place",
         "color": {
-          "key": "brown",
-          "ko": "카멜 · 초콜릿",
-          "en": "camel and chocolate brown",
+          "key": "black",
+          "ko": "블랙 · 차콜",
+          "en": "black with charcoal accents",
           "words": [
-            "brown",
-            "camel",
-            "tan",
-            "chocolate",
-            "beige",
-            "khaki",
-            "taupe",
-            "caramel"
+            "black",
+            "charcoal",
+            "jet",
+            "onyx"
           ]
         }
       }
@@ -237,73 +234,78 @@
       }
     },
     "casual3": {
-      "scene": "A folded spa towel rests beside the glowing edge of the white relaxation platform.",
-      "outfit": "A fully opaque teal lingerie bodysuit with a scooped neckline, wide straps and lace side panels backed by opaque fabric, a small midriff cutout and high-cut legs.",
+      "scene": "The camera has a small wrist strap and a softly glowing rear screen beside the riverside festival cushions.",
+      "outfit": "A coral one-shoulder swimsuit beneath an open soft-orange light yukata with a high thigh slit.",
       "camera": "",
       "custom": "",
       "why": {
-        "scene": "미래풍 스파의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: A folded spa towel rests beside the glowing edge of the white relaxation platform.",
-        "outfit": "란제리풍에서 정한 옷 종류와 색을 살리고 high-cut leg, bare midriff를 의상 구조로 표현한다."
+        "scene": "불꽃놀이 강변의 고른 길을 유지하며 새 시간·공간 단서를 넣음: The camera has a small wrist strap and a softly glowing rear screen beside the riverside festival cushions.",
+        "outfit": "수영복 옷의 형태를 살리고 high thigh slit, one-shoulder cut를 표현함."
       },
       "guide": {
         "tree": 2,
-        "path": "fantasy / fx_spa / lingerie / bodysuit / lie_side / full_body",
+        "path": "now / stage_fireworks / swimwear / yukata_over / kneel / three_quarter / camera_check",
         "v2": {
           "era": {
-            "key": "fantasy",
-            "ko": "무대·환상",
-            "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
           },
           "place": {
-            "key": "fx_spa",
-            "ko": "미래풍 스파",
-            "en": "a futuristic spa of white curves and soft light"
+            "key": "stage_fireworks",
+            "ko": "불꽃놀이 강변",
+            "en": "a riverside seating area waiting for festival fireworks"
           },
           "role": null,
-          "use": null,
+          "use": {
+            "key": "camera_check",
+            "ko": "찍은 사진을 확인한다",
+            "en": "checks the photo on the back screen of a camera at chest height",
+            "prop": "카메라"
+          },
           "ofam": {
-            "key": "lingerie",
-            "ko": "란제리풍",
-            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
           },
           "item": {
-            "key": "bodysuit",
-            "ko": "보디수트",
-            "en": "a lingerie bodysuit with a scooped neckline, wide straps and lace side panels"
+            "key": "yukata_over",
+            "ko": "수영복 위 유카타",
+            "en": "swimwear with a light yukata worn open over it"
           },
           "posture": {
-            "key": "lie_side",
-            "ko": "옆으로 눕기",
-            "en": "lying on her side"
+            "key": "kneel",
+            "ko": "무릎 꿇기",
+            "en": "kneeling on the ground"
           },
-          "frame": "full_body",
+          "frame": "three_quarter",
           "body": {
-            "key": "front",
-            "ko": "정면",
-            "en": "body facing the camera"
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
           },
-          "hands": "behind_head · floor_brace"
+          "hands": "prop · prop"
         },
         "garments": [
-          "bodysuit",
-          "lingerie_set"
+          "traditional"
         ],
         "expose": [
-          "high-cut leg",
-          "bare midriff"
+          "high thigh slit",
+          "one-shoulder cut"
         ],
         "lead": "detail",
         "color": {
-          "key": "teal",
-          "ko": "민트 · 틸",
-          "en": "mint and teal",
+          "key": "orange",
+          "ko": "코랄 · 오렌지",
+          "en": "coral and soft orange",
           "words": [
-            "mint",
-            "teal",
-            "turquoise",
-            "aqua",
-            "seafoam",
-            "jade"
+            "coral",
+            "orange",
+            "peach",
+            "apricot",
+            "tangerine",
+            "terracotta",
+            "rust"
           ]
         }
       }
@@ -379,17 +381,17 @@
       }
     },
     "casual5": {
-      "scene": "A folded festival programme lies beside a small cushion on the riverside seating terrace.",
-      "outfit": "An adult Butterfree costume cut as a strapless high-cut purple bodysuit with sheer thigh-high tights, white black-veined wing-shaped fabric cape panels and slim antenna hair ornaments; all motifs are costume pieces on clothing.",
+      "scene": "Late-afternoon sunlight reaches the sofa and lilac floor cushions beside the low table.",
+      "outfit": "An adult Butterfree costume cut as a high-cut purple bodysuit with side cutouts, sheer thigh-high tights, a short white black-veined wing-shaped fabric cape and slim antenna hair ornaments; motifs are costume pieces on clothing.",
       "camera": "",
       "custom": "",
       "why": {
-        "scene": "불꽃놀이 강변의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: A folded festival programme lies beside a small cushion on the riverside seating terrace.",
-        "outfit": "포켓몬 코스튬에서 정한 옷 종류와 색을 살리고 mini length, strapless top를 의상 구조로 표현한다."
+        "scene": "거실의 고른 길을 유지하며 새 시간·공간 단서를 넣음: Late-afternoon sunlight reaches the sofa and lilac floor cushions beside the low table.",
+        "outfit": "포켓몬 코스튬 옷의 형태를 살리고 side cutouts, mini length를 표현함."
       },
       "guide": {
         "tree": 2,
-        "path": "now / stage_fireworks / pokemon_costume / pc_bodysuit / sit_floor / environmental",
+        "path": "now / home_living / pokemon_costume / pc_bodysuit / sit_chair / full_body",
         "v2": {
           "era": {
             "key": "now",
@@ -397,9 +399,9 @@
             "en": "present-day real world"
           },
           "place": {
-            "key": "stage_fireworks",
-            "ko": "불꽃놀이 강변",
-            "en": "a riverside seating area waiting for festival fireworks"
+            "key": "home_living",
+            "ko": "거실",
+            "en": "her living room with a deep sofa, floor cushions and a low table"
           },
           "role": null,
           "use": null,
@@ -414,27 +416,27 @@
             "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
           },
           "posture": {
-            "key": "sit_floor",
-            "ko": "바닥에 앉기",
-            "en": "sitting on the ground"
+            "key": "sit_chair",
+            "ko": "의자에 앉기",
+            "en": "seated on a chair"
           },
-          "frame": "environmental",
+          "frame": "full_body",
           "body": {
-            "key": "side",
-            "ko": "옆모습",
-            "en": "body in side profile"
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
           },
-          "hands": "lap · floor_brace"
+          "hands": "lap · natural"
         },
         "garments": [
           "bodysuit",
           "leggings"
         ],
         "expose": [
-          "mini length",
-          "strapless top"
+          "side cutouts",
+          "mini length"
         ],
-        "lead": "detail",
+        "lead": "light",
         "color": null
       }
     },
@@ -511,17 +513,17 @@
       }
     },
     "casual7": {
-      "scene": "City lights spill through the hotel window onto the open suitcase and its costume ribbon.",
-      "outfit": "A black and charcoal succubus costume with an off-shoulder strappy bralette, cropped hem, high-waisted lace mini skirt, garter straps, small bat wings and curled horns.",
+      "scene": "Halloween pastry decorations stand on the bakery worktable beside warm trays of bread.",
+      "outfit": "A Medusa costume with a butter-yellow and gold one-shoulder draped mini dress, a detachable halter neck ribbon framing a strapless inner bodice, a coiled-serpent headpiece and snake arm cuffs.",
       "camera": "",
       "custom": "",
       "why": {
-        "scene": "호텔 방의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: City lights spill through the hotel window onto the open suitcase and its costume ribbon.",
-        "outfit": "할로윈 코스튬에서 정한 옷 종류와 색을 살리고 off-shoulder neckline, cropped hem를 의상 구조로 표현한다."
+        "scene": "베이커리 작업실의 고른 길을 유지하며 새 시간·공간 단서를 넣음: Halloween pastry decorations stand on the bakery worktable beside warm trays of bread.",
+        "outfit": "할로윈 코스튬 옷의 형태를 살리고 halter neck, strapless top를 표현함."
       },
       "guide": {
         "tree": 2,
-        "path": "now / evening_hotel / halloween / hw_succubus / sit_chair / environmental / book_hold",
+        "path": "now / bakery_kitchen / halloween / hw_medusa / stand / face_close",
         "v2": {
           "era": {
             "key": "now",
@@ -529,58 +531,54 @@
             "en": "present-day real world"
           },
           "place": {
-            "key": "evening_hotel",
-            "ko": "호텔 방",
-            "en": "a hotel suite with a city view and an open suitcase"
+            "key": "bakery_kitchen",
+            "ko": "베이커리 작업실",
+            "en": "a small bakery workroom with a floury wooden worktable and warm ovens"
           },
           "role": null,
-          "use": {
-            "key": "book_hold",
-            "ko": "책을 안는다",
-            "en": "holds a book closed against her chest",
-            "prop": "책"
-          },
+          "use": null,
           "ofam": {
             "key": "halloween",
             "ko": "할로윈 코스튬",
             "en": "a daring adult Halloween costume"
           },
           "item": {
-            "key": "hw_succubus",
-            "ko": "서큐버스",
-            "en": "a succubus costume — a black strappy bralette and a high-waisted lace mini skirt with garter straps, small bat wings and curled horns"
+            "key": "hw_medusa",
+            "ko": "메두사",
+            "en": "a Medusa costume — a gold-trimmed emerald one-shoulder draped mini dress, a coiled-serpent headpiece and snake arm cuffs"
           },
           "posture": {
-            "key": "sit_chair",
-            "ko": "의자에 앉기",
-            "en": "seated on a chair"
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
           },
-          "frame": "environmental",
+          "frame": "face_close",
           "body": {
-            "key": "front",
-            "ko": "정면",
-            "en": "body facing the camera"
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
           },
-          "hands": "prop · lap"
+          "hands": "hair_tuck · out"
         },
         "garments": [
-          "crop_top",
-          "skirt"
+          "dress"
         ],
         "expose": [
-          "off-shoulder neckline",
-          "cropped hem"
+          "halter neck",
+          "strapless top"
         ],
-        "lead": "light",
+        "lead": "action",
         "color": {
-          "key": "black",
-          "ko": "블랙 · 차콜",
-          "en": "black with charcoal accents",
+          "key": "yellow",
+          "ko": "옐로 · 머스터드",
+          "en": "butter yellow and mustard",
           "words": [
-            "black",
-            "charcoal",
-            "jet",
-            "onyx"
+            "yellow",
+            "mustard",
+            "lemon",
+            "butter",
+            "gold",
+            "golden"
           ]
         }
       }

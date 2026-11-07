@@ -33,7 +33,7 @@
     },
     "casual1": {
       "accepted": true,
-      "observation": "뒤 3/4로 걷다 돌아보며 잔을 든 수영복+브라운 유카타. 클럽 배경의 흐린 군중 실루엣은 기록.",
+      "observation": "클럽 무대, 검정 보디수트, 한 손으로 마이크를 입가에 든 가슴 위 구도. 다른 팔은 크롭 아래.",
       "style_25d": {
         "judgement": "2D, intentional anime_gloss",
         "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
@@ -42,9 +42,9 @@
         "tool": "unavailable: mediapipe is not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "잔을 쥔 오른손 다섯 손가락 중 겹침 있음. 내려간 왼손 다섯. 팔 둘 연결 확인.",
+        "hands": "마이크를 쥔 오른손은 엄지와 네 손가락이 손잡이를 둘러싸며 일부 겹침. 왼손은 크롭 밖.",
         "overlay_checked": false,
-        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+        "note": "새 원본을 전체 해상도로 직접 검수. 프레임 밖 부위는 보인다고 추정하지 않음."
       },
       "submitted_same": true
     },
@@ -67,7 +67,7 @@
     },
     "casual3": {
       "accepted": true,
-      "observation": "틸 보디수트로 스파 플랫폼에 옆으로 기대 누움. 한 팔 머리 뒤, 다른 팔 받침.",
+      "observation": "강변 불꽃놀이, 코랄 수영복과 오렌지 유카타, 무릎 꿇고 양손으로 카메라 뒷화면을 확인하는 측면 구도.",
       "style_25d": {
         "judgement": "2D, intentional anime_gloss",
         "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
@@ -76,9 +76,9 @@
         "tool": "unavailable: mediapipe is not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "받친 손 다섯, 머리 뒤 손 가려짐. 팔 둘 다 어깨부터 연결. 다리 둘과 발 둘 확인.",
+        "hands": "카메라를 감싼 양손의 손가락은 카메라 몸체 때문에 일부 가림. 두 손목·팔 연결과 엄지 위치 확인.",
         "overlay_checked": false,
-        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+        "note": "새 원본을 전체 해상도로 직접 검수. 프레임 밖 부위는 보인다고 추정하지 않음."
       },
       "submitted_same": true
     },
@@ -101,7 +101,7 @@
     },
     "casual5": {
       "accepted": true,
-      "observation": "강변 불꽃놀이, 날개무늬 바디수트 코스튬, 바닥에 앉은 옆얼굴 와이드. 장갑형 소매끝과 신발 장식은 기록.",
+      "observation": "거실 보라 의자, 날개형 천 망토가 달린 버터플 바디수트 코스튬. 양손을 무릎과 팔걸이에 둔 전신.",
       "style_25d": {
         "judgement": "2D, intentional anime_gloss",
         "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
@@ -110,9 +110,9 @@
         "tool": "unavailable: mediapipe is not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "무릎 위 장갑 손 다섯, 바닥 받친 장갑 손 다섯. 교차한 다리 둘·발 둘 연결.",
+        "hands": "무릎 위 손 다섯, 팔걸이에 내린 손 다섯. 손목과 양팔 연결 확인.",
         "overlay_checked": false,
-        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+        "note": "새 원본을 전체 해상도로 직접 검수. 프레임 밖 부위는 보인다고 추정하지 않음."
       },
       "submitted_same": true
     },
@@ -135,7 +135,7 @@
     },
     "casual7": {
       "accepted": true,
-      "observation": "도시 야경 호텔, 검정 서큐버스 코스튬, 닫힌 책을 가슴 앞에 든 의자 앉기.",
+      "observation": "베이커리 작업실, 금색 뱀 머리장식과 옐로 메두사 드레스, 머리카락을 귀 뒤로 넘기는 옆얼굴 클로즈업.",
       "style_25d": {
         "judgement": "2D, intentional anime_gloss",
         "evidence": "細い顔輪郭線とセルからグラデーションへの柔らかい陰影。最新規則の clean 2D anime_gloss に適合。"
@@ -144,11 +144,12 @@
         "tool": "unavailable: mediapipe is not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "책 손 손가락 일부 책에 가림, 무릎 손 다섯. 팔 둘·다리 둘 연결.",
+        "hands": "머리카락을 넘기는 손은 다섯 손가락 중 일부가 머리카락에 가림. 반대 손은 프레임 밖.",
         "overlay_checked": false,
-        "note": "Checked full-resolution rendered output visually; off-frame or covered parts recorded rather than inferred."
+        "note": "새 원본을 전체 해상도로 직접 검수. 프레임 밖 부위는 보인다고 추정하지 않음."
       },
       "submitted_same": true
     }
-  }
+  },
+  "planning_validation": "Passed with remote Git tree image inventories, not record-only sparse filesystem."
 }

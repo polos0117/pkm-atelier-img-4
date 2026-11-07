@@ -45,9 +45,9 @@
      },
      "casual": {
       "treeV": 2,
-      "expr": "playful",
-      "scene": "City lights spill through the hotel window onto the open suitcase and its costume ribbon.",
-      "outfit": "A black and charcoal succubus costume with an off-shoulder strappy bralette, cropped hem, high-waisted lace mini skirt, garter straps, small bat wings and curled horns.",
+      "expr": "relieved",
+      "scene": "Halloween pastry decorations stand on the bakery worktable beside warm trays of bread.",
+      "outfit": "A Medusa costume with a butter-yellow and gold one-shoulder draped mini dress, a detachable halter neck ribbon framing a strapless inner bodice, a coiled-serpent headpiece and snake arm cuffs.",
       "custom": "",
       "aspect": "2:3",
       "axes": {
@@ -55,7 +55,7 @@
        "skin_exposure": "bold",
        "action_level": "mostly posed",
        "source_influence": "balanced",
-       "separates_preference": "prefer separates"
+       "separates_preference": "balanced"
       },
       "action": {},
       "randomLocks": {
@@ -72,8 +72,6 @@
        "camera": true,
        "right": true,
        "left": true,
-       "use": true,
-       "legs": true,
        "gaze": true,
        "expr": true,
        "axes.overall_intensity": true,
@@ -84,74 +82,72 @@
        "aspect": true
       },
       "era": "now",
-      "place": "evening_hotel",
+      "place": "bakery_kitchen",
       "ofam": "halloween",
-      "item": "hw_succubus",
-      "ocolor": "black",
-      "posture": "sit_chair",
+      "item": "hw_medusa",
+      "ocolor": "yellow",
+      "posture": "stand",
       "support": "none",
-      "frame": "environmental",
-      "body": "front",
-      "head": "turn_side",
+      "frame": "face_close",
+      "body": "side",
+      "head": "with_body",
       "camera": "eye",
-      "right": "prop",
-      "left": "lap",
-      "use": "book_hold",
-      "legs": "knees_together",
-      "gaze": "screen_left",
-      "preset": "bench_sit"
+      "right": "hair_tuck",
+      "left": "out",
+      "gaze": "down",
+      "preset": "hair_close",
+      "use": ""
      }
     }
    }
   }
  },
- "prompt": "CHARACTER: the same woman as the attached image — Butterfree (버터플) personified, bug / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nSTYLE: keep the attached image's rendering exactly — the same finish, skin rendering, line weight, colour palette, saturation and lighting quality. Do not restyle her: no more realistic, no more painterly, no more 2D than the attached image. Only the outfit, pose, expression, framing and place change.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a hotel suite with a city view and an open suitcase\nOutfit: A black and charcoal succubus costume with an off-shoulder strappy bralette, cropped hem, high-waisted lace mini skirt, garter straps, small bat wings and curled horns.\nOutfit colours: black with charcoal accents — her own colour choice for this outfit, not her species' colours.\nPOSTURE: seated on a chair.\nCOMPOSITION: an environmental long shot, her complete figure and enough of the place around her; body facing the camera; head turned to the side; camera at her eye level.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand is in PROP.\nLEFT HAND: her own left hand rests on her knee.\nPROP: with her own right hand she holds a book closed against her chest; it is all she holds.\nLEGS: knees together, feet slightly apart.\nGAZE: she looks toward the left of the frame.\nEXPRESSION: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\nScene note: City lights spill through the hotel window onto the open suitcase and its costume ribbon.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "prompt": "CHARACTER: the same woman as the attached image — Butterfree (버터플) personified, bug / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nSTYLE: keep the attached image's rendering exactly — the same finish, skin rendering, line weight, colour palette, saturation and lighting quality. Do not restyle her: no more realistic, no more painterly, no more 2D than the attached image. Only the outfit, pose, expression, framing and place change.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nCROP: a close-up — her face and hair fill most of the frame and the bottom edge crosses at her collarbones; nothing below the shoulders shows, and her hands and anything she holds stay below the frame unless raised to her face. This crop wins over every other line: details apply only to the part that shows, and the outfit reads through its visible neckline, straps, fabric and colour. Never widen the framing to show a hidden support, hand or leg; a limb crossing the edge runs naturally on past it, never cut off or fading out inside the image.\n\nSCENE (chosen):\nPlace: a small bakery workroom with a floury wooden worktable and warm ovens\nOutfit: A Medusa costume with a butter-yellow and gold one-shoulder draped mini dress, a detachable halter neck ribbon framing a strapless inner bodice, a coiled-serpent headpiece and snake arm cuffs.\nOutfit colours: butter yellow and mustard — her own colour choice for this outfit, not her species' colours.\nPOSTURE: standing.\nCOMPOSITION: a close-up of her face and hair; body in side profile, her face in profile too, not turned toward the camera; camera at her eye level.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nRIGHT HAND: her own right hand tucks hair behind her ear.\nLEFT HAND: her own left hand stays outside the frame.\nGAZE: her eyes are lowered.\nEXPRESSION: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\nScene note: Halloween pastry decorations stand on the bakery worktable beside warm trays of bread.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; the part of that outfit inside the crop must read at first glance in its own colours. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
  "plan": {
   "cut": 7,
   "treeV": 2,
   "era": "now",
-  "place": "evening_hotel",
+  "place": "bakery_kitchen",
   "ofam": "halloween",
-  "item": "hw_succubus",
+  "item": "hw_medusa",
   "garments": [
-   "crop_top",
-   "skirt"
+   "dress"
   ],
-  "ocolor": "black",
+  "ocolor": "yellow",
   "weather": "",
-  "posture": "sit_chair",
+  "posture": "stand",
   "support": "none",
-  "frame": "environmental",
-  "body": "front",
-  "head": "turn_side",
+  "frame": "face_close",
+  "body": "side",
+  "head": "with_body",
   "camera": "eye",
-  "right": "prop",
-  "left": "lap",
-  "use": "book_hold",
-  "legs": "knees_together",
-  "gaze": "screen_left",
-  "preset": "bench_sit",
-  "expr": "playful",
+  "right": "hair_tuck",
+  "left": "out",
+  "use": "",
+  "legs": "",
+  "gaze": "down",
+  "preset": "hair_close",
+  "expr": "relieved",
   "aspect": "2:3",
   "axes": {
    "overall_intensity": "strong",
    "skin_exposure": "bold",
    "action_level": "mostly posed",
    "source_influence": "balanced",
-   "separates_preference": "prefer separates"
+   "separates_preference": "balanced"
   },
   "expose": [
-   "off-shoulder neckline",
-   "cropped hem"
+   "halter neck",
+   "strapless top"
   ],
-  "lead": "light"
+  "lead": "action"
  },
  "manual_inputs": {
-  "scene": "City lights spill through the hotel window onto the open suitcase and its costume ribbon.",
-  "outfit": "A black and charcoal succubus costume with an off-shoulder strappy bralette, cropped hem, high-waisted lace mini skirt, garter straps, small bat wings and curled horns."
+  "scene": "Halloween pastry decorations stand on the bakery worktable beside warm trays of bread.",
+  "outfit": "A Medusa costume with a butter-yellow and gold one-shoulder draped mini dress, a detachable halter neck ribbon framing a strapless inner bodice, a coiled-serpent headpiece and snake arm cuffs."
  },
  "manual_why": {
-  "scene": "호텔 방의 선택 동작을 유지하면서 컷 고유의 시간·소품·공간을 보충한다: City lights spill through the hotel window onto the open suitcase and its costume ribbon.",
-  "outfit": "할로윈 코스튬에서 정한 옷 종류와 색을 살리고 off-shoulder neckline, cropped hem를 의상 구조로 표현한다."
+  "scene": "베이커리 작업실의 고른 길을 유지하며 새 시간·공간 단서를 넣음: Halloween pastry decorations stand on the bakery worktable beside warm trays of bread.",
+  "outfit": "할로윈 코스튬 옷의 형태를 살리고 halter neck, strapless top를 표현함."
  }
 }
