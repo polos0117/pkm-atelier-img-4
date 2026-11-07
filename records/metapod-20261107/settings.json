@@ -1,0 +1,531 @@
+{
+ "version": 2,
+ "card": "단데기",
+ "no": 11,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/8d89839e6b6e/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "wing_binder"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "bug"
+     },
+     {
+      "key": "seams",
+      "type": "bug"
+     },
+     {
+      "key": "ground",
+      "type": "bug"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "wing_binder"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "bug"
+     },
+     {
+      "key": "seams",
+      "type": "bug"
+     },
+     {
+      "key": "ground",
+      "type": "bug"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "tail_unit",
+    "segmented_parts",
+    "heavy_assault",
+    "cape_plates",
+    "light_agile",
+    "long_coat_plate",
+    "sub_arms",
+    "hover_rings",
+    "frame_exposed"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "The backlit bottles catch emerald reflections from the city signs outside.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "장소 문장에 없는 유리 반사만 추가."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_bar / pokemon_costume / pc_mini_dress / stand / chest_up / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_bar",
+      "ko": "바",
+      "en": "a neon-lit bar counter with backlit bottles"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_mini_dress",
+      "ko": "미니 드레스형",
+      "en": "a daring adult costume version of {costume}, cut as a fitted strapless mini dress"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "halter neck",
+     "plunging neckline"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "Late afternoon sunlight falls across the chalk-marked climbing holds.",
+   "outfit": "A cropped terracotta halter top with short charcoal shorts, leaving the shoulders and midriff bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "홀터·반바지 종류를 유지하고 자연광 시간대와 색·짧은 기장을 구체화.",
+    "outfit": "홀터·반바지 종류를 유지하고 자연광 시간대와 색·짧은 기장을 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / sports_wall / everyday / halter_shorts / stand / waist_up / bottle_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_wall",
+      "ko": "실내 암벽",
+      "en": "an indoor climbing wall of coloured holds"
+     },
+     "role": null,
+     "use": {
+      "key": "bottle_hold",
+      "ko": "물병을 든다",
+      "en": "holds a water bottle at chest height",
+      "prop": "물병"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "halter_shorts",
+      "ko": "홀터 탑 + 짧은 반바지",
+      "en": "a halter top and short shorts"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · pocket"
+    },
+    "garments": [
+     "shorts"
+    ],
+    "expose": [
+     "bare midriff",
+     "off-shoulder neckline"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "The coin is an old brass game token beside a wooden game board.",
+   "outfit": "A cropped cream sweater with small side cutouts and dark leggings.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "자동 의상에 계획기의 sweater·leggings와 드러내는 방식을 반영.",
+    "outfit": "자동 의상에 계획기의 sweater·leggings와 드러내는 방식을 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / boardgame_lounge / everyday / sit_chair / face_close / coin_hold",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "boardgame_lounge",
+      "ko": "보드게임 라운지",
+      "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+     },
+     "role": null,
+     "use": {
+      "key": "coin_hold",
+      "ko": "동전을 들어 보인다",
+      "en": "holds a single coin up between two fingers",
+      "prop": "동전"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "leggings",
+     "sweater"
+    ],
+    "expose": [
+     "cropped hem",
+     "side cutouts"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual4": {
+   "scene": "A small Caterpie companion waits beside a shallow berry dish.",
+   "outfit": "A waist-tied work shirt with rolled sleeves and low-rise jeans, the open collar revealing her collarbones and the tied hem revealing her midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "동료 종 이름 필수 지정; 작업 셔츠와 청바지를 유지하며 목선·허리 드러냄.",
+    "outfit": "동료 종 이름 필수 지정; 작업 셔츠와 청바지를 유지하며 목선·허리 드러냄."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_yard / everyday / work_shirt_jeans / squat / full_body / treat_offer",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_yard",
+      "ko": "울타리 친 풀밭 마당",
+      "en": "an enclosed grassy courtyard with a low wooden fence"
+     },
+     "role": null,
+     "use": {
+      "key": "treat_offer",
+      "ko": "동료에게 간식을 내민다",
+      "en": "offers a small berry treat to her companion",
+      "prop": "나무열매 간식"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "work_shirt_jeans",
+      "ko": "작업 셔츠 + 청바지",
+      "en": "a work shirt with rolled sleeves and jeans"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "shirt",
+     "trousers"
+    ],
+    "expose": [
+     "strapless top",
+     "mini length"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual5": {
+   "scene": "Warm amber chandeliers illuminate a fashion-event arrival inside the opera lobby.",
+   "outfit": "An opaque asymmetric burgundy lingerie set with one shoulder strap, a diagonal neckline, an open back and high-cut legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 비대칭 란제리의 색과 불투명 소재, 행사 맥락 추가.",
+    "outfit": "선택된 비대칭 란제리의 색과 불투명 소재, 행사 맥락 추가."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / evening_opera / lingerie / asymmetric_lingerie / walk / three_quarter / fan_hold",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "evening_opera",
+      "ko": "극장·오페라",
+      "en": "the grand lobby and staircase of an opera house"
+     },
+     "role": null,
+     "use": {
+      "key": "fan_hold",
+      "ko": "부채를 든다",
+      "en": "holds a folding fan open near her chest",
+      "prop": "접부채"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "asymmetric_lingerie",
+      "ko": "비대칭 세트",
+      "en": "an asymmetric lingerie set with one shoulder strap and a diagonal neckline"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "open back"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual6": {
+   "scene": "The bouquet contains pale pink roses for a themed costume portrait session.",
+   "outfit": "A black-and-white maid costume with a structured cropped bodice, short puffed sleeves and a full apron over a short skirt, showing the midriff and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "역할극을 코스튬 촬영으로 구체화하고 메이드 의상 구조 유지.",
+    "outfit": "역할극을 코스튬 촬영으로 구체화하고 메이드 의상 구조 유지."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_chapel / roleplay / adult_maid / sit_chair / full_body / bouquet_hold",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_chapel",
+      "ko": "촛불 예배당",
+      "en": "an old stone chapel lit by candles"
+     },
+     "role": null,
+     "use": {
+      "key": "bouquet_hold",
+      "ko": "꽃다발을 든다",
+      "en": "holds a small bouquet at chest height",
+      "prop": "꽃다발"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_maid",
+      "ko": "메이드 코스튬",
+      "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "apron"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual7": {
+   "scene": "Morning light shines through ripe berry clusters above the orchard path.",
+   "outfit": "A wrap-style one-piece swimsuit in coral with a halter neckline and a low crossed neckline, leaving shoulders and legs bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "수영복 종류를 유지하며 계획기의 홀터 목선과 소재·색 추가.",
+    "outfit": "수영복 종류를 유지하며 계획기의 홀터 목선과 소재·색 추가."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_aquarium / swimwear / burkini_modest / lean_counter / waist_up / ball_polish",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_aquarium",
+      "ko": "포켓몬 수족관",
+      "en": "a service walkway of a Water-Pokémon aquarium beside a large habitat tank"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_polish",
+      "ko": "몬스터볼을 천으로 닦는다",
+      "en": "polishes a Poké Ball with a soft cloth",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "burkini_modest",
+      "ko": "부르키니",
+      "en": "a modest full-cover swimsuit with long sleeves, full legs and a fitted hood"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "halter neck",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}

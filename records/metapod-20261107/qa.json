@@ -1,0 +1,231 @@
+{
+ "reviewer": "gpt",
+ "card": "단데기",
+ "style": "anime_gloss",
+ "style_basis": "Latest 2026-11-07 rule selects 2D anime_gloss. Legacy 2.5D style requirement superseded for new style set.",
+ "compared_characters": [
+  "가디",
+  "리자몽",
+  "뿔충이",
+  "캐터피"
+ ],
+ "comparison": "Actual thumbnail images inspected. Growlithe has wavy long hair; Charizard orange curls; Weedle brown ponytail; Caterpie green bob. New character face/hair and scene silhouettes compared visually.",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observations": "Full body, green straight hair and sleepy eyes, angular wing panels. Two connected arms and legs. Open hand five fingers, other glove naturally curled with overlap. Wing tips touch side framing.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Full body, green straight hair and sleepy eyes, angular wing panels. Two connected arms and legs. Open hand five fingers, other glove naturally curled with overlap. Wing tips touch side framing.",
+    "overlay_checked": false
+   },
+   "slot": "light",
+   "card": "단데기",
+   "style": "anime_gloss",
+   "file": "단데기_light_anime_gloss_f.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "e0aedc9aaffd6b192cd2c5d97a1980973d8a71496cc01801876cab1a628bade3",
+   "original_sha256": "7b024b2d6c8a340df8a314b128415c297d6a01c75e499c54f321b804e461962f",
+   "reference_sha256": null,
+   "submitted_sha256": "e0d0b1a2e2e1bfa694bee449ffecc7523e94184a03e0e2b920314e9ea7ac9158",
+   "submitted_same": true
+  },
+  "casual1": {
+   "accepted": true,
+   "observations": "Metapod hood and fitted costume, bar selfie. Phone grip hides thumb; other arm extends below crop. Framing wider than chest-up selection, recorded as allowed deviation.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Metapod hood and fitted costume, bar selfie. Phone grip hides thumb; other arm extends below crop. Framing wider than chest-up selection, recorded as allowed deviation.",
+    "overlay_checked": false
+   },
+   "slot": "casual1",
+   "card": "단데기",
+   "style": "anime_gloss",
+   "file": "단데기_anime_gloss_f_casual1.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "2babbed52b38e0403a6ed3c03070b389d14d7d775e97dee795d52fea32199298",
+   "original_sha256": "af508b780d56a90bbf23acebe911f6072a776258d0df5b379ce637e5bd28295a",
+   "reference_sha256": "7b024b2d6c8a340df8a314b128415c297d6a01c75e499c54f321b804e461962f",
+   "submitted_sha256": "3ed3287e0ec1ee2a028ca65e53a5979b3f5b90c918b41f2de646bec39b61f742",
+   "submitted_same": true
+  },
+  "casual2": {
+   "accepted": true,
+   "observations": "Climbing wall, cropped terracotta halter and shorts, bottle grip. Four fingers visible around bottle, thumb hidden. Other arm naturally continues outside crop. Small original hair ornament remains.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Climbing wall, cropped terracotta halter and shorts, bottle grip. Four fingers visible around bottle, thumb hidden. Other arm naturally continues outside crop. Small original hair ornament remains.",
+    "overlay_checked": false
+   },
+   "slot": "casual2",
+   "card": "단데기",
+   "style": "anime_gloss",
+   "file": "단데기_anime_gloss_f_casual2.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "d32eadfeb153f80c51879d382c51a80d37c7a2d5918d817c9801f678e3c9a930",
+   "original_sha256": "ca09debb876399e201359ce5f33eaf859331ddd873ca4f8cc8f94881272e6ff9",
+   "reference_sha256": "7b024b2d6c8a340df8a314b128415c297d6a01c75e499c54f321b804e461962f",
+   "submitted_sha256": "923c2ae0f5d64b7d1bf6625f088dee7c3d7ce3db16e2d803c4016a32c3432107",
+   "submitted_same": true
+  },
+  "casual3": {
+   "accepted": true,
+   "observations": "Coin close-up in boardgame lounge; thumb/index pinch and three curled fingers. Other hand out of crop. Cream knit neckline differs slightly from planned sweater; face and activity retained.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Coin close-up in boardgame lounge; thumb/index pinch and three curled fingers. Other hand out of crop. Cream knit neckline differs slightly from planned sweater; face and activity retained.",
+    "overlay_checked": false
+   },
+   "slot": "casual3",
+   "card": "단데기",
+   "style": "anime_gloss",
+   "file": "단데기_anime_gloss_f_casual3.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "079fed1be3facf7ceef47763fc22056b74b930c250c381f2814324d5c0705e07",
+   "original_sha256": "d5e81a31363c354354397e818bff2428ab5be3bba7551c4e6d234a1a26852c98",
+   "reference_sha256": "7b024b2d6c8a340df8a314b128415c297d6a01c75e499c54f321b804e461962f",
+   "submitted_sha256": "f306d4fb23b14b050279c454406dbbe1d171f8bd408afb6de2cea1b362ba09f6",
+   "submitted_same": true
+  },
+  "casual4": {
+   "accepted": true,
+   "observations": "Crouching with one Caterpie in enclosed courtyard, berry offering. Both arms and folded legs attached. One hand partly hidden by berry grip; other hand five fingers. Shirt tied at waist and jeans.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Crouching with one Caterpie in enclosed courtyard, berry offering. Both arms and folded legs attached. One hand partly hidden by berry grip; other hand five fingers. Shirt tied at waist and jeans.",
+    "overlay_checked": false
+   },
+   "slot": "casual4",
+   "card": "단데기",
+   "style": "anime_gloss",
+   "file": "단데기_anime_gloss_f_casual4.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "ecb5f660d2906662b675edf415e2619c7c7a8631ff3d5bcd49d1c9375fb340e2",
+   "original_sha256": "c5b18a203a40f41fa72d169bb36ab1325494b7bcee4bda8be461aa60f79ca3d4",
+   "reference_sha256": "7b024b2d6c8a340df8a314b128415c297d6a01c75e499c54f321b804e461962f",
+   "submitted_sha256": "5012e024551d3f250a00f190335e11bfd7fceab10d55bdedd35dcedc8bd55b54",
+   "submitted_same": true
+  },
+  "casual5": {
+   "accepted": true,
+   "observations": "Opera-lobby rear three-quarter fan portrait. Two arms connected. Fan grip partially occludes fingers, lowered hand fingers overlap naturally. Opaque burgundy garment interpreted as one-piece instead of set. Small defocused background people do not compete; no second detailed face. One prior attempt retained by hash after concern about background bystander.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Opera-lobby rear three-quarter fan portrait. Two arms connected. Fan grip partially occludes fingers, lowered hand fingers overlap naturally. Opaque burgundy garment interpreted as one-piece instead of set. Small defocused background people do not compete; no second detailed face. One prior attempt retained by hash after concern about background bystander.",
+    "overlay_checked": false
+   },
+   "slot": "casual5",
+   "card": "단데기",
+   "style": "anime_gloss",
+   "file": "단데기_anime_gloss_f_casual5.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "9f304788f3501e11083fb6cd1d1d1e4dd6395dbab4ec999dedc6d2db4e06d16b",
+   "original_sha256": "0b9d4f6ad3727bbab52f685ceb00e4570772b16f2a7a5d0d1d9015436ee29351",
+   "reference_sha256": "7b024b2d6c8a340df8a314b128415c297d6a01c75e499c54f321b804e461962f",
+   "submitted_sha256": "1103b2e51383beca1351cdee3a12558036958e8e032dbda2003489af7c88b51a",
+   "submitted_same": true
+  },
+  "casual6": {
+   "accepted": true,
+   "observations": "Maid costume holding roses in chapel, side seated and crossed legs; both feet visible. Bouquet fingers partly hidden; resting hand five fingers. Cropped bodice and short skirt preserve intended exposure.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Maid costume holding roses in chapel, side seated and crossed legs; both feet visible. Bouquet fingers partly hidden; resting hand five fingers. Cropped bodice and short skirt preserve intended exposure.",
+    "overlay_checked": false
+   },
+   "slot": "casual6",
+   "card": "단데기",
+   "style": "anime_gloss",
+   "file": "단데기_anime_gloss_f_casual6.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "275351d5489f91e59b6fd16ef3a3e79a0e8940165795f9068e809e762e544bda",
+   "original_sha256": "210b981c4d5f4513a5d0df9084b8ff16595586949297a04f6e3c4285cb39c2d2",
+   "reference_sha256": "7b024b2d6c8a340df8a314b128415c297d6a01c75e499c54f321b804e461962f",
+   "submitted_sha256": "4adf3d067052dd45e5a046cc331b1484f7e0baee907054011a05235f44a5336c",
+   "submitted_same": true
+  },
+  "casual7": {
+   "accepted": true,
+   "observations": "Coral wrap swimsuit in berry orchard, polishing Poké Ball with cloth. Two hands connected to arms, partially occluded fingers around ball/cloth. Full body and two legs; framing closer than environmental selection. Scene distinct from other six cuts.",
+   "style_25d": {
+    "judgement": "2D, intended anime_gloss",
+    "evidence": "Fine contours, soft cel-to-gradient face, sparkling hair and clear coloured eyes."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Coral wrap swimsuit in berry orchard, polishing Poké Ball with cloth. Two hands connected to arms, partially occluded fingers around ball/cloth. Full body and two legs; framing closer than environmental selection. Scene distinct from other six cuts.",
+    "overlay_checked": false
+   },
+   "slot": "casual7",
+   "card": "단데기",
+   "style": "anime_gloss",
+   "file": "단데기_anime_gloss_f_casual7.webp",
+   "width": 1024,
+   "height": 1536,
+   "format": "WEBP",
+   "sha256": "089a7669a70b016590cc1eaa870f3defb82f8cf8f52e892d1adddbdb5eba6009",
+   "original_sha256": "ec2a6b6e0e2fc164f26d805e17e296dfeab804317d3c8245466190028fa719f5",
+   "reference_sha256": "7b024b2d6c8a340df8a314b128415c297d6a01c75e499c54f321b804e461962f",
+   "submitted_sha256": "ffd091cab717b9fb1aa6faa90dc8a216af5551a895c8b843ab15533e66c45888",
+   "submitted_same": true
+  }
+ }
+}
