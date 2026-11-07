@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "model_id": "not exposed",
+  "size": "prompt requested 1024x1536; all actual outputs 1024x1536",
+  "quality": "not exposed",
+  "reference_setting": {
+    "light": "both reference fields omitted",
+    "casual1-7": "referenced_image_paths: original light PNG only"
+  },
+  "transparent_background": false,
+  "conversion": {
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "reservation_commit": "acbbf02ec290dc19ff89f0d70da5e4af743ffd12"
+}
