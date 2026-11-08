@@ -1,0 +1,587 @@
+{
+ "version": 2,
+ "card": "꼬렛",
+ "no": 19,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/c24e5080dde5/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "segmented_parts"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "normal"
+     },
+     {
+      "key": "aura",
+      "type": "normal"
+     },
+     {
+      "key": "ground",
+      "type": "normal"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "segmented_parts"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "normal"
+     },
+     {
+      "key": "aura",
+      "type": "normal"
+     },
+     {
+      "key": "ground",
+      "type": "normal"
+     }
+    ]
+   },
+   "mecha_recent": [],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Habitat gates open onto planted enclosures; white cotton gloves contrast with the red-and-white Poké Ball.",
+   "outfit": "A neat cropped ivory cardigan with a deep V neckline and side waist cutouts, paired with slim cream trousers and white cotton gloves.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "포켓몬 보호구역의 재질·조명·소품을 구체화한다.",
+    "outfit": "학예사 카디건 종류를 유지하며 계획의 색과 deep V neckline, cutout waist 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_reserve / work / curator_cardigan / stand / waist_up / ball_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_reserve",
+      "ko": "포켓몬 보호구역",
+      "en": "a Pokémon reserve with habitat gates, shaded water bowls and spacious planted enclosures"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_hold",
+      "ko": "몬스터볼을 든다",
+      "en": "holds a Poké Ball at chest height",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "curator_cardigan",
+      "ko": "학예사 카디건",
+      "en": "a neat cardigan over slim trousers with white cotton gloves"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · pocket"
+    },
+    "garments": [
+     "cardigan",
+     "trousers"
+    ],
+    "expose": [
+     "deep V neckline",
+     "cutout waist"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "Green-blue ambient light reflects in the curved chrome kitchen and the rounded panels of the retro-futurist home.",
+   "outfit": "A sage swim dress with a secure olive lining, a plunging neckline and an open back.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "레트로 퓨처 집의 재질·조명·소품을 구체화한다.",
+    "outfit": "자동 — 계열 안에서 장면에 맞게 종류를 유지하며 계획의 색과 plunging neckline, open back 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_retro_home / swimwear / stand / three_quarter",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_retro_home",
+      "ko": "레트로 퓨처 집",
+      "en": "a retro-futurist home of rounded chrome appliances and soft panels"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "plunging neckline",
+     "open back"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "green",
+     "ko": "세이지 · 올리브",
+     "en": "sage and olive green",
+     "words": [
+      "green",
+      "sage",
+      "olive",
+      "emerald",
+      "moss",
+      "forest"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "Old tree roots meet a cobbled park path beside a low fountain basin and scattered autumn leaves.",
+   "outfit": "A plain chocolate cotton lingerie set with broad camel bands, a sweetheart neckline and high-cut legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "공원의 재질·조명·소품을 구체화한다.",
+    "outfit": "코튼 세트 종류를 유지하며 계획의 색과 sweetheart neckline, high-cut leg 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / street_park / lingerie / cotton_set / squat / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_park",
+      "ko": "공원",
+      "en": "a city park with benches, old trees and a fountain"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "cotton_set",
+      "ko": "코튼 세트",
+      "en": "a simple cotton lingerie set with plain wide bands"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "high-cut leg"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "brown",
+     "ko": "카멜 · 초콜릿",
+     "en": "camel and chocolate brown",
+     "words": [
+      "brown",
+      "camel",
+      "tan",
+      "chocolate",
+      "beige",
+      "khaki",
+      "taupe",
+      "caramel"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "Small silver ripples spread across clear pool water beside pale stone coping and striped lounge chairs.",
+   "outfit": "A dove-grey cropped halter top with a deep V neckline and a bare midriff, paired with silver short shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "수영장의 재질·조명·소품을 구체화한다.",
+    "outfit": "홀터 탑 + 짧은 반바지 종류를 유지하며 계획의 색과 deep V neckline, bare midriff 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / water_pool / everyday / halter_shorts / soak / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "water_pool",
+      "ko": "수영장",
+      "en": "an outdoor pool with lounge chairs and clear blue water"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "halter_shorts",
+      "ko": "홀터 탑 + 짧은 반바지",
+      "en": "a halter top and short shorts"
+     },
+     "posture": {
+      "key": "soak",
+      "ko": "물에 몸 담그기",
+      "en": "chest-deep in the water"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "shorts"
+    ],
+    "expose": [
+     "deep V neckline",
+     "bare midriff"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "grey",
+     "ko": "그레이 · 실버",
+     "en": "dove grey and silver",
+     "words": [
+      "grey",
+      "gray",
+      "silver",
+      "slate",
+      "pewter"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "A smooth padded chaise sits beside the nighttime penthouse window, above a scatter of city lights.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "펜트하우스의 재질·조명·소품을 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_penthouse / pokemon_costume / lie_side / three_quarter",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_penthouse",
+      "ko": "펜트하우스",
+      "en": "a penthouse window wall over the city at night"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "overalls"
+    ],
+    "expose": [
+     "plunging neckline",
+     "cropped hem"
+    ],
+    "lead": "detail",
+    "color": null
+   }
+  },
+  "casual6": {
+   "scene": "The 1996 archery range has a waist-high timber railing and rows of target boards under an open sky.",
+   "outfit": "A mint event-staff costume with a fitted off-shoulder vest, sweetheart neckline, decorative ribbon and teal lanyard, paired with tailored shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "양궁장의 재질·조명·소품을 구체화한다.",
+    "outfit": "이벤트 스태프 종류를 유지하며 계획의 색과 sweetheart neckline, off-shoulder neckline 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_range / roleplay / event_staff / lean_rail / full_body",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_range",
+      "ko": "양궁장",
+      "en": "an archery range of targets on a green field"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "event_staff",
+      "ko": "이벤트 스태프",
+      "en": "an event staff costume with a fitted vest, name-tag ribbon and lanyard"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "vest"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "off-shoulder neckline"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "teal",
+     "ko": "민트 · 틸",
+     "en": "mint and teal",
+     "words": [
+      "mint",
+      "teal",
+      "turquoise",
+      "aqua",
+      "seafoam",
+      "jade"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "The 1996 bakery workroom has a flour-dusted wooden table, copper trays and the warm glow of an oven.",
+   "outfit": "A rose-pink athletic halter top with a deep V neckline, paired with fitted blush sports shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "베이커리 작업실의 재질·조명·소품을 구체화한다.",
+    "outfit": "자동 — 계열 안에서 장면에 맞게 종류를 유지하며 계획의 색과 deep V neckline, halter neck 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "release / bakery_kitchen / active / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "bakery_kitchen",
+      "ko": "베이커리 작업실",
+      "en": "a small bakery workroom with a floury wooden worktable and warm ovens"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "v_sign · out"
+    },
+    "garments": [
+     "shorts"
+    ],
+    "expose": [
+     "deep V neckline",
+     "halter neck"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  }
+ }
+}
