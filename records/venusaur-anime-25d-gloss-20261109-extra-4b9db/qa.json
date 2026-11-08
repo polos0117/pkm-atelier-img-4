@@ -1,0 +1,51 @@
+{
+  "returned_images": 2,
+  "regenerations_of_returned_images": 1,
+  "blocked_requests": [
+    {
+      "request_id": "afdd4166-9242-460d-840f-367665597e39",
+      "exposure": "bold",
+      "image_returned": false
+    },
+    {
+      "request_id": "65c6c64e-569d-4dc9-b257-21e93366ab9b",
+      "exposure": "moderate",
+      "image_returned": false
+    }
+  ],
+  "casual8": {
+    "identity": "긴 청록 머리와 붉은 눈, 얼굴 비율 유지",
+    "scene": "족욕탕 곁에서 돌아보는 뒤 3/4 허리 위 구도",
+    "outfit": "와인색 백리스 니트 원피스; 가방은 선택값 외 소품으로 기록",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "out of crop",
+      "hands": "왼손 가방 끈 감싸 손가락 가림; 오른손 아래로 내려 손가락 부분 겹침, 양팔 어깨 연결",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "등과 어깨 노출"
+    }
+  },
+  "casual9": {
+    "identity": "긴 청록 머리와 붉은 눈·얼굴 비율 유지",
+    "scene": "울타리 안 잔디에 앉아 이상해씨 한 마리를 오른손으로 쓰다듬음",
+    "outfit": "파란 체크 매듭 셔츠와 데님 반바지, 카우보이 모자·부츠",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "오른손은 동료 머리에 연결, 손가락 일부 가림; 왼손 바닥 지지, 다섯 손가락 연결",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "stronger",
+      "evidence": "low 설정이지만 명시된 매듭 셔츠와 반바지에 따라 복부·허벅지 노출; 사용자 요청에 따라 결과 보존"
+    },
+    "settings_exception": "두 차례 결과 차단 후 low + situ none; 상황 필수 컷 예외 기록"
+  },
+  "similarity": "Final casual8 score279, casual9 score303; both passed",
+  "regeneration_reason": "casual8 near-duplicate composition score 214 < 215; replan posture and frame; original retained in session"
+}
