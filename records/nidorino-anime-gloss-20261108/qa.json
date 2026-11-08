@@ -1,0 +1,266 @@
+{
+  "card": "니드리노",
+  "style": "anime_gloss",
+  "accepted": true,
+  "tool_note": "mediapipe unavailable; direct original-size and enlarged hand/foot review performed",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 연보라 단발·보라 눈·좁은 턱과 같은 얼굴 길이 비율을 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "짧은 연보라 보브와 보라 눈, 귀·뿔 머리장식. 노출 프레임의 연결봉·관절과 녹색 독 방울."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "열린 오른손 엄지+네 손가락, 내려온 왼손의 구부러진 다섯 손가락.",
+        "overlay_checked": false,
+        "note": "두 어깨와 기계 관절을 거쳐 장갑 손목이 연결됨. 두 다리는 독립된 무릎·부츠로 이어짐."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 선과 코·뺨의 부드러운 그라데이션, 섬세한 머리카락 하이라이트; 선택한 화풍의 2D 표현 유지."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual1": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 연보라 단발·보라 눈·좁은 턱과 같은 얼굴 길이 비율을 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "붉은 홀터 드레스와 검은 뱀파이어 망토, 온실 유리·식물·작업대. 옆모습으로 게임기를 내려보며 옅게 미소."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손이 게임기를 감싸 엄지와 검지가 보이고 일부 손가락은 기기 뒤로 가려짐.",
+        "overlay_checked": false,
+        "note": "양팔이 어깨·팔꿈치·손목을 거쳐 게임기 양옆으로 연결됨. 드레스 틈의 한 다리, 반대 다리는 치마·망토에 가려짐."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 선과 코·뺨의 부드러운 그라데이션, 섬세한 머리카락 하이라이트; 선택한 화풍의 2D 표현 유지."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual2": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 연보라 단발·보라 눈·좁은 턱과 같은 얼굴 길이 비율을 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "스카이블루 수영복·옆 허리 트임, 샹들리에와 만찬 의자. 고개 기울임·반쯤 감긴 눈·살짝 열린 입."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "맞잡은 손은 손가락들이 겹치며 한 손의 네 손톱·엄지와 반대 손의 일부 관절이 가려짐.",
+        "overlay_checked": false,
+        "note": "두 어깨부터 양팔꿈치·손목이 가슴 앞 맞잡은 두 손으로 이어짐. 아래 다리는 프레임 밖."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 선과 코·뺨의 부드러운 그라데이션, 섬세한 머리카락 하이라이트; 선택한 화풍의 2D 표현 유지."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual3": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 연보라 단발·보라 눈·좁은 턱과 같은 얼굴 길이 비율을 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "핑크 오프숄더 드레스, 젖은 역 난간·우산·기차 조명. 몸·얼굴 옆모습, 입 닫은 진지한 표정."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "우산 손은 엄지·네 굽힌 손가락, 난간 손은 네 긴 손가락과 안쪽으로 일부 가려진 엄지.",
+        "overlay_checked": false,
+        "note": "앞쪽 팔은 어깨부터 팔꿈치·손목·난간 손으로 연속됨. 뒤쪽 팔은 몸 뒤로 일부 가려지고 손이 우산을 쥠. 다리는 크롭 밖."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 선과 코·뺨의 부드러운 그라데이션, 섬세한 머리카락 하이라이트; 선택한 화풍의 2D 표현 유지."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual4": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 연보라 단발·보라 눈·좁은 턱과 같은 얼굴 길이 비율을 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "보라 코르셋 코스튬의 끈매듭·귀·뿔, 바 카운터와 네온 병 선반. 입을 굳게 다물고 옆을 봄."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 프레임 밖이며 보이는 팔에 손이 따로 생성되지 않음.",
+        "overlay_checked": false,
+        "note": "두 어깨에서 상완과 긴 장갑 아래팔이 프레임 하단으로 연속됨. 두 손과 다리는 크롭 밖."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 선과 코·뺨의 부드러운 그라데이션, 섬세한 머리카락 하이라이트; 선택한 화풍의 2D 표현 유지."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual5": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 연보라 단발·보라 눈·좁은 턱과 같은 얼굴 길이 비율을 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "은회색 사리풍 상하의·허리 드레이프·원숄더, 창과 조명이 있는 패션 런웨이. 작은 장난스런 미소."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지+네 손가락, 일부 굽힌 손끝 겹침. 양 샌들 속 다섯 발가락 확인.",
+        "overlay_checked": false,
+        "note": "양팔이 어깨부터 아래로 자연스럽게 이어져 양손이 옆에 내려옴. 두 다리가 전후로 걷는 자세로 이어져 샌들 발에 닿음."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 선과 코·뺨의 부드러운 그라데이션, 섬세한 머리카락 하이라이트; 선택한 화풍의 2D 표현 유지."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual6": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 연보라 단발·보라 눈·좁은 턱과 같은 얼굴 길이 비율을 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "아이보리·검정 메이드 미니복·앞치마·머리띠, 암벽 홀드·초크통과 두 가방. 어깨 너머 미소."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "끈 쥔 손과 가방 든 손의 엄지·검지·굽힌 손가락, 손잡이 뒤 손끝 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "앞쪽 팔꿈치를 굽혀 가방끈을 쥐고 반대 팔은 어깨부터 아래 가방 손잡이로 이어짐. 두 허벅지·무릎은 이어지고 아래 다리는 크롭 밖."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 선과 코·뺨의 부드러운 그라데이션, 섬세한 머리카락 하이라이트; 선택한 화풍의 2D 표현 유지."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual7": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 연보라 단발·보라 눈·좁은 턱과 같은 얼굴 길이 비율을 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "깊은 적색 작업 셔츠·한쪽 내려온 소매와 허리 매듭, 경기장 관중석·코트·관리 장비. 시선 내림·약간 열린 입."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손 없음; 프레임을 지나는 두 아래팔에 절단·분리된 손 없음.",
+        "overlay_checked": false,
+        "note": "양어깨에서 팔이 프레임 하단까지 연속되고 손·다리는 크롭 밖."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 선과 코·뺨의 부드러운 그라데이션, 섬세한 머리카락 하이라이트; 선택한 화풍의 2D 표현 유지."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    }
+  },
+  "diversity": {
+    "reviewed": true,
+    "compared": [
+      "니드퀸",
+      "뚜벅쵸",
+      "니드런♂",
+      "주뱃"
+    ],
+    "evidence": "온실 게임기 전신·만찬 손 맞잡기·역 우산 옆모습·바 코르셋 근접·사리 런웨이 전신·암벽장 메이드 가방·경기장 적색 셔츠 근접. 긴 망토 드레스·수영복·피로연 가운·코르셋·드레이프 상하의·미니 메이드복·작업 셔츠로 실루엣이 구분됨."
+  }
+}

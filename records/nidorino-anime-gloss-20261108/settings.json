@@ -1,0 +1,583 @@
+{
+ "version": 2,
+ "card": "니드리노",
+ "no": 33,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/23b65555dd16/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "frame_exposed"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "aura",
+      "type": "poison"
+     },
+     {
+      "key": "trail",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "frame_exposed"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "aura",
+      "type": "poison"
+     },
+     {
+      "key": "trail",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "halo_crown",
+    "skirt_plate",
+    "slim_suit",
+    "light_agile",
+    "sub_arms",
+    "light_agile",
+    "float_units",
+    "full_armor",
+    "tail_unit",
+    "wing_binder"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "The handheld console has a small matte shell, beside tropical leaves and condensation on the greenhouse panes.",
+   "outfit": "A blood-red satin vampire corset dress with a deep V halter neckline and a thigh-high slit, with a high-collared black cape falling open from her shoulders.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 coat, dress, lingerie_set 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: now / greenhouse / halloween / hw_vampire / stand / environmental / handheld_play",
+    "scene": "게임기 표면과 온실의 작은 환경 요소를 보탠다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / greenhouse / halloween / hw_vampire / stand / environmental / handheld_play",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "greenhouse",
+      "ko": "온실·식물원",
+      "en": "a glass greenhouse full of plants with a wooden potting bench"
+     },
+     "role": null,
+     "use": {
+      "key": "handheld_play",
+      "ko": "휴대용 게임기로 논다",
+      "en": "plays on a handheld game console",
+      "prop": "휴대용 게임기"
+     },
+     "ofam": {
+      "key": "halloween",
+      "ko": "할로윈 코스튬",
+      "en": "a daring adult Halloween costume"
+     },
+     "item": {
+      "key": "hw_vampire",
+      "ko": "뱀파이어",
+      "en": "a vampire costume — a plunging blood-red satin corset dress with a thigh-high slit under a high-collared black cape"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "coat",
+     "dress",
+     "lingerie_set"
+    ],
+    "expose": [
+     "deep V neckline",
+     "halter neck"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "",
+   "outfit": "A sky-blue fully lined one-piece swimsuit with navy edging, a sweetheart neckline, large side-waist cutouts and high-cut legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 swimsuit 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: now / evening_gala / swimwear / cutout_onepiece / stand / waist_up"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_gala / swimwear / cutout_onepiece / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_gala",
+      "ko": "갈라 만찬장",
+      "en": "a candlelit gala dinner hall"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "cutout_onepiece",
+      "ko": "컷아웃 원피스",
+      "en": "a fully lined one-piece swimsuit with large cut-outs at the sides of the waist"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "clasp_both · clasp_both"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "high-cut leg"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "blue",
+     "ko": "스카이 · 네이비",
+     "en": "sky blue and navy",
+     "words": [
+      "blue",
+      "navy",
+      "cobalt",
+      "sky",
+      "azure",
+      "denim"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "Rain beads along the umbrella rim above the covered platform, with softened railway lights in the distance.",
+   "outfit": "A blush-pink backless reception gown with an off-shoulder plunging neckline and a flowing hem.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 dress 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: now / street_station / bridal / reception_backless / lean_rail / waist_up / umbrella_hold",
+    "scene": "역 장면의 날씨와 우산에 맺힌 빗방울을 보탠다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_station / bridal / reception_backless / lean_rail / waist_up / umbrella_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_station",
+      "ko": "역·전철",
+      "en": "a city station platform or the inside of a commuter train"
+     },
+     "role": null,
+     "use": {
+      "key": "umbrella_hold",
+      "ko": "우산을 쓴다",
+      "en": "holds an umbrella open over her shoulder",
+      "prop": "우산"
+     },
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "reception_backless",
+      "ko": "피로연 드레스",
+      "en": "a backless reception gown"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · rail"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "plunging neckline",
+     "off-shoulder neckline"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "guide": {
+    "tree": 2,
+    "path": "now / night_bar / pokemon_costume / pc_corset / lean_counter / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_bar",
+      "ko": "바",
+      "en": "a neon-lit bar counter with backlit bottles"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "deep V neckline",
+     "cutout waist"
+    ],
+    "lead": "light",
+    "color": null
+   }
+  },
+  "casual5": {
+   "scene": "",
+   "outfit": "A dove-grey sari-blouse-inspired lingerie fashion set with a short fitted one-shoulder top, a deep V neckline and a silver draped lower piece; opaque fitted panels keep the chest and pelvis covered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 blouse, traditional 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: now / stage_show / lingerie / sari_blouse_set / walk / environmental"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_show / lingerie / sari_blouse_set / walk / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_show",
+      "ko": "패션쇼장",
+      "en": "the front row of a fashion show beside a lit runway"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "sari_blouse_set",
+      "ko": "사리 블라우스 응용",
+      "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "blouse",
+     "traditional"
+    ],
+    "expose": [
+     "deep V neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "grey",
+     "ko": "그레이 · 실버",
+     "en": "dove grey and silver",
+     "words": [
+      "grey",
+      "gray",
+      "silver",
+      "slate",
+      "pewter"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "The climbing hall hosts a themed costume meet-up beside the chalk station.",
+   "outfit": "An ivory-and-black maid event costume with a structured sweetheart bodice, short puffed sleeves and a full cream apron over a mini skirt that reveals her legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 apron 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: release / sports_wall / roleplay / adult_maid / walk / three_quarter",
+    "scene": "메이드 역할극 옷을 입는 암벽장의 테마 행사 맥락을 보탠다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_wall / roleplay / adult_maid / walk / three_quarter",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_wall",
+      "ko": "실내 암벽",
+      "en": "an indoor climbing wall of coloured holds"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_maid",
+      "ko": "메이드 코스튬",
+      "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "apron"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "mini length"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "A small folded stadium schedule sits on the adjacent seat, with field-care equipment near the aisle.",
+   "outfit": "A deep-red cropped work shirt with a plunging neckline, rolled short sleeves and tailored wine shorts; the cropped hem reveals her waist and the shorts reveal her thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 shirt, shorts 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: in_pokemon / pw_stadium / work / sit_edge / chest_up",
+    "scene": "직업복에 맞는 경기장 관리 소품만 보탠다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_stadium / work / sit_edge / chest_up",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_stadium",
+      "ko": "배틀 스타디움",
+      "en": "the stands of an open-air Pokémon battle stadium above a marked battle court"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "sit_edge",
+      "ko": "가장자리에 걸터앉기",
+      "en": "perched on a ledge or edge"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "shirt",
+     "shorts"
+    ],
+    "expose": [
+     "plunging neckline",
+     "cropped hem"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "red",
+     "ko": "레드 · 와인",
+     "en": "deep red and wine",
+     "words": [
+      "red",
+      "crimson",
+      "scarlet",
+      "burgundy",
+      "wine",
+      "cherry"
+     ]
+    }
+   }
+  }
+ }
+}
