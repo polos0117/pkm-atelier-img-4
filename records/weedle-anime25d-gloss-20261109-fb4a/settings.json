@@ -1,0 +1,584 @@
+{
+ "version": 2,
+ "card": "뿔충이",
+ "no": 13,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/fb4aca27e72e/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "segmented_parts"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "bug"
+     },
+     {
+      "key": "aura",
+      "type": "poison"
+     },
+     {
+      "key": "ground",
+      "type": "bug"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "segmented_parts"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "bug"
+     },
+     {
+      "key": "aura",
+      "type": "poison"
+     },
+     {
+      "key": "ground",
+      "type": "bug"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "tail_unit"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "A small Weedle rests close beside her on the picnic blanket under the broad tree, its separate body fully visible; distant route hills glow in the afternoon.",
+   "outfit": "A deep wine-red elf costume with a leaf-trimmed short dress, a sweetheart neckline, an open back, a short hooded half-cape and pointed ear tips.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 장소와 동작을 유지하면서 시간대·주변 사물만 구체화한다.",
+    "outfit": "계획의 옷 종류·색·드러내는 방식을 유지해 소재와 재단을 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_lawn / costume / elf_costume / squat / waist_up",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_lawn",
+      "ko": "그늘진 잔디밭",
+      "en": "a shaded lawn with a picnic blanket under a broad tree"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "elf_costume",
+      "ko": "엘프",
+      "en": "an elf costume — a leaf-trimmed short dress, a hooded half-cape and pointed ear tips"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "coat",
+     "dress"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "backless"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "red",
+     "ko": "레드 · 와인",
+     "en": "deep red and wine",
+     "words": [
+      "red",
+      "crimson",
+      "scarlet",
+      "burgundy",
+      "wine",
+      "cherry"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "A faceted rose-coloured key charm rests on the shoe bench; the long mirror reflects the warm entryway lighting.",
+   "outfit": "A rose-pink subculture street outfit with a deep-V halter vest and a blush pleated mini skirt, finished with small silver fastenings.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 장소와 동작을 유지하면서 시간대·주변 사물만 구체화한다.",
+    "outfit": "계획의 옷 종류·색·드러내는 방식을 유지해 소재와 재단을 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / home_entry / subculture / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_entry",
+      "ko": "현관",
+      "en": "the entryway of her home with a shoe bench, coat hooks and a long mirror"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "v_sign · out"
+    },
+    "garments": [
+     "skirt",
+     "vest"
+    ],
+    "expose": [
+     "deep V neckline",
+     "halter neck"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "Warm station lamps illuminate a tiled wall beside the waiting area; a departure board glows softly in the distance.",
+   "outfit": "A lavender sari-inspired draped skirt with a fitted, fully lined plum blouse, a deep-V off-shoulder neckline and secure opaque coverage.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "새 계획의 역 대기 공간과 벽 받침을 구체화한다.",
+    "outfit": "새 계획의 사리 블라우스 세트와 색을 유지한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / street_laundromat / lingerie / night_robe / lean_counter / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_laundromat",
+      "ko": "빨래방",
+      "en": "a coin laundromat late at night, rows of round machine doors"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "night_robe",
+      "ko": "나이트 로브 + 란제리",
+      "en": "a lingerie set under an open silk night robe with a tied sash"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "lingerie_set",
+     "robe"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high-cut leg"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "purple",
+     "ko": "라벤더 · 플럼",
+     "en": "lavender and plum",
+     "words": [
+      "purple",
+      "lavender",
+      "lilac",
+      "violet",
+      "plum",
+      "mauve"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "She lightly touches her cheek beside the lodge railing; early winter sunlight glitters on the distant snowy valley.",
+   "outfit": "A fully lined ivory lace bridal lingerie set with a sweetheart neckline, side cutouts and a short cream veil.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 장소와 동작을 유지하면서 시간대·주변 사물만 구체화한다.",
+    "outfit": "계획의 옷 종류·색·드러내는 방식을 유지해 소재와 재단을 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "release / lodge_terrace / bridal / bridal_lace / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "lodge_terrace",
+      "ko": "겨울 산장 테라스",
+      "en": "a snowy mountain-lodge terrace with a wooden railing and benches above a winter valley"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "bridal_lace",
+      "ko": "브라이덜 레이스",
+      "en": "a white lace bridal lingerie set with a short veil"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "side cutouts"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "She poses beside a wooden slatted screen in the cooling lounge, a folded linen stack resting on a cedar bench.",
+   "outfit": "An ivory-and-black maid costume with a structured deep-V bodice, off-shoulder puffed sleeves and a full cream apron.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 장소와 동작을 유지하면서 시간대·주변 사물만 구체화한다.",
+    "outfit": "계획의 옷 종류·색·드러내는 방식을 유지해 소재와 재단을 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "release / spa_sauna / roleplay / adult_maid / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "spa_sauna",
+      "ko": "사우나",
+      "en": "a wooden sauna and cold plunge with a cooling lounge"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_maid",
+      "ko": "메이드 코스튬",
+      "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "apron"
+    ],
+    "expose": [
+     "deep V neckline",
+     "off-shoulder neckline"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "The grand piano keys reflect a low green-shaded lamp; the jazz bar table and upholstered chair frame her seated pose.",
+   "outfit": "A fully lined sage-green crochet-knit bikini with a secure strapless top, a plunging centre neckline and olive tie-side briefs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "고른 장소와 동작을 유지하면서 시간대·주변 사물만 구체화한다.",
+    "outfit": "계획의 옷 종류·색·드러내는 방식을 유지해 소재와 재단을 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / night_jazz / swimwear / crochet_bikini / sit_lean / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_jazz",
+      "ko": "재즈바",
+      "en": "a dim jazz bar with a grand piano"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "crochet_bikini",
+      "ko": "크로셰 비키니",
+      "en": "a fully lined crochet-knit bikini in a sunny resort colour"
+     },
+     "posture": {
+      "key": "sit_lean",
+      "ko": "앉아 앞으로 기울이기",
+      "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "plunging neckline",
+     "strapless top"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "green",
+     "ko": "세이지 · 올리브",
+     "en": "sage and olive green",
+     "words": [
+      "green",
+      "sage",
+      "olive",
+      "emerald",
+      "moss",
+      "forest"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "Afternoon light reaches the costume-event hall through tall windows; she walks along a display aisle beside a small stage.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "새 계획의 행사 공간과 걷는 동작의 배경만 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_dance / pokemon_costume / pc_bodysuit / stand / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_dance",
+      "ko": "댄스 무대",
+      "en": "a lit dance stage or milonga floor"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "light",
+    "color": null
+   }
+  }
+ }
+}
