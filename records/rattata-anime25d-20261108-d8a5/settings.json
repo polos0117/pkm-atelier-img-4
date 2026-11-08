@@ -1,0 +1,590 @@
+{
+ "version": 2,
+ "card": "꼬렛",
+ "no": 19,
+ "style": "anime_25d",
+ "plan": "/workspace/scratch/d8a5d9b6d504/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "knight_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "normal"
+     },
+     {
+      "key": "aura",
+      "type": "normal"
+     },
+     {
+      "key": "trail",
+      "type": "normal"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "knight_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "normal"
+     },
+     {
+      "key": "aura",
+      "type": "normal"
+     },
+     {
+      "key": "trail",
+      "type": "normal"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "slim_suit",
+    "heavy_assault",
+    "light_agile",
+    "sub_arms",
+    "frame_exposed",
+    "light_agile",
+    "float_units",
+    "full_armor",
+    "tail_unit",
+    "wing_binder"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "A 1996 stage show is being prepared; a flower arrangement for the opening number rests beside the illuminated vanity.",
+   "outfit": "A cropped chocolate-brown vinyl stage jacket worn open over a camel sweetheart bodice with waist cutouts, fitted stage shorts and boots; her neckline, waist and upper thighs remain visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the specific lighting, objects and event context missing from the selected 공연장 대기실 place; keeps its posture and activity.",
+    "outfit": "Keeps 역할극·직업 의상 and the planned colour while making its selected garment and exposed areas concrete."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / backstage_dressing / roleplay / vinyl_stage / stand / three_quarter / flower_trim",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "backstage_dressing",
+      "ko": "공연장 대기실",
+      "en": "a backstage dressing room with a bulb-lit mirror, a vanity table and costume racks"
+     },
+     "role": null,
+     "use": {
+      "key": "flower_trim",
+      "ko": "꽃 줄기를 다듬는다",
+      "en": "trims the stems of a few loose flower stems on the worktable",
+      "prop": "꽃 몇 송이"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "vinyl_stage",
+      "ko": "비닐 무대 의상",
+      "en": "a vinyl stage costume with a glossy fitted jacket and boots"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "jacket"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "cutout waist"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "brown",
+     "ko": "카멜 · 초콜릿",
+     "en": "camel and chocolate brown",
+     "words": [
+      "brown",
+      "camel",
+      "tan",
+      "chocolate",
+      "beige",
+      "khaki",
+      "taupe",
+      "caramel"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "Rose-coloured tiles and a cooling tray of cookies brighten the counter; afternoon light reflects from hanging copper pans.",
+   "outfit": "A rose-pink striped long-sleeve emo crop top with a plunging neckline, a black studded belt and blush skinny jeans, leaving her neckline and midriff bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the specific lighting, objects and event context missing from the selected 주방 place; keeps its posture and activity.",
+    "outfit": "Keeps 서브컬처 and the planned colour while making its selected garment and exposed areas concrete."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / home_kitchen / subculture / emo / sit_chair / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_kitchen",
+      "ko": "주방",
+      "en": "her home kitchen with a counter, open shelves and hanging pans"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "emo",
+      "ko": "이모",
+      "en": "emo — a fitted striped long-sleeve top, a studded belt, skinny jeans and checkered sneakers"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "plunging neckline",
+     "cropped hem"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "The alley borders a costume photography studio, with a dry cushioned platform under its canopy and soft reflected shop lights.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the specific lighting, objects and event context missing from the selected 골목 place; keeps its posture and activity."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_alley / pokemon_costume / pc_hoodie / lie_side / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_alley",
+      "ko": "골목",
+      "en": "a narrow city alley with hanging signboards and wet pavement"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_hoodie",
+      "ko": "후드 원피스형",
+      "en": "a daring adult costume version of {costume}, cut as a short fitted hooded dress with the hood shaped like its head"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "deep V neckline",
+     "backless"
+    ],
+    "lead": "place",
+    "color": null
+   }
+  },
+  "casual4": {
+   "scene": "A coral lamp washes rounded chrome kitchen modules and a softly padded wall; the room has the feel of a retro-future fashion set.",
+   "outfit": "A coral sari-blouse-inspired opaque set: a short fitted deep-V blouse, an open back and a draped peach lower piece with a high thigh slit, leaving waist and one thigh visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the specific lighting, objects and event context missing from the selected 레트로 퓨처 집 place; keeps its posture and activity.",
+    "outfit": "Keeps 란제리풍 and the planned colour while making its selected garment and exposed areas concrete."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_retro_home / lingerie / sari_blouse_set / lean_wall / environmental",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_retro_home",
+      "ko": "레트로 퓨처 집",
+      "en": "a retro-futurist home of rounded chrome appliances and soft panels"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "sari_blouse_set",
+      "ko": "사리 블라우스 응용",
+      "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "blouse",
+     "traditional"
+    ],
+    "expose": [
+     "deep V neckline",
+     "high thigh slit"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "orange",
+     "ko": "코랄 · 오렌지",
+     "en": "coral and soft orange",
+     "words": [
+      "coral",
+      "orange",
+      "peach",
+      "apricot",
+      "tangerine",
+      "terracotta",
+      "rust"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "A porch-side fantasy costume session takes place after rain; one small Vulpix sits beside a dry wooden step, separate from her.",
+   "outfit": "A teal off-shoulder velvet sorceress gown with a sweetheart bodice, a jewelled halter detail, a high front slit and a crystal staff prop resting against the wall, leaving her shoulders and one thigh visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the specific lighting, objects and event context missing from the selected 지붕 있는 현관 place; keeps its posture and activity.",
+    "outfit": "Keeps 무대·판타지 의상 and the planned colour while making its selected garment and exposed areas concrete."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_porch / costume / sorceress_robe / stand / three_quarter",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_porch",
+      "ko": "지붕 있는 현관",
+      "en": "a covered porch on a rainy day, umbrellas resting by the door"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "sorceress_robe",
+      "ko": "마법사",
+      "en": "a sorceress costume — an off-shoulder velvet robe gown with a jewelled belt and a crystal staff prop"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "dress",
+     "robe"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "halter neck"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "teal",
+     "ko": "민트 · 틸",
+     "en": "mint and teal",
+     "words": [
+      "mint",
+      "teal",
+      "turquoise",
+      "aqua",
+      "seafoam",
+      "jade"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "Pale morning mist beyond the window softens the mountain ridgeline, while clean towels rest on a bamboo rack beside the cedar tub.",
+   "outfit": "A butter-yellow fully lined one-piece swimsuit with large side-waist cutouts, a plunging neckline and high-cut legs, leaving shoulders, waist and thighs bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the specific lighting, objects and event context missing from the selected 히노키 탕 place; keeps its posture and activity.",
+    "outfit": "Keeps 수영복 and the planned colour while making its selected garment and exposed areas concrete."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / spa_cedar / swimwear / cutout_onepiece / stand / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "spa_cedar",
+      "ko": "히노키 탕",
+      "en": "a cedar-wood tub by the window of a mountain inn"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "cutout_onepiece",
+      "ko": "컷아웃 원피스",
+      "en": "a fully lined one-piece swimsuit with large cut-outs at the sides of the waist"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "wave · down"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high-cut leg"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "yellow",
+     "ko": "옐로 · 머스터드",
+     "en": "butter yellow and mustard",
+     "words": [
+      "yellow",
+      "mustard",
+      "lemon",
+      "butter",
+      "gold",
+      "golden"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "A 1996 alteration studio has dressmaking chalk, neatly rolled fabrics and a half-finished ribbon on its cutting table; the cup is small matte porcelain.",
+   "outfit": "A black traditional choli-inspired knit blouse with a sweetheart neckline and short sleeves, paired with a charcoal draped skirt, leaving the midriff bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the specific lighting, objects and event context missing from the selected 의상 수선실 place; keeps its posture and activity.",
+    "outfit": "Keeps 전통 의상 and the planned colour while making its selected garment and exposed areas concrete."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / tailor_room / traditional / sit_chair / face_close / cup_sip",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "tailor_room",
+      "ko": "의상 수선실",
+      "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_sip",
+      "ko": "잔을 입에 댄다",
+      "en": "brings a cup to her lips",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "knit_top",
+     "skirt"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "bare midriff"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  }
+ }
+}

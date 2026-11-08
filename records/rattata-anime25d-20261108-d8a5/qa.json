@@ -1,0 +1,376 @@
+{
+  "card": "꼬렛",
+  "slots": [
+    {
+      "slot": "light",
+      "result": "accepted",
+      "observed": "보라색 기사형 전신 메카",
+      "identity": "메카 원본의 눈색·머리색·얼굴 비율을 대조함; 일상 기준은 항상 light 원본",
+      "style_25d": {
+        "verdict": "anime_25d",
+        "evidence": "얇은 윤곽, 코와 턱의 부드러운 음영, 빛나는 머리 가닥과 재질별 의상 음영"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양팔과 다리 두 개가 몸에 이어진다. 열린 손의 손가락 다섯이 보이고, 주먹 손의 접힌 손가락은 일부 겹친다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 패널을 눈으로 확인; 프레임 밖이나 가려진 손가락은 추정하여 세지 않음"
+      },
+      "exposure_regeneration": false
+    },
+    {
+      "slot": "casual1",
+      "result": "accepted",
+      "observed": "무대 대기실, 비닐 의상을 입고 꽃줄기를 가위로 정리",
+      "identity": "메카 원본의 눈색·머리색·얼굴 비율을 대조함; 일상 기준은 항상 light 원본",
+      "style_25d": {
+        "verdict": "anime_25d",
+        "evidence": "얇은 윤곽, 코와 턱의 부드러운 음영, 빛나는 머리 가닥과 재질별 의상 음영"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "가위를 쥔 손과 줄기를 잡은 손이 각각 손목과 팔꿈치에 이어진다. 소품을 쥐어 엄지와 손가락 일부가 가려진다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 패널을 눈으로 확인; 프레임 밖이나 가려진 손가락은 추정하여 세지 않음"
+      },
+      "exposure_regeneration": false
+    },
+    {
+      "slot": "casual2",
+      "result": "accepted",
+      "observed": "주방, 줄무늬 크롭톱과 의자에 앉은 자세",
+      "identity": "메카 원본의 눈색·머리색·얼굴 비율을 대조함; 일상 기준은 항상 light 원본",
+      "style_25d": {
+        "verdict": "anime_25d",
+        "evidence": "얇은 윤곽, 코와 턱의 부드러운 음영, 빛나는 머리 가닥과 재질별 의상 음영"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 아래 주먹 손은 접힌 마디가 겹친다. 허벅지 위 손은 네 긴 손가락과 옆 엄지 일부가 보인다. 양팔은 몸에 이어진다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 패널을 눈으로 확인; 프레임 밖이나 가려진 손가락은 추정하여 세지 않음"
+      },
+      "exposure_regeneration": false
+    },
+    {
+      "slot": "casual3",
+      "result": "accepted",
+      "observed": "골목 플랫폼, 꼬렛 후드 코스튬",
+      "identity": "메카 원본의 눈색·머리색·얼굴 비율을 대조함; 일상 기준은 항상 light 원본",
+      "style_25d": {
+        "verdict": "anime_25d",
+        "evidence": "얇은 윤곽, 코와 턱의 부드러운 음영, 빛나는 머리 가닥과 재질별 의상 음영"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "가까운 팔이 쿠션 위에 놓이고 반대 팔은 뒤쪽으로 굽는다. 손은 프레임 가장자리 밖으로 가려져 손가락 수를 확인할 수 없다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 패널을 눈으로 확인; 프레임 밖이나 가려진 손가락은 추정하여 세지 않음"
+      },
+      "exposure_regeneration": false
+    },
+    {
+      "slot": "casual4",
+      "result": "accepted",
+      "observed": "레트로 퓨처 집, 코랄 드레이프 의상과 팔짱",
+      "identity": "메카 원본의 눈색·머리색·얼굴 비율을 대조함; 일상 기준은 항상 light 원본",
+      "style_25d": {
+        "verdict": "anime_25d",
+        "evidence": "얇은 윤곽, 코와 턱의 부드러운 음영, 빛나는 머리 가닥과 재질별 의상 음영"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "팔짱을 낀 양팔의 팔꿈치와 아래팔이 이어진다. 위쪽 손의 긴 손가락 네 개가 보이며 엄지와 반대 손은 팔 뒤에 가려진다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 패널을 눈으로 확인; 프레임 밖이나 가려진 손가락은 추정하여 세지 않음"
+      },
+      "exposure_regeneration": false
+    },
+    {
+      "slot": "casual5",
+      "result": "accepted",
+      "observed": "현관, 틸 마법사 의상과 식스테일 한 마리",
+      "identity": "메카 원본의 눈색·머리색·얼굴 비율을 대조함; 일상 기준은 항상 light 원본",
+      "style_25d": {
+        "verdict": "anime_25d",
+        "evidence": "얇은 윤곽, 코와 턱의 부드러운 음영, 빛나는 머리 가닥과 재질별 의상 음영"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "한 손은 목 옆으로 올라가며 손가락이 자연스럽게 굽고, 아래 손은 옆 방향이라 일부가 겹친다. 양팔은 어깨에서 손목까지 이어진다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 패널을 눈으로 확인; 프레임 밖이나 가려진 손가락은 추정하여 세지 않음"
+      },
+      "exposure_regeneration": false
+    },
+    {
+      "slot": "casual6",
+      "result": "accepted",
+      "observed": "히노키 탕, 노란 컷아웃 수영복과 손 인사",
+      "identity": "메카 원본의 눈색·머리색·얼굴 비율을 대조함; 일상 기준은 항상 light 원본",
+      "style_25d": {
+        "verdict": "anime_25d",
+        "evidence": "얇은 윤곽, 코와 턱의 부드러운 음영, 빛나는 머리 가닥과 재질별 의상 음영"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "인사하는 손에 손가락 다섯이 보인다. 아래 손은 옆모습으로 손가락이 겹친다. 팔 둘과 다리 둘이 몸에 이어진다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 패널을 눈으로 확인; 프레임 밖이나 가려진 손가락은 추정하여 세지 않음"
+      },
+      "exposure_regeneration": false
+    },
+    {
+      "slot": "casual7",
+      "result": "accepted",
+      "observed": "수선실, 검은 의상과 컵을 입으로 가져가는 손",
+      "identity": "메카 원본의 눈색·머리색·얼굴 비율을 대조함; 일상 기준은 항상 light 원본",
+      "style_25d": {
+        "verdict": "anime_25d",
+        "evidence": "얇은 윤곽, 코와 턱의 부드러운 음영, 빛나는 머리 가닥과 재질별 의상 음영"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "컵 손잡이에 검지를 걸고 나머지 손가락을 굽힌다. 엄지는 컵 뒤로 일부 가려진다. 반대 손과 다리는 프레임 밖이다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 패널을 눈으로 확인; 프레임 밖이나 가려진 손가락은 추정하여 세지 않음"
+      },
+      "exposure_regeneration": false
+    }
+  ],
+  "diversity": {
+    "look_check": {
+      "crowd_below": 245,
+      "cuts": [
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/꼬렛_anime_25d_f_casual1.webp",
+          "near": [
+            [
+              "브리가론_glossy_promo_f_casual2.webp",
+              286
+            ],
+            [
+              "네오라이트_glossy_promo_f_casual1.webp",
+              296
+            ],
+            [
+              "니드킹_glossy_promo_f_casual1.webp",
+              296
+            ],
+            [
+              "어지리더_glossy_promo_f_casual3.webp",
+              299
+            ],
+            [
+              "뚜벅쵸_glossy_promo_f_casual1.webp",
+              301
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/꼬렛_anime_25d_f_casual2.webp",
+          "near": [
+            [
+              "야도킹_glossy_promo_f_casual3.webp",
+              300
+            ],
+            [
+              "폴리곤Z_glossy_promo_f_casual3.webp",
+              311
+            ],
+            [
+              "소미안_glossy_promo_f_casual3.webp",
+              312
+            ],
+            [
+              "체리버_glossy_promo_f_casual3.webp",
+              317
+            ],
+            [
+              "다부니_glossy_promo_f_casual1.webp",
+              323
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/꼬렛_anime_25d_f_casual3.webp",
+          "near": [
+            [
+              "푸크린_glossy_promo_f_casual2.webp",
+              307
+            ],
+            [
+              "삐삐_anime_gloss_f_casual4.webp",
+              310
+            ],
+            [
+              "파르셀_glossy_promo_f_casual1.webp",
+              318
+            ],
+            [
+              "독침붕_anime_gloss_f_casual5.webp",
+              325
+            ],
+            [
+              "보송송_glossy_promo_f_casual1.webp",
+              327
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/꼬렛_anime_25d_f_casual4.webp",
+          "near": [
+            [
+              "푸린_glossy_promo_f_casual1.webp",
+              267
+            ],
+            [
+              "식스테일_glossy_promo_f_casual1.webp",
+              303
+            ],
+            [
+              "골덕_glossy_promo_f_casual3.webp",
+              309
+            ],
+            [
+              "푸크린_glossy_promo_f_casual1.webp",
+              311
+            ],
+            [
+              "악비아르_glossy_promo_f_casual1.webp",
+              321
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/꼬렛_anime_25d_f_casual5.webp",
+          "near": [
+            [
+              "이상해씨_gloss_daylight_f_casual5.webp",
+              268
+            ],
+            [
+              "곤율거니_glossy_promo_f_casual3.webp",
+              271
+            ],
+            [
+              "폴리곤Z_glossy_promo_f_casual3.webp",
+              306
+            ],
+            [
+              "불화살빈_glossy_promo_f_casual2.webp",
+              308
+            ],
+            [
+              "마자_glossy_promo_f_casual2.webp",
+              309
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/꼬렛_anime_25d_f_casual6.webp",
+          "near": [
+            [
+              "리자드_anime_gloss_f_casual5.webp",
+              252
+            ],
+            [
+              "꼬부기_anime_25d_f_casual5.webp",
+              262
+            ],
+            [
+              "아르코_glossy_promo_f_casual3.webp",
+              273
+            ],
+            [
+              "모단단게_glossy_promo_f_casual3.webp",
+              280
+            ],
+            [
+              "데기라스_glossy_promo_f_casual2.webp",
+              283
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/꼬렛_anime_25d_f_casual7.webp",
+          "near": [
+            [
+              "리아코_glossy_promo_f_casual2.webp",
+              325
+            ],
+            [
+              "액스라이즈_glossy_promo_f_casual3.webp",
+              330
+            ],
+            [
+              "활화르바_glossy_promo_f_casual3.webp",
+              336
+            ],
+            [
+              "아말도_glossy_promo_f_casual1.webp",
+              340
+            ],
+            [
+              "파르셀_glossy_promo_f_casual1.webp",
+              340
+            ]
+          ],
+          "same_as_own": []
+        }
+      ],
+      "dup_below": 215,
+      "ok": true
+    },
+    "actual_comparison_files": [
+      "이상해씨_anime_25d_f_casual1.webp",
+      "이상해씨_anime_25d_f_casual2.webp",
+      "이상해씨_anime_25d_f_casual3.webp",
+      "파이리_anime_25d_f_casual1.webp",
+      "파이리_anime_25d_f_casual2.webp",
+      "파이리_anime_25d_f_casual3.webp",
+      "피카츄_anime_25d_f_casual1.webp",
+      "피카츄_anime_25d_f_casual2.webp",
+      "피카츄_anime_25d_f_casual3.webp"
+    ],
+    "notes": "전체 생성 결과와 최근 세 캐릭터의 실제 9개 컷을 비교함. 장소·옷·동작·프레이밍의 조합이 구분됨. 구구6 최초 시도만 207로 중복 검출되어 해변 폭죽 장면으로 재계획."
+  },
+  "anatomy_limit": "자동 검사기는 실행 불가; 육안 검수만 수행",
+  "exposure_regenerations": 0
+}
