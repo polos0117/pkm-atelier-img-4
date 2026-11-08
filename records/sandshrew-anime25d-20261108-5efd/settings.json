@@ -1,0 +1,591 @@
+{
+ "version": 2,
+ "card": "모래두지",
+ "no": 27,
+ "style": "anime_25d",
+ "plan": "/workspace/scratch/5efdb636a15d/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "power_limbs"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "ground"
+     },
+     {
+      "key": "aura",
+      "type": "ground"
+     },
+     {
+      "key": "ground",
+      "type": "ground"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "power_limbs"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "ground"
+     },
+     {
+      "key": "aura",
+      "type": "ground"
+     },
+     {
+      "key": "ground",
+      "type": "ground"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "slim_suit",
+    "heavy_assault",
+    "light_agile",
+    "sub_arms",
+    "frame_exposed",
+    "light_agile",
+    "float_units",
+    "full_armor",
+    "tail_unit",
+    "wing_binder"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Warm afternoon sunlight falls across a 1996 magic-show rehearsal set; velvet cushions and a neatly folded stage curtain lie on the studio floor.",
+   "outfit": "A chocolate-brown sequined one-shoulder stage bodysuit with a plunging neckline, a cropped tailcoat, gloves and a small top hat.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a mirrored dance, yoga or Pilates studio with a wooden floor without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of a stage magician's assistant costume — a sequined fitted leotard-style top, a short tailcoat, gloves and a small top hat while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_studio / roleplay / magician_assistant / lie_side / full_body",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_studio",
+      "ko": "연습실",
+      "en": "a mirrored dance, yoga or Pilates studio with a wooden floor"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "magician_assistant",
+      "ko": "마술사 조수",
+      "en": "a stage magician's assistant costume — a sequined fitted leotard-style top, a short tailcoat, gloves and a small top hat"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "behind_head · floor_brace"
+    },
+    "garments": [
+     "bodysuit"
+    ],
+    "expose": [
+     "plunging neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "brown",
+     "ko": "카멜 · 초콜릿",
+     "en": "camel and chocolate brown",
+     "words": [
+      "brown",
+      "camel",
+      "tan",
+      "chocolate",
+      "beige",
+      "khaki",
+      "taupe",
+      "caramel"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "Lavender light reflects from the arcade cabinets and the polished edge of her stool.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen an arcade hall of upright cabinets whose screens show only coloured glow without changing the planned activity."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / arcade_hall / retro / halter_playsuit / sit_chair / face_close / coin_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow"
+     },
+     "role": null,
+     "use": {
+      "key": "coin_hold",
+      "ko": "동전을 들어 보인다",
+      "en": "holds a single coin up between two fingers",
+      "prop": "동전"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "halter_playsuit",
+      "ko": "50년대 홀터 플레이수트",
+      "en": "a 1950s halter playsuit"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "high thigh slit"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "purple",
+     "ko": "라벤더 · 플럼",
+     "en": "lavender and plum",
+     "words": [
+      "purple",
+      "lavender",
+      "lilac",
+      "violet",
+      "plum",
+      "mauve"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "She passes along the dry stone path beside the hot spring, with cedar railings and faint evening steam behind her.",
+   "outfit": "A sage-green cropped hoodie with a deep-V neckline and fitted olive leggings, leaving her waist visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen an open-air hot spring among steaming rocks without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of a cropped hoodie and leggings while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / spa_onsen / everyday / hoodie_leggings / walk / three_quarter / fan_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "spa_onsen",
+      "ko": "노천 온천",
+      "en": "an open-air hot spring among steaming rocks"
+     },
+     "role": null,
+     "use": {
+      "key": "fan_hold",
+      "ko": "부채를 든다",
+      "en": "holds a folding fan open near her chest",
+      "prop": "접부채"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "hoodie_leggings",
+      "ko": "후디 + 레깅스",
+      "en": "a cropped hoodie and leggings"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "leggings",
+     "sweater"
+    ],
+    "expose": [
+     "deep V neckline",
+     "bare midriff"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "green",
+     "ko": "세이지 · 올리브",
+     "en": "sage and olive green",
+     "words": [
+      "green",
+      "sage",
+      "olive",
+      "emerald",
+      "moss",
+      "forest"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "A small Eevee rests separately beside the picnic blanket, with a cool picnic hamper and a lakeside swimming spot beyond the tree.",
+   "outfit": "A deep-red bandeau bikini with a straight strapless top, a low open back and matching secure high-cut bottoms.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a shaded lawn with a picnic blanket under a broad tree without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of a bandeau bikini with a straight strapless top while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_lawn / swimwear / bandeau_bikini / lie_front / full_body",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_lawn",
+      "ko": "그늘진 잔디밭",
+      "en": "a shaded lawn with a picnic blanket under a broad tree"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "bandeau_bikini",
+      "ko": "반두 비키니",
+      "en": "a bandeau bikini with a straight strapless top"
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "chin_both · chin_both"
+    },
+    "garments": [
+     "bikini",
+     "crop_top"
+    ],
+    "expose": [
+     "plunging neckline",
+     "open back"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "red",
+     "ko": "레드 · 와인",
+     "en": "deep red and wine",
+     "words": [
+      "red",
+      "crimson",
+      "scarlet",
+      "burgundy",
+      "wine",
+      "cherry"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "She pauses beside wicker baskets of Oran and Pecha berries beneath a striped market awning.",
+   "outfit": "Original sky-blue short work overalls worn with a navy strapless sweetheart tank top; the apron pocket carries a small wooden berry scoop.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a village market stall piled with fresh berries without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of her berry-market workwear while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_market / work / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_market",
+      "ko": "마을 열매 시장",
+      "en": "a village market stall piled with fresh berries"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "hair_tuck · out"
+    },
+    "garments": [
+     "overalls",
+     "tank"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "strapless top"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "blue",
+     "ko": "스카이 · 네이비",
+     "en": "sky blue and navy",
+     "words": [
+      "blue",
+      "navy",
+      "cobalt",
+      "sky",
+      "azure",
+      "denim"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "The award-hall entrance has polished pale stone and velvet rope posts, with distant flashes reflected in the glass doors.",
+   "outfit": "A rose-pink opaque bias-cut satin slip with a deep-V neckline, a low back and narrow straps.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a red carpet and award hall with camera flashes without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of a bias-cut satin slip with narrow straps and a straight hem while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_redcarpet / lingerie / slip_lingerie / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_redcarpet",
+      "ko": "레드카펫·시상식",
+      "en": "a red carpet and award hall with camera flashes"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "slip_lingerie",
+      "ko": "란제리 슬립",
+      "en": "a bias-cut satin slip with narrow straps and a straight hem"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "clasp_both · clasp_both"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "deep V neckline",
+     "backless"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "Amber lanterns illuminate dewdrops on fern fronds and a low mossy stone wall.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a misty enchanted garden of moss, ivy and lanterns without changing the planned activity."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_forest / pokemon_costume / pc_bodysuit / stand / three_quarter",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_forest",
+      "ko": "요정 숲 정원",
+      "en": "a misty enchanted garden of moss, ivy and lanterns"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "hip · hair_tuck"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "plunging neckline",
+     "mini length"
+    ],
+    "lead": "detail",
+    "color": null
+   }
+  }
+ }
+}
