@@ -1,0 +1,589 @@
+{
+ "version": 2,
+ "card": "삐삐",
+ "no": 35,
+ "style": "anime_25d",
+ "plan": "/workspace/scratch/5efdb636a15d/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "skirt_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "fairy"
+     },
+     {
+      "key": "aura",
+      "type": "fairy"
+     },
+     {
+      "key": "orbit",
+      "type": "fairy"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "skirt_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "fairy"
+     },
+     {
+      "key": "aura",
+      "type": "fairy"
+     },
+     {
+      "key": "orbit",
+      "type": "fairy"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "slim_suit",
+    "heavy_assault",
+    "light_agile",
+    "sub_arms",
+    "frame_exposed",
+    "light_agile",
+    "float_units",
+    "full_armor",
+    "tail_unit",
+    "wing_binder"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Late afternoon light crosses the wooden studio floor; a 1996 editorial dance-fashion set uses warm fabric panels beyond the mirror.",
+   "outfit": "A butter-yellow opaque sari-blouse-inspired set with a short fitted deep-V off-shoulder top and a draped mustard lower piece.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a mirrored dance, yoga or Pilates studio with a wooden floor without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of a sari-blouse-inspired set with a short fitted top and a draped lower piece while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_studio / lingerie / sari_blouse_set / kneel / three_quarter",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_studio",
+      "ko": "연습실",
+      "en": "a mirrored dance, yoga or Pilates studio with a wooden floor"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "sari_blouse_set",
+      "ko": "사리 블라우스 응용",
+      "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+     },
+     "posture": {
+      "key": "kneel",
+      "ko": "무릎 꿇기",
+      "en": "kneeling on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "clasp_both · clasp_both"
+    },
+    "garments": [
+     "blouse",
+     "traditional"
+    ],
+    "expose": [
+     "deep V neckline",
+     "off-shoulder neckline"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "yellow",
+     "ko": "옐로 · 머스터드",
+     "en": "butter yellow and mustard",
+     "words": [
+      "yellow",
+      "mustard",
+      "lemon",
+      "butter",
+      "gold",
+      "golden"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "The enchanted garden has a wide moss-covered stone plinth and soft violet lantern light among ivy.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a misty enchanted garden of moss, ivy and lanterns without changing the planned activity."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_forest / pokemon_costume / pc_mini_dress / lie_front / waist_up",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_forest",
+      "ko": "요정 숲 정원",
+      "en": "a misty enchanted garden of moss, ivy and lanterns"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_mini_dress",
+      "ko": "미니 드레스형",
+      "en": "a daring adult costume version of {costume}, cut as a fitted strapless mini dress"
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "backless"
+    ],
+    "lead": "place",
+    "color": null
+   }
+  },
+  "casual3": {
+   "scene": "She settles on the shoe bench beside the open doorway, where a studded shoulder bag rests on the floor.",
+   "outfit": "A chocolate-and-camel striped fitted long-sleeve emo top with a plunging neckline and waist cutouts, skinny brown jeans, a studded belt and checkered sneakers.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen the entryway of her home with a shoe bench, coat hooks and a long mirror without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of emo — a fitted striped long-sleeve top, a studded belt, skinny jeans and checkered sneakers while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / home_entry / subculture / emo / sit_edge / three_quarter",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_entry",
+      "ko": "현관",
+      "en": "the entryway of her home with a shoe bench, coat hooks and a long mirror"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "emo",
+      "ko": "이모",
+      "en": "emo — a fitted striped long-sleeve top, a studded belt, skinny jeans and checkered sneakers"
+     },
+     "posture": {
+      "key": "sit_edge",
+      "ko": "가장자리에 걸터앉기",
+      "en": "perched on a ledge or edge"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "plunging neckline",
+     "cutout waist"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "brown",
+     "ko": "카멜 · 초콜릿",
+     "en": "camel and chocolate brown",
+     "words": [
+      "brown",
+      "camel",
+      "tan",
+      "chocolate",
+      "beige",
+      "khaki",
+      "taupe",
+      "caramel"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "A woven basket holds Oran and Pecha berries; one small Jigglypuff walks separately alongside her near the picnic blanket.",
+   "outfit": "A coral fully lined one-piece swimsuit with a sweetheart neckline, side-waist cutouts and high-cut legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a shaded lawn with a picnic blanket under a broad tree without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of a fully lined one-piece swimsuit with large cut-outs at the sides of the waist while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_lawn / swimwear / cutout_onepiece / walk / full_body / basket_carry",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_lawn",
+      "ko": "그늘진 잔디밭",
+      "en": "a shaded lawn with a picnic blanket under a broad tree"
+     },
+     "role": null,
+     "use": {
+      "key": "basket_carry",
+      "ko": "나무열매 바구니를 팔에 건다",
+      "en": "carries a woven basket of berries in the crook of her arm",
+      "prop": "나무열매 바구니"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "cutout_onepiece",
+      "ko": "컷아웃 원피스",
+      "en": "a fully lined one-piece swimsuit with large cut-outs at the sides of the waist"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · natural"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "high-cut leg"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "orange",
+     "ko": "코랄 · 오렌지",
+     "en": "coral and soft orange",
+     "words": [
+      "coral",
+      "orange",
+      "peach",
+      "apricot",
+      "tangerine",
+      "terracotta",
+      "rust"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "The sewing room contains folded pale fabrics and neatly sorted thread spools near the dress form.",
+   "outfit": "A teal leaf-trimmed short elf dress with a plunging neckline and a high thigh slit, a mint hooded half-cape and small pointed ear-tip costume pieces.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a sewing and alteration room with a cutting table, a dress form and rolls of fabric without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of an elf costume — a leaf-trimmed short dress, a hooded half-cape and pointed ear tips while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / tailor_room / costume / elf_costume / sit_chair / full_body / hoop_stitch",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "tailor_room",
+      "ko": "의상 수선실",
+      "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+     },
+     "role": null,
+     "use": {
+      "key": "hoop_stitch",
+      "ko": "수를 놓는다",
+      "en": "stitches into a small embroidery hoop with fabric in it",
+      "prop": "자수 틀"
+     },
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "elf_costume",
+      "ko": "엘프",
+      "en": "an elf costume — a leaf-trimmed short dress, a hooded half-cape and pointed ear tips"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "coat",
+     "dress"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high thigh slit"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "teal",
+     "ko": "민트 · 틸",
+     "en": "mint and teal",
+     "words": [
+      "mint",
+      "teal",
+      "turquoise",
+      "aqua",
+      "seafoam",
+      "jade"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "Warm ceiling lights and camera flashes illuminate a costume-design award reception; a carved balustrade borders the carpet.",
+   "outfit": "An ivory-and-black maid event costume with a structured deep-V bodice, short puffed sleeves, a cream full apron and a cropped mini hem.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a red carpet and award hall with camera flashes without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_redcarpet / roleplay / adult_maid / lean_rail / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_redcarpet",
+      "ko": "레드카펫·시상식",
+      "en": "a red carpet and award hall with camera flashes"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_maid",
+      "ko": "메이드 코스튬",
+      "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "apron"
+    ],
+    "expose": [
+     "deep V neckline",
+     "cropped hem"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "A metallic clutch and a folded towel rest by the pool, while bright city windows reflect in the water.",
+   "outfit": "A black flowing boubou-inspired embroidered robe with a matching head wrap, reworked with a sweetheart halter neckline while keeping its broad draped silhouette.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds the concrete setting and props absent from the chosen a rooftop infinity pool with the city skyline behind it without changing the planned activity.",
+    "outfit": "Specifies the planned colour and cut of a flowing West African boubou — a wide floor-length embroidered robe with a matching head wrap while preserving its garment silhouette."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / water_infinity / traditional / boubou_flow / walk / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "water_infinity",
+      "ko": "루프탑 인피니티 풀",
+      "en": "a rooftop infinity pool with the city skyline behind it"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "boubou_flow",
+      "ko": "부부",
+      "en": "a flowing West African boubou — a wide floor-length embroidered robe with a matching head wrap"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "halter neck"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  }
+ }
+}
