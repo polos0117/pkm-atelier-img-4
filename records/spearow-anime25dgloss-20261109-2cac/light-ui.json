@@ -1,0 +1,108 @@
+{
+ "storage": {
+  "last": "깨비참",
+  "cards": {
+   "깨비참": {
+    "style": "anime_25d_gloss",
+    "identityMode": "create",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {
+     "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+    },
+    "locks": {},
+    "mode": "action",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "street_cafe",
+      "act": "coffee_takeout",
+      "ofam": "everyday",
+      "item": ""
+     }
+    },
+    "mecha": {
+     "set": {
+      "silhouette": "knight_plate"
+     },
+     "fx": [
+      {
+       "key": "hand",
+       "type": "normal"
+      },
+      {
+       "key": "seams",
+       "type": "flying"
+      },
+      {
+       "key": "trail",
+       "type": "normal"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "prompt": "INPUT: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\n\nSOURCE: Spearow (깨비참), normal / flying type.\n\nPALETTE: brown, light pink.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face with large expressive eyes, delicately drawn eyelids, a small simplified nose and mouth, and a compact tapered jaw. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones, restrained highlights on clothing and armor, and a delicate pastel palette. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nSUBJECT: A female mecha personification character with Spearow as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\n\nWEAR: the three brown tail feathers become a feathered or ruffled collar and trim; its markings (two thin, horizontal stripes) become painted lines and patterns on her plates and undersuit.\n\nFACE (her own structure, not the style's default face): sharp face, balanced length, medium width; narrow tapered chin; narrow eyes, small size, level outer corners, close-set; angled brows; straight slender bridge nose; thin lips.\n\nFORM — LIGHT: one layer of thin, close-fitting hard armor that covers most of her body: a chest plate joined to segmented abdominal plates down to her hips, shoulder pauldrons, upper-arm and forearm plates with gauntlets, hip and thigh plates, knee guards, shin guards and armored boots; the fitted undersuit shows only in narrow gaps at the joints, joints free. The plates stay thin and close to her body, so the outline is slim and readable without slimming her figure. No helmet; at most a slim headband or temple sensor.\n\nARMOR: rigid hard-surface mecha armor — solid plates of enamelled metal and ceramic with visible thickness, bevelled edges, layered rims, panel lines, seams, small vents, sensor lights and mechanical joints, casting real shadows onto the undersuit. The plates sit on top of her body as separate machined parts, never printed or painted onto fabric, never a patterned bodysuit.\n\nMECHA SILHOUETTE: mecha armor shaped like a medieval knight's plate — big rounded pauldrons, a breastplate, layered plates below the waist, a head ornament instead of a helmet so her face shows. Solid hard-surface plates that read as armor, not cloth.\n\nTYPE EFFECTS: One open hand conjuring a warm white-gold light amid soft floating motes of warm light. A pale sky-blue glow with white wind streaks pulses along her armor seams and joints. A light trail of soft floating motes of warm light streams back from her heels and back armor.\n\nEXPOSURE: armor and undersuit open by design only at bare shoulders and upper arms, and a deep neckline window with cleavage; everywhere else fully covered. Plates stay on and symmetrical; nothing slipped off; intimate areas covered.\n\nOUTPUT: one dynamic action image that is also this form's card art. Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion. Camera level with her face; her body and face turned gently three-quarters toward the camera (never a back view), her head level with her chin neither raised nor tucked, no upward perspective on her face. Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\n\nIDENTITY (chosen details override the automatic look)\nbody type: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy\nbody scope: Body type sets the build; body details adjust within it. These describe anatomy beneath armor, not equipment volume.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Keep both hands relaxed — a loose fist, an open palm or resting on something. Gloves are full-finger and close-fitting; plates, water, sparks and effects stay off the fingers."
+}
