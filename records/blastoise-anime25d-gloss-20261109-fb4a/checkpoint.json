@@ -1,0 +1,194 @@
+{
+ "card": "거북왕",
+ "style": "anime_25d_gloss",
+ "status": "ready_to_publish",
+ "requested": 8,
+ "generated": 8,
+ "generator": "built-in image_gen; exact prompt-pack submitted text; only own light image attached to casual slots",
+ "light": {
+  "local": "/workspace/scratch/fb4aca27e72e/blastoise/light-original.png",
+  "sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+  "published_file": "거북왕_light_anime_25d_gloss_f.webp",
+  "face_design_reason": "Broad oval and horizontal eyes reflect Blastoise bulk",
+  "face_design_source": "data/face-design.json and light-prompt.txt",
+  "comparison_characters": [
+   "단데기",
+   "이상해씨",
+   "꼬부기"
+  ],
+  "accepted_reference": "new anime_25d_gloss light image, not old-style assets"
+ },
+ "original_availability": "PNG originals exist only in this session; final WebP paths and hashes are durable after publish",
+ "slots": [
+  {
+   "character": "blastoise",
+   "slot": "light",
+   "path": "/workspace/scratch/fb4aca27e72e/generated_images/exec-9c0eb298-b32c-4e7b-bccb-45a6755b6215.png",
+   "card": "거북왕",
+   "file": "거북왕_light_anime_25d_gloss_f.webp",
+   "local": "/workspace/scratch/fb4aca27e72e/pkm-atelier-img-4/img/거북왕_light_anime_25d_gloss_f.webp",
+   "original_sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+   "webp_sha256": "2c8182fb8f6309a550457976bfebc2eb09eebd8a3460c4a7bb8b1bd313445f87",
+   "pixels": [
+    1024,
+    1536
+   ],
+   "reference": null,
+   "style": "anime_25d_gloss",
+   "basis": "explicit user style; prompt-pack settings and exact submitted text",
+   "reference_sha256": null,
+   "record": "records/blastoise-anime25d-gloss-20261109-fb4a",
+   "submitted_sha256": "7e930007a376d122b1dc888e70c7de431a663c8be0b28438cd16abacd0fec58a",
+   "submitted_same": true
+  },
+  {
+   "character": "blastoise",
+   "slot": "casual1",
+   "path": "/workspace/scratch/fb4aca27e72e/generated_images/exec-7bd519a1-3cb8-4928-a945-3b5bb999def6.png",
+   "card": "거북왕",
+   "file": "거북왕_anime_25d_gloss_f_casual1.webp",
+   "local": "/workspace/scratch/fb4aca27e72e/pkm-atelier-img-4/img/거북왕_anime_25d_gloss_f_casual1.webp",
+   "original_sha256": "4ebb61fc5c0ecc85f197d9d036b3d2b269a6a9038c347a7f5cacd336558de1f5",
+   "webp_sha256": "5475b582a0c427e68ec9999295f210346e12b97179ddb3ad2970e8e0eb3a8be0",
+   "pixels": [
+    1024,
+    1536
+   ],
+   "reference": "/workspace/scratch/fb4aca27e72e/blastoise/light-original.png",
+   "style": "anime_25d_gloss",
+   "basis": "explicit user style; prompt-pack settings and exact submitted text",
+   "reference_sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+   "record": "records/blastoise-anime25d-gloss-20261109-fb4a",
+   "submitted_sha256": "0dca7ac71144342d6044b91b2162e564ceee8209acc2df348cf3553d9e8ba68f",
+   "submitted_same": true
+  },
+  {
+   "character": "blastoise",
+   "slot": "casual2",
+   "path": "/workspace/scratch/fb4aca27e72e/generated_images/exec-6b7e15ba-4176-45c3-8d89-7b3906690a11.png",
+   "card": "거북왕",
+   "file": "거북왕_anime_25d_gloss_f_casual2.webp",
+   "local": "/workspace/scratch/fb4aca27e72e/pkm-atelier-img-4/img/거북왕_anime_25d_gloss_f_casual2.webp",
+   "original_sha256": "db632bb9a51fd442adfabc510c9898cbb3c1dae6e063bf83145d750fb067f738",
+   "webp_sha256": "dd6c75ec32921862dadc1d599a8d860e2217f56a5ccd4c478a11158ceafe66ab",
+   "pixels": [
+    1024,
+    1536
+   ],
+   "reference": "/workspace/scratch/fb4aca27e72e/blastoise/light-original.png",
+   "style": "anime_25d_gloss",
+   "basis": "explicit user style; prompt-pack settings and exact submitted text",
+   "reference_sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+   "record": "records/blastoise-anime25d-gloss-20261109-fb4a",
+   "submitted_sha256": "6246315c6080c63980f603bc4eb1dfa7a8f82b1ff2551d96eefdf31de7303c37",
+   "submitted_same": true
+  },
+  {
+   "character": "blastoise",
+   "slot": "casual3",
+   "path": "/workspace/scratch/fb4aca27e72e/generated_images/exec-259ed2c0-8812-4639-ac82-1283b5fb8e92.png",
+   "card": "거북왕",
+   "file": "거북왕_anime_25d_gloss_f_casual3.webp",
+   "local": "/workspace/scratch/fb4aca27e72e/pkm-atelier-img-4/img/거북왕_anime_25d_gloss_f_casual3.webp",
+   "original_sha256": "8cc74bff68aeee6fef10960a98300c032fbc8f671ff16834a93ce1462e43d5e3",
+   "webp_sha256": "eee3b669a6dad77844af1d533d73c9117dd7217b2f470f05314e08f008eba569",
+   "pixels": [
+    1024,
+    1536
+   ],
+   "reference": "/workspace/scratch/fb4aca27e72e/blastoise/light-original.png",
+   "style": "anime_25d_gloss",
+   "basis": "explicit user style; prompt-pack settings and exact submitted text",
+   "reference_sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+   "record": "records/blastoise-anime25d-gloss-20261109-fb4a",
+   "submitted_sha256": "62abda6702c6e7ddcdfb8de3e42bdf634f2a77b8e343f738ef6613619d85af77",
+   "submitted_same": true
+  },
+  {
+   "character": "blastoise",
+   "slot": "casual4",
+   "path": "/workspace/scratch/fb4aca27e72e/generated_images/exec-faf6cc5d-680b-4793-8921-a44d438f72eb.png",
+   "card": "거북왕",
+   "file": "거북왕_anime_25d_gloss_f_casual4.webp",
+   "local": "/workspace/scratch/fb4aca27e72e/pkm-atelier-img-4/img/거북왕_anime_25d_gloss_f_casual4.webp",
+   "original_sha256": "b6065d4e3050c7f0d1517dfa3110db5ccd30b924b6a3d830e21056bf0c0585f9",
+   "webp_sha256": "e82cd23621d37f39f365b2a273f58c2d2d007f63d8b843a9f667f79782ab0591",
+   "pixels": [
+    1024,
+    1536
+   ],
+   "reference": "/workspace/scratch/fb4aca27e72e/blastoise/light-original.png",
+   "style": "anime_25d_gloss",
+   "basis": "explicit user style; prompt-pack settings and exact submitted text",
+   "reference_sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+   "record": "records/blastoise-anime25d-gloss-20261109-fb4a",
+   "submitted_sha256": "da5269ab21f9939f01bfb5b95028441e62c765447a8f8ee0aab1fbb275a83585",
+   "submitted_same": true
+  },
+  {
+   "character": "blastoise",
+   "slot": "casual5",
+   "path": "/workspace/scratch/fb4aca27e72e/generated_images/exec-7f1143e8-06ca-432d-8244-61e6f3b89409.png",
+   "card": "거북왕",
+   "file": "거북왕_anime_25d_gloss_f_casual5.webp",
+   "local": "/workspace/scratch/fb4aca27e72e/pkm-atelier-img-4/img/거북왕_anime_25d_gloss_f_casual5.webp",
+   "original_sha256": "b1e454a49ee7e970ea13ab52e3829cced2fb72747dfd5a5ebc0ec1034fb9288c",
+   "webp_sha256": "09719ba94088680744d1e38f6c3be575cf2e87cf53554d4a534623fc0e6ab05b",
+   "pixels": [
+    1024,
+    1536
+   ],
+   "reference": "/workspace/scratch/fb4aca27e72e/blastoise/light-original.png",
+   "style": "anime_25d_gloss",
+   "basis": "explicit user style; prompt-pack settings and exact submitted text",
+   "reference_sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+   "record": "records/blastoise-anime25d-gloss-20261109-fb4a",
+   "submitted_sha256": "0852fd47a491ee5fd26c759ea2548c82071d48945232cb65b4d17d811287b41b",
+   "submitted_same": true
+  },
+  {
+   "character": "blastoise",
+   "slot": "casual6",
+   "path": "/workspace/scratch/fb4aca27e72e/generated_images/exec-208ea75f-234a-47f9-998f-8ffdeb5460f1.png",
+   "card": "거북왕",
+   "file": "거북왕_anime_25d_gloss_f_casual6.webp",
+   "local": "/workspace/scratch/fb4aca27e72e/pkm-atelier-img-4/img/거북왕_anime_25d_gloss_f_casual6.webp",
+   "original_sha256": "efc99783c02362d6a8235317db8d6a3a6290af1f79a75d4201bf7c0f99f6c9b7",
+   "webp_sha256": "06ae3801df054f900bf694d16f6c12e98fce15b9572bfe45d93a2fbc79fef627",
+   "pixels": [
+    1024,
+    1536
+   ],
+   "reference": "/workspace/scratch/fb4aca27e72e/blastoise/light-original.png",
+   "style": "anime_25d_gloss",
+   "basis": "explicit user style; prompt-pack settings and exact submitted text",
+   "reference_sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+   "record": "records/blastoise-anime25d-gloss-20261109-fb4a",
+   "submitted_sha256": "4aaca4a4f74fdd8d026da46e3ce7cd845383a17de10d3812f91f3d181a750998",
+   "submitted_same": true
+  },
+  {
+   "character": "blastoise",
+   "slot": "casual7",
+   "path": "/workspace/scratch/fb4aca27e72e/generated_images/exec-e9ccd8e8-fd37-42a6-a2db-39ff27cc19a4.png",
+   "card": "거북왕",
+   "file": "거북왕_anime_25d_gloss_f_casual7.webp",
+   "local": "/workspace/scratch/fb4aca27e72e/pkm-atelier-img-4/img/거북왕_anime_25d_gloss_f_casual7.webp",
+   "original_sha256": "6f016f73d2aff8205344f156769ed53d38c41c47b2617380801d5a9de7f3db29",
+   "webp_sha256": "0dee9e635898d98e5b15560afdb013f8b063b86cf0d9b21b50164f8c2e8e6be7",
+   "pixels": [
+    1024,
+    1536
+   ],
+   "reference": "/workspace/scratch/fb4aca27e72e/blastoise/light-original.png",
+   "style": "anime_25d_gloss",
+   "basis": "explicit user style; prompt-pack settings and exact submitted text",
+   "reference_sha256": "709eeb3ed529bd26354835e7147e17a226e248523e8ac176f9c0323730a030af",
+   "record": "records/blastoise-anime25d-gloss-20261109-fb4a",
+   "submitted_sha256": "fbb6957c4c2a32fef566646e1057f720f9a761797b68041cda8c0c9ed78f804c",
+   "submitted_same": true
+  }
+ ],
+ "returned_images_replaced": 0,
+ "push": "pending main fast-forward update"
+}
