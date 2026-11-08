@@ -1,0 +1,177 @@
+{
+ "tool": "built-in image_gen",
+ "user_constraint": "Do not regenerate an already generated image for exposure censorship.",
+ "regenerations_for_exposure": 0,
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observation": "Green and yellow rigid segmented plates, red antenna ornaments and yellow sash; standing three-quarter figure with both boots in frame, one lime-lit palm raised.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Raised gloved hand has thumb and four fingers; lowered hand is a loose fist with folded fingers partly occluded.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft cheek and nose gradients, layered green strands and dimensional bevelled armor."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Neckline and midriff are open; chest and pelvis remain covered."
+   },
+   "deviations": []
+  },
+  "casual1": {
+   "accepted": true,
+   "observation": "Library shelves and desk lamps behind a seated woman in a blue sari blouse and draped skirt; one hand supports her cheek, the other rests on the carpet.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Cheek hand is folded with fingers partly hidden by the cheek; carpet hand has separated fingers and a partly occluded thumb. Wrists connect to forearms.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Fine eyelashes, warm cheek shading, blue textile weave and gold embroidery have dimensional gradients."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders, neckline, midriff and one lower leg are visible; opaque cloth covers chest and pelvis."
+   },
+   "deviations": []
+  },
+  "casual2": {
+   "accepted": true,
+   "observation": "Kneeling on a sunlit Pokemon route in a lavender cutout one-piece; hands clasp near her collarbone and feet extend behind the knees.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Both hands are interlaced; several digits and both thumbs are visible, remaining fingers overlap naturally.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Rounded face shading and glossy shoulder/thigh highlights remain consistent with the reference."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Bare shoulders, side waist and upper legs surround the lined swimsuit."
+   },
+   "deviations": []
+  },
+  "casual3": {
+   "accepted": true,
+   "observation": "Standing at a neon bar in a black and white maid minidress, looking back over her shoulder; near hand rests on the counter and far forearm crosses behind her torso.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Counter hand has four visible fingers and a partly hidden thumb; far hand is occluded by the torso. No detached hand.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft facial gradients, detailed ribbon folds and satin reflections."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Open back and legs are visible while bodice and skirt cover chest and pelvis."
+   },
+   "deviations": []
+  },
+  "casual4": {
+   "accepted": true,
+   "observation": "Ivory cardigan and fitted top with trousers in a boardgame lounge; she holds a phone and puts the other hand into her pocket.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Phone hand has four wrapped fingers and an opposed thumb; pocket hand is occluded, forearm ends at pocket opening.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Cable-knit loops, garment seams and broad skin highlights give dimensional detail."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Neckline and waist cutouts visible; trousers and cardigan cover the limbs as planned."
+   },
+   "deviations": []
+  },
+  "casual5": {
+   "accepted": true,
+   "observation": "Chapel wall portrait in a green and yellow Caterpie costume top and antenna hood, face tilted toward the window.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Both hands lie below the portrait crop; upper arms connect to the visible shoulders.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Smooth nose and jaw shadows, reflective costume panels and fine green hair strands."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders, neckline and upper abdomen visible; opaque top covers the chest."
+   },
+   "deviations": [
+    "Crop is tight; the costume hood replaces a simpler hair accessory."
+   ]
+  },
+  "casual6": {
+   "accepted": true,
+   "observation": "Seated in a wicker chair in a flower garden, wearing a coral striped towel-style halter wrap; Caterpie companion eats berries below the chair.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Chin hand has folded digits partly occluded by her chin; relaxed knee hand has four hanging fingers and a partly hidden thumb. Both forearms connect.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Woven towel fringe, wicker weave and soft skin gradients retain the illustrated 2.5D finish."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders, side chest and crossed legs visible; wrap stays closed across chest and pelvis."
+   },
+   "deviations": []
+  },
+  "casual7": {
+   "accepted": true,
+   "observation": "Side-profile portrait beside an archery range, wearing pale sage embroidered traditional dress and dark green collar; targets and arrows remain visible behind her.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Hands and lower arms are outside the chest-up crop; visible upper arms meet both shoulders.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Delicate cheek, nose and chin gradients with layered bob strands and embroidered fabric."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Bare shoulders and neckline visible above an opaque bodice."
+   },
+   "deviations": []
+  }
+ }
+}
