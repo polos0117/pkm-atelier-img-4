@@ -1,0 +1,202 @@
+{
+  "card": "구구",
+  "generated": 9,
+  "requested": 8,
+  "tool": "built-in image_gen",
+  "model_id": "not exposed",
+  "quality": "not exposed",
+  "size_setting": "prompt; observed 1024x1536",
+  "canonical": {
+    "card": "구구",
+    "slot": "light",
+    "style": "anime_25d",
+    "original_sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18",
+    "output": "구구_light_anime_25d_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "webp_sha256": "91ba27cbdc53b091c2f588172762eb49ecfc64b475ff1816dac475672681d173",
+    "prompt_sha256": "39b5461e0b4b85b400e4aafccd80b7d77dcb1170e8a120907261f34d8671f84f",
+    "submitted_sha256": "39b5461e0b4b85b400e4aafccd80b7d77dcb1170e8a120907261f34d8671f84f",
+    "submitted_same": true,
+    "reference": null
+  },
+  "slots": [
+    {
+      "card": "구구",
+      "slot": "light",
+      "style": "anime_25d",
+      "original_sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18",
+      "output": "구구_light_anime_25d_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "webp_sha256": "91ba27cbdc53b091c2f588172762eb49ecfc64b475ff1816dac475672681d173",
+      "prompt_sha256": "39b5461e0b4b85b400e4aafccd80b7d77dcb1170e8a120907261f34d8671f84f",
+      "submitted_sha256": "39b5461e0b4b85b400e4aafccd80b7d77dcb1170e8a120907261f34d8671f84f",
+      "submitted_same": true,
+      "reference": null
+    },
+    {
+      "card": "구구",
+      "slot": "casual1",
+      "style": "anime_25d",
+      "original_sha256": "397280ff80d9124931bcb10115c519bfda89da0e30d5e4ef603ac5ea8e9d9cd1",
+      "output": "구구_anime_25d_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "webp_sha256": "5809f1c93924a2419b14c21c256abbfb57d89879b1507a9de8204a3b7833303b",
+      "prompt_sha256": "8f27bd2345cb631bb3f44367c58146ebacea84f73423403fb86a712ddd9599db",
+      "submitted_sha256": "8f27bd2345cb631bb3f44367c58146ebacea84f73423403fb86a712ddd9599db",
+      "submitted_same": true,
+      "reference": {
+        "slot": "light",
+        "sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18"
+      }
+    },
+    {
+      "card": "구구",
+      "slot": "casual2",
+      "style": "anime_25d",
+      "original_sha256": "35d453b602afde2b88fc9c2b5889aa50e1ba0a3d4b12bcdf8d77d5f9fdd793ff",
+      "output": "구구_anime_25d_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "webp_sha256": "4d9f6f94b6734221b7ec9232d982118dff31036afe4351a71180d032765f246a",
+      "prompt_sha256": "b7d56ca4b1471e767d6a9c7e2d689dc109cfd72b77490429942d7079c9862539",
+      "submitted_sha256": "b7d56ca4b1471e767d6a9c7e2d689dc109cfd72b77490429942d7079c9862539",
+      "submitted_same": true,
+      "reference": {
+        "slot": "light",
+        "sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18"
+      }
+    },
+    {
+      "card": "구구",
+      "slot": "casual3",
+      "style": "anime_25d",
+      "original_sha256": "91298b006e1a809a890a81d6def0322add5f412442d5ea2bd6db077a86d65afe",
+      "output": "구구_anime_25d_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "webp_sha256": "f394571c40aef7a9e330ce932251011c48fbdd0134f371ede9dcf518b7506c12",
+      "prompt_sha256": "3cc6428398d4914276338cf2288f3d204893cb619324d28b2b6633b6d261b843",
+      "submitted_sha256": "3cc6428398d4914276338cf2288f3d204893cb619324d28b2b6633b6d261b843",
+      "submitted_same": true,
+      "reference": {
+        "slot": "light",
+        "sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18"
+      }
+    },
+    {
+      "card": "구구",
+      "slot": "casual4",
+      "style": "anime_25d",
+      "original_sha256": "4fa34185cfc46013be0f4671fb95578fb52aab19896ecdaa396d27b8d6c22e50",
+      "output": "구구_anime_25d_f_casual4.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "webp_sha256": "62fbe16f7522927f158b77aa024ec996cc10ff196da07ebe15b56a0ef77c5e71",
+      "prompt_sha256": "b73e6fdd15529acf129689da3bb9173a01e8fc75cf22fa8fb979451c6666aeb9",
+      "submitted_sha256": "b73e6fdd15529acf129689da3bb9173a01e8fc75cf22fa8fb979451c6666aeb9",
+      "submitted_same": true,
+      "reference": {
+        "slot": "light",
+        "sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18"
+      }
+    },
+    {
+      "card": "구구",
+      "slot": "casual5",
+      "style": "anime_25d",
+      "original_sha256": "ec77cbd70ccbe5f299c7ec59d023dfb677e9563b84c867c964a4e5e7dbef0a01",
+      "output": "구구_anime_25d_f_casual5.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "webp_sha256": "8a8f49957b378218b1137d0d4972b59823dcd78f6ef4e2aa3f7ed89a68eee6b5",
+      "prompt_sha256": "8f4c5d91a33f65bd5d1cf9bfdd1d21397228be0f254535fe15d2a95267249328",
+      "submitted_sha256": "8f4c5d91a33f65bd5d1cf9bfdd1d21397228be0f254535fe15d2a95267249328",
+      "submitted_same": true,
+      "reference": {
+        "slot": "light",
+        "sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18"
+      }
+    },
+    {
+      "card": "구구",
+      "slot": "casual6",
+      "style": "anime_25d",
+      "original_sha256": "c0a4286b07b05d176f1b16bbc10cb7638fff00b05cfe069b0736b0543b86383b",
+      "output": "구구_anime_25d_f_casual6.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "webp_sha256": "c9659175f9122396b34052df1d74d292b4c623f80d6256232ae10dc5410e68f7",
+      "prompt_sha256": "cc5246002d558bb19c837c5ddfc2c3dfd7981f5cb9dce76b60d1430d43a79505",
+      "submitted_sha256": "cc5246002d558bb19c837c5ddfc2c3dfd7981f5cb9dce76b60d1430d43a79505",
+      "submitted_same": true,
+      "reference": {
+        "slot": "light",
+        "sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18"
+      }
+    },
+    {
+      "card": "구구",
+      "slot": "casual7",
+      "style": "anime_25d",
+      "original_sha256": "1f5202d0f914aaf71d54a97fe5274650c14e26e147b31f13743dec420409d6db",
+      "output": "구구_anime_25d_f_casual7.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "webp_sha256": "0daee23ddd7c2d2949ba999fe859c0304efd8ec693af20bb4d61de2a9b72fb51",
+      "prompt_sha256": "0376fcc9d907a0daf91d8c13ad988872ce2f9820eba5763ffbb9857e9490cacf",
+      "submitted_sha256": "0376fcc9d907a0daf91d8c13ad988872ce2f9820eba5763ffbb9857e9490cacf",
+      "submitted_same": true,
+      "reference": {
+        "slot": "light",
+        "sha256": "78642ae4e93d7640b804d6e54ef9658a8e8a49ead3beb95d923cbbda6b091d18"
+      }
+    }
+  ],
+  "regenerations": 1,
+  "exposure_regenerations": 0,
+  "regeneration_reason": "casual6 composition duplicate, not exposure",
+  "face_design": {
+    "source": "pkm-atelier/data/face-design.json",
+    "reason": "작고 짧은 부리와 크림색 깃의 부드러움을 짧은 코와 완만한 얼굴로 옮긴다.",
+    "cues": [
+      "몸 형태 wings → 눈 간격 눈 사이가 가까운",
+      "‘short, stubby beak’ → 입술 입이 작은"
+    ],
+    "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; open rounded eyes, medium size, level outer corners, close-set; fine soft arches; small delicate nose; small mouth.",
+    "compared_characters": [
+      "이상해씨",
+      "파이리",
+      "피카츄",
+      "꼬렛"
+    ]
+  },
+  "validation": {
+    "size": "all 1024x1536",
+    "format": "WebP quality85 method6",
+    "submitted_exact": true,
+    "look_check": true,
+    "anatomy": "visual review only; mediapipe unavailable"
+  },
+  "remote_status": "ready for main fast-forward publication"
+}
