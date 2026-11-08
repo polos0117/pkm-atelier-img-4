@@ -1,0 +1,468 @@
+{
+ "card": "이상해꽃",
+ "style": "anime_25d_gloss",
+ "requested": 8,
+ "generated": 8,
+ "no_exposure_regeneration": true,
+ "skipped": [],
+ "slots": {
+  "light": {
+   "identity": {
+    "verdict": "match",
+    "evidence": "청록색 긴 웨이브 머리·분홍 눈·넓은 턱선. 코 옆과 볼·입술에 연속 음영과 하이라이트가 있다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "청록색 긴 웨이브 머리·분홍 눈·넓은 턱선. 코 옆과 볼·입술에 연속 음영과 하이라이트가 있다. 코·볼·턱의 부드러운 그라데이션과 피부 하이라이트; 옷의 주름·봉제선은 입체적으로 칠해졌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "사람 팔 둘이 어깨에서 손목으로 이어진다. 뒤의 집게형 장비 둘은 사람 손이 없는 기계 보조 암이다. 주먹 손가락은 겹쳐 있고 열린 손은 엄지와 네 손가락이 구분된다. 두 다리는 장갑 아래 각각 부츠로 연결된다.",
+    "overlay_checked": false,
+    "note": "원본 전신과 손 확대를 눈으로 검토. 크롭·가려진 손가락은 확인 불가로 기록한다."
+   },
+   "exposure": {
+    "verdict": "stronger",
+    "evidence": "bare midriff and thighs are visible, with upper-arm skin also showing"
+   },
+   "scene": {
+    "verdict": "recorded",
+    "evidence": "청록색 긴 웨이브 머리·분홍 눈·넓은 턱선. 코 옆과 볼·입술에 연속 음영과 하이라이트가 있다."
+   },
+   "submitted_same": true,
+   "submitted_sha256": "9432eea044652bf3c76d602d95aefd560f056b23cb499b83b19a3f21d65af3e1",
+   "reference_sha256": null,
+   "regenerations": 0
+  },
+  "casual1": {
+   "identity": {
+    "verdict": "match",
+    "evidence": "청록 머리·분홍 눈·짧은 턱선 유지. 코랄 수영복 위 오렌지 유카타를 입고 도시 옥상에서 잔을 든다. 몸은 뒤 3/4, 얼굴은 카메라를 돌아본다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "청록 머리·분홍 눈·짧은 턱선 유지. 코랄 수영복 위 오렌지 유카타를 입고 도시 옥상에서 잔을 든다. 몸은 뒤 3/4, 얼굴은 카메라를 돌아본다. 코·볼·턱의 부드러운 그라데이션과 피부 하이라이트; 옷의 주름·봉제선은 입체적으로 칠해졌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "잔 잡은 손은 줄기에 손가락이 겹쳐 일부 가려짐. 내려 놓은 손의 손가락 윤곽과 손목·팔꿈치 연결이 자연스럽다. 하체와 다리 일부는 프레임 밖이다.",
+    "overlay_checked": false,
+    "note": "원본 전신과 손 확대를 눈으로 검토. 크롭·가려진 손가락은 확인 불가로 기록한다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·등·허벅지가 유카타의 열린 앞과 트임으로 보인다."
+   },
+   "scene": {
+    "verdict": "recorded",
+    "evidence": "청록 머리·분홍 눈·짧은 턱선 유지. 코랄 수영복 위 오렌지 유카타를 입고 도시 옥상에서 잔을 든다. 몸은 뒤 3/4, 얼굴은 카메라를 돌아본다."
+   },
+   "submitted_same": true,
+   "submitted_sha256": "935a0842d55cc354be0ca92cbf1e895aadf1c258dc1d31f54536a6ea7fa3fc6d",
+   "reference_sha256": "7ae13e81a187a68ac5842001f2dbd37e7b70739c098d3f41dd9048549048d0f1",
+   "regenerations": 0
+  },
+  "casual2": {
+   "identity": {
+    "verdict": "match",
+    "evidence": "오락기 네온 배경. 열린 흰 연구 가운·크림 골지 니트·동전을 얼굴 옆에 든 손. 눈썹이 모이고 입은 다물어져 있다. 코·턱에 부드러운 입체 음영 유지."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "오락기 네온 배경. 열린 흰 연구 가운·크림 골지 니트·동전을 얼굴 옆에 든 손. 눈썹이 모이고 입은 다물어져 있다. 코·턱에 부드러운 입체 음영 유지. 코·볼·턱의 부드러운 그라데이션과 피부 하이라이트; 옷의 주름·봉제선은 입체적으로 칠해졌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "동전을 집은 손은 엄지·검지가 동전에 닿고 나머지 세 손가락은 구부려져 있다. 손목·아래팔이 연속된다. 반대 손·다리는 크롭 밖이다.",
+    "overlay_checked": false,
+    "note": "원본 전신과 손 확대를 눈으로 검토. 크롭·가려진 손가락은 확인 불가로 기록한다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "깊은 V 니트 목선과 크롭 밑단의 허리가 보인다."
+   },
+   "scene": {
+    "verdict": "recorded",
+    "evidence": "오락기 네온 배경. 열린 흰 연구 가운·크림 골지 니트·동전을 얼굴 옆에 든 손. 눈썹이 모이고 입은 다물어져 있다. 코·턱에 부드러운 입체 음영 유지."
+   },
+   "submitted_same": true,
+   "submitted_sha256": "d78cb999bf70b648bb77c7eb002e58eb1ca6c72e3ef8d0ce8ac6af3b248bdeaa",
+   "reference_sha256": "7ae13e81a187a68ac5842001f2dbd37e7b70739c098d3f41dd9048549048d0f1",
+   "regenerations": 0
+  },
+  "casual3": {
+   "identity": {
+    "verdict": "match",
+    "evidence": "도자기 컵·그림 작업실 배경에서 민트색 헤드폰 양쪽을 잡는다. 민트 타월형 랩의 가슴 위 크롭. 눈이 조금 커지고 입술이 벌어진다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "도자기 컵·그림 작업실 배경에서 민트색 헤드폰 양쪽을 잡는다. 민트 타월형 랩의 가슴 위 크롭. 눈이 조금 커지고 입술이 벌어진다. 코·볼·턱의 부드러운 그라데이션과 피부 하이라이트; 옷의 주름·봉제선은 입체적으로 칠해졌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 손목과 아래팔이 헤드폰에서 어깨로 각각 이어진다. 손가락 일부는 이어컵 뒤로 가려져 전체를 셀 수 없다. 허리 아래는 크롭 밖이다.",
+    "overlay_checked": false,
+    "note": "원본 전신과 손 확대를 눈으로 검토. 크롭·가려진 손가락은 확인 불가로 기록한다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "민트 랩 위 쇄골·어깨가 보이며 가슴은 가려져 있다."
+   },
+   "scene": {
+    "verdict": "recorded",
+    "evidence": "도자기 컵·그림 작업실 배경에서 민트색 헤드폰 양쪽을 잡는다. 민트 타월형 랩의 가슴 위 크롭. 눈이 조금 커지고 입술이 벌어진다."
+   },
+   "submitted_same": true,
+   "submitted_sha256": "714d371d37ed2e19fc7165f826d1ba6c7746abb6932684fdd96dff9a2c82540b",
+   "reference_sha256": "7ae13e81a187a68ac5842001f2dbd37e7b70739c098d3f41dd9048549048d0f1",
+   "regenerations": 0
+  },
+  "casual4": {
+   "identity": {
+    "verdict": "match",
+    "evidence": "유리·금속 역 플랫폼. 노란 짧은 정비 점프수트·쇼핑백·워커. 서서 다리 한쪽을 앞으로 내딛는다. 코·광대에는 밝은 그라데이션이 있다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "유리·금속 역 플랫폼. 노란 짧은 정비 점프수트·쇼핑백·워커. 서서 다리 한쪽을 앞으로 내딛는다. 코·광대에는 밝은 그라데이션이 있다. 코·볼·턱의 부드러운 그라데이션과 피부 하이라이트; 옷의 주름·봉제선은 입체적으로 칠해졌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "팔 둘·다리 둘이 몸에 연결된다. 쇼핑백 손가락은 손잡이에 일부 겹침. 자유 손 엄지와 손가락 윤곽이 구별되고 부츠 두 개가 바닥에 놓인다.",
+    "overlay_checked": false,
+    "note": "원본 전신과 손 확대를 눈으로 검토. 크롭·가려진 손가락은 확인 불가로 기록한다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "깊은 점프수트 목선과 짧은 바짓단 아래 허벅지·다리가 보인다."
+   },
+   "scene": {
+    "verdict": "recorded",
+    "evidence": "유리·금속 역 플랫폼. 노란 짧은 정비 점프수트·쇼핑백·워커. 서서 다리 한쪽을 앞으로 내딛는다. 코·광대에는 밝은 그라데이션이 있다."
+   },
+   "submitted_same": true,
+   "submitted_sha256": "60d82d1df40fd2e07c954b466bdb6c8dafdf2f45b464cfab6661412ed60dd152",
+   "reference_sha256": "7ae13e81a187a68ac5842001f2dbd37e7b70739c098d3f41dd9048549048d0f1",
+   "regenerations": 0
+  },
+  "casual5": {
+   "identity": {
+    "verdict": "match",
+    "evidence": "이끼·담쟁이·등불 정원에서 꽃다발을 들고 쪼그려 앉는다. 분홍 꽃·잎 장식의 짧은 코스튬과 장갑. 원본의 얼굴과 긴 청록 머리를 유지한다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "이끼·담쟁이·등불 정원에서 꽃다발을 들고 쪼그려 앉는다. 분홍 꽃·잎 장식의 짧은 코스튬과 장갑. 원본의 얼굴과 긴 청록 머리를 유지한다. 코·볼·턱의 부드러운 그라데이션과 피부 하이라이트; 옷의 주름·봉제선은 입체적으로 칠해졌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "꽃다발 손은 줄기를 감싸 손가락이 일부 가려짐. 무릎 위 손은 긴 네 손가락이 보이고 엄지는 옆으로 일부 가려진다. 팔 둘·접힌 다리 둘·신발 둘이 연결된다.",
+    "overlay_checked": false,
+    "note": "원본 전신과 손 확대를 눈으로 검토. 크롭·가려진 손가락은 확인 불가로 기록한다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "짧은 코스튬의 열린 목선과 넓게 드러난 어깨·허벅지를 유지한다."
+   },
+   "scene": {
+    "verdict": "recorded",
+    "evidence": "이끼·담쟁이·등불 정원에서 꽃다발을 들고 쪼그려 앉는다. 분홍 꽃·잎 장식의 짧은 코스튬과 장갑. 원본의 얼굴과 긴 청록 머리를 유지한다."
+   },
+   "submitted_same": true,
+   "submitted_sha256": "0a9987f86b428b8e31f05e7e91a5e74f36b36b7fc72a2a16ef3b82b5fb7cae4f",
+   "reference_sha256": "7ae13e81a187a68ac5842001f2dbd37e7b70739c098d3f41dd9048549048d0f1",
+   "regenerations": 0
+  },
+  "casual6": {
+   "identity": {
+    "verdict": "match",
+    "evidence": "줄무늬 의자·야외 수영장·카세트 배경. 갈색 크롭 탱크·카멜 반바지. 접은 선글라스를 들고 다른 손은 무릎 위에 둔다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "줄무늬 의자·야외 수영장·카세트 배경. 갈색 크롭 탱크·카멜 반바지. 접은 선글라스를 들고 다른 손은 무릎 위에 둔다. 코·볼·턱의 부드러운 그라데이션과 피부 하이라이트; 옷의 주름·봉제선은 입체적으로 칠해졌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양팔은 각각 선글라스 손과 무릎 손으로 이어진다. 선글라스 손가락은 겹침, 무릎 위 손은 엄지와 네 손가락이 보인다. 두 다리와 운동화가 분리되어 있다.",
+    "overlay_checked": false,
+    "note": "원본 전신과 손 확대를 눈으로 검토. 크롭·가려진 손가락은 확인 불가로 기록한다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "하트 목선·크롭 밑단·반바지 아래 허벅지가 보인다."
+   },
+   "scene": {
+    "verdict": "recorded",
+    "evidence": "줄무늬 의자·야외 수영장·카세트 배경. 갈색 크롭 탱크·카멜 반바지. 접은 선글라스를 들고 다른 손은 무릎 위에 둔다."
+   },
+   "submitted_same": true,
+   "submitted_sha256": "c20d7120fcbb581fefc107a21b56452a3dc455e5676a35ed5879f8c322bef1ed",
+   "reference_sha256": "7ae13e81a187a68ac5842001f2dbd37e7b70739c098d3f41dd9048549048d0f1",
+   "regenerations": 0
+  },
+  "casual7": {
+   "identity": {
+    "verdict": "match",
+    "evidence": "암벽 홀드·완충매트 앞에서 무릎을 꿇는다. 회색 오프숄더 블라우스·은색 드레이프 하의, 두 손을 가슴 앞에 모았다. 볼·코·입술에 부드러운 음영."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "암벽 홀드·완충매트 앞에서 무릎을 꿇는다. 회색 오프숄더 블라우스·은색 드레이프 하의, 두 손을 가슴 앞에 모았다. 볼·코·입술에 부드러운 음영. 코·볼·턱의 부드러운 그라데이션과 피부 하이라이트; 옷의 주름·봉제선은 입체적으로 칠해졌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 팔꿈치와 손목이 각각 가슴 앞의 포개진 손으로 이어진다. 맞잡은 손가락은 겹침으로 전부 분리해 셀 수 없다. 양 무릎·접힌 발이 각각 보인다.",
+    "overlay_checked": false,
+    "note": "원본 전신과 손 확대를 눈으로 검토. 크롭·가려진 손가락은 확인 불가로 기록한다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "오프숄더 목선·깊은 V·짧은 상의 아래 복부·드레이프 아래 허벅지가 보인다."
+   },
+   "scene": {
+    "verdict": "recorded",
+    "evidence": "암벽 홀드·완충매트 앞에서 무릎을 꿇는다. 회색 오프숄더 블라우스·은색 드레이프 하의, 두 손을 가슴 앞에 모았다. 볼·코·입술에 부드러운 음영."
+   },
+   "submitted_same": true,
+   "submitted_sha256": "5bd9dff2065ec23ccaff85b2295c2df1cebb5f0d93537e913c5061acca46c25a",
+   "reference_sha256": "7ae13e81a187a68ac5842001f2dbd37e7b70739c098d3f41dd9048549048d0f1",
+   "regenerations": 0
+  }
+ },
+ "diversity": {
+  "look_check": {
+   "crowd_below": 245,
+   "cuts": [
+    {
+     "crowd": 0,
+     "duplicate_of": [],
+     "file": "/workspace/scratch/81bd0137deed/pkm-atelier-img-4/img/이상해꽃_anime_25d_gloss_f_casual1.webp",
+     "near": [
+      [
+       "바라철록_glossy_promo_f_casual2.webp",
+       247
+      ],
+      [
+       "레오꼬_glossy_promo_f_casual3.webp",
+       248
+      ],
+      [
+       "부스터_glossy_promo_f_casual3.webp",
+       254
+      ],
+      [
+       "캐터피_anime_gloss_f_casual2.webp",
+       258
+      ],
+      [
+       "이상해풀_anime_gloss_f_casual2.webp",
+       262
+      ]
+     ],
+     "same_as_own": []
+    },
+    {
+     "crowd": 0,
+     "duplicate_of": [],
+     "file": "/workspace/scratch/81bd0137deed/pkm-atelier-img-4/img/이상해꽃_anime_25d_gloss_f_casual2.webp",
+     "near": [
+      [
+       "니드런♀_anime_25d_f_casual2.webp",
+       251
+      ],
+      [
+       "아보크_anime_gloss_f_casual7.webp",
+       255
+      ],
+      [
+       "고지_anime_gloss_f_casual7.webp",
+       272
+      ],
+      [
+       "파이리_anime_25d_gloss_f_casual5.webp",
+       272
+      ],
+      [
+       "모래두지_anime_gloss_f_casual4.webp",
+       280
+      ]
+     ],
+     "same_as_own": []
+    },
+    {
+     "crowd": 0,
+     "duplicate_of": [],
+     "file": "/workspace/scratch/81bd0137deed/pkm-atelier-img-4/img/이상해꽃_anime_25d_gloss_f_casual3.webp",
+     "near": [
+      [
+       "주뱃_anime_gloss_f_casual7.webp",
+       311
+      ],
+      [
+       "기어르_glossy_promo_f_casual2.webp",
+       319
+      ],
+      [
+       "푸크린_glossy_promo_f_casual2.webp",
+       320
+      ],
+      [
+       "뚜벅쵸_anime_gloss_f_casual3.webp",
+       322
+      ],
+      [
+       "나오하_glossy_promo_f_casual2.webp",
+       324
+      ]
+     ],
+     "same_as_own": []
+    },
+    {
+     "crowd": 0,
+     "duplicate_of": [],
+     "file": "/workspace/scratch/81bd0137deed/pkm-atelier-img-4/img/이상해꽃_anime_25d_gloss_f_casual4.webp",
+     "near": [
+      [
+       "삐_glossy_promo_f_casual3.webp",
+       263
+      ],
+      [
+       "니드리노_anime_gloss_f_casual5.webp",
+       264
+      ],
+      [
+       "샤크니아_glossy_promo_f_casual3.webp",
+       266
+      ],
+      [
+       "아보크_glossy_promo_f_casual1.webp",
+       275
+      ],
+      [
+       "페르시온_glossy_promo_f_casual1.webp",
+       276
+      ]
+     ],
+     "same_as_own": []
+    },
+    {
+     "crowd": 0,
+     "duplicate_of": [],
+     "file": "/workspace/scratch/81bd0137deed/pkm-atelier-img-4/img/이상해꽃_anime_25d_gloss_f_casual5.webp",
+     "near": [
+      [
+       "이상해씨_anime_gloss_f_casual2.webp",
+       255
+      ],
+      [
+       "깨비드릴조_anime_gloss_f_casual6.webp",
+       267
+      ],
+      [
+       "뚜벅쵸_anime_25d_f_casual7.webp",
+       273
+      ],
+      [
+       "딱충이_anime_gloss_f_casual5.webp",
+       281
+      ],
+      [
+       "니드런♀_glossy_promo_f_casual3.webp",
+       284
+      ]
+     ],
+     "same_as_own": []
+    },
+    {
+     "crowd": 0,
+     "duplicate_of": [],
+     "file": "/workspace/scratch/81bd0137deed/pkm-atelier-img-4/img/이상해꽃_anime_25d_gloss_f_casual6.webp",
+     "near": [
+      [
+       "레돔벌레_glossy_promo_f_casual3.webp",
+       293
+      ],
+      [
+       "대굴레오_glossy_promo_f_casual1.webp",
+       313
+      ],
+      [
+       "구구_glossy_promo_f_casual2.webp",
+       314
+      ],
+      [
+       "캐터피_anime_gloss_f_casual1.webp",
+       314
+      ],
+      [
+       "아말도_glossy_promo_f_casual3.webp",
+       324
+      ]
+     ],
+     "same_as_own": []
+    },
+    {
+     "crowd": 0,
+     "duplicate_of": [],
+     "file": "/workspace/scratch/81bd0137deed/pkm-atelier-img-4/img/이상해꽃_anime_25d_gloss_f_casual7.webp",
+     "near": [
+      [
+       "캐터피_anime_25d_gloss_f_casual2.webp",
+       247
+      ],
+      [
+       "대굴레오_glossy_promo_f_casual1.webp",
+       270
+      ],
+      [
+       "삐삐_anime_gloss_f_casual6.webp",
+       273
+      ],
+      [
+       "니드런♂_anime_gloss_f_casual3.webp",
+       280
+      ],
+      [
+       "주뱃_anime_gloss_f_casual5.webp",
+       280
+      ]
+     ],
+     "same_as_own": []
+    }
+   ],
+   "dup_below": 215,
+   "ok": true
+  },
+  "visual_comparison": {
+   "compared": [
+    "단데기",
+    "이상해씨",
+    "꼬부기"
+   ],
+   "sources": [
+    "/workspace/scratch/5bd7d2f982ff/metapod-qa-1.jpg",
+    "/workspace/scratch/1bc3e7954d6f/bulbasaur-overview.jpg",
+    "/workspace/scratch/1bc3e7954d6f/asset-map.json"
+   ],
+   "evidence": "최근 캐릭터·배치의 얼굴·장면·활동을 비교했다. 이번은 옥상·오락실/주방·작업실/실내·역·정원·수영장/산장·암벽장으로 갈리고, 잔·동전·헤드폰·책·꽃다발·선글라스 및 서로 다른 받침·크롭을 사용한다. 단순한 배경·색 교체가 아니다."
+  }
+ }
+}
