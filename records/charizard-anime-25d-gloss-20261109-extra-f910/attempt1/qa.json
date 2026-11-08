@@ -1,0 +1,30 @@
+{
+  "card": "리자몽",
+  "generator": "built-in image_gen",
+  "no_exposure_regeneration": true,
+  "casual_look": "failed: casual8 distance 214 to 절각참_glossy_promo_f_casual1.webp",
+  "cuts": {
+    "casual8": {
+      "style_25d": "soft face gradients, ivory embroidered fabric, detailed hair; pass",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": "outside crop",
+        "hands": "one visible folded hand with thumb occluded; other hand under upper arm",
+        "overlay_checked": false
+      },
+      "note": "folded arms connected naturally, body extends lower than chest-up specification"
+    },
+    "casual9": {
+      "style_25d": "soft face shading and windblown translucent-edge cloth over opaque clothing; pass",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": "one visible arm; far arm occluded behind torso",
+        "legs": 2,
+        "hands": "visible hanging hand, fingers partly overlap in side angle; far hand hidden",
+        "overlay_checked": false
+      },
+      "note": "full-body rear three-quarter differs from planned front angle; face visible over shoulder, two legs continuous to feet"
+    }
+  }
+}
