@@ -1,0 +1,181 @@
+{
+ "tool": "built-in image_gen",
+ "user_constraint": "Do not regenerate an already generated image for exposure censorship.",
+ "regenerations_for_exposure": 0,
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observation": "Standing in water ruins with blue and cream armor, brown shell mantle, waist/ankle rings and a cyan water orb over an open hand; full boots remain in frame.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Open gloved palm has a thumb and four separated fingers; lowered loose fist has folded fingers with partial occlusion.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft face gradients and layered blue hair; armor bevels reflect the water light."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Neckline and upper thighs are open by design; chest and pelvis covered."
+   },
+   "deviations": []
+  },
+  "casual1": {
+   "accepted": true,
+   "observation": "Full-body side view in a sunny street market, sage halter bikini with ring detail, one hand waving beside her face and the other relaxed beside her thigh. Two feet remain inside frame; far leg overlaps the near leg.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Raised palm has a thumb and four separated fingers; lowered hand has four relaxed fingers and an opposed thumb. Both wrist/forearm chains meet the matching shoulders.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Glossy shoulder and thigh highlights, soft oval-face gradients and layered flowing blue hair match the reference."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders, midriff and legs exposed; opaque bikini covers chest and pelvis."
+   },
+   "deviations": [
+    "Final generated scene was replanned from library to street market after the library scene returned no image."
+   ]
+  },
+  "casual2": {
+   "accepted": true,
+   "observation": "Purple pirate-themed outfit and tricorn hat at a neon bar; she holds a steaming mug in both hands near her face.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Both hands wrap around the mug; four fingers on each are visible with opposed thumbs partly hidden by the cup; wrists join forearms.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Glossy skin gradients, gold brocade and soft face shading match the blue-haired reference."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders and neckline visible around the fitted opaque corset."
+   },
+   "deviations": []
+  },
+  "casual3": {
+   "accepted": true,
+   "observation": "Black lace lingerie with a tied robe on a Pokemon route; one palm waves with five clearly separated fingers, the other hand rests over her collarbone.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Waving palm has thumb plus four fingers. Collarbone hand shows four aligned fingers with its thumb partly hidden; both wrist chains connect.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and jaw modelling, luminous blue hair and detailed lace retain 2.5D depth."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Neckline, shoulders and abdomen visible; opaque lingerie and robe cover chest and pelvis."
+   },
+   "deviations": [
+    "Large feather ear ornaments remain from the reference."
+   ]
+  },
+  "casual4": {
+   "accepted": true,
+   "observation": "Penthouse close portrait in a brown halter outfit; one finger is raised to her lips and city lights appear through a window.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Raised index finger, thumb and three folded fingers visible; other hand lies outside the portrait crop.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Smooth cheek and chin shading, satin-like cloth and fine blue strands."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders and neckline visible; opaque halter fabric covers chest."
+   },
+   "deviations": []
+  },
+  "casual5": {
+   "accepted": true,
+   "observation": "Seated on a stone chapel ledge wearing a blue and cream Wartortle costume bodysuit, stockings and heels; both palms rest beside her hips and both legs descend from the seat.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Both resting hands have four long fingers and thumbs partly occluded by the ledge; wrists and elbows remain connected.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Dimensional costume seams, translucent stocking sheen and soft facial rendering."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders, neckline and upper thighs visible; costume covers chest and pelvis."
+   },
+   "deviations": [
+    "Brown shell and tail costume ornaments retained as the planned species costume."
+   ]
+  },
+  "casual6": {
+   "accepted": true,
+   "observation": "Bathroom portrait in a red fantasy costume with gold trim, arms crossed below the chest, face turned gently toward the camera.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Near hand rests on opposite upper arm with four fingers visible and thumb hidden behind the arm; other hand is tucked under the opposite arm.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft face modelling with glossy shoulders, ornate textile details and layered blue hair."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Bare shoulders and deep neckline visible; opaque costume covers chest."
+   },
+   "deviations": []
+  },
+  "casual7": {
+   "accepted": true,
+   "observation": "Ivory mummy-wrap costume while seated on a wedding-stage stone ledge; hands brace on both sides and two bare feet hang below.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": "two; portions may be outside crop",
+    "legs": "two; portions may be outside crop",
+    "hands": "Both palms rest on ledge with four visible fingers each; thumbs partly occluded by the ledge. Two arms connect through elbows to shoulders.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Fine bandage overlaps, reflective skin gradients and luminous hair strands."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders, neckline and portions of legs exposed between opaque wraps; chest and pelvis covered."
+   },
+   "deviations": []
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "casual1": {
+  "returned_images_before_final": 0,
+  "rejected_requests": [
+   "34a67e7a-757a-437c-8d51-1905bde61da0",
+   "9713017e-2f89-4090-b887-32800a5b4263",
+   "62508f90-7a44-4ce2-8ed9-cc917b10d50a",
+   "c5382903-5353-4874-9545-ff0afcee5aa4"
+  ],
+  "note": "The first failed call error was not retained. Subsequent supported exposure changes and planner-only outfit/location changes are recorded; no returned image was regenerated. Final scene: street_market / halter_bikini, default exposure."
+ },
+ "casual3": {
+  "returned_images_before_final": 0,
+  "rejected_requests": [
+   "1f4e4ea8-f282-4d45-adec-ee881ccee959"
+  ],
+  "note": "Unchanged prompt retry returned the final image."
+ }
+}
