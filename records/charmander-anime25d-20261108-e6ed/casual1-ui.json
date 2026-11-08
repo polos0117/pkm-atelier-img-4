@@ -48,12 +48,12 @@
       "expr": "confident",
       "scene": "Chandelier reflections trace the ballroom floor beside her open folding fan.",
       "outfit": "",
-      "custom": "",
+      "custom": "REFERENCE ROLES: image 1 is the canonical woman, defining her face, hair, body and anime_25d rendering. Image 2 supplies only the existing orange-and-cream ballroom costume, gloves, tights, headpiece, tail sash and folding fan. Keep that exact costume and ballroom. USER-REQUESTED NEW COMPOSITION: her torso and face are gently front three-quarter toward the viewer with both shoulders clearly visible, no over-the-shoulder twist. Her own right arm is separated from her torso on the image-left side: visible shoulder into upper arm down to a visible elbow beside her waist, elbow bent comfortably, visible forearm rising to the wrist and natural five-finger fan grip. The fan is held outside her body silhouette near shoulder height, leaving the whole right arm readable. Her own left arm hangs naturally on the image-right side, with the wrist and five relaxed fingers visible. Show two arms continuously connected to their matching shoulders. Keep the same woman and costume; change her pose and viewpoint only.",
       "aspect": "2:3",
       "axes": {
        "overall_intensity": "strong",
        "skin_exposure": "bold",
-       "action_level": "mostly active",
+       "action_level": "mostly posed",
        "source_influence": "strong",
        "separates_preference": "prefer separates"
       },
@@ -91,24 +91,24 @@
        "plunging neckline",
        "one-shoulder cut"
       ],
-      "posture": "walk",
+      "posture": "stand",
       "support": "none",
       "frame": "three_quarter",
-      "body": "rear_3q",
-      "head": "over_shoulder",
+      "body": "front_3q",
+      "head": "with_body",
       "camera": "eye",
       "right": "prop",
       "left": "down",
       "use": "fan_hold",
-      "legs": "walk_pause",
+      "legs": "stand_relaxed",
       "gaze": "camera",
-      "preset": "walk_lookback"
+      "preset": ""
      }
     }
    }
   }
  },
- "prompt": "CHARACTER: the same woman as the attached image — Charmander (파이리) personified, fire type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY LINE: keep her figure from the attached image and show its line slightly emphasized — a subtly full bust, a slim waist and very wide, curvy rounded hips read clearly through the outfit, flowing smoothly into softly full thighs that taper gradually toward the knees with no sudden narrowing below the hips, and slender lower legs, never thick or heavy; her head stays in natural adult proportion to her body.\n\nSTYLE: keep the attached image's rendering exactly — the same finish, skin rendering, line weight, colour palette, saturation and lighting quality. Do not restyle her: no more realistic, no more painterly, no more 2D than the attached image. Only the outfit, pose, expression, framing and place change.\n\nOUTPUT: one standalone off-duty scene of her wearing the costume chosen in SCENE — a daring adult costume version of her source creature, as worn to a costume party, convention or photo shoot. In this cut her species shows in the outfit itself: its recognisable colours, shapes and parts. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSETTING: a stylised stage, editorial or fantasy set, not bound to a real year — still one real adult woman in a believable space, no creatures.\n\nSCENE (chosen):\nPlace: a chandelier ballroom at a masquerade\nOutfit: a daring adult costume version of Charmander itself — cream, orange colours; its slender tail ending in flame, cream chest and belly, orange reptilian body, small pointed fangs rebuilt as costume pieces (ears or headband, hood, tail, gloves, fabric prints), never painted on her own skin, cut as a high-cut bodysuit with sheer thigh-high tights\nCut: plunging neckline and one-shoulder cut built into the outfit — a figure-hugging fit that follows her curves; chest and pelvis stay securely covered.\nPOSTURE: walking.\nCOMPOSITION: a three-quarter shot from her head to just above the knees; body turned three-quarters away from the camera; head turned back over her own left shoulder — the shoulder on the image's left side; camera at her eye level.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nRIGHT HAND: her own right hand is in PROP — on the image's right side, since her back is to the camera.\nLEFT HAND: her own left arm hangs relaxed at her side — on the image's left side, since her back is to the camera.\nPROP: with her own right hand she holds a folding fan open near her chest; it is all she holds.\nLEGS: paused mid-walk, weight on the front foot.\nGAZE: she looks into the camera.\nEXPRESSION: level brow, calm unhurried eyes, mouth closed and composed. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\nScene note: Chandelier reflections trace the ballroom floor beside her open folding fan.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely into the costume SCENE describes. From the attached image take only her face, hair and body — not its armor, garment, jewelry, hair ornaments or background. The costume must read at first glance as that creature's look, rebuilt as a glamorous adult outfit; she is a real woman in a costume — never the creature itself, its face on her face, fur or scales on her skin, a logo or readable text.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nLOOK-BACK: her back is toward the camera and her head turns at most a quarter turn over one shoulder — the face shows in profile or three-quarter view, never full-front on a back-facing torso. Her chin sits just above the near shoulder, the far eye and cheek may be partly hidden, the side of the neck shows the turn and the shoulder line continues behind the head. Where her eyes go follows GAZE.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "prompt": "Edit the supplied adult character illustration to correct the fan arm by choosing a new, anatomically clear pose.\n\nREFERENCE ROLES: Image 1 is the canonical adult woman and defines her exact face, orange hair, amber eyes, skin tone, body proportions and anime_25d rendering. Image 2 is the edit target and supplies her existing orange-and-cream masquerade costume, long gloves, stockings, headpiece, decorative tail sash, folding fan and chandelier ballroom. Preserve her identity, rendering, costume and setting.\n\nNEW COMPOSITION: A vertical 2:3 image, 1024x1536, framed from her head to just above her knees. Camera at eye level. She stands facing gently three-quarters toward the viewer, with her face naturally aligned with her torso and both shoulders visible.\n\nHer own right arm, on the image-left side, holds the open folding fan beside her shoulder. Show the entire anatomical chain clearly: shoulder, upper arm descending to an elbow beside her waist, a comfortably bent elbow, forearm rising outward, wrist and a natural five-finger grip around the fan handle. Keep a small visible gap between this forearm and her torso, so the arm connection is easy to read. The fan does not cover the shoulder, elbow, wrist or face. Her own left arm, on the image-right side, hangs naturally with a relaxed five-finger hand visible beside her hip.\n\nKeep exactly one adult human woman, two naturally connected arms, two legs, and five fingers per hand, with ordinary joint proportions and bends. Both hands remain visible. Keep the costume tail as costume fabric. Change only the pose and viewpoint needed for the arm correction. Preserve the same finish, face, clothing materials, warm ballroom lighting and gentle expression. No added people, creatures, lettering or logos.",
  "plan": {
   "cut": 1,
   "treeV": 2,
@@ -154,5 +154,25 @@
  },
  "manual_why": {
   "scene": "Adds ballroom light to the selected masquerade setting."
+ },
+ "user_requested_override": {
+  "reason": "Fix disconnected-looking fan arm by changing to front three-quarter view, keeping identity, costume and place.",
+  "fields": [
+   "body",
+   "head",
+   "posture",
+   "preset",
+   "legs",
+   "axes.action_level",
+   "custom"
+  ]
+ },
+ "plan_match": false,
+ "execution_mode": "Direct image edit for user-requested anatomy and viewpoint correction",
+ "unreturned_attempt": {
+  "request_id": "64155d46-7428-4514-b68e-6d90439f14cc",
+  "stage": "output",
+  "code": "moderation_blocked",
+  "returned_image": false
  }
 }

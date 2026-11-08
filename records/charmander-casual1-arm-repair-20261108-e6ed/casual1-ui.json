@@ -1,0 +1,178 @@
+{
+ "storage": {
+  "last": "파이리",
+  "cards": {
+   "파이리": {
+    "style": "anime_25d",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "confident",
+      "scene": "Chandelier reflections trace the ballroom floor beside her open folding fan.",
+      "outfit": "",
+      "custom": "REFERENCE ROLES: image 1 is the canonical woman, defining her face, hair, body and anime_25d rendering. Image 2 supplies only the existing orange-and-cream ballroom costume, gloves, tights, headpiece, tail sash and folding fan. Keep that exact costume and ballroom. USER-REQUESTED NEW COMPOSITION: her torso and face are gently front three-quarter toward the viewer with both shoulders clearly visible, no over-the-shoulder twist. Her own right arm is separated from her torso on the image-left side: visible shoulder into upper arm down to a visible elbow beside her waist, elbow bent comfortably, visible forearm rising to the wrist and natural five-finger fan grip. The fan is held outside her body silhouette near shoulder height, leaving the whole right arm readable. Her own left arm hangs naturally on the image-right side, with the wrist and five relaxed fingers visible. Show two arms continuously connected to their matching shoulders. Keep the same woman and costume; change her pose and viewpoint only.",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "ofam": true,
+       "item": true,
+       "expose": true,
+       "posture": true,
+       "support": true,
+       "frame": true,
+       "body": true,
+       "head": true,
+       "camera": true,
+       "right": true,
+       "left": true,
+       "use": true,
+       "legs": true,
+       "gaze": true,
+       "expr": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true,
+       "aspect": true
+      },
+      "era": "fantasy",
+      "place": "fx_ballroom",
+      "ofam": "pokemon_costume",
+      "item": "pc_bodysuit",
+      "expose": [
+       "plunging neckline",
+       "one-shoulder cut"
+      ],
+      "posture": "stand",
+      "support": "none",
+      "frame": "three_quarter",
+      "body": "front_3q",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "prop",
+      "left": "down",
+      "use": "fan_hold",
+      "legs": "stand_relaxed",
+      "gaze": "camera",
+      "preset": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "Edit the supplied adult character illustration to correct the fan arm by choosing a new, anatomically clear pose.\n\nREFERENCE ROLES: Image 1 is the canonical adult woman and defines her exact face, orange hair, amber eyes, skin tone, body proportions and anime_25d rendering. Image 2 is the edit target and supplies her existing orange-and-cream masquerade costume, long gloves, stockings, headpiece, decorative tail sash, folding fan and chandelier ballroom. Preserve her identity, rendering, costume and setting.\n\nNEW COMPOSITION: A vertical 2:3 image, 1024x1536, framed from her head to just above her knees. Camera at eye level. She stands facing gently three-quarters toward the viewer, with her face naturally aligned with her torso and both shoulders visible.\n\nHer own right arm, on the image-left side, holds the open folding fan beside her shoulder. Show the entire anatomical chain clearly: shoulder, upper arm descending to an elbow beside her waist, a comfortably bent elbow, forearm rising outward, wrist and a natural five-finger grip around the fan handle. Keep a small visible gap between this forearm and her torso, so the arm connection is easy to read. The fan does not cover the shoulder, elbow, wrist or face. Her own left arm, on the image-right side, hangs naturally with a relaxed five-finger hand visible beside her hip.\n\nKeep exactly one adult human woman, two naturally connected arms, two legs, and five fingers per hand, with ordinary joint proportions and bends. Both hands remain visible. Keep the costume tail as costume fabric. Change only the pose and viewpoint needed for the arm correction. Preserve the same finish, face, clothing materials, warm ballroom lighting and gentle expression. No added people, creatures, lettering or logos.",
+ "plan": {
+  "cut": 1,
+  "treeV": 2,
+  "era": "fantasy",
+  "place": "fx_ballroom",
+  "ofam": "pokemon_costume",
+  "item": "pc_bodysuit",
+  "garments": [
+   "bodysuit",
+   "leggings"
+  ],
+  "ocolor": "",
+  "weather": "",
+  "posture": "walk",
+  "support": "none",
+  "frame": "three_quarter",
+  "body": "rear_3q",
+  "head": "over_shoulder",
+  "camera": "eye",
+  "right": "prop",
+  "left": "down",
+  "use": "fan_hold",
+  "legs": "walk_pause",
+  "gaze": "camera",
+  "preset": "walk_lookback",
+  "expr": "confident",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly active",
+   "source_influence": "strong",
+   "separates_preference": "prefer separates"
+  },
+  "expose": [
+   "plunging neckline",
+   "one-shoulder cut"
+  ],
+  "lead": "place"
+ },
+ "manual_inputs": {
+  "scene": "Chandelier reflections trace the ballroom floor beside her open folding fan."
+ },
+ "manual_why": {
+  "scene": "Adds ballroom light to the selected masquerade setting."
+ },
+ "user_requested_override": {
+  "reason": "Fix disconnected-looking fan arm by changing to front three-quarter view, keeping identity, costume and place.",
+  "fields": [
+   "body",
+   "head",
+   "posture",
+   "preset",
+   "legs",
+   "axes.action_level",
+   "custom"
+  ]
+ },
+ "plan_match": false,
+ "execution_mode": "Direct image edit for user-requested anatomy and viewpoint correction",
+ "unreturned_attempt": {
+  "request_id": "64155d46-7428-4514-b68e-6d90439f14cc",
+  "stage": "output",
+  "code": "moderation_blocked",
+  "returned_image": false
+ }
+}

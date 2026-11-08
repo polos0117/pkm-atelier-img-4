@@ -1,0 +1,32 @@
+{
+  "card": "파이리",
+  "slot": "casual1",
+  "style": "anime_25d",
+  "output": "파이리_anime_25d_f_casual1.webp",
+  "original_sha256": "ceb7c2e7b6b3b166ce589addf2d8279e49d58ec409f038bae639168beff8db1d",
+  "webp_sha256": "158318a118e1beecb2ed7038b10090dee8bfa5d569f8d237dede3115880e80cd",
+  "size": [
+    1024,
+    1536
+  ],
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing; exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Fan grip has four bent finger contours and a thumb partly hidden behind the fan handle. Lowered glove has four relaxed finger contours with thumb folded inward and partly occluded. Both five-digit hands are attached through wrists; no extra or floating hand.",
+    "manual_original_and_hand_crop_checked": true,
+    "overlay_checked": false,
+    "note": "Both shoulders visible. Fan-side upper arm descends visibly to elbow beside waist; forearm rises outward into wrist, with a readable gap from torso. Opposite upper arm/forearm/wrist continuous. Thighs visible; knees and lower legs below frame."
+  },
+  "style_25d": {
+    "verdict": "anime_25d maintained",
+    "evidence": "Fine anime facial contours, smooth cheek/nose shading, layered orange hair highlights and dimensional costume/glove rendering."
+  },
+  "identity": {
+    "verdict": "canonical identity retained",
+    "evidence": "Long orange hair, amber eyes, compact jaw and same facial proportions."
+  },
+  "change": "Front three-quarter body and face, fan on image-left outside torso silhouette; previous look-back pose removed. Costume and ballroom preserved.",
+  "previous_qa_correction": "Prior manual QA missed the unreadable fan-side shoulder/upper-arm connection. This repair explicitly checks the entire arm chain.",
+  "delivered_images_regenerated_for_exposure": 0
+}
