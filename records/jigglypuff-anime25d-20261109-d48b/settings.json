@@ -1,0 +1,581 @@
+{
+  "version": 2,
+  "card": "푸린",
+  "no": 39,
+  "style": "anime_25d",
+  "plan": "/workspace/scratch/d48b5dd782bb/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {
+        "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+      },
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "mecha": {
+        "set": {
+          "silhouette": "slim_suit"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "normal"
+          },
+          {
+            "key": "seams",
+            "type": "fairy"
+          },
+          {
+            "key": "trail",
+            "type": "normal"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "slim_suit"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "normal"
+          },
+          {
+            "key": "seams",
+            "type": "fairy"
+          },
+          {
+            "key": "trail",
+            "type": "normal"
+          }
+        ]
+      },
+      "mecha_recent": [
+        "skirt_plate",
+        "heavy_assault",
+        "light_agile",
+        "sub_arms",
+        "frame_exposed",
+        "light_agile",
+        "float_units",
+        "full_armor",
+        "tail_unit",
+        "wing_binder"
+      ],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "A linen-bound travel journal lies open beside a brass reading lamp.",
+      "outfit": "A chocolate-brown kebaya-inspired floral lace top over an opaque fitted camisole with a deep V neckline, paired with a matching opaque mini bottom.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Adds the specific props and lighting for now / evening_hotel / lingerie / kebaya_lace / stand / three_quarter / book_turn",
+        "outfit": "Retains the selected garment and gives its planned colour and exposure construction for now / evening_hotel / lingerie / kebaya_lace / stand / three_quarter / book_turn"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / evening_hotel / lingerie / kebaya_lace / stand / three_quarter / book_turn",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "evening_hotel",
+            "ko": "호텔 방",
+            "en": "a hotel suite with a city view and an open suitcase"
+          },
+          "role": null,
+          "use": {
+            "key": "book_turn",
+            "ko": "탁자 위 책장을 넘긴다",
+            "en": "turns a page of a book lying open on the table",
+            "prop": "책"
+          },
+          "ofam": {
+            "key": "lingerie",
+            "ko": "란제리풍",
+            "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+          },
+          "item": {
+            "key": "kebaya_lace",
+            "ko": "크바야 응용 레이스",
+            "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+          },
+          "posture": {
+            "key": "stand",
+            "ko": "서기",
+            "en": "standing"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "prop · prop"
+        },
+        "garments": [
+          "tank"
+        ],
+        "expose": [
+          "deep V neckline",
+          "mini length"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "brown",
+          "ko": "카멜 · 초콜릿",
+          "en": "camel and chocolate brown",
+          "words": [
+            "brown",
+            "camel",
+            "tan",
+            "chocolate",
+            "beige",
+            "khaki",
+            "taupe",
+            "caramel"
+          ]
+        }
+      }
+    },
+    "casual2": {
+      "scene": "The evening game session is between rounds, with a checkerboard and scattered dice on the low table.",
+      "outfit": "An open butter-yellow long wool coat and loosely draped knitted scarf over a sweetheart-neck cropped top, leaving the midriff visible.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Adds the specific props and lighting for now / boardgame_lounge / everyday / long_coat_scarf / lean_wall / chest_up",
+        "outfit": "Retains the selected garment and gives its planned colour and exposure construction for now / boardgame_lounge / everyday / long_coat_scarf / lean_wall / chest_up"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / boardgame_lounge / everyday / long_coat_scarf / lean_wall / chest_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "boardgame_lounge",
+            "ko": "보드게임 라운지",
+            "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "everyday",
+            "ko": "평상복",
+            "en": "everyday clothes that suit the place and activity"
+          },
+          "item": {
+            "key": "long_coat_scarf",
+            "ko": "롱코트 + 머플러",
+            "en": "a long wool coat and a knitted scarf"
+          },
+          "posture": {
+            "key": "lean_wall",
+            "ko": "벽에 기대 서기",
+            "en": "standing, leaning back against a wall"
+          },
+          "frame": "chest_up",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "arms_crossed · arms_crossed"
+        },
+        "garments": [
+          "coat"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "bare midriff"
+        ],
+        "lead": "action",
+        "color": {
+          "key": "yellow",
+          "ko": "옐로 · 머스터드",
+          "en": "butter yellow and mustard",
+          "words": [
+            "yellow",
+            "mustard",
+            "lemon",
+            "butter",
+            "gold",
+            "golden"
+          ]
+        }
+      }
+    },
+    "casual3": {
+      "scene": "Afternoon sunlight crosses the cushions and a small costume-party garland.",
+      "outfit": "Jigglypuff-inspired adult fitted short overalls with a plunging neckline, an off-shoulder neckline, rounded pink ear hair ornaments and a curl-shaped trim.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Adds the specific props and lighting for now / home_living / pokemon_costume / walk / waist_up",
+        "outfit": "Retains the selected garment and gives its planned colour and exposure construction for now / home_living / pokemon_costume / walk / waist_up"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "now / home_living / pokemon_costume / walk / waist_up",
+        "v2": {
+          "era": {
+            "key": "now",
+            "ko": "지금 현실",
+            "en": "present-day real world"
+          },
+          "place": {
+            "key": "home_living",
+            "ko": "거실",
+            "en": "her living room with a deep sofa, floor cushions and a low table"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "pokemon_costume",
+            "ko": "포켓몬 코스튬",
+            "en": "a daring adult costume version of {costume}"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "side",
+            "ko": "옆모습",
+            "en": "body in side profile"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "overalls"
+        ],
+        "expose": [
+          "plunging neckline",
+          "off-shoulder neckline"
+        ],
+        "lead": "light",
+        "color": null
+      }
+    },
+    "casual4": {
+      "scene": "The rooftop hosts a themed costume-photo party, with a cream bunting arch beside the water tank.",
+      "outfit": "An ivory-and-cream maid costume with a structured deep-V bodice, short puffed sleeves, a full apron and secure side waist cutouts.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Adds the specific props and lighting for release / street_rooftop / roleplay / adult_maid / walk / waist_up",
+        "outfit": "Retains the selected garment and gives its planned colour and exposure construction for release / street_rooftop / roleplay / adult_maid / walk / waist_up"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / street_rooftop / roleplay / adult_maid / walk / waist_up",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "street_rooftop",
+            "ko": "옥상",
+            "en": "a city rooftop with a water tank, string lights and the skyline"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "roleplay",
+            "ko": "역할극·직업 의상",
+            "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+          },
+          "item": {
+            "key": "adult_maid",
+            "ko": "메이드 코스튬",
+            "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+          },
+          "posture": {
+            "key": "walk",
+            "ko": "걷기",
+            "en": "walking"
+          },
+          "frame": "waist_up",
+          "body": {
+            "key": "rear_3q",
+            "ko": "뒤 3/4",
+            "en": "body turned three-quarters away from the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "apron"
+        ],
+        "expose": [
+          "deep V neckline",
+          "side cutouts"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "ivory",
+          "ko": "아이보리 · 크림",
+          "en": "ivory and warm cream",
+          "words": [
+            "ivory",
+            "cream",
+            "white",
+            "off-white",
+            "pearl"
+          ]
+        }
+      }
+    },
+    "casual5": {
+      "scene": "The fitting break pauses beside the cutting table, with plum thread spools and folded striped fabrics.",
+      "outfit": "A lavender-and-plum emo look: a fitted striped top with a strapless sweetheart neckline, studded belt, skinny jeans and checkered sneakers.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Adds the specific props and lighting for release / tailor_room / subculture / emo / sit_lean / three_quarter",
+        "outfit": "Retains the selected garment and gives its planned colour and exposure construction for release / tailor_room / subculture / emo / sit_lean / three_quarter"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "release / tailor_room / subculture / emo / sit_lean / three_quarter",
+        "v2": {
+          "era": {
+            "key": "release",
+            "ko": "첫 등장 무렵 현실",
+            "en": "the real world around the year her Pokémon first appeared"
+          },
+          "place": {
+            "key": "tailor_room",
+            "ko": "의상 수선실",
+            "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "subculture",
+            "ko": "서브컬처",
+            "en": "a subculture street look"
+          },
+          "item": {
+            "key": "emo",
+            "ko": "이모",
+            "en": "emo — a fitted striped long-sleeve top, a studded belt, skinny jeans and checkered sneakers"
+          },
+          "posture": {
+            "key": "sit_lean",
+            "ko": "앉아 앞으로 기울이기",
+            "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+          },
+          "frame": "three_quarter",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "trousers"
+        ],
+        "expose": [
+          "sweetheart neckline",
+          "strapless top"
+        ],
+        "lead": "action",
+        "color": {
+          "key": "purple",
+          "ko": "라벤더 · 플럼",
+          "en": "lavender and plum",
+          "words": [
+            "purple",
+            "lavender",
+            "lilac",
+            "violet",
+            "plum",
+            "mauve"
+          ]
+        }
+      }
+    },
+    "casual6": {
+      "scene": "An enclosed sunny courtyard has a low wooden fence, a folded beach towel and a small Squirtle relaxing nearby.",
+      "outfit": "A black one-piece swimsuit with a deep plunging V, secure wide waistband and small waist cutouts.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Adds the specific props and lighting for in_pokemon / partner_yard / swimwear / plunge_onepiece / lie_side / environmental",
+        "outfit": "Retains the selected garment and gives its planned colour and exposure construction for in_pokemon / partner_yard / swimwear / plunge_onepiece / lie_side / environmental"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / partner_yard / swimwear / plunge_onepiece / lie_side / environmental",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "partner_yard",
+            "ko": "울타리 친 풀밭 마당",
+            "en": "an enclosed grassy courtyard with a low wooden fence"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "swimwear",
+            "ko": "수영복",
+            "en": "modern swimwear, fully lined and secure during movement"
+          },
+          "item": {
+            "key": "plunge_onepiece",
+            "ko": "딥 플런지 원피스",
+            "en": "a one-piece swimsuit with a deep plunging V and a secure wide waistband"
+          },
+          "posture": {
+            "key": "lie_side",
+            "ko": "옆으로 눕기",
+            "en": "lying on her side"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front_3q",
+            "ko": "3/4 정면",
+            "en": "body turned three-quarters toward the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "swimsuit"
+        ],
+        "expose": [
+          "plunging neckline",
+          "cutout waist"
+        ],
+        "lead": "place",
+        "color": {
+          "key": "black",
+          "ko": "블랙 · 차콜",
+          "en": "black with charcoal accents",
+          "words": [
+            "black",
+            "charcoal",
+            "jet",
+            "onyx"
+          ]
+        }
+      }
+    },
+    "casual7": {
+      "scene": "A wicker berry basket and fallen green leaves lie beneath the low branches.",
+      "outfit": "A sage-green fantasy dress with a deep V neckline, fitted waist and a high thigh slit, with olive ribbon ties.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "scene": "Adds the specific props and lighting for in_pokemon / berry_orchard / costume / lie_side / environmental",
+        "outfit": "Retains the selected garment and gives its planned colour and exposure construction for in_pokemon / berry_orchard / costume / lie_side / environmental"
+      },
+      "guide": {
+        "tree": 2,
+        "path": "in_pokemon / berry_orchard / costume / lie_side / environmental",
+        "v2": {
+          "era": {
+            "key": "in_pokemon",
+            "ko": "포켓몬 세계 안",
+            "en": "inside the Pokémon world, as if she simply lives there"
+          },
+          "place": {
+            "key": "berry_orchard",
+            "ko": "나무열매 과수원",
+            "en": "a sunny berry orchard of small trees heavy with ripe, colorful berries"
+          },
+          "role": null,
+          "use": null,
+          "ofam": {
+            "key": "costume",
+            "ko": "무대·판타지 의상",
+            "en": "a stage or fantasy costume"
+          },
+          "item": {
+            "key": "",
+            "ko": "자동 — 계열 안에서 장면에 맞게",
+            "en": ""
+          },
+          "posture": {
+            "key": "lie_side",
+            "ko": "옆으로 눕기",
+            "en": "lying on her side"
+          },
+          "frame": "environmental",
+          "body": {
+            "key": "front",
+            "ko": "정면",
+            "en": "body facing the camera"
+          },
+          "hands": "AUTO · AUTO"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "deep V neckline",
+          "high thigh slit"
+        ],
+        "lead": "detail",
+        "color": {
+          "key": "green",
+          "ko": "세이지 · 올리브",
+          "en": "sage and olive green",
+          "words": [
+            "green",
+            "sage",
+            "olive",
+            "emerald",
+            "moss",
+            "forest"
+          ]
+        }
+      }
+    }
+  }
+}
