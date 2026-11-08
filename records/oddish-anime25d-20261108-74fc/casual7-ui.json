@@ -1,0 +1,158 @@
+{
+ "storage": {
+  "last": "뚜벅쵸",
+  "cards": {
+   "뚜벅쵸": {
+    "style": "anime_25d",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "treeV": 2,
+      "expr": "wink",
+      "scene": "A coastal flower-festival picnic is set beside tide pools; baskets of cut stems and floral shears rest on a broad blanket.",
+      "outfit": "A rose-pink rolled-sleeve buttoned shirt under a long canvas florist work apron, with opaque matching trousers, a practical fully clothed floral-event costume.",
+      "custom": "This is a nonsexual outdoor costume portrait. The buttoned shirt and apron retain normal chest coverage and practical florist-work clothing; do not apply incompatible low-neckline or cutout details.",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "ofam": true,
+       "item": true,
+       "ocolor": true,
+       "expose": true,
+       "posture": true,
+       "support": true,
+       "frame": true,
+       "body": true,
+       "head": true,
+       "camera": true,
+       "legs": true,
+       "gaze": true,
+       "expr": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "travel_coast",
+      "ofam": "roleplay",
+      "item": "florist_apron",
+      "ocolor": "pink",
+      "expose": [
+       "deep V neckline",
+       "halter neck"
+      ],
+      "posture": "lie_side",
+      "support": "side_floor",
+      "frame": "environmental",
+      "body": "side",
+      "head": "tilt",
+      "camera": "high",
+      "legs": "legs_extended",
+      "gaze": "down",
+      "use": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Oddish (뚜벅쵸) personified, grass / poison type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY LINE: keep her figure from the attached image and show its line slightly emphasized — a subtly full bust, a slim waist and very wide, curvy rounded hips read clearly through the outfit, flowing smoothly into softly full thighs that taper gradually toward the knees with no sudden narrowing below the hips, and slender lower legs, never thick or heavy; her head stays in natural adult proportion to her body.\n\nSTYLE: keep the attached image's rendering exactly — the same finish, skin rendering, line weight, colour palette, saturation and lighting quality. Do not restyle her: no more realistic, no more painterly, no more 2D than the attached image. Only the outfit, pose, expression, framing and place change.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a rocky coast path with tide pools\nOutfit: A rose-pink rolled-sleeve buttoned shirt under a long canvas florist work apron, with opaque matching trousers, a practical fully clothed floral-event costume.\nOutfit colours: rose pink and blush — her own colour choice for this outfit, not her species' colours.\nCut: deep V neckline and halter neck built into the outfit — a figure-hugging fit that follows her curves; chest and pelvis stay securely covered.\nPOSTURE: lying on her side.\nSUPPORT: she lies on her side, supported along her hip and shoulder.\nCOMPOSITION: an environmental long shot, her complete figure and enough of the place around her; body in side profile; head tilted slightly; camera slightly above, looking down at her.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nLEGS: legs stretched out long.\nGAZE: her eyes are lowered.\nEXPRESSION: one eye closed in a playful wink while the other stays open and bright, one mouth corner lifted in a small smile, brows relaxed. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\nScene note: A coastal flower-festival picnic is set beside tide pools; baskets of cut stems and floral shears rest on a broad blanket.\nNote: This is a nonsexual outdoor costume portrait. The buttoned shirt and apron retain normal chest coverage and practical florist-work clothing; do not apply incompatible low-neckline or cutout details.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may stay outside the crop, and fingers may be partly hidden by a grip.",
+ "plan": {
+  "cut": 7,
+  "treeV": 2,
+  "era": "now",
+  "place": "travel_coast",
+  "ofam": "roleplay",
+  "item": "florist_apron",
+  "garments": [
+   "apron",
+   "shirt"
+  ],
+  "ocolor": "pink",
+  "weather": "",
+  "posture": "lie_side",
+  "support": "side_floor",
+  "frame": "environmental",
+  "body": "side",
+  "head": "tilt",
+  "camera": "high",
+  "right": "",
+  "left": "",
+  "use": "",
+  "legs": "legs_extended",
+  "gaze": "down",
+  "preset": "",
+  "expr": "wink",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly posed",
+   "source_influence": "strong",
+   "separates_preference": "prefer separates"
+  },
+  "expose": [
+   "deep V neckline",
+   "halter neck"
+  ],
+  "lead": "action"
+ },
+ "manual_inputs": {
+  "scene": "A coastal flower-festival picnic is set beside tide pools; baskets of cut stems and floral shears rest on a broad blanket.",
+  "outfit": "A rose-pink rolled-sleeve buttoned shirt under a long canvas florist work apron, with opaque matching trousers, a practical fully clothed floral-event costume.",
+  "custom": "This is a nonsexual outdoor costume portrait. The buttoned shirt and apron retain normal chest coverage and practical florist-work clothing; do not apply incompatible low-neckline or cutout details."
+ },
+ "manual_why": {
+  "outfit": "New safe wardrobe for the missing image: practical full coverage, preserving the planner-selected garment and colour.",
+  "scene": "Adds the specific setting for this new nonsexual scene, unrelated to the rejected scene.",
+  "custom": "Explicitly resolves contradictory exposure defaults in favour of the new full-coverage wardrobe."
+ }
+}

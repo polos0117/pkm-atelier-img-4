@@ -1,0 +1,580 @@
+{
+ "version": 2,
+ "card": "뚜벅쵸",
+ "no": 43,
+ "style": "anime_25d",
+ "plan": "/workspace/scratch/74fc6434acd3/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "long_coat_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "seams",
+      "type": "grass"
+     },
+     {
+      "key": "orbit",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "long_coat_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "seams",
+      "type": "grass"
+     },
+     {
+      "key": "orbit",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "hover_rings",
+    "cape_plates",
+    "wing_binder",
+    "light_agile",
+    "sub_arms",
+    "frame_exposed",
+    "light_agile",
+    "full_armor",
+    "tail_unit",
+    "wing_binder"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "A timber preparation ledge extends from the dock rail, overlooking pale morning mist.",
+   "outfit": "A lavender bias-cut satin slip with narrow straps, a sweetheart neckline, a high thigh slit and a straight hem.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds this location’s specific light, setting detail or companion for cut 1.",
+    "outfit": "Specifies the planned 라벤더 · 플럼 palette and sweetheart neckline, high thigh slit for 란제리풍."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / water_river / lingerie / slip_lingerie / lean_counter / waist_up",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "water_river",
+      "ko": "강가 선착장",
+      "en": "a wooden river dock above calm water"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "slip_lingerie",
+      "ko": "란제리 슬립",
+      "en": "a bias-cut satin slip with narrow straps and a straight hem"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "high thigh slit"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "purple",
+     "ko": "라벤더 · 플럼",
+     "en": "lavender and plum",
+     "words": [
+      "purple",
+      "lavender",
+      "lilac",
+      "violet",
+      "plum",
+      "mauve"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "Early-afternoon sunlight warms a lawn edged with small wildflowers; a small Bulbasaur is nearby.",
+   "outfit": "A black plunging halter top with charcoal short shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds this location’s specific light, setting detail or companion for cut 2.",
+    "outfit": "Specifies the planned 블랙 · 차콜 palette and plunging neckline, halter neck for 평상복."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_park / everyday / halter_shorts / kneel / three_quarter",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_park",
+      "ko": "공원 산책길",
+      "en": "a park path lined with trees and benches"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "halter_shorts",
+      "ko": "홀터 탑 + 짧은 반바지",
+      "en": "a halter top and short shorts"
+     },
+     "posture": {
+      "key": "kneel",
+      "ko": "무릎 꿇기",
+      "en": "kneeling on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "shorts"
+    ],
+    "expose": [
+     "plunging neckline",
+     "halter neck"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "A rolled exercise mat lies on the grassy edge of the village square, after a local sports session.",
+   "outfit": "A camel athletic short jumpsuit with a deep V neckline and short mini-length legs, its structured fabric suitable for movement.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds this location’s specific light, setting detail or companion for cut 3.",
+    "outfit": "Specifies the planned 카멜 · 초콜릿 palette and deep V neckline, mini length for 운동복."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_town / active / lie_side / chest_up",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_town",
+      "ko": "포켓몬 세계 마을",
+      "en": "a small town square of the Pokémon world with a fountain, flower beds and tiled roofs"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "deep V neckline",
+     "mini length"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "brown",
+     "ko": "카멜 · 초콜릿",
+     "en": "camel and chocolate brown",
+     "words": [
+      "brown",
+      "camel",
+      "tan",
+      "chocolate",
+      "beige",
+      "khaki",
+      "taupe",
+      "caramel"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "Rose-gold chandelier light glows across the ballroom’s carved wood chairs and polished parquet.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds this location’s specific light, setting detail or companion for cut 4."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_ballroom / pokemon_costume / pc_corset / sit_chair / three_quarter",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_ballroom",
+      "ko": "가면무도회장",
+      "en": "a chandelier ballroom at a masquerade"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_corset",
+      "ko": "코르셋형",
+      "en": "a daring adult costume version of {costume}, cut as a laced corset bustier with a short flared skirt"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "side cutouts"
+    ],
+    "lead": "light",
+    "color": null
+   }
+  },
+  "casual5": {
+   "scene": "The late fittings session is lit by warm desk lamps beside hanging satin swatches.",
+   "outfit": "A wine-red 1990s minimal satin slip dress with a plunging neckline and open back, worn with a tiny cropped cardigan draped low around the upper arms.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds this location’s specific light, setting detail or companion for cut 5.",
+    "outfit": "Specifies the planned 레드 · 와인 palette and plunging neckline, backless for 레트로."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / tailor_room / retro / nineties_slip / sit_chair / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "tailor_room",
+      "ko": "의상 수선실",
+      "en": "a sewing and alteration room with a cutting table, a dress form and rolls of fabric"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "nineties_slip",
+      "ko": "90년대 미니멀 슬립",
+      "en": "a 1990s minimal satin slip dress under a small cropped cardigan"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "cardigan",
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "plunging neckline",
+     "backless"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "red",
+     "ko": "레드 · 와인",
+     "en": "deep red and wine",
+     "words": [
+      "red",
+      "crimson",
+      "scarlet",
+      "burgundy",
+      "wine",
+      "cherry"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "A ceramic bowl of berries and a folded garden towel sit at the edge of the breakfast table.",
+   "outfit": "A butter-yellow one-piece swimsuit with a deep plunging V, a secure wide waistband and high-cut legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Adds this location’s specific light, setting detail or companion for cut 6.",
+    "outfit": "Specifies the planned 옐로 · 머스터드 palette and deep V neckline, high-cut leg for 수영복."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_kitchen / swimwear / plunge_onepiece / sit_lean / waist_up",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_kitchen",
+      "ko": "포켓몬 세계 부엌",
+      "en": "a sunny home kitchen in a Pokémon-world town, bowls of berries on the counter"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "plunge_onepiece",
+      "ko": "딥 플런지 원피스",
+      "en": "a one-piece swimsuit with a deep plunging V and a secure wide waistband"
+     },
+     "posture": {
+      "key": "sit_lean",
+      "ko": "앉아 앞으로 기울이기",
+      "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "deep V neckline",
+     "high-cut leg"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "yellow",
+     "ko": "옐로 · 머스터드",
+     "en": "butter yellow and mustard",
+     "words": [
+      "yellow",
+      "mustard",
+      "lemon",
+      "butter",
+      "gold",
+      "golden"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "A coastal flower-festival picnic is set beside tide pools; baskets of cut stems and floral shears rest on a broad blanket.",
+   "outfit": "A rose-pink rolled-sleeve buttoned shirt under a long canvas florist work apron, with opaque matching trousers, a practical fully clothed floral-event costume.",
+   "camera": "",
+   "custom": "This is a nonsexual outdoor costume portrait. The buttoned shirt and apron retain normal chest coverage and practical florist-work clothing; do not apply incompatible low-neckline or cutout details.",
+   "why": {
+    "outfit": "New safe wardrobe for the missing image: practical full coverage, preserving the planner-selected garment and colour.",
+    "scene": "Adds the specific setting for this new nonsexual scene, unrelated to the rejected scene.",
+    "custom": "Explicitly resolves contradictory exposure defaults in favour of the new full-coverage wardrobe."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_coast / roleplay / florist_apron / lie_side / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_coast",
+      "ko": "바닷가 산책길",
+      "en": "a rocky coast path with tide pools"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "florist_apron",
+      "ko": "셔츠 + 플로리스트 앞치마",
+      "en": "a rolled-sleeve shirt under a canvas florist work apron"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "apron",
+     "shirt"
+    ],
+    "expose": [
+     "deep V neckline",
+     "halter neck"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  }
+ }
+}
