@@ -1,0 +1,185 @@
+{
+ "tool": "built-in image_gen",
+ "user_constraint": "Do not regenerate an already generated image for exposure censorship.",
+ "regenerations_for_exposure": 0,
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observation": "Standing full figure in green segmented armor; bud mantle, leaf panels, green hand glow and violet outline; head and boots fully inside frame.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Open left palm shows five fingers; lowered right glove is a loose fist with folded digits partly occluded. Both wrists continue into forearms.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose, cheek and jaw gradients with fine facial contours; layered teal hair and machined plate bevels."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Chest window and upper thighs exposed; abdomen and arms armored."
+   },
+   "deviations": []
+  },
+  "casual1": {
+   "accepted": true,
+   "observation": "Lavender embroidered lace in a castle staircase; wink, one hand extended toward lens, the other rests at collarbone.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Extended hand has thumb and four separate fingers; collarbone hand has fingers naturally stacked and partly occluded.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Blended cheek and nose shading, fine hair strands, raised lace embroidery."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Open shoulders, neckline and waist side openings visible."
+   },
+   "deviations": [
+    "Lace outfit reads as a fitted long top/dress inside the waist crop."
+   ]
+  },
+  "casual3": {
+   "accepted": true,
+   "observation": "Pink cropped hoodie and cargo shorts on a fenced outdoor court; both hands work a towel over short teal hair.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Both arms reach the towel with natural elbows; fingers grip cloth, partly hidden by towel.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Nose/cheek gradients in profile, glossy abdomen, rendered knit cuffs and cargo pockets."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Deep neckline, bare midriff and upper legs visible."
+   },
+   "deviations": [
+    "Face turns closer to three-quarter profile than strict profile."
+   ]
+  },
+  "casual4": {
+   "accepted": true,
+   "observation": "Wine casino-dealer outfit on marble hammam slab, lying prone with both fists at cheeks, lower legs raised and crossed; bow tie and cuffs visible.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Both hands curl into loose fists beside chin with four folded digits and thumbs partly occluded; both wrists continue into forearms braced on slab.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft cheek/nose shading, layered teal hair, detailed wine jacquard fabric and glossy exposed limbs."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders, neckline, side waist and thighs visible."
+   },
+   "deviations": [
+    "Whole body is visible but lies horizontally within the vertical environmental frame."
+   ]
+  },
+  "casual5": {
+   "accepted": true,
+   "observation": "Close portrait in a violet photo booth, black cat ears and bell choker; a coin held beside cheek.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "One hand holds coin with index and thumb; other digits curl naturally; opposite hand outside crop.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft cheek/chin gradients, colored hair contours, reflective black bodice."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Bare shoulders and neckline visible; lower outfit outside close crop."
+   },
+   "deviations": []
+  },
+  "casual2": {
+   "accepted": true,
+   "observation": "Chest portrait in grocery aisle; blue swimsuit under open pale-blue yukata, head looks over bare shoulder, one hand holds selfie phone.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Phone hand has four visible wrapped digits with thumb behind phone; hand/forearm exit and re-enter crop naturally. Other hand outside crop.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Smooth face/chin gradients, bright shoulder sheen and finely rendered patterned yukata folds."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Bare shoulder/back and deep swimsuit neckline visible; lower garment outside crop."
+   },
+   "deviations": [
+    "Phone-hand edge partly touches the image border."
+   ]
+  },
+  "casual6": {
+   "accepted": true,
+   "observation": "Seated profile in night taxi, crossed knees, hooded Bulbasaur costume and cocktail glass; moving city lights outside window.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Glass grip shows extended index and curled digits around stem, thumb partly hidden; knee hand shows five glove digits. Both arms continue through wrists.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Profile nose and jaw gradients, fine teal hair, dimensional hood seams and glossy glove highlights."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Neckline, side waist opening and upper thighs visible."
+   },
+   "deviations": [
+    "Bud-shaped costume backpack and vine trim remain as fabric costume elements."
+   ]
+  },
+  "casual7": {
+   "accepted": true,
+   "observation": "Cream lace camisole close portrait at outdoor theatre; one hand touches cheek, small smile; seating rows and stage behind.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Cheek hand is cupped beside jaw, fingers partially overlapped/occluded; other hand outside crop. Wrist and forearm are connected.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft shading over nose, cheeks and chin with fine hair layers and knitted fabric detail."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders and neckline visible; lower dress outside close crop."
+   },
+   "deviations": []
+  }
+ }
+}

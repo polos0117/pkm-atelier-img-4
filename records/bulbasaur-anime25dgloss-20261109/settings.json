@@ -1,0 +1,595 @@
+{
+ "version": 2,
+ "card": "이상해씨",
+ "no": 1,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/1bc3e7954d6f/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "long_coat_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "grass"
+     },
+     {
+      "key": "aura",
+      "type": "poison"
+     },
+     {
+      "key": "trail",
+      "type": "grass"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "long_coat_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "grass"
+     },
+     {
+      "key": "aura",
+      "type": "poison"
+     },
+     {
+      "key": "trail",
+      "type": "grass"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "slim_suit",
+    "heavy_assault",
+    "light_agile",
+    "sub_arms",
+    "frame_exposed",
+    "light_agile",
+    "float_units",
+    "full_armor",
+    "tail_unit",
+    "wing_binder"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_castle / lingerie / kebaya_lace / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_castle",
+      "ko": "성 계단",
+      "en": "the grand staircase of an old castle"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "reach · chest_hand"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "side cutouts"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "purple",
+     "ko": "라벤더 · 플럼",
+     "en": "lavender and plum",
+     "words": [
+      "purple",
+      "lavender",
+      "lilac",
+      "violet",
+      "plum",
+      "mauve"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / street_grocery / swimwear / yukata_over / stand / chest_up / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_grocery",
+      "ko": "마트·편의점",
+      "en": "a neighbourhood grocery or convenience store with bright aisles"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "yukata_over",
+      "ko": "수영복 위 유카타",
+      "en": "swimwear with a light yukata worn open over it"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "deep V neckline",
+     "high thigh slit"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "blue",
+     "ko": "스카이 · 네이비",
+     "en": "sky blue and navy",
+     "words": [
+      "blue",
+      "navy",
+      "cobalt",
+      "sky",
+      "azure",
+      "denim"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / sports_court / subculture / skater / stand / environmental / towel_dry",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_court",
+      "ko": "코트",
+      "en": "an outdoor court for tennis or basketball"
+     },
+     "role": null,
+     "use": {
+      "key": "towel_dry",
+      "ko": "수건으로 머리를 말린다",
+      "en": "dries her hair with a towel",
+      "prop": "수건"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "skater",
+      "ko": "스케이터",
+      "en": "skater — a cropped hoodie, low-slung cargo shorts and high socks"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "shorts",
+     "sweater"
+    ],
+    "expose": [
+     "plunging neckline",
+     "cropped hem"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "release / spa_hammam / roleplay / rodeo_cowgirl / recline / environmental / towel_hold",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "spa_hammam",
+      "ko": "하맘",
+      "en": "a domed marble hammam with warm stone slabs and brass bowls"
+     },
+     "role": null,
+     "use": {
+      "key": "towel_hold",
+      "ko": "수건을 안는다",
+      "en": "holds a towel folded against her chest",
+      "prop": "수건"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "rodeo_cowgirl",
+      "ko": "로데오 카우걸",
+      "en": "a rodeo cowgirl costume — a fringed cropped vest, a western hat, short denim and cowboy boots"
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "behind_head · prop"
+    },
+    "garments": [
+     "vest"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "blue",
+     "ko": "스카이 · 네이비",
+     "en": "sky blue and navy",
+     "words": [
+      "blue",
+      "navy",
+      "cobalt",
+      "sky",
+      "azure",
+      "denim"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / arcade_photo / halloween / hw_black_cat / sit_chair / face_close / coin_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_photo",
+      "ko": "스티커 사진기",
+      "en": "an arcade photo-sticker booth under bright ring lights"
+     },
+     "role": null,
+     "use": {
+      "key": "coin_hold",
+      "ko": "동전을 들어 보인다",
+      "en": "holds a single coin up between two fingers",
+      "prop": "동전"
+     },
+     "ofam": {
+      "key": "halloween",
+      "ko": "할로윈 코스튬",
+      "en": "a daring adult Halloween costume"
+     },
+     "item": {
+      "key": "hw_black_cat",
+      "ko": "검은 고양이",
+      "en": "a black cat costume — a glossy black strapless bodysuit, sheer black tights, a cat-ear headband, a curling tail and a bell choker"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "plunging neckline",
+     "off-shoulder neckline"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / night_taxi / pokemon_costume / pc_hoodie / sit_chair / three_quarter / glass_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_taxi",
+      "ko": "밤 택시",
+      "en": "the back seat of a taxi at night, city lights streaking past"
+     },
+     "role": null,
+     "use": {
+      "key": "glass_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cocktail glass by the stem at chest height",
+      "prop": "칵테일 잔"
+     },
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_hoodie",
+      "ko": "후드 원피스형",
+      "en": "a daring adult costume version of {costume}, cut as a short fitted hooded dress with the hood shaped like its head"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "deep V neckline",
+     "backless"
+    ],
+    "lead": "action",
+    "color": null
+   }
+  },
+  "casual7": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "release / stage_open_air / homewear / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "stage_open_air",
+      "ko": "야외 공연장",
+      "en": "an outdoor theatre of tiered seats facing a stage"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "mini length"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  }
+ }
+}
