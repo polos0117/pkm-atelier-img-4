@@ -1,0 +1,595 @@
+{
+ "version": 2,
+ "card": "리자몽",
+ "no": 6,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/81bd0137deed/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "heavy_assault"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "flying"
+     },
+     {
+      "key": "aura",
+      "type": "fire"
+     },
+     {
+      "key": "orbit",
+      "type": "flying"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "heavy_assault"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "flying"
+     },
+     {
+      "key": "aura",
+      "type": "fire"
+     },
+     {
+      "key": "orbit",
+      "type": "flying"
+     }
+    ]
+   },
+   "mecha_recent": [],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Warm fairy lights are reflected in the rooftop glass balustrade, and the city stretches below under a violet evening sky.",
+   "outfit": "A rose-pink bikini with a plunging neckline and high-cut legs, joined at the centre and hips by polished metal rings.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "옥상 난간과 저녁 도시의 조명을 구체화한다.",
+    "outfit": "링 비키니를 유지하고 로즈색·깊은 목선·하이컷 구조를 명시한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / night_rooftop / swimwear / oring_bikini / sit_chair / three_quarter / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_rooftop",
+      "ko": "옥상 파티",
+      "en": "a city rooftop party under string lights"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "oring_bikini",
+      "ko": "링 장식 비키니",
+      "en": "a bikini joined at the centre and hips by polished metal rings"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high-cut leg"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "pink",
+     "ko": "핑크 · 로즈",
+     "en": "rose pink and blush",
+     "words": [
+      "pink",
+      "rose",
+      "blush",
+      "fuchsia",
+      "magenta"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "A closed book has a small brass corner protector; one small Charmander rests separately on the grooming mat beside the cushion, with a brush basket and folded towel nearby.",
+   "outfit": "Fitted sky-blue denim overalls with waist cutouts over a navy cropped top with a sweetheart neckline.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "책 소품을 구체화하고 동료 장소에 별도 몸을 가진 파이리 한 마리를 명시한다.",
+    "outfit": "멜빵바지·크롭톱을 유지하고 하늘색 데님·하트 목선·허리 컷아웃을 넣는다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_room / everyday / overalls / recline / environmental / book_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_room",
+      "ko": "그루밍 매트 있는 방",
+      "en": "a sunny room with a grooming mat, a towel and a small brush basket"
+     },
+     "role": null,
+     "use": {
+      "key": "book_hold",
+      "ko": "책을 안는다",
+      "en": "holds a book closed against her chest",
+      "prop": "책"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "overalls",
+      "ko": "멜빵바지",
+      "en": "fitted denim overalls over a cropped top"
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "behind_head · prop"
+    },
+    "garments": [
+     "crop_top",
+     "overalls"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "cutout waist"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "blue",
+     "ko": "스카이 · 네이비",
+     "en": "sky blue and navy",
+     "words": [
+      "blue",
+      "navy",
+      "cobalt",
+      "sky",
+      "azure",
+      "denim"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "The kitchen window lights a wooden counter ledge, with copper pans above open shelves of ceramic bowls.",
+   "outfit": "A black and charcoal colour-blocked 1990s windbreaker worn open with a deep V front and an asymmetric one-shoulder cut, paired with matching track trousers.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "주방의 기대는 받침을 조리대 가장자리로 구체화한다.",
+    "outfit": "윈드브레이커와 트랙 바지 종류를 유지하고 블랙·비대칭 목선·열린 앞면을 표현한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / home_kitchen / retro / nineties_windbreaker_track / lean_rail / waist_up / book_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_kitchen",
+      "ko": "주방",
+      "en": "her home kitchen with a counter, open shelves and hanging pans"
+     },
+     "role": null,
+     "use": {
+      "key": "book_hold",
+      "ko": "책을 안는다",
+      "en": "holds a book closed against her chest",
+      "prop": "책"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "nineties_windbreaker_track",
+      "ko": "90년대 윈드브레이커 + 트랙 팬츠",
+      "en": "a color-blocked 1990s windbreaker with matching track pants"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · rail"
+    },
+    "garments": [
+     "jacket",
+     "trousers"
+    ],
+    "expose": [
+     "deep V neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "She reaches toward a brass handrail inside the commuter train; plum upholstery and softly lit station windows frame the carriage.",
+   "outfit": "A lavender babydoll slip with narrow straps, an empire waist, a plunging neckline and a softly flared hem with a high thigh slit edged in plum satin.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "뻗는 손이 닿을 전철 손잡이와 객차 재질을 구체화한다.",
+    "outfit": "베이비돌 종류를 유지하고 라벤더·플럼 새틴 목선과 트임을 명시한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / street_station / lingerie / babydoll / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_station",
+      "ko": "역·전철",
+      "en": "a city station platform or the inside of a commuter train"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "babydoll",
+      "ko": "베이비돌",
+      "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "reach · chest_hand"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high thigh slit"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "purple",
+     "ko": "라벤더 · 플럼",
+     "en": "lavender and plum",
+     "words": [
+      "purple",
+      "lavender",
+      "lilac",
+      "violet",
+      "plum",
+      "mauve"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "She rests at the edge of a low mossy garden wall, surrounded by silver-green ivy and paper lanterns.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "정원에서 걸터앉는 받침을 낮은 이끼 담장으로 정한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_forest / pokemon_costume / pc_bodysuit / sit_edge / environmental",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_forest",
+      "ko": "요정 숲 정원",
+      "en": "a misty enchanted garden of moss, ivy and lanterns"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_bodysuit",
+      "ko": "바디수트형",
+      "en": "a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights"
+     },
+     "posture": {
+      "key": "sit_edge",
+      "ko": "가장자리에 걸터앉기",
+      "en": "perched on a ledge or edge"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bodysuit",
+     "leggings"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "strapless top"
+    ],
+    "lead": "action",
+    "color": null
+   }
+  },
+  "casual6": {
+   "scene": "A small charcoal satin pumpkin-stem hair ornament catches the amber fireplace light; rough timber beams frame the lodge reception desk.",
+   "outfit": "A black-and-charcoal pumpkin-inspired satin corset with a deep V halter neckline, a puffed tulle mini skirt and striped thigh-high stockings, finished with a tiny stem headband.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "산장의 벽·난로 배경과 호박 줄기 장식의 재질을 보충한다.",
+    "outfit": "호박 코스튬의 코르셋·튤 미니·스타킹을 유지하고 계획색 블랙과 홀터 목선을 반영한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_lodge / halloween / hw_pumpkin / lean_wall / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_lodge",
+      "ko": "산장",
+      "en": "a mountain lodge with a front counter and a fireplace"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "halloween",
+      "ko": "할로윈 코스튬",
+      "en": "a daring adult Halloween costume"
+     },
+     "item": {
+      "key": "hw_pumpkin",
+      "ko": "호박",
+      "en": "a pumpkin costume — an orange satin corset with a puffed tulle mini skirt, black-and-orange striped thigh-high stockings and a tiny green stem headband"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "lingerie_set",
+     "skirt"
+    ],
+    "expose": [
+     "deep V neckline",
+     "halter neck"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "black",
+     "ko": "블랙 · 차콜",
+     "en": "black with charcoal accents",
+     "words": [
+      "black",
+      "charcoal",
+      "jet",
+      "onyx"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "Soft overhead lighting picks out the coloured holds of the 1996 climbing gym and the seams of its padded floor.",
+   "outfit": "A sage-green stylised uniform-inspired event costume with crisp lapels, decorative epaulettes, a plunging neckline and fitted olive side cutouts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "1996년 암벽장의 홀드와 완충 바닥 질감을 구체화한다.",
+    "outfit": "유니폼풍 코스튬을 유지하고 세이지색 라펠·깊은 목선·옆 컷아웃을 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_wall / roleplay / uniform_inspired / sit_floor / three_quarter",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_wall",
+      "ko": "실내 암벽",
+      "en": "an indoor climbing wall of coloured holds"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "uniform_inspired",
+      "ko": "유니폼풍",
+      "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+     },
+     "posture": {
+      "key": "sit_floor",
+      "ko": "바닥에 앉기",
+      "en": "sitting on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "uniform"
+    ],
+    "expose": [
+     "plunging neckline",
+     "side cutouts"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "green",
+     "ko": "세이지 · 올리브",
+     "en": "sage and olive green",
+     "words": [
+      "green",
+      "sage",
+      "olive",
+      "emerald",
+      "moss",
+      "forest"
+     ]
+    }
+   }
+  }
+ }
+}
