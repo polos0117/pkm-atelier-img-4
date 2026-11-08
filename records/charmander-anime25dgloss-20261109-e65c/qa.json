@@ -1,0 +1,126 @@
+{
+ "tool": "built-in image_gen",
+ "regenerations_of_returned_images_for_exposure": 0,
+ "initial_unreturned_calls": {
+  "slots": [
+   "casual1",
+   "casual2"
+  ],
+  "note": "Initial four-call group failed when one output was moderation-blocked; remaining tool promises ended without returning assets. No files were received for any of those four calls. Alternative scene plans used only for these empty slots; unchanged returned slots retained."
+ },
+ "diversity_review": "Compared with existing Charmeleon and Metapod review sheets and within this set: distinct settings, garments and actions. Close portraits recur; occluded hands explicitly recorded.",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observation": "Orange ponytail and amber eyes; two connected arms, legs and armored boots. Open palm and relaxed opposite fist.",
+   "deviations_and_occlusions": "Fist and foreshortening conceal some fingers. Upper thighs exposed beyond the chosen exposure line.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "observation": "Side profile in embroidered elf dress and cape, phone held in one hand and the other resting on marble. Shoulder, elbow and wrists connect.",
+   "deviations_and_occlusions": "Pointed costume ear tips replace the human ear outline; lower legs outside frame.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "observation": "Crouching on picnic blanket, berry hand connects through bent elbow to shoulder; opposite forearm rests on knee. Charmander partner in front.",
+   "deviations_and_occlusions": "Some fingertips overlap the berry; trousers and vest cover most of body. No exposure-based regeneration.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "observation": "Lavender embroidered kebaya in candlelit chapel, bouquet in raised hand; other hand rests at lap.",
+   "deviations_and_occlusions": "Bouquet hides thumb and part of palm; lower body cropped.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual4": {
+   "accepted": true,
+   "observation": "Mint fitted activewear in board-game lounge, both bent arms meet hands around a mug.",
+   "deviations_and_occlusions": "Cup hides some fingertips; frame cuts below torso.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual5": {
+   "accepted": true,
+   "observation": "Blue and gold costume uniform at rooftop party, five separated digits on greeting palm, opposite hand at chest.",
+   "deviations_and_occlusions": "Lower body outside frame.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual6": {
+   "accepted": true,
+   "observation": "Sage swimsuit in gym, one arm supports chin and opposite palm rests on floor; bent legs readable.",
+   "deviations_and_occlusions": "Supporting fingers partly hidden by cheek; robe adds coverage. Preserved without regeneration.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual7": {
+   "accepted": true,
+   "observation": "Orange Charmander costume seated at laundromat, one hand rests at lap and opposite hand on bench; crossed legs and shoes distinct.",
+   "deviations_and_occlusions": "Costume tail and ear-like hood are clothing details; some fingers overlap fabric.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  }
+ }
+}
