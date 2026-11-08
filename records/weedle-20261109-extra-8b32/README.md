@@ -1,0 +1,1 @@
+Additional off-duty batch; existing light reference reused. Local prompt slots casual1–9 map to published casual8–16; no existing image overwritten. Built-in image_gen; submitted prompt text unchanged.
