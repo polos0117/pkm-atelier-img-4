@@ -1,0 +1,582 @@
+{
+ "version": 2,
+ "card": "구구",
+ "no": 16,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/c24e5080dde5/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "light_agile"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "flying"
+     },
+     {
+      "key": "aura",
+      "type": "normal"
+     },
+     {
+      "key": "orbit",
+      "type": "flying"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "light_agile"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "flying"
+     },
+     {
+      "key": "aura",
+      "type": "normal"
+     },
+     {
+      "key": "orbit",
+      "type": "flying"
+     }
+    ]
+   },
+   "mecha_recent": [],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Neon bottle reflections shimmer across the bar wall, with brass trim and olive velvet upholstery nearby.",
+   "outfit": "A sage-green 1970s-style jumpsuit with a sweetheart neckline, open back and olive waist belt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "바의 재질·조명·소품을 구체화한다.",
+    "outfit": "자동 — 계열 안에서 장면에 맞게 종류를 유지하며 계획의 색과 sweetheart neckline, backless 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / night_bar / retro / lean_wall / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_bar",
+      "ko": "바",
+      "en": "a neon-lit bar counter with backlit bottles"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "arms_crossed · arms_crossed"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "backless"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "green",
+     "ko": "세이지 · 올리브",
+     "en": "sage and olive green",
+     "words": [
+      "green",
+      "sage",
+      "olive",
+      "emerald",
+      "moss",
+      "forest"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "Peach ceiling lights curve over the sunken lounge and rounded chrome appliances of the retro-futurist house.",
+   "outfit": "A coral one-piece swimsuit with a deep V halter neckline and a secure soft-orange waistband.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "레트로 퓨처 집의 재질·조명·소품을 구체화한다.",
+    "outfit": "딥 플런지 원피스 종류를 유지하며 계획의 색과 deep V neckline, halter neck 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_retro_home / swimwear / plunge_onepiece / recline / environmental",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_retro_home",
+      "ko": "레트로 퓨처 집",
+      "en": "a retro-futurist home of rounded chrome appliances and soft panels"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "plunge_onepiece",
+      "ko": "딥 플런지 원피스",
+      "en": "a one-piece swimsuit with a deep plunging V and a secure wide waistband"
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "deep V neckline",
+     "halter neck"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "orange",
+     "ko": "코랄 · 오렌지",
+     "en": "coral and soft orange",
+     "words": [
+      "coral",
+      "orange",
+      "peach",
+      "apricot",
+      "tangerine",
+      "terracotta",
+      "rust"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "A low stone fountain rim offers a seat beside the park path; cream petals drift from a flowering tree.",
+   "outfit": "An ivory-and-black maid event costume with a structured plunging bodice, off-shoulder puffed sleeves and a full cream apron.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "공원의 재질·조명·소품을 구체화한다.",
+    "outfit": "메이드 코스튬 종류를 유지하며 계획의 색과 plunging neckline, off-shoulder neckline 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / street_park / roleplay / adult_maid / sit_edge / three_quarter",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_park",
+      "ko": "공원",
+      "en": "a city park with benches, old trees and a fountain"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_maid",
+      "ko": "메이드 코스튬",
+      "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+     },
+     "posture": {
+      "key": "sit_edge",
+      "ko": "가장자리에 걸터앉기",
+      "en": "perched on a ledge or edge"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "edge_brace_both · edge_brace_both"
+    },
+    "garments": [
+     "apron"
+    ],
+    "expose": [
+     "plunging neckline",
+     "off-shoulder neckline"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "ivory",
+     "ko": "아이보리 · 크림",
+     "en": "ivory and warm cream",
+     "words": [
+      "ivory",
+      "cream",
+      "white",
+      "off-white",
+      "pearl"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "A small Pidgey stands separately on the porch boards beside a grooming brush and a folded red towel.",
+   "outfit": "A light wine-red cotton bath yukata with a soft sash, a deep V neckline and an asymmetric one-shoulder drape.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "지붕 있는 현관의 재질·조명·소품을 구체화한다.",
+    "outfit": "목욕 유카타 종류를 유지하며 계획의 색과 deep V neckline, one-shoulder cut 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_porch / bath / bath_yukata / walk / full_body",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_porch",
+      "ko": "지붕 있는 현관",
+      "en": "a covered porch on a rainy day, umbrellas resting by the door"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bath",
+      "ko": "목욕 차림",
+      "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+     },
+     "item": {
+      "key": "bath_yukata",
+      "ko": "목욕 유카타",
+      "en": "a light cotton bath yukata with a soft sash"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "deep V neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "red",
+     "ko": "레드 · 와인",
+     "en": "deep red and wine",
+     "words": [
+      "red",
+      "crimson",
+      "scarlet",
+      "burgundy",
+      "wine",
+      "cherry"
+     ]
+    }
+   }
+  },
+  "casual5": {
+   "scene": "The penthouse has a polished writing table facing the glass wall, with distant city lights mirrored in its surface.",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "펜트하우스의 재질·조명·소품을 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_penthouse / pokemon_costume / pc_crop_set / sit_lean / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_penthouse",
+      "ko": "펜트하우스",
+      "en": "a penthouse window wall over the city at night"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_crop_set",
+      "ko": "크롭 투피스형",
+      "en": "a daring adult costume version of {costume}, cut as a cropped top and a micro skirt that bare the midriff"
+     },
+     "posture": {
+      "key": "sit_lean",
+      "ko": "앉아 앞으로 기울이기",
+      "en": "seated, leaning slightly forward toward the table, forearms near its edge"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "crop_top",
+     "skirt"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "strapless top"
+    ],
+    "lead": "place",
+    "color": null
+   }
+  },
+  "casual6": {
+   "scene": "The 1996 archery range has canvas target covers and a chalked wooden equipment rack along its grass verge.",
+   "outfit": "A butter-yellow kebaya-inspired embroidered lace top over a fitted opaque camisole with a plunging neckline, paired with a mustard mini skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "양궁장의 재질·조명·소품을 구체화한다.",
+    "outfit": "크바야 응용 레이스 종류를 유지하며 계획의 색과 plunging neckline, mini length 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_range / lingerie / kebaya_lace / walk / waist_up",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_range",
+      "ko": "양궁장",
+      "en": "an archery range of targets on a green field"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "plunging neckline",
+     "mini length"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "yellow",
+     "ko": "옐로 · 머스터드",
+     "en": "butter yellow and mustard",
+     "words": [
+      "yellow",
+      "mustard",
+      "lemon",
+      "butter",
+      "gold",
+      "golden"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "Lantern light shines through a sky-blue awning over baskets of berries, a juice pitcher and steaming pots.",
+   "outfit": "A sky-blue flowing ballroom gown with a fitted navy sweetheart bodice and a high thigh slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "길가 노점의 재질·조명·소품을 구체화한다.",
+    "outfit": "볼룸 가운 종류를 유지하며 계획의 색과 sweetheart neckline, high thigh slit 구조를 구체화한다."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_stall / costume / ballroom_gown / lean_wall / environmental",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_stall",
+      "ko": "길가 노점",
+      "en": "a small roadside stall with a counter, a juice pitcher and steaming pots"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "ballroom_gown",
+      "ko": "볼룸 가운",
+      "en": "a flowing ballroom gown with a fitted bodice"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "high thigh slit"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "blue",
+     "ko": "스카이 · 네이비",
+     "en": "sky blue and navy",
+     "words": [
+      "blue",
+      "navy",
+      "cobalt",
+      "sky",
+      "azure",
+      "denim"
+     ]
+    }
+   }
+  }
+ }
+}
