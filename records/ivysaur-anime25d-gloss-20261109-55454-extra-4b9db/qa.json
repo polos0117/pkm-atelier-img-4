@@ -1,0 +1,37 @@
+{
+  "regenerations": 0,
+  "generation": "built-in image_gen, exact prompt, original light reference",
+  "casual8": {
+    "identity": "긴 청록 머리와 자주색 눈, 기준의 얼굴 윤곽 유지",
+    "scene": "리본 장식과 무대가 있는 콘테스트 홀, 오른손 꽃다발과 왼손 난간 지지",
+    "outfit": "노란 튜브톱과 열린 짧은 카디건, 광택 레깅스",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "below crop",
+      "overlay_checked": false,
+      "hands": "오른손 꽃다발 손잡이에 일부 손가락 가림; 왼손 난간 위 손가락 일부 겹침, 양 손목은 팔에 연결"
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "어깨·쇄골·허리 노출, 카디건 열림"
+    }
+  },
+  "casual9": {
+    "identity": "긴 청록 머리와 자주색 눈 유지",
+    "scene": "캠프 스토브와 접이식 테이블 앞, 오른손 인사와 왼손 가슴 위",
+    "outfit": "붉은 일체형 스포츠복과 머리 위 고글; 선택된 스키복이 민소매 형태로 해석됨",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "below crop",
+      "overlay_checked": false,
+      "hands": "인사하는 오른손 다섯 손가락; 왼손 가슴 위 네 손가락과 가려진 엄지, 양팔 연결 확인"
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "깊은 목선과 어깨가 보임"
+    }
+  },
+  "similarity": "casual-look passed"
+}
