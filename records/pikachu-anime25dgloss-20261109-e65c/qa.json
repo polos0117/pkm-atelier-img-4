@@ -1,0 +1,126 @@
+{
+ "tool": "built-in image_gen",
+ "regenerations_of_returned_images_for_exposure": 0,
+ "initial_unreturned_calls": {
+  "slots": [
+   "casual1",
+   "casual2"
+  ],
+  "note": "Initial four-call group failed when one output was moderation-blocked; remaining tool promises ended without returning assets. No files were received for any of those four calls. Alternative scene plans used only for these empty slots; unchanged returned slots retained."
+ },
+ "diversity_review": "Compared with existing Charmeleon and Metapod review sheets and within this set: distinct settings, garments and actions. Close portraits recur; occluded hands explicitly recorded.",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observation": "Gold hair, golden eyes and black-tipped ear headpiece; connected armored limbs, open electric palm and opposite fist.",
+   "deviations_and_occlusions": "Fist conceals folded fingertips; ear ornament approaches top edge.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "observation": "Coral traditional dress in berry orchard; one bent arm leads to index finger near lips, gaze forward.",
+   "deviations_and_occlusions": "Opposite hand and lower body outside close framing; folded digits overlap.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "observation": "Pikachu bodysuit seated on entry bench; two gloved hands support body at sides, crossed legs and shoes visible.",
+   "deviations_and_occlusions": "Far hand partly hidden by hip; mirror shows a partial reflection, not an additional person.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "observation": "Pink babydoll fashion in chapel, two connected arms and hands resting on stone ledge, knees together.",
+   "deviations_and_occlusions": "Original mecha ear headpiece retained in everyday scene; legs cropped below knees.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual4": {
+   "accepted": true,
+   "observation": "Brown satin slip and robe on forest trail; compact face, golden eyes and hair retained in close portrait.",
+   "deviations_and_occlusions": "Both hands and legs outside close frame; no fabricated finger-count pass.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual5": {
+   "accepted": true,
+   "observation": "Black and ivory maid costume at rooftop party, one hand balances tray and opposite arm hangs beside skirt. Connected walking legs.",
+   "deviations_and_occlusions": "Tray hand fingers foreshortened and partly covered; original ear headpiece remains.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual6": {
+   "accepted": true,
+   "observation": "Gray swimsuit in gym, turned torso and sideward glance; face and hair match light reference.",
+   "deviations_and_occlusions": "Hands and lower body outside close frame; original ear headpiece remains.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  },
+  "casual7": {
+   "accepted": true,
+   "observation": "Black retro swimsuit at waterfall, one hand holds sunglasses at forehead; opposite arm enters water.",
+   "deviations_and_occlusions": "Water hides opposite hand and legs; sunglasses hide thumb.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe module missing; checker returned code 3",
+    "review": "visual inspection of original, following visible shoulder-elbow-wrist chains; no claim about concealed fingers",
+    "overlay_checked": false
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft nose and cheek gradients, subtle colored contours, shaded lip and chin; strand-rendered hair and dimensional fabric/metal. Gloss highlights visible on shoulders and arms."
+   }
+  }
+ }
+}
