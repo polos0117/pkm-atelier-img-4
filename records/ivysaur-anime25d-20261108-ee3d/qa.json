@@ -1,0 +1,404 @@
+{
+  "card": "이상해풀",
+  "style": "anime_25d",
+  "slots": {
+    "light": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP를 Pillow로 열어 1024x1536 확인"
+      },
+      "scene_and_clothes": {
+        "observed": "분홍 봉오리 망토와 잎 판 스커트, 보라·녹색 구체가 보이며 머리와 두 발에 여백이 있다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "청록색 긴 웨이브 머리, 분홍 눈, 타원형 얼굴과 부드러운 턱을 메카 원본과 대조했다."
+      },
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "코 옆·볼·입술 아래의 연속 그라데이션과 은은한 얼굴 윤곽, 세밀한 머리 가닥과 소재 반사가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "visual": "화면 오른쪽 손은 펼친 다섯 손가락이 분리되고, 반대 손은 느슨하게 굽혀 일부가 겹친다. 두 팔과 두 다리는 몸에 연결된다.",
+        "review": "원본과 손목·아래팔을 포함한 확대 크롭 대조; 가려진 손가락은 확인됨으로 세지 않음"
+      },
+      "notes": []
+    },
+    "casual1": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP를 Pillow로 열어 1024x1536 확인"
+      },
+      "scene_and_clothes": {
+        "observed": "육상 트랙에서 와인색 오버롤과 탱크를 입고 물병을 입에 댄 가슴 위 구도."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "청록색 긴 웨이브 머리, 분홍 눈, 타원형 얼굴과 부드러운 턱을 메카 원본과 대조했다."
+      },
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "코 옆·볼·입술 아래의 연속 그라데이션과 은은한 얼굴 윤곽, 세밀한 머리 가닥과 소재 반사가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "visual": "물병을 쥔 손의 네 손가락과 병 아래 엄지가 보인다. 반대 손과 두 다리는 프레임 밖이다.",
+        "review": "원본과 손목·아래팔을 포함한 확대 크롭 대조; 가려진 손가락은 확인됨으로 세지 않음"
+      },
+      "notes": []
+    },
+    "casual2": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP를 Pillow로 열어 1024x1536 확인"
+      },
+      "scene_and_clothes": {
+        "observed": "산골 전망대의 산호색 유니폼풍 투피스, 옆으로 선 전신과 카메라 촬영 동작."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "청록색 긴 웨이브 머리, 분홍 눈, 타원형 얼굴과 부드러운 턱을 메카 원본과 대조했다."
+      },
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "코 옆·볼·입술 아래의 연속 그라데이션과 은은한 얼굴 윤곽, 세밀한 머리 가닥과 소재 반사가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "visual": "셔터 쪽 손과 렌즈 받침 손이 각각 팔꿈치로 이어지며 손가락 일부는 기기에 가려진다. 두 다리와 두 발이 이어진다.",
+        "review": "원본과 손목·아래팔을 포함한 확대 크롭 대조; 가려진 손가락은 확인됨으로 세지 않음"
+      },
+      "notes": []
+    },
+    "casual3": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP를 Pillow로 열어 1024x1536 확인"
+      },
+      "scene_and_clothes": {
+        "observed": "나무 지붕 족욕장 곁에서 은회색 사리풍 블라우스를 입고 머리 옆에 빗을 든 상반신."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "청록색 긴 웨이브 머리, 분홍 눈, 타원형 얼굴과 부드러운 턱을 메카 원본과 대조했다."
+      },
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "코 옆·볼·입술 아래의 연속 그라데이션과 은은한 얼굴 윤곽, 세밀한 머리 가닥과 소재 반사가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "visual": "빗 손잡이 주위 손가락이 나뉘고 엄지는 반대편에 가려진다. 손목에서 팔꿈치로 이어진다. 반대 손과 하체는 프레임 밖이다.",
+        "review": "원본과 손목·아래팔을 포함한 확대 크롭 대조; 가려진 손가락은 확인됨으로 세지 않음"
+      },
+      "notes": []
+    },
+    "casual4": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP를 Pillow로 열어 1024x1536 확인"
+      },
+      "scene_and_clothes": {
+        "observed": "분홍 조명의 사진 부스에서 후디와 쇼츠를 입고 휴대폰을 확인한다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "청록색 긴 웨이브 머리, 분홍 눈, 타원형 얼굴과 부드러운 턱을 메카 원본과 대조했다."
+      },
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "코 옆·볼·입술 아래의 연속 그라데이션과 은은한 얼굴 윤곽, 세밀한 머리 가닥과 소재 반사가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "visual": "휴대폰 손의 보이는 네 손가락이 분리되고 엄지는 기기 반대편에 가려진다. 반대 손은 주머니에 들어가 손목과 팔은 이어진다. 다리는 프레임 밖이다.",
+        "review": "원본과 손목·아래팔을 포함한 확대 크롭 대조; 가려진 손가락은 확인됨으로 세지 않음"
+      },
+      "notes": [
+        "계획 프레이밍과 실제 담긴 범위의 차이는 기록만 하고 재생성하지 않음"
+      ]
+    },
+    "casual5": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP를 Pillow로 열어 1024x1536 확인"
+      },
+      "scene_and_clothes": {
+        "observed": "별 관측소의 의자에 앉아 파란 수영복과 책, 망원경이 보이는 전신."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "청록색 긴 웨이브 머리, 분홍 눈, 타원형 얼굴과 부드러운 턱을 메카 원본과 대조했다."
+      },
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "코 옆·볼·입술 아래의 연속 그라데이션과 은은한 얼굴 윤곽, 세밀한 머리 가닥과 소재 반사가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "visual": "책을 안은 손은 쥔 손가락 일부가 책에 가려진다. 무릎 위 손은 다섯 손가락과 손목 연결이 보인다. 교차한 다리가 골반에서 두 발까지 이어진다.",
+        "review": "원본과 손목·아래팔을 포함한 확대 크롭 대조; 가려진 손가락은 확인됨으로 세지 않음"
+      },
+      "notes": []
+    },
+    "casual6": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP를 Pillow로 열어 1024x1536 확인"
+      },
+      "scene_and_clothes": {
+        "observed": "보랏빛 열매 상자 저장고의 민트색 금수 카프탄, 몬스터볼을 든 전신."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "청록색 긴 웨이브 머리, 분홍 눈, 타원형 얼굴과 부드러운 턱을 메카 원본과 대조했다."
+      },
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "코 옆·볼·입술 아래의 연속 그라데이션과 은은한 얼굴 윤곽, 세밀한 머리 가닥과 소재 반사가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "visual": "공을 든 손가락 일부는 구체에 가려진다. 반대 손은 드리워져 손가락이 자연스럽게 굽는다. 양팔이 어깨에 이어지고 다리는 긴 천에 일부 가려진다.",
+        "review": "원본과 손목·아래팔을 포함한 확대 크롭 대조; 가려진 손가락은 확인됨으로 세지 않음"
+      },
+      "notes": []
+    },
+    "casual7": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP를 Pillow로 열어 1024x1536 확인"
+      },
+      "scene_and_clothes": {
+        "observed": "분홍 파우더룸에서 이상해풀 모티프 크롭 코스튬을 입고 휴대폰을 든 허리 위 구도."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "청록색 긴 웨이브 머리, 분홍 눈, 타원형 얼굴과 부드러운 턱을 메카 원본과 대조했다."
+      },
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "코 옆·볼·입술 아래의 연속 그라데이션과 은은한 얼굴 윤곽, 세밀한 머리 가닥과 소재 반사가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "visual": "폰을 쥔 장갑 손은 네 손가락이 전면에 보이고 엄지는 기기 뒤에 가려진다. 내려놓은 손은 다섯 손가락의 외곽이 분리된다. 하체는 프레임 밖이다.",
+        "review": "원본과 손목·아래팔을 포함한 확대 크롭 대조; 가려진 손가락은 확인됨으로 세지 않음"
+      },
+      "notes": []
+    }
+  },
+  "diversity": {
+    "visual": "의상 실루엣·활동·구도가 원본 일곱 장 사이에서 구분된다. 두 캐릭터 일상컷도 함께 비교했다.",
+    "automated": {
+      "crowd_below": 245,
+      "cuts": [
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/이상해풀_anime_25d_f_casual1.webp",
+          "near": [
+            [
+              "바닐프티_glossy_promo_f_casual2.webp",
+              292
+            ],
+            [
+              "롱스톤_glossy_promo_f_casual1.webp",
+              307
+            ],
+            [
+              "치라미_glossy_promo_f_casual1.webp",
+              308
+            ],
+            [
+              "액스라이즈_glossy_promo_f_casual3.webp",
+              312
+            ],
+            [
+              "이상해씨_anime_25d_f_casual2.webp",
+              314
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 1,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/이상해풀_anime_25d_f_casual2.webp",
+          "near": [
+            [
+              "내루미_glossy_promo_f_casual1.webp",
+              244
+            ],
+            [
+              "쁘사이저_glossy_promo_f_casual2.webp",
+              248
+            ],
+            [
+              "톱치_glossy_promo_f_casual2.webp",
+              249
+            ],
+            [
+              "삐삐_anime_25d_f_casual4.webp",
+              252
+            ],
+            [
+              "캐터피_glossy_promo_f_casual2.webp",
+              253
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/이상해풀_anime_25d_f_casual3.webp",
+          "near": [
+            [
+              "이상해꽃_anime_gloss_f_casual2.webp",
+              298
+            ],
+            [
+              "딜리버드_glossy_promo_f_casual2.webp",
+              305
+            ],
+            [
+              "쌍검킬_glossy_promo_f_casual2.webp",
+              308
+            ],
+            [
+              "절각참_glossy_promo_f_casual1.webp",
+              310
+            ],
+            [
+              "푸린_anime_gloss_f_casual3.webp",
+              321
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/이상해풀_anime_25d_f_casual4.webp",
+          "near": [
+            [
+              "꼬렛_anime_25d_f_casual2.webp",
+              307
+            ],
+            [
+              "이상해씨_anime_25d_f_casual6.webp",
+              322
+            ],
+            [
+              "딥상어동_glossy_promo_f_casual3.webp",
+              332
+            ],
+            [
+              "대코파스_glossy_promo_f_casual2.webp",
+              333
+            ],
+            [
+              "해피너스_glossy_promo_f_casual1.webp",
+              338
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 1,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/이상해풀_anime_25d_f_casual5.webp",
+          "near": [
+            [
+              "불켜미_glossy_promo_f_casual3.webp",
+              242
+            ],
+            [
+              "픽시_anime_gloss_f_casual1.webp",
+              261
+            ],
+            [
+              "꾸왁스_glossy_promo_f_casual2.webp",
+              269
+            ],
+            [
+              "고디탱_glossy_promo_f_casual1.webp",
+              278
+            ],
+            [
+              "버랜지나_glossy_promo_f_casual1.webp",
+              283
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/이상해풀_anime_25d_f_casual6.webp",
+          "near": [
+            [
+              "꼬렛_glossy_promo_f_casual2.webp",
+              274
+            ],
+            [
+              "미뇽_glossy_promo_f_casual1.webp",
+              278
+            ],
+            [
+              "꼬몽울_glossy_promo_f_casual1.webp",
+              282
+            ],
+            [
+              "푸린_glossy_promo_f_casual1.webp",
+              282
+            ],
+            [
+              "체리꼬_glossy_promo_f_casual1.webp",
+              288
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "pkm-atelier-img-4/img/이상해풀_anime_25d_f_casual7.webp",
+          "near": [
+            [
+              "쌔비냥_glossy_promo_f_casual1.webp",
+              280
+            ],
+            [
+              "내루미_glossy_promo_f_casual1.webp",
+              296
+            ],
+            [
+              "아머까오_glossy_promo_f_casual1.webp",
+              297
+            ],
+            [
+              "파르셀_glossy_promo_f_casual1.webp",
+              300
+            ],
+            [
+              "픽시_anime_gloss_f_casual4.webp",
+              302
+            ]
+          ],
+          "same_as_own": []
+        }
+      ],
+      "dup_below": 215,
+      "ok": true
+    }
+  },
+  "blocked_attempts_without_result": [
+    4,
+    5,
+    7
+  ],
+  "exposure_based_regeneration_of_completed_images": false
+}
