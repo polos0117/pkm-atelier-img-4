@@ -1,0 +1,589 @@
+{
+ "version": 2,
+ "card": "니드퀸",
+ "no": 31,
+ "style": "anime_gloss",
+ "plan": "/workspace/scratch/23b65555dd16/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "mecha": {
+    "set": {
+     "silhouette": "heavy_assault"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "ground"
+     },
+     {
+      "key": "seams",
+      "type": "poison"
+     },
+     {
+      "key": "trail",
+      "type": "ground"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "heavy_assault"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "ground"
+     },
+     {
+      "key": "seams",
+      "type": "poison"
+     },
+     {
+      "key": "trail",
+      "type": "ground"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "halo_crown",
+    "skirt_plate",
+    "slim_suit",
+    "light_agile",
+    "sub_arms",
+    "light_agile",
+    "float_units",
+    "full_armor",
+    "tail_unit",
+    "wing_binder"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "Late-afternoon sunlight crosses habitat maps and a polished sample cabinet.",
+   "outfit": "A cropped deep-red tuxedo jacket worn open over a wine silk halter camisole with a deep V neckline and tailored high-waisted trousers; the short jacket leaves her shoulders and upper back visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 jacket, tank, trousers 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: in_pokemon / work_lab / evening / tuxedo_cami_trousers / stand / face_close",
+    "scene": "선택한 연구소에 빛의 방향과 시료 진열장만 보탠다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_lab / evening / tuxedo_cami_trousers / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_lab",
+      "ko": "포켓몬 연구소",
+      "en": "a regional Pokémon research laboratory with a long desk, habitat maps on a board and field kits on shelves"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "tuxedo_cami_trousers",
+      "ko": "턱시도 재킷 + 캐미솔 + 정장 바지",
+      "en": "a sharp tuxedo jacket over a silk camisole with tailored trousers"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "jacket",
+     "tank",
+     "trousers"
+    ],
+    "expose": [
+     "deep V neckline",
+     "halter neck"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "red",
+     "ko": "레드 · 와인",
+     "en": "deep red and wine",
+     "words": [
+      "red",
+      "crimson",
+      "scarlet",
+      "burgundy",
+      "wine",
+      "cherry"
+     ]
+    }
+   }
+  },
+  "casual2": {
+   "scene": "",
+   "outfit": "A chocolate-brown bias-cut satin mini slip with narrow straps, a sweetheart neckline and shaped waist cutouts, fully opaque across the chest and hips.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 slip 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: now / evening_gala / lingerie / slip_lingerie / sit_chair / full_body"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_gala / lingerie / slip_lingerie / sit_chair / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_gala",
+      "ko": "갈라 만찬장",
+      "en": "a candlelit gala dinner hall"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "slip_lingerie",
+      "ko": "란제리 슬립",
+      "en": "a bias-cut satin slip with narrow straps and a straight hem"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "lap · natural"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "cutout waist"
+    ],
+    "lead": "place",
+    "color": {
+     "key": "brown",
+     "ko": "카멜 · 초콜릿",
+     "en": "camel and chocolate brown",
+     "words": [
+      "brown",
+      "camel",
+      "tan",
+      "chocolate",
+      "beige",
+      "khaki",
+      "taupe",
+      "caramel"
+     ]
+    }
+   }
+  },
+  "casual3": {
+   "scene": "A wooden hairbrush rests beside folded towels in the cooling lounge.",
+   "outfit": "A flowing lavender West African boubou robe with plum embroidery and a matching head wrap, redesigned with a plunging neckline and side waist cutouts; open draped sleeves reveal her shoulders and forearms.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 robe 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: now / spa_sauna / traditional / boubou_flow / stand / chest_up / brush_hair",
+    "scene": "빗질 소품과 사우나 휴게 공간의 세부를 보탠다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / spa_sauna / traditional / boubou_flow / stand / chest_up / brush_hair",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "spa_sauna",
+      "ko": "사우나",
+      "en": "a wooden sauna and cold plunge with a cooling lounge"
+     },
+     "role": null,
+     "use": {
+      "key": "brush_hair",
+      "ko": "머리를 빗는다",
+      "en": "brushes her hair with a hairbrush",
+      "prop": "빗"
+     },
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "boubou_flow",
+      "ko": "부부",
+      "en": "a flowing West African boubou — a wide floor-length embroidered robe with a matching head wrap"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "plunging neckline",
+     "side cutouts"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "purple",
+     "ko": "라벤더 · 플럼",
+     "en": "lavender and plum",
+     "words": [
+      "purple",
+      "lavender",
+      "lilac",
+      "violet",
+      "plum",
+      "mauve"
+     ]
+    }
+   }
+  },
+  "casual4": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "guide": {
+    "tree": 2,
+    "path": "now / night_taxi / pokemon_costume / pc_hoodie / stand / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_taxi",
+      "ko": "밤 택시",
+      "en": "the back seat of a taxi at night, city lights streaking past"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "pokemon_costume",
+      "ko": "포켓몬 코스튬",
+      "en": "a daring adult costume version of {costume}"
+     },
+     "item": {
+      "key": "pc_hoodie",
+      "ko": "후드 원피스형",
+      "en": "a daring adult costume version of {costume}, cut as a short fitted hooded dress with the hood shaped like its head"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "wave · down"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "deep V neckline",
+     "halter neck"
+    ],
+    "lead": "light",
+    "color": null
+   }
+  },
+  "casual5": {
+   "scene": "A decorative costume badge and a satin event ribbon catch the runway lights during a uniform-themed fashion presentation.",
+   "outfit": "A coral uniform-inspired event mini dress with crisp lapels, decorative epaulettes, a sweetheart neckline and an open back; its short skirt exposes her legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 uniform 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: now / stage_show / roleplay / uniform_inspired / stand / chest_up",
+    "scene": "직업풍이 실제 제복이 아니라 패션 행사임을 구체화한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_show / roleplay / uniform_inspired / stand / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_show",
+      "ko": "패션쇼장",
+      "en": "the front row of a fashion show beside a lit runway"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "uniform_inspired",
+      "ko": "유니폼풍",
+      "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "wave · chest_hand"
+    },
+    "garments": [
+     "uniform"
+    ],
+    "expose": [
+     "sweetheart neckline",
+     "open back"
+    ],
+    "lead": "detail",
+    "color": {
+     "key": "orange",
+     "ko": "코랄 · 오렌지",
+     "en": "coral and soft orange",
+     "words": [
+      "coral",
+      "orange",
+      "peach",
+      "apricot",
+      "tangerine",
+      "terracotta",
+      "rust"
+     ]
+    }
+   }
+  },
+  "casual6": {
+   "scene": "",
+   "outfit": "A teal bandeau bikini with a shaped plunging centre neckline, a high-cut bottom and a cropped strapless silhouette; both pieces are securely lined.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 bikini, crop_top 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: release / sports_wall / swimwear / bandeau_bikini / sit_floor / three_quarter"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_wall / swimwear / bandeau_bikini / sit_floor / three_quarter",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_wall",
+      "ko": "실내 암벽",
+      "en": "an indoor climbing wall of coloured holds"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "bandeau_bikini",
+      "ko": "반두 비키니",
+      "en": "a bandeau bikini with a straight strapless top"
+     },
+     "posture": {
+      "key": "sit_floor",
+      "ko": "바닥에 앉기",
+      "en": "sitting on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "chin_knee · floor_brace"
+    },
+    "garments": [
+     "bikini",
+     "crop_top"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high-cut leg"
+    ],
+    "lead": "action",
+    "color": {
+     "key": "teal",
+     "ko": "민트 · 틸",
+     "en": "mint and teal",
+     "words": [
+      "mint",
+      "teal",
+      "turquoise",
+      "aqua",
+      "seafoam",
+      "jade"
+     ]
+    }
+   }
+  },
+  "casual7": {
+   "scene": "Warm morning light filters through the cabana canopy onto a pale stone side table.",
+   "outfit": "A butter-yellow athletic short jumpsuit with a deep V neckline and an open back, closely fitted at the waist with upper-thigh hems.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획의 jumpsuit 종류·색·두 드러내기 방식을 옷 구조로 구체화한다: release / water_resort / active / recline / environmental / icecream_hold",
+    "scene": "카바나에서 빛의 시간대와 가구를 보탠다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / water_resort / active / recline / environmental / icecream_hold",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "water_resort",
+      "ko": "리조트 카바나",
+      "en": "a resort cabana with a shaded daybed by the water"
+     },
+     "role": null,
+     "use": {
+      "key": "icecream_hold",
+      "ko": "아이스크림을 든다",
+      "en": "holds an ice cream cone at chest height",
+      "prop": "아이스크림"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "behind_head · prop"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "deep V neckline",
+     "backless"
+    ],
+    "lead": "light",
+    "color": {
+     "key": "yellow",
+     "ko": "옐로 · 머스터드",
+     "en": "butter yellow and mustard",
+     "words": [
+      "yellow",
+      "mustard",
+      "lemon",
+      "butter",
+      "gold",
+      "golden"
+     ]
+    }
+   }
+  }
+ }
+}

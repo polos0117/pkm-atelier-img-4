@@ -1,0 +1,265 @@
+{
+  "card": "니드퀸",
+  "style": "anime_gloss",
+  "accepted": true,
+  "tool_note": "mediapipe unavailable; direct original-size and enlarged hand/foot review performed",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 푸른빛 긴 포니테일·보라 눈·같은 얼굴 길이와 턱 윤곽 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "푸른빛 장발, 귀·뿔 머리장식, 보라빛 눈. 두꺼운 어깨·정강이 장갑과 맞춤 몸통, 흙빛 돌조각과 녹색 독성 이음새."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "열린 손의 엄지와 네 손가락이 분리됨; 주먹의 손끝 일부는 접힘으로 가려짐.",
+        "overlay_checked": false,
+        "note": "양팔이 어깨·팔꿈치·손목을 거쳐 연결되고 두 다리가 각각 부츠로 이어짐. 왼손은 흙빛을 든 열린 장갑손, 오른손은 느슨한 주먹."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 윤곽선, 코·뺨의 부드러운 그라데이션, 세밀한 머리 반사광; 새 기본 화풍은 명시적으로 2D."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual1": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 푸른빛 긴 포니테일·보라 눈·같은 얼굴 길이와 턱 윤곽 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "적색 캐미솔·흘러내린 재킷, 지도와 연구 도구 선반. 반쯤 감긴 눈과 살짝 열린 입."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "뺨 쪽 네 손가락과 안쪽 엄지의 접힌 윤곽; 손목 끊김 없음.",
+        "overlay_checked": false,
+        "note": "오른손이 뺨에 닿고 손목에서 아래팔이 옷소매로 연속 연결됨. 왼팔·다리는 크롭 밖."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 윤곽선, 코·뺨의 부드러운 그라데이션, 세밀한 머리 반사광; 새 기본 화풍은 명시적으로 2D."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual2": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 푸른빛 긴 포니테일·보라 눈·같은 얼굴 길이와 턱 윤곽 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "초콜릿 슬립, 양옆 허리 트임, 촛불·샹들리에·만찬 의자. 차분한 눈과 가볍게 닫힌 입."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각각 엄지+네 손가락. 샌들 속 발가락 각각 다섯 확인.",
+        "overlay_checked": false,
+        "note": "두 어깨에서 각 팔꿈치를 거쳐 무릎 위 손과 팔걸이 위 손이 이어짐. 두 다리가 겹쳐 발목 교차로 이어짐."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 윤곽선, 코·뺨의 부드러운 그라데이션, 세밀한 머리 반사광; 새 기본 화풍은 명시적으로 2D."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual3": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 푸른빛 긴 포니테일·보라 눈·같은 얼굴 길이와 턱 윤곽 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "라벤더 자수 로브·머리천, 나무 빗과 스파 탕. 몸은 옆쪽, 얼굴은 어깨 너머로 돌아옴."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "손잡이 둘레 네 굽힌 손가락과 안쪽 엄지가 보임.",
+        "overlay_checked": false,
+        "note": "빗을 쥔 손목과 아래팔이 열린 소매 안으로 이어짐; 위팔 일부는 머리와 소매에 가려짐. 다른 팔과 다리는 크롭 밖."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 윤곽선, 코·뺨의 부드러운 그라데이션, 세밀한 머리 반사광; 새 기본 화풍은 명시적으로 2D."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual4": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 푸른빛 긴 포니테일·보라 눈·같은 얼굴 길이와 턱 윤곽 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "택시 안 네온 창, 파란 후드형 짧은 코스튬과 꼬리 장식. 옆 몸통·뒤돌아본 얼굴, 한쪽 눈 윙크. 후드 코스튬이 단단한 패널로 해석됨."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "손 흔드는 장갑손 엄지+네 손가락. 내린 손은 굽힌 손가락 일부 겹침.",
+        "overlay_checked": false,
+        "note": "올린 팔이 뒤쪽 어깨에서 팔꿈치와 손목으로 이어짐. 내린 팔은 앞쪽 어깨와 팔꿈치를 거쳐 장갑손으로 이어짐. 두 다리와 겹친 하이힐 발이 연속됨."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 윤곽선, 코·뺨의 부드러운 그라데이션, 세밀한 머리 반사광; 새 기본 화풍은 명시적으로 2D."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual5": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 푸른빛 긴 포니테일·보라 눈·같은 얼굴 길이와 턱 윤곽 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "코랄 미니 제복풍, 금색 견장과 배지. 런웨이와 흐릿한 관객; 작은 미소와 부드럽게 낮은 눈썹."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "흔드는 손 엄지+네 손가락, 쇄골 손 네 손가락과 부분 가려진 엄지.",
+        "overlay_checked": false,
+        "note": "양어깨에서 위팔과 아래팔이 이어지고 오른손은 흔들기, 왼손은 쇄골 위. 다리는 크롭 밖."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 윤곽선, 코·뺨의 부드러운 그라데이션, 세밀한 머리 반사광; 새 기본 화풍은 명시적으로 2D."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual6": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 푸른빛 긴 포니테일·보라 눈·같은 얼굴 길이와 턱 윤곽 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "민트 반두 비키니, 색색 암벽 홀드와 운동가방. 무릎 든 바닥 앉기, 걱정스러운 눈썹과 열린 입."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "볼의 주먹은 손가락이 굽혀 가려짐. 바닥 손 엄지와 네 손가락 확인.",
+        "overlay_checked": false,
+        "note": "한쪽 팔꿈치는 든 무릎에 기대고 손은 볼에 닿음; 다른 팔은 어깨부터 바닥을 짚는 손목까지 연속됨. 두 다리가 서로 다른 방향으로 접혀 있음."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 윤곽선, 코·뺨의 부드러운 그라데이션, 세밀한 머리 반사광; 새 기본 화풍은 명시적으로 2D."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    },
+    "casual7": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "원본의 푸른빛 긴 포니테일·보라 눈·같은 얼굴 길이와 턱 윤곽 유지."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "노란 운동 점프슈트, 아이스크림과 해변 카바나. 선베드에 누운 몸·늘어진 다리, 지친 눈과 약간 벌린 입."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named 'mediapipe' (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "콘 주위 손가락 네 개와 반대편 부분 가려진 엄지. 머리 뒤 손은 가려짐; 양발 다섯 발가락.",
+        "overlay_checked": false,
+        "note": "오른팔이 머리 뒤로 접혀 손만 머리카락에 가려짐. 왼팔은 어깨·팔꿈치·손목을 거쳐 콘을 잡음. 두 무릎·정강이·발이 선베드 위로 이어짐."
+      },
+      "style_25d": {
+        "judgement": "2D expected for current anime_gloss",
+        "evidence": "가는 얼굴 윤곽선, 코·뺨의 부드러운 그라데이션, 세밀한 머리 반사광; 새 기본 화풍은 명시적으로 2D."
+      },
+      "technical": {
+        "size": [
+          1024,
+          1536
+        ],
+        "actual_logo": false
+      },
+      "notes": []
+    }
+  },
+  "diversity": {
+    "reviewed": true,
+    "compared": [
+      "뚜벅쵸",
+      "니드런♂",
+      "주뱃"
+    ],
+    "evidence": "연구소 얼굴 클로즈업·만찬 전신 앉기·빗질 옆모습·택시 코스튬 전신·런웨이 손 흔들기·암벽 바닥 앉기·카바나 기대눕기. 실제 의상은 턱시도·슬립·로브·후드 코스튬·제복·비키니·점프슈트로 구분된다."
+  }
+}
