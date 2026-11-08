@@ -1,0 +1,38 @@
+{
+  "generation": "built-in image_gen; exact prompt; original light reference",
+  "regenerations": 0,
+  "exposure_policy": "No regeneration for exposure censorship per user",
+  "casual8": {
+    "identity": "짧은 청록 단발과 눈 색, 얼굴 비율 유지",
+    "scene": "이젤과 미술 도구가 있는 화실; 오른손이 목의 헤드폰을 잡음",
+    "outfit": "코럴색 항공 재킷과 깊은 V넥, 측면 컷아웃; 한쪽 어깨가 드러남",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "out of crop",
+      "hands": "오른손은 이어컵을 감싸 일부 손가락이 가려짐; 왼손은 하단 크롭 밖, 팔은 이어짐",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "어깨와 목선, 옆구리 노출"
+    }
+  },
+  "casual9": {
+    "identity": "기준 단발과 눈·얼굴 비율 유지",
+    "scene": "해변 바닥에 앉아 무릎을 세우고 오른손으로 턱을 받침",
+    "outfit": "노란 홀터 상의와 드레이프 바지",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "왼손 바닥 지지 손가락 5개; 오른손은 뺨과 머리카락에 일부 가려짐",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "어깨와 복부 노출"
+    }
+  },
+  "similarity": "casual-look passed; no near duplicate"
+}
