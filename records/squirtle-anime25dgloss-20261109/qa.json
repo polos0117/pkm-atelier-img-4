@@ -1,0 +1,185 @@
+{
+ "tool": "built-in image_gen",
+ "user_constraint": "Do not regenerate an already generated image for exposure censorship.",
+ "regenerations_for_exposure": 0,
+ "slots": {
+  "light": {
+   "accepted": true,
+   "observation": "Blue-haired armored woman over water, shell shoulder mantle, cream breastplate and floating waist/ankle rings.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Five fingers on raised left palm; lowered right hand curls with thumb and folded fingers, some occluded. Both arms connected.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Nose and cheek gradients, layered bob strands, reflective ceramic armor and glossy thigh highlights."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Deep neckline and upper thighs exposed; torso and limbs otherwise plated."
+   },
+   "deviations": []
+  },
+  "casual2": {
+   "accepted": true,
+   "observation": "Wine lace lingerie and open silk robe against a grocery aisle wall; one arm hangs beside body, other hand near shoulder.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Hanging hand has five digits with natural thumb; upper hand has folded/overlapping fingers at collarbone.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft face gradients and glossy limbs; silk robe folds and dense lace pattern."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Strapless neckline, shoulders and upper legs exposed."
+   },
+   "deviations": [
+    "Body turns toward camera more than planned rear-three-quarter."
+   ]
+  },
+  "casual3": {
+   "accepted": true,
+   "observation": "Seated coral jacket/blouse/skirt in bright appliance showroom; holds a Poké Ball and looks sternly aside.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Ball grip has fingers curved around sphere, thumb partly hidden; knee hand shows five digits.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Blended facial shading, glossy knee highlights, fabric seams and jacket folds."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Deep neckline and bare midriff visible; legs below skirt visible."
+   },
+   "deviations": []
+  },
+  "casual4": {
+   "accepted": true,
+   "observation": "Cream maid costume in marble hammam; head turned back toward camera, ankles crossed, bows and apron rendered.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Near hand hangs at hip with fingers partly stacked; far hand/forearm occluded behind torso.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Face cheek/nose gradients, shiny satin folds, fine short blue hair."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Bare back, shoulders and upper thighs visible."
+   },
+   "deviations": [
+    "Pose is rear-three-quarter rather than planned front-three-quarter; ivory costume retained."
+   ]
+  },
+  "casual6": {
+   "accepted": true,
+   "observation": "Close portrait in neon bar, blue Squirtle costume with fabric hood and shell backpack; arms folded across torso, small smile.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "One hand rests on opposite upper arm: four fingertips and partly hidden thumb; opposite hand occluded beneath folded forearm. Forearms visibly connect at elbows.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Nose and cheek gradients, layered blue hair, shiny stitched synthetic costume fabric."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders, neckline and side waist opening exposed within crop."
+   },
+   "deviations": [
+    "Costume includes panel seams and cuffs recalling armor, but reads as fabric bodysuit with hood."
+   ]
+  },
+  "casual7": {
+   "accepted": true,
+   "observation": "Bridal lace and veil close portrait in bright tiled bathroom; calm face turned to frame right; shell hair accessory.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Both hands outside close portrait crop; two upper arms enter lower edge naturally.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft face shadow at nose/chin, carefully drawn blue hair strands, rendered lace and shoulder highlights."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulders and neckline visible; lower outfit outside crop."
+   },
+   "deviations": []
+  },
+  "casual5": {
+   "accepted": true,
+   "observation": "Crouched close portrait on a sunlit Pokémon route; silver swimsuit under grey terry spa robe, head turned toward camera, hand holds robe collar.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Collar hand has index above edge, three curled fingers and thumb partly hidden; opposite arm mostly behind robe and outside crop.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft cheek and nose gradients, detailed blue bob strands and textured terry robe with stitched trim."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Shoulder, neckline and part of upper thigh visible; robe remains open."
+   },
+   "deviations": [
+    "Shell backpack accessory remains large behind shoulder."
+   ]
+  },
+  "casual1": {
+   "accepted": true,
+   "observation": "Seated on a stone edge at outdoor theatre, sage one-shoulder wrap swimsuit with open leaf-pattern yukata; both hands brace beside hips, knees together.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Each bracing hand has thumb and four fingers, naturally spread on stone. Both forearms join wrists and upper arms under loose sleeves.",
+    "overlay_checked": false,
+    "note": "Visible limb chains inspected at original resolution; occluded portions are recorded rather than inferred."
+   },
+   "style_25d": {
+    "verdict": "anime_25d_gloss",
+    "evidence": "Soft face/nose gradients, layered blue hair, dimensional swimsuit draping and patterned yukata folds with glossy limb highlights."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "Bare shoulders, deep neckline and thighs visible; abdomen covered by one-piece swimsuit."
+   },
+   "deviations": [
+    "Final successful scene uses a one-piece swimsuit under yukata; preceding unavailable bikini outputs are documented separately."
+   ]
+  }
+ }
+}
