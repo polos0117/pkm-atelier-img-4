@@ -1,0 +1,145 @@
+{
+  "card": "캐터피",
+  "style": "anime_25d",
+  "anatomy_tool": "unavailable: No module named mediapipe",
+  "review": "Full-resolution images and hand detail crops; no exposure-based regeneration",
+  "comparison": "Within-set visual comparison; latest 12 characters UI metadata only, historical visual comparison not performed",
+  "slots": {
+    "light": {
+      "style_25d": {
+        "판정": "anime_25d",
+        "근거": "코·볼·입술에 부드러운 명암, 가는 선, 가닥별 머리와 직물·금속 소재에 입체적인 그라데이션."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "전신; 양팔·양다리 연결 확인. 펼친 손 다섯 손가락, 반대 느슨한 주먹은 접힌 손가락 겹침. 부츠와 다리 연결. 장식·날개 일부 테두리 걸림.",
+        "overlay_checked": false,
+        "hand_crops_checked": true,
+        "note": "가려지거나 크롭 밖인 부위는 직접 셀 수 없음"
+      },
+      "identity": "녹색 단발·황록색 눈·둥근 짧은 턱 유지",
+      "observed": "전신; 양팔·양다리 연결 확인. 펼친 손 다섯 손가락, 반대 느슨한 주먹은 접힌 손가락 겹침. 부츠와 다리 연결. 장식·날개 일부 테두리 걸림."
+    },
+    "casual1": {
+      "style_25d": {
+        "판정": "anime_25d",
+        "근거": "코·볼·입술에 부드러운 명암, 가는 선, 가닥별 머리와 직물·금속 소재에 입체적인 그라데이션."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "휴대폰 손의 네 손가락과 반대편에 가려진 엄지. 내려간 손 다섯 손가락 느슨하게 굽음. 양팔·다리 연결.",
+        "overlay_checked": false,
+        "hand_crops_checked": true,
+        "note": "가려지거나 크롭 밖인 부위는 직접 셀 수 없음"
+      },
+      "identity": "녹색 단발·황록색 눈·둥근 짧은 턱 유지",
+      "observed": "휴대폰 손의 네 손가락과 반대편에 가려진 엄지. 내려간 손 다섯 손가락 느슨하게 굽음. 양팔·다리 연결."
+    },
+    "casual2": {
+      "style_25d": {
+        "판정": "anime_25d",
+        "근거": "코·볼·입술에 부드러운 명암, 가는 선, 가닥별 머리와 직물·금속 소재에 입체적인 그라데이션."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "빗을 든 장갑 손의 검지·접힌 손가락, 엄지는 손잡이에 일부 가림. 소매 속 팔꿈치·손목 연결. 다른 손·다리는 크롭 밖.",
+        "overlay_checked": false,
+        "hand_crops_checked": true,
+        "note": "가려지거나 크롭 밖인 부위는 직접 셀 수 없음"
+      },
+      "identity": "녹색 단발·황록색 눈·둥근 짧은 턱 유지",
+      "observed": "빗을 든 장갑 손의 검지·접힌 손가락, 엄지는 손잡이에 일부 가림. 소매 속 팔꿈치·손목 연결. 다른 손·다리는 크롭 밖."
+    },
+    "casual3": {
+      "style_25d": {
+        "판정": "anime_25d",
+        "근거": "코·볼·입술에 부드러운 명암, 가는 선, 가닥별 머리와 직물·금속 소재에 입체적인 그라데이션."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "흔드는 손 다섯 손가락 분리. 내려간 손 네 손가락과 접힌 엄지. 양팔과 두 다리 연결. 양궁장 표적·레이스 실루엣.",
+        "overlay_checked": false,
+        "hand_crops_checked": true,
+        "note": "가려지거나 크롭 밖인 부위는 직접 셀 수 없음"
+      },
+      "identity": "녹색 단발·황록색 눈·둥근 짧은 턱 유지",
+      "observed": "흔드는 손 다섯 손가락 분리. 내려간 손 네 손가락과 접힌 엄지. 양팔과 두 다리 연결. 양궁장 표적·레이스 실루엣."
+    },
+    "casual4": {
+      "style_25d": {
+        "판정": "anime_25d",
+        "근거": "코·볼·입술에 부드러운 명암, 가는 선, 가닥별 머리와 직물·금속 소재에 입체적인 그라데이션."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손의 네 손가락이 컵 앞면을 감싸고 엄지는 뒤에 가려짐. 양손목·팔꿈치·어깨 연결. 다리 크롭 밖.",
+        "overlay_checked": false,
+        "hand_crops_checked": true,
+        "note": "가려지거나 크롭 밖인 부위는 직접 셀 수 없음"
+      },
+      "identity": "녹색 단발·황록색 눈·둥근 짧은 턱 유지",
+      "observed": "양손의 네 손가락이 컵 앞면을 감싸고 엄지는 뒤에 가려짐. 양손목·팔꿈치·어깨 연결. 다리 크롭 밖."
+    },
+    "casual5": {
+      "style_25d": {
+        "판정": "anime_25d",
+        "근거": "코·볼·입술에 부드러운 명암, 가는 선, 가닥별 머리와 직물·금속 소재에 입체적인 그라데이션."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "뺨에 댄 손 다섯 손가락: 둘은 뺨·셋은 굽음. 손목과 소매 연결. 다른 손·다리 크롭 밖.",
+        "overlay_checked": false,
+        "hand_crops_checked": true,
+        "note": "가려지거나 크롭 밖인 부위는 직접 셀 수 없음"
+      },
+      "identity": "녹색 단발·황록색 눈·둥근 짧은 턱 유지",
+      "observed": "뺨에 댄 손 다섯 손가락: 둘은 뺨·셋은 굽음. 손목과 소매 연결. 다른 손·다리 크롭 밖."
+    },
+    "casual6": {
+      "style_25d": {
+        "판정": "anime_25d",
+        "근거": "코·볼·입술에 부드러운 명암, 가는 선, 가닥별 머리와 직물·금속 소재에 입체적인 그라데이션."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "이브이 머리를 만지는 손 네 손가락과 옆 엄지, 무릎의 손 다섯 손가락. 양팔 연결. 무릎 꿇은 다리 긴 치마 아래 가림. 이브이 한 마리.",
+        "overlay_checked": false,
+        "hand_crops_checked": true,
+        "note": "가려지거나 크롭 밖인 부위는 직접 셀 수 없음"
+      },
+      "identity": "녹색 단발·황록색 눈·둥근 짧은 턱 유지",
+      "observed": "이브이 머리를 만지는 손 네 손가락과 옆 엄지, 무릎의 손 다섯 손가락. 양팔 연결. 무릎 꿇은 다리 긴 치마 아래 가림. 이브이 한 마리."
+    },
+    "casual7": {
+      "style_25d": {
+        "판정": "anime_25d",
+        "근거": "코·볼·입술에 부드러운 명암, 가는 선, 가닥별 머리와 직물·금속 소재에 입체적인 그라데이션."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "입에 댄 검지·엄지·접힌 세 손가락 확인. 손목은 아래로 연결. 다른 손·다리 크롭 밖.",
+        "overlay_checked": false,
+        "hand_crops_checked": true,
+        "note": "가려지거나 크롭 밖인 부위는 직접 셀 수 없음"
+      },
+      "identity": "녹색 단발·황록색 눈·둥근 짧은 턱 유지",
+      "observed": "입에 댄 검지·엄지·접힌 세 손가락 확인. 손목은 아래로 연결. 다른 손·다리 크롭 밖."
+    }
+  }
+}
