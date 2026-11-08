@@ -1,0 +1,37 @@
+{
+  "card": "파이리",
+  "generator": "built-in image_gen",
+  "reference": "파이리_light_anime_25d_gloss_f.webp",
+  "no_exposure_regeneration": true,
+  "casual_look": "passed; no near matches",
+  "cuts": {
+    "casual8": {
+      "style_25d": {
+        "result": "pass",
+        "evidence": "soft face gradients, detailed embroidered black fabric and layered orange hair"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": "one visible forearm connected; other outside crop",
+        "legs": "outside crop",
+        "hands": "right index at lip; remaining fingers folded, partially occluded; no detached hand",
+        "overlay_checked": false
+      },
+      "note": "portrait crop extends below requested collarbones; recorded without regeneration"
+    },
+    "casual9": {
+      "style_25d": {
+        "result": "pass",
+        "evidence": "soft dimensional face, silk folds and hair strands"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two attached hands gripping robe; some fingers occluded by cloth",
+        "overlay_checked": false
+      },
+      "note": "three-quarter frontal body differs from planned away angle; two complete legs and natural wrists; opaque wet pink fabric"
+    }
+  }
+}
