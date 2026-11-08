@@ -1,0 +1,195 @@
+{
+ "card": "리자드",
+ "style": "anime_25d_gloss",
+ "reference": "light",
+ "visual_review": "originals plus enlarged hand/arm crops, actual scene contact sheet",
+ "anatomy_tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3; manual visual inspection only",
+ "no_exposure_regeneration": true,
+ "comparison": {
+  "cards": [
+   "피카츄",
+   "어니부기",
+   "캐터피"
+  ],
+  "basis": "existing local originals viewed together; no other character images copied into worktree",
+  "findings": "Different game-console balcony full-body, lodge letter-reading, runway prone, showroom V-sign and sauna crossing legs. Some face and upper-body crops recur; recorded without claiming every composition is unique."
+ },
+ "slots": {
+  "light": {
+   "observed": "붉은 포니테일·붉은 하드서피스 장갑·화염 구체. 양팔과 양다리 연결. 한 손은 펼치고 다른 손은 주먹이라 손가락 부분 가림.",
+   "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·볼·입술·턱에 부드러운 그라데이션, 가는 색 윤곽, 머리 가닥 하이라이트. 피부 한두 단 셀 그림자가 아님."
+   },
+   "exposure": {
+    "判定": "match_or_preserved",
+    "근거": "가슴 창과 위 허벅지 노출."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": "two where within frame; see observed occlusions",
+    "legs": "two where within frame; otherwise cropped",
+    "hands": "붉은 포니테일·붉은 하드서피스 장갑·화염 구체. 양팔과 양다리 연결. 한 손은 펼치고 다른 손은 주먹이라 손가락 부분 가림.",
+    "overlay_checked": false,
+    "manual_crops_checked": true,
+    "note": "손가락이 겹치거나 소품에 가려진 곳은 전체 다섯 개를 확인했다고 단정하지 않음."
+   },
+   "original_sha256": "5f610eb18cfe0f2ad49e6617f710c6e8a585eb6266adfa9b0ef4f2ba4cc2ef09",
+   "webp_sha256": "b58889aa14d6c9d91b5972a21014c6e1e74e1dd91338796fd8869b83c9e86078"
+  },
+  "casual1": {
+   "observed": "촛불 연회장 배경, 손을 뺨에 댐. 손목·아래팔이 이어지며 손가락 일부는 머리카락·얼굴에 가림. 반대 손·다리는 크롭.",
+   "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·볼·입술·턱에 부드러운 그라데이션, 가는 색 윤곽, 머리 가닥 하이라이트. 피부 한두 단 셀 그림자가 아님."
+   },
+   "exposure": {
+    "判定": "match_or_preserved",
+    "근거": "올리브색 실크 로브와 슬립의 어깨·목선 노출."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": "two where within frame; see observed occlusions",
+    "legs": "two where within frame; otherwise cropped",
+    "hands": "촛불 연회장 배경, 손을 뺨에 댐. 손목·아래팔이 이어지며 손가락 일부는 머리카락·얼굴에 가림. 반대 손·다리는 크롭.",
+    "overlay_checked": false,
+    "manual_crops_checked": true,
+    "note": "손가락이 겹치거나 소품에 가려진 곳은 전체 다섯 개를 확인했다고 단정하지 않음."
+   },
+   "original_sha256": "d1dd368e692f858009d871132c5df0a7c2fb129160cd5e0ac892b30a7fb88bd1",
+   "webp_sha256": "299c2af3d6cec0e47b49c3e8a0a0b7945c7af7d0c7bd5553325f1586438e20f4"
+  },
+  "casual2": {
+   "observed": "가전 디자인 쇼룸에서 V 사인을 든 손. 검지·중지 두 개, 접힌 두 손가락과 엄지가 보임. 손목은 소매에서 이어짐. 반대 팔·다리는 프레임 밖.",
+   "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·볼·입술·턱에 부드러운 그라데이션, 가는 색 윤곽, 머리 가닥 하이라이트. 피부 한두 단 셀 그림자가 아님."
+   },
+   "exposure": {
+    "判定": "match_or_preserved",
+    "근거": "회색 코트와 니트 목도리, 안쪽 상의 목선이 보임."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": "two where within frame; see observed occlusions",
+    "legs": "two where within frame; otherwise cropped",
+    "hands": "가전 디자인 쇼룸에서 V 사인을 든 손. 검지·중지 두 개, 접힌 두 손가락과 엄지가 보임. 손목은 소매에서 이어짐. 반대 팔·다리는 프레임 밖.",
+    "overlay_checked": false,
+    "manual_crops_checked": true,
+    "note": "손가락이 겹치거나 소품에 가려진 곳은 전체 다섯 개를 확인했다고 단정하지 않음."
+   },
+   "original_sha256": "345b3ba6e0c8df4dbd762f569503bdc3e0d9fe38f0bff2c191e0a36ee784a335",
+   "webp_sha256": "0dfd1ee3d54632bec56c59a684a1fea5e959542bdc1b76fd192cf0a9281eea0c"
+  },
+  "casual3": {
+   "observed": "목조 사우나·냉탕 가장자리에 앉아 두 손을 받침. 팔은 어깨에서 손까지 연결, 손가락 일부는 바닥 면에 겹침. 교차한 양다리와 발 두 개가 보임.",
+   "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·볼·입술·턱에 부드러운 그라데이션, 가는 색 윤곽, 머리 가닥 하이라이트. 피부 한두 단 셀 그림자가 아님."
+   },
+   "exposure": {
+    "判定": "match_or_preserved",
+    "근거": "검은 수영복과 열린 스파 로브. 어깨·다리 노출."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": "two where within frame; see observed occlusions",
+    "legs": "two where within frame; otherwise cropped",
+    "hands": "목조 사우나·냉탕 가장자리에 앉아 두 손을 받침. 팔은 어깨에서 손까지 연결, 손가락 일부는 바닥 면에 겹침. 교차한 양다리와 발 두 개가 보임.",
+    "overlay_checked": false,
+    "manual_crops_checked": true,
+    "note": "손가락이 겹치거나 소품에 가려진 곳은 전체 다섯 개를 확인했다고 단정하지 않음."
+   },
+   "original_sha256": "7f63cf60a1c40cd67816b1e5c2fb51e09c42c16a6ae51e3e74fe0bff8b223a8b",
+   "webp_sha256": "22792b16fcce011b70e6fdc2c79aa7da99d4411655aac73f9f2cd50d2e5ac2da"
+  },
+  "casual4": {
+   "observed": "노을 발코니에서 양반다리로 앉음. 두 장갑 손의 손가락은 무릎 앞에 나란히 놓이며 엄지 일부는 손등에 가려짐. 계획의 등쪽 3/4 대신 정면 3/4로 출력.",
+   "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·볼·입술·턱에 부드러운 그라데이션, 가는 색 윤곽, 머리 가닥 하이라이트. 피부 한두 단 셀 그림자가 아님."
+   },
+   "exposure": {
+    "判定": "match_or_preserved",
+    "근거": "붉은 리자드 후드·크롭 의상과 장식 꼬리. 원작 모티프 코스튬. 노출은 그대로 보존."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": "two where within frame; see observed occlusions",
+    "legs": "two where within frame; otherwise cropped",
+    "hands": "노을 발코니에서 양반다리로 앉음. 두 장갑 손의 손가락은 무릎 앞에 나란히 놓이며 엄지 일부는 손등에 가려짐. 계획의 등쪽 3/4 대신 정면 3/4로 출력.",
+    "overlay_checked": false,
+    "manual_crops_checked": true,
+    "note": "손가락이 겹치거나 소품에 가려진 곳은 전체 다섯 개를 확인했다고 단정하지 않음."
+   },
+   "original_sha256": "428b6ca8e118ebf40fb6d35f218c70e07f4ed9da9890d52312e27674904a9595",
+   "webp_sha256": "63a16d332861537c54a7d807399d261572d1484eeb14d2992dd3162fff3ea941"
+  },
+  "casual5": {
+   "observed": "런웨이 배경, 노란 열린 셔츠와 새틴 란제리 상체 컷. 두 팔은 아래 크롭으로 이어지며 손·다리는 프레임 밖.",
+   "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·볼·입술·턱에 부드러운 그라데이션, 가는 색 윤곽, 머리 가닥 하이라이트. 피부 한두 단 셀 그림자가 아님."
+   },
+   "exposure": {
+    "判定": "match_or_preserved",
+    "근거": "어깨·가슴 목선 노출, 셔츠는 열려 있음."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": "two where within frame; see observed occlusions",
+    "legs": "two where within frame; otherwise cropped",
+    "hands": "런웨이 배경, 노란 열린 셔츠와 새틴 란제리 상체 컷. 두 팔은 아래 크롭으로 이어지며 손·다리는 프레임 밖.",
+    "overlay_checked": false,
+    "manual_crops_checked": true,
+    "note": "손가락이 겹치거나 소품에 가려진 곳은 전체 다섯 개를 확인했다고 단정하지 않음."
+   },
+   "original_sha256": "f136830ba6c0451de508009f902e781ee3d8df799bb4f2978a75527800465025",
+   "webp_sha256": "deb54976cca3827b6c512009ea8fd290cdb2c8ad5c9d73bea2b161b5c7d44cfb"
+  },
+  "casual6": {
+   "observed": "카페의 행사 스태프 베스트·목걸이 명찰. 두 팔은 탁자 앞으로 연결되며 손은 하단 프레임 밖. 얼굴은 턱을 살짝 든 미소.",
+   "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·볼·입술·턱에 부드러운 그라데이션, 가는 색 윤곽, 머리 가닥 하이라이트. 피부 한두 단 셀 그림자가 아님."
+   },
+   "exposure": {
+    "判定": "match_or_preserved",
+    "근거": "카멜색 베스트의 파인 목선과 어깨 노출."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": "two where within frame; see observed occlusions",
+    "legs": "two where within frame; otherwise cropped",
+    "hands": "카페의 행사 스태프 베스트·목걸이 명찰. 두 팔은 탁자 앞으로 연결되며 손은 하단 프레임 밖. 얼굴은 턱을 살짝 든 미소.",
+    "overlay_checked": false,
+    "manual_crops_checked": true,
+    "note": "손가락이 겹치거나 소품에 가려진 곳은 전체 다섯 개를 확인했다고 단정하지 않음."
+   },
+   "original_sha256": "de9cc39e39c1a93b15d417d6251dbb5e80122d2ff5502f88511ffd3188ccbaae",
+   "webp_sha256": "c58cba1d78ae3264630b4ec47cfbb50da268a28ad154d7ebff8e8387757ca999"
+  },
+  "casual7": {
+   "observed": "네온 파우더룸에 앉아 한 손을 턱 가까이 둠. 손목·아래팔이 팔꿈치와 연결되고, 반대 아래팔은 화면 아래로 이어짐. 손가락 일부는 겹쳐 가림.",
+   "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·볼·입술·턱에 부드러운 그라데이션, 가는 색 윤곽, 머리 가닥 하이라이트. 피부 한두 단 셀 그림자가 아님."
+   },
+   "exposure": {
+    "判定": "match_or_preserved",
+    "근거": "low 설정으로 받은 첫 접근 가능한 결과. 분홍 홀터 비키니의 원래 의상 구조는 남음. 반환된 결과는 재생성하지 않음."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": "two where within frame; see observed occlusions",
+    "legs": "two where within frame; otherwise cropped",
+    "hands": "네온 파우더룸에 앉아 한 손을 턱 가까이 둠. 손목·아래팔이 팔꿈치와 연결되고, 반대 아래팔은 화면 아래로 이어짐. 손가락 일부는 겹쳐 가림.",
+    "overlay_checked": false,
+    "manual_crops_checked": true,
+    "note": "손가락이 겹치거나 소품에 가려진 곳은 전체 다섯 개를 확인했다고 단정하지 않음."
+   },
+   "original_sha256": "03ae4db93a67b25b2d250578b29f516e73c7ba875724b19dd21d0362a5f9b468",
+   "webp_sha256": "3e7db5f638fd9eb44e71fc2ee35f48baf6f0285c7412235e6c9b59a4f0909466"
+  }
+ }
+}
