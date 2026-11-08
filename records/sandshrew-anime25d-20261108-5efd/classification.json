@@ -117,5 +117,22 @@
     "builtin_tool": "image_gen",
     "model_id": "not exposed by tool",
     "quality": "not exposed by tool"
+  },
+  {
+    "slot": "casual7",
+    "source": "/workspace/scratch/5efdb636a15d/upload/01-1000025267.png",
+    "source_format": "JPEG",
+    "source_sha256": "2f2c71daa4583b7583953dc292a865713e271a0e9da08bef66007375eca44ffc",
+    "output": "모래두지_anime_25d_f_casual7.webp",
+    "output_sha256": "fc2cce8b495b612582ce8933ccaef1145a42dfaf8e155dd5533bde38108e9ee4",
+    "size": [
+      1024,
+      1536
+    ],
+    "style": "anime_25d",
+    "style_evidence": "User explicitly approved the attached image for the missing anime_25d casual7 slot.",
+    "provenance": "User-provided finished image; no image generation performed in this upload step.",
+    "external_generation_settings": "unknown; not inferred from the earlier blocked submission",
+    "reference": "Published Sandshrew anime_25d light image used for visual comparison"
   }
 ]

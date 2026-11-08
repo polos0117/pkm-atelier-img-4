@@ -104,11 +104,35 @@
       "evidence": "Golden layered hair, amber eyes and compact oval facial proportions remain recognizable."
     }
   },
-  "skipped": [
+  "previous_attempts": [
     {
       "slot": "casual7",
       "reason": "Image tool output rejected by safety system; no usable image returned. No retry per user instruction.",
       "request_id": "9a878389-5937-4e5b-99ff-b8208ec169ff"
     }
-  ]
+  ],
+  "casual7": {
+    "source": "user-approved attachment",
+    "style_25d": {
+      "verdict": "dimensional anime illustration",
+      "evidence": "Amber eyes, soft cheek and nose gradients, layered golden hair highlights, detailed costume seams and translucent stocking shading."
+    },
+    "identity": {
+      "verdict": "same identity",
+      "evidence": "Golden layered hair, amber eyes, compact oval face and tapered jaw remain consistent with her published mecha image."
+    },
+    "scene": {
+      "verdict": "matches planned scene with minor crop deviation",
+      "evidence": "Moss, ivy and warm lanterns surround a standing figure; one hand rests on the hip and the other tucks hair beside her head. Yellow fitted costume carries ears, tail and claw details. Lower crop falls below the planned above-knee line."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module is not installed; manual visual review",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Hip hand shows four fingers over the hip, thumb partly obscured by guard; hair hand has partly hidden fingers and thumb. Five digits per hand cannot all be independently counted due to occlusion.",
+      "overlay_checked": false,
+      "note": "Both hands join continuously through wrists, forearms and elbows to their matching shoulders. Two legs connect through the hips and extend below the crop. No detached or extra limb is visible."
+    },
+    "decision": "Publish the exact user-approved artwork without regeneration."
+  }
 }
