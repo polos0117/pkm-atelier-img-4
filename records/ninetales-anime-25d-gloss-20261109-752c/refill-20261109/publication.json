@@ -1,0 +1,33 @@
+{
+  "card": "나인테일",
+  "style": "anime_25d_gloss",
+  "new_slots": [
+    "casual8"
+  ],
+  "image_commit": "7fea8614ec68cc79af847744e13e8bfd4620d183",
+  "thumbnail_commit": "53ae995119ae6aab0d5ec6ef4918be89575f04b0",
+  "registry_commit": "9dee6337b7ec439a71b64f1d7a6f9bcb0d9f5cf2",
+  "status": "partial",
+  "registered": {
+    "mecha": 1,
+    "casual": 8,
+    "total": 9
+  },
+  "still_missing": [
+    "casual2"
+  ],
+  "previous_17_images_preserved": true,
+  "verification": {
+    "new_image_hashes": "match",
+    "dimensions": "1024x1536",
+    "thumbnail_paths": "present",
+    "duplicate_check": "pass",
+    "registration_workflow": "success"
+  },
+  "remaining_failure": {
+    "slot": "casual2",
+    "request_id": "588847ad-5bcf-41a7-934a-4d9c1b2c4cec",
+    "code": "moderation_blocked",
+    "output_files": []
+  }
+}
