@@ -1,0 +1,188 @@
+{
+  "tool": "built-in image_gen",
+  "requested_style": "anime_25d_gloss",
+  "exposure_regeneration": false,
+  "review_method": "반환된 1024×1536 원본을 눈으로 확인했다. 가려진 손가락은 보이지 않는다고 기록한다.",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "파랑·분홍 장갑, 나선 흉부 문양, 기계 꼬리와 물방울. 전신과 발끝 여백.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "코와 입술의 부드러운 음영, 광대의 중간톤, 가닥별 머리 하이라이트와 재질의 깊이가 보인다. 진한 셀 그림자 두 단계로만 평면 처리되지 않았다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 팔·두 다리가 연결되며 펼친 손은 다섯 손가락으로 읽힌다. 반대 손은 느슨한 주먹으로 일부 손가락이 겹친다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual1": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "열매 시장 난간, 컵을 든 옆모습, 보라색 팬 칼라 의상.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "컵 손의 손가락은 손잡이와 겹친다. 난간 위 손도 손목에서 이어지며 일부 손가락이 포개진다. 하체는 프레임 밖이다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual2": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "야간 골목 바닥에 앉은 라벤더 이벤트 의상.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "뺨을 받친 손은 손가락을 접어 일부가 가려진다. 바닥 손의 손가락과 두 굽힌 다리의 연결을 확인했다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual3": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "공방 작업대에 기대고 한 다리를 굽힌 수영복·붉은 유카타 장면.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "작업대 위 손은 손가락이 포개져 일부가 가려진다. 반대 팔은 몸과 옷 뒤에 가려진다. 두 다리와 두 발의 연결을 확인했다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual4": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "운동장 배경, 분홍 니트와 스포츠 머리띠, 뺨에 손을 댄 얼굴 중심 컷.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 뺨에서 손가락 일부가 가려진다. 반대 손과 하체는 프레임 밖이다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual5": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "노래방 조명과 올리브색 복고 의상, 한쪽 어깨끈이 내려간 순간.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "인사하는 손 다섯 손가락과 가슴 위 손의 다섯 손가락이 보인다. 두 팔이 자연스럽게 이어지고 하체는 프레임 밖이다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual7": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "성의 돌계단, 은회색 사리풍 차림과 위를 보는 얼굴.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "허리 앞에서 두 손이 겹친다. 위쪽 손은 다섯 손가락이고 아래쪽 손 일부는 포개져 가려진다. 다리는 프레임 밖이다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual8": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "대기실, 발챙이 후드 원피스 코스튬과 나선 문양, 전신.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "책상 위 장갑 손과 후드 가까운 손은 일부 손가락이 접히거나 겹친다. 두 팔·두 다리·두 발이 정상 위치에 연결된다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual9": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "모래언덕을 배경으로 의자에 기대어 쉰다. 베이지 크롭 의상과 브론즈 스코트, 발목 가드.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "아래로 둔 손은 다섯 손가락, 머리 뒤 손은 머리에 가려진다. 굽힌 다리와 편 다리, 두 발이 연결되며 발가락이 보인다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    },
+    "casual6": {
+      "accepted": true,
+      "attempts": 1,
+      "scene_observed": "강물 속 뒤돌아보는 얼굴, 젖은 머리와 코럴색 차림.",
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "메카 기준과 같은 눈·머리 색을 유지하고 코 아래와 입술에 부드러운 음영, 뺨에 연결된 중간톤과 피부 하이라이트가 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "얼굴·어깨 중심 구도여서 두 손과 다리는 물 또는 프레임에 가려진다. 추가 팔다리나 분리된 손이 보이지 않는다.",
+        "overlay_checked": false,
+        "note": "가려지거나 잘린 부분을 포함한 인체의 총 팔다리 수. 보이지 않는 손가락 수는 확정하지 않았다."
+      },
+      "regenerated": false
+    }
+  }
+}
