@@ -1,0 +1,274 @@
+{
+  "reviewer": "gpt",
+  "card": "나인테일",
+  "style": "anime_25d_gloss",
+  "user_request": "미완성 컷 설계 변경 후 재생성해줘",
+  "preserved_existing_images": true,
+  "previous_record": "records/ninetales-anime-25d-gloss-20261109-752c",
+  "slots": {
+    "casual8": {
+      "accepted": true,
+      "image_sha256": "ba18a7664fc218f817c857bc757b0ab20c41351a7246e0afcc0da0c4f0dbb8a4",
+      "observations": "눈이 보이는 현관 창·코트·겨울 부츠 앞, 라벤더·플럼 스키웨어와 머리 위 고글. 금백색 머리·주황 끝·호박색 눈과 좁은 턱이 메카 기준과 이어짐.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "코·뺨·턱에 부드러운 입체 그라데이션, 가는 눈꺼풀·얼굴 윤곽 선, 모발 가닥과 섬유·자수·지퍼의 재질 표현을 확인."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "hands": "보이는 두 어깨와 상완의 연결이 자연스러움. 두 손·다리는 프레임 밖이라 손가락과 다리 계수는 확인 불가.",
+        "overlay_checked": false
+      },
+      "deviations": "얼굴 클로즈업 계획보다 상반신이 넓게 들어옴. 보호 칼라·긴소매는 보이지만 가슴 위쪽에는 계획에 없는 큰 절개가 생김. 이를 기록하고 사용자 지시에 따라 결과를 다시 만들지 않음.",
+      "exposure": {
+        "judgment": "stronger",
+        "basis": "불투명 스키웨어가 몸통을 덮고 윗가슴 절개가 보임. 계획한 fully covered/low보다 노출이 많아 stronger로 기록."
+      },
+      "regenerated_after_return": false
+    }
+  },
+  "failures": [
+    {
+      "slot": "casual2",
+      "code": "moderation_blocked",
+      "moderation_stage": "output",
+      "request_id": "588847ad-5bcf-41a7-934a-4d9c1b2c4cec",
+      "terminal": true,
+      "output_files": [],
+      "attempts_in_redesign": 1,
+      "design": "Field hide, sage-green sweater and full-length trousers, Poké Ball"
+    }
+  ],
+  "duplicate_check": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/752cece430ff/generated_images/exec-c46913aa-a013-4b11-9b2f-26b67505ef38.png",
+        "near": [
+          [
+            "니드킹_anime_25d_gloss_f_casual3.webp",
+            321
+          ],
+          [
+            "푸린_anime_25d_gloss_f_casual9.webp",
+            325
+          ],
+          [
+            "아보크_anime_gloss_f_casual7.webp",
+            329
+          ],
+          [
+            "피카츄_anime_25d_gloss_f_casual4.webp",
+            329
+          ],
+          [
+            "니드런♂_anime_gloss_f_casual4.webp",
+            335
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/752cece430ff/generated_images/exec-6f196678-4d3b-42ef-8c71-a67ac988d095.png",
+        "near": [
+          [
+            "에레키드_glossy_promo_f_casual2.webp",
+            260
+          ],
+          [
+            "다부니_glossy_promo_f_casual3.webp",
+            272
+          ],
+          [
+            "플라제스_glossy_promo_f_casual3.webp",
+            276
+          ],
+          [
+            "마이농_glossy_promo_f_casual1.webp",
+            288
+          ],
+          [
+            "브케인_glossy_promo_f_casual1.webp",
+            288
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 1,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/752cece430ff/generated_images/exec-1dd54db4-45c4-4f3c-8c1c-00c0508f8899.png",
+        "near": [
+          [
+            "고지_anime_25d_gloss_f_casual8.webp",
+            235
+          ],
+          [
+            "지라치_glossy_promo_f_casual2.webp",
+            249
+          ],
+          [
+            "보송송_glossy_promo_f_casual2.webp",
+            254
+          ],
+          [
+            "이상해씨_anime_25d_f_casual3.webp",
+            259
+          ],
+          [
+            "불켜미_glossy_promo_f_casual1.webp",
+            260
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/752cece430ff/generated_images/exec-6a97a69d-9d6c-4d33-a377-57b2b7cb4ef3.png",
+        "near": [
+          [
+            "깨비참_anime_gloss_f_casual1.webp",
+            320
+          ],
+          [
+            "이상해씨_anime_25d_f_casual7.webp",
+            332
+          ],
+          [
+            "휠구_glossy_promo_f_casual1.webp",
+            344
+          ],
+          [
+            "귀뚤뚜기_glossy_promo_f_casual2.webp",
+            346
+          ],
+          [
+            "셀러_glossy_promo_f_casual3.webp",
+            348
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/752cece430ff/generated_images/exec-fedffcb1-fdaf-4164-a7a4-6b22f56ff6a5.png",
+        "near": [
+          [
+            "니드런♀_anime_25d_gloss_f_casual5.webp",
+            307
+          ],
+          [
+            "독침붕_anime_25d_gloss_f_casual9.webp",
+            318
+          ],
+          [
+            "고지_anime_gloss_f_casual7.webp",
+            327
+          ],
+          [
+            "두코_glossy_promo_f_casual1.webp",
+            328
+          ],
+          [
+            "딱충이_anime_25d_gloss_f_casual8.webp",
+            328
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/752cece430ff/generated_images/exec-09389c9d-0f0b-43b4-acd0-6f54d4398a24.png",
+        "near": [
+          [
+            "니드퀸_anime_25d_gloss_f_casual4.webp",
+            291
+          ],
+          [
+            "삐삐_anime_25d_f_casual1.webp",
+            296
+          ],
+          [
+            "꼬모카_glossy_promo_f_casual2.webp",
+            302
+          ],
+          [
+            "삐삐_anime_gloss_f_casual4.webp",
+            307
+          ],
+          [
+            "독침붕_anime_25d_gloss_f_casual2.webp",
+            308
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/752cece430ff/generated_images/exec-17b2b656-4951-4364-9c07-fdaf6a5c9379.png",
+        "near": [
+          [
+            "딱충이_anime_25d_gloss_f_casual2.webp",
+            258
+          ],
+          [
+            "레시라무_glossy_promo_f_casual3.webp",
+            268
+          ],
+          [
+            "주뱃_anime_25d_f_casual5.webp",
+            272
+          ],
+          [
+            "독침붕_anime_25d_gloss_f_casual4.webp",
+            287
+          ],
+          [
+            "깨봉이_glossy_promo_f_casual3.webp",
+            292
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/752cece430ff/generated_images/exec-6c33b78e-ebc3-4560-9e2a-77e3cd47d35c.png",
+        "near": [
+          [
+            "럭키_glossy_promo_f_casual3.webp",
+            258
+          ],
+          [
+            "날쌩마_glossy_promo_f_casual3.webp",
+            259
+          ],
+          [
+            "통통코_glossy_promo_f_casual3.webp",
+            267
+          ],
+          [
+            "야도킹_glossy_promo_f_casual3.webp",
+            269
+          ],
+          [
+            "왕콘치_glossy_promo_f_casual1.webp",
+            273
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "diversity_comparison": "이번 새 결과와 이전에 생성한 같은 캐릭터의 일상컷을 함께 중복 검사함. 새 현관의 회은색 웨딩 초상은 해변 전신·카레 조리·메이드 독서와 의상·동작이 구분됨. 새 스키웨어 초상은 베일을 쓴 수영장 옆얼굴과 달리 고글·칼라·긴소매·설경 현관이 읽힘."
+}
