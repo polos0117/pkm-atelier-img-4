@@ -1,0 +1,668 @@
+{
+  "card": "페르시온",
+  "style": "anime_25d_gloss",
+  "status": "generated_qa_complete_pending_publication",
+  "count": 10,
+  "requested": 10,
+  "generator": "built-in image_gen",
+  "prompt_policy": "prompt-pack output submitted verbatim",
+  "reference_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93",
+  "slots": [
+    {
+      "card": "페르시온",
+      "slot": "light",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-10e8368d-08ac-42e2-8d6a-bd28674a6ce3.png",
+      "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93",
+      "reference": null,
+      "output": {
+        "file": "페르시온_light_anime_25d_gloss_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "145da3a33fb30c58ba69ba427b5f2516c2222be94547d92a3e2fe401ce5f1caa",
+        "shard": 3
+      },
+      "prompt_sha256": "51a7593b01b9f98fa63a567390376537d61dae9d6c3c3bf04a2a3d18bdb2a8ae",
+      "submitted_sha256": "51a7593b01b9f98fa63a567390376537d61dae9d6c3c3bf04a2a3d18bdb2a8ae",
+      "submitted_same": true,
+      "plan": null,
+      "manual_inputs": null,
+      "manual_why": null
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual1",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-c2eb5854-8435-4b7d-9650-fd3a09ff0da8.png",
+      "original_sha256": "77ef598caf0a9204fb22fc5b18b630dd18abd7d0a20402b4b3c43061fbb3333d",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual1.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "92218ef5c0e184244e819f7fe96f02e553193a36d930612adbc9b85fd2809564",
+        "shard": 3
+      },
+      "prompt_sha256": "515a33885dfdbb25b7cbcd56c75ec92ecafe4589155c002701042d3891ce6ee7",
+      "submitted_sha256": "515a33885dfdbb25b7cbcd56c75ec92ecafe4589155c002701042d3891ce6ee7",
+      "submitted_same": true,
+      "plan": {
+        "cut": 1,
+        "treeV": 2,
+        "era": "now",
+        "place": "evening_penthouse",
+        "ofam": "bridal",
+        "item": "slip_wedding",
+        "garments": [
+          "dress",
+          "slip"
+        ],
+        "ocolor": "red",
+        "weather": "",
+        "posture": "stand",
+        "support": "none",
+        "frame": "waist_up",
+        "body": "front",
+        "head": "with_body",
+        "camera": "eye",
+        "right": "thumbs_up",
+        "left": "hip",
+        "use": "",
+        "legs": "",
+        "gaze": "camera",
+        "preset": "thumbs_waist",
+        "expr": "relieved",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "deep V neckline",
+          "backless"
+        ],
+        "lead": "place"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual2",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-8b52ccab-07d9-49ff-919f-4acb0606184f.png",
+      "original_sha256": "65af43802844df70215b79d90da32274b0a49a254aeff5e0930a861ba719d3ca",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual2.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "fd56de6d48e1d632eb354d8edcce72b84bfd0aa6ae879ea2c504d4658250f29c",
+        "shard": 3
+      },
+      "prompt_sha256": "cabc54ebff5c9c7e4ee512c600503c9b3884e0b2e84567d7b1fd7691587dc670",
+      "submitted_sha256": "cabc54ebff5c9c7e4ee512c600503c9b3884e0b2e84567d7b1fd7691587dc670",
+      "submitted_same": true,
+      "plan": {
+        "cut": 2,
+        "treeV": 2,
+        "era": "release",
+        "place": "street_office",
+        "ofam": "swimwear",
+        "item": "",
+        "garments": [
+          "swimsuit"
+        ],
+        "ocolor": "green",
+        "weather": "",
+        "posture": "stand",
+        "support": "none",
+        "frame": "chest_up",
+        "body": "front",
+        "head": "with_body",
+        "camera": "eye",
+        "right": "wave",
+        "left": "chest_hand",
+        "use": "",
+        "legs": "",
+        "gaze": "camera",
+        "preset": "wave_chest",
+        "expr": "cold_smile",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "bare midriff"
+        ],
+        "lead": "action"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual3",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-e47f1170-5d34-4c3d-810c-0e296d12ef37.png",
+      "original_sha256": "6154745a42238d42f7314f06055e5f8d9ae936679446163d09facdb9d854b834",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual3.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "b610d9f18147d818cbe7fc4ef1b859545348f185f69d20ea6f37a12fddaecf1d",
+        "shard": 3
+      },
+      "prompt_sha256": "79c1cc65ccd8c68cb3849c4b442995524ebee67e1e4b6fec337368a6f9da063c",
+      "submitted_sha256": "79c1cc65ccd8c68cb3849c4b442995524ebee67e1e4b6fec337368a6f9da063c",
+      "submitted_same": true,
+      "plan": {
+        "cut": 3,
+        "treeV": 2,
+        "era": "now",
+        "place": "stage_convention",
+        "ofam": "roleplay",
+        "item": "casino_dealer",
+        "garments": [
+          "vest"
+        ],
+        "ocolor": "grey",
+        "weather": "",
+        "posture": "walk",
+        "support": "none",
+        "frame": "waist_up",
+        "body": "rear_3q",
+        "head": "tilt",
+        "camera": "high",
+        "right": "",
+        "left": "",
+        "use": "",
+        "legs": "",
+        "gaze": "window",
+        "preset": "",
+        "expr": "wink",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "sweetheart neckline",
+          "mini length"
+        ],
+        "lead": "light"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual4",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-360b8dbb-e1a8-4cf0-98ce-3ef223ac26af.png",
+      "original_sha256": "a4d8bfd0ccff6e40573d26676019edf7658eeb4f676939a7c712750e402dc1cf",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual4.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "f32d5c9a0e27d82d62df65884cb3a200d18fbb35b90ecabae895fdb8a0d4c423",
+        "shard": 3
+      },
+      "prompt_sha256": "0d826c7dfca1933586bc207ed00e2d3665170c47ffbfeba03e10a7b9ed169744",
+      "submitted_sha256": "0d826c7dfca1933586bc207ed00e2d3665170c47ffbfeba03e10a7b9ed169744",
+      "submitted_same": true,
+      "plan": {
+        "cut": 4,
+        "treeV": 2,
+        "era": "in_pokemon",
+        "place": "pw_market",
+        "ofam": "work",
+        "item": "keeper_overalls",
+        "garments": [
+          "overalls",
+          "tank"
+        ],
+        "ocolor": "ivory",
+        "weather": "",
+        "posture": "lean_rail",
+        "support": "none",
+        "frame": "three_quarter",
+        "body": "front",
+        "head": "over_shoulder",
+        "camera": "eye",
+        "right": "",
+        "left": "",
+        "use": "",
+        "legs": "stand_relaxed",
+        "gaze": "window",
+        "preset": "",
+        "expr": "smug",
+        "aspect": "2:3",
+        "situ": "undone",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "deep V neckline",
+          "one-shoulder cut"
+        ],
+        "lead": "detail"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual5",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-00239b07-dd84-48f7-af83-b9b234166266.png",
+      "original_sha256": "0ab55e41e854a433f7168242b833f81529c77a052d2191bfa6847dff4368cb59",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual5.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "dd9c915a617349072fd10b2fbe4e2fc352e0e83c71a231227b9043cc21365cf0",
+        "shard": 3
+      },
+      "prompt_sha256": "d3c41399eadf3af4fb5cb2a55c50a201cd7b0489794251d5a42a411504b6c439",
+      "submitted_sha256": "d3c41399eadf3af4fb5cb2a55c50a201cd7b0489794251d5a42a411504b6c439",
+      "submitted_same": true,
+      "plan": {
+        "cut": 5,
+        "treeV": 2,
+        "era": "in_pokemon",
+        "place": "work_atelier",
+        "ofam": "lingerie",
+        "item": "silk_pajama",
+        "garments": [
+          "shirt",
+          "shorts",
+          "tank"
+        ],
+        "ocolor": "brown",
+        "weather": "",
+        "posture": "lean_wall",
+        "support": "back_wall",
+        "frame": "three_quarter",
+        "body": "side",
+        "head": "tilt",
+        "camera": "eye",
+        "right": "",
+        "left": "",
+        "use": "",
+        "legs": "stand_relaxed",
+        "gaze": "screen_right",
+        "preset": "",
+        "expr": "sleepy",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "plunging neckline",
+          "cropped hem"
+        ],
+        "lead": "action"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual6",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-7758e9bb-d9db-4129-a951-cd7753790c87.png",
+      "original_sha256": "8c306677300a1a08e58b5f8340f4dce1b747f3e257fce8c4045c8a1f323a73d3",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual6.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "ee1ee1bba98f5b20fac3dc57be6c8386a919ad44adc227fa3cf7d90937177d67",
+        "shard": 3
+      },
+      "prompt_sha256": "e9a6d0d834b3fa22486ab232ac76d9ed5b02578f8b8b25a36063cbf933180878",
+      "submitted_sha256": "e9a6d0d834b3fa22486ab232ac76d9ed5b02578f8b8b25a36063cbf933180878",
+      "submitted_same": true,
+      "plan": {
+        "cut": 6,
+        "treeV": 2,
+        "era": "fantasy",
+        "place": "fx_studio",
+        "ofam": "pokemon_costume",
+        "item": "pc_mini_dress",
+        "garments": [
+          "dress"
+        ],
+        "ocolor": "",
+        "weather": "",
+        "posture": "lean_wall",
+        "support": "back_wall",
+        "frame": "chest_up",
+        "body": "front_3q",
+        "head": "with_body",
+        "camera": "eye",
+        "right": "arms_crossed",
+        "left": "arms_crossed",
+        "use": "",
+        "legs": "",
+        "gaze": "camera",
+        "preset": "crossed_wall",
+        "expr": "confident",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "sweetheart neckline",
+          "halter neck"
+        ],
+        "lead": "place"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual7",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-a58b63d9-b64a-46e0-b2a4-10a578c617a9.png",
+      "original_sha256": "d3510cd2217e8afc4595e040cd5bbae129aec46be56bfbddb8cf6e21dfb8efa0",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual7.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "a4df323e14107c916b9c5271035d28cbe0b1ed6a6e569f852c4cc7bb26dd04e8",
+        "shard": 3
+      },
+      "prompt_sha256": "ac3561012090ea3958756d7a311be9dfbb00e15e6cf1af62655044ca6279d973",
+      "submitted_sha256": "ac3561012090ea3958756d7a311be9dfbb00e15e6cf1af62655044ca6279d973",
+      "submitted_same": true,
+      "plan": {
+        "cut": 7,
+        "treeV": 2,
+        "era": "now",
+        "place": "boardgame_lounge",
+        "ofam": "traditional",
+        "item": "",
+        "garments": [
+          "blouse"
+        ],
+        "ocolor": "teal",
+        "weather": "",
+        "posture": "kneel",
+        "support": "none",
+        "frame": "face_close",
+        "body": "front_3q",
+        "head": "over_shoulder",
+        "camera": "eye",
+        "right": "",
+        "left": "",
+        "use": "",
+        "legs": "",
+        "gaze": "screen_left",
+        "preset": "",
+        "expr": "laughing",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "deep V neckline",
+          "strapless top"
+        ],
+        "lead": "detail"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual8",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-95efcf06-f0a9-4579-9233-55f7a9c153cb.png",
+      "original_sha256": "3a5d507585add1ea311bd34c375d0e829ed40ca909b56dc7b09b98e559151396",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual8.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "b004b596bdc226e995a794a9bab967db22b24a248330ed4400400b96d6e79d1e",
+        "shard": 3
+      },
+      "prompt_sha256": "e618c04bbefa0e08e2d89e175918430d7b8c92268527c4bfd96ccc23b9b4a0b9",
+      "submitted_sha256": "e618c04bbefa0e08e2d89e175918430d7b8c92268527c4bfd96ccc23b9b4a0b9",
+      "submitted_same": true,
+      "plan": {
+        "cut": 8,
+        "treeV": 2,
+        "era": "release",
+        "place": "sports_range",
+        "ofam": "homewear",
+        "item": "robe_morning",
+        "garments": [
+          "robe"
+        ],
+        "ocolor": "",
+        "weather": "",
+        "posture": "lean_rail",
+        "support": "none",
+        "frame": "full_body",
+        "body": "front",
+        "head": "over_shoulder",
+        "camera": "low",
+        "right": "",
+        "left": "",
+        "use": "",
+        "legs": "contrapposto",
+        "gaze": "",
+        "preset": "",
+        "expr": "half_smile",
+        "aspect": "2:3",
+        "situ": "",
+        "ofree": true,
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "high thigh slit"
+        ],
+        "lead": "light"
+      },
+      "manual_inputs": {
+        "outfit": "a dove-grey fitted sleeveless zip-front gilet with a sculpted sweetheart inner neckline and detachable asymmetric peplum over pleated running skorts"
+      },
+      "manual_why": {
+        "outfit": "옷 자유 컷: outfit-catalog.md의 기존 의상과 겹치지 않는 새 재단을 장면에 맞춰 설계."
+      }
+    },
+    {
+      "card": "페르시온",
+      "slot": "casual9",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-5be0eb29-efa3-46a0-9f9e-16e37572d89c.png",
+      "original_sha256": "9a2fc76de90b5dab45fff4ede73ae143fbe1f6a1f7653f7164bc5c296943f593",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "d168446bd5f456ab5e91a64c796e73914cf6927bf7adc0a432ec2cfea4a6cf93"
+      },
+      "output": {
+        "file": "페르시온_anime_25d_gloss_f_casual9.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "759fdd64b25c62d101dd21987e3dcb2c4a3e1ff26f1c56434724054c3aaacda3",
+        "shard": 3
+      },
+      "prompt_sha256": "21d2d475a9c1b3e01510f18e7cde1fa6206c21c5c134cebac87076f5a3571a9b",
+      "submitted_sha256": "21d2d475a9c1b3e01510f18e7cde1fa6206c21c5c134cebac87076f5a3571a9b",
+      "submitted_same": true,
+      "plan": {
+        "cut": 9,
+        "treeV": 2,
+        "era": "now",
+        "place": "travel_lookout",
+        "ofam": "bath",
+        "item": "spa_robe",
+        "garments": [
+          "robe"
+        ],
+        "ocolor": "",
+        "weather": "",
+        "posture": "stand",
+        "support": "none",
+        "frame": "full_body",
+        "body": "rear_3q",
+        "head": "with_body",
+        "camera": "low",
+        "right": "",
+        "left": "",
+        "use": "",
+        "legs": "step_forward",
+        "gaze": "screen_right",
+        "preset": "",
+        "expr": "flustered",
+        "aspect": "2:3",
+        "situ": "",
+        "ofree": true,
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "sweetheart neckline",
+          "open back"
+        ],
+        "lead": "light"
+      },
+      "manual_inputs": {
+        "outfit": "a mint quilted wrap playsuit with a sculpted open-back halter neckline, petal-fold shorts and a long detachable wind ribbon tied at one hip"
+      },
+      "manual_why": {
+        "outfit": "옷 자유 컷: outfit-catalog.md의 기존 의상과 겹치지 않는 새 재단을 장면에 맞춰 설계."
+      }
+    }
+  ],
+  "face_design": {
+    "source": "data/face-design.json and generated light-prompt.txt",
+    "reason": "원작 모티프를 표의 종별 얼굴 윤곽과 눈·코·입에 반영. 신규 화풍 세트의 light를 얼굴·머리 정본으로 확정.",
+    "final_face_line": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; narrow eyes, small size, level outer corners, average spacing; long arched brows; small delicate nose; thin lips."
+  },
+  "comparison": {
+    "visual_reference": "existing session /workspace/scratch/c10398a822c2/recent-comparison.jpg",
+    "characters": [
+      "니드리나",
+      "냄새꼬",
+      "나인테일"
+    ],
+    "result": "욕실 책·우산 사무실·가면·카메라·몬스터볼 손질·셀피·열매·사우나·도시락 및 와인 드레스·인사·카드·시장·안장 공방·팔짱·보드게임·양궁장·전망대의 활동/옷/구도 차이를 시각 확인. 머리와 얼굴은 각자 light 기준 유지."
+  }
+}
