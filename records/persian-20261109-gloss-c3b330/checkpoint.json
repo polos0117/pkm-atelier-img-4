@@ -1,7 +1,7 @@
 {
   "card": "페르시온",
   "style": "anime_25d_gloss",
-  "status": "generated_qa_complete_pending_publication",
+  "status": "registered_complete",
   "count": 10,
   "requested": 10,
   "generator": "built-in image_gen",
@@ -657,12 +657,28 @@
     "final_face_line": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; narrow eyes, small size, level outer corners, average spacing; long arched brows; small delicate nose; thin lips."
   },
   "comparison": {
-    "visual_reference": "existing session /workspace/scratch/c10398a822c2/recent-comparison.jpg",
+    "visual_reference": "Existing local WebP casual1–3 of 푸크린/골뱃 (/workspace/scratch/64d23679849e/pkm-atelier-img-4/img) and 라플레시아 (/workspace/scratch/0107ca6291ac/pkm-atelier-img-4/img), verified by filenames and visually compared.",
     "characters": [
-      "니드리나",
-      "냄새꼬",
-      "나인테일"
+      "푸크린",
+      "골뱃",
+      "라플레시아"
     ],
-    "result": "욕실 책·우산 사무실·가면·카메라·몬스터볼 손질·셀피·열매·사우나·도시락 및 와인 드레스·인사·카드·시장·안장 공방·팔짱·보드게임·양궁장·전망대의 활동/옷/구도 차이를 시각 확인. 머리와 얼굴은 각자 light 기준 유지."
+    "result": "욕실 책·우산 사무실·가면·카메라·몬스터볼 손질·셀피·열매·사우나·도시락 및 와인 드레스·인사·카드·시장·안장 공방·팔짱·보드게임·양궁장·전망대의 활동/옷/구도 차이를 시각 확인. 머리와 얼굴은 각자 light 기준 유지.",
+    "note": "라플레시아 casual2와 닥트리오 casual7은 웅크린 자세와 열매 소품이 비슷하지만, 동료에게 건네기 동작·비 오는 현관·인어 코스튬의 장면 조합으로 구분됨. 노출 검열 사유의 재생성은 없음."
+  },
+  "publication": {
+    "image_commit": "1c2357037f36efdc91736d738d7f65abb61ada15",
+    "thumbnail_commits": [
+      "3a7297852124eab9aff72454e276e83121159335",
+      "e6a810865128072603a47e1fe01bb2620b78566d"
+    ],
+    "code_commit": "068ab5095f447fbe1095a5fafc74e6a9b94bede9",
+    "registered_light": 1,
+    "registered_casual": 9,
+    "shard": 3,
+    "thumbnail_workflows": "success",
+    "registration_workflow": 42642372972,
+    "registration_result": "success",
+    "method": "GitHub connection fast-forward update, force=false; CLI push unavailable because credentials were absent"
   }
 }
