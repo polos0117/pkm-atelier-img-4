@@ -1,0 +1,261 @@
+{
+  "card": "성원숭",
+  "requested": 10,
+  "accepted": 10,
+  "generation_calls": 10,
+  "tool": "built-in image_gen",
+  "regenerations": 0,
+  "anatomy_tool": "unavailable: mediapipe missing",
+  "visual_checks": "Original outputs plus whole-set and enlarged hand/limb sheets.",
+  "diversity": {
+    "result": "pass",
+    "comparison_cards": [
+      "골덕",
+      "망키",
+      "고라파덕"
+    ],
+    "evidence": "Compared current published thumbnail samples: orchard ball polishing, yacht towel drying, spa walk, kitchen gesture, lotus-pond maid, laundry swimwear and workshop drawing differ in activity, dress construction and framing. Growlithe adds skating, vanity, telescope, stadium and companion brushing. Same laundry location across this pair retains distinct outfit, pose and framing."
+  },
+  "cuts": [
+    {
+      "slot": "light",
+      "result": "accepted",
+      "observed": "Pink ceramic segmented armor, orange force rings, one open gloved palm and one loose fist; head and both boots within frame.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Open palm has thumb and four spread fingers; opposite glove is a curled fist with folded digits.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Pink ceramic segmented armor, orange force rings, one open gloved palm and one loose fist; head and both boots within frame."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual1",
+      "result": "accepted",
+      "observed": "Side profile in a sunny berry orchard, both hands clean a Poke Ball with a cloth; coral floral wrap billows, one thigh and shoulders visible.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Both hands join naturally at the ball; thumbs and fingers partially hidden by cloth and sphere.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Side profile in a sunny berry orchard, both hands clean a Poke Ball with a cloth; coral floral wrap billows, one thigh and shoulders visible."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual2",
+      "result": "accepted",
+      "observed": "Chest-up yacht portrait, both hands hold a towel above and beside her head; terracotta satin halter outfit, exposed shoulders.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Both towel grips show folded fingers and thumbs; towel obscures contact surfaces.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Chest-up yacht portrait, both hands hold a towel above and beside her head; terracotta satin halter outfit, exposed shoulders."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual3",
+      "result": "accepted",
+      "observed": "Walking barefoot through warm wooden bathhouse, one hand holds shoulder towel and the other hangs relaxed; lavender textured romper.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Raised towel grip has naturally folded digits; lowered hand has thumb and four relaxed fingers.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Walking barefoot through warm wooden bathhouse, one hand holds shoulder towel and the other hangs relaxed; lavender textured romper."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual4",
+      "result": "accepted",
+      "observed": "Kitchen portrait with one index finger at lips and remaining fingers folded; yellow knit off-shoulder neckline, second arm below crop.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "One index extended, other fingers folded under thumb; other hand outside frame.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Kitchen portrait with one index finger at lips and remaining fingers folded; yellow knit off-shoulder neckline, second arm below crop."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual5",
+      "result": "accepted",
+      "observed": "Seated beside moonlit lotus pond, both palms rest on stone; maid costume and boxing gloves placed separately on ledge.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Both hands have five-digit structure, thumbs toward body and four fingers resting on stone.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Seated beside moonlit lotus pond, both palms rest on stone; maid costume and boxing gloves placed separately on ledge."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual6",
+      "result": "accepted",
+      "observed": "Seated on laundry counter in sage two-piece swimwear, one hand on counter and one on thigh; both legs and sandal-clad feet visible.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Counter hand foreshortened with partly occluded fingers; thigh hand has five-digit relaxed structure.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Seated on laundry counter in sage two-piece swimwear, one hand on counter and one on thigh; both legs and sandal-clad feet visible."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual7",
+      "result": "accepted",
+      "observed": "Wedding-room portrait in cream-fur and brown buckled Primeape costume, glove near waist and second arm cropped; long pink ponytail retained.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Gloved fist naturally folded, opposite hand partly outside crop; no disconnected hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Wedding-room portrait in cream-fur and brown buckled Primeape costume, glove near waist and second arm cropped; long pink ponytail retained."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual8",
+      "result": "accepted",
+      "observed": "Workshop sketching, pencil held naturally in one hand, straw held in the other; wine satin lingerie and open red shirt.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Pencil grip has folded ring/little fingers and opposing thumb; straw grip has five-digit structure with partly occluded fingertips.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Workshop sketching, pencil held naturally in one hand, straw held in the other; wine satin lingerie and open red shirt."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual9",
+      "result": "accepted",
+      "observed": "Art-studio close portrait with two extended V-sign fingers, thumb across folded fingers; blue garment and soft scarf; other arm outside crop.",
+      "identity": "Pink-blond high ponytail, narrow hazel eyes and strong brows retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "V sign has index and middle extended, ring and little folded, thumb crossing them; other hand outside crop.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Art-studio close portrait with two extended V-sign fingers, thumb across folded fingers; blue garment and soft scarf; other arm outside crop."
+      },
+      "regenerated": false
+    }
+  ]
+}
