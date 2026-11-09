@@ -1,7 +1,7 @@
 {
   "card": "레트라",
   "reference_sha256": "a69617a4b8b5c31f1b75235ca49827700032ec466dac07807f281d1f09769009",
-  "status": "generated and visually reviewed; publication pending",
+  "status": "published to remote main and registered in data/img.json",
   "images": [
     {
       "card": "레트라",
@@ -317,5 +317,12 @@
         "added": []
       }
     ]
+  },
+  "publication": {
+    "image_commit": "8c8e5ac15c8e3d0001643b2367168c0a21ed866e",
+    "code_registration_commit": "217ba62cef6f5d5da97e770fe037c65f667a5fe8",
+    "method": "GitHub git-data API, force=false and expected parent; git CLI credentials unavailable",
+    "remote_object_verification": "48 source and record objects matched before final QA metadata update",
+    "registered_images": 10
   }
 }

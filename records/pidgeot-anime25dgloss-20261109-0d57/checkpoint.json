@@ -1,7 +1,7 @@
 {
   "card": "피죤투",
   "reference_sha256": "c615c0bf8a1eca6d151b341968aeabe6d4b235c05412f99862dfdd81d9d9cbe8",
-  "status": "generated and visually reviewed; publication pending",
+  "status": "published to remote main and registered in data/img.json",
   "images": [
     {
       "card": "피죤투",
@@ -305,5 +305,12 @@
         "added": []
       }
     ]
+  },
+  "publication": {
+    "image_commit": "8a043f55e6cd6019a27acbc560c6fa7129b1e9fa",
+    "code_registration_commit": "217ba62cef6f5d5da97e770fe037c65f667a5fe8",
+    "method": "GitHub git-data API, force=false and expected parent; git CLI credentials unavailable",
+    "remote_object_verification": "48 source and record objects matched before final QA metadata update",
+    "registered_images": 10
   }
 }
