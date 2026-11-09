@@ -1,0 +1,670 @@
+{
+  "card": "닥트리오",
+  "style": "anime_25d_gloss",
+  "status": "generated_qa_complete_pending_publication",
+  "count": 10,
+  "requested": 10,
+  "generator": "built-in image_gen",
+  "prompt_policy": "prompt-pack output submitted verbatim",
+  "reference_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6",
+  "slots": [
+    {
+      "card": "닥트리오",
+      "slot": "light",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-c20d5fd6-a861-4caa-8107-b857e3be91f1.png",
+      "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6",
+      "reference": null,
+      "output": {
+        "file": "닥트리오_light_anime_25d_gloss_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "1ee04cf9f5d76d9de8614b326ff2c1f943cd43bc0440014e2f5308e9f8193e1a",
+        "shard": 3
+      },
+      "prompt_sha256": "ffbc8bca76f858c8f69b2da2a206e90f024d96bd2f67e122f91f271a4e80d0e6",
+      "submitted_sha256": "ffbc8bca76f858c8f69b2da2a206e90f024d96bd2f67e122f91f271a4e80d0e6",
+      "submitted_same": true,
+      "plan": null,
+      "manual_inputs": null,
+      "manual_why": null
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual1",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-f99dcc55-b0eb-4d2c-983b-5d50d4c47846.png",
+      "original_sha256": "01bdcc55d4434fdbfcb0df3343ffb8f65589a6af2c13bf1bd4eeddfb6f90871f",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual1.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "26d94ca8ea091a296c39acbb74f4fbf61e01137aaa8324d3abe8da03c663809a",
+        "shard": 3
+      },
+      "prompt_sha256": "b2fb1521aa2ab1e30d2ab5fa4aa8468b9507259934c61de8e88e1d690600bab9",
+      "submitted_sha256": "b2fb1521aa2ab1e30d2ab5fa4aa8468b9507259934c61de8e88e1d690600bab9",
+      "submitted_same": true,
+      "plan": {
+        "cut": 1,
+        "treeV": 2,
+        "era": "now",
+        "place": "home_bath",
+        "ofam": "bath",
+        "item": "bath_yukata",
+        "garments": [
+          "traditional"
+        ],
+        "ocolor": "",
+        "weather": "",
+        "posture": "walk",
+        "support": "none",
+        "frame": "three_quarter",
+        "body": "rear_3q",
+        "head": "over_shoulder",
+        "camera": "eye",
+        "right": "prop",
+        "left": "down",
+        "use": "book_hold",
+        "legs": "walk_pause",
+        "gaze": "camera",
+        "preset": "walk_lookback",
+        "expr": "sensual",
+        "aspect": "2:3",
+        "situ": "",
+        "ofree": true,
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "deep V neckline",
+          "cropped hem"
+        ],
+        "lead": "light"
+      },
+      "manual_inputs": {
+        "outfit": "an ivory waffle-knit halter romper with an angular wrap-front neckline, open shoulder blades, softly fitted shorts and a sculpted coral resin clasp at the hip"
+      },
+      "manual_why": {
+        "outfit": "옷 자유 컷: outfit-catalog.md의 기존 의상과 겹치지 않는 새 재단을 장면에 맞춰 설계."
+      }
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual2",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-0bc50c17-546b-458b-a8f6-10098f93bdb3.png",
+      "original_sha256": "2d1fb5d4f4105d24cd7711e3e488ed0443e79040832b78d69bf1d62966b29669",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual2.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "05c788d06018d870ddeab433f17220741c071804ff6d37fcf4f5c1c16ada4ac3",
+        "shard": 3
+      },
+      "prompt_sha256": "2463b6eaa6bf26e80f84d0e296a0773964123d429cfff435b83b7491d047f690",
+      "submitted_sha256": "2463b6eaa6bf26e80f84d0e296a0773964123d429cfff435b83b7491d047f690",
+      "submitted_same": true,
+      "plan": {
+        "cut": 2,
+        "treeV": 2,
+        "era": "now",
+        "place": "street_office",
+        "ofam": "swimwear",
+        "item": "bandeau_bikini",
+        "garments": [
+          "bikini",
+          "crop_top"
+        ],
+        "ocolor": "blue",
+        "weather": "",
+        "posture": "sit_chair",
+        "support": "none",
+        "frame": "environmental",
+        "body": "front",
+        "head": "turn_side",
+        "camera": "eye",
+        "right": "prop",
+        "left": "lap",
+        "use": "umbrella_hold",
+        "legs": "knees_together",
+        "gaze": "screen_left",
+        "preset": "bench_sit",
+        "expr": "amused",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "high-cut leg"
+        ],
+        "lead": "place"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual3",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-b90f33e4-62e7-467f-89e2-b1f3b2f8fcd7.png",
+      "original_sha256": "77d09ce97dd286b023a89c50c9feaa6040f47812a345545b5fb6147290d5d2da",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual3.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "12f89a30a7570b56c13ecb1e87d979472712bf5d99574deef9ac0a37f2b58cf3",
+        "shard": 3
+      },
+      "prompt_sha256": "7bb09f1d0e5dcb9edcd009da2a2ae9ae03cdcdc83423957a7f165102e7a8e1fc",
+      "submitted_sha256": "7bb09f1d0e5dcb9edcd009da2a2ae9ae03cdcdc83423957a7f165102e7a8e1fc",
+      "submitted_same": true,
+      "plan": {
+        "cut": 3,
+        "treeV": 2,
+        "era": "release",
+        "place": "stage_convention",
+        "ofam": "roleplay",
+        "item": "uniform_inspired",
+        "garments": [
+          "uniform"
+        ],
+        "ocolor": "orange",
+        "weather": "",
+        "posture": "stand",
+        "support": "none",
+        "frame": "chest_up",
+        "body": "side",
+        "head": "over_shoulder",
+        "camera": "eye",
+        "right": "prop",
+        "left": "out",
+        "use": "mask_raise",
+        "legs": "",
+        "gaze": "camera",
+        "preset": "lookback_raise",
+        "expr": "soft_smile",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "sweetheart neckline",
+          "bare midriff"
+        ],
+        "lead": "action"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual4",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-5d27d105-e509-4d9c-ae76-2a07d1bbfef0.png",
+      "original_sha256": "b52b7d8e385df9476a7e990a38574e7429c9dd47c629a890421a540a0ace821d",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual4.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "0dc5c4ff4196db188a5d879fe2aadef51048cf0f139fd00d6b01f36cd6356428",
+        "shard": 3
+      },
+      "prompt_sha256": "2f1454201b26da6e9511295c379c3fd8c06a67553664fd69959ab0acceaf9ef2",
+      "submitted_sha256": "2f1454201b26da6e9511295c379c3fd8c06a67553664fd69959ab0acceaf9ef2",
+      "submitted_same": true,
+      "plan": {
+        "cut": 4,
+        "treeV": 2,
+        "era": "fantasy",
+        "place": "fx_studio",
+        "ofam": "pokemon_costume",
+        "item": "pc_corset",
+        "garments": [
+          "lingerie_set",
+          "skirt"
+        ],
+        "ocolor": "",
+        "weather": "",
+        "posture": "sit_chair",
+        "support": "none",
+        "frame": "full_body",
+        "body": "side",
+        "head": "with_body",
+        "camera": "eye",
+        "right": "prop",
+        "left": "prop",
+        "use": "camera_check",
+        "legs": "knees_together",
+        "gaze": "at_prop",
+        "preset": "side_chair_read",
+        "expr": "laughing_open",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "deep V neckline",
+          "strapless top"
+        ],
+        "lead": "detail"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual5",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-0182a469-ef5d-4674-9a3b-3226dc2895a3.png",
+      "original_sha256": "ef99f6efe6d20302bd19ad190a658ffafe3b94059557d05294c1d76c39e3bdb9",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual5.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "8e3c2427fa6ea34737d349614b9169cc120cf318dd27aa46e66f8831cf516429",
+        "shard": 3
+      },
+      "prompt_sha256": "0c138189190cf24ef98d8ae9766fc8a2ea4310f176f5eb75291883e43e3631bd",
+      "submitted_sha256": "0c138189190cf24ef98d8ae9766fc8a2ea4310f176f5eb75291883e43e3631bd",
+      "submitted_same": true,
+      "plan": {
+        "cut": 5,
+        "treeV": 2,
+        "era": "in_pokemon",
+        "place": "work_travel",
+        "ofam": "lingerie",
+        "item": "bodysuit",
+        "garments": [
+          "bodysuit",
+          "lingerie_set"
+        ],
+        "ocolor": "yellow",
+        "weather": "",
+        "posture": "sit_lean",
+        "support": "none",
+        "frame": "waist_up",
+        "body": "front_3q",
+        "head": "with_body",
+        "camera": "eye",
+        "right": "prop",
+        "left": "prop",
+        "use": "ball_polish",
+        "legs": "",
+        "gaze": "",
+        "preset": "desk_work",
+        "expr": "serious",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "open back"
+        ],
+        "lead": "place"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual6",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-b1282ff4-dc39-4d44-b456-3b7b4a25fc24.png",
+      "original_sha256": "c1b6c40d5eb854205c259da7484eeb366f63bf33e7410256148032ca9f962372",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual6.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "5b138fedb0e5ada0659864b470b563a9af89a579fe57ede98a103ebdfc862ccc",
+        "shard": 3
+      },
+      "prompt_sha256": "64e38f0bfdcdbfc519520b3f1489347689d7700e5fa2b03038f8f35d660b8446",
+      "submitted_sha256": "64e38f0bfdcdbfc519520b3f1489347689d7700e5fa2b03038f8f35d660b8446",
+      "submitted_same": true,
+      "plan": {
+        "cut": 6,
+        "treeV": 2,
+        "era": "now",
+        "place": "tailor_room",
+        "ofam": "halloween",
+        "item": "hw_witch",
+        "garments": [
+          "bodysuit",
+          "coat"
+        ],
+        "ocolor": "black",
+        "weather": "",
+        "posture": "stand",
+        "support": "none",
+        "frame": "chest_up",
+        "body": "front_3q",
+        "head": "tilt",
+        "camera": "eye",
+        "right": "prop",
+        "left": "out",
+        "use": "phone_selfie",
+        "legs": "",
+        "gaze": "",
+        "preset": "raise_chest",
+        "expr": "candid",
+        "aspect": "2:3",
+        "situ": "strap",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "sweetheart neckline",
+          "off-shoulder neckline"
+        ],
+        "lead": "action"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual7",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-708b6381-dc9e-4aaf-a4e6-ac2b1e8ba015.png",
+      "original_sha256": "2044b411c02d80efda9c98e2bc908650eadd9f291e39b066182d1ab6d32e6388",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual7.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "fe06cb53016623d730e547de68753d2af7fceb7f4fe391f35a39bfb10f60d33e",
+        "shard": 3
+      },
+      "prompt_sha256": "be56977c178bf5a438a1de561f09f35896fdb7cbe281a6e8db70c0ba6b424910",
+      "submitted_sha256": "be56977c178bf5a438a1de561f09f35896fdb7cbe281a6e8db70c0ba6b424910",
+      "submitted_same": true,
+      "plan": {
+        "cut": 7,
+        "treeV": 2,
+        "era": "in_pokemon",
+        "place": "partner_porch",
+        "ofam": "costume",
+        "item": "mermaid_show",
+        "garments": [
+          "skirt"
+        ],
+        "ocolor": "purple",
+        "weather": "",
+        "posture": "squat",
+        "support": "none",
+        "frame": "full_body",
+        "body": "front",
+        "head": "tilt",
+        "camera": "high",
+        "right": "prop",
+        "left": "lap",
+        "use": "treat_offer",
+        "legs": "squat_heels",
+        "gaze": "at_prop",
+        "preset": "squat_prop",
+        "expr": "calm",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "deep V neckline",
+          "side cutouts"
+        ],
+        "lead": "detail"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual8",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-eaf71548-b651-4089-be07-308ac9632c99.png",
+      "original_sha256": "c5b5aae8697cfcfeb135bc8c3975402d611cf0e5adc3e4fa144f2c2e1bf80500",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual8.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "7627775b0ce96acba9f14f6d2e4def122852af1cae3bd5d044be1cb6848f80e7",
+        "shard": 3
+      },
+      "prompt_sha256": "18bb512ee9554a7a173366e2b982f088f51afeddbf44ac85f0e523195f803fd3",
+      "submitted_sha256": "18bb512ee9554a7a173366e2b982f088f51afeddbf44ac85f0e523195f803fd3",
+      "submitted_same": true,
+      "plan": {
+        "cut": 8,
+        "treeV": 2,
+        "era": "now",
+        "place": "spa_sauna",
+        "ofam": "drape",
+        "item": "arabian_nights",
+        "garments": [
+          "crop_top",
+          "trousers"
+        ],
+        "ocolor": "yellow",
+        "weather": "",
+        "posture": "recline",
+        "support": "back_lounger",
+        "frame": "environmental",
+        "body": "front_3q",
+        "head": "with_body",
+        "camera": "high",
+        "right": "behind_head",
+        "left": "prop",
+        "use": "towel_hold",
+        "legs": "legs_extended",
+        "gaze": "camera",
+        "preset": "lounger_drink",
+        "expr": "wistful",
+        "aspect": "2:3",
+        "situ": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "plunging neckline",
+          "cutout waist"
+        ],
+        "lead": "light"
+      },
+      "manual_inputs": {},
+      "manual_why": {}
+    },
+    {
+      "card": "닥트리오",
+      "slot": "casual9",
+      "style": "anime_25d_gloss",
+      "style_evidence": "user request and prompt-pack settings",
+      "original_filename": "exec-b146d35e-1b98-452b-8e6d-0b8b4e95cff8.png",
+      "original_sha256": "ea48e4fa277227c2a6e934f9f71394f0369fcc5f5999619175f781928d721c93",
+      "reference": {
+        "slot": "light",
+        "original_sha256": "bc1bb24681f5ee4a3f3113681d7114abd7a8e3eda2188a3c858957368b8a8ba6"
+      },
+      "output": {
+        "file": "닥트리오_anime_25d_gloss_f_casual9.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "sha256": "1f47696bfaab3ccf5de3ac0bde7cef9ade38deae922d9c6e162eaedb70722ef6",
+        "shard": 3
+      },
+      "prompt_sha256": "4e21eab1ed9cd2ef29f5a47029e460cc2259e1dedba635f267cbe51f76091ff7",
+      "submitted_sha256": "4e21eab1ed9cd2ef29f5a47029e460cc2259e1dedba635f267cbe51f76091ff7",
+      "submitted_same": true,
+      "plan": {
+        "cut": 9,
+        "treeV": 2,
+        "era": "in_pokemon",
+        "place": "berry_kitchen",
+        "ofam": "dongtan",
+        "item": "club_metallic",
+        "garments": [
+          "dress",
+          "slip"
+        ],
+        "ocolor": "",
+        "weather": "",
+        "posture": "sit_lean",
+        "support": "none",
+        "frame": "three_quarter",
+        "body": "side",
+        "head": "with_body",
+        "camera": "eye",
+        "right": "prop",
+        "left": "prop",
+        "use": "lunchbox_pack",
+        "legs": "knees_together",
+        "gaze": "",
+        "preset": "table_lean_use",
+        "expr": "nostalgic",
+        "aspect": "2:3",
+        "situ": "",
+        "ofree": true,
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "sweetheart neckline",
+          "high thigh slit"
+        ],
+        "lead": "detail"
+      },
+      "manual_inputs": {
+        "outfit": "a sage-green asymmetric fitted tunic made from folded pleated cotton ribbons, a curved cutout at one waist and matching tailored short culottes"
+      },
+      "manual_why": {
+        "outfit": "옷 자유 컷: outfit-catalog.md의 기존 의상과 겹치지 않는 새 재단을 장면에 맞춰 설계."
+      }
+    }
+  ],
+  "face_design": {
+    "source": "data/face-design.json and generated light-prompt.txt",
+    "reason": "원작 모티프를 표의 종별 얼굴 윤곽과 눈·코·입에 반영. 신규 화풍 세트의 light를 얼굴·머리 정본으로 확정.",
+    "final_face_line": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; open rounded eyes, small size, level outer corners, close-set; straight medium brows; rounded soft tip nose; medium lips."
+  },
+  "comparison": {
+    "visual_reference": "existing session /workspace/scratch/c10398a822c2/recent-comparison.jpg",
+    "characters": [
+      "니드리나",
+      "냄새꼬",
+      "나인테일"
+    ],
+    "result": "욕실 책·우산 사무실·가면·카메라·몬스터볼 손질·셀피·열매·사우나·도시락 및 와인 드레스·인사·카드·시장·안장 공방·팔짱·보드게임·양궁장·전망대의 활동/옷/구도 차이를 시각 확인. 머리와 얼굴은 각자 light 기준 유지."
+  }
+}
