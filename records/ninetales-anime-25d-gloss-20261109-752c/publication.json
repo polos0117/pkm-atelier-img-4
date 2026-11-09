@@ -1,0 +1,25 @@
+{
+  "card": "나인테일",
+  "style": "anime_25d_gloss",
+  "requested": 10,
+  "generated": 8,
+  "status": "partial_registered",
+  "image_commit": "533285cfa25f7dbad0d72871bfa581847c783cda",
+  "missing": [
+    "casual2",
+    "casual8"
+  ],
+  "regeneration_count": 0,
+  "qa_wording_clarification": {
+    "casual7.anatomy.note": "Two legs and two boots (one pair) are visible; the prior Korean wording '장화 두 켤레 끝' was an editorial counting phrase error, not an observation of four boots."
+  },
+  "registry_commit": "d2b2867946c629684a0f1e9444a7f4cb0fb8f360",
+  "thumbnail_commit": "9eaaf5bf3917b6ff6dd0eb5b412720981bbe5b37",
+  "verification": {
+    "where": 3,
+    "all_new_dimensions": "1024x1536",
+    "duplicate_check": "pass",
+    "anatomy_tool": "unavailable: mediapipe not installed; visual review recorded"
+  },
+  "warnings": "Registration workflow reported pre-existing size warnings for older assets; all 17 new images match the required dimensions."
+}
