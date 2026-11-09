@@ -1,0 +1,389 @@
+{
+ "card": "푸크린",
+ "style": "anime_25d_gloss",
+ "generator": "built-in image_gen",
+ "request": "1 light + 9 casual",
+ "exposure_regeneration_of_returned_images": false,
+ "original_png_policy": "Only sha256 retained in Git; original PNG remains in session.",
+ "face_design": {
+  "source": "data/face-design.json and data/source-appearance.json",
+  "reason": "푸크린은 둥근 눈·부드러운 타원 윤곽·도톰한 입술, 골뱃은 작은 올라간 눈·넓은 입으로 원작 특징을 사람 얼굴로 해석.",
+  "compared": [
+   "푸린",
+   "주뱃",
+   "픽시",
+   "니드리노",
+   "냄새꼬"
+  ],
+  "observed": "푸크린은 큰 둥근 눈과 부드러운 볼·작은 코, 골뱃은 가늘고 긴 눈·꺾이는 눈썹·넓은 웃는 입. 같은 계열·최근 세 인물과 대조했다."
+ },
+ "cuts": [
+  {
+   "slot": "light",
+   "file": "푸크린_light_anime_25d_gloss_f.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "분홍 장발과 이마의 말린 앞머리, 큰 둥근 눈. 분홍·흰 경장과 원형 헤일로, 별을 띄운 손, 두 발이 프레임 안에 있다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "열린 손의 네 손가락과 엄지, 반대 장갑 주먹의 접힌 손가락·엄지. 두 팔과 두 다리가 장갑을 따라 연결된다.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "가슴 창과 복부가 드러나며 어깨·팔·다리에는 장갑. 허벅지 일부도 드러나지만 노출을 이유로 재생성하지 않았다."
+   },
+   "submitted_sha256": "30516d9b58447fc0400b46c5b97fb6f6084569b8fd31a49395cde85e61b5ee4d",
+   "submitted_same": true,
+   "original_sha256": "c90e7fa0b1dbd1d226fd1f9c72982bea579de03cb269bfac3fe7ee7b4ae99917",
+   "webp_sha256": "f52a63fa39bb009253e94a818880c2138b2fa0e170c6284c85d97af313ca96f8",
+   "reference": "text only; no reference",
+   "observed_deviations": "가슴 창과 복부가 드러나며 어깨·팔·다리에는 장갑. 허벅지 일부도 드러나지만 노출을 이유로 재생성하지 않았다."
+  },
+  {
+   "slot": "casual1",
+   "file": "푸크린_anime_25d_gloss_f_casual1.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "목장 울타리와 말, 노란 이집트풍 드레이프·금 장식. 옆몸에서 돌아보며 오른손에 불꽃 막대를 든다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "막대를 잡은 손의 네 접힌 손가락과 반대쪽 엄지, 손목·팔뚝이 연결된다. 반대 손·하체는 프레임 밖.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨와 목선이 보이며 안감 위로 얇은 겉천이 겹친다."
+   },
+   "submitted_sha256": "b10a5989d36da7511dc3ef985891a27a30838e99f155a143516787efb96c63d7",
+   "submitted_same": true,
+   "original_sha256": "6513a8b2cadcaa331706e82e7694cbd0faecf351c580acc44e6e5703ff2f4778",
+   "webp_sha256": "17bf683d8d93192c7e189e7dcdfa6c7bc94ba1e4d400c39df0862cf69047ebb5",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨와 목선이 보이며 안감 위로 얇은 겉천이 겹친다."
+  },
+  {
+   "slot": "casual2",
+   "file": "푸크린_anime_25d_gloss_f_casual2.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "창가 돌봄 방에서 이브이 한 마리를 빗질한다. 보라색 젖은 홈웨어의 물방울·어두운 얼룩과 의자에 앉은 측면이 읽힌다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "빗 쥔 손은 엄지와 손가락이 손잡이에 일부 가려지고, 무릎 위 손은 네 손가락·엄지 구조. 두 팔이 어깨에서 이어진다. 두 다리는 겹쳐 앉아 있다.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "홀터형 깊은 목선과 어깨, 불투명 젖은 천이 보인다. 플리스 상의는 홀터 형태로 바뀌었다."
+   },
+   "submitted_sha256": "f909a960579b51b254b42bd02cbb8e93a2a75629a84328fd966ed0e3c6aca52d",
+   "submitted_same": true,
+   "original_sha256": "599bbd653ded65eb0babf4ffac9303fc16faaba16776e946a10a4af7bf271bc2",
+   "webp_sha256": "4dee1037dff1400294aedd380363479af50f058d0d09e3bff64aade08957b00e",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "홀터형 깊은 목선과 어깨, 불투명 젖은 천이 보인다. 플리스 상의는 홀터 형태로 바뀌었다."
+  },
+  {
+   "slot": "casual3",
+   "file": "푸크린_anime_25d_gloss_f_casual3.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "베이커리 오븐·선반 앞에서 수건을 목에 걸고 웃는다. 세이지색 꽃잎 목선의 새 의상, 헤드폰, 카운터 위의 손."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "수건 쥔 손은 엄지가 수건 뒤에 일부 가려지고 네 손가락이 접힘. 다른 손은 카운터 위 네 손가락과 옆 엄지. 두 팔의 팔꿈치·손목 연결 확인.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨와 목선·옆허리가 열린 구조가 보인다."
+   },
+   "submitted_sha256": "9eb71459866c36e86552bd6fd90fa7a5ec7fa35c61728aa34eda3c7159f3fec3",
+   "submitted_same": true,
+   "original_sha256": "2a0572c0d43d68bef711966c5a8014fd8c5c0fa28693de20e6e72f2c4e8133c0",
+   "webp_sha256": "135bf2d18ed5f345de7ee062905d96c1121beda97b826c3b99cac2214549c4a7",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨와 목선·옆허리가 열린 구조가 보인다."
+  },
+  {
+   "slot": "casual4",
+   "file": "푸크린_anime_25d_gloss_f_casual4.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "호텔 창가의 도시 노을, 의자에 앉아 한 손으로 잔을 들고 반대 손을 무릎에 둔다. 짙은 틸 비대칭 플레이수트와 여행가방."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "잔 쥔 손은 잔대 뒤로 손가락 일부가 가려지고 엄지가 반대쪽. 무릎 위 네 손가락과 옆 엄지 확인. 두 다리가 각각 신발로 이어짐.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "홀터 목선·어깨·옆허리·다리 노출. 박물관 컷은 유사도 203으로 보존 후 다른 장소·동작·프레이밍으로 교체했다."
+   },
+   "submitted_sha256": "752fc3458f32fad784be348d38f3291223883b25f0d75c39352d79be70d1a89f",
+   "submitted_same": true,
+   "original_sha256": "88c80c910abfe7dbf12bd078fc8ba53427f415eceb3804f9aa02b358c2b104b9",
+   "webp_sha256": "cdf0792d6529874279701456a189eead9b93ee20194b71cf7969b1dbbf10da54",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "홀터 목선·어깨·옆허리·다리 노출. 박물관 컷은 유사도 203으로 보존 후 다른 장소·동작·프레이밍으로 교체했다."
+  },
+  {
+   "slot": "casual5",
+   "file": "푸크린_anime_25d_gloss_f_casual5.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "불꽃놀이 강가의 매트에 엎드려 양손으로 턱을 받친다. 틸 자수 레이스와 불투명 속옷, 굽혀 든 두 발."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "각 팔꿈치가 매트에 닿고 팔뚝이 양손으로 연결됨. 턱 양옆 손가락 일부는 볼에 가려짐. 뒤쪽 무릎 둘과 발 둘 확인.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·목선·허벅지가 드러난다. 레이스 비침은 기록만 하고 재생성하지 않았다."
+   },
+   "submitted_sha256": "8a49baf99316d852050e3ded456258bfd1feb9fa89cffbce0804d75da6d091fc",
+   "submitted_same": true,
+   "original_sha256": "336e35361c1975b49b0c01c92bd4f5e90c640855d11f2247af989a704a00a07b",
+   "webp_sha256": "d5f4ed3517f88fbe7d15336b77f34e3d9b587490ffd5a2482af3b4a3c27eab16",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨·목선·허벅지가 드러난다. 레이스 비침은 기록만 하고 재생성하지 않았다."
+  },
+  {
+   "slot": "casual6",
+   "file": "푸크린_anime_25d_gloss_f_casual6.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "카페의 커피 기계·창문, 검정·아이보리 메이드 이벤트 의상. 한쪽 눈을 감고 오른손을 카메라 앞으로 편다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "내민 손은 엄지와 네 손가락이 분리되어 보임. 가슴 위 손의 네 손가락과 옆 엄지. 손목·팔꿈치가 각 어깨에 이어짐.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨와 깊은 목선이 보인다. 소매와 앞치마의 주름·직물 결이 읽힌다."
+   },
+   "submitted_sha256": "cbde1709e707511a48745291a0b1798ad159488bfd222220cca17fd337a734b1",
+   "submitted_same": true,
+   "original_sha256": "8c7c76cabd1b3a3e19109c39cd4f862b39492139ed32bc80ba4973f0e8430d1d",
+   "webp_sha256": "5028f80027ce76e68fb3a480ceb27e97c09d9ac03f4c0ffa10adef3b6b83d87d",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨와 깊은 목선이 보인다. 소매와 앞치마의 주름·직물 결이 읽힌다."
+  },
+  {
+   "slot": "casual7",
+   "file": "푸크린_anime_25d_gloss_f_casual7.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "노래방의 미러볼과 소파. 분홍·흰 푸크린 바디수트, 귀 머리띠, 꼬리 장식과 장갑·스타킹. 테이블에 손을 두고 앉는다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 장갑 손의 네 손가락, 엄지는 안쪽에 일부 가려짐. 두 팔이 테이블까지 자연스럽게 이어짐. 두 무릎·두 발·두 신발 확인.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·허벅지가 보이는 코스튬. bold 반환 차단 두 차례 뒤 moderate에서 처음 이미지가 반환됐다."
+   },
+   "submitted_sha256": "55e09593529e98d79aad2e97c88e385abc9d18eeed91af6c8c97b6ea627212cd",
+   "submitted_same": true,
+   "original_sha256": "83c11ecbd650a2d18f5c9afb5f9ee14468a1e5a41a95b04d54102b96ee0fab7c",
+   "webp_sha256": "e9d9e2ae580d0dc9d623538d463807b578b0c9e18c46f6f9a5106fc4babac426",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨·허벅지가 보이는 코스튬. bold 반환 차단 두 차례 뒤 moderate에서 처음 이미지가 반환됐다."
+  },
+  {
+   "slot": "casual8",
+   "file": "푸크린_anime_25d_gloss_f_casual8.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "갈대 습지 전망대에 앉아 다리를 늘어뜨린다. 코랄 원피스 수영복과 노란 허리띠, 맨발, 작은 푸크린 스피커."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 뒤쪽 벤치에 지지하고 손가락은 지지면·몸에 일부 가려짐. 두 팔이 어깨부터 손목으로 이어짐. 두 다리와 발가락 확인.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "목선·어깨·허리 컷아웃·다리가 보인다. 원작 귀 장식이 남은 것은 기록만 한다."
+   },
+   "submitted_sha256": "7c677783a18ddd1cf25517bd0698517a30e87685fe77c54ac4c29dcd7f1a57ce",
+   "submitted_same": true,
+   "original_sha256": "c2124e68d2aadf07ffd0f31bd6c131cd86c4b78bae366b77e7d64a00025c21d6",
+   "webp_sha256": "bbb305ef08628165a467a75b3d7d33d6d9457ad3ca6f0fadd8b5423d4d02a90d",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "목선·어깨·허리 컷아웃·다리가 보인다. 원작 귀 장식이 남은 것은 기록만 한다."
+  },
+  {
+   "slot": "casual9",
+   "file": "푸크린_anime_25d_gloss_f_casual9.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "보드게임 상자가 놓인 라운지에서 검정 오프숄더 차림으로 V 사인. 얼굴 중심의 가까운 크롭."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "V의 검지·중지, 접힌 약지·소지와 엄지가 확인됨. 반대 손과 하체는 크롭 밖. 보이는 손목이 소매 속 팔로 이어짐.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "쇄골·어깨·목선이 보인다. 계획의 얼굴 클로즈업보다 가슴까지 조금 넓게 담겼으며 기록만 한다."
+   },
+   "submitted_sha256": "a20825b66eaa576206ba651d9e015ad1fbf81ceb44d54be84d74f91a8c5d103b",
+   "submitted_same": true,
+   "original_sha256": "eb531f0f3c1e0d0bd6ae5a8cfb33b6ceb75ea5ef40fed0b50ef60569936bddde",
+   "webp_sha256": "bada61e5dd2440b2af3a980e12f50c1fce8b292afe849628c3157fa9479a7e4d",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "쇄골·어깨·목선이 보인다. 계획의 얼굴 클로즈업보다 가슴까지 조금 넓게 담겼으며 기록만 한다."
+  }
+ ],
+ "skipped": [],
+ "attempts": [
+  {
+   "slot": "casual7",
+   "reason": "tool returned no image",
+   "request_ids": [
+    "ac59d7b5-a0ea-4c33-b84c-fe7b76309850",
+    "dcedb4f7-02ba-4e9d-b096-f4b562fc5ea5"
+   ],
+   "accepted_exposure": "moderate"
+  },
+  {
+   "slot": "casual4",
+   "reason": "visual similarity 203 below threshold 215; replan place and use, preserve first generated result in session",
+   "prior_original_sha256": "7c31a9e07d6169dde4e956c5b8b59c4140a47cbac4a4255177083c6b681e5ab3"
+  }
+ ]
+}
