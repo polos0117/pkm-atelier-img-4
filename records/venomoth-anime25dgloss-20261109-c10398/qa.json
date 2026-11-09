@@ -1,0 +1,304 @@
+{
+ "card": "도나리",
+ "style": "anime_25d_gloss",
+ "generator": "built-in image_gen",
+ "requested": 10,
+ "generated": 10,
+ "regenerated_returned_images": false,
+ "planner_note": "Supported --v1 planner used after v2 exhausted 40 attempts in repeated seeds with framing-pair conflicts; v1 plan passed check and reservation stamp verification. Recent 12 characters and current reservations were included without copying historical image sets.",
+ "submission_timing_note": "The two text-only light images were requested while casual planning was still running. Casual generation began only after stamped plan was published.",
+ "anatomy_tool": "unavailable: mediapipe not installed; exit 3. Manual visual review used.",
+ "cuts": [
+  {
+   "slot": "light",
+   "appearance": "보라색 금속 장갑과 나방 망토, 등에 대칭 보조 기계팔 두 개. 사람 팔 둘과 다리 둘.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "펼친 장갑 손과 내려뜨린 장갑 손. 효과와 겹친 일부 손끝은 확정 계수하지 않음.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "가슴 창과 복부가 열리고 나머지는 장갑으로 덮임."
+   },
+   "submitted_sha256": "a331f7a63391051f07aaafb435b3060ac7be3de6d7dcbbf4fabc80aa791ad874",
+   "submitted_same": true,
+   "original_sha256": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891",
+   "webp_sha256": "4a602479d9a55d87b3114debb7cf93fc80ba3d8937e563b83bc14e53a92c03f2",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "text only"
+  },
+  {
+   "slot": "casual1",
+   "appearance": "온천에서 양팔을 들어 젖은 보라 머리를 넘김. 붉은 수영복과 열린 유카타.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 팔이 머리 뒤로 연결됨. 한 손은 머리카락을 잡고 다른 손은 머리 뒤에 가려짐.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨와 목선이 보임. 계획의 측면보다 앞 3/4에 가까움."
+   },
+   "submitted_sha256": "066a39a8ac2b0aea21c204947f204343bd38988f5e3a61c491cf6f95013ba8bd",
+   "submitted_same": true,
+   "original_sha256": "928f2fbe95337cf614cafb02e6f203df031b602d751417987ee52ad614c4b4e6",
+   "webp_sha256": "0857604f51324c4c3e5d13660da1c4b080df43ce41fb7f91cd0cd9c69f1bb716",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  },
+  {
+   "slot": "casual2",
+   "appearance": "바다 배경의 흰 레이스 브라이덜 얼굴·가슴 위 클로즈업.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손·다리는 크롭 밖.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "흰 레이스 목선과 어깨. 피부 광택과 보라 눈 유지."
+   },
+   "submitted_sha256": "31e32dd00f76a3ef5adb4f0a67bc52b2ff518b6bacdbf56e6372bfd705b66281",
+   "submitted_same": true,
+   "original_sha256": "e47e61308ee1668c28d5d6851b6207997e27e8e81102bf19f2f6052640a1e0ea",
+   "webp_sha256": "c275a010cce035ff6671d522abcfa91bb8e1d67afe76adabf91ddb72671c541e",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  },
+  {
+   "slot": "casual3",
+   "appearance": "육상 트랙에서 한쪽 무릎을 굽혀 런지. 회색 네오프렌 스코트와 기하학 상의.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손을 굽힌 무릎 위에 포개어 놓음. 겹친 손가락은 일부 가려짐.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·허리·허벅지가 드러남. 회색이 보라색에 가까워진 색 편차."
+   },
+   "submitted_sha256": "e03b3fa6b678f482015b3f6992f1a4787d62414946a7b41d8136926d0c40f386",
+   "submitted_same": true,
+   "original_sha256": "592410cf3fb55cbeaf9fea742b8ec0e9fb357dad73017cfab8c055fc24d806e5",
+   "webp_sha256": "2bea25e6169be1e384f85f63002c9c872ab3b2d36aedfc6ec622be8d4b878874",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  },
+  {
+   "slot": "casual4",
+   "appearance": "거실에서 분홍 사리풍 차림으로 실과 나방 장신구를 다룸. 뒤돌아보는 앉은 자세.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손으로 실과 장신구를 집음. 엄지·검지 집기와 나머지 굽힌 손가락이 연결됨.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "등·어깨·허리가 드러남. 하의가 계획보다 길지만 재생성하지 않음."
+   },
+   "submitted_sha256": "697ac917472cf6ad75715c6befa43876bc3a2ae383c858fd44e113fab17d6e94",
+   "submitted_same": true,
+   "original_sha256": "291e8e6dfabe4523d3935870e1ec0f05b569168a8979291f64da23e6c9de17a6",
+   "webp_sha256": "6bdbf48d34c13723734a502eca48498bd1d77adbcd9dcb7c9d4c4fb3c9b6aab9",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  },
+  {
+   "slot": "casual5",
+   "appearance": "창고 작업대에서 공구를 천으로 닦음. 회색 작업 오버롤과 부츠.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "장갑 낀 두 손이 공구와 천을 잡음. 손가락 일부는 물건에 가려짐.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·옆구리가 드러남. 하의는 긴 작업복."
+   },
+   "submitted_sha256": "aa6ab4a0dba17c869707d07ddd32a27c9484433b4f755f2be05829125bc96547",
+   "submitted_same": true,
+   "original_sha256": "365e249b2ef2961c0f5325c83bdfa68ac137973aa610eb1a8b4ec90143917532",
+   "webp_sha256": "98eddee490b3eadd7c890d6c5d6cf3e38bf7c46bbca6a1a87e97c3298c65c78b",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  },
+  {
+   "slot": "casual6",
+   "appearance": "야외 캠프에서 국자를 들고 냄비를 저으며 다른 손에 그릇을 받침. 머스터드 탭어드.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "한 손은 국자 손잡이를 감고 다른 손은 그릇 바닥을 받침. 가려진 손가락을 추정하지 않음.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·목선·옆구리. 탭어드가 코르셋처럼 표현된 재단 차이."
+   },
+   "submitted_sha256": "1eb33964852c604fcedb754333ca48912342eac5293c7eb152bc07fcd146e2cc",
+   "submitted_same": true,
+   "original_sha256": "02a3767a08118c49680414b3c2352621eb8d49dab5651bf1adebee77127081b3",
+   "webp_sha256": "77071c9e3ad0a2e0029880736281967aced0f0e9222d26ea0f07a51aa39431ee",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  },
+  {
+   "slot": "casual7",
+   "appearance": "나이트클럽에서 보라색 도나리 코스튬, 손가락을 입술 앞에 세움.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "장갑 검지가 입술 앞에 있고 나머지는 굽힘. 반대 손은 크롭 밖.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "목선·어깨가 보임. 코스튬에 나방 날개와 무늬가 반영됨."
+   },
+   "submitted_sha256": "69e0f1d3a8e33aef6b855889e41516d856cee91ce8f3f30604d9dcd008e74949",
+   "submitted_same": true,
+   "original_sha256": "971804d39a809fc896e5683515dad4ea7bfa2b205700462adc65ca81a73f56fb",
+   "webp_sha256": "cd1b8eb9c6051763a057f53fb2ed65074bb88b16ad3162dd457312adfaff1922",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  },
+  {
+   "slot": "casual8",
+   "appearance": "흡음재 녹음실 바닥에 앉아 우쿨렐레 연주. 검은 줄무늬 상하의와 빗방울.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손이 악기의 지판과 현에 연결됨. 지판의 손끝은 현·목에 부분 가림.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨와 목선이 보임. 긴 하의·긴소매로 계획보다 덮였으나 보존."
+   },
+   "submitted_sha256": "37f4211886eb476ec1b72c829a50c76e700ac5e3041464ebb505086c8e7c4424",
+   "submitted_same": true,
+   "original_sha256": "1c2bf7c5ee6cfaf884458b4c73b307fda629ed395ec358c2ad99b33e3187456a",
+   "webp_sha256": "2b73c4cf4019a97b6f487a9124f3fd60f6b9de50021944ba4506d03452c1a027",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  },
+  {
+   "slot": "casual9",
+   "appearance": "공항 대기석에서 휴대 게임기를 두 손으로 조작. 흑백 메이드 의상, 옆뒤 3/4.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손이 게임기 양쪽을 잡고 엄지가 조작부로 향함. 물건 뒤 손가락은 가려짐.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "등·어깨·허벅지가 보임. 아이보리 단색 대신 흑백으로 생성됨. 배경 인물은 작은 흐릿한 형체."
+   },
+   "submitted_sha256": "e272fae42b3030432a19901b744c91b328ec4ce22bc39d7ac4ace6280f41ed9f",
+   "submitted_same": true,
+   "original_sha256": "1f6fd1597d8ddaee231b1647a3fbb9b7398c4945146459c2e55dcd16e4036ebf",
+   "webp_sha256": "0a6da5401c5daf7fce209ae43d42708daa87164b4c4ecaa32bf6e62653eb4d55",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "800c162bd1b4c9795a15ed542e1ddffdca4e3fd3f044555d5745d8e63a6f7891"
+  }
+ ],
+ "skipped": []
+}
