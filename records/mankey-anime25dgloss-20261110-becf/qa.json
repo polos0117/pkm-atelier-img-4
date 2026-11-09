@@ -1,0 +1,247 @@
+{
+  "card": "망키",
+  "style": "anime_25d_gloss",
+  "reviewer": "gpt",
+  "notes": [
+    "생성된 결과를 노출 이유로 재생성하지 않음.",
+    "mediapipe 미설치로 해부 자동 검사 불가. 원본과 확대에서 눈으로 확인."
+  ],
+  "slots": {
+    "light": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "밝은 갈색 판금과 큰 건틀릿·부츠, 주황 힘고리와 말린 허리 자락의 전신."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "코·뺨 아래 부드러운 음영과 눈꺼풀의 가는 선, 판금 단면·재질 반사."
+      },
+      "exposure": {
+        "result": "stronger",
+        "evidence": "양어깨·복부와 허벅지가 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "펼친 장갑 손 다섯 손가락, 다른 손의 느슨한 주먹은 일부 손가락 가려짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual1": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "쇼핑몰 분수·유리 난간, 금색 견장의 분홍색 제복풍 크롭 상의, 옆으로 보는 가슴 위 구도."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "코 아래 음영·입술 반사와 뺨의 부드러운 홍조, 천 결·금색 술 구별."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·가슴 목선·복부 일부가 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "팔 하나가 난간 위로 굽고 다른 팔은 화면 아래로 이어짐. 손·다리는 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual2": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "전구와 도시 야경 앞 데님 오버롤·어두운 상의, 옆으로 고개를 돌린 근접 얼굴."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "콧등·뺨의 그라데이션, 짧은 머리 가닥과 데님 스티치."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·쇄골·목선이 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손·다리는 프레임 밖. 양어깨와 위팔은 자연스럽게 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual3": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "거울·운동 바가 보이는 연습실 벽에 기대 팔짱, 버건디 셔츠·조끼·펜슬스커트의 반쯤 푼 차림."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "코·턱 아래 부드러운 음영, 셔츠 주름과 조끼 재단의 입체 반사."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·쇄골·깊은 목선이 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "교차한 양팔의 연결이 자연스럽고, 한 손은 위팔에 놓여 손가락 일부가 가려짐. 반대 손은 팔 뒤로 가려짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual4": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "콘테스트 무대의 장비와 조명 뒤로 검은 란제리풍 드레이프, 등을 돌리고 턱을 받치는 구도."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "코·볼·턱의 연속 음영과 검은 천의 방향성 주름 반사."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "등·어깨·옆 허리와 목선 일부가 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 받친 손의 손가락 일부는 턱에 가려지고, 반대 팔은 화면 아래로 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual5": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "촛불 갈라장의 벽에 기대 옆을 보는 아이보리 부채주름 상의와 진주 격자 케이플릿."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "코·입술·턱 아래 연속 음영, 진주 구슬과 주름 천에 별도의 반사."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·쇄골·깊은 목선이 보임."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "손·다리는 크롭 밖. 양어깨와 위팔이 몸통에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual7": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "오락실 의자에 앉아 주황 고글을 머리에 올림, 코랄 집업 차림과 지친 눈매의 얼굴 근접 구도."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "눈꺼풀의 가는 색선·코끝 반사·볼 음영, 고글과 지퍼의 재질이 구별됨."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·쇄골·목선이 보임."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "손·다리는 크롭 밖, 위팔이 화면 아래로 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual8": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "샹들리에 무도회장 의자에서 웃는 망키 코스튬, 털 테두리 크롭 상의·짧은 치마·귀와 꼬리 소품."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "코·뺨·턱의 연한 음영과 머리 가닥, 장갑·직물·금속 버클의 별도 반사."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·목선·복부·허벅지·다리가 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 옆 장갑 손은 구부린 다섯 손가락 일부가 겹침, 의자 위 다른 손은 다섯 손가락 윤곽. 발 두 개가 다리에 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual9": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "축제 노점 창틀을 두 손으로 짚은 올리브 크로셰 수영복, 1990년대 카메라·라디오, 약간 낮은 전신 구도."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "얼굴의 부드러운 코·턱 음영과 편물의 구멍·불투명 안감, 피부 반사."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·등·허리·다리가 드러남. 비키니 대신 연결된 원피스 형태로 표현됨."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "창틀 위 양손의 손가락 일부가 원근과 겹침으로 가려짐. 두 팔·다리와 신발이 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": [
+        "선택은 크로셰 비키니였고 결과는 연결된 원피스 수영복. 생성 결과를 보존."
+      ]
+    },
+    "casual6": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "잔디 안뜰에 엎드려 뒤돌아 웃음, 세이지 테리 플레이수트와 동료 망키 한 마리."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "뺨·턱의 부드러운 음영과 테리 직조 결·꼬임 테두리·피부 반사의 구분."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·등·허리 옆 창·허벅지·다리가 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양팔이 앞의 손목으로 이어지고 두 손은 겹쳐 손가락 일부 가려짐. 두 다리·발은 발목에서 자연스럽게 이어지며 각 발가락 다섯.",
+        "overlay_checked": false,
+        "note": "원본 및 손·발 확대에서 확인. 가려진 부분과 크롭 밖 손·발은 보인다고 세지 않음."
+      },
+      "deviations": []
+    }
+  },
+  "casual_look": {
+    "result": "pass",
+    "evidence": "casual-look.log: no distance below 215"
+  }
+}
