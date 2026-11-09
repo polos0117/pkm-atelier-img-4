@@ -1,0 +1,261 @@
+{
+  "card": "가디",
+  "requested": 10,
+  "accepted": 10,
+  "generation_calls": 10,
+  "tool": "built-in image_gen",
+  "regenerations": 0,
+  "anatomy_tool": "unavailable: mediapipe missing",
+  "visual_checks": "Original outputs plus whole-set and enlarged hand/limb sheets.",
+  "diversity": {
+    "result": "pass",
+    "comparison_cards": [
+      "골덕",
+      "망키",
+      "고라파덕"
+    ],
+    "evidence": "Compared current published thumbnail samples: orchard ball polishing, yacht towel drying, spa walk, kitchen gesture, lotus-pond maid, laundry swimwear and workshop drawing differ in activity, dress construction and framing. Growlithe adds skating, vanity, telescope, stadium and companion brushing. Same laundry location across this pair retains distinct outfit, pose and framing."
+  },
+  "cuts": [
+    {
+      "slot": "light",
+      "result": "accepted",
+      "observed": "Ivory and orange hard plates, beige ruffled collar and sash, ankle thrusters, fire over one open gloved palm and other hand loosely closed.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Raised glove has four extended fingers and thumb; opposite hand is a loose fist with curled digits.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Ivory and orange hard plates, beige ruffled collar and sash, ankle thrusters, fire over one open gloved palm and other hand loosely closed."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual1",
+      "result": "accepted",
+      "observed": "Seated at flower-decorated wedding table in orange striped furry Growlithe costume; gloved hands overlap naturally on tabletop.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Two gloved hands overlap, five-digit structures with thumbs and some fingertips occluded by the other glove.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Seated at flower-decorated wedding table in orange striped furry Growlithe costume; gloved hands overlap naturally on tabletop."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual2",
+      "result": "accepted",
+      "observed": "Coastal sunset side-profile portrait, visible hand tucks orange hair near ear; reflective slip neckline, second hand outside crop.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Hair-tucking hand has opposing thumb and four fingers partly obscured by hair; other hand outside crop.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Coastal sunset side-profile portrait, visible hand tucks orange hair near ear; reflective slip neckline, second hand outside crop."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual3",
+      "result": "accepted",
+      "observed": "Standing on roller skates under disco ball, one relaxed open hand lowered and one raised by collarbone; ivory velvet tunic and short legs.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Both open hands have five-digit structure, naturally curved and foreshortened.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Standing on roller skates under disco ball, one relaxed open hand lowered and one raised by collarbone; ivory velvet tunic and short legs."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual4",
+      "result": "accepted",
+      "observed": "Leaning at illuminated dressing-room counter, both hands support her, pink petal gown with long train and decorative eye mask.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Both palms lie on counter, fingers foreshortened and partly hidden by overlapping contact.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Leaning at illuminated dressing-room counter, both hands support her, pink petal gown with long train and decorative eye mask."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual5",
+      "result": "accepted",
+      "observed": "Observatory portrait at telescope, one hand on telescope and one at collar; black plunging halter dress, playful wink.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Telescope hand has four fingers over barrel and thumb around its side; collar hand naturally folded with partly hidden thumb.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Observatory portrait at telescope, one hand on telescope and one at collar; black plunging halter dress, playful wink."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual6",
+      "result": "accepted",
+      "observed": "Leaning on laundromat folding counter, both hands rest flat, ivory retro-futuristic fitted jumpsuit and boots; no extra limbs.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Two palms rest on counter; five-digit structures with thumbs inward, contact partially occluded.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Leaning on laundromat folding counter, both hands rest flat, ivory retro-futuristic fitted jumpsuit and boots; no extra limbs."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual7",
+      "result": "accepted",
+      "observed": "Seated stadium close portrait, mint sculpted bodice with fan panels, head tipped up, both hands below crop.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Both hands outside the deliberate close framing; no detached hand visible.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Seated stadium close portrait, mint sculpted bodice with fan panels, head tipped up, both hands below crop."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual8",
+      "result": "accepted",
+      "observed": "Waterside portrait in coral embroidered kebaya-style layers, slipped shoulder is visible, natural face and orange ponytail, hands outside crop.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Both hands outside the deliberate close framing; no detached hand visible.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Waterside portrait in coral embroidered kebaya-style layers, slipped shoulder is visible, natural face and orange ponytail, hands outside crop."
+      },
+      "regenerated": false
+    },
+    {
+      "slot": "casual9",
+      "result": "accepted",
+      "observed": "Kneeling in care room, one hand brushes a single Growlithe and the other rests on its head; yellow overalls and bare shoulders.",
+      "identity": "Orange flowing ponytail, warm hazel eyes and rounded adult jaw retained.",
+      "style_25d": {
+        "verdict": "2.5D",
+        "evidence": "Nose bridge and tip, cheek and jaw transitions and lips are smoothly shaded; colored contours, dimensional skin highlights and layered hair, rather than flat two-tone facial shading."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; visual inspection used",
+        "arms": 2,
+        "legs": 2,
+        "visible_limb_note": "Limbs may be cropped by planned close framing; only visible anatomy was checked.",
+        "hands": "Brush grip naturally opposes thumb to fingers; other hand spreads five fingers through the creature fur, contact partly hidden.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crop review; no extra, detached or reversed visible limbs."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Kneeling in care room, one hand brushes a single Growlithe and the other rests on its head; yellow overalls and bare shoulders."
+      },
+      "regenerated": false
+    }
+  ]
+}
