@@ -1,0 +1,442 @@
+{
+  "reviewer": "gpt",
+  "style": "anime_25d_gloss",
+  "partial": true,
+  "requested": 10,
+  "generator": "built-in image_gen",
+  "slots": {
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "08ad7630d19ed091d7cdcf08987f204f290c53aac2ebdace0ba9d189b960c76a",
+      "observations": "도시가 보이는 옥상 수영장 앞 흰 레이스와 짧은 베일의 얼굴 클로즈업. 머리 옆으로 한 손을 올린 옆얼굴.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "눈꺼풀과 얼굴 윤곽은 가는 색 선, 코·뺨·턱은 부드러운 그라데이션, 머리카락 가닥과 직물·금속 재질을 입체적으로 렌더링함."
+      },
+      "exposure": {
+        "judgment": "match",
+        "basis": "어깨·쇄골·레이스 목선이 보임. 불투명 안감이 있는 의상으로 보임.",
+        "regenerated": false
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "count_note": "몸의 구성 기준 수이며 프레임 밖의 팔다리는 검증할 수 없음",
+        "hands": "머리카락을 만지는 손의 일부 손가락은 모발 뒤에 가려짐. 손목과 아래팔이 프레임 아래로 연속됨. 반대 손과 하체는 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본과 보이는 손의 연결을 눈으로 확인. 가려진 손가락 수를 추정해서 통과시키지 않음."
+      },
+      "reference": "caabb4044ecac0ea79aa3da498688153ded75ae4dbc68c0ac0fd1cfc91800343",
+      "regenerated": false
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "f862a17a7e4d2ff6d055f58463427afb65030107224c2f877360b9766bffd9a3",
+      "observations": "공원 돌 난간에 앉은 테리 랩 드레스. 옆에 나인테일 한 마리, 차와 등불. 고개를 옆으로 돌린 전신.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "눈꺼풀과 얼굴 윤곽은 가는 색 선, 코·뺨·턱은 부드러운 그라데이션, 머리카락 가닥과 직물·금속 재질을 입체적으로 렌더링함."
+      },
+      "exposure": {
+        "judgment": "match",
+        "basis": "어깨·쇄골·깊은 목선·다리와 한쪽 허벅지가 드러남. 동료 한 마리를 확인.",
+        "regenerated": false
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "count_note": "몸의 구성 기준 수이며 프레임 밖의 팔다리는 검증할 수 없음",
+        "hands": "난간을 짚는 두 손이 각각 팔에 연결됨. 가까운 손은 펼친 다섯 손가락, 반대 손은 차 쟁반에 일부 가려짐. 두 다리와 양발이 교차해 이어짐.",
+        "overlay_checked": false,
+        "note": "원본과 보이는 손의 연결을 눈으로 확인. 가려진 손가락 수를 추정해서 통과시키지 않음."
+      },
+      "reference": "caabb4044ecac0ea79aa3da498688153ded75ae4dbc68c0ac0fd1cfc91800343",
+      "regenerated": false
+    },
+    "casual4": {
+      "accepted": true,
+      "image_sha256": "cff242f54624ef5a56dfeafb6a90f5059d385d4b29bc4d15897bb88830d8f7c8",
+      "observations": "온천 지붕 아래 검정 링 비키니와 수건. 위를 보는 얼굴, 수건을 쥔 손과 아래로 내린 손.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "눈꺼풀과 얼굴 윤곽은 가는 색 선, 코·뺨·턱은 부드러운 그라데이션, 머리카락 가닥과 직물·금속 재질을 입체적으로 렌더링함."
+      },
+      "exposure": {
+        "judgment": "match",
+        "basis": "어깨·쇄골·복부·허리·허벅지 위쪽이 드러남. 예정한 뒤 3/4보다 앞 3/4로 보임.",
+        "regenerated": false
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "count_note": "몸의 구성 기준 수이며 프레임 밖의 팔다리는 검증할 수 없음",
+        "hands": "수건을 쥔 손의 접힌 손가락과 엄지, 반대 손은 화면 아래 가장자리에 일부 걸침. 두 팔이 몸에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본과 보이는 손의 연결을 눈으로 확인. 가려진 손가락 수를 추정해서 통과시키지 않음."
+      },
+      "reference": "caabb4044ecac0ea79aa3da498688153ded75ae4dbc68c0ac0fd1cfc91800343",
+      "regenerated": false
+    },
+    "casual5": {
+      "accepted": true,
+      "image_sha256": "a11e2f0c1e7daa362561f5af63c62e1ac4bc4bd60e3372ccd45fe938adc90c8f",
+      "observations": "암벽장에서 젖은 회색 조끼와 스커트를 입고 가방 끈을 잡음. 피부와 머리에 물방울, 위쪽 시선.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "눈꺼풀과 얼굴 윤곽은 가는 색 선, 코·뺨·턱은 부드러운 그라데이션, 머리카락 가닥과 직물·금속 재질을 입체적으로 렌더링함."
+      },
+      "exposure": {
+        "judgment": "match",
+        "basis": "어깨·깊은 목선·복부가 드러남. 젖은 옷은 불투명함.",
+        "regenerated": false
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "count_note": "몸의 구성 기준 수이며 프레임 밖의 팔다리는 검증할 수 없음",
+        "hands": "가방 끈을 쥔 손은 접힌 네 손가락과 엄지가 겹쳐 보임. 반대 팔은 화면 아래로 이어지며 손은 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본과 보이는 손의 연결을 눈으로 확인. 가려진 손가락 수를 추정해서 통과시키지 않음."
+      },
+      "reference": "caabb4044ecac0ea79aa3da498688153ded75ae4dbc68c0ac0fd1cfc91800343",
+      "regenerated": false
+    },
+    "casual6": {
+      "accepted": true,
+      "image_sha256": "3907fa0539852aeef5fe8c4380e5ad6aa6abfad0c23f135a0fa1c07c712372f5",
+      "observations": "도예 공방에서 갈색 면 란제리풍 세트. 도자기 항아리를 안고 다른 손에 붓을 든 전신, 맨발.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "눈꺼풀과 얼굴 윤곽은 가는 색 선, 코·뺨·턱은 부드러운 그라데이션, 머리카락 가닥과 직물·금속 재질을 입체적으로 렌더링함."
+      },
+      "exposure": {
+        "judgment": "match",
+        "basis": "어깨·복부·허리·다리가 드러남. 목선은 계획보다 완만하나 의상 종류와 노출 영역은 유지됨.",
+        "regenerated": false
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "count_note": "몸의 구성 기준 수이며 프레임 밖의 팔다리는 검증할 수 없음",
+        "hands": "항아리를 받친 손은 손가락 일부가 항아리 뒤에 가려짐. 붓을 든 손의 손목·손가락이 이어짐. 두 다리와 발은 자연스러운 전후 보행 자세.",
+        "overlay_checked": false,
+        "note": "원본과 보이는 손의 연결을 눈으로 확인. 가려진 손가락 수를 추정해서 통과시키지 않음."
+      },
+      "reference": "caabb4044ecac0ea79aa3da498688153ded75ae4dbc68c0ac0fd1cfc91800343",
+      "regenerated": false
+    },
+    "casual7": {
+      "accepted": true,
+      "image_sha256": "229d870b41727bd8393753355f159a1c4f9a6bc8c2101ddf9b4bb0a4537c01f4",
+      "observations": "야영장 담요에 엎드려 쉬는 탐험가 의상. 모자·짧은 상의·쇼츠·장화, 뒤쪽으로 몸을 두고 고개를 돌려 웃음.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "눈꺼풀과 얼굴 윤곽은 가는 색 선, 코·뺨·턱은 부드러운 그라데이션, 머리카락 가닥과 직물·금속 재질을 입체적으로 렌더링함."
+      },
+      "exposure": {
+        "judgment": "match",
+        "basis": "등·어깨·허리·허벅지가 드러남. 손과 팔이 서로 겹쳐 있어 손가락 완전 계수는 불가.",
+        "regenerated": false
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "count_note": "몸의 구성 기준 수이며 프레임 밖의 팔다리는 검증할 수 없음",
+        "hands": "앞쪽에 모은 두 장갑손은 겹쳐 손가락 일부가 가려짐. 두 팔은 상체 앞에 연결됨. 두 다리와 장화 두 켤레 끝을 확인.",
+        "overlay_checked": false,
+        "note": "원본과 보이는 손의 연결을 눈으로 확인. 가려진 손가락 수를 추정해서 통과시키지 않음."
+      },
+      "reference": "caabb4044ecac0ea79aa3da498688153ded75ae4dbc68c0ac0fd1cfc91800343",
+      "regenerated": false
+    },
+    "casual9": {
+      "accepted": true,
+      "image_sha256": "62ad077c8d39057007ae35f0de8e08278114da70f1318abe786e96b6f0e7c689",
+      "observations": "도서관 의자에서 턱을 괴고 앉은 파랑·금색 장식 유니폼풍 상의와 스커트. 책·찻잔과 여우 조각상.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "눈꺼풀과 얼굴 윤곽은 가는 색 선, 코·뺨·턱은 부드러운 그라데이션, 머리카락 가닥과 직물·금속 재질을 입체적으로 렌더링함."
+      },
+      "exposure": {
+        "judgment": "match",
+        "basis": "한쪽 어깨·깊은 목선·허벅지가 드러남. 오른쪽으로 옆 시선을 둔 앞 3/4 구도로 보임.",
+        "regenerated": false
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "count_note": "몸의 구성 기준 수이며 프레임 밖의 팔다리는 검증할 수 없음",
+        "hands": "턱을 괸 손은 손가락 일부가 얼굴에 가려짐. 의자 팔걸이의 손은 다섯 손가락이 아래로 이어짐. 양팔과 접힌 두 다리의 연결이 자연스러움.",
+        "overlay_checked": false,
+        "note": "원본과 보이는 손의 연결을 눈으로 확인. 가려진 손가락 수를 추정해서 통과시키지 않음."
+      },
+      "reference": "caabb4044ecac0ea79aa3da498688153ded75ae4dbc68c0ac0fd1cfc91800343",
+      "regenerated": false
+    },
+    "light": {
+      "accepted": true,
+      "image_sha256": "caabb4044ecac0ea79aa3da498688153ded75ae4dbc68c0ac0fd1cfc91800343",
+      "observations": "금백색 장발과 주황 끝의 꼬리형 자락, 두꺼운 어깨 장갑과 부스터, 한 손 불꽃, 양발까지 들어온 전신.",
+      "style_25d": {
+        "judgment": "match",
+        "basis": "눈꺼풀과 얼굴 윤곽은 가는 색 선, 코·뺨·턱은 부드러운 그라데이션, 머리카락 가닥과 직물·금속 재질을 입체적으로 렌더링함."
+      },
+      "exposure": {
+        "judgment": "match",
+        "basis": "설계한 가슴 창과 허벅지 영역이 드러남.",
+        "regenerated": false
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "count_note": "몸의 구성 기준 수이며 프레임 밖의 팔다리는 검증할 수 없음",
+        "hands": "두 팔과 두 다리 연결이 자연스러움. 오른쪽 펼친 장갑손에서 다섯 손가락, 왼쪽 내린 손의 손가락은 일부 겹침.",
+        "overlay_checked": false,
+        "note": "원본과 보이는 손의 연결을 눈으로 확인. 가려진 손가락 수를 추정해서 통과시키지 않음."
+      },
+      "reference": null,
+      "regenerated": false
+    }
+  },
+  "skipped": [
+    {
+      "slot": "casual2",
+      "status": "no_returned_file_after_concurrent_group_error",
+      "request_id": "05e8f9dd-009f-4bb1-911c-6e72adbddec9",
+      "code": "moderation_blocked",
+      "attribution": "The group contained both casual2 calls. The failing request cannot be attributed from the returned group error. Neither request delivered an output file. The other call outcome is unconfirmed; neither was retried.",
+      "attempts": 1
+    },
+    {
+      "slot": "casual8",
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID abea87cf-2ce1-4e14-b45e-75ee31bb44dd. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+      "terminal": true,
+      "output_files": []
+    }
+  ],
+  "generated": 8,
+  "diversity_comparison": {
+    "own_set": "해변·공원·온천·암벽장·공방·야영·포토부스·도서관 등 실제 배경과 활동을 대조. 전신·무릎 위·허리 위·얼굴 확대가 섞이고 서기·앉기·휴식 동작이 구분됨. 계획과 다른 구도·옷 세부는 각 슬롯 관찰에 남김.",
+    "other_character": "동시에 만든 다른 캐릭터의 같은 장소 컷과 비교: 조리와 엎드린 휴식, 앉은 암벽장과 가방을 든 암벽장, 노란 사리 상반신과 도자기 전신처럼 실제 동작·복장·구도가 구분됨.",
+    "automated": {
+      "crowd_below": 245,
+      "cuts": [
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/752cece430ff/generated_images/exec-17b2b656-4951-4364-9c07-fdaf6a5c9379.png",
+          "near": [
+            [
+              "딱충이_anime_25d_gloss_f_casual2.webp",
+              258
+            ],
+            [
+              "레시라무_glossy_promo_f_casual3.webp",
+              268
+            ],
+            [
+              "주뱃_anime_25d_f_casual5.webp",
+              272
+            ],
+            [
+              "독침붕_anime_25d_gloss_f_casual4.webp",
+              287
+            ],
+            [
+              "깨봉이_glossy_promo_f_casual3.webp",
+              292
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 1,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/752cece430ff/generated_images/exec-1dd54db4-45c4-4f3c-8c1c-00c0508f8899.png",
+          "near": [
+            [
+              "고지_anime_25d_gloss_f_casual8.webp",
+              235
+            ],
+            [
+              "지라치_glossy_promo_f_casual2.webp",
+              249
+            ],
+            [
+              "보송송_glossy_promo_f_casual2.webp",
+              254
+            ],
+            [
+              "이상해씨_anime_25d_f_casual3.webp",
+              259
+            ],
+            [
+              "불켜미_glossy_promo_f_casual1.webp",
+              260
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/752cece430ff/generated_images/exec-fedffcb1-fdaf-4164-a7a4-6b22f56ff6a5.png",
+          "near": [
+            [
+              "니드런♀_anime_25d_gloss_f_casual5.webp",
+              307
+            ],
+            [
+              "독침붕_anime_25d_gloss_f_casual9.webp",
+              318
+            ],
+            [
+              "고지_anime_gloss_f_casual7.webp",
+              327
+            ],
+            [
+              "두코_glossy_promo_f_casual1.webp",
+              328
+            ],
+            [
+              "딱충이_anime_25d_gloss_f_casual8.webp",
+              328
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/752cece430ff/generated_images/exec-09389c9d-0f0b-43b4-acd0-6f54d4398a24.png",
+          "near": [
+            [
+              "니드퀸_anime_25d_gloss_f_casual4.webp",
+              291
+            ],
+            [
+              "삐삐_anime_25d_f_casual1.webp",
+              296
+            ],
+            [
+              "꼬모카_glossy_promo_f_casual2.webp",
+              302
+            ],
+            [
+              "삐삐_anime_gloss_f_casual4.webp",
+              307
+            ],
+            [
+              "독침붕_anime_25d_gloss_f_casual2.webp",
+              308
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/752cece430ff/generated_images/exec-6f196678-4d3b-42ef-8c71-a67ac988d095.png",
+          "near": [
+            [
+              "에레키드_glossy_promo_f_casual2.webp",
+              260
+            ],
+            [
+              "다부니_glossy_promo_f_casual3.webp",
+              272
+            ],
+            [
+              "플라제스_glossy_promo_f_casual3.webp",
+              276
+            ],
+            [
+              "마이농_glossy_promo_f_casual1.webp",
+              288
+            ],
+            [
+              "브케인_glossy_promo_f_casual1.webp",
+              288
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/752cece430ff/generated_images/exec-6c33b78e-ebc3-4560-9e2a-77e3cd47d35c.png",
+          "near": [
+            [
+              "럭키_glossy_promo_f_casual3.webp",
+              258
+            ],
+            [
+              "날쌩마_glossy_promo_f_casual3.webp",
+              259
+            ],
+            [
+              "통통코_glossy_promo_f_casual3.webp",
+              267
+            ],
+            [
+              "야도킹_glossy_promo_f_casual3.webp",
+              269
+            ],
+            [
+              "왕콘치_glossy_promo_f_casual1.webp",
+              273
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/752cece430ff/generated_images/exec-6a97a69d-9d6c-4d33-a377-57b2b7cb4ef3.png",
+          "near": [
+            [
+              "깨비참_anime_gloss_f_casual1.webp",
+              320
+            ],
+            [
+              "이상해씨_anime_25d_f_casual7.webp",
+              332
+            ],
+            [
+              "휠구_glossy_promo_f_casual1.webp",
+              344
+            ],
+            [
+              "귀뚤뚜기_glossy_promo_f_casual2.webp",
+              346
+            ],
+            [
+              "셀러_glossy_promo_f_casual3.webp",
+              348
+            ]
+          ],
+          "same_as_own": []
+        }
+      ],
+      "dup_below": 215,
+      "ok": true
+    }
+  },
+  "face_reason": "길게 흐르는 아홉 꼬리와 신비로운 분위기를 긴 윤곽과 가늘고 긴 눈으로 해석한다.",
+  "compared_characters": [
+    "니드리노",
+    "픽시",
+    "나옹",
+    "니드퀸",
+    "식스테일"
+  ],
+  "comparison_scope": "현재 화풍의 경장 썸네일 다섯 장과 이번 두 메카를 나란히 비교. 니드킹은 넓은 미소·낮은 눈썹·각진 턱, 나인테일은 작은 입·가늘고 긴 눈·좁은 턱으로 차이가 보임. 썸네일 해상도상 미세 얼굴 비율 비교에는 한계가 있음."
+}
