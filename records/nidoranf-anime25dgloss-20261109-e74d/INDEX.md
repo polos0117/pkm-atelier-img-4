@@ -1,6 +1,6 @@
 # 니드런♀ (0029 · Nidoran♀) — 지시문 묶음
 
-화풍 `anime_25d_gloss` · 만든 도구 `tools/prompt-pack.cjs build` · 생성기 코드 0ae6693 · 2026-11-09T00:53:35.098Z
+화풍 `anime_25d_gloss` · 만든 도구 `tools/prompt-pack.cjs build` · 생성기 코드 0ae6693 · 2026-11-09T01:15:33.981Z
 
 자리마다 `<자리>-prompt.txt` 를 **고치지 않고 그대로** 제출하고, 첨부 칸의 그림을 붙인다. 고칠 것이 있으면 settings.json 을 고쳐 build 를 다시 돌린다.
 
@@ -22,7 +22,7 @@
 | ⑦ | casual6 | ① 니드런♀_light_anime_25d_gloss_f.webp | `casual6-prompt.txt` | 1006 | `0c4b6b19babe` | `니드런♀_anime_25d_gloss_f_casual6.webp` |
 | ⑧ | casual7 | ① 니드런♀_light_anime_25d_gloss_f.webp | `casual7-prompt.txt` | 1093 | `f444eeba2f16` | `니드런♀_anime_25d_gloss_f_casual7.webp` |
 | ⑨ | casual8 | ① 니드런♀_light_anime_25d_gloss_f.webp | `casual8-prompt.txt` | 1027 | `43d090484ec1` | `니드런♀_anime_25d_gloss_f_casual8.webp` |
-| ⑩ | casual9 | ① 니드런♀_light_anime_25d_gloss_f.webp | `casual9-prompt.txt` | 970 | `4e1f3712222c` | `니드런♀_anime_25d_gloss_f_casual9.webp` |
+| ⑩ | casual9 | ① 니드런♀_light_anime_25d_gloss_f.webp | `casual9-prompt.txt` | 1010 | `586c05b67cc6` | `니드런♀_anime_25d_gloss_f_casual9.webp` |
 
 ## ② casual1 — 고른 장면(버전2)
 
@@ -132,11 +132,11 @@
 
 | 칸 | 고른 것 | 지시문 문장 |
 |---|---|---|
-| 시대 | 지금 현실 | present-day real world |
-| 장소 | 파우더룸 | a club powder room with a lit mirror and neon on the tiles |
+| 시대 | 무대·환상 | a stylised stage, editorial or fantasy setting not bound to a real year |
+| 장소 | 구름 위 정자 | an open pavilion floating above a sea of clouds at sunrise |
 | 역할 | — |  |
-| 의상 | 수영복 · 홀터 비키니 | a halter bikini with a neck tie and an underbust band |
-| 몸 자세 · 구도 | 걷기 · full_body · 3/4 정면 | walking |
+| 의상 | 수영복 · 크로셰 비키니 | a fully lined crochet-knit bikini in a sunny resort colour |
+| 몸 자세 · 구도 | 의자에 앉기 · full_body · 3/4 정면 | seated on a chair |
 | 손 · 소품 동작 | AUTO · AUTO |  |
 
-옷 종류 bikini · 옷 색 그레이 · 실버 (dove grey and silver) · 드러내기 deep V neckline, cutout waist · 장면 칸 첫머리 action
+옷 종류 bikini · 옷 색 코랄 · 오렌지 (coral and soft orange) · 드러내기 sweetheart neckline, halter neck · 장면 칸 첫머리 detail
