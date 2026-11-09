@@ -1,0 +1,243 @@
+{
+  "card": "고라파덕",
+  "style": "anime_25d_gloss",
+  "reviewer": "gpt",
+  "notes": [
+    "노출을 이유로 생성된 결과를 재생성하지 않음.",
+    "casual4 첫 호출은 Unexpected end of JSON input 오류로 이미지 파일 미반환; 같은 원문 재시도 1회 완료.",
+    "해부 자동 검사기는 mediapipe 미설치로 unavailable; 원본과 손 확대를 눈으로 확인.",
+    "casual-look 검사 통과 — 최저 유사도 거리 237, 재생성 문턱 215 이상."
+  ],
+  "slots": {
+    "light": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "완만한 3/4 전신, 크림색 판금과 부유 링, 열린 손 위 푸른 물구체."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "코와 뺨 아래 부드러운 음영, 가는 얼굴선, 금발 가닥과 금속 판의 반사."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·위팔·복부가 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "열린 장갑 손 다섯 손가락; 반대쪽 느슨한 주먹은 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual1": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "극장 계단 배경에서 붉은 접부채가 입 아래를 가리고 눈은 카메라를 봄."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "부드러운 콧등·볼 음영, 금발의 다층 하이라이트."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "쇄골과 어깨·목선이 드러남; 얼굴 클로즈업."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "부채 잡은 손은 다섯 손가락 윤곽, 다른 손은 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual2": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "옥상 물탱크·전구와 기타, 양손이 줄과 지판에 놓임."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "피부 음영은 연속 그라데이션, 자수 견장과 기타 목재 재질이 구별됨."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "깊은 목선·허리 컷아웃·허벅지."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "기타 치는 양손의 손가락 다섯, 지판을 잡은 엄지는 뒤로 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual3": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "분수 앞 로즈색 슬립·로브, 두 손 모음과 윙크, 천과 머리가 바람에 날림."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "얼굴 연한 음영과 실크의 방향성 반사가 분리됨."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "양어깨·쇄골·목선이 드러남; 정면이라 열린 등은 보이지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손을 겹쳐 손가락 일부가 가려짐, 팔 두 개가 각 손목으로 연결.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual5": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "네온 바에서 옆얼굴로 휴대폰을 보고 다른 손은 바에 둠; 고라파덕 모자·코스튬."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "뺨과 코 아래 연한 음영, 장갑과 새틴 소매에 다른 반사."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "목선·어깨·복부가 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "휴대폰 쥔 손은 뒤로 일부 가려짐; 바 위 손은 다섯 손가락 형태.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual6": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "사진 부스 거울·링 조명, 은회색 홀터 상의와 뺨을 만지는 손."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "눈꺼풀의 가는 선, 코·입술 아래 부드러운 음영, 머리 가닥이 분리됨."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "어깨·쇄골·목선이 드러남; 얼굴 클로즈업."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "뺨을 만진 손은 다섯 손가락 윤곽, 반대 손은 크롭 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual4": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "잔디 피크닉 담요에 엎드려 두 손으로 턱을 받치고 발을 올림; 고라파덕 한 마리가 옆에 있음."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "볼·턱의 부드러운 입체 음영, 보라색 니트 골과 직물 겹침."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "깊은 목선·복부·어깨·다리."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱을 감싼 양손의 손가락 일부가 얼굴에 가려짐, 팔꿈치 둘·발 둘이 몸에 연결.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual7": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "연구소 지도·장비 상자 앞 바닥에 앉아 턱을 괴고 반대 손으로 바닥을 짚음."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "얼굴의 연속 음영과 코르셋 직물·봉제선이 구별됨."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "목선·허리 옆·허벅지·다리."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 괸 손 일부 가려짐; 바닥 짚은 손은 다섯 손가락, 팔과 손목 연결.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual8": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "패션쇼 런웨이 가장자리에 앉은 검은 수영복과 열린 차콜 유카타, 배경 관객·촬영진은 작은 보조 요소."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "피부의 부드러운 그라데이션과 직물 결, 얼굴 음영 유지."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "깊은 목선·어깨·허벅지·다리."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손이 가장자리를 짚고 다섯 손가락 윤곽, 다리 둘이 자연스럽게 아래로 이어짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    },
+    "casual9": {
+      "scene": {
+        "result": "reviewed",
+        "evidence": "캠프 천막·조리도구 앞, 자수 소매 밴드와 짜임이 있는 상의, 오른쪽을 보는 가슴 위 구도."
+      },
+      "style_25d": {
+        "result": "2.5D",
+        "evidence": "둥근 코끝과 볼·턱 아래 연한 음영, 머리 가닥과 직물 자수 재질이 다름."
+      },
+      "exposure": {
+        "result": "match",
+        "evidence": "양어깨·쇄골·목선이 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손·다리는 크롭 밖, 어깨에서 팔이 화면 아래로 자연스럽게 이어짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인. 크롭 밖·겹친 손가락은 보인다고 세지 않음."
+      },
+      "deviations": []
+    }
+  }
+}
