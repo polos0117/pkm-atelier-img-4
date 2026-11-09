@@ -1,0 +1,189 @@
+{
+ "version": 3,
+ "card": "디그다",
+ "no": 50,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/c10398a822c2/PLAN-v1.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "slim_suit"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "ground"
+     },
+     {
+      "key": "seams",
+      "type": "ground"
+     },
+     {
+      "key": "trail",
+      "type": "ground"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "slim_suit"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "ground"
+     },
+     {
+      "key": "seams",
+      "type": "ground"
+     },
+     {
+      "key": "trail",
+      "type": "ground"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "frame_exposed",
+    "segmented_parts",
+    "full_armor",
+    "power_limbs",
+    "tail_unit",
+    "heavy_assault",
+    "wing_binder",
+    "float_units",
+    "halo_crown",
+    "skirt_plate"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual2": {
+   "scene": "A small Diglett is her single companion in the garden.",
+   "outfit": "A coral bamboo-knit shell with a sculpted tulip neckline and broad scalloped shoulder straps, paired with soft lounge bloomers gathered into overlapping lotus-petal panels; opaque and securely fitted.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획기의 옷 자유 컷: outfit-catalog.md에 없는 재단과 조합을 이 장면에 맞게 설계.",
+    "scene": "동료 포켓몬과 함께 갈래에서 한 마리의 종을 명시."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual3": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual4": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual5": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual6": {
+   "scene": "",
+   "outfit": "A teal cross-wrapped racer bralette with wide origami shoulder loops and high-waisted stretch culotte shorts with curved ventilation panels; fully opaque, secure athletic construction.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "계획기의 옷 자유 컷: outfit-catalog.md에 없는 재단과 조합을 이 장면에 맞게 설계."
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual7": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual8": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual9": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  }
+ }
+}

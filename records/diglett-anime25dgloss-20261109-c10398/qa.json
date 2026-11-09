@@ -1,0 +1,318 @@
+{
+ "card": "디그다",
+ "style": "anime_25d_gloss",
+ "generator": "built-in image_gen",
+ "requested": 10,
+ "generated": 10,
+ "regenerated_returned_images": false,
+ "planner_note": "Supported --v1 planner used after v2 exhausted 40 attempts in repeated seeds with framing-pair conflicts; v1 plan passed check and reservation stamp verification. Recent 12 characters and current reservations were included without copying historical image sets.",
+ "submission_timing_note": "The two text-only light images were requested while casual planning was still running. Casual generation began only after stamped plan was published.",
+ "anatomy_tool": "unavailable: mediapipe not installed; exit 3. Manual visual review used.",
+ "cuts": [
+  {
+   "slot": "light",
+   "appearance": "갈색 머리와 갈색 눈, 분홍·갈색 금속 장갑. 바위와 모래가 손 위에 뜸.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "한 장갑 손은 펼치고 다른 손은 옆으로 느슨하게 내림. 사람 팔 둘·다리 둘.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨와 가슴 창이 열리고 복부·다리는 장갑으로 덮임."
+   },
+   "submitted_sha256": "093df447d101ed39c69a720c30a7a0c207dd67841cd3d7a4531e0083433c73a4",
+   "submitted_same": true,
+   "original_sha256": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18",
+   "webp_sha256": "2ff606a5c276aabe839a0228e8b01cd90a2406e6c152947d9630b3606374bd10",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "text only"
+  },
+  {
+   "slot": "casual1",
+   "appearance": "비 내리는 다이너 창가에서 주황 의례풍 이벤트 의상으로 머그를 들음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "장갑 낀 한 손이 머그 손잡이를 잡음. 반대 손은 크롭 밖.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·목선이 보임. 계획보다 가슴 위로 타이트하게 크롭됨."
+   },
+   "submitted_sha256": "c66a4d0901f117d61e37d442bbfece6e193dd840bc408f164841d0f30f6e27ec",
+   "submitted_same": true,
+   "original_sha256": "2afec0347a8635a1130f93694725f6cb8bd8f424193e8cc8d6c9bad22da774a9",
+   "webp_sha256": "a7734d89550fb4edc577ed8f88a6ff52cdec0cfc4da0ffacbf33cfc0765fc284",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  },
+  {
+   "slot": "casual2",
+   "appearance": "정원에서 한 마리 디그다를 쓰다듬으며 열매를 듦. 코랄 상의와 꽃잎형 라운지 하의.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "한 손이 열매를 집고 다른 손은 동료 머리 위에 놓임. 동료에 가려진 손끝은 확정 계수하지 않음.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·허리·허벅지가 보임. 사람 하나와 동료 한 마리."
+   },
+   "submitted_sha256": "dfa3d15e250aec87b3d387d4c6092532c089ba8c51c954ac3fd94d6fe352591f",
+   "submitted_same": true,
+   "original_sha256": "8256afb474821f20bf29c061301cfdaa3f088cd47fae76b12d6ed5389aa394b3",
+   "webp_sha256": "85ee153450f28b0788df2ed5f034f32163ac77fa467cf6ad6f6fa6570129c287",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  },
+  {
+   "slot": "casual3",
+   "appearance": "레드카펫 배경에서 보라색 슬립과 열린 실크 겉옷. 얼굴 중심 클로즈업.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손·다리는 크롭 밖.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·목선이 보이고 디그다 장신구가 여러 개 남음."
+   },
+   "submitted_sha256": "2ec1ff25c18980317764dfa7ea017e46d7526f404aab0efbbdf06bdc7a5bd3b9",
+   "submitted_same": true,
+   "original_sha256": "0290276fe50ddd67a0cde8041ac82d1f3e9b0e52c71e952c50397a9474d098f0",
+   "webp_sha256": "7aa8142584b96142ffbabeb8a3aba4cd9a11f313955cc9bf5040fa964a177cc7",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  },
+  {
+   "slot": "casual4",
+   "appearance": "호텔 소파에 엎드려 다리를 뒤로 굽힘. 녹색 레이스 케바야풍 차림.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손을 쿠션 위에 포개며 팔목이 자연스럽게 연결됨. 겹친 손의 일부 손가락은 가려짐.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·목선·다리가 보임. 레이스 아래 불투명한 안감."
+   },
+   "submitted_sha256": "9e7b40339737f838978d9b1b04ae12e5e26ddc1bef4cd0833ecc42fd4a4c7113",
+   "submitted_same": true,
+   "original_sha256": "d92bdc102fce136bd1eb80738c9989ba5f6572c863c78577ad090fe105120631",
+   "webp_sha256": "b61567913145afaf4d0cf559855315fb09e8b81f56012589fa70cd34f19a4695",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  },
+  {
+   "slot": "casual5",
+   "appearance": "오아시스에서 갈색 사파리 의상과 모자를 쓰고 모자챙을 잡음. 바람에 옷자락이 날림.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "보이는 손이 모자챙을 집고 엄지가 손바닥 안쪽에 있음. 반대 손은 크롭 밖.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "등과 어깨가 보임. 프레이밍이 계획보다 상반신 중심."
+   },
+   "submitted_sha256": "a1b88fd9500e12c969f7e711b36769336299ce8f8b858fbeebdfed35d853fb46",
+   "submitted_same": true,
+   "original_sha256": "aadb5c6323f0cb6cf9ca2879a1dfbb88a580e3d7867c06e4f42f48ed04dddb77",
+   "webp_sha256": "07fc1ee6f9cd503c45ab4e6673fb9f9ed5e35b7ec1a7dff961c797784bee7994",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  },
+  {
+   "slot": "casual6",
+   "appearance": "체육관에서 청록색 운동복, 한 손에 펜싱 검과 다른 손에 마스크를 듦.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 장갑 손이 각각 검·마스크를 잡음. 손가락 일부는 손잡이·마스크에 가려짐.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "허리·등·허벅지가 보임. 계획의 일반 운동 장면에 펜싱 소품이 구체화됨."
+   },
+   "submitted_sha256": "94ad6a7f7f420a3bffac02ee649c9100008ad00bd38c082d6bad931c930605af",
+   "submitted_same": true,
+   "original_sha256": "8bcd45b51ff3f50e43cc34adf364b295cfb34afdd014bcc34520d7a2cb4df9fd",
+   "webp_sha256": "f290e52089b758e20edb44530915496025d6f1f52752c1bde33f0f7c989a7f22",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  },
+  {
+   "slot": "casual7",
+   "appearance": "수영장 선베드에서 민트색 반짝이는 홀터 점프슈트를 입고 기대어 앉음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "한 손으로 머리를 받치고 다른 손은 무릎에 놓임. 양팔 연결과 보이는 손가락 윤곽 확인.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·목선이 보임. 하의는 긴 플레어 팬츠이며 요청대로 보존."
+   },
+   "submitted_sha256": "2580a303d22dda07a441183439e60589a5853e8226993d4d0c541020c1472b93",
+   "submitted_same": true,
+   "original_sha256": "0381e86ba0b09772546042bd87a3d7680218a2bbe4cc53d0e3191cb6177da989",
+   "webp_sha256": "680a2a26cccacac5e774789f163c5b21f43b51042369b05700ab36e17e4d3ff8",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  },
+  {
+   "slot": "casual8",
+   "appearance": "아케이드 크레인 게임 유리창에 한 손을 대고 디그다 후드 의상으로 앞으로 숙임.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "유리에 댄 한 손은 엄지와 네 손가락이 구분됨. 다른 손은 몸 뒤에 가려짐.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·목선이 보이고 디그다 얼굴 형태 후드·가슴 장식."
+   },
+   "submitted_sha256": "a0c5409191a969973d40ac037a828306cecfb5e1cd4eb49e14fa660e6a555870",
+   "submitted_same": true,
+   "original_sha256": "fd75ab7f3c1d752b4ed1847731c270a1779a4b91faa4c0a9ce9bbad5371a5284",
+   "webp_sha256": "b7c440754c3302a8ccc9d94d5e61717ffb69d8482fcbfe0bbd12aad89397c146",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  },
+  {
+   "slot": "casual9",
+   "appearance": "대리석 하맘에서 분홍 링 비키니, 얼굴에 진흙 팩을 바르고 다른 손에 놋그릇을 듦.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "얼굴에 닿는 손과 그릇을 받치는 손 모두 손목·팔 연결 확인. 그릇 아래 손가락은 일부 가림.",
+    "overlay_checked": false,
+    "note": "Occluded or cropped fingers and limbs are not claimed visible."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "코와 볼·턱의 부드러운 그라데이션, 머리 가닥과 직물·금속의 다층 음영, 피부 선택 광택."
+   },
+   "exposure": {
+    "verdict": "observed; retained without regeneration",
+    "evidence": "어깨·복부·다리가 보임. 진흙 팩이 얼굴 피부를 일시적으로 가림."
+   },
+   "submitted_sha256": "56de94663a0da62b09a397a2bee2a9050486189a31c78a2dc97aeb46ae9cb3f9",
+   "submitted_same": true,
+   "original_sha256": "c265d09615a52614c890552c2a32365bd43f896047983f64ab064b32c9edd6c6",
+   "webp_sha256": "64724d444e4e5a62f66a0a9b3d7e76920feb1aa36f67dc552d6898fa7352ac8b",
+   "frame": [
+    1024,
+    1536
+   ],
+   "reference": "1a441136343c177d46083aec86e8d5ffc749f0b48c21a868e5386221b1804c18"
+  }
+ ],
+ "skipped": [],
+ "blocked_attempts": [
+  {
+   "slot": "casual7",
+   "request_id": "1f769449-9e96-4214-8bca-3db5a5da197d",
+   "stage": "output",
+   "result": "No image returned; same unchanged prompt succeeded on retry."
+  },
+  {
+   "slot": "casual9",
+   "request_id": "60814977-2b3e-43a4-a344-e9d17b5d037c",
+   "stage": "output",
+   "result": "No image returned; same unchanged prompt succeeded on retry."
+  }
+ ]
+}
