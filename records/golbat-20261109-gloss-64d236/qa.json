@@ -1,0 +1,386 @@
+{
+ "card": "골뱃",
+ "style": "anime_25d_gloss",
+ "generator": "built-in image_gen",
+ "request": "1 light + 9 casual",
+ "exposure_regeneration_of_returned_images": false,
+ "original_png_policy": "Only sha256 retained in Git; original PNG remains in session.",
+ "face_design": {
+  "source": "data/face-design.json and data/source-appearance.json",
+  "reason": "푸크린은 둥근 눈·부드러운 타원 윤곽·도톰한 입술, 골뱃은 작은 올라간 눈·넓은 입으로 원작 특징을 사람 얼굴로 해석.",
+  "compared": [
+   "푸린",
+   "주뱃",
+   "픽시",
+   "니드리노",
+   "냄새꼬"
+  ],
+  "observed": "푸크린은 큰 둥근 눈과 부드러운 볼·작은 코, 골뱃은 가늘고 긴 눈·꺾이는 눈썹·넓은 웃는 입. 같은 계열·최근 세 인물과 대조했다."
+ },
+ "cuts": [
+  {
+   "slot": "light",
+   "file": "골뱃_light_anime_25d_gloss_f.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "보라 장발·작고 올라간 눈매·넓은 웃는 입. 보라 경장과 분할 날개, 손 위 독방울, 달빛 폐허와 두 장갑 부츠."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "마법을 든 장갑 손은 네 손가락과 엄지, 반대 손은 주먹. 두 팔·두 다리가 몸과 장갑 관절을 따라 이어진다.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "복부·허벅지가 열리고 가슴·중요 부위는 장갑이 덮는다."
+   },
+   "submitted_sha256": "ecb41e2e6e674c01a82cae29ea0d3081ba5c442187a597a0dd619af2d44dd82a",
+   "submitted_same": true,
+   "original_sha256": "6c18d47a5aae8d67b98967a1594f1074d51bd6c95bb0b09d7f388c7561d43388",
+   "webp_sha256": "25d4a6d3f966ef58975c53ce9880a58972d64af0fd746b11eb95eaa4116c1cf2",
+   "reference": "text only; no reference",
+   "observed_deviations": "복부·허벅지가 열리고 가슴·중요 부위는 장갑이 덮는다."
+  },
+  {
+   "slot": "casual1",
+   "file": "골뱃_anime_25d_gloss_f_casual1.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "목장 데크체어에 누워 닫힌 책을 가슴에 안는다. 테라코타색 주름 플레이수트와 두 샌들, 다른 팔은 머리 뒤."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "책 쥔 손의 네 접힌 손가락과 책 뒤 엄지, 머리 뒤 손은 가려짐. 들어 올린 팔의 팔꿈치와 어깨 연결 확인. 두 다리가 각각 샌들로 이어짐.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·목선·다리가 보인다. 옷 자유 디자인으로 전통 블라우스 대신 플레이수트를 사용했다."
+   },
+   "submitted_sha256": "5383d0531c442a3d04be70d266cd30ab663db6c6a50d7c18df39489c0ad645a2",
+   "submitted_same": true,
+   "original_sha256": "2fd51572382bba84f81fea152c26623e4e624fb6fa85186c14b803a65ab21e28",
+   "webp_sha256": "a39afcfba97ae354510be0ac0f6390c6ddcee189fc5d1d0dae84c2a1174217a6",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨·목선·다리가 보인다. 옷 자유 디자인으로 전통 블라우스 대신 플레이수트를 사용했다."
+  },
+  {
+   "slot": "casual2",
+   "file": "골뱃_anime_25d_gloss_f_casual2.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "네온 박쥐와 조명이 있는 파우더룸 거울대. 보라 골뱃 코스튬에 귀 머리띠·날개·송곳니 장식. 두 손을 카운터에 둠."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 장갑 손의 네 손가락과 엄지 구조, 지지면 뒤 일부 가려짐. 손목·팔뚝이 각 어깨로 이어진다. 하체 일부는 크롭 밖.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·목선·허벅지 일부가 보인다. 노래방 시도 bold 두 차례·moderate·low 반환 차단 후 계획기로 파우더룸으로 재기획했다."
+   },
+   "submitted_sha256": "04aec9ec91a84fae172c62948e1ee5e7f697e186ba78d7201c68acfef7f6811c",
+   "submitted_same": true,
+   "original_sha256": "9adee56f11a4a181c304f578b26b62c6413c6d76784e8932a859de45478839d7",
+   "webp_sha256": "00d45c99e72ef9f01fbcc6645783c77e9c7665cb459312bc56230182ff9c2784",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨·목선·허벅지 일부가 보인다. 노래방 시도 bold 두 차례·moderate·low 반환 차단 후 계획기로 파우더룸으로 재기획했다."
+  },
+  {
+   "slot": "casual3",
+   "file": "골뱃_anime_25d_gloss_f_casual3.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "야자수가 보이는 리조트 카바나, 비행사 고글과 파란 가죽 재킷. 한 손을 뺨에 대고 입을 벌려 웃는다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "뺨의 손은 네 손가락과 안쪽 엄지, 손목이 재킷 소매로 연결된다. 반대 손·다리는 크롭 밖.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·목선이 보인다. 계획의 얼굴 클로즈업에 맞춰 하체 의상은 보이지 않는다."
+   },
+   "submitted_sha256": "9f51be79f488444da00368f8ee54778ec2f598bc1568b498272cefc927404c4b",
+   "submitted_same": true,
+   "original_sha256": "51f2fbd6a58a2c5b6e1ca31a9e6ce77179c7512f788d32da3681fbbc7e0b685d",
+   "webp_sha256": "a87d33e1e6c60a96b9d6bcc9050b500ecf0ab41ff7e1e4a296d38bda17c7b8ed",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨·목선이 보인다. 계획의 얼굴 클로즈업에 맞춰 하체 의상은 보이지 않는다."
+  },
+  {
+   "slot": "casual4",
+   "file": "골뱃_anime_25d_gloss_f_casual4.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "포켓몬 세계의 나무열매 과수원 창가. 붉은 벨벳 판타지 의상, 한 무릎을 올려 앉고 턱 아래에 손을 둔다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "턱 아래 손의 네 손가락과 일부 가려진 엄지, 바닥 지지 손의 네 손가락·엄지. 팔 둘과 다리 둘의 연결 확인.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·목선·높은 슬릿의 다리가 보인다. 바람이 머리와 자락을 옆으로 흐르게 한다. 계획의 뒤 3/4보다 측면으로 나왔다."
+   },
+   "submitted_sha256": "ead615c2823fd938ab4cee445c2a32baf22c828a782207037f5650e4df081ac2",
+   "submitted_same": true,
+   "original_sha256": "ec79c0f508f570a76bcee502d669ae359330fa125a77a3e1ec95fbf7c3ddd0c3",
+   "webp_sha256": "c7e22d9c61eb85b0f4d84a9fe7fb64a941b35f92b0ad46a070fa8c2f1e05bd12",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨·목선·높은 슬릿의 다리가 보인다. 바람이 머리와 자락을 옆으로 흐르게 한다. 계획의 뒤 3/4보다 측면으로 나왔다."
+  },
+  {
+   "slot": "casual5",
+   "file": "골뱃_anime_25d_gloss_f_casual5.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "불꽃놀이 강가의 돌벽에 앉아 양손을 뒤로 지지. 회색 새틴 세트와 열린 셔츠, 모은 무릎·두 구두."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 손가락은 지지면에 펴지고 각 엄지는 안쪽. 두 팔이 셔츠 소매와 어깨로 이어짐. 두 다리와 발·신발 확인.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "복부·목선·허벅지가 보인다. 셔츠는 열린 채 어깨 아래로 내려왔다."
+   },
+   "submitted_sha256": "63d0af027632858f9cd28e9c7d490a231e1b57e88fc06f88e6ec2670da43b8a9",
+   "submitted_same": true,
+   "original_sha256": "b089503dd687dbda443a9d0b4ec09514b0179fecc7e34fecf05d0642277020ad",
+   "webp_sha256": "65c6b06d50600b020dfa862bce3d951ae472c53e129325dacf1a8f610310dd59",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "복부·목선·허벅지가 보인다. 셔츠는 열린 채 어깨 아래로 내려왔다."
+  },
+  {
+   "slot": "casual6",
+   "file": "골뱃_anime_25d_gloss_f_casual6.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "동네 카페의 창가, 녹색 크로셰 비키니와 잔. 두 손으로 유리잔을 감싸고 멀리 바라본다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 네 손가락과 잔 뒤 엄지가 각각 연결됨. 아래팔과 팔꿈치가 각 어깨에 이어진다. 하체는 크롭 밖.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·목선·복부가 보이며 수영복은 안감이 있다. 선택된 뒤 3/4보다 앞쪽 몸 방향이다."
+   },
+   "submitted_sha256": "1a7463ae7af885e1c821e15a287a9ab36fb03df2a72b4a1281a706f31885b61f",
+   "submitted_same": true,
+   "original_sha256": "4054f8b91a9be0b7c5748033768277eec8b771a1d6bf86b40718060d3f78397c",
+   "webp_sha256": "7cbac369bffc0a553f12d76f36381b1c9849f1fb0ecb2f3ed56b0c6f7a560923",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨·목선·복부가 보이며 수영복은 안감이 있다. 선택된 뒤 3/4보다 앞쪽 몸 방향이다."
+  },
+  {
+   "slot": "casual7",
+   "file": "골뱃_anime_25d_gloss_f_casual7.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "산속 여관의 히노키 탕 앞에서 어깨 너머 돌아본다. 갈색 가죽 재킷·끈과 박쥐 귀걸이, 가까운 얼굴 크롭."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "손과 다리는 프레임 밖. 어깨와 보이는 위팔이 몸통에 이어지며 분리된 손·추가 팔이 없다.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "어깨·목선이 보인다. 원작 갑옷은 남지 않고 가죽 의상만 보인다."
+   },
+   "submitted_sha256": "1819ab92a193221a17fb2053e7c1ce8858b0998d9dfd78a7ffaff98246a898f8",
+   "submitted_same": true,
+   "original_sha256": "ec95b32931997d759d8fa5206777e2da83a017772104e9b0a1af93b32b1ea042",
+   "webp_sha256": "332cf1b764eb81fe807c3bb2bb0b9525726241cd48d035ac7593654173ef1a6b",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "어깨·목선이 보인다. 원작 갑옷은 남지 않고 가죽 의상만 보인다."
+  },
+  {
+   "slot": "casual8",
+   "file": "골뱃_anime_25d_gloss_f_casual8.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "야외 농구·테니스 코트에서 수건 위에 한 무릎을 세워 앉는다. 민트 제복풍 이벤트 베스트와 반바지, 물병."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "바닥 지지 손과 무릎 위 손의 네 손가락·엄지 구조, 손가락 일부는 크롭과 무릎 뒤. 두 팔 연결 확인. 두 다리 중 아래쪽은 크롭으로 이어짐.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "목선·어깨·허리 컷아웃·다리가 보인다. 계획의 옆으로 눕기보다 앉기에 가깝고 기록만 한다."
+   },
+   "submitted_sha256": "55eff8db560a479420aacc58cc62e9c4fb08bd758f3386e2be85180f9f6997f9",
+   "submitted_same": true,
+   "original_sha256": "aaeace53da5ccfed05089110bd6344c3fa3510057811ea7ccfcd704ec038c77f",
+   "webp_sha256": "44e738fb589d0f9ee8c53d131143c0d5d57a9fdc5f24f9767142de822d59f7cd",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "목선·어깨·허리 컷아웃·다리가 보인다. 계획의 옆으로 눕기보다 앉기에 가깝고 기록만 한다."
+  },
+  {
+   "slot": "casual9",
+   "file": "골뱃_anime_25d_gloss_f_casual9.webp",
+   "frame": {
+    "verdict": "match",
+    "evidence": "1024×1536, WebP."
+   },
+   "appearance": {
+    "verdict": "match",
+    "evidence": "로마 대리석 욕장, 기둥·수면·작은 향병. 진주 장식의 아이보리 홀터 천과 어깨를 가까이 담았다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed; anatomy-check.py returned 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "손과 다리는 크롭 밖. 보이는 양 어깨와 위팔의 몸통 연결, 목과 머리 연결이 자연스럽다.",
+    "overlay_checked": false,
+    "manual_full_image_and_hand_crops_checked": true,
+    "note": "가려진 손·다리는 보이지 않는 것으로 적고 손가락 수를 추정하지 않았다."
+   },
+   "style_25d": {
+    "verdict": "match",
+    "evidence": "얼굴의 코·볼·턱 아래가 부드러운 그라데이션으로 모델링되고, 입술과 뺨에 선택적인 광택이 있다. 머리 가닥·의상 재질은 다단계 음영으로 읽힌다."
+   },
+   "exposure": {
+    "verdict": "match",
+    "evidence": "목선·어깨가 드러난다. 진주와 옅은 천의 반사는 보이며 노출을 이유로 다시 만들지 않았다."
+   },
+   "submitted_sha256": "651f5fec06c0b99fa386c96bf4135011eec4fe1970eac4581438d4704aa6007a",
+   "submitted_same": true,
+   "original_sha256": "6974943368a721bfa86e53520c911084e0685f5f59b3b52daac6f745e1e54620",
+   "webp_sha256": "1802c36aba2f862f22c245e2d06011a01728a0e19ad379d919d9b3c0cf632a62",
+   "reference": "light original PNG directly attached",
+   "observed_deviations": "목선·어깨가 드러난다. 진주와 옅은 천의 반사는 보이며 노출을 이유로 다시 만들지 않았다."
+  }
+ ],
+ "skipped": [],
+ "attempts": [
+  {
+   "slot": "casual2",
+   "reason": "tool returned no image for original karaoke plan at bold twice, moderate and low; planned a different scene",
+   "request_ids": [
+    "de74bd62-4c60-42f1-af5d-7aedc0ca670e",
+    "a67e89f4-a36f-4a78-a4a7-9d725601eb8e",
+    "8c850dcb-66ef-9dad-99b3-f0d8edb990f9",
+    "5e954c7d-6167-4bb7-a8ab-753488031a99"
+   ],
+   "accepted_replan": "night_powder; pc_bodysuit; bold"
+  }
+ ]
+}
