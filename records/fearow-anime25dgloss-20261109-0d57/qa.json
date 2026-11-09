@@ -1,0 +1,183 @@
+{
+  "card": "깨비드릴조",
+  "generation_tool": "built-in image_gen",
+  "regenerated": [
+    {
+      "slot": "casual2",
+      "reason": "composition similarity distance213 below215; official planner changed framing and pose",
+      "first_source": "generated_images/exec-6b7c9ff0-a243-4902-86cc-2345bf35051f.png"
+    }
+  ],
+  "user_constraint": "No regeneration for exposure review",
+  "planning": "Canonical planner candidate sampling expanded locally from 8 to 96; original library restored after full unchanged ledger check passed. Prompt text unmodified.",
+  "comparison": "Recent ten character UI records plus live reservations; visually compared recent Spearow, Sandshrew, Pidgeotto samples.",
+  "cuts": {
+    "light": {
+      "observed": "Pink-brown hard-surface flying armor and feather motifs; two arms and legs connected; open glove and gripping glove have natural wrists and overlapping fingers. Adult face and brown-pink high ponytail.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Pink-brown hard-surface flying armor and feather motifs; two arms and legs connected; open glove and gripping glove have natural wrists and overlapping fingers. Adult face and brown-pink high ponytail."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Pink-brown hard-surface flying armor and feather motifs; two arms and legs connected; open glove and gripping glove have natural wrists and overlapping fingers. Adult face and brown-pink high ponytail."
+      }
+    },
+    "casual1": {
+      "observed": "Sage lounge outfit, close face crop. Hand supporting cheek joins a visible wrist; remaining body and limbs outside crop. Face, eye color and ponytail retained.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Sage lounge outfit, close face crop. Hand supporting cheek joins a visible wrist; remaining body and limbs outside crop. Face, eye color and ponytail retained."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Sage lounge outfit, close face crop. Hand supporting cheek joins a visible wrist; remaining body and limbs outside crop. Face, eye color and ponytail retained."
+      }
+    },
+    "casual2": {
+      "observed": "Coral ski suit, back three-quarter walking on park path with Pidgey. Right shoulder-elbow-wrist connects to umbrella grip; fingers wrap handle with overlap. Left arm hangs with attached glove, two thighs continue past crop. Identity retained.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Coral ski suit, back three-quarter walking on park path with Pidgey. Right shoulder-elbow-wrist connects to umbrella grip; fingers wrap handle with overlap. Left arm hangs with attached glove, two thighs continue past crop. Identity retained."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Coral ski suit, back three-quarter walking on park path with Pidgey. Right shoulder-elbow-wrist connects to umbrella grip; fingers wrap handle with overlap. Left arm hangs with attached glove, two thighs continue past crop. Identity retained."
+      }
+    },
+    "casual3": {
+      "observed": "Gold caftan in berry orchard leaning against stone ledge. Two arms connected from shoulders through wrists to palms on ledge; finger overlap from perspective. Thighs visible, lower legs cropped. No exposure-based regeneration.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Gold caftan in berry orchard leaning against stone ledge. Two arms connected from shoulders through wrists to palms on ledge; finger overlap from perspective. Thighs visible, lower legs cropped. No exposure-based regeneration."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Gold caftan in berry orchard leaning against stone ledge. Two arms connected from shoulders through wrists to palms on ledge; finger overlap from perspective. Thighs visible, lower legs cropped. No exposure-based regeneration."
+      }
+    },
+    "casual4": {
+      "observed": "Blue sleepwear at archery shelter. Two arms naturally reach ledge with attached hands; two bare legs and feet raised onto toes, partial toe overlap. Face and ponytail retained.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Blue sleepwear at archery shelter. Two arms naturally reach ledge with attached hands; two bare legs and feet raised onto toes, partial toe overlap. Face and ponytail retained."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Blue sleepwear at archery shelter. Two arms naturally reach ledge with attached hands; two bare legs and feet raised onto toes, partial toe overlap. Face and ponytail retained."
+      }
+    },
+    "casual5": {
+      "observed": "Rose sari-inspired outfit beside cedar bath. Two arms bend naturally toward cloth held at waist; fingers partly occluded by folds. Two legs and feet identifiable, far leg partly hidden by fabric. Face retained.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Rose sari-inspired outfit beside cedar bath. Two arms bend naturally toward cloth held at waist; fingers partly occluded by folds. Two legs and feet identifiable, far leg partly hidden by fabric. Face retained."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Rose sari-inspired outfit beside cedar bath. Two arms bend naturally toward cloth held at waist; fingers partly occluded by folds. Two legs and feet identifiable, far leg partly hidden by fabric. Face retained."
+      }
+    },
+    "casual6": {
+      "observed": "Lavender mechanic jumpsuit in sleeper train. Two crossed forearms connect to elbows, one hand visible holding opposite upper arm and other hidden under forearm. Lower body cropped.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Lavender mechanic jumpsuit in sleeper train. Two crossed forearms connect to elbows, one hand visible holding opposite upper arm and other hidden under forearm. Lower body cropped."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Lavender mechanic jumpsuit in sleeper train. Two crossed forearms connect to elbows, one hand visible holding opposite upper arm and other hidden under forearm. Lower body cropped."
+      }
+    },
+    "casual7": {
+      "observed": "Ivory swimsuit chest-up in bookstore. Adult face and ponytail retained; visible shoulders and upper arms continue outside crop, hands and legs not visible.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Ivory swimsuit chest-up in bookstore. Adult face and ponytail retained; visible shoulders and upper arms continue outside crop, hands and legs not visible."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Ivory swimsuit chest-up in bookstore. Adult face and ponytail retained; visible shoulders and upper arms continue outside crop, hands and legs not visible."
+      }
+    },
+    "casual8": {
+      "observed": "Wine knit top in shallow surf, side lookback. Two arms connected and hands resting together above water; overlapping fingers, lower body submerged. Face and hair retained.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Wine knit top in shallow surf, side lookback. Two arms connected and hands resting together above water; overlapping fingers, lower body submerged. Face and hair retained."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Wine knit top in shallow surf, side lookback. Two arms connected and hands resting together above water; overlapping fingers, lower body submerged. Face and hair retained."
+      }
+    },
+    "casual9": {
+      "observed": "Fearow costume seated in pottery studio; beak headpiece and feather wings are costume. Two arms attached, one glove at collar and other hanging from chair arm; fingers partly overlap. Two legs together with crossed ankles and two shoes.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": "two where visible; crop/occlusion noted in observed",
+        "legs": "two where visible; crop/occlusion noted in observed",
+        "hands": "visible hands attached through wrists; gripping or hidden fingers not asserted as fully visible",
+        "overlay_checked": false,
+        "note": "Fearow costume seated in pottery studio; beak headpiece and feather wings are costume. Two arms attached, one glove at collar and other hanging from chair arm; fingers partly overlap. Two legs together with crossed ankles and two shoes."
+      },
+      "identity": "reference face and hair retained",
+      "exposure": {
+        "verdict": "recorded without regeneration",
+        "evidence": "Fearow costume seated in pottery studio; beak headpiece and feather wings are costume. Two arms attached, one glove at collar and other hanging from chair arm; fingers partly overlap. Two legs together with crossed ankles and two shoes."
+      }
+    }
+  },
+  "generation_retry": [
+    {
+      "slot": "casual3",
+      "reason": "first tool request returned no image; unchanged prompt retry succeeded",
+      "request_id": "d241c3e4-2e82-479a-833e-7ef254ed7ff8"
+    }
+  ]
+}
