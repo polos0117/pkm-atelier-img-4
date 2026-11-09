@@ -1,0 +1,243 @@
+{
+ "card": "파라섹트",
+ "style": "anime_25d_gloss",
+ "generation_tool": "built-in image_gen",
+ "requested": 10,
+ "generated_deliverables": 10,
+ "successful_generation_calls": 10,
+ "blocked_calls": 1,
+ "regenerated_existing_images": 0,
+ "all_originals_preserved": true,
+ "anatomy_tool_limitation": "unavailable: mediapipe missing; visual full-size and enlarged-hand inspection performed, no model overlays",
+ "diversity": {
+  "check": "casual-look passed; no nearly identical images",
+  "actual_comparisons": [
+   "꼬부기_anime_25d_gloss_f_casual1.webp",
+   "니드리노_anime_25d_gloss_f_casual6.webp",
+   "냄새꼬_anime_25d_gloss_f_casual2.webp"
+  ],
+  "note": "직접 비교한 꼬부기는 야외 돌 가장자리에 수영복과 로브로 앉은 장면이다. 파라섹트7은 앉아 손을 짚는 구도가 가깝지만, 새틴 파자마·울타리 마당·동료 파라섹트가 구분된다. 유사도 점수235로 근접하되 동일컷 문턱215 이상. 나머지는 부채 전신, 잔을 든 측면, 얼굴 확대, 쪼그림, 커튼을 잡고 돌아보기로 구분된다."
+ },
+ "slots": {
+  "light": {
+   "scene_observed": "붉은 버섯 모자와 노란 반점의 얇은 경장, 한 손에 초록 잎빛. 두 팔·다리가 몸에 이어진다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "장갑 양손 모두 다섯 손가락 구조, 펼친 손은 일부 겹침.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "가슴 창과 허벅지 두 부위가 보이고 나머지는 장갑."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual1": {
+   "scene_observed": "창가 방에서 두 손으로 수건을 머리 위와 옆머리에 댄다. 로즈색 니트.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양팔 연결 정상, 두 손 모두 다섯 손가락 구조이나 수건에 일부 가림.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "어깨·쇄골·목선 노출."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual2": {
+   "scene_observed": "노천 온천에서 파란 행사 조끼를 입고 부채를 든 전신.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양팔·양다리 연결 정상. 부채 쥔 손은 일부 가려지고 내려 둔 손은 다섯 손가락 구조.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "가슴선·어깨·허리·다리, 불투명 의상."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual3": {
+   "scene_observed": "오페라 로비 계단에서 구릿빛 리본 보디스와 큐롯 차림으로 두 손에 잔.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손이 잔 양옆으로 연결되며 손가락은 잔에 일부 가림. 다리 두 개.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "어깨·허리의 좁은 띠·다리가 보임."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual4": {
+   "scene_observed": "박물관에서 회색 코트와 머플러, 얼굴 옆에 몬스터볼.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "보이는 손은 다섯 손가락 구조. 다른 손과 다리는 프레임 밖이라 개별 판단하지 않음.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "목도리와 코트가 있고 열린 목선이 프레임에 보임."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual5": {
+   "scene_observed": "재즈바 피아노 앞, 붉은 버섯 후드와 직물 드레스, 두 손을 모음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 팔이 소매와 손목으로 이어짐. 깍지 낀 손가락은 서로 가려져 개별 수를 모두 확정할 수 없음. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "safe alternative",
+    "근거": "새 의상 설계 low. 긴 소매와 직물 드레스이며 Cut 줄의 가슴 창이 남음."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual6": {
+   "scene_observed": "호숫가 바위, 민트 자수 크바야와 바틱. 턱을 괴고 다른 손으로 바위를 짚음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양팔·다리 두 개. 턱 손은 굽혀 일부 가리고, 바위를 짚은 손은 다섯 손가락 구조.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "쇄골·가슴선·한쪽 어깨·무릎 위. 단추를 일부 푼 순간."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual7": {
+   "scene_observed": "울타리 풀밭 마당의 돌 가장자리에 갈색 새틴 파자마로 앉아 두 손을 짚음. 동료 파라섹트 한 마리.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양팔·양다리 연결 정상. 두 손은 다섯 손가락 구조이나 바닥에 닿아 일부 겹침.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "어깨·가슴선·허벅지. 새틴과 레이스 가장자리."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual8": {
+   "scene_observed": "구름 위 공중정원에서 검은 수영복 차림으로 낮게 쪼그림.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양팔·양다리 굽힘이 자연스러움. 턱 손은 일부 가림, 늘어뜨린 손은 다섯 손가락 구조.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "어깨·옆허리·다리, 가슴과 골반은 수영복으로 덮임."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  },
+  "casual9": {
+   "scene_observed": "사진 부스 커튼을 잡고 돌아보며 걷는 라일락 비대칭 롬퍼.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "arms": 2,
+    "legs": 2,
+    "hands": "커튼을 쥔 손은 일부 가림, 내려 둔 손은 다섯 손가락 구조. 양팔·양다리 연결 정상.",
+    "overlay_checked": false,
+    "note": "Full image and hand crops visually inspected; only visible anatomy assessed, hidden portions not individually counted."
+   },
+   "style_25d": {
+    "판정": "match",
+    "근거": "soft colour contours, blended cheek/nose/lip shading, strand highlights, dimensional fabric/metal; not flat two-tone cel skin"
+   },
+   "exposure": {
+    "판정": "match",
+    "근거": "어깨·등·옆허리·다리, 불투명 의상."
+   },
+   "identity": "auburn long layered hair, garnet eyes, compact soft oval face remain consistent",
+   "accepted": true
+  }
+ },
+ "blocked_attempt": {
+  "slot": "casual5",
+  "request_id": "9256ba53-eafc-4317-a5fa-c35ee4dc152b",
+  "stage": "output",
+  "code": "moderation_blocked",
+  "category": "sexual",
+  "result_file": null,
+  "action": "No identical retry. New planner-selected hood costume and fully clothed nonsexual fashion design; settings exposure low. No existing image regenerated."
+ },
+ "face_comparison": "기준은 부드러운 타원형 얼굴·적갈색 긴 머리·가넷 눈. 직접 비교한 꼬부기·니드리노·냄새꼬와 머리색뿐 아니라 눈매와 입술·턱 비율을 대조함."
+}
