@@ -1,0 +1,234 @@
+{
+  "reviewer": "gpt",
+  "card": "슈륙챙이",
+  "style": "anime_25d_gloss",
+  "compared_characters": [
+    "발챙이",
+    "윈디",
+    "가디"
+  ],
+  "comparison_evidence": "최근 세 캐릭터의 실제 메카·일상 이미지와 두 캐릭터 전체 검수판을 비교. 발챙이의 밝은 긴 머리, 윈디의 금색 갈기, 가디의 붉은 긴 머리와 다른 청색 단발/포니테일. 이번 컷은 공원·도서관·클라이밍장·롯지·전철 또는 관리실·주방·녹음실·호텔·케이블카의 서로 다른 실루엣으로 구분됨.",
+  "anatomy_tool": "unavailable: mediapipe is not installed",
+  "slots": {
+    "light": {
+      "image_sha256": "39379c400041dc2c4db2ff5e7a6d6533bbb9bbde4cdcddc00514af9e60c2007e",
+      "accepted": true,
+      "observations": "청색 단발과 남색 눈, 흰 흉갑의 나선, 얇은 허리 장갑 치마. 왼손은 물 구체 아래 펼치고 오른손은 아래로 쥐었으며 두 장갑 손이 팔 끝에 연결됨. 두 부츠가 프레임 안에 있음.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "청색 단발과 남색 눈, 흰 흉갑의 나선, 얇은 허리 장갑 치마. 왼손은 물 구체 아래 펼치고 오른손은 아래로 쥐었으며 두 장갑 손이 팔 끝에 연결됨. 두 부츠가 프레임 안에 있음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 청색 단발과 남색 눈, 흰 흉갑의 나선, 얇은 허리 장갑 치마. 왼손은 물 구체 아래 펼치고 오른손은 아래로 쥐었으며 두 장갑 손이 팔 끝에 연결됨. 두 부츠가 프레임 안에 있음.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "3a1607639fe2855c61a4b21fd09ab1f32d564112ae727238ba3bbe5bd7576faa",
+      "submitted_same": true
+    },
+    "casual1": {
+      "image_sha256": "e077e92353457fa8cf86e5822c98f4ef6e5a35043a0893eab648782c8e357b8a",
+      "accepted": true,
+      "observations": "갈색 수영복의 가슴 위 크롭, 야외 연습장의 몬스터볼을 얼굴 옆에 든 손. 짧은 청색 단발과 나선 헤드셋 유지. 볼을 쥔 손의 일부 손가락은 볼 뒤에 가림.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "갈색 수영복의 가슴 위 크롭, 야외 연습장의 몬스터볼을 얼굴 옆에 든 손. 짧은 청색 단발과 나선 헤드셋 유지. 볼을 쥔 손의 일부 손가락은 볼 뒤에 가림."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 갈색 수영복의 가슴 위 크롭, 야외 연습장의 몬스터볼을 얼굴 옆에 든 손. 짧은 청색 단발과 나선 헤드셋 유지. 볼을 쥔 손의 일부 손가락은 볼 뒤에 가림.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "487f97b948610fa2a8e0c7cf32df2484163565e49ed63154f11614d82b7d1a4d",
+      "submitted_same": true
+    },
+    "casual2": {
+      "image_sha256": "e68b84736307848309c112496e5285fc4554a13359c7935417b8401883c02574",
+      "accepted": true,
+      "observations": "민트 스키복, 공원 바닥에 앉아 슈륙챙이를 쓰다듬음. 다른 손은 바닥을 짚고 두 다리는 앞쪽으로 뻗음. 양손 손가락은 자연스럽게 펼쳐져 있음.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "민트 스키복, 공원 바닥에 앉아 슈륙챙이를 쓰다듬음. 다른 손은 바닥을 짚고 두 다리는 앞쪽으로 뻗음. 양손 손가락은 자연스럽게 펼쳐져 있음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 민트 스키복, 공원 바닥에 앉아 슈륙챙이를 쓰다듬음. 다른 손은 바닥을 짚고 두 다리는 앞쪽으로 뻗음. 양손 손가락은 자연스럽게 펼쳐져 있음.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "0347b5a9db87127859dd5b541bb28f8ec3975932ed755bde4fadd7e79efd429b",
+      "submitted_same": true
+    },
+    "casual3": {
+      "image_sha256": "04a9424d7d7010d8daeca0a185f2dacb455ef315ce9d2d86a4c1654d6d3531d7",
+      "accepted": true,
+      "observations": "분홍 포토부스, 아이보리 니트 홀터, 팔짱과 동그랗게 벌린 입. 팔 둘이 앞에서 교차하고 반대쪽 손 일부가 팔 뒤에 가려짐. 자유 의상이 카탈로그 예시 대신 새 니트로 출력됨.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "분홍 포토부스, 아이보리 니트 홀터, 팔짱과 동그랗게 벌린 입. 팔 둘이 앞에서 교차하고 반대쪽 손 일부가 팔 뒤에 가려짐. 자유 의상이 카탈로그 예시 대신 새 니트로 출력됨."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 분홍 포토부스, 아이보리 니트 홀터, 팔짱과 동그랗게 벌린 입. 팔 둘이 앞에서 교차하고 반대쪽 손 일부가 팔 뒤에 가려짐. 자유 의상이 카탈로그 예시 대신 새 니트로 출력됨.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "8a8d427c0a10dad84e799ce112de4fae8ee29f4aaec69a2d7e3d290d5a16ec83",
+      "submitted_same": true
+    },
+    "casual4": {
+      "image_sha256": "82969daa83e472a2c102af7a24ab123b39898f36e4126769eccd3c8f69b3006b",
+      "accepted": true,
+      "observations": "분홍 자수 케바야와 사롱, 환상 도서관의 벽에 기대 미소. 팔은 몸 뒤에 있어 손가락을 셀 수 없음. 사롱 아래 무릎이 굽혀지고 허벅지 슬릿이 있음.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "분홍 자수 케바야와 사롱, 환상 도서관의 벽에 기대 미소. 팔은 몸 뒤에 있어 손가락을 셀 수 없음. 사롱 아래 무릎이 굽혀지고 허벅지 슬릿이 있음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 분홍 자수 케바야와 사롱, 환상 도서관의 벽에 기대 미소. 팔은 몸 뒤에 있어 손가락을 셀 수 없음. 사롱 아래 무릎이 굽혀지고 허벅지 슬릿이 있음.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "c47eacef96a95ac4af36f33b0718a07069d3335f4639fe6f7c5de73e591f0534",
+      "submitted_same": true
+    },
+    "casual5": {
+      "image_sha256": "a304fce4ba40f9c5b8aadce706c97481d247960971b5baa9cc2ed2aaa80fe737",
+      "accepted": true,
+      "observations": "온천을 배경으로 검정 자수 의상과 머리 감개, 측면 얼굴 확대. 귀 옆 손이 머리카락을 정리하고 손가락 일부가 머리에 가림. 다리와 반대손은 크롭 밖.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "온천을 배경으로 검정 자수 의상과 머리 감개, 측면 얼굴 확대. 귀 옆 손이 머리카락을 정리하고 손가락 일부가 머리에 가림. 다리와 반대손은 크롭 밖."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 온천을 배경으로 검정 자수 의상과 머리 감개, 측면 얼굴 확대. 귀 옆 손이 머리카락을 정리하고 손가락 일부가 머리에 가림. 다리와 반대손은 크롭 밖.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "1224323a384433e00231269c94c569a49e9c680d11cc1713cf9fc96daa57cba4",
+      "submitted_same": true
+    },
+    "casual6": {
+      "image_sha256": "279a396836511f994d730a95b1bb8cf7e823db600a78ea70b9eb8e8b86374bc8",
+      "accepted": true,
+      "observations": "보라 작업 앞치마와 내려간 셔츠 어깨, 클라이밍 매트에 엎드려 양손으로 턱을 받침. 팔꿈치 둘과 뒤로 든 발 두 개가 보임. 손가락은 턱 아래 겹쳐 가려짐.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "보라 작업 앞치마와 내려간 셔츠 어깨, 클라이밍 매트에 엎드려 양손으로 턱을 받침. 팔꿈치 둘과 뒤로 든 발 두 개가 보임. 손가락은 턱 아래 겹쳐 가려짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 보라 작업 앞치마와 내려간 셔츠 어깨, 클라이밍 매트에 엎드려 양손으로 턱을 받침. 팔꿈치 둘과 뒤로 든 발 두 개가 보임. 손가락은 턱 아래 겹쳐 가려짐.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "30a87608ed2be33de94445ba659fc90901de44b8d5e767e2e042e9b45e9af820",
+      "submitted_same": true
+    },
+    "casual7": {
+      "image_sha256": "ed231ee302153c37af5595fb096f0e49a0184306182f5a1e0955a230398647b2",
+      "accepted": true,
+      "observations": "롯지의 벽난로와 바, 크림색 드레이프 상의와 보라 허리 천, 한 손에 잔. 반대 손은 허리에 대고 일부가 아래 테두리에 걸림. 상체 구도로 표정과 잔을 든 동작이 읽힘.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "롯지의 벽난로와 바, 크림색 드레이프 상의와 보라 허리 천, 한 손에 잔. 반대 손은 허리에 대고 일부가 아래 테두리에 걸림. 상체 구도로 표정과 잔을 든 동작이 읽힘."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 롯지의 벽난로와 바, 크림색 드레이프 상의와 보라 허리 천, 한 손에 잔. 반대 손은 허리에 대고 일부가 아래 테두리에 걸림. 상체 구도로 표정과 잔을 든 동작이 읽힘.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "241b4c30843706fc95c4dcddbfbf2af95745ded19640112ef3b58996d79662d1",
+      "submitted_same": true
+    },
+    "casual8": {
+      "image_sha256": "159429f6ecf7da91a599747d8928f9200df5bf6bcc0815f782395ca48c73527b",
+      "accepted": true,
+      "observations": "역 플랫폼에서 청백색 나선 코르셋·짧은 스커트 코스튬으로 걷기. 양쪽 장갑 손과 두 부츠가 보임. 헤어밴드의 개구리 눈 장식은 의상 모티프이며 추가 신체가 아님.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "역 플랫폼에서 청백색 나선 코르셋·짧은 스커트 코스튬으로 걷기. 양쪽 장갑 손과 두 부츠가 보임. 헤어밴드의 개구리 눈 장식은 의상 모티프이며 추가 신체가 아님."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 역 플랫폼에서 청백색 나선 코르셋·짧은 스커트 코스튬으로 걷기. 양쪽 장갑 손과 두 부츠가 보임. 헤어밴드의 개구리 눈 장식은 의상 모티프이며 추가 신체가 아님.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "e22c888acf49958a9df94d339aecc04d40bf7b75daa483efff00e8201739e5ae",
+      "submitted_same": true
+    },
+    "casual9": {
+      "image_sha256": "f031514192ac5997c0e6c8540e854f977513f302dee1e420447c53ef4c791e74",
+      "accepted": true,
+      "observations": "라이브하우스의 카키 행사 유니폼과 짧은 스커트, 가방을 들고 옆으로 시선을 돌림. 한 손은 가방 손잡이를 쥐고 반대손은 자연스럽게 내림. 무릎 위 크롭으로 발은 프레임 밖.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱에 부드러운 입체 그라데이션, 얇은 색선과 세밀한 머리 가닥, 광택 피부. 평평한 한두 단 셀 그림자에 머물지 않음."
+      },
+      "exposure": {
+        "judgement": "match or crop-limited",
+        "evidence": "라이브하우스의 카키 행사 유니폼과 짧은 스커트, 가방을 들고 옆으로 시선을 돌림. 한 손은 가방 손잡이를 쥐고 반대손은 자연스럽게 내림. 무릎 위 크롭으로 발은 프레임 밖."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 손은 팔·손목과 연결됨. 겹침·주먹·소품 뒤 손가락 및 크롭 밖 손은 정확한 개수를 단정하지 않음. 라이브하우스의 카키 행사 유니폼과 짧은 스커트, 가방을 들고 옆으로 시선을 돌림. 한 손은 가방 손잡이를 쥐고 반대손은 자연스럽게 내림. 무릎 위 크롭으로 발은 프레임 밖.",
+        "overlay_checked": false
+      },
+      "submitted_sha256": "f9d6d0c25dfbe8c88c3117384d025372943c6b3aad634d6d2a21d6662c4e3e25",
+      "submitted_same": true
+    }
+  }
+}
