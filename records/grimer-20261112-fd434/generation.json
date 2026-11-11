@@ -1,0 +1,20 @@
+{
+  "selected_candidate": 1,
+  "style": "anime_25d_gloss",
+  "reference_sha256": "9657aef2563dfb63840a26626e95a528e9d77080156d5dc94de68aecc7341a02",
+  "free_slots": [
+    4,
+    5,
+    8
+  ],
+  "free_design_rules": "casual4 changes Outfit only; casual5 and casual8 replace SCENE while preserving fixed identity, style, body, expression and intensity lines",
+  "blocked": [
+    {
+      "slot": "casual7",
+      "request_id": "51b8e33c-f6da-4928-b02f-0af9c4a4a65a",
+      "result_file": null,
+      "action": "planner chose different costume item; all other cuts kept"
+    }
+  ],
+  "regenerated_completed_images": false
+}
