@@ -1,0 +1,288 @@
+{
+  "light": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Standing in pale industrial cloister, layered U-shaped magnetic shoulder and hip plates, two long gray braids, violet eyes."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "two visible and connected",
+      "hands": "Two connected arms and legs; raised hand shows five digits, lowered curled fingers partly overlap.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Standing in pale industrial cloister, layered U-shaped magnetic shoulder and hip plates, two long gray braids, violet eyes."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual1": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Wet lavender asymmetrical runway outfit, standing facing camera, hands clasped at chest, half-lidded deadpan expression."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "partly or wholly outside crop",
+      "hands": "Both shoulders and elbows connect to clasped hands; fingers overlap in clasp. Legs outside crop.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Wet lavender asymmetrical runway outfit, standing facing camera, hands clasped at chest, half-lidded deadpan expression."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual2": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Gray Magneton bodysuit in nightclub, long gloves, one hand near chin and other lowered against wall, confident smile."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "partly or wholly outside crop",
+      "hands": "Both arms connect; gloved fingertips overlap near chin and at lowered hand. Thighs visible, lower legs cropped.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Gray Magneton bodysuit in nightclub, long gloves, one hand near chin and other lowered against wall, confident smile."
+    },
+    "preserved_without_exposure_regeneration": true,
+    "generation_failures": [
+      {
+        "request_id": "5c2cb795-2516-4875-93be-ed34e385eb09",
+        "status": "output moderation blocked, no image returned"
+      },
+      {
+        "request_id": "ee1dd499-4756-4d69-81da-b0c190becee9",
+        "status": "same prompt retry blocked, no image returned"
+      }
+    ],
+    "exposure_setting": "moderate after documented failure sequence"
+  },
+  "casual3": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Pomegranate silk ensemble in town square; lying prone with knees bent and both hands beneath chin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "two visible and connected",
+      "hands": "Both forearms join shoulders; curled fingers partially occluded under chin, both bent lower legs and feet visible.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Pomegranate silk ensemble in town square; lying prone with knees bent and both hands beneath chin."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual4": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Ivory lace bridal outfit and veil before night city window; close face-and-shoulders view, small warm smile."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "partly or wholly outside crop",
+      "hands": "Both upper arms connect to shoulders; hands and legs outside frame.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Ivory lace bridal outfit and veil before night city window; close face-and-shoulders view, small warm smile."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual5": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Ivory lab coat over ribbed V-neck knit, berry kitchen, raised eyebrows and small open mouth."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "partly or wholly outside crop",
+      "hands": "Both coat sleeves continue from visible shoulders to lower frame; hands and legs outside crop.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Ivory lab coat over ribbed V-neck knit, berry kitchen, raised eyebrows and small open mouth."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual6": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Mulberry fitted event costume; one boot on service stool, left hand supporting pinball lid, right hand placing steel ball into three-ball cradle."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "two visible and connected",
+      "hands": "Two connected arms and legs, raised knee correctly bends; visible fingers partly occluded by lid and steel ball.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Mulberry fitted event costume; one boot on service stool, left hand supporting pinball lid, right hand placing steel ball into three-ball cradle."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual7": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Brown halter swimwear with camel open yukata, standing on lit contest stage, full body and sandals visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "two visible and connected",
+      "hands": "Two connected arms and legs; one hand rests on waist and other grips cloth, some fingertips hidden by fabric.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Brown halter swimwear with camel open yukata, standing on lit contest stage, full body and sandals visible."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual8": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Sky-blue and navy event uniform, walking on rooftop, one hand near temple and other carrying bag."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "two visible and connected",
+      "hands": "Two attached arms and legs; bag grip occludes some fingers, temple hand fingers relaxed. Full feet visible.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Sky-blue and navy event uniform, walking on rooftop, one hand near temple and other carrying bag."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual9": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Apricot fitted peplum and split culottes, kneeling among clock bells, thread magnet lifting needle from floor crack."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "two visible and connected",
+      "hands": "Two connected arms and legs; both hands pinch thread with other fingers curled, left knee folded naturally.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Apricot fitted peplum and split culottes, kneeling among clock bells, thread magnet lifting needle from floor crack."
+    },
+    "preserved_without_exposure_regeneration": true
+  },
+  "casual10": {
+    "identity": {
+      "match": true,
+      "evidence": "Violet eyes, gray/silver hair with two low braids, soft compact jaw retained."
+    },
+    "scene": {
+      "observed": "Coral satin camisole and open pajama shirt in berry storeroom, leaning over crate, steady serious gaze."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": "two visible and connected",
+      "legs": "partly or wholly outside crop",
+      "hands": "Both shoulder-to-sleeve paths intact; forearms extend below frame, hands and legs outside crop.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Soft modeled nose, lips and chin with layered hair and smooth reflected highlights; no hard flat cel shadows."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Coral satin camisole and open pajama shirt in berry storeroom, leaning over crate, steady serious gaze."
+    },
+    "preserved_without_exposure_regeneration": true
+  }
+}
