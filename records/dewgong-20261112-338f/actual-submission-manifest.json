@@ -1,0 +1,62 @@
+{
+  "casual1": {
+    "sha256": "38af0cdaa424936dac82cbc20f8d1625195da052f7382dfac71b18c5e4f4e302",
+    "same": true,
+    "design": "generator",
+    "reason": "unchanged generator prompt"
+  },
+  "casual2": {
+    "sha256": "e9d89fcd3d271ff5fb698b6777405090cc706a0a4feb23327b4826b8534dee79",
+    "same": true,
+    "design": "generator",
+    "reason": "unchanged generator prompt"
+  },
+  "casual3": {
+    "sha256": "556859f1ba0128f36c0577ec9240d8e8d9365c80b3f84f908dbe8a2789d0141e",
+    "same": true,
+    "design": "generator",
+    "reason": "unchanged generator prompt"
+  },
+  "casual4": {
+    "sha256": "a6e26b0a58c540b1c3108bf39400bd2a90c1356b3ccd7293fdf3adedceb5e7c0",
+    "same": true,
+    "design": "generator",
+    "reason": "unchanged generator prompt"
+  },
+  "casual5": {
+    "sha256": "9edb8d0a22cfea3c107c0882f0b7e9e1745b911ddfb922b058bad83485e16d87",
+    "same": false,
+    "design": "gpt_free",
+    "reason": "authorized free scene design"
+  },
+  "casual6": {
+    "sha256": "606fca4dbd8124a3cf005374c73d4205866b30f7d9b3766e33d4c53a41a80aba",
+    "same": false,
+    "design": "gpt_free",
+    "reason": "authorized free scene design"
+  },
+  "casual7": {
+    "sha256": "9b94776d5fb58d7941804dd420567e07204a592acc4cebc21f8b027a1b9b009b",
+    "same": true,
+    "design": "generator",
+    "reason": "unchanged generator prompt"
+  },
+  "casual8": {
+    "sha256": "beb8cab8e38252af6d93fef00f6c5857ed59ada9e3adb9aced67cdaa9a81d28f",
+    "same": false,
+    "design": "gpt_outfit",
+    "reason": "authorized outfit-line-only design outside catalog"
+  },
+  "casual9": {
+    "sha256": "d7bd4c7edb92ebdbcd1b8a026cc2ebad2e0a41f66c7fd8c8920687bc85b10509",
+    "same": true,
+    "design": "generator",
+    "reason": "unchanged generator prompt"
+  },
+  "casual10": {
+    "sha256": "50a5efaf88e80870b40a5ffa5ac77ef4f34e5a204236b97fd2a124b7c86920f7",
+    "same": true,
+    "design": "generator",
+    "reason": "After two output safety blocks, low exposure and opaque costume via settings, rebuilt by generator."
+  }
+}
