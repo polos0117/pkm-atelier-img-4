@@ -1,0 +1,209 @@
+{
+  "card": "우츠보트",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observations": "황록색 긴 머리와 보라 끝, 녹색 눈, 가늘고 부드러운 턱. 잎 스커트형 금속 장갑. 열린 손의 손가락은 겹쳐 일부 가려짐, 반대 손은 느슨한 주먹. 두 팔·두 다리가 연결되고 두 부츠가 프레임 안에 있음. 얼굴 볼·코·입술 다단 음영과 피부 광택을 확인.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 황록색 긴 머리와 보라 끝, 녹색 눈, 가늘고 부드러운 턱. 잎 스커트형 금속 장갑. 열린 손의 손가락은 겹쳐 일부 가려짐, 반대 손은 느슨한 주먹. 두 팔·두 다리가 연결되고 두 부츠가 프레임 안에 있음. 얼굴 볼·코·입술 다단 음영과 피부 광택을 확인."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "황록색 긴 머리와 보라 끝, 녹색 눈, 가늘고 부드러운 턱. 잎 스커트형 금속 장갑. 열린 손의 손가락은 겹쳐 일부 가려짐, 반대 손은 느슨한 주먹. 두 팔·두 다리가 연결되고 두 부츠가 프레임 안에 있음. 얼굴 볼·코·입술 다단 음영과 피부 광택을 확인.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "observations": "결혼식장 레이스 보닛과 아이보리 프릴 드레스, 꽃다발, 뒤돌아보기. 한 손은 꽃다발을 쥐어 손가락 일부 가려짐, 내려온 손의 다섯 손가락이 보임. 걷는 3/4 크롭이며 다리는 아래 프레임에서 이어짐.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 결혼식장 레이스 보닛과 아이보리 프릴 드레스, 꽃다발, 뒤돌아보기. 한 손은 꽃다발을 쥐어 손가락 일부 가려짐, 내려온 손의 다섯 손가락이 보임. 걷는 3/4 크롭이며 다리는 아래 프레임에서 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "결혼식장 레이스 보닛과 아이보리 프릴 드레스, 꽃다발, 뒤돌아보기. 한 손은 꽃다발을 쥐어 손가락 일부 가려짐, 내려온 손의 다섯 손가락이 보임. 걷는 3/4 크롭이며 다리는 아래 프레임에서 이어짐.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "부엌에서 두 손으로 잔을 감싼다. 아이보리 접은 주름 목선과 드러난 어깨. 양쪽 위팔·아래팔이 컵의 손목으로 연결되며 손가락 일부는 컵 뒤에 가려짐. 요청 chest_up보다 허리가 더 보임. 기준의 얼굴·머리 유지.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 부엌에서 두 손으로 잔을 감싼다. 아이보리 접은 주름 목선과 드러난 어깨. 양쪽 위팔·아래팔이 컵의 손목으로 연결되며 손가락 일부는 컵 뒤에 가려짐. 요청 chest_up보다 허리가 더 보임. 기준의 얼굴·머리 유지."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "부엌에서 두 손으로 잔을 감싼다. 아이보리 접은 주름 목선과 드러난 어깨. 양쪽 위팔·아래팔이 컵의 손목으로 연결되며 손가락 일부는 컵 뒤에 가려짐. 요청 chest_up보다 허리가 더 보임. 기준의 얼굴·머리 유지.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "노래방에서 휴대폰을 보는 아이보리 메이드 의상 전신. 한 손은 전화기를 쥐고 엄지 일부 가려짐, 반대 손은 내려옴. 팔 둘·다리 둘·구두 둘. 레이스·주름·금속 단추 재질과 얼굴 음영.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 노래방에서 휴대폰을 보는 아이보리 메이드 의상 전신. 한 손은 전화기를 쥐고 엄지 일부 가려짐, 반대 손은 내려옴. 팔 둘·다리 둘·구두 둘. 레이스·주름·금속 단추 재질과 얼굴 음영."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "노래방에서 휴대폰을 보는 아이보리 메이드 의상 전신. 한 손은 전화기를 쥐고 엄지 일부 가려짐, 반대 손은 내려옴. 팔 둘·다리 둘·구두 둘. 레이스·주름·금속 단추 재질과 얼굴 음영.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    },
+    "casual4": {
+      "accepted": true,
+      "observations": "비 오는 공원에서 카메라를 확인, 동료 뚜벅쵸 한 마리가 별도로 있음. 민트 가운, 젖은 불투명 천, 옆모습 전신. 카메라를 잡은 두 손은 그립으로 손가락 일부 가려짐; 두 다리·두 슬리퍼가 자연스럽게 연결됨.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 비 오는 공원에서 카메라를 확인, 동료 뚜벅쵸 한 마리가 별도로 있음. 민트 가운, 젖은 불투명 천, 옆모습 전신. 카메라를 잡은 두 손은 그립으로 손가락 일부 가려짐; 두 다리·두 슬리퍼가 자연스럽게 연결됨."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "비 오는 공원에서 카메라를 확인, 동료 뚜벅쵸 한 마리가 별도로 있음. 민트 가운, 젖은 불투명 천, 옆모습 전신. 카메라를 잡은 두 손은 그립으로 손가락 일부 가려짐; 두 다리·두 슬리퍼가 자연스럽게 연결됨.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    },
+    "casual5": {
+      "accepted": true,
+      "observations": "우츠보트 모자와 노랑·초록 코스튬, 휴양지 의자에 기대 누움. 한 팔은 머리 뒤로 이어져 손이 가려지고, 다른 손은 꽃다발을 쥠. 허리 위 크롭의 다리는 평가하지 않음. 뷔스티에·미니스커트 코스튬 요소 확인.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 우츠보트 모자와 노랑·초록 코스튬, 휴양지 의자에 기대 누움. 한 팔은 머리 뒤로 이어져 손이 가려지고, 다른 손은 꽃다발을 쥠. 허리 위 크롭의 다리는 평가하지 않음. 뷔스티에·미니스커트 코스튬 요소 확인."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "우츠보트 모자와 노랑·초록 코스튬, 휴양지 의자에 기대 누움. 한 팔은 머리 뒤로 이어져 손이 가려지고, 다른 손은 꽃다발을 쥠. 허리 위 크롭의 다리는 평가하지 않음. 뷔스티에·미니스커트 코스튬 요소 확인.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    },
+    "casual6": {
+      "accepted": true,
+      "observations": "농구 코트에서 손가락 끝으로 농구공을 돌림. 갈색 크롭 홀터와 손목밴드, 몸 3/4. 보이는 한 손은 검지와 접힌 손가락이 분리됨, 다른 팔은 프레임을 벗어남. 얼굴의 부드러운 입체 음영 유지.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 농구 코트에서 손가락 끝으로 농구공을 돌림. 갈색 크롭 홀터와 손목밴드, 몸 3/4. 보이는 한 손은 검지와 접힌 손가락이 분리됨, 다른 팔은 프레임을 벗어남. 얼굴의 부드러운 입체 음영 유지."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "농구 코트에서 손가락 끝으로 농구공을 돌림. 갈색 크롭 홀터와 손목밴드, 몸 3/4. 보이는 한 손은 검지와 접힌 손가락이 분리됨, 다른 팔은 프레임을 벗어남. 얼굴의 부드러운 입체 음영 유지.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    },
+    "casual7": {
+      "accepted": false,
+      "observations": "도시 루프탑 풀 곁 의자에 기대 누움, 샴페인색 조개형 브라이덜 상의·겹친 꽃잎 스커트. 한 손 머리 뒤 가려짐, 반대 손 수건 쥔 다섯 손가락. 두 다리·두 발이 자연스럽고 발끝은 장신발끈과 일부 겹침.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 도시 루프탑 풀 곁 의자에 기대 누움, 샴페인색 조개형 브라이덜 상의·겹친 꽃잎 스커트. 한 손 머리 뒤 가려짐, 반대 손 수건 쥔 다섯 손가락. 두 다리·두 발이 자연스럽고 발끝은 장신발끈과 일부 겹침."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "도시 루프탑 풀 곁 의자에 기대 누움, 샴페인색 조개형 브라이덜 상의·겹친 꽃잎 스커트. 한 손 머리 뒤 가려짐, 반대 손 수건 쥔 다섯 손가락. 두 다리·두 발이 자연스럽고 발끝은 장신발끈과 일부 겹침.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      },
+      "similarity": {
+        "passed": false,
+        "nearest": "닥트리오_anime_25d_gloss_f_casual8.webp",
+        "distance": 188,
+        "limit": 215,
+        "note": "Existing image not downloaded: automatic approval review denied copying another character image. Current successful output preserved; similarity remains unresolved."
+      },
+      "acceptance_basis": "user_exception: docs/IMAGE_AUTOMATION.md 시각적 품질은 업로드 후 사용자 검토 승인; accepted:false와 similarity failed를 유지함."
+    },
+    "casual8": {
+      "accepted": true,
+      "observations": "박물관 조각상 홀에서 두 손을 깍지 끼운 은색 수영복과 열린 유카타. 손가락은 겹쳐 일부 가려지나 손목 둘이 각각 팔에 연결됨. 상반신 크롭. 놀란 표정과 기준 얼굴 비율 유지.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 박물관 조각상 홀에서 두 손을 깍지 끼운 은색 수영복과 열린 유카타. 손가락은 겹쳐 일부 가려지나 손목 둘이 각각 팔에 연결됨. 상반신 크롭. 놀란 표정과 기준 얼굴 비율 유지."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "박물관 조각상 홀에서 두 손을 깍지 끼운 은색 수영복과 열린 유카타. 손가락은 겹쳐 일부 가려지나 손목 둘이 각각 팔에 연결됨. 상반신 크롭. 놀란 표정과 기준 얼굴 비율 유지.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    },
+    "casual9": {
+      "accepted": true,
+      "observations": "화실에서 책을 가슴에 안고 의자에 앉은 와인색 벨벳 세트. 한 손은 책 옆을 쥐어 엄지 일부 가려짐, 반대 손은 무릎 위 다섯 손가락. 두 다리·두 샌들, 무릎과 발목이 자연스러움.",
+      "style_25d": {
+        "judgement": "match",
+        "evidence": "코·볼·입술·턱의 부드러운 다단 음영, 머리 가닥 명암과 피부 광택. 화실에서 책을 가슴에 안고 의자에 앉은 와인색 벨벳 세트. 한 손은 책 옆을 쥐어 엄지 일부 가려짐, 반대 손은 무릎 위 다섯 손가락. 두 다리·두 샌들, 무릎과 발목이 자연스러움."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing; checker exit code 3",
+        "hands": "화실에서 책을 가슴에 안고 의자에 앉은 와인색 벨벳 세트. 한 손은 책 옆을 쥐어 엄지 일부 가려짐, 반대 손은 무릎 위 다섯 손가락. 두 다리·두 샌들, 무릎과 발목이 자연스러움.",
+        "overlay_checked": false,
+        "limits": "소품·머리·크롭에 가린 손가락·팔다리는 추정하지 않음"
+      },
+      "exposure": {
+        "judgement": "observed",
+        "evidence": "생성 결과 그대로 채택; 노출을 이유로 재생성하지 않음."
+      }
+    }
+  },
+  "pending": [],
+  "exposure_regenerations": 0,
+  "compared_characters": [
+    "후딘",
+    "근육몬",
+    "괴력몬",
+    "우츠동"
+  ],
+  "face_reason": "생성기 종별 얼굴 설계와 원작 자료에 따른 신규 화풍의 얼굴. 우츠보트는 부드러운 타원형·가늘게 올라간 눈·긴 머리, 왕눈해는 하트형·둥근 눈·단발. 기준 이미지 직접 첨부.",
+  "generation_notes": "중간 묶음은 한 호출 오류로 나머지 결과가 반환되지 않아 로컬 파일과 반환 상태 확인 후 결과가 없는 자리만 다시 호출. 성공한 이미지 재생성 0.",
+  "ledger_context": "sparse metadata view: cached ledger plus locally available verified UI choices and all live reservations; older record coverage is incomplete, so all-history least-used counts are not claimed complete.",
+  "similarity": {
+    "result": "flagged",
+    "visual_comparison": "Recent mecha sheet reviewed: Alakazam, Machoke, Machamp, Weepinbell. Older full-image download denied by automatic approval review under no-other-character-copy instruction."
+  },
+  "diversity_comparison": "이미 환경에 있던 괴력몬(머리 빗기·갈색 의상), 우츠동(시장·교차한 팔·갈색 겉옷), 근육몬 일상1과 대조했다. 이번 꽃다발·컵·휴대폰·카메라·농구·루프탑 의자·화실 책/붓은 각각 소품과 자세가 구분된다. 우츠보트 루프탑7은 생김새 검사에서 기존 닥트리오8과 유사로 표시되어 미해결 상태를 별도 보존한다."
+}
