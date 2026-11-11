@@ -1,6 +1,6 @@
 # 딱구리 (0076 · Golem) — 지시문 묶음
 
-화풍 `anime_25d_gloss` · 만든 도구 `tools/prompt-pack.cjs build` · 생성기 코드 52a3ae5 · 2026-11-11T03:22:37.406Z
+화풍 `anime_25d_gloss` · 만든 도구 `tools/prompt-pack.cjs build` · 생성기 코드 52a3ae5 · 2026-11-11T03:49:13.525Z
 
 자리마다 `<자리>-prompt.txt` 를 **고치지 않고 그대로** 제출하고, 첨부 칸의 그림을 붙인다. 고칠 것이 있으면 settings.json 을 고쳐 build 를 다시 돌린다.
 
@@ -18,7 +18,7 @@
 | ③ | casual2 | ① 딱구리_light_anime_25d_gloss_f.webp | `casual2-prompt.txt` | 1100 | `7134d47f5e50` | `딱구리_anime_25d_gloss_f_casual2.webp` |
 | ④ | casual3 | ① 딱구리_light_anime_25d_gloss_f.webp | `casual3-prompt.txt` | 1192 | `3850aef7c978` | `딱구리_anime_25d_gloss_f_casual3.webp` |
 | ⑤ | casual4 | ① 딱구리_light_anime_25d_gloss_f.webp | `casual4-prompt.txt` | 1166 | `df7e710ade57` | `딱구리_anime_25d_gloss_f_casual4.webp` |
-| ⑥ | casual5 | ① 딱구리_light_anime_25d_gloss_f.webp | `casual5-prompt.txt` | 1044 | `ecaa35740930` | `딱구리_anime_25d_gloss_f_casual5.webp` |
+| ⑥ | casual5 | ① 딱구리_light_anime_25d_gloss_f.webp | `casual5-prompt.txt` | 1020 | `3c872706e08c` | `딱구리_anime_25d_gloss_f_casual5.webp` |
 | ⑦ | casual6 | ① 딱구리_light_anime_25d_gloss_f.webp | `casual6-prompt.txt` | 995 | `3e47e0e2b303` | `딱구리_anime_25d_gloss_f_casual6.webp` |
 | ⑧ | casual7 | ① 딱구리_light_anime_25d_gloss_f.webp | `casual7-prompt.txt` | 1191 | `a96411b22020` | `딱구리_anime_25d_gloss_f_casual7.webp` |
 | ⑨ | casual8 | ① 딱구리_light_anime_25d_gloss_f.webp | `casual8-prompt.txt` | 1120 | `236d746adea7` | `딱구리_anime_25d_gloss_f_casual8.webp` |
@@ -83,11 +83,11 @@
 | 시대 | 무대·환상 | a stylised stage, editorial or fantasy setting not bound to a real year |
 | 장소 | 밤 천문대 | a night observatory under an open dome |
 | 역할 | — |  |
-| 의상 | 포켓몬 코스튬 · 바디수트형 | a daring adult costume version of {costume}, cut as a high-cut bodysuit with sheer thigh-high tights |
+| 의상 | 포켓몬 코스튬 · 미니 드레스형 | a daring adult costume version of {costume}, cut as a fitted strapless mini dress |
 | 몸 자세 · 구도 | 서기 · full_body · 옆모습 | standing |
 | 손 · 소품 동작 | wave · down |  |
 
-옷 종류 bodysuit + leggings · 옷 색 — · 드러내기 deep V neckline, open back · 장면 칸 첫머리 place
+옷 종류 dress · 옷 색 — · 드러내기 plunging neckline, backless · 장면 칸 첫머리 action · 직접 입력 outfit
 
 ## ⑦ casual6 — 고른 장면(버전2)
 
