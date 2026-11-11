@@ -1,0 +1,91 @@
+{
+  "card": "야도란",
+  "style": "anime_25d_gloss",
+  "review": "manual visual review of each generated output; preserve results, no exposure-based regeneration",
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "method": "visual count and joint continuity; occluded fingers are not asserted visible"
+  },
+  "images": {
+    "light": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "Selected GPT candidate 4; two connected arms, two legs, full-body frame."
+    },
+    "casual1": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "Folded arms connect naturally; opposite hand partially occluded. Reference ear ornaments retained. Framing slightly wider than chest-up plan."
+    },
+    "casual2": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "Arms continue beyond lower crop; no floating hands. Costume readable at chest-up crop; mouth open rather than planned mildness."
+    },
+    "casual3": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "Visible hand grips teacup naturally; opposite hand outside crop. Framing wider than face-close plan."
+    },
+    "casual4": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "Two connected arms, right hand supports chin and other hand braces on ground; folded leg lower crop. Outfit lace and opaque camisole read clearly."
+    },
+    "casual5": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "One raised hand at hair, other hand outside crop. Face is a three-quarter profile rather than strict side profile; wider crop than face-close plan."
+    },
+    "casual6": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "Two connected arms with relaxed hand and shopping bag grip, two legs and boots visible. Body more frontward than planned away orientation."
+    },
+    "casual7": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "One hand grips shoulder bag, other enters pocket naturally. New felt waistcoat and knitted collar rendered."
+    },
+    "casual8": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "Two connected arms with towel grip and counter support, legs continue beyond bottom frame. Mirror reflection aligned; damp garment stays opaque."
+    },
+    "casual9": {
+      "style_25d": {
+        "verdict": "pass",
+        "evidence": "Soft gradients and highlights model nose, lips, cheeks and jaw; fine coloured contours rather than flat black outlines."
+      },
+      "anatomy": "No obvious extra or detached limbs in visible areas; hidden digits unverified.",
+      "notes": "Two arms brace on railing, complete legs and feet visible. Body faces away and head looks back, differing from planned front body. Pedal-pusher and apron outfit rendered."
+    }
+  }
+}
