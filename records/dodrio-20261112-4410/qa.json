@@ -1,0 +1,354 @@
+[
+  {
+    "slot": "light",
+    "file": "두트리오_light_anime_25d_gloss_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "d3276a0949d1fdf4f91322a7c48535a93e68d879c6d979b8fa129b419e13f0c2",
+    "webp_sha256": "765728b28b7b956f0ff67fabb35e15bb1ccc8462d3126ef8a7a49ae37be02eeb",
+    "submitted_sha256": "d13df60af7adcc0d55f263b5c05d3416443ee5f1739d541f49bc6315de5323a0",
+    "submitted_same": true,
+    "reference": null,
+    "generation": {
+      "design": "gpt_free",
+      "free_prompt": "Input: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\nSource: Dodrio (두트리오), normal / flying type.\nSubject: A female mecha personification character with Dodrio as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\nOutput: one dynamic action image that is also this form's card art.\n\n1. STYLE\nHigh-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own Face line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing and armor, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\n2. CHARACTER\nFace — her own structure, not the style's default face: a refined adult woman with a compact heart-oval face, short midface, soft rounded jaw and small soft chin; almond eyes with gently lifted outer corners, delicately arched brows, small defined nose and softly full lips. Golden amber eyes.\nHair: chestnut-brown hair in three distinct high ponytails with white streaks and white tips, airy wispy bangs framing her face. Each ponytail is hair, never another head.\nHair color: her main hair color is the creature's own main color; white for her flying type runs through it as the accent, in streaks and at the tips.\nImpression: a confident woman in her late twenties, alert warm amber eyes and a small playful closed-mouth smile; delicate bronze eye makeup.\nIdentity (chosen details override the automatic look)\nbody type: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy\nbody scope: Body type sets the build; body details adjust within it. These describe anatomy beneath armor, not equipment volume.\nProportions: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. Her worn features are costume, never extra limbs.\nBody: a normal human body — elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\nHands: Keep both hands relaxed — a loose fist, an open palm or resting on something. Gloves are full-finger and close-fitting; plates, water, sparks and effects stay off the fingers.\nAnatomy: one head, two arms and two legs, each joined at its natural joint; natural hands with five fingers.\n\n3. ARMOR — LIGHT\nCostume: one layer of thin, close-fitting hard armor that covers most of her body: a chest plate joined to segmented abdominal plates down to her hips, shoulder pauldrons, upper-arm and forearm plates with gauntlets, hip and thigh plates, knee guards, shin guards and armored boots; the fitted undersuit shows only in narrow gaps at the joints, joints free. The plates stay thin and close to her body, so the outline is slim and readable without slimming her figure. No helmet; at most a slim headband or temple sensor.\nArmor: rigid hard-surface mecha armor — solid plates of enamelled metal and ceramic with visible thickness, bevelled edges, layered rims, panel lines, seams, small vents, sensor lights and mechanical joints, casting real shadows onto the undersuit. The plates sit on top of her body as separate machined parts, never printed or painted onto fabric, never a patterned bodysuit.\nSilhouette: a pair of large wing binders spread symmetrically behind her back as the main shape — each wing built from several broad, flat, hard-edged armor panels layered and staggered over one another on a jointed frame, fanning outward like stacked mechanical panels, not feathers — with light body armor. Signature idea from Dodrio: three interlocking elongated beak-shaped tapered armor segments form a single sternum-to-waist breastplate construction, a three-part mechanical rhythm repeated in the shin panels, never heads or loose accessories.\nColours: brown, black.\nWear: the black v-shaped, feather crest becomes a crest-shaped headpiece; the bristly brown feathers become a feathered or ruffled collar and trim.\nExposure: armor and undersuit open by design only at bare shoulders and upper arms, and bare upper thighs; everywhere else fully covered. Plates stay on and symmetrical; nothing slipped off; intimate areas covered.\n\n4. SCENE\nComposition: Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion. Camera level with her face; her body and face turned gently three-quarters toward the camera (never a back view), her head level with her chin neither raised nor tucked, no upward perspective on her face.\nPose: Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\nType effects: a thin ivory-gold ring of normal-type light floats above one relaxed open palm, clear of the fingers; two pale blue-white flying-type slipstreams arc behind the wing binders. Scene: bright morning over a vast grassland airfield with distant low hangars and a clear blue sky, standing on a clean stone observation platform.\n\n5. CONSTRAINTS\nOne figure only.\nAvoid: second character, creature beside her, text, lettering, logo, watermark, speech bubble, frame border, extra limbs.\n"
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both arms and legs joined naturally; open palm and lowered relaxed hand, some fingers overlap in perspective.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual1",
+    "file": "두트리오_anime_25d_gloss_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "5a29abb3489d1a80e2aebb8b0d81204db2b93516427e1f4440de26ef2d628f5f",
+    "webp_sha256": "aa2f19067f11f294c38e319a5484a58836e9949a82a894b89d24044e982149b3",
+    "submitted_sha256": "d9d9fea91c2606474fb1558712984b547e56e52b893fd7c807f6dfad0af4a7fe",
+    "submitted_same": true,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "atelier",
+      "free_prompt": null
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both gloved hands attached; bouquet grip partly occludes fingers. Rear three-quarter with a natural look back.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual2",
+    "file": "두트리오_anime_25d_gloss_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "6d4cfacb0e0ec759ae1a9cd18f8350bef45e39ded8b7eb5da4f44cdd01dcc5b2",
+    "webp_sha256": "24bf663d58e5271030f01643901e836e3e65c7d9a52a5e5ca4d7b3059ee133f1",
+    "submitted_sha256": "b954df6d8b32698a226f42577547ee85a43b7b1052266bca90683566e500e6ea",
+    "submitted_same": false,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "gpt_free",
+      "free_prompt": "CHARACTER: the same woman as the attached image — Dodrio (두트리오) personified, normal / flying type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace and activity: a small daytime film foley studio. She is recording the sound of a fast runner: her own right bare foot is poised just above a shallow indoor gravel tray while her left foot supports her on the smooth studio floor. Her left hand adjusts a single large knob on the waist-high audio console and her right hand holds one headphone cup against her right ear; both arms and wrists connect naturally. Three small unlettered mechanical metronomes on a shelf suggest Dodrio's three-way coordination; a small black feather-shaped key charm hangs from the console. No other people.\nOutfit: an original fitted tangerine opaque handkerchief-front top with an interlocked loop neckline and crossed nape straps, open shoulders and bare waist, paired with aqua tailored wrap culottes cut short with curved hip cutouts and a secure high waist; full chest and pelvic coverage. This is contemporary fashion, no armor or creature palette.\nComposition: a lively head-to-toe vertical view, the figure and her footstep tray both readable; body gently three-quarters, face turned slightly toward the console, her amber eyes visible, camera at chest height without distorting her face. Soft morning light through acoustic studio windows, balanced luminous midtones.\nEXPRESSION: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two arms connected to console/headphone hands, fingers partly occluded by grips; both legs and feet visible.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual3",
+    "file": "두트리오_anime_25d_gloss_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "edbe27baca6fd9922bb96ccc1337889669801b79bbd41f6c6fe29a148b388a2f",
+    "webp_sha256": "e38ca898b512ae615a81963dcdc290f508c804be83ca1c336be76a63a73d61ba",
+    "submitted_sha256": "52ce154ecdc6a7ada9a09d638584450ec1e19caee4ed94c4c8409b1be9661ed4",
+    "submitted_same": true,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "atelier",
+      "free_prompt": null
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands attached, phone grip partly occludes fingers; crouched legs and boots coherent.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual4",
+    "file": "두트리오_anime_25d_gloss_f_casual4.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "053e298959f2f158b7b68c25c01c7048225860425e4a7ffcbeb27f673f43097c",
+    "webp_sha256": "1694951fbf82a5a496fcb47b13618e3100729fa2dd2c21ecef7b2fbbe4a0eedd",
+    "submitted_sha256": "d7faba10d1d7c04c4b573c33f031a66a503c3721e09f57d86f5cf39a2d37aef0",
+    "submitted_same": false,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "gpt_outfit",
+      "free_prompt": "CHARACTER: the same woman as the attached image — Dodrio (두트리오) personified, normal / flying type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nCROP: a waist-up shot — the bottom edge crosses her waist; hips, legs and feet are out of frame. This crop wins over every other line: details apply only to the part that shows, and the outfit reads through its visible neckline, straps, fabric and colour. Never widen the framing to show a hidden support, hand or leg; a limb crossing the edge runs naturally on past it, never cut off or fading out inside the image. Both shoulders and upper arms show and run on past the edge — never an armless torso.\n\nWORLD: this scene happens inside the Pokémon world, as if she simply lives there — its towns, routes, buildings, props, light and weather show the world. No Pokémon unless SCENE names her companion, no known trainers or characters, no logos, no text.\n\nSCENE (chosen):\nPlace: an outdoor cooking site at a campsite with a camp stove and a folding table\nOutfit: an original lavender opaque stretch-crepe scarf-neck top with a single front twist, two broad shoulder bands, a long open side-waist and secure fitted bust panel, with pearl-white high-waisted curved-seam culotte shorts; a figure-hugging fit with bare shoulders and waist, chest and pelvis securely covered.\nPOSTURE: seated, leaning slightly forward toward the table, forearms near its edge.\nCOMPOSITION: a waist-up shot of her head, torso and hands; body turned three-quarters toward the camera; camera at her eye level.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nRIGHT HAND: her own right hand is in PROP.\nLEFT HAND: her own left hand is in PROP.\nPROP: with both hands she polishes a Poké Ball with a soft cloth — her own right hand rubs the cloth over the ball, her own left hand cradles the ball in her palm.\nGAZE: her eyes rest on what she holds.\nEXPRESSION: brows level, eyes bright and steady, closed-lip smile with a firm mouth. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; the part of that outfit inside the crop must read at first glance in its own colours. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both shoulders lead to forearms and hands holding ball/cloth; grip partly occludes fingers.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual5",
+    "file": "두트리오_anime_25d_gloss_f_casual5.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "a47d1f8d57ce1fde562d682e27161c7c7744d5285c8657a43bfb72572e237b9f",
+    "webp_sha256": "adb255826369e5649596ab875680f55a453c7dc93b8692e05ce7e8c03186be1e",
+    "submitted_sha256": "bb6394c1a1338fe279c9a459b8ff51c256b947851b637e3a7051cb60c9953a5e",
+    "submitted_same": true,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "atelier",
+      "free_prompt": null
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both arms, legs and feet connected; ball/cloth grip partly occludes fingers. Pose is more side-on than specified.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual6",
+    "file": "두트리오_anime_25d_gloss_f_casual6.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "e3650d88f99a8191d150589b8bdf3447432e3cceb3f40e8698f7b1a5ba2b76fc",
+    "webp_sha256": "6981e8ce2fcd05c5b8c3334230849fdeef383f5bd7b43b6f387bd2833224bb05",
+    "submitted_sha256": "6a3cbf0b643f5b6532a8087710a375bf05bc80acd197c4ca558d8337e6157804",
+    "submitted_same": true,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "atelier",
+      "free_prompt": null
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both arms connected, towel grips show naturally bent fingers, some occluded; legs outside chest-up frame.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual7",
+    "file": "두트리오_anime_25d_gloss_f_casual7.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "4fa7246731ec4e08435133424ba03640eb043b4c90006dc8ac8ce2de1b8406e1",
+    "webp_sha256": "72060b105716e1854cadfa896874683266ec75cacfd63f350c22605116d94caa",
+    "submitted_sha256": "afd4e66a99f4b9279a0a10a85f5d46d1603c7228ceb4f914166ac05b0f3b2f97",
+    "submitted_same": true,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "atelier",
+      "free_prompt": null
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands connected; fingers relaxed/holding headphone, two legs and feet coherent.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual8",
+    "file": "두트리오_anime_25d_gloss_f_casual8.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "3a0af8dca446d6f1470cbce3a7d5d624801f48d2a3b4503595964d9f8b07c72b",
+    "webp_sha256": "19f021da5926098af639937cf7176b66be1dc9eaa59b96aa803975a2c2c4f44c",
+    "submitted_sha256": "b7f9b5499815619a98d2fa92dc84ff2b28f15a53f43625b0d871ed5661031035",
+    "submitted_same": true,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "atelier",
+      "free_prompt": null
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Cheek hand connects through forearm to shoulder; other arm continues below frame, no floating hand.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual9",
+    "file": "두트리오_anime_25d_gloss_f_casual9.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "31d26457ac4994647a9aa74fa9832fbc7946bc38594327a3ce42eb19fda33a58",
+    "webp_sha256": "a3294ad25286f3ec7ff8c38d9d690f7f4003e145197a050cf59e8b8820a6ce24",
+    "submitted_sha256": "3f8029ac51f33c476cf159f34de979681769853df736217e8432a6af9739522a",
+    "submitted_same": false,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "gpt_free",
+      "free_prompt": "CHARACTER: the same woman as the attached image — Dodrio (두트리오) personified, normal / flying type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace and activity: an old open-air transport museum at blue hour. In a playful adult event costume as the museum's human-powered lighting demonstrator, she sits astride a stationary bicycle generator and pedals to illuminate three small streetlamps in sequence. One foot is high at the top of the pedal stroke and the other low; both hands hold the broad handlebar naturally. She turns her head toward the newly lit third lamp with a thoughtful soft expression. A small unlettered three-feather key charm and three brass timing counters on the stand echo Dodrio's speed and three-way coordination. No other people or creatures.\nOutfit category: adult role-play event costume. An original deep teal satin micro-tabard with a fitted opaque sweetheart bodice, a high collar joined only at the back, open shoulders, open sides at the waist and split front-and-back skirt panels over secure matching high-waisted cycling briefs, with short ivory cuff bands. Fashion costume with no real insignia, no armor.\nOriginal momentary situation: as she raises one knee to pedal the generator, the two purpose-cut skirt panels separate over that raised thigh and settle to either side of the saddle, showing more of the bare thigh and hip through the designed side opening. The garment remains securely fastened, opaque and intact; chest and pelvis fully covered. No wet fabric, wind, undone fastenings or fallen straps.\nComposition: head to mid-shin, enough of the bicycle and the three lamps to explain the activity, front three-quarter view with a clear view of her amber eyes. A gentle warm lamp glow on her face balanced with clean cool evening light, luminous skin and clothing.\nEXPRESSION: soft distant eyes, faint wistful half-smile, brows gently raised at the inner ends. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands wrapped around handlebar, fingers partly occluded; two legs connected through pedal pose.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  },
+  {
+    "slot": "casual10",
+    "file": "두트리오_anime_25d_gloss_f_casual10.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "original_sha256": "0804d858931d1e04da3b225c78b578ad2ce908257e9329dc35e0493e83ecbe06",
+    "webp_sha256": "a36aa810382a6eaea83391ab38873c4eae1406663c7f932cffc7b5e392085e62",
+    "submitted_sha256": "10bde10945dc9f2658f26d5277015a807960b479fa83fc6da1deb7f7f966abce",
+    "submitted_same": true,
+    "reference": "두트리오_light_anime_25d_gloss_f.webp",
+    "generation": {
+      "design": "atelier",
+      "free_prompt": null
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Fine soft contours, blended cheeks/nose/lips shading, glossy skin and dimensional fabric/armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; visually inspected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands and forearms connected to shoulders; fingers partly occluded by controller, seated legs coherent.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Generated image preserved as returned, with specified fashion silhouette and covered intimate areas."
+    }
+  }
+]
