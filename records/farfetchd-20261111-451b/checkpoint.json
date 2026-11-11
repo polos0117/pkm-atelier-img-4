@@ -1,0 +1,66 @@
+{
+  "selected_candidate": 1,
+  "completed_slots": [
+    "light",
+    "casual1",
+    "casual2",
+    "casual3",
+    "casual4",
+    "casual5",
+    "casual6",
+    "casual7",
+    "casual8",
+    "casual9",
+    "casual10"
+  ],
+  "count": 11,
+  "status": "complete_generated_reviewed_ready_for_publication",
+  "source_manifest": {
+    "light": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-719a612d-2bee-47f5-ae9d-a5038cb7b45a.png",
+      "prompt": "light-prompt.txt"
+    },
+    "casual1": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-a14d4e9e-24fb-477a-b366-41f768d01942.png",
+      "prompt": "casual1-prompt.txt"
+    },
+    "casual2": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-ed1e9a4e-85b2-4499-827c-2cfe9243e0b0.png",
+      "prompt": "casual2-free-submitted.txt"
+    },
+    "casual3": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-80c9f5b9-42ef-48c1-948c-b1edf8bd3d22.png",
+      "prompt": "casual3-prompt.txt"
+    },
+    "casual4": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-66791c8d-153d-42f1-8157-f9c8655191e6.png",
+      "prompt": "casual4-prompt.txt"
+    },
+    "casual5": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-766972c0-a982-4a65-aa7a-f4667bc45194.png",
+      "prompt": "casual5-free-submitted.txt"
+    },
+    "casual6": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-15f47b12-4ac5-46e6-abe1-42ce9eee15bb.png",
+      "prompt": "casual6-prompt.txt"
+    },
+    "casual7": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-0a122e66-9ed8-452b-ac19-e300c58b05a4.png",
+      "prompt": "casual7-prompt.txt"
+    },
+    "casual8": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-d675e50e-a2a1-492a-bb28-f3015bbd2054.png",
+      "prompt": "casual8-prompt.txt"
+    },
+    "casual9": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-1fe65a2f-b37a-485b-bdbb-851d86793757.png",
+      "prompt": "casual9-prompt.txt"
+    },
+    "casual10": {
+      "source": "/workspace/scratch/451b695f4337/generated_images/exec-767464a6-24f7-4dcb-9cd8-acbc0113d9ff.png",
+      "prompt": "casual10-prompt.txt"
+    }
+  },
+  "reason_for_new_reference": "User selected candidate 1; earlier unapproved-reference results excluded.",
+  "similarity_check": "All final casual images pass minimum distance 215; casual7 replanned from score 196 to 256."
+}

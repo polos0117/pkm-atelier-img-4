@@ -1,0 +1,30 @@
+{
+  "selected_candidate": 1,
+  "user_approval": "1번으로 진행해줘",
+  "tool": "built-in image_gen",
+  "final_count": 11,
+  "rejected_without_image": [
+    {
+      "slots": [
+        2
+      ],
+      "request_id": "0a2cd955-c19d-48ae-b6aa-59084b989ec7",
+      "reason": "output moderation_blocked sexual; ordinary festival work costume used instead"
+    },
+    {
+      "slots": [
+        7,
+        8
+      ],
+      "request_id": "13931733-65af-430c-bb0e-2cec7c379baf",
+      "reason": "parallel call failed without returned image; slot7 ordinary clothing replacement, slot8 request unchanged"
+    }
+  ],
+  "similarity_replan": {
+    "slot": "casual7",
+    "old_original_sha256": "a saved prior local image remains excluded from publication",
+    "reason": "similarity score 196 < 215; new place and pose passes at 256"
+  },
+  "source_pngs_uploaded": false,
+  "existing_published_images_deleted": false
+}
