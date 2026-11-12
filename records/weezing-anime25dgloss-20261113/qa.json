@@ -1,0 +1,216 @@
+{
+ "card": "또도가스",
+ "style": "anime_25d_gloss",
+ "selected_candidate": 3,
+ "anatomy_tool": "unavailable: mediapipe missing; manual visual review used",
+ "images": {
+  "light": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Two arms trace to exposed shoulders and bent elbows, both open palms show five digits; two legs continue from armored hips to boots. Face retains soft cheek, nose and jaw shading with coloured outlines."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Designed bare shoulders/upper arms and upper thighs; remaining torso covered."
+   },
+   "note": "Two arms trace to exposed shoulders and bent elbows, both open palms show five digits; two legs continue from armored hips to boots. Face retains soft cheek, nose and jaw shading with coloured outlines.",
+   "generation": {
+    "design": "gpt_free",
+    "free_prompt": "Input: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\nSource: Weezing (또도가스), poison type.\nSubject: A female mecha personification character with Weezing as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\nOutput: one dynamic action image that is also this form's card art.\n\n1. STYLE\nHigh-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own Face line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing and armor, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\n2. CHARACTER\nFace — a refined adult woman with a short midface, softly rounded oval cheeks, a small soft chin, almond eyes with subtly lowered outer corners, amber irises, a small straight nose and gently curved lips.\nHair: purple, swept into a high loose braided ponytail with soft curved side bangs.\nImpression: an elegant mischievous woman in her late twenties, a composed half-smile and subtle plum eyeliner.\nIdentity (chosen details override the automatic look)\nbody type: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy\nbody scope: Body type sets the build; body details adjust within it. These describe anatomy beneath armor, not equipment volume.\nProportions: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. Her worn features are costume, never extra limbs.\nBody: a normal human body — elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\nHands: Keep both hands relaxed — a loose fist, an open palm or resting on something. Gloves are full-finger and close-fitting; plates, water, sparks and effects stay off the fingers.\nAnatomy: one head, two arms and two legs, each joined at its natural joint; natural hands with five fingers.\n\n3. ARMOR — LIGHT\nCostume: one layer of thin, close-fitting hard armor that covers most of her body: a chest plate joined to segmented abdominal plates down to her hips, shoulder pauldrons, upper-arm and forearm plates with gauntlets, hip and thigh plates, knee guards, shin guards and armored boots; the fitted undersuit shows only in narrow gaps at the joints, joints free. The plates stay thin and close to her body, so the outline is slim and readable without slimming her figure. No helmet; at most a slim headband or temple sensor.\nArmor: rigid hard-surface mecha armor — solid plates of enamelled metal and ceramic with visible thickness, bevelled edges, layered rims, panel lines, seams, small vents, sensor lights and mechanical joints, casting real shadows onto the undersuit. The plates sit on top of her body as separate machined parts, never printed or painted onto fabric, never a patterned bodysuit.\nSilhouette: sparse outer plates over an exposed mechanical skeleton of metal struts, pistons and cables — light and precise. Paired unequal rounded pressure chambers are built into the upper torso armor structure, connected by a short ribbed collar conduit; tapered crater-shaped exhaust rims form the plate edges, translating Weezing’s linked gas bodies into machined armor construction.\nColours: purple.\nWear: the many geyser-like protrusions become pointed edges on her plates.\nExposure: armor and undersuit open by design only at bare shoulders and upper arms, and bare upper thighs; everywhere else fully covered. Plates stay on and symmetrical; nothing slipped off; intimate areas covered.\n\n4. SCENE\nComposition: Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion. Camera level with her face; her body and face turned gently three-quarters toward the camera (never a back view), her head level with her chin neither raised nor tucked, no upward perspective on her face.\nPose: Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\nType effects: narrow violet vapor ribbons spiral above her open palms without covering her fingers, with small acid-green luminous bubbles suspended around her ankles.\nSetting: a pale sunlit industrial greenhouse with weathered glass arches and distant ventilation towers, bright readable atmosphere.\n\n5. CONSTRAINTS\nOne figure only.\nAvoid: second character, creature beside her, text, lettering, logo, watermark, speech bubble, frame border, extra limbs.\n"
+   }
+  },
+  "casual1": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Two arms attached; raised hand wraps one ball and lowered hand has five readable digits; two thighs below shorts, lower legs outside crop. Body three-quarter rear, head looking over shoulder."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Camisole neckline, bare shoulders, waist and thighs."
+   },
+   "note": "Two arms attached; raised hand wraps one ball and lowered hand has five readable digits; two thighs below shorts, lower legs outside crop. Body three-quarter rear, head looking over shoulder."
+  },
+  "casual2": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Both arms reach controller; grip occludes some fingers. Two legs continue to bare feet, five toes indicated on each. Damp opaque black robe, game controller and rainy room visible."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Opaque robe neckline, side waist openings, bare legs."
+   },
+   "note": "Both arms reach controller; grip occludes some fingers. Two legs continue to bare feet, five toes indicated on each. Damp opaque black robe, game controller and rainy room visible."
+  },
+  "casual3": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Accepted replacement has two connected arms: far bent arm lifts strips to face; near arm reaches rack. Both hands grip narrow strips, fingertips overlap. Two thighs continue below shorts. Initial rejected attempt had an extra third arm and is not published."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Designed open back, shoulders and legs; reach does not move garments."
+   },
+   "note": "Accepted replacement has two connected arms: far bent arm lifts strips to face; near arm reaches rack. Both hands grip narrow strips, fingertips overlap. Two thighs continue below shorts. Initial rejected attempt had an extra third arm and is not published.",
+   "generation": {
+    "design": "gpt_free",
+    "free_prompt": "CHARACTER: the same woman as the attached image — Weezing (또도가스) personified, poison type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nAt a community fragrance workshop after its open-day event, she leans diagonally across a narrow scent-testing desk to retrieve one last blotter strip from a rack. Her right hand holds two blank scent strips near her nose, her left hand reaches for the rack; both arms connect naturally through visible elbows and shoulders. Invented adult perfumer event costume, absent from the outfit catalog: a fitted cream-and-petrol-blue wrap-front short romper with a sculpted opaque sweetheart bodice, broad crescent-shaped shoulder yoke and a large designed open-back oval, short tailored trouser legs and a detachable narrow tool sash; chest and pelvis securely covered. The momentary situation is the long sideways reach across the desk: it turns her designed bare back and side waist into view without moving, loosening or wetting any clothing. Three-quarter rear-side knee-up composition, her face turns gently toward the scent strips and stays clearly visible in three-quarter view. Warm late-afternoon window light, plain amber bottles and a tiny Weezing-shaped clasp as the single species accessory. This woman who knows foul gases has a surprisingly delicate hobby: comparing subtle flower scents. No other person and no labels.\nEXPRESSION: softened eyes, faint sad smile, inner brows raised. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+   }
+  },
+  "casual4": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Two forearms join loosely clasped hands at chest; overlapping fingers occlude some digits. Both upper arms and elbows continuous; legs below waist crop. Ivory fan-fold halter and teal skort visible."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Halter neckline, bare shoulders and small waist opening."
+   },
+   "note": "Two forearms join loosely clasped hands at chest; overlapping fingers occlude some digits. Both upper arms and elbows continuous; legs below waist crop. Ivory fan-fold halter and teal skort visible.",
+   "generation": {
+    "design": "gpt_free_outfit",
+    "free_prompt": "CHARACTER: the same woman as the attached image — Weezing (또도가스) personified, poison type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nCROP: a waist-up shot — the bottom edge crosses her waist; hips, legs and feet are out of frame. This crop wins over every other line: details apply only to the part that shows, and the outfit reads through its visible neckline, straps, fabric and colour. Never widen the framing to show a hidden support, hand or leg; a limb crossing the edge runs naturally on past it, never cut off or fading out inside the image. Both shoulders and upper arms show and run on past the edge — never an armless torso.\n\nERA: set this scene in the real world around 1996, when her Pokémon first appeared. Clothing, hair, devices and interiors of that time, keeping two or three recognisable parts of the chosen outfit; no smartphones or modern devices that did not exist then. Period everyday fashion only, not her armor.\n\nSCREENS: any monitor, cabinet, handheld, box or poster shows only abstract colored light, simple shapes or blank art — no recognisable game, character, logo, title or interface, no readable text.\n\nSCENE (chosen):\nPlace: an arcade hall of upright cabinets whose screens show only coloured glow\nOutfit: an original 1996 arcade-night outfit absent from our catalog: an ivory sculpted halter top with overlapping fan-fold fabric panels and a tiny metal clasp, a deep shaped neckline, bare shoulders and a narrow crescent-shaped opening above the navel, paired with a fitted teal high-waisted wrap skort and small silver earrings; fully opaque and secure over chest and pelvis.\nPOSTURE: standing.\nCOMPOSITION: a waist-up shot of her head, torso and hands; body facing the camera; head tilted slightly; camera slightly below, looking up at her.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nBOTH HANDS: both hands clasp loosely together in front of her chest.\nGAZE: she looks into the camera.\nEXPRESSION: slightly furrowed brow, softened eyes, lips lightly pressed together. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; the part of that outfit inside the crop must read at first glance in its own colours. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+   }
+  },
+  "casual5": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Two attached arms, one palm hovers above bellows and other hand holds end of accordion, fingers partly overlapping object. Two legs cross naturally with two canvas shoes. Orange folded romper and accordion distinct from other scenes."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Asymmetric folded bodice, bare shoulders and legs."
+   },
+   "note": "Two attached arms, one palm hovers above bellows and other hand holds end of accordion, fingers partly overlapping object. Two legs cross naturally with two canvas shoes. Orange folded romper and accordion distinct from other scenes.",
+   "generation": {
+    "design": "gpt_free",
+    "free_prompt": "CHARACTER: the same woman as the attached image — Weezing (또도가스) personified, poison type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nOn the floor of a small secondhand musical-instrument workshop during a quiet morning, she tests an old accordion for an air leak. She sits cross-legged on a clean woven mat with the accordion resting securely across her thighs, her left hand gently compressing its bellows while her right palm hovers a few centimetres from the seam to feel escaping air; both hands are visibly joined to their forearms and shoulders. The paired air chambers make this a natural hobby for Weezing's personification. Her outfit is an original warm terracotta origami-fold short romper, absent from our outfit catalog: a fitted opaque folded sweetheart bodice anchored by one broad diagonal shoulder strap, a triangular open side-waist panel, a tailored overlapping skort hem and low canvas shoes, bare shoulders and legs; chest and pelvis securely covered. Medium knee-up view from a gently elevated front diagonal, her attentive face looking down toward the bellows; empty instrument cases, a small work stool and sunlit timber floor surround her. A little paired-sphere Weezing hair clasp and a pair of unequal round air-testing bulbs on the stool are the one accessory and one object inspired by her species. No text, no other person, no creature.\nEXPRESSION: one brow raised higher, eyes wide and attentive, lips slightly parted. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+   }
+  },
+  "casual6": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Near arm continuous to palm resting on stone ledge with five indicated digits; far arm partly hidden behind torso. Two thighs, knees, shins and bare feet connected. Red sports swim set, seated edge and laughing face visible."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Sport swim set exposes shoulders, midriff and legs; chest and pelvis covered."
+   },
+   "note": "Near arm continuous to palm resting on stone ledge with five indicated digits; far arm partly hidden behind torso. Two thighs, knees, shins and bare feet connected. Red sports swim set, seated edge and laughing face visible."
+  },
+  "casual7": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Two arms visibly connect to hands holding vinyl and sleeve; fingers partly occluded by grip. Legs below crop. Gold costume, vinyl and sleeve show no writing."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Costume neckline, shoulders and part of waist visible."
+   },
+   "note": "Two arms visibly connect to hands holding vinyl and sleeve; fingers partly occluded by grip. Legs below crop. Gold costume, vinyl and sleeve show no writing."
+  },
+  "casual8": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Two upper arms overlap in side view; gloved hands meet around wrench, grip partly occludes digits. Two legs connect to two boots. Pink mechanic costume at decorated event setting."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Jumpsuit neckline, shoulders and thigh slit."
+   },
+   "note": "Two upper arms overlap in side view; gloved hands meet around wrench, grip partly occludes digits. Two legs connect to two boots. Pink mechanic costume at decorated event setting."
+  },
+  "casual9": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Two shoulders and upper arms continuous beyond frame; hands and legs outside chest-up crop. Purple costume hood with paired-sphere pieces, train sleeper backdrop, face and amber eyes retained."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Costume neckline and shoulders visible."
+   },
+   "note": "Two shoulders and upper arms continuous beyond frame; hands and legs outside chest-up crop. Purple costume hood with paired-sphere pieces, train sleeper backdrop, face and amber eyes retained."
+  },
+  "casual10": {
+   "anatomy": {
+    "method": "manual visual review",
+    "note": "Raised fan hand connected through wrist and bent forearm; some fingers hidden by fan, five indicated at grip. Other arm continues below crop, legs outside crop. Coral traditional dress and fan; framing is wider than requested face close-up, recorded without regeneration."
+   },
+   "identity": "Purple high braided ponytail, amber eyes, softly rounded adult face maintained.",
+   "style_25d": {
+    "result": "pass",
+    "evidence": "Blended face shading at nose bridge, cheeks and jaw; fine coloured eyelid contours, dimensional hair strands and fabric folds."
+   },
+   "exposure": {
+    "result": "match",
+    "evidence": "Coral dress neckline and shoulders inside crop."
+   },
+   "note": "Raised fan hand connected through wrist and bent forearm; some fingers hidden by fan, five indicated at grip. Other arm continues below crop, legs outside crop. Coral traditional dress and fan; framing is wider than requested face close-up, recorded without regeneration."
+  }
+ },
+ "retries": [
+  {
+   "slot": "casual3",
+   "reason": "extra third arm in first returned image",
+   "original_sha256": "b95d3b97c517263c3e0ef4146f5e8ea4f629db9fc87ef647ca35e7dcf2e0b47b",
+   "prompt_changed": false
+  },
+  {
+   "slot": "casual6",
+   "reason": "no image returned: moderation_blocked output sexual; two bold attempts and one moderate attempt; request IDs 0f7f161c-dd30-46bb-ae3a-c49ba483ff7e, 6bae9af1-56a0-45eb-a4ed-b6950691a153, e2d3556d-2b52-475d-b2d0-e18fe01d7f19",
+   "resolution": "planner replanned blocked bikini/kneeling scene into boyshort sports swimwear seated on ledge, other nine cuts kept",
+   "deviation": "replanned after moderate rejection to use safer swimwear rather than repeat the same blocked scene at low"
+  }
+ ],
+ "batch_call_note": "An early parallel batch was interrupted by a rejection before returning results. No images from that interrupted batch were saved or available; unresolved results were checked before rerun.",
+ "no_successful_image_regenerated_for_exposure": true
+}
