@@ -1,0 +1,261 @@
+{
+ "light": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Standing full body, red mechanical gauntlets, lavender plates, long chestnut ponytail; orange force rings."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Right hand open with five digits; left loose fist with folded fingers partly occluded.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Standing full body, red mechanical gauntlets, lavender plates, long chestnut ponytail; orange force rings."
+  },
+  "limitations": []
+ },
+ "casual1": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Museum phone walk in wine dress, loose shoulder neckline; full body."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Phone grip partially hides fingertips; other hand relaxed by thigh, visible fingers joined to wrist.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Museum phone walk in wine dress, loose shoulder neckline; full body."
+  },
+  "limitations": []
+ },
+ "casual2": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Studio wall, ink-blue folded halter bodice, crossed arms, chest-up crop."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "One set of fingers rests on opposite upper arm; other hand occluded by crossed forearms. Both arms attached to shoulders.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Studio wall, ink-blue folded halter bodice, crossed arms, chest-up crop."
+  },
+  "limitations": [
+   "Both are crossed-arm wall poses; different locations, wardrobe, crop and expression, but similar arm silhouette retained."
+  ]
+ },
+ "casual3": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Lavender Hitmonchan costume on red carpet; leans on counter and turns face back. Boxing gloves hide digits. Background photographers appear despite single-subject instruction."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Two connected arms and two glove-covered hands. Both legs attached; one knee bent. Individual fingers occluded by boxing gloves.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Lavender Hitmonchan costume on red carpet; leans on counter and turns face back. Boxing gloves hide digits. Background photographers appear despite single-subject instruction."
+  },
+  "limitations": [
+   "Background photographers and raised knee differ from plan; original preserved without exposure-based regeneration."
+  ]
+ },
+ "casual4": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Library wall in sage-green uniform-inspired vest and decorative epaulettes; crossed arms."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Gloved fingers rest on opposite upper arm, other hand tucked beneath upper arm. Both shoulders and elbows connected.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Library wall in sage-green uniform-inspired vest and decorative epaulettes; crossed arms."
+  },
+  "limitations": [
+   "Both are crossed-arm wall poses; different locations, wardrobe, crop and expression, but similar arm silhouette retained."
+  ]
+ },
+ "casual5": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "River dock, mint top and teal overalls, gloved hands braced on wooden work surface; looks skyward."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Both gloves connect to forearms; grip hides some fingertips. Body crop ends below waist; no floating hands.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "River dock, mint top and teal overalls, gloved hands braced on wooden work surface; looks skyward."
+  },
+  "limitations": []
+ },
+ "casual6": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Berry storeroom, silver sari-blouse and draped skirt, looking back while holding a ball."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Right hand grips ball, thumb and fingers partly hidden by sphere; left hand hangs connected beside hip, relaxed fingers.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Berry storeroom, silver sari-blouse and draped skirt, looking back while holding a ball."
+  },
+  "limitations": []
+ },
+ "casual7": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Bakery, laughing seated on stool, two fingertips test dough rebound; cream cotton playsuit."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Two connected arms; two extended right fingers, remaining fingers folded; left palm rests on table. Two legs naturally bend toward feet on stool rung.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Bakery, laughing seated on stool, two fingertips test dough rebound; cream cotton playsuit."
+  },
+  "limitations": []
+ },
+ "casual8": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Covered red swimwear, crouched beside pool runway sorting yellow kickboard; high closed neckline and full legs."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Both hands grip board, thumbs visible, other fingers partly behind board; two feet visible with natural toes, knees bent normally.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "low replacement",
+   "evidence": "Covered red swimwear, crouched beside pool runway sorting yellow kickboard; high closed neckline and full legs."
+  },
+  "limitations": []
+ },
+ "casual9": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Swimming-center wave demonstrator, sea-green folded swim outfit, both hands on padded levers; concerned raised brows."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Four curved fingers visible per lever grip; thumbs hidden behind padding. Both wrists attach naturally to forearms and shoulders.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Swimming-center wave demonstrator, sea-green folded swim outfit, both hands on padded levers; concerned raised brows."
+  },
+  "limitations": []
+ },
+ "casual10": {
+  "identity": {
+   "result": "same",
+   "evidence": "Chestnut high ponytail, amber-brown almond eyes, same compact face, lips and adult anime skin rendering as selected candidate 2."
+  },
+  "scene": {
+   "result": "observed",
+   "evidence": "Face close-up at archery field, coral sports collar, goggles, V sign and surprised mouth."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (anatomy-check.py exited 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "V-sign hand has two extended digits, two folded digits and thumb. Other arm extends down past crop; no detached hand.",
+   "overlay_checked": false,
+   "note": "Manually inspected original image; occluded or cropped fingers not inferred."
+  },
+  "exposure": {
+   "result": "retained",
+   "evidence": "Face close-up at archery field, coral sports collar, goggles, V sign and surprised mouth."
+  },
+  "limitations": []
+ }
+}
