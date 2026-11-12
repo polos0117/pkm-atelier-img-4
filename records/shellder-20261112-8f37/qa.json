@@ -1,0 +1,250 @@
+{
+  "reviewer": "gpt",
+  "card": "셀러",
+  "style": "anime_25d_gloss",
+  "selected_candidate": 1,
+  "generated_casual": 10,
+  "accepted": true,
+  "regenerated_for_exposure": false,
+  "generation_error": {
+    "unreturned_batch": "First attempt for casual6–10 ended on output moderation error; no image returned or saved for any of these five in that attempt. Retried missing requests unchanged; all succeeded.",
+    "request_id": "75228194-a011-46cd-89c4-433cf7d086a0"
+  },
+  "diversity_comparison": {
+    "current_set": "Audio workshop seated cross-legged / wedding walk / museum reach / rooftop telescope / gym crouch / garden berry / game-table kneeling / library palm / pool towel / spa cheek close-up. Places, actions and silhouette vary visibly.",
+    "recent_metadata": "Planner compared current 20261111–20261112 casual UI records and live reservations via fresh ledger, with final check passed. Other character image files were not copied per user storage instruction."
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "209f0c8a1cfb51eec06c934d40deefc1fc0c7056c5b4d8a0be55bebe2ad10239",
+      "observations": "Purple shell mantle, floating hip and ankle rings, purple eyes and lavender flowing hair; open palm water effect, two arms and legs connected, gloves at both wrists.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Purple shell mantle, floating hip and ankle rings, purple eyes and lavender flowing hair; open palm water effect, two arms and legs connected, gloves at both wrists."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Purple shell mantle, floating hip and ankle rings, purple eyes and lavender flowing hair; open palm water effect, two arms and legs connected, gloves at both wrists."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "28d20c23a92abd220525464bc3d5a8fab48bd8a5eb73acaafa0c52b16b54b7d2",
+      "observations": "Cross-legged on a wood platform, right hand holds shell receiver to ear, left hand turns recording dial; harbor beyond window, orange wrap romper, two knees and feet in folded seated pose.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Cross-legged on a wood platform, right hand holds shell receiver to ear, left hand turns recording dial; harbor beyond window, orange wrap romper, two knees and feet in folded seated pose."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Cross-legged on a wood platform, right hand holds shell receiver to ear, left hand turns recording dial; harbor beyond window, orange wrap romper, two knees and feet in folded seated pose."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "a251605e6d9a11cf7b9d70e18f815c28d4f667c7ba30cdd7c7ef45d22b016df9",
+      "observations": "Back-three-quarter in flower-filled wedding aisle with face turned over shoulder; camera gripped low on right, left hand relaxed, brown embroidered kebaya with fitted lower garment. Neckline differs with back visible; kept without replacement.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Back-three-quarter in flower-filled wedding aisle with face turned over shoulder; camera gripped low on right, left hand relaxed, brown embroidered kebaya with fitted lower garment. Neckline differs with back visible; kept without replacement."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "different_detail_retained",
+        "evidence": "Original generated clothing and coverage preserved. Back-three-quarter in flower-filled wedding aisle with face turned over shoulder; camera gripped low on right, left hand relaxed, brown embroidered kebaya with fitted lower garment. Neckline differs with back visible; kept without replacement."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "98e49b1938132642f2deef0c2c596a38584ea9ecb5fdeb420d592bd429b183a0",
+      "observations": "At pearl clam resonator in bright museum; right arm up to lid, left hand on pedestal rim, bent knee on low step, two feet on separate surfaces; fitted cream playsuit.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "At pearl clam resonator in bright museum; right arm up to lid, left hand on pedestal rim, bent knee on low step, two feet on separate surfaces; fitted cream playsuit."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. At pearl clam resonator in bright museum; right arm up to lid, left hand on pedestal rim, bent knee on low step, two feet on separate surfaces; fitted cream playsuit."
+      }
+    },
+    "casual4": {
+      "accepted": true,
+      "image_sha256": "fedb84869faba3b87dd96d007e8b2e3a6e227adfa7c2007b2e09cc8637e87930",
+      "observations": "Standing in profile on city roof, both bent arms hold telescope, hood and mini dress show Shellder eyes and shell shape; sandals and both legs readable.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Standing in profile on city roof, both bent arms hold telescope, hood and mini dress show Shellder eyes and shell shape; sandals and both legs readable."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Standing in profile on city roof, both bent arms hold telescope, hood and mini dress show Shellder eyes and shell shape; sandals and both legs readable."
+      }
+    },
+    "casual5": {
+      "accepted": true,
+      "image_sha256": "a524c5ed199dc4b9897da77e60e6c5df4dd7929e945f3fd0f5916e2db566e137",
+      "observations": "Crouching on heels in boxing gym, right hand presses towel at upper chest and left hand lies on knee, both elbows connected; sky-blue blouse, corset and bustle skirt.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Crouching on heels in boxing gym, right hand presses towel at upper chest and left hand lies on knee, both elbows connected; sky-blue blouse, corset and bustle skirt."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Crouching on heels in boxing gym, right hand presses towel at upper chest and left hand lies on knee, both elbows connected; sky-blue blouse, corset and bustle skirt."
+      }
+    },
+    "casual6": {
+      "accepted": true,
+      "image_sha256": "09b4b05017daf09da7accc5b5e95a123c4a6f37a8db8521014c0bf514aed1166",
+      "observations": "Waist-up in rainy garden, right arm bends across torso to offer berry to one small Shellder; left arm descends beside body, opaque wet pink ranch clothes. Reference temple fins remain as decorative ornament; noted and retained.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "outside crop",
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Waist-up in rainy garden, right arm bends across torso to offer berry to one small Shellder; left arm descends beside body, opaque wet pink ranch clothes. Reference temple fins remain as decorative ornament; noted and retained."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Waist-up in rainy garden, right arm bends across torso to offer berry to one small Shellder; left arm descends beside body, opaque wet pink ranch clothes. Reference temple fins remain as decorative ornament; noted and retained."
+      }
+    },
+    "casual7": {
+      "accepted": true,
+      "image_sha256": "98003a95d8ecdfe2768b63cbc45b8330308035bb9e75b382e6c73bbc2af41413",
+      "observations": "Kneeling at low game table, right hand grips pen and left hand steadies notebook, both forearms traced to shoulders; sage folded dress and two bent knees visible.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Kneeling at low game table, right hand grips pen and left hand steadies notebook, both forearms traced to shoulders; sage folded dress and two bent knees visible."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Kneeling at low game table, right hand grips pen and left hand steadies notebook, both forearms traced to shoulders; sage folded dress and two bent knees visible."
+      }
+    },
+    "casual8": {
+      "accepted": true,
+      "image_sha256": "574fcc975472ffd5998f8f3b1f59bfa2920a3c3922c36ed2d84a429b7c88747d",
+      "observations": "Front-facing library portrait, right open palm reaches forward with five fingers, left fingers rest at collarbone; black wrap swimsuit, both shoulders and arms attached.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "outside crop",
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Front-facing library portrait, right open palm reaches forward with five fingers, left fingers rest at collarbone; black wrap swimsuit, both shoulders and arms attached."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Front-facing library portrait, right open palm reaches forward with five fingers, left fingers rest at collarbone; black wrap swimsuit, both shoulders and arms attached."
+      }
+    },
+    "casual9": {
+      "accepted": true,
+      "image_sha256": "e0d93c5d25f6a306477a3cce6106524e23158cd733d97aed396542c3ea78bb12",
+      "observations": "Chest-up poolside in cream and black maid costume; right bent arm reaches to towel above head and left bent arm holds towel beside hair; fingers partly covered by cloth, two connected arms.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "outside crop",
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Chest-up poolside in cream and black maid costume; right bent arm reaches to towel above head and left bent arm holds towel beside hair; fingers partly covered by cloth, two connected arms."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Chest-up poolside in cream and black maid costume; right bent arm reaches to towel above head and left bent arm holds towel beside hair; fingers partly covered by cloth, two connected arms."
+      }
+    },
+    "casual10": {
+      "accepted": true,
+      "image_sha256": "e0ca730ded4225c8d01e82a25c4ed67f7f012591d847c60922b109f799ad902d",
+      "observations": "Face-and-shoulder portrait under footbath roof; right fingertips touch cheek with wrist and forearm continuing below, left shoulder and upper arm continue out of frame; coral slip and robe.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": "outside crop",
+        "hands": "Visible hands join wrists and forearms; five-finger structure; grip/towel obscures some fingers in casual2,4,6,7,9.",
+        "overlay_checked": false,
+        "note": "Face-and-shoulder portrait under footbath roof; right fingertips touch cheek with wrist and forearm continuing below, left shoulder and upper arm continue out of frame; coral slip and robe."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Soft dimensional shading on nose, cheek and lips, fine lavender facial contours, blended highlights on skin; purple irises and flowing lavender strands match selected reference."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Original generated clothing and coverage preserved. Face-and-shoulder portrait under footbath roof; right fingertips touch cheek with wrist and forearm continuing below, left shoulder and upper arm continue out of frame; coral slip and robe."
+      }
+    }
+  }
+}
