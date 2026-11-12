@@ -15,7 +15,7 @@
       1536
     ]
   },
-  "status": "ready_to_publish",
+  "status": "registered",
   "generated": 11,
   "requested": 11,
   "original_pngs_in_git": false,
@@ -36,5 +36,9 @@
     "shellder-20261112-8f37",
     "muk-20261112"
   ],
-  "remaining": "publish images and verify registry"
+  "remaining": null,
+  "image_commit": "9d226ca2468cf2df5b3c7ad285f743666bd86717",
+  "registry_commit": "2d0485d403014f606a50dac6bdb8c6db7e506f95",
+  "publication_method": "GitHub connector create blob/tree/commit and fast-forward update_ref(force=false); Git CLI push unavailable due missing credential",
+  "thumbnail_count": 11
 }
