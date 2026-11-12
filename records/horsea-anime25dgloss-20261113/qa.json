@@ -1,0 +1,324 @@
+{
+  "card": "쏘드라",
+  "style": "anime_25d_gloss",
+  "canonical_candidate": 1,
+  "generated_final_count": 11,
+  "casual_count": 10,
+  "regenerated_completed_images": 0,
+  "anatomy_tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+  "recent_comparison": [
+    "캥카",
+    "덩쿠리",
+    "럭키"
+  ],
+  "diversity": "Compared recent thumbnails and this complete set. Penthouse recline / water-drop music-box repair / jazz portrait / circus kneel / dock wave / hot-spring portrait / lakeside costume lounge / camp sit / valve adjustment / cafe costume have different place, outfit and activity combinations.",
+  "cuts": {
+    "light": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Standing full body, blue bob and irises, blue thin rigid armor and floating waist/ankle rings."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected arms and legs; open gloved palm has five fingers; lowered fist has fingers folded/partly occluded.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "stronger",
+        "evidence": "Original selected by user; thigh openings exceed the two planned exposure areas, preserved."
+      },
+      "note": "Original selected by user; thigh openings exceed the two planned exposure areas, preserved."
+    },
+    "casual1": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Cream cropped cardigan and fitted trousers, side-supported reclining body on penthouse rug; city windows and wind-blown curtains."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms connected through shoulders; rear hand is hidden behind head; planted gloved hand shows five fingers.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Cream cropped cardigan and fitted trousers, side-supported reclining body on penthouse rug; city windows and wind-blown curtains. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Pose is partly propped upright rather than fully side-lying; chosen outfit and city scene read clearly."
+    },
+    "casual2": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Saffron cutout playsuit at a water-drop music box, one hand pressing a bulb and the other steadying a copper pipe; porcelain chimes."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected arms; both grips show normal five-digit hands with some fingertips hidden by the bulb and pipe.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Saffron cutout playsuit at a water-drop music box, one hand pressing a bulb and the other steadying a copper pipe; porcelain chimes. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Free scene: practical siphon repair and tired eyelids; no armor carried over.",
+      "generation": {
+        "design": "gpt_free",
+        "free_prompt": "casual2-free-prompt.txt",
+        "fixed_blocks_preserved": true
+      }
+    },
+    "casual3": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Blue bob, blue eyes, teal glitter neckline, jazz-bar piano behind; V sign beside face and asymmetric closed-lip smile."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Raised V hand has five digits: two extended, two folded and thumb; other arm continues out of frame.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Blue bob, blue eyes, teal glitter neckline, jazz-bar piano behind; V sign beside face and asymmetric closed-lip smile. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Crop extends below collarbones farther than the requested face close-up; retained as a framing variation."
+    },
+    "casual4": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Silver embroidered qipao-inspired cutout dress with frog buttons, kneeling beneath circus canopy and loosely clasped hands."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms connected naturally; clasped hands overlap so not all ten fingertips are individually visible; no extra hand or joint.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Silver embroidered qipao-inspired cutout dress with frog buttons, kneeling beneath circus canopy and loosely clasped hands. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Front kneeling shot extends below knees compared with planned crop; no regeneration."
+    },
+    "casual5": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Chocolate strapless swim bodice, raised wave, parcel dock and moored boat behind; blue irises preserved."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Raised open hand has five separated fingers, wrist and forearm connected to shoulder; other arm runs out of frame.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Chocolate strapless swim bodice, raised wave, parcel dock and moored boat behind; blue irises preserved. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Chest-up framing extends toward waist; swimsuit top reads through lined opaque fabric."
+    },
+    "casual6": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Mustard halter cropped shirt, fingertips on cheek, rock hot spring and mountain town behind; close blue-bob portrait."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Cheek hand has five digits, wrist and forearm connect to shoulder; opposite arm continues below the crop.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Mustard halter cropped shirt, fingertips on cheek, rock hot spring and mountain town behind; close blue-bob portrait. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Both shoulders and upper arms are visible. Frame is looser than the requested collarbone crop."
+    },
+    "casual7": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Black-and-cream maid dress and apron on lakeside lounger, left hand holding teacup, right arm behind head, amused smile."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms and two extended legs; teacup grip partly hides digits and rear hand is occluded behind head.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Black-and-cream maid dress and apron on lakeside lounger, left hand holding teacup, right arm behind head, amused smile. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Lake setting and maid silhouette differ from recent reclining Lucky with book in a conservatory."
+    },
+    "casual8": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Terracotta asymmetric panel playsuit with side waist cutouts at campsite stove and folding table; elbow on raised knee."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms and two legs joined correctly; chin-support fist partly hides digits; bracing hand has a normal five-digit spread with some overlap.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Terracotta asymmetric panel playsuit with side waist cutouts at campsite stove and folding table; elbow on raised knee. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Free outfit construction rendered as layered waist-connected pieces; retained."
+    },
+    "casual9": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Burgundy swim set, raised arm turning upper valve and other hand turning lower wheel at seawater pool; one foot on tile step."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected arms and legs; each hand wraps a separate valve wheel with thumb on opposing side and some digits occluded by grip.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Burgundy swim set, raised arm turning upper valve and other hand turning lower wheel at seawater pool; one foot on tile step. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Authorized free scene and situation: ordinary reach exposes fixed side-waist opening, no wardrobe failure.",
+      "generation": {
+        "design": "gpt_free",
+        "free_prompt": "casual9-free-prompt.txt",
+        "fixed_blocks_preserved": true
+      }
+    },
+    "casual10": {
+      "scene": {
+        "verdict": "match with noted variations",
+        "evidence": "Blue Horsea hood with tubular snout and fins, opaque fitted bodysuit with ridged pale belly and blue gloves; smiling by cafe window."
+      },
+      "identity": {
+        "verdict": "match",
+        "evidence": "Short light-blue bob, blue irises and compact softly rounded adult face preserved from selected candidate 1."
+      },
+      "style_25d": {
+        "verdict": "match",
+        "evidence": "Face has blended nose/cheek/chin shading and fine coloured outlines; fabric weave and folds read dimensionally, with glossy skin highlights."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); original-size visual inspection and enlarged hand review performed.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both gloved hands join forearms and shoulders; relaxed overlapping digits partly hide inner thumbs, no disconnected or extra hand.",
+        "overlay_checked": false,
+        "note": "Viewed full returned image; no disconnected additional limb observed. Cropped lower limbs are not independently visible in close portraits."
+      },
+      "exposure": {
+        "verdict": "match",
+        "evidence": "Blue Horsea hood with tubular snout and fins, opaque fitted bodysuit with ridged pale belly and blue gloves; smiling by cafe window. Secure chest and pelvis coverage within the visible frame."
+      },
+      "note": "Only empty blocked slot lowered to moderate. Body is more front-facing and crop looser than planned rear 3/4 waist-up; retained."
+    }
+  }
+}
