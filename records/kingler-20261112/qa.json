@@ -1,0 +1,224 @@
+{
+  "selected_candidate": 2,
+  "regenerations": 0,
+  "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "method": "manual visual inspection of source images"
+  },
+  "similarity_check": {
+    "result": "pass",
+    "tool": "tools/casual-look.cjs",
+    "evidence": "No nearly identical casual images; closest indexed distance 227, above rejection threshold 215"
+  },
+  "slots": {
+    "light": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "One head, two armored arms and two legs; one palm open and opposite hand relaxed."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Bare shoulders and midriff; armored legs retained."
+      },
+      "observed": "Selected candidate 2; full body and feet inside frame."
+    },
+    "casual1": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Both hands grip separate edges of a raised wooden footbridge; red ponytail, blue swim garment, back and arms visible. Knees cropped naturally."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Both hands grip separate edges of a raised wooden footbridge; red ponytail, blue swim garment, back and arms visible. Knees cropped naturally."
+      },
+      "observed": "Both hands grip separate edges of a raised wooden footbridge; red ponytail, blue swim garment, back and arms visible. Knees cropped naturally."
+    },
+    "casual2": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Grey dealer waistcoat and short skirt on a rooftop; one hand holds tote strap, other hangs connected through forearm. Rear three-quarter body, face turned back."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Grey dealer waistcoat and short skirt on a rooftop; one hand holds tote strap, other hangs connected through forearm. Rear three-quarter body, face turned back."
+      },
+      "observed": "Grey dealer waistcoat and short skirt on a rooftop; one hand holds tote strap, other hangs connected through forearm. Rear three-quarter body, face turned back."
+    },
+    "casual3": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Seated woman holds a closed book to her chest; other hand lies on knee. Purple opaque damp wedding dress, veil and ranch rain. Legs joined naturally."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Seated woman holds a closed book to her chest; other hand lies on knee. Purple opaque damp wedding dress, veil and ranch rain. Legs joined naturally."
+      },
+      "observed": "Seated woman holds a closed book to her chest; other hand lies on knee. Purple opaque damp wedding dress, veil and ranch rain. Legs joined naturally."
+    },
+    "casual4": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Waist-up red and tan costume in retro-futurist room; right thumbs-up, left hand on hip. Costume has stiff armor-like trim, retained as generated."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Waist-up red and tan costume in retro-futurist room; right thumbs-up, left hand on hip. Costume has stiff armor-like trim, retained as generated."
+      },
+      "observed": "Waist-up red and tan costume in retro-futurist room; right thumbs-up, left hand on hip. Costume has stiff armor-like trim, retained as generated."
+    },
+    "casual5": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Side view reaching to a woven nest box, both hands on its sides; coral draped outfit, bare waist and shoulders. Both feet in sandals."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Side view reaching to a woven nest box, both hands on its sides; coral draped outfit, bare waist and shoulders. Both feet in sandals."
+      },
+      "observed": "Side view reaching to a woven nest box, both hands on its sides; coral draped outfit, bare waist and shoulders. Both feet in sandals."
+    },
+    "casual6": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Full body walking with camera in right hand, other hand relaxed. Olive patterned swimsuit at themed event. Two connected legs and arms."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Full body walking with camera in right hand, other hand relaxed. Olive patterned swimsuit at themed event. Two connected legs and arms."
+      },
+      "observed": "Full body walking with camera in right hand, other hand relaxed. Olive patterned swimsuit at themed event. Two connected legs and arms."
+    },
+    "casual7": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Both hands touch separate headphone cups; wrists and forearms trace to correct shoulders. Teal crossed fabric top and recording booth, attentive brows."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Both hands touch separate headphone cups; wrists and forearms trace to correct shoulders. Teal crossed fabric top and recording booth, attentive brows."
+      },
+      "observed": "Both hands touch separate headphone cups; wrists and forearms trace to correct shoulders. Teal crossed fabric top and recording booth, attentive brows."
+    },
+    "casual8": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Close portrait at infinity pool; blue camisole and navy jacket, red eyes and ponytail. Hands outside frame. Crown-like hair ornaments remain."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Close portrait at infinity pool; blue camisole and navy jacket, red eyes and ponytail. Hands outside frame. Crown-like hair ornaments remain."
+      },
+      "observed": "Close portrait at infinity pool; blue camisole and navy jacket, red eyes and ponytail. Hands outside frame. Crown-like hair ornaments remain."
+    },
+    "casual9": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Close portrait with teacup held at her mouth; visible fingers curl around cup handle, wrist joins forearm. Yellow opaque wrap, spa towels and lamps."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Close portrait with teacup held at her mouth; visible fingers curl around cup handle, wrist joins forearm. Yellow opaque wrap, spa towels and lamps."
+      },
+      "observed": "Close portrait with teacup held at her mouth; visible fingers curl around cup handle, wrist joins forearm. Yellow opaque wrap, spa towels and lamps."
+    },
+    "casual10": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients on cheeks and nose; colored contours; specular skin highlights and material folds."
+      },
+      "identity": {
+        "result": "match",
+        "evidence": "Red eyes, red high ponytail, angular soft adult face retained from selected candidate 2."
+      },
+      "anatomy": {
+        "result": "visual review",
+        "evidence": "Seated on cork stool at sea chest; one hand supports brass lock, other grips screwdriver. Plum romper, bent knees and sandal-clad feet connected naturally."
+      },
+      "exposure": {
+        "result": "retained as generated",
+        "evidence": "Seated on cork stool at sea chest; one hand supports brass lock, other grips screwdriver. Plum romper, bent knees and sandal-clad feet connected naturally."
+      },
+      "observed": "Seated on cork stool at sea chest; one hand supports brass lock, other grips screwdriver. Plum romper, bent knees and sandal-clad feet connected naturally."
+    }
+  }
+}
