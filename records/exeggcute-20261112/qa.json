@@ -1,0 +1,135 @@
+{
+  "status": "partial_generation_complete",
+  "selected_candidate": 2,
+  "style": "anime_25d_gloss",
+  "generated_casual_count": 7,
+  "requested_casual_count": 10,
+  "not_delivered": {
+    "casual4": "No result returned from first parallel batch; one of casual4/casual5 received output moderation_blocked sexual; batch ended before other result could be retained. Neither was resubmitted.",
+    "casual5": "No result returned; see casual4.",
+    "casual8": "output moderation_blocked sexual, request 9d436247-23ad-4dac-bba3-32b0c5abdb23; not resubmitted."
+  },
+  "regeneration_policy": "No regeneration for exposure moderation; returned images preserved.",
+  "images": [
+    {
+      "slot": "light",
+      "style_25d": {
+        "judgment": "2.5D",
+        "evidence": "blended facial shadows at nose and jaw, delicately coloured contours and dimensional fabric"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected arms and legs, open left palm and lowered right hand; some digits overlap naturally. Rose eyes and pink flowing hair match selected candidate.",
+        "overlay_checked": false,
+        "note": "Two connected arms and legs, open left palm and lowered right hand; some digits overlap naturally. Rose eyes and pink flowing hair match selected candidate."
+      }
+    },
+    {
+      "slot": "casual1",
+      "style_25d": {
+        "judgment": "2.5D",
+        "evidence": "blended facial shadows at nose and jaw, delicately coloured contours and dimensional fabric"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both arms connected; raised hand grips shade rim and lower hand rests on stool, grip obscures fingertips. Two bare legs and feet visible.",
+        "overlay_checked": false,
+        "note": "Both arms connected; raised hand grips shade rim and lower hand rests on stool, grip obscures fingertips. Two bare legs and feet visible."
+      }
+    },
+    {
+      "slot": "casual2",
+      "style_25d": {
+        "judgment": "2.5D",
+        "evidence": "blended facial shadows at nose and jaw, delicately coloured contours and dimensional fabric"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": "outside crop or partly cropped",
+        "hands": "Both arms connected; one hand near hair and other on counter with fingers partly overlapped. Legs naturally cropped near knees.",
+        "overlay_checked": false,
+        "note": "Both arms connected; one hand near hair and other on counter with fingers partly overlapped. Legs naturally cropped near knees."
+      }
+    },
+    {
+      "slot": "casual3",
+      "style_25d": {
+        "judgment": "2.5D",
+        "evidence": "blended facial shadows at nose and jaw, delicately coloured contours and dimensional fabric"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both arms reach workbench and hands rest on it, digits partly occluded by work surface. One leg bent behind, other supports weight.",
+        "overlay_checked": false,
+        "note": "Both arms reach workbench and hands rest on it, digits partly occluded by work surface. One leg bent behind, other supports weight."
+      }
+    },
+    {
+      "slot": "casual6",
+      "style_25d": {
+        "judgment": "2.5D",
+        "evidence": "blended facial shadows at nose and jaw, delicately coloured contours and dimensional fabric"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": "outside crop or partly cropped",
+        "hands": "Both arms extend to tub ledge and hands are attached at wrists. Lower legs outside waist-up crop. Rear body direction differs from plan; recorded without regeneration.",
+        "overlay_checked": false,
+        "note": "Both arms extend to tub ledge and hands are attached at wrists. Lower legs outside waist-up crop. Rear body direction differs from plan; recorded without regeneration."
+      }
+    },
+    {
+      "slot": "casual7",
+      "style_25d": {
+        "judgment": "2.5D",
+        "evidence": "blended facial shadows at nose and jaw, delicately coloured contours and dimensional fabric"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms support upper body with both hands on ledge, fingers partly overlapping. Two legs extend naturally toward foreground. Expression closed eyes and smiling.",
+        "overlay_checked": false,
+        "note": "Two arms support upper body with both hands on ledge, fingers partly overlapping. Two legs extend naturally toward foreground. Expression closed eyes and smiling."
+      }
+    },
+    {
+      "slot": "casual9",
+      "style_25d": {
+        "judgment": "2.5D",
+        "evidence": "blended facial shadows at nose and jaw, delicately coloured contours and dimensional fabric"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right hand holds listening tube, left hand balances beside hip. Two bare legs and feet on trays, no detached limbs.",
+        "overlay_checked": false,
+        "note": "Right hand holds listening tube, left hand balances beside hip. Two bare legs and feet on trays, no detached limbs."
+      }
+    },
+    {
+      "slot": "casual10",
+      "style_25d": {
+        "judgment": "2.5D",
+        "evidence": "blended facial shadows at nose and jaw, delicately coloured contours and dimensional fabric"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": "outside crop or partly cropped",
+        "hands": "Two connected arms and hands around phone; fingers partly hidden by grip. Seated legs continue below crop.",
+        "overlay_checked": false,
+        "note": "Two connected arms and hands around phone; fingers partly hidden by grip. Seated legs continue below crop."
+      }
+    }
+  ]
+}

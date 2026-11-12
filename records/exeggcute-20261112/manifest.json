@@ -1,0 +1,122 @@
+[
+  {
+    "slot": "light",
+    "file": "아라리_light_anime_25d_gloss_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "deb9c117d50d553acb90bcf01d65abdf09a455d3cdba7793d4a18c0bf35e0316",
+    "sha256": "65fd4d03b9b5ef0512c6896b1b7f262e2822996e0bc0b1b79a3ac9d7dec89dff",
+    "reference": null,
+    "generation": {
+      "design": "project",
+      "free_prompt": null
+    }
+  },
+  {
+    "slot": "casual1",
+    "file": "아라리_anime_25d_gloss_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "6b57284aaa6f112ae54d32079167b6e5606919cb5d8cf68f04975889233b9a75",
+    "sha256": "551aa396bd58ccd67bac54dcc50f30823b16209002fa29d15b98798aac4b805b",
+    "reference": "candidate 2",
+    "generation": {
+      "design": "gpt_free",
+      "free_prompt": "CHARACTER: the same woman as the attached image — Exeggcute (아라리) personified, grass / psychic type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nAn adult botanical conservator event costume during a quiet after-hours rehearsal in a seed-bank germination chamber. She is sitting sideways on the low wheeled stool, both feet naturally supported, with a tray of six closed germination capsules beside her. She raises her right arm to slide a circular shade over an overhead grow-lamp; her left hand steadies the wheeled stool. The overhead reach opens the deliberate accordion pleat at the side of her fitted graphite short playsuit, revealing the designed crescent cutout along her waist, with no clothing malfunction or transparent cloth. This costume is a new sleeveless opaque graphite bonded-linen playsuit with a securely closed sculpted bust, short articulated petal-panel hems and a copper-edged open side pleat, styled with low work sandals. Warm isolated grow-light pools and cool lavender cabinets; she looks tired after carefully tending the seeds. Three-quarter medium-wide view from her eye level showing both hands and knees, face clearly visible. No one else is present.\nEXPRESSION: drooping lids and brows, dull tired eyes, mouth slightly open and slack. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+    }
+  },
+  {
+    "slot": "casual2",
+    "file": "아라리_anime_25d_gloss_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "95b54a5779bda499ba618f6537916047322ae776f027c1e80d5aa7d3801c366c",
+    "sha256": "ad98adc84d1fadad30af7cd665497e52c85e72c89e7365fe4edfd6d793ac04b2",
+    "reference": "candidate 2",
+    "generation": {
+      "design": "project",
+      "free_prompt": null
+    }
+  },
+  {
+    "slot": "casual3",
+    "file": "아라리_anime_25d_gloss_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "d644a88d0d052cf6ef9821869568ac0e06903768f64d6ea0597d31ff8bb4fe58",
+    "sha256": "095cb787de967677c45c991a8e5de0517d9eb5b278725acea55a22d5efc8e4ff",
+    "reference": "candidate 2",
+    "generation": {
+      "design": "project",
+      "free_prompt": null
+    }
+  },
+  {
+    "slot": "casual6",
+    "file": "아라리_anime_25d_gloss_f_casual6.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "9321f35f83a1b260c96c36db32a9c21b200f61758a737dd296e670c1d72bb2ab",
+    "sha256": "ba1e1104532144459392c7a9b4da4bdc7717bf9bf026b770a223c091f8abbaf4",
+    "reference": "candidate 2",
+    "generation": {
+      "design": "project",
+      "free_prompt": null
+    }
+  },
+  {
+    "slot": "casual7",
+    "file": "아라리_anime_25d_gloss_f_casual7.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "da9ec9e9deb1241ad945e27a2cca0dbccb4bc9f021c9de26d61b49ccdad2957c",
+    "sha256": "f037708ca2e03039e1892159f8ad7dd110bcb56c8637e4e9422bfb32f755f88e",
+    "reference": "candidate 2",
+    "generation": {
+      "design": "project",
+      "free_prompt": null
+    }
+  },
+  {
+    "slot": "casual9",
+    "file": "아라리_anime_25d_gloss_f_casual9.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "6a58cbf4a35ebc727c757b6279299314b9bbfd91ac1bd395b0288c4fe1f1a66b",
+    "sha256": "69aac480d0daa36aa739395776f820bc31f2e93b53976cc0361646c90ee3dcbb",
+    "reference": "candidate 2",
+    "generation": {
+      "design": "gpt_free",
+      "free_prompt": "CHARACTER: the same woman as the attached image — Exeggcute (아라리) personified, grass / psychic type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nIn a small acoustic seed-testing booth, she pauses mid-step across a narrow floor of six shallow wooden resonance trays, listening for which tray contains the one hollow seed. Her left bare foot rests lightly on a tray while her right leg supports her body; her right hand holds a plain wooden listening tube near her ear and her left hand balances loosely at hip height. Eye-level full-body composition with a little space around her feet; face turned toward camera with her chosen expression. Daylight enters through perforated acoustic shutters and paints small pools across the cork walls. She wears an original saffron woven-linen romper with a cross-folded opaque bust panel, a plunging but securely covered neckline, shoulder straps linked through small carved wood toggles, an open triangular midriff and soft split culotte legs ending high on the thighs; this is neither a dress, a wrap skirt nor an outfit from the catalog. A tiny oval seed charm hangs from the listening tube. Natural quiet concentration and balance, not a posed fashion shoot.\nEXPRESSION: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+    }
+  },
+  {
+    "slot": "casual10",
+    "file": "아라리_anime_25d_gloss_f_casual10.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "58b51621ade856715bfe77565830d6cda69c60ffff2243d34f393387330b01c8",
+    "sha256": "3a54d6ee2f7b6698e7b2f55b18deaf72103cf893b1a41b577ccf308ba583ef2a",
+    "reference": "candidate 2",
+    "generation": {
+      "design": "project",
+      "free_prompt": null
+    }
+  }
+]
