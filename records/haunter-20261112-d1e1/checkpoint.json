@@ -1,0 +1,229 @@
+{
+  "status": "ready_to_publish",
+  "selected_candidate": 4,
+  "expected": 11,
+  "generated": 11,
+  "slots": [
+    {
+      "card": "고우스트",
+      "slot": "light",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_light_anime_25d_gloss_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "webp_sha256": "e7b49aac162892abc3dc57675ead62937688889fe7d1405fc7a7189161cd7a70",
+      "submitted_sha256": "ef3e162dabbdf45cb1da704e179434aa010b8e1aa9053e132ea369011be373b8",
+      "reference_sha256": null,
+      "generation": {
+        "design": "gpt_free",
+        "free_prompt": "light-selected-submitted.txt"
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual1",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "ca9325de42237ce3def4a7c9bb3ae09a358d68780d7508c9a7174094f391d735",
+      "webp_sha256": "374d3977733909a797a6de624d2d12b010536428ab9777645e3bf04f9adaaad2",
+      "submitted_sha256": "e3ca53df9e760112c2631ee11abf064b858cf024fe70f49fd99ccec7a488922c",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "standard",
+        "free_prompt": null
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual2",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "f36dc95de4845bff70ba0f3cfbd6fb9dbf5d508f1f09571dfe0e5eb389766c0c",
+      "webp_sha256": "e5ccb4e4c26f6a2c96a70444e73585d592299e09740684f719e386ec32af1365",
+      "submitted_sha256": "ffe2334ee08eb0550926bda21c36933f12bfe3d9b101047c2de7e8c9712dbb8f",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "gpt_free",
+        "free_prompt": "casual2-actual.txt"
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual3",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "0a7b863cc5b3260519e9a99993233f5d0444090c4718ef38ecbf24729ef3a901",
+      "webp_sha256": "fa4f3dbbe8727bd45b3a745068feb285f84ff3d56c7a8685db4a248e04f2b0a7",
+      "submitted_sha256": "56070973ee9fc0dc7dfee807f7edca77f1451faf5a9c05aa7aa614cc041f71df",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "standard",
+        "free_prompt": null
+      },
+      "successful_image_regenerations": 1,
+      "composition_regenerations": 1
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual4",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual4.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "87316d0675962813702ba069ba5066b9814f4dc5cc0e956906f715efdc8501fd",
+      "webp_sha256": "0cbbe7e2d0bfe276ffc953af98e4733e9050123d2ab5a73d9d3276d35b24dda1",
+      "submitted_sha256": "f381d888b60f746a9876973477bc0fcf95b318b56e6b2ce66c165978ecd9e39f",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "standard",
+        "free_prompt": null
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual5",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual5.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "78449f2697b7536806f8fc959db31b926e45eb1fb98e7e89e9ee8000df5e5691",
+      "webp_sha256": "6236333188fb5d0033828f13dfe7af05a8a03134526cc2279beb0e26ee912d32",
+      "submitted_sha256": "81359395d250de20cab4be6ccf65ccc00f0f42b015eac73aad577adc7a30a37c",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "standard",
+        "free_prompt": null
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual6",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual6.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "3edc67ab7bc00fc0e3e7d9de4aff43a459b109a715c2f9bad45f39529459eb0f",
+      "webp_sha256": "4658c1b6f2111502385a6439ec3cc4ae86db460c8f1b11a87a0aa3d472d471e5",
+      "submitted_sha256": "35be54ec7806186272badbdc60c29abc17a93ca4795fb0258e2817f586aab16a",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "standard",
+        "free_prompt": null
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual7",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual7.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "34c868973333eaa9b586a008f970c4f0e369c78ffaf30f585267e49db02b704e",
+      "webp_sha256": "eff5ab243f728d4d675822a558c159fc4594fbfb19e740a8ec0dd24c5abb728d",
+      "submitted_sha256": "303256d4f55fd0fd0453039d20c40e62be7b697ddbe5b726608b875ff21cc263",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "standard",
+        "free_prompt": null
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual8",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual8.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "bd2698fba48b116a2e2f4985f7c3fecc1fa959a63fa43437b6a2e0415d25d3b8",
+      "webp_sha256": "05be69c44b34a0441e04ebd1942ac92e98ba40b2f79815d1a7beb464512b4a69",
+      "submitted_sha256": "d3e9e9a041b300db1a3e0900b136b3b639f60b467be216bf4307855ddde8bf3e",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "standard",
+        "free_prompt": null
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual9",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual9.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "6db442288902a8fc05b368d4d19a89de1cf15d5869ab5faf1a4994ea9378daba",
+      "webp_sha256": "eb74cc72b2fa112f46542582829881b5ea2de9c3064396fa3ff2ebc1a77c9f93",
+      "submitted_sha256": "14c0c8bc41eac6a028a0e6c16aca9d5d5e6ba12b97790b2b7ca203b0bbbe6bfe",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "gpt_free",
+        "free_prompt": "casual9-actual.txt"
+      },
+      "successful_image_regenerations": 0
+    },
+    {
+      "card": "고우스트",
+      "slot": "casual10",
+      "style": "anime_25d_gloss",
+      "gender": "f",
+      "file": "고우스트_anime_25d_gloss_f_casual10.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "original_sha256": "99a7de55c91cd923b364e26e490f4bc75a1a7d39a6d241b01a2f920bdb852705",
+      "webp_sha256": "0326ac4640d6397e74f6d62bc9afa6b95616e879e73d941de2938cf165b5a061",
+      "submitted_sha256": "03ad724cd6ebf745d66160cff40dbe2cc29620c78734a99f7867f6709ebba54e",
+      "reference_sha256": "9ec6686b25815245d29881f72617ede08c97344dd70671a4b9de73b954045061",
+      "generation": {
+        "design": "standard",
+        "free_prompt": null
+      },
+      "successful_image_regenerations": 0
+    }
+  ]
+}
