@@ -1,0 +1,96 @@
+{
+ "casual1": [
+  {
+   "slot": "casual1",
+   "at": "2026-11-12T12:12:41.786Z",
+   "prompt_sha256": "3a0641a7536c7a86f166f90b230472e718c7c9e952a3cee2fa3cc01d1c23981e",
+   "submitted_sha256": "3a0641a7536c7a86f166f90b230472e718c7c9e952a3cee2fa3cc01d1c23981e",
+   "same": true,
+   "prompt_words": 1173,
+   "submitted_words": 1173,
+   "style_kept": true,
+   "missing": [],
+   "added": []
+  }
+ ],
+ "casual2": [
+  {
+   "submitted_sha256": "4701b35dbb5faa10c403224bd1b1be165118475bc4424e4c5d5eedfe7adf9728",
+   "same": false,
+   "design": "gpt_free",
+   "reason": "Authorized free-scene design"
+  }
+ ],
+ "casual3": [
+  {
+   "submitted_sha256": "26e4705c334c26d12a6730e810657d22b5a7e3777dc0c4c2516a19ecf16b2a0d",
+   "same": false,
+   "design": "gpt_free",
+   "reason": "Authorized free-scene design"
+  }
+ ],
+ "casual4": [
+  {
+   "submitted_sha256": "909b2a3c83cb9c98d8063046e93989f3808a6726c899cec753ce5ca173814fb4",
+   "same": true,
+   "design": "project",
+   "reason": "Exact generated prompt"
+  }
+ ],
+ "casual5": [
+  {
+   "submitted_sha256": "b267fee71011762c4471bb7fccb6e5bfc0a767ce3e3b0180a8281f7f0f48afa4",
+   "same": true,
+   "design": "project",
+   "reason": "Exact generated prompt"
+  }
+ ],
+ "casual6": [
+  {
+   "submitted_sha256": "be6f307091572e12e72f114f0757213605dc92590643778fc421c7b85e9200dc",
+   "same": true,
+   "design": "project",
+   "reason": "Exact generated prompt"
+  }
+ ],
+ "casual7": [
+  {
+   "submitted_sha256": "e5b05f781ba45a72c8d613ac9073aba04d79ad307f1bfadb353ce6374e5bddc4",
+   "same": true,
+   "design": "project",
+   "reason": "Exact generated prompt"
+  }
+ ],
+ "casual8": [
+  {
+   "submitted_sha256": "0440629b9ef11e569d282384722e3964b8274c33c1e2ca53e3cd69336d2c9b87",
+   "same": true,
+   "design": "project",
+   "reason": "Exact rebuilt prompt after unreturned output blocks"
+  }
+ ],
+ "casual9": [
+  {
+   "submitted_sha256": "895c665253ff5f6a09cf38912fea83e4455a5251712682e5d4f964f29bdff043",
+   "same": true,
+   "design": "project",
+   "reason": "Exact generated prompt"
+  }
+ ],
+ "casual10": [
+  {
+   "submitted_sha256": "4d4ed494c377267a4a05c8a05d16c5c40f732e6116ef5f30a9c68a635efcd73d",
+   "same": true,
+   "design": "project",
+   "reason": "Exact rebuilt prompt after unreturned output blocks"
+  }
+ ],
+ "light": [
+  {
+   "submitted_sha256": "491598ab2a26b21d1ba56d74f8a252353080428fe1d3cbad0f1353aa85e59794",
+   "same": false,
+   "design": "gpt_free",
+   "reason": "User requested unrestricted sleepy-beautiful design and selected candidate 6"
+  }
+ ]
+}
