@@ -1,0 +1,266 @@
+{
+  "light": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloved hands attached naturally; some fingers curled.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "project",
+      "reference": null,
+      "submitted_sha256": "297a513b51c09a9fb68f8cf259fae20f3e4786c1f464d3fdeb16320bf02b852a",
+      "free_prompt": null
+    }
+  },
+  "casual1": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right hand grips bottle, fingers overlap naturally; left hand in pocket.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "gpt_free",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "66587e58139ceea2902a92d72132b9e66c7e9065f6579d75f249bcacaa930030",
+      "free_prompt": "casual1-free-prompt.txt"
+    }
+  },
+  "casual2": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Fan grip occludes finger tips; left hand rests on miniature doorway.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "gpt_free",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "94208e114f3ada927ba076b91fdfcc364caa1cefa2500f495053c810cdb08d9b",
+      "free_prompt": "casual2-free-prompt.txt"
+    }
+  },
+  "casual3": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Selfie hand extends out of frame through visible arm; other hand out of crop.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "project",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "bfe8fa898252f640e6738d7caee03db7d4b4fbdfe0410fa68eaaa4e7abdfecfe",
+      "free_prompt": null
+    }
+  },
+  "casual4": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Raised palm has five fingers; other arm continues beyond crop.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "project",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "553768aba079512349a30afe5493b60cbd7c42b6829c8a88205d68c1b35f3feb",
+      "free_prompt": null
+    }
+  },
+  "casual5": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "V sign shows two extended and three folded fingers; other hand out of crop.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "project",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "cddac2edb536b037bbb8c61fe06274e3a0557128d36a74669d1d16fcfbe13667",
+      "free_prompt": null
+    }
+  },
+  "casual6": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One hand supports cheek, digits partly hidden; other hand braces ground.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "project",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "b1c300fa820d56105307ab9cae157484b5182662f99836d1a12def034c4f7e10",
+      "free_prompt": null
+    }
+  },
+  "casual7": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both gloved hands attached and resting on knees, five fingers each.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "stronger",
+      "evidence": "Low exposure was submitted, but output retains deep neckline and upper thighs; preserved without regeneration."
+    },
+    "generation": {
+      "design": "project",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "2c48921c856a703592e626f69fec305c759d28251bb94bfda7597373ca6bdf5c",
+      "free_prompt": null
+    }
+  },
+  "casual8": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Arms crossed, one hand obscured by sleeve; visible hand has naturally layered fingers.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "project",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "73495ecbd0a9d6a40f01ff5e98bc31e472ae50aed8d0273f97439d1d945589e9",
+      "free_prompt": null
+    }
+  },
+  "casual9": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both forearms continue beyond lower edge; fingertips are cropped.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "project",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "6786f68c75eff550a1c9b61ea3556db1a52202919266d1145b52f274d5bd884a",
+      "free_prompt": null
+    }
+  },
+  "casual10": {
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Blended facial shading at nose, lips and chin; hair strand layers, material highlights and glossy skin."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands grip reel; some fingers overlap reel and each other.",
+      "overlay_checked": false,
+      "note": "Visual inspection; cropped or occluded limbs recorded, no detached limb observed."
+    },
+    "exposure": {
+      "judgment": "match",
+      "evidence": "Opaque chest and pelvis coverage; exposed skin follows garment construction."
+    },
+    "generation": {
+      "design": "gpt_free",
+      "reference": "ebf60af16525c4aae3abeafdb8529c11ce90f4aa53c66bdef5e8a037205d34f9",
+      "submitted_sha256": "9eabb42ff91273373c018aadee82a737477b6bd21e09ccdd725711a21d351ddc",
+      "free_prompt": "casual10-free-prompt.txt"
+    }
+  }
+}
