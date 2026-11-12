@@ -1,0 +1,178 @@
+{
+  "light": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 팔과 두 다리가 몸에 이어지고, 한 손은 펴고 반대 손은 주먹으로 자연스럽게 연결됨. 가시형 견갑과 허리 판으로 두께 있는 경장 확인.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "두 팔과 두 다리가 몸에 이어지고, 한 손은 펴고 반대 손은 주먹으로 자연스럽게 연결됨. 가시형 견갑과 허리 판으로 두께 있는 경장 확인.",
+    "exposure_regeneration": false
+  },
+  "casual1": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양 손바닥으로 턱을 받치며 두 아래팔이 각각 팔꿈치와 이어짐. 손가락 일부는 턱에 가려짐. 뒤로 든 두 종아리와 교차한 발이 보임.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "양 손바닥으로 턱을 받치며 두 아래팔이 각각 팔꿈치와 이어짐. 손가락 일부는 턱에 가려짐. 뒤로 든 두 종아리와 교차한 발이 보임.",
+    "exposure_regeneration": false
+  },
+  "casual2": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "의자에 앉아 양손을 각각 무릎과 팔걸이에 둠. 양손 다섯 손가락의 윤곽과 손목 연결 확인. 두 다리와 발이 교차함.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "의자에 앉아 양손을 각각 무릎과 팔걸이에 둠. 양손 다섯 손가락의 윤곽과 손목 연결 확인. 두 다리와 발이 교차함.",
+    "exposure_regeneration": false
+  },
+  "casual3": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "cropped",
+      "hands": "브이 손의 검지·중지와 접은 세 손가락 구조 확인. 팔은 화면 아래로 연결되고 반대 팔은 프레임 밖. 얼굴 근접보다 가슴 위 구도로 넓어짐.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "브이 손의 검지·중지와 접은 세 손가락 구조 확인. 팔은 화면 아래로 연결되고 반대 팔은 프레임 밖. 얼굴 근접보다 가슴 위 구도로 넓어짐.",
+    "exposure_regeneration": false
+  },
+  "casual4": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "cropped",
+      "hands": "손을 든 팔과 아래로 향한 반대 팔이 양어깨에 연결됨. 펼친 장갑 손 다섯 손가락 확인. 배경에 여러 흐린 인물이 생성되어 한 명 지시와 다름; 주인공 외 배경 인파를 기록하며 원본 보존.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "손을 든 팔과 아래로 향한 반대 팔이 양어깨에 연결됨. 펼친 장갑 손 다섯 손가락 확인. 배경에 여러 흐린 인물이 생성되어 한 명 지시와 다름; 주인공 외 배경 인파를 기록하며 원본 보존.",
+    "exposure_regeneration": false
+  },
+  "casual5": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "cropped",
+      "hands": "귀 옆 머리를 넘기는 손과 아래팔 연결 확인. 손가락은 머리·귀에 일부 가려짐. 반대 팔은 어깨에서 아래 프레임으로 이어짐.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "귀 옆 머리를 넘기는 손과 아래팔 연결 확인. 손가락은 머리·귀에 일부 가려짐. 반대 팔은 어깨에서 아래 프레임으로 이어짐.",
+    "exposure_regeneration": false
+  },
+  "casual6": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "cropped",
+      "hands": "볼에 손끝을 대는 손과 소매 속 아래팔이 이어짐. 일부 손가락 겹침. 양어깨와 반대 팔의 상부가 있음.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "볼에 손끝을 대는 손과 소매 속 아래팔이 이어짐. 일부 손가락 겹침. 양어깨와 반대 팔의 상부가 있음.",
+    "exposure_regeneration": false
+  },
+  "casual7": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": "cropped",
+      "hands": "양손으로 링 양끝 조절 나사를 잡음. 두 위팔·팔꿈치·아래팔·손목이 각각 자연스럽게 이어짐. 손가락 일부는 손잡이를 잡아 가려짐.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "양손으로 링 양끝 조절 나사를 잡음. 두 위팔·팔꿈치·아래팔·손목이 각각 자연스럽게 이어짐. 손가락 일부는 손잡이를 잡아 가려짐.",
+    "exposure_regeneration": false
+  },
+  "casual8": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "턱을 받친 팔과 바닥에 둔 팔이 각각 어깨부터 이어짐. 바닥 손 다섯 손가락 확인, 턱 손 일부 가림. 한쪽 무릎을 세우고 반대 다리를 접음. 좌우 지정이 반대로 나왔으며 기록만 함.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "턱을 받친 팔과 바닥에 둔 팔이 각각 어깨부터 이어짐. 바닥 손 다섯 손가락 확인, 턱 손 일부 가림. 한쪽 무릎을 세우고 반대 다리를 접음. 좌우 지정이 반대로 나왔으며 기록만 함.",
+    "exposure_regeneration": false
+  },
+  "casual9": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "오른손 흡입구와 왼손 유리병을 든 두 손이 각각 아래팔·팔꿈치에 연결됨. 손가락 일부는 소품 뒤 가림. 한 무릎을 낮은 의자에 대고 다른 발을 바닥에 둠.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "오른손 흡입구와 왼손 유리병을 든 두 손이 각각 아래팔·팔꿈치에 연결됨. 손가락 일부는 소품 뒤 가림. 한 무릎을 낮은 의자에 대고 다른 발을 바닥에 둠.",
+    "exposure_regeneration": false
+  },
+  "casual10": {
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 팔을 머리 위로 올려 머리를 만짐. 양어깨·위팔·팔꿈치·아래팔이 이어지고 손가락 일부는 머리카락 뒤 가림. 두 다리와 발끝으로 선 자세 확인.",
+      "overlay_checked": false,
+      "note": "직접 육안 점검; 가려진 손가락 개수는 확정하지 않음"
+    },
+    "style_25d": {
+      "판정": "2.5D",
+      "근거": "코 옆·입술·턱과 뺨의 부드러운 음영, 피부의 국소 하이라이트, 가닥별 머리 명암과 재질별 반사 확인"
+    },
+    "deviations": "두 팔을 머리 위로 올려 머리를 만짐. 양어깨·위팔·팔꿈치·아래팔이 이어지고 손가락 일부는 머리카락 뒤 가림. 두 다리와 발끝으로 선 자세 확인.",
+    "exposure_regeneration": false
+  }
+}
