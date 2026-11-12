@@ -1,11 +1,13 @@
 {
-  "state": "partial_ready_to_publish",
+  "state": "completed_by_user_authorized_refill",
   "selected": 2,
   "manifest": "manifest.json",
-  "missing": [
-    "casual4",
-    "casual5",
-    "casual8"
-  ],
-  "reference_sha256": "deb9c117d50d553acb90bcf01d65abdf09a455d3cdba7793d4a18c0bf35e0316"
+  "missing": [],
+  "reference_sha256": "deb9c117d50d553acb90bcf01d65abdf09a455d3cdba7793d4a18c0bf35e0316",
+  "refill_record": "records/exeggcute-refill-20261112/",
+  "resolved_missing": [
+    4,
+    5,
+    8
+  ]
 }
