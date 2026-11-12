@@ -1,0 +1,244 @@
+[
+  {
+    "slot": "light",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both arms and legs attached. Open palm fingers partly overlapping; opposite hand relaxed fist.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "generator",
+      "free_prompt": null
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual1",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Arms crossed, visible fingers overlap forearm; lower body outside crop.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "generator",
+      "free_prompt": null
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual2",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Hands rest on knee and chair, five finger outlines visible with some overlap. Legs crossed naturally.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "generator",
+      "free_prompt": null
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual3",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One hand holds pebble, other on tumbler; fingers partly occluded by pebble and perspective.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "gpt_free",
+      "free_prompt": "casual3-submitted.txt"
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual4",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands on ledge, attached through arms; finger outlines overlap in perspective.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "generator",
+      "free_prompt": null
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual5",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Arms lifted to pillow, hands partly hidden behind hair and pillow; far foot beyond lower crop.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "gpt_free",
+      "free_prompt": "casual5-submitted.txt"
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual6",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Head and shoulders crop; both upper arms continue through edges, hands outside frame.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "generator",
+      "free_prompt": null
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual7",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both upper arms continue past frame edge; hands outside crop.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "generator",
+      "free_prompt": null
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual8",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both forearms reach table; hands overlap chalk and each other, legs crossed.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "gpt_free",
+      "free_prompt": "casual8-submitted.txt"
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual9",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands hold cup, fingers partly occluded by cup.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "generator",
+      "free_prompt": null
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  },
+  {
+    "slot": "casual10",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both shoulders and upper arms continuous; hands outside crop.",
+      "overlay_checked": false,
+      "note": "Visual review; hidden or cropped fingers not asserted as countable."
+    },
+    "style_25d": {
+      "verdict": "pass",
+      "evidence": "Blended face shading on nose, cheek and lips; smooth skin highlights and fabric or metal reflections."
+    },
+    "generation": {
+      "design": "generator",
+      "free_prompt": null
+    },
+    "notes": [
+      "Original result preserved; minor framing/wardrobe deviations retained per workflow."
+    ]
+  }
+]
