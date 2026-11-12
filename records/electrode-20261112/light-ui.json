@@ -1,0 +1,113 @@
+{
+ "storage": {
+  "last": "붐볼",
+  "cards": {
+   "붐볼": {
+    "style": "anime_25d_gloss",
+    "identityMode": "create",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {
+     "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+    },
+    "locks": {},
+    "mode": "action",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "street_cafe",
+      "act": "coffee_takeout",
+      "ofam": "everyday",
+      "item": ""
+     }
+    },
+    "mecha": {
+     "set": {
+      "silhouette": "light_agile"
+     },
+     "fx": [
+      {
+       "key": "hand",
+       "type": "electric"
+      },
+      {
+       "key": "seams",
+       "type": "electric"
+      },
+      {
+       "key": "trail",
+       "type": "electric"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "prompt": "Input: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\nSource: Electrode (붐볼), electric type.\nSubject: A female mecha personification character with Electrode as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\nOutput: one dynamic action image that is also this form's card art.\n\n1. STYLE\nHigh-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own Face line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing and armor, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\n2. CHARACTER\nFace — her own structure, not the style's default face: softly rounded face, short length, wide width; soft rounded jaw; narrow eyes, small size, level outer corners, wide-set; long arched brows; small delicate nose; bow-shaped upper lip.\nHair: pixie cut.\nImpression (reads even at card size): a playful, mischievous woman in her late twenties; a teasing sidelong glance; crimson red eyes; a small flick of eyeliner.\nIdentity (chosen details override the automatic look)\nbody type: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy\nbody scope: Body type sets the build; body details adjust within it. These describe anatomy beneath armor, not equipment volume.\nProportions: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. Her worn features are costume, never extra limbs.\nBody: a normal human body — elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\nHands: Keep both hands relaxed — a loose fist, an open palm or resting on something. Gloves are full-finger and close-fitting; plates, water, sparks and effects stay off the fingers.\nAnatomy: one head, two arms and two legs, each joined at its natural joint; natural hands with five fingers.\n\n3. ARMOR — LIGHT\nCostume: one layer of thin, close-fitting hard armor that covers most of her body: a chest plate joined to segmented abdominal plates down to her hips, shoulder pauldrons, upper-arm and forearm plates with gauntlets, hip and thigh plates, knee guards, shin guards and armored boots; the fitted undersuit shows only in narrow gaps at the joints, joints free. The plates stay thin and close to her body, so the outline is slim and readable without slimming her figure. No helmet; at most a slim headband or temple sensor.\nArmor: rigid hard-surface mecha armor — solid plates of enamelled metal and ceramic with visible thickness, bevelled edges, layered rims, panel lines, seams, small vents, sensor lights and mechanical joints, casting real shadows onto the undersuit. The plates sit on top of her body as separate machined parts, never printed or painted onto fabric, never a patterned bodysuit.\nSilhouette: minimal thin armor with large thrusters at the calves and ankles — a light, fast, forward-leaning silhouette. Solid hard-surface plates that read as armor, not cloth.\nColours: black, red.\nExposure: armor and undersuit open by design only at bare shoulders and upper arms, and bare upper thighs; everywhere else fully covered. Plates stay on and symmetrical; nothing slipped off; intimate areas covered.\n\n4. SCENE\nComposition: Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion. Camera level with her face; her body and face turned gently three-quarters toward the camera (never a back view), her head level with her chin neither raised nor tucked, no upward perspective on her face.\nPose: Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\nType effects: One open hand conjuring a yellow-white electric glow amid small crackling arcs of lightning. A yellow-white electric glow pulses along her armor seams and joints. A light trail of small crackling arcs of lightning streams back from her heels and back armor.\n\n5. CONSTRAINTS\nOne figure only.\nAvoid: second character, creature beside her, text, lettering, logo, watermark, speech bubble, frame border, extra limbs.",
+ "generation": {
+  "design": "gpt_free",
+  "selected_candidate": 3,
+  "free_prompt": "Design brief — your own take on this character. A full-body vertical 2:3 (1024×1536) card image of a female mecha personification of Electrode (붐볼), electric type — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit.\n\nYou design her yourself: invent her face, hairstyle, makeup, expression, setting and type effects as a fresh, original take — do not follow any earlier design of this character. Her style, colours, hair colour, body type, armor form, creature features, exposure, pose and framing are NOT free: take them from our design below.\n\nStyle (fixed — ours): High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own Face line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing and armor, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nColours (fixed — ours): black, red.\n\nHair colour (fixed): taken from the creature's own main colour. Only the hairstyle is yours.\n\nBody type (fixed — ours): an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy.\n\nArmor (fixed — ours): one layer of thin, close-fitting hard armor that covers most of her body: a chest plate joined to segmented abdominal plates down to her hips, shoulder pauldrons, upper-arm and forearm plates with gauntlets, hip and thigh plates, knee guards, shin guards and armored boots; the fitted undersuit shows only in narrow gaps at the joints, joints free. The plates stay thin and close to her body, so the outline is slim and readable without slimming her figure. No helmet; at most a slim headband or temple sensor. Rigid hard-surface mecha armor — solid plates of enamelled metal and ceramic with visible thickness, bevelled edges, layered rims, panel lines, seams, small vents, sensor lights and mechanical joints, casting real shadows onto the undersuit. The plates sit on top of her body as separate machined parts, never printed or painted onto fabric, never a patterned bodysuit.\n\nSilhouette (choose one of ours, then add your own idea): pick ONE of these mecha silhouettes and keep its overall shape — 1) minimal thin armor with large thrusters at the calves and ankles — a light, fast, forward-leaning silhouette; 2) a sleek, close-fitting suit of plate armor — thin, long plates on the shoulders, arms, torso and legs that follow her curves closely; 3) light body armor with several small shield and drone units floating symmetrically around her. Then add one signature idea of your own drawn from the creature, built into the construction of the armor itself rather than as a print or a loose accessory — e.g. plates layered like its shell, petals, feathers or scales, an edge or fin cut into the shape of its ears, tail or flame.\n\nType effects (yours): one or two electric effects of your own design around her hands, armor seams or surroundings; effects stay off her fingers.\n\nFace (yours, within this): a refined adult woman's face with a short midface and a soft, gently rounded jaw with a small soft chin — never a long face or a heavy jaw.\n\nExposure (fixed — ours): armor and undersuit open by design only at bare shoulders and upper arms, and bare upper thighs; everywhere else fully covered. Plates stay on and symmetrical; nothing slipped off; intimate areas covered.\n\nComposition (fixed): Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion. Camera level with her face; her body and face turned gently three-quarters toward the camera (never a back view), her head level with her chin neither raised nor tucked, no upward perspective on her face.\n\nPose (fixed — ours): Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\n\nEye colour (your choice): ours is crimson red eyes — keep it or choose your own.\n\nIf you have already drawn a free design of her in this session, make this one clearly different — another face and hairstyle (the same hair colour), another silhouette from the list with another signature idea, another setting and effects — the same pose.\n\nWrite your own detailed image prompt from this brief, then draw it. One figure only — no second character and no creature beside her; natural hands with five fingers; no text, lettering, logo or watermark.\n\nChosen original design: Select silhouette 2, the sleek close-fitting suit of long thin plates. Build Electrode's spherical form into paired curved capacitor shells forming the chest and hip armor, with a recessed equatorial seam around each curved shell and a crisp red lower arc, as actual three-dimensional machined structure. Keep the fixed black and red palette and use red hair. Give her a short softly rounded adult face, bright amber almond eyes, a small delicate nose, softly smiling lips and a lively confident expression. Hairstyle: a red shoulder-length layered wolf cut swept away from her cheeks, with airy side-parted bangs. Her two hands are visible and relaxed, with five natural fingers each. She stands in the fixed card-ready three-quarter stance in a sunlit open-air electrical test yard, with pale turbine towers far behind. Two thin electric rings run around the armor's equatorial seams, and a crisp lightning halo passes behind her at waist height without covering her hands. Preserve all fixed requirements above.\n"
+ }
+}
