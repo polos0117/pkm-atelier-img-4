@@ -1,0 +1,168 @@
+{
+  "reviewer": "gpt",
+  "reference_candidate": 4,
+  "no_regeneration_for_exposure": true,
+  "anatomy_tool": "unavailable: mediapipe is not installed",
+  "images": {
+    "casual1": {
+      "original_sha256": "a2817b04ee2ecb88c8b339fcae6ba64fad665748335429aa6567a14feb21bbc4",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "한 손은 머리 뒤에 가려지고 지지 손 다섯 손가락 확인. 팔 둘과 다리 둘이 몸에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual2": {
+      "original_sha256": "88e3f5e9d9015103e9bf5804c59eacddc60ef87066f5c621c7d8bea3583c468c",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "장갑의 펼친 손 다섯 손가락 확인, 반대팔은 프레임 아래로 이어짐. 먼 배경에 식별 불가능한 군중 실루엣이 있음.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual3": {
+      "original_sha256": "cf74d414dbb397826da94e88a0c392c6b148d1ca44f17af784df5649ae0d2fdc",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "브이 손짓의 펴진 두 손가락과 접힌 손가락·엄지 확인. 반대팔은 프레임 아래.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual4": {
+      "original_sha256": "56290e7fc9d39896123b9520972cc01778d5f1d8d0df4283175753fcd45c9311",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "캡슐을 잡은 손은 물체로 일부 가려짐, 벤치 지지 손 다섯 손가락과 팔 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual5": {
+      "original_sha256": "d6bb66c155f370fc7b104357be009b5bda4fdd1e4986fe2a19f051835a2c0b07",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱을 괸 손은 접혀 겹침, 지지 손 다섯 손가락과 손목 확인.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual6": {
+      "original_sha256": "a49a1ea7d1b0c084b6adbfb542479f9def903de21731c66b5c0d4a329ee93973",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "머리를 만지는 손의 손가락 일부가 머리카락에 가려짐. 팔이 어깨에서 자연스럽게 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual7": {
+      "original_sha256": "6db347558c5c1be51058a0cf11f5f1646c6cc51c768a75d026ee04509960e6b7",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 손이 턱을 받치며 손가락 일부가 얼굴에 가려짐. 팔꿈치 두 개와 다리 연결·교차한 발 확인. 참고 이미지의 작은 머리 장식이 일부 남음.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual8": {
+      "original_sha256": "a6e76302de7cb58de592099c8481742fa83567edc67f66af5e006d5ead9f10c4",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "허리의 손 다섯 손가락, 머리 옆 손은 머리카락으로 일부 가려짐. 양쪽 팔 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual9": {
+      "original_sha256": "4e0dff3a801078f80107a2a2437de5af0625231d4bcbde1857105b43cbe598cf",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "지팡이를 잡은 두 손의 손가락과 손목·아래팔 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    },
+    "casual10": {
+      "original_sha256": "f14d0c379f3ecc149e200fb5db34351b590c387e8c29edaf481d9f9e2b8914dc",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "시향지를 든 손의 접힌 손가락과 엄지, 공기주머니 위 손 다섯 손가락 확인. 양 팔·다리 자연스러운 연결.",
+        "overlay_checked": false,
+        "note": "원본 전신/프레임과 손 영역 확대 육안 확인; 프레임 밖 팔다리는 세었다고 단정하지 않음."
+      },
+      "style_25d": {
+        "판정": "2.5D",
+        "근거": "얼굴의 연속 음영과 부드러운 색 윤곽, 머리의 가닥별 반사, 피부·직물의 다른 하이라이트"
+      },
+      "identity": "4번 기준 이미지의 보라색 양갈래 땋은 머리·연녹색 눈·짧고 부드러운 얼굴형 유지"
+    }
+  }
+}
