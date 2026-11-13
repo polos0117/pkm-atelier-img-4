@@ -1,0 +1,297 @@
+{
+ "light": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Both arms and legs joined. Right open glove shows five digits; left fist partly occludes fingers.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Both arms and legs joined. Right open glove shows five digits; left fist partly occludes fingers."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "gpt_free",
+   "free_prompt": "Input: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\nSource: Electabuzz (에레브), electric type.\nSubject: A female mecha personification character with Electabuzz as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\nOutput: one dynamic action image that is also this form's card art.\n\n1. STYLE\nHigh-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own Face line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing and armor, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\n2. CHARACTER\nFace — a refined adult woman with a short midface, a soft heart-shaped face, rounded jaw and small soft chin; large gently upturned almond eyes, soft straight eyebrows, a delicate nose and a defined cupid bow.\nHair: golden-yellow hair in two high thick braided ponytails with a softly parted fringe.\nImpression: a lively woman in her mid-twenties; violet eyes, subtle plum eyeliner, an open warm smile.\nIdentity (chosen details override the automatic look)\nbody type: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy\nbody scope: Body type sets the build; body details adjust within it. These describe anatomy beneath armor, not equipment volume.\nProportions: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. Her worn features are costume, never extra limbs.\nBody: a normal human body — elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\nHands: Keep both hands relaxed — a loose fist, an open palm or resting on something. Gloves are full-finger and close-fitting; plates, water, sparks and effects stay off the fingers.\nAnatomy: one head, two arms and two legs, each joined at its natural joint; natural hands with five fingers.\n\n3. ARMOR — LIGHT\nCostume: one layer of thin, close-fitting hard armor that covers most of her body: a chest plate joined to segmented abdominal plates down to her hips, shoulder pauldrons, upper-arm and forearm plates with gauntlets, hip and thigh plates, knee guards, shin guards and armored boots; the fitted undersuit shows only in narrow gaps at the joints, joints free. The plates stay thin and close to her body, so the outline is slim and readable without slimming her figure. No helmet; at most a slim headband or temple sensor.\nArmor: rigid hard-surface mecha armor — solid plates of enamelled metal and ceramic with visible thickness, bevelled edges, layered rims, panel lines, seams, small vents, sensor lights and mechanical joints, casting real shadows onto the undersuit. The plates sit on top of her body as separate machined parts, never printed or painted onto fabric, never a patterned bodysuit.\nSilhouette: light body armor with several small shield and drone units floating symmetrically around her. Broad curved overlapping capacitor ribs are built into the waist and chest plate construction, inspired by the black banding of Electabuzz; the small paired shields echo its two head tufts.\nColours: yellow, black.\nWear: the long tail becomes a long sash hanging from the back of her belt, in the same shape and colors; the two long tufts become a feathered or ruffled collar and trim; its markings (many black stripes) become painted lines and patterns on her plates and undersuit.\nExposure: armor and undersuit open by design only at bare shoulders and upper arms, and bare upper thighs; everywhere else fully covered. Plates stay on and symmetrical; nothing slipped off; intimate areas covered.\n\n4. SCENE\nComposition: Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion. Camera level with her face; her body and face turned gently three-quarters toward the camera (never a back view), her head level with her chin neither raised nor tucked, no upward perspective on her face.\nPose: Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\nType effects: A soft circular electric field connects the paired shields behind her shoulders; tiny golden discharges travel across the armor seams without covering her fingers.\nSetting: a sunlit white ceramic generator hall with tall windows and soft warm daylight.\n\n5. CONSTRAINTS\nOne figure only.\nAvoid: second character, creature beside her, text, lettering, logo, watermark, speech bubble, frame border, extra limbs.\n",
+   "selected_candidate": 4,
+   "selection": "user message: 4"
+  }
+ },
+ "casual1": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Near arm runs continuously from shoulder to bottle grip; gripping digits partly occluded. Far arm exits bottom frame naturally. Background spectators are distant silhouettes.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Near arm runs continuously from shoulder to bottle grip; gripping digits partly occluded. Far arm exits bottom frame naturally. Background spectators are distant silhouettes."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "project",
+   "free_prompt": null
+  }
+ },
+ "casual2": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Both arms continuous; one hand grips book with fingers partly hidden; other rests on knee with five digits.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Both arms continuous; one hand grips book with fingers partly hidden; other rests on knee with five digits."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "project",
+   "free_prompt": null
+  }
+ },
+ "casual3": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Microphone hand joins visible wrist and forearm; grip partly hides digits. Other arm extends down out of crop.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Microphone hand joins visible wrist and forearm; grip partly hides digits. Other arm extends down out of crop."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "project",
+   "free_prompt": null
+  }
+ },
+ "casual4": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Two arms and two crouched legs continuous. Phone grip partly hides thumb; knee hand shows five digits.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Two arms and two crouched legs continuous. Phone grip partly hides thumb; knee hand shows five digits."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "stronger",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "project",
+   "free_prompt": null
+  }
+ },
+ "casual5": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Two arms and two legs continuous. Hip hand five digits; resting hand five digits. Toes naturally aligned.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Two arms and two legs continuous. Hip hand five digits; resting hand five digits. Toes naturally aligned."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "stronger",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "project",
+   "free_prompt": null
+  }
+ },
+ "casual6": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Kernel hand has thumb and index pinching, three curled digits. Bucket hand wraps rim with thumb partly hidden; both forearms join body.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Kernel hand has thumb and index pinching, three curled digits. Bucket hand wraps rim with thumb partly hidden; both forearms join body."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "gpt_free",
+   "free_prompt": "CHARACTER: the same woman as the attached image — Electabuzz (에레브) personified, electric type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: an open-air rooftop cinema before the film, rows of empty deckchairs, a blank projection screen and distant town lights at dusk.\nActivity: she has just caught a popcorn kernel that bounced from her bucket; a playful, ordinary pause before the screening. She stands between the deckchairs, her own left forearm angled forward from her shoulder and left hand supporting the popcorn bucket at waist level; her own right elbow bent outward naturally, right hand holding a single kernel near her chin. Both arms remain in front of her torso, clearly separate.\nOutfit: a seafoam satin scarf-neck cropped bodice with a broad folded front knot and sculpted curved hem, bare shoulders and midriff, with fitted ivory culotte shorts whose front panels overlap like small folded sails, and flat cream sandals; opaque, securely fitted, no creature palette or stripes.\nComposition: knee-up three-quarter view from eye level; her face turned toward the popcorn in her right hand, with her features clearly readable. The screen and deckchairs recede diagonally behind her.\nSource accessories: a tiny lightning-bolt charm on the bucket handle and a striped cylindrical insulated drink flask on an empty chair; no armor.\nEXPRESSION: one mouth corner lifted higher than the other, lips closed. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+  }
+ },
+ "casual7": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Hush hand has one extended index and four curled digits; forearm joins near shoulder. Other arm exits frame downward.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Hush hand has one extended index and four curled digits; forearm joins near shoulder. Other arm exits frame downward."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "project",
+   "free_prompt": null
+  }
+ },
+ "casual8": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "V-sign hand has two extended and three folded digits; arm joins shoulder continuously. Other arm exits frame downward.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. V-sign hand has two extended and three folded digits; arm joins shoulder continuously. Other arm exits frame downward."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "project",
+   "free_prompt": null
+  }
+ },
+ "casual9": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Two arms continuous; rail-resting hand thumb partly hidden and four extended digits; braid grip digits partly occluded. Two natural legs, feet on dry stone.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Two arms continuous; rail-resting hand thumb partly hidden and four extended digits; braid grip digits partly occluded. Two natural legs, feet on dry stone."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "gpt_free",
+   "free_prompt": "CHARACTER: the same woman as the attached image — Electabuzz (에레브) personified, electric type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a quiet outdoor mineral pool terrace with a low stone wall, a shade canopy and a folded towel on a bench, in warm clear afternoon light.\nActivity: after her swim she stands with her own left foot on a low dry step and her right foot on the dry terrace. Her own right arm reaches forward from her right shoulder, hand resting on a waist-high stone railing. Her own left arm bends from her left shoulder, hand lifting her heavy left braid forward off her upper back to let her skin cool. This small everyday action reveals the open side and back of her swimsuit, naturally and without clothing slipping, wet transparency or wardrobe failure.\nOutfit category: swimwear. A deep teal fully lined swimsuit built from a sculpted high-neck front bib with two curved under-rib cut-outs joined by a wide central panel, an open lower back and an integral fitted short-legged lower section; ivory rolled piping traces the architectural curved seams. Chest and pelvis securely covered. No animal or creature patterns.\nComposition: head-to-mid-shin framing from a level eye-height camera, body in a gentle three-quarter turn with her face turned back toward the terrace; both shoulders, both arms and her face clearly readable. The pool water is background only and both feet are on dry stone.\nSource accessories: a small yellow-and-black striped thermos beside the folded towel; no armor.\nEXPRESSION: level brow, calm unhurried eyes, mouth closed and composed. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+  }
+ },
+ "casual10": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Two hands join two forearms. Seat hand thumb partly hidden against edge; knee hand five digits. Two seated legs end in shoes.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Two hands join two forearms. Seat hand thumb partly hidden against edge; knee hand five digits. Two seated legs end in shoes."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "match",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "gpt_outfit",
+   "free_prompt": "CHARACTER: the same woman as the attached image — Electabuzz (에레브) personified, electric type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nWORLD: this scene happens inside the Pokémon world, as if she simply lives there — its towns, routes, buildings, props, light and weather show the world. No Pokémon unless SCENE names her companion, no known trainers or characters, no logos, no text.\n\nSCENE (chosen):\nPlace: a tidy Pokémon craft workshop with a padded workbench, fine hand tools and ball shells\nLight direction: side light — the light falls from one side, the far side of her face in soft shadow.\nOutfit: a dusty-rose sleeveless fitted mock-neck top with a broad asymmetric curved cut-out at one waist, joined by a narrow opaque diagonal panel to tailored plum short culottes with an origami-fold front; bare shoulders, part of her midriff and legs; soft ivory low shoes. Secure opaque coverage, with no animal patterns or armor.\nPOSTURE: seated sideways on a stool or bench, her torso turned toward the camera.\nCOMPOSITION: an environmental long shot, her complete figure and enough of the place around her; body facing the camera; head turned back over her shoulder; camera low, near the ground, level with her face as she sits or kneels; the space runs far back behind her, its lines receding into the distance.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand rests naturally for the posture, relaxed and empty.\nLEFT HAND: her own left hand rests naturally for the posture, relaxed and empty.\nLEGS: knees together, feet slightly apart.\nEXPRESSION: drooping lids and brows, dull tired eyes, mouth slightly open and slack. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+  }
+ },
+ "casual90": {
+  "anatomy": {
+   "tool": "unavailable: mediapipe not installed (exit 3)",
+   "arms": 2,
+   "legs": 2,
+   "hands": "Two gloved hands each hold a separate end of tube; gripping digits partly hidden; wrists and forearms connect to shoulders. Two seated legs end in boots.",
+   "issue": "ok",
+   "overlay_checked": false,
+   "note": "Visually checked original output; no detached or extra limbs detected. Two gloved hands each hold a separate end of tube; gripping digits partly hidden; wrists and forearms connect to shoulders. Two seated legs end in boots."
+  },
+  "style_25d": {
+   "verdict": "2.5D",
+   "evidence": "Soft blended nose, cheek and lip shading with dimensional hair strands and glossy skin highlights; no flat cel face."
+  },
+  "exposure": {
+   "verdict": "stronger",
+   "evidence": "Recorded as generated; no exposure-based regeneration."
+  },
+  "reference_identity": "Golden braided twin ponytails and violet eyes match selected candidate 4.",
+  "generation": {
+   "design": "project",
+   "free_prompt": null,
+   "own": {
+    "level": "bold",
+    "tries": 1,
+    "blocked": []
+   }
+  }
+ }
+}
