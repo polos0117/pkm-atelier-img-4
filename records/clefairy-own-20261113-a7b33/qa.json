@@ -1,0 +1,75 @@
+{
+  "card": "삐삐",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "삐삐_light_anime_25d_gloss_f.webp",
+    "sha256": "4ba154a0ad8c02921f071f52953f09ef15caea7152e6c5b8fa8ac1634c5911b4"
+  },
+  "original_sha256": "f51093d118214efd4a03633f757662596e0a47bbbf9c5a3011183e92ac66cbc3",
+  "file": "삐삐_anime_25d_gloss_f_casual90.webp",
+  "sha256": "1a7a30fec14e87048521fe5b2f64bf2696151a28c851cb0d5e79c83401cb7162",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "82436db51f022029fe12d96a9c8af65ed6c2068bcdc5cf5f9c4e2e68157e3fb0",
+  "visual_review": "Seated cross-legged at observatory on star mat, arms connected with one hand on knee and one on mat, bare shoulders midriff and legs, cropped knit top and shorts, open star jacket.",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Soft blended shading on nose, lips and cheek; luminous hair strands and fabric folds."
+  },
+  "exposure": {
+    "verdict": "match",
+    "evidence": "Seated cross-legged at observatory on star mat, arms connected with one hand on knee and one on mat, bare shoulders midriff and legs, cropped knit top and shorts, open star jacket."
+  },
+  "anatomy": {
+    "exit_code": 3,
+    "output": "검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "manual_review": "Seated cross-legged at observatory on star mat, arms connected with one hand on knee and one on mat, bare shoulders midriff and legs, cropped knit top and shorts, open star jacket."
+  },
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/a7b33af26ae6/pkm-atelier-img-4/img/삐삐_anime_25d_gloss_f_casual90.webp",
+        "near": [
+          [
+            "질퍽이_anime_25d_gloss_f_casual5.webp",
+            298
+          ],
+          [
+            "니드런♂_glossy_promo_f_casual1.webp",
+            305
+          ],
+          [
+            "니드킹_anime_25d_gloss_f_casual1.webp",
+            309
+          ],
+          [
+            "구구_anime_gloss_f_casual1.webp",
+            312
+          ],
+          [
+            "윤겔라_anime_25d_gloss_f_casual5.webp",
+            314
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "regenerated": false
+}
