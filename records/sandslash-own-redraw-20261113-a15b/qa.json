@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "camera_shot",
+  "scene": "she is the stall owner shaking hot roasted chestnuts into a paper bag with both hands",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 2,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "고지_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "fb0726e2ebf87ffe597b51a86c95f256c7b2c204e8a907ac7c2efe9c5360fb1d",
+    "original_sha256": "02780c7607aa78e2f121b38f8d736fc035e43dcbeb7c8c5d1e749e1dd5f4a79a",
+    "webp_sha256": "de9ada3be0c4a195232f3c19a89f49a2dad841dd7be69bd9f3573cb2eb5e23ca"
+  },
+  "submitted_sha256": "0baf05053f260848db812835c8a484a3ca646ee7001d3607c024cedb78eac6ee",
+  "submitted_same": true
+}
