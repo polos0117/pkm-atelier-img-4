@@ -1,0 +1,55 @@
+{
+  "card": "성원숭",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "무릎 위 오른손과 의자 위 왼손 각각 5지, 엄지 방향·어깨부터 손목 연결 정상. 교차한 두 다리와 신발 연결 정상",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "성원숭_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "d44ac3781dc185af0fea81ab019de32d03dbf8b51c28d00d4f826d45fba72676"
+  },
+  "output": {
+    "file": "성원숭_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "1abb5eb9b2772fb8241f43d02c0ab420a13ebd56eb5f7526c15596606931cfaf"
+  },
+  "original_sha256": "63c531695440caceb64bceae90e4a31997777bad5a06229b67bc4ff57148ce47",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T09:57:50.761Z",
+        "prompt_sha256": "b3c7c1482402f96a0b4c83b2bed154abe0ae6c8bef23f614ad773148a8e31fd1",
+        "submitted_sha256": "b3c7c1482402f96a0b4c83b2bed154abe0ae6c8bef23f614ad773148a8e31fd1",
+        "same": true,
+        "prompt_words": 1058,
+        "submitted_words": 1058,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
