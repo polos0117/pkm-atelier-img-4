@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "camera_shot",
+  "scene": "she is an attendant spraying thick foam over a car with the wand in both hands",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "어니부기_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "57dbaa88edc3c638c53ca6626ec35acc4474fd5435e6421e2f8b9ddec2396b92",
+    "original_sha256": "2b790d18231e516e1177ca86954df01b9c14c1000ac55e00d253fff4e4306c99",
+    "webp_sha256": "3171ef772f008c997be79a2f48d5d001955c9469e16d2792c2bab585522b1465"
+  },
+  "submitted_sha256": "5cee1a69cd06c9ae26ee0b60ccde909bba9a8583be208708ff6e722ce0f56519",
+  "submitted_same": true
+}
