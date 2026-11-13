@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "counter_work",
+  "scene": "she is a florist trimming flower stems with shears at the wrapping counter",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "이상해풀_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "091c9bbea8589a21a777171647f060a3966498730bf46883a2d212d36a760dfa",
+    "original_sha256": "2218efa4dbaa179d33fffa9c5fefa4cec0c965755af8a8dd8560e952ccddcaaa",
+    "webp_sha256": "6b7e16aea8a6de0dc0d9166a928b006e1b21209c42005236bf9819d4c662cd45"
+  },
+  "submitted_sha256": "a492f2d8de73cbf371774a016fdaf60178c4e83641d8a4874eb793c96c5c1a93",
+  "submitted_same": true
+}
