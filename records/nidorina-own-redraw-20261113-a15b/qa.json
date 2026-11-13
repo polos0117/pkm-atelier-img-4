@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "ankles_sit",
+  "scene": "she is a teacher sitting on a small chair in the quiet classroom, resting between lessons",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "니드리나_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "5526c52ae7026d5962c1b97ee1333e8b9b6c77b8642900730d4cf7e037efddbf",
+    "original_sha256": "cc27069d1091a5660009e755151c79590198ca655e03abcf65ea1504250f33c7",
+    "webp_sha256": "6065564566c06c372adbd49c6bf2afcaf2a06a038b8a755cc70588dc5b012196"
+  },
+  "submitted_sha256": "7058392630da93aaeddf752ee99074325126177cba0f2db903a9d45b58be2382",
+  "submitted_same": true
+}
