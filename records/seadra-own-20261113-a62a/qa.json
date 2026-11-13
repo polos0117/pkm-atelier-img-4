@@ -1,0 +1,52 @@
+{
+  "card": "시드라",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "path": "img/시드라_light_anime_25d_gloss_f.webp",
+    "sha256": "4747599aa9e7b1864ab6de288ea76f753a784ea90dbcbe871b1aba4269425082"
+  },
+  "original_sha256": "6bb1e172760969b692b071af9766f4e4cf3e5dde742fed8fa1ecf132e7c7363c",
+  "output": {
+    "file": "시드라_anime_25d_gloss_f_casual90.webp",
+    "sha256": "de3e2f5abf164957dad8110ae99f440b45a071e400c83379613494ede3c326c4",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T14:22:51.284Z",
+        "prompt_sha256": "7ebd68fe146c3d4ecd23f0bce7f826dd85a17c313612c1e2a086d4a0458c9267",
+        "submitted_sha256": "7ebd68fe146c3d4ecd23f0bce7f826dd85a17c313612c1e2a086d4a0458c9267",
+        "same": true,
+        "prompt_words": 1037,
+        "submitted_words": 1037,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "two where shown; remaining portions outside crop or occluded",
+    "hands": "Both wrists join forearms; visible fingers and thumbs checked; grip occlusion retained.",
+    "overlay_checked": false,
+    "note": "Visual inspection of generated image; no disconnected or duplicate limb observed."
+  },
+  "note": "Initial generated result preserved without exposure-based regeneration."
+}
