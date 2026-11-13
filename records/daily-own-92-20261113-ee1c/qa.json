@@ -1,0 +1,57 @@
+{
+  "card": "고오스",
+  "slot": "casual90",
+  "reference": "고오스_light_anime_25d_gloss_f.webp",
+  "original_sha256": "e378ba708c99b8bbe25199f6da47aa41803aa7815676ed0ab8904397dca8dfd1",
+  "webp_sha256": "a6e4122c69daac1f384a35da463982a05a6c4dc3e4a959714a0c528948b3a379",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "style_25d": {
+    "판정": "match",
+    "근거": "얼굴의 코·입술·턱에 부드러운 입체 음영, 머리 가닥과 직물 주름·재질 표현이 보임"
+  },
+  "exposure": {
+    "판정": "match",
+    "근거": "반신 구도. 두 어깨와 팔이 이어지고 등불을 든 손은 손잡이를 쥐어 일부 손가락이 겹침. 반대 손과 다리는 화면 밖. 찢어진 유령 연기 의상과 분장, 어깨·팔 노출. 기준 얼굴과 보라색 머리 유지."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "issue": "ok",
+    "overlay_checked": false,
+    "note": "반신 구도. 두 어깨와 팔이 이어지고 등불을 든 손은 손잡이를 쥐어 일부 손가락이 겹침. 반대 손과 다리는 화면 밖. 찢어진 유령 연기 의상과 분장, 어깨·팔 노출. 기준 얼굴과 보라색 머리 유지."
+  },
+  "visual_review": "반신 구도. 두 어깨와 팔이 이어지고 등불을 든 손은 손잡이를 쥐어 일부 손가락이 겹침. 반대 손과 다리는 화면 밖. 찢어진 유령 연기 의상과 분장, 어깨·팔 노출. 기준 얼굴과 보라색 머리 유지.",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:00.442Z",
+        "prompt_sha256": "c172484d870a67de6097516309af70c709c40fdec890af93b290912109e440ff",
+        "submitted_sha256": "c172484d870a67de6097516309af70c709c40fdec890af93b290912109e440ff",
+        "same": true,
+        "prompt_words": 1174,
+        "submitted_words": 1174,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "output": {
+    "file": "고오스_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP"
+  },
+  "ui_own": {
+    "job_ko": "유령의 집 분장 견습",
+    "level": "bold"
+  }
+}
