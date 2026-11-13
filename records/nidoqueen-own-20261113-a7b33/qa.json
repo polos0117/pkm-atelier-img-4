@@ -1,0 +1,75 @@
+{
+  "card": "니드퀸",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "니드퀸_light_anime_25d_gloss_f.webp",
+    "sha256": "ef4a2c417ca29a52b6e79810ad04af9d5a31ee2b5685e662730aeb997231975b"
+  },
+  "original_sha256": "485d26f9ac9154dfc6fc18cf3dd0a4ca5a24f22f3f558081c13c8996cd56688e",
+  "file": "니드퀸_anime_25d_gloss_f_casual90.webp",
+  "sha256": "52d57bf7b2a5d9259da367ca6d81c8d1320dddd9596e34f144f323731f055f38",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "12617701b81563d2b79d9001691815cb35e2ac69755c5d2b334e3aed4ce46e98",
+  "visual_review": "Kneeling with clasped hands, both arms connected, bare arms and thighs, apron and short skirt, kindergarten shelves and books visible.",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Soft blended shading on nose, lips and cheek; luminous hair strands and fabric folds."
+  },
+  "exposure": {
+    "verdict": "match",
+    "evidence": "Kneeling with clasped hands, both arms connected, bare arms and thighs, apron and short skirt, kindergarten shelves and books visible."
+  },
+  "anatomy": {
+    "exit_code": 3,
+    "output": "검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "manual_review": "Kneeling with clasped hands, both arms connected, bare arms and thighs, apron and short skirt, kindergarten shelves and books visible."
+  },
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/a7b33af26ae6/pkm-atelier-img-4/img/니드퀸_anime_25d_gloss_f_casual90.webp",
+        "near": [
+          [
+            "니드런♀_anime_25d_gloss_f_casual90.webp",
+            300
+          ],
+          [
+            "대굴레오_glossy_promo_f_casual1.webp",
+            304
+          ],
+          [
+            "거북왕_anime_25d_gloss_f_casual3.webp",
+            311
+          ],
+          [
+            "킹크랩_anime_25d_gloss_f_casual2.webp",
+            316
+          ],
+          [
+            "모래두지_anime_25d_gloss_f_casual1.webp",
+            317
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "regenerated": false
+}
