@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "squat_prop",
+  "scene": "she is a beekeeper crouching by a hive, checking a frame of capped honey",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "딱충이_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "ad67a9642e52399f92d8ba88df473a37735ab901e80b9c00f70b0e56d796ae24",
+    "original_sha256": "3c3d097d70988af6c26e689d791d0481a619f2331d3ced7f5441b2bc7e9ce73a",
+    "webp_sha256": "afff604edbdf4d03f4e5ba614b8ca83c65181e64a82925919fba34b94eaf5b9a"
+  },
+  "submitted_sha256": "f5da25b8cdb267e5dfe5899760f0894f14466874b59c68ec4435f97c31cd17eb",
+  "submitted_same": true
+}
