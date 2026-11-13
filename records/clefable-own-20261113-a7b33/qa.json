@@ -1,0 +1,75 @@
+{
+  "card": "픽시",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "픽시_light_anime_25d_gloss_f.webp",
+    "sha256": "cffb8ae83fec38c3841f3b822b36051c87efb9063fe05d98555ff3c34e40c88f"
+  },
+  "original_sha256": "25c308618e729d98c9ab7a7becfa005e1c9ce9af1dfeb8748805d530bc48e0cc",
+  "file": "픽시_anime_25d_gloss_f_casual90.webp",
+  "sha256": "83223058223f6ec83725f10a54d132382cf5f15d0e09f0cf21fb2755bf125d1b",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "fe31733ec093162c301d64fa67e0506444654e836eae0f90fad0237e55441c4c",
+  "visual_review": "Seated cross-legged at observatory, one hand on mat and one on knee, connected limbs, bare shoulders midriff and legs, short knit top and shorts with open star jacket.",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Soft blended shading on nose, lips and cheek; luminous hair strands and fabric folds."
+  },
+  "exposure": {
+    "verdict": "match",
+    "evidence": "Seated cross-legged at observatory, one hand on mat and one on knee, connected limbs, bare shoulders midriff and legs, short knit top and shorts with open star jacket."
+  },
+  "anatomy": {
+    "exit_code": 3,
+    "output": "검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "manual_review": "Seated cross-legged at observatory, one hand on mat and one on knee, connected limbs, bare shoulders midriff and legs, short knit top and shorts with open star jacket."
+  },
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/a7b33af26ae6/pkm-atelier-img-4/img/픽시_anime_25d_gloss_f_casual90.webp",
+        "near": [
+          [
+            "구구_anime_gloss_f_casual1.webp",
+            309
+          ],
+          [
+            "주뱃_anime_25d_f_casual7.webp",
+            310
+          ],
+          [
+            "괴력몬_anime_25d_gloss_f_casual6.webp",
+            314
+          ],
+          [
+            "꼬마돌_anime_25d_gloss_f_casual5.webp",
+            315
+          ],
+          [
+            "윈디_anime_25d_gloss_f_casual7.webp",
+            316
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "regenerated": false
+}
