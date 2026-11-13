@@ -1,0 +1,204 @@
+{
+ "version": 4,
+ "card": "텅구리",
+ "no": 105,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/e646b5c6fe16/work/marowak/PLAN90.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "full_armor"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "ground"
+     },
+     {
+      "key": "seams",
+      "type": "ground"
+     },
+     {
+      "key": "ground",
+      "type": "ground"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "full_armor"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "ground"
+     },
+     {
+      "key": "seams",
+      "type": "ground"
+     },
+     {
+      "key": "ground",
+      "type": "ground"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "float_units",
+    "segmented_parts",
+    "skirt_plate",
+    "light_agile",
+    "float_units",
+    "power_limbs",
+    "sub_arms",
+    "knight_plate",
+    "tail_unit"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual2": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual3": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual4": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual5": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual6": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual7": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual8": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual9": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual10": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual90": {
+   "guide": {
+    "own": "발굴 조사단장",
+    "level": "bold",
+    "place": "an archaeological dig site — a square excavation pit, string grids, buckets of soil, a canvas tent and a sieve",
+    "scene": "she is the dig leader standing with her hands folded at the pit edge, surveying the string grids",
+    "outfit": "an archaeologist look fitted to her body — a short-sleeved field shirt tied at the waist and short khaki shorts with boots and a hat, bare legs, a small bone-shaped pendant",
+    "prop": "",
+    "note": "캐릭터만의 컷 — 채울 칸이 없다(글은 표 data/casual-own.json 에서). 단계를 내릴 때는 계획기 --own --own-level"
+   }
+  }
+ }
+}
