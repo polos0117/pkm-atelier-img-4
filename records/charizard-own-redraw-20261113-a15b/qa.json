@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "chair_cross_prop",
+  "scene": "she is the head baker resting on a chair after the morning bake, tasting a slice from a fresh loaf",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "리자몽_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "52ae65bcbdf80f234367a360b410c63e33767b1e2cb226fd8d48c3af048e5aca",
+    "original_sha256": "7212ae395dd860ca8e2b0636e58ed9b675993d422a7f8a45922ca103f140def1",
+    "webp_sha256": "e4b8c5d5732532fa78c6b37687e8986d46e38cc003776c6ae96f5697c088f369"
+  },
+  "submitted_sha256": "7b8d93041c990521a17884094e18ca05ed31296c90eedd6c6d1a99370268f371",
+  "submitted_same": true
+}
