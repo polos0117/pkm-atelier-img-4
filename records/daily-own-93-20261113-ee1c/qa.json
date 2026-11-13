@@ -1,0 +1,57 @@
+{
+  "card": "고우스트",
+  "slot": "casual90",
+  "reference": "고우스트_light_anime_25d_gloss_f.webp",
+  "original_sha256": "14e5b9cea8d9f6ec47ac4be5a004a3754d93334811ccce0e32f21a995d5ae03b",
+  "webp_sha256": "52961c1eae8894a093f07bdea7a5e328ae25563404057d500f77330b23342db7",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "style_25d": {
+    "판정": "match",
+    "근거": "얼굴의 코·입술·턱에 부드러운 입체 음영, 머리 가닥과 직물 주름·재질 표현이 보임"
+  },
+  "exposure": {
+    "판정": "match",
+    "근거": "의자에 앉아 양손으로 등불 손잡이를 잡음. 두 팔이 어깨와 손목에 연결되고 손가락 일부는 손잡이에 가려짐. 두 다리와 발·구두 정상 연결. 흰 무대 의상, 어깨와 허벅지 노출. 초록 눈과 보라색 땋은 머리 유지."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "issue": "ok",
+    "overlay_checked": false,
+    "note": "의자에 앉아 양손으로 등불 손잡이를 잡음. 두 팔이 어깨와 손목에 연결되고 손가락 일부는 손잡이에 가려짐. 두 다리와 발·구두 정상 연결. 흰 무대 의상, 어깨와 허벅지 노출. 초록 눈과 보라색 땋은 머리 유지."
+  },
+  "visual_review": "의자에 앉아 양손으로 등불 손잡이를 잡음. 두 팔이 어깨와 손목에 연결되고 손가락 일부는 손잡이에 가려짐. 두 다리와 발·구두 정상 연결. 흰 무대 의상, 어깨와 허벅지 노출. 초록 눈과 보라색 땋은 머리 유지.",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:01.233Z",
+        "prompt_sha256": "78fbe6505f1d543a690e821cd81eda3dd445659672ea49e297ca0c6f61661eca",
+        "submitted_sha256": "78fbe6505f1d543a690e821cd81eda3dd445659672ea49e297ca0c6f61661eca",
+        "same": true,
+        "prompt_words": 1096,
+        "submitted_words": 1096,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "output": {
+    "file": "고우스트_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP"
+  },
+  "ui_own": {
+    "job_ko": "유령의 집 배우",
+    "level": "bold"
+  }
+}
