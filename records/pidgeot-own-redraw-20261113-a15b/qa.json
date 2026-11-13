@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "lookback_raise",
+  "scene": "she is a veteran courier glancing back over her shoulder with a parcel raised beside her face",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "피죤투_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "6d6478c6a74da2adf3382eaa90de265d75000103a509a0b31bea2815113d353f",
+    "original_sha256": "ac112a1b297bfcbb519a225e43224ae38084326191c12bc9fcdc2a97564346ba",
+    "webp_sha256": "e1c1549d0c5800b88d012f2727e2db678e7928adae9008deec4674440094d70d"
+  },
+  "submitted_sha256": "98dd81f37369f825f121b011d5f0159d0edf11a315453578cf4decccf438db8b",
+  "submitted_same": true
+}
