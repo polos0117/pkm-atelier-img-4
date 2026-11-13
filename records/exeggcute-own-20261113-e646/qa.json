@@ -1,0 +1,43 @@
+{
+  "card": "아라리",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/아라리_light_anime_25d_gloss_f.webp",
+    "sha256": "65fd4d03b9b5ef0512c6896b1b7f262e2822996e0bc0b1b79a3ac9d7dec89dff"
+  },
+  "original": {
+    "sha256": "e3817dbf6a0f1a547cd4dbb09e28befcb950a056b98900b5d060881a48206afc"
+  },
+  "output": {
+    "path": "img/아라리_anime_25d_gloss_f_casual90.webp",
+    "sha256": "99276a70556150d3b4a370ac334f9fe89acd8376bde9758f3655bc9790fa2557",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two shoulders connect to visible arms; raised right thumb with four folded fingers, left hand rests on hip with five digits; lower legs outside crop. No floating hand.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Two shoulders connect to visible arms; raised right thumb with four folded fingers, left hand rests on hip with five digits; lower legs outside crop. No floating hand.",
+  "preserve_generated_result": true
+}
