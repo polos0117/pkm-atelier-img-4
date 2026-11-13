@@ -1,0 +1,55 @@
+{
+  "card": "망키",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "오른손 엄지 올림 5지의 굽힌 주먹, 왼손 허리 5지, 양 어깨·팔꿈치·손목 정상",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "망키_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "2037a9683a04bf2fefbb16f35712084460f551ffa3cf18cf4e5e7a87244ed6c6"
+  },
+  "output": {
+    "file": "망키_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "eed65aeb32b7dce295234242e28942ba8f5906e1b60660b54c56fd374f94fce9"
+  },
+  "original_sha256": "f40b52d89b4f313a70da3dae354679fc504db93a15ea8b60b3a3c217f659ef70",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T09:57:49.815Z",
+        "prompt_sha256": "9ac7aec92cfffb8a463a6f4f631ae4bd1927868c29459ce2748b405b7452605e",
+        "submitted_sha256": "9ac7aec92cfffb8a463a6f4f631ae4bd1927868c29459ce2748b405b7452605e",
+        "same": true,
+        "prompt_words": 1144,
+        "submitted_words": 1144,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
