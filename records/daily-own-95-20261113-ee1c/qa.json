@@ -1,0 +1,57 @@
+{
+  "card": "롱스톤",
+  "slot": "casual90",
+  "reference": "롱스톤_light_anime_25d_gloss_f.webp",
+  "original_sha256": "e8f5200f2599913f1f91f885a10e08315a200aca2e8fa16b89c8bb797ce90387",
+  "webp_sha256": "b7b8dfa56d9bf54fd67a87b86eff1b65f8e37f1c2dbf1716accfa4d9fda98665",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "style_25d": {
+    "판정": "match",
+    "근거": "얼굴의 코·입술·턱에 부드러운 입체 음영, 머리 가닥과 직물 주름·재질 표현이 보임"
+  },
+  "exposure": {
+    "판정": "match",
+    "근거": "한 무릎을 꿇은 철공소 견습. 두 팔이 정상 연결되고 집게를 잡은 손가락 일부는 손잡이로 가려짐. 바닥 짚은 손은 다섯 손가락. 두 다리와 부츠 정상 연결. 작업 앞치마·민소매·반바지, 어깨와 허벅지 노출."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "issue": "ok",
+    "overlay_checked": false,
+    "note": "한 무릎을 꿇은 철공소 견습. 두 팔이 정상 연결되고 집게를 잡은 손가락 일부는 손잡이로 가려짐. 바닥 짚은 손은 다섯 손가락. 두 다리와 부츠 정상 연결. 작업 앞치마·민소매·반바지, 어깨와 허벅지 노출."
+  },
+  "visual_review": "한 무릎을 꿇은 철공소 견습. 두 팔이 정상 연결되고 집게를 잡은 손가락 일부는 손잡이로 가려짐. 바닥 짚은 손은 다섯 손가락. 두 다리와 부츠 정상 연결. 작업 앞치마·민소매·반바지, 어깨와 허벅지 노출.",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:02.728Z",
+        "prompt_sha256": "fcb7e7758148542285c8e2ca9aa38f2f9b081f9fde671438d5fcd50f13c4a892",
+        "submitted_sha256": "fcb7e7758148542285c8e2ca9aa38f2f9b081f9fde671438d5fcd50f13c4a892",
+        "same": true,
+        "prompt_words": 1016,
+        "submitted_words": 1016,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "output": {
+    "file": "롱스톤_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP"
+  },
+  "ui_own": {
+    "job_ko": "철공소 견습",
+    "level": "bold"
+  }
+}
