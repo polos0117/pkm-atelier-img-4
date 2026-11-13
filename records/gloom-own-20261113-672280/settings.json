@@ -1,0 +1,194 @@
+{
+ "version": 4,
+ "card": "냄새꼬",
+ "no": 44,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/6722808fb3f2/own44/PLAN90.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "long_coat_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "aura",
+      "type": "grass"
+     },
+     {
+      "key": "ground",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "long_coat_plate"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "aura",
+      "type": "grass"
+     },
+     {
+      "key": "ground",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_recent": [],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual2": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual3": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual4": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual5": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual6": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual7": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual8": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual9": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual10": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual90": {
+   "guide": {
+    "own": "허브차 블렌더",
+    "level": "bold",
+    "place": "an herbal tea shop — shelves of glass tea jars, bundles of drying herbs, a copper kettle and a wooden tasting counter",
+    "scene": "she is a blender sitting upright at the tasting counter, resting a moment while she thinks over the next tea mix",
+    "outfit": "a tea blender look fitted to her body — a short green apron over a fitted camisole and short skirt, bare shoulders and legs, a tea infuser charm at her belt",
+    "prop": "",
+    "note": "캐릭터만의 컷 — 채울 칸이 없다(글은 표 data/casual-own.json 에서). 단계를 내릴 때는 계획기 --own --own-level"
+   }
+  }
+ }
+}

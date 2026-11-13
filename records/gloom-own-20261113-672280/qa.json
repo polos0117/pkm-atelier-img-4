@@ -1,0 +1,40 @@
+{
+  "card": "냄새꼬",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "냄새꼬_light_anime_25d_gloss_f.webp",
+    "sha256": "f1cf544139a64bca7f14fb8b66236775a05a0cedf6fe6f435babea4ee9512df8"
+  },
+  "original_sha256": "97c98bcabd1d20f57df5f9aee8b43e63b6ddc4c45acdef9b7ff0ff8ca0b6f5a0",
+  "file": "냄새꼬_anime_25d_gloss_f_casual90.webp",
+  "sha256": "6bcacdc19a211e0600286398891039d0605b972326a6bf58a870d302d9df5660",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "db6996b8a8873c2eda8f9b1468a4c5b95e5227a0e7e5220d3b9e9678e14f7d2c",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Fine coloured facial contours, soft nose and cheek shading, glossy skin midtones, rendered fabric and hair strands."
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: 검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "exit_code": 3,
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two arms connect naturally to shoulders and resting hands; fingers partly occluded by chair grip. Two crossed legs and two sandal feet; toes partly hidden by straps.",
+    "overlay_checked": false,
+    "note": "Two arms connect naturally to shoulders and resting hands; fingers partly occluded by chair grip. Two crossed legs and two sandal feet; toes partly hidden by straps."
+  },
+  "regenerated": false
+}
