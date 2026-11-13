@@ -1,0 +1,25 @@
+{
+  "card": "단데기",
+  "slot": "casual90",
+  "status": "not_replaced",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 2,
+      "blocked": []
+    }
+  },
+  "reason": "Conflicting unchanged prompt: PROP requires a screwdriver/mechanism, but the table activity requires untangling threads/finishing a macrame knot. Both attempts follow mechanism repair; QA rejected.",
+  "existing_file": "단데기_anime_25d_gloss_f_casual90.webp",
+  "existing_sha256": "4a6f2ecc407eb2df1a3b187da9ed0fe9f02a2f8ecab2fcd9de0eae17a880b90d",
+  "attempts": [
+    {
+      "original_sha256": "383194c05bd8fddd300793d4c14766e2d03141ae849cbbbed7cb548bf811da74",
+      "qa": "activity mismatch"
+    },
+    {
+      "original_sha256": "e9763cf165e120955c98c6f881c70a3fdbf693e8ee87cafbb9d1eb6520071f28",
+      "qa": "activity mismatch"
+    }
+  ]
+}

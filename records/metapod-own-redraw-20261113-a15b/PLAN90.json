@@ -1,0 +1,44 @@
+{
+ "session": "redraw90-a15b",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "단데기",
+   "species": "metapod-20261113",
+   "own_only": true,
+   "cuts": [
+    {
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "pw_workshop",
+     "ofam": "everyday",
+     "preset": "bench_fix",
+     "use": "tool_fix",
+     "posture": "sit_sideways",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "legs": "",
+     "gaze": "at_prop",
+     "spot": "right_third",
+     "view": "foreground",
+     "own": "all",
+     "placeText": "a weaving studio — a tall wooden loom, shelves of dyed yarn spools, a spinning wheel and a table of woven cloth",
+     "scene": "she is a weaver perched on a stool, untangling threads on the side table beside the loom",
+     "outfit": "a weaver look fitted to her body — a fitted linen smock with a short hem over a halter top and shorts, bare shoulders and legs, a pin cushion on her wrist",
+     "job_ko": "직물 공방 방직공",
+     "cut": 90,
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "aspect": "2:3"
+    }
+   ]
+  }
+ ]
+}
