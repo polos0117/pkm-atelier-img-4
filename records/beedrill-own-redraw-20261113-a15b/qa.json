@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "raise_chest",
+  "scene": "she is the owner of the apiary holding a jar of golden honey up to the light",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "독침붕_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "951fffe0a1e36bfad536386b706e39834f93dcf7d24b3170cad03a9d4ca8c518",
+    "original_sha256": "5c9e56b4317d63341e740af439fb4dca89fc2873f4aed4bec0dfbe758d11e993",
+    "webp_sha256": "4beec7b7fce6364887012356cd127b0db282f013da07149ced5ae23806a563e7"
+  },
+  "submitted_sha256": "63fdb93565d67a1c54379b4fa2eed46c55b41b01a378edf5387e249a15832a7c",
+  "submitted_same": true
+}
