@@ -1,0 +1,45 @@
+{
+  "session": "daily-011-020-eb56",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "구구",
+      "species": "pidgey-20261113",
+      "own_only": true,
+      "cuts": [
+        {
+          "treeV": 2,
+          "era": "in_pokemon",
+          "place": "pw_town",
+          "ofam": "everyday",
+          "prop": "0",
+          "ownProp": "a small parcel box",
+          "preset": "stride_prop",
+          "use": "sig_low",
+          "posture": "walk",
+          "support": "none",
+          "frame": "full_body",
+          "body": "front_3q",
+          "head": "with_body",
+          "camera": "eye",
+          "right": "prop",
+          "left": "down",
+          "legs": "walk_stride",
+          "gaze": "camera",
+          "light": "dappled",
+          "own": "all",
+          "placeText": "a quiet residential street — a delivery bicycle with a front basket, mailboxes, a stack of boxes at a doorstep and a stone wall",
+          "scene": "she is a new courier walking with a small parcel box held low at her side, checking the address",
+          "outfit": "a parcel courier look fitted to her body — a fitted short-sleeved courier jacket zipped low over a short skort with sneakers, bare legs, a plain navy cap",
+          "job_ko": "택배 견습",
+          "cut": 90,
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold"
+          },
+          "aspect": "2:3"
+        }
+      ]
+    }
+  ]
+}
