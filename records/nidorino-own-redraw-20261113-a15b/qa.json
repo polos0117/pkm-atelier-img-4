@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "raise_chest",
+  "scene": "she is an appraiser holding a cut gemstone up to the lamp to check its clarity",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "니드리노_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "d8c021128996d55fb243817f7fb93c83c57cc0d84a7e5a9c997e064ea6354d02",
+    "original_sha256": "d79e889be9640b41da59b927d3160ea63fd4adcfadba4e4fedec2f30cd8d66f9",
+    "webp_sha256": "a6ed8e5c86b632c03ec943dd47f165a937cd3e51a04b8bf6a59b7a2e7ef2212a"
+  },
+  "submitted_sha256": "bf29056f057c112a07387b8448d929f2aef89eadf239542bffc4291715d36f96",
+  "submitted_same": true
+}
