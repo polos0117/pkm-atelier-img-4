@@ -1,0 +1,45 @@
+{
+ "session": "daily091100-ee1c",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "찌리리공",
+   "species": "voltorb-20261113",
+   "own_only": true,
+   "cuts": [
+    {
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "pw_workshop",
+     "ofam": "everyday",
+     "prop": "0",
+     "ownProp": "a bowling ball",
+     "preset": "stride_prop",
+     "use": "sig_low",
+     "posture": "walk",
+     "support": "none",
+     "frame": "full_body",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "down",
+     "legs": "walk_stride",
+     "gaze": "camera",
+     "depth": "deep",
+     "own": "all",
+     "placeText": "a bowling alley — shiny wooden lanes, ball racks, colorful lane lights and a score display",
+     "scene": "she is a part-timer walking with a bowling ball held at her side, rolling it carefully to the lane",
+     "outfit": "a bowling alley staff look fitted to her body — a fitted short-sleeved bowling shirt tied at the waist and a short skirt with lane shoes, bare legs, a plain red-and-white visor",
+     "job_ko": "볼링장 알바",
+     "cut": 90,
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "aspect": "2:3"
+    }
+   ]
+  }
+ ]
+}
