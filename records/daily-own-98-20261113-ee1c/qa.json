@@ -1,0 +1,57 @@
+{
+  "card": "크랩",
+  "slot": "casual90",
+  "reference": "크랩_light_anime_25d_gloss_f.webp",
+  "original_sha256": "3e8e2dbee505bbb5895bb14eca2ef282b6e9d3b95871b19ead6fd04302c091ca",
+  "webp_sha256": "f2a2014067163414382bffbf74102e2f30a459fe90444b183cc5180458623dbd",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "style_25d": {
+    "판정": "match",
+    "근거": "얼굴의 코·입술·턱에 부드러운 입체 음영, 머리 가닥과 직물 주름·재질 표현이 보임"
+  },
+  "exposure": {
+    "판정": "match",
+    "근거": "이발소에서 가위를 점검하는 견습. 두 어깨와 팔·손목이 연결됨. 오른손은 가위 손잡이, 왼손은 날 끝을 잡아 일부 손가락 겹침. 무릎 아래·발은 화면 밖. 셔츠·검정 조끼와 짧은 치마, 팔과 허벅지 노출. 적갈색 쌍번과 녹색 눈 유지."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "issue": "ok",
+    "overlay_checked": false,
+    "note": "이발소에서 가위를 점검하는 견습. 두 어깨와 팔·손목이 연결됨. 오른손은 가위 손잡이, 왼손은 날 끝을 잡아 일부 손가락 겹침. 무릎 아래·발은 화면 밖. 셔츠·검정 조끼와 짧은 치마, 팔과 허벅지 노출. 적갈색 쌍번과 녹색 눈 유지."
+  },
+  "visual_review": "이발소에서 가위를 점검하는 견습. 두 어깨와 팔·손목이 연결됨. 오른손은 가위 손잡이, 왼손은 날 끝을 잡아 일부 손가락 겹침. 무릎 아래·발은 화면 밖. 셔츠·검정 조끼와 짧은 치마, 팔과 허벅지 노출. 적갈색 쌍번과 녹색 눈 유지.",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:04.670Z",
+        "prompt_sha256": "57bc38169b4f7d8543baf24774570452b52de095e6ed5d95cfb31e308fb6504e",
+        "submitted_sha256": "57bc38169b4f7d8543baf24774570452b52de095e6ed5d95cfb31e308fb6504e",
+        "same": true,
+        "prompt_words": 1061,
+        "submitted_words": 1061,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "output": {
+    "file": "크랩_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP"
+  },
+  "ui_own": {
+    "job_ko": "이발소 견습",
+    "level": "bold"
+  }
+}
