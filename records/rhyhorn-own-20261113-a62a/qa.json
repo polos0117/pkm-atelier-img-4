@@ -1,0 +1,52 @@
+{
+  "card": "뿔카노",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "path": "img/뿔카노_light_anime_25d_gloss_f.webp",
+    "sha256": "56ac094335db6a1afba4da5075006b65162a019aa2d2939745106bf3484a08bc"
+  },
+  "original_sha256": "18fefe994253a1af30718dc3207a8ba954c50cd032566c66cd4af2fca0bf02a8",
+  "output": {
+    "file": "뿔카노_anime_25d_gloss_f_casual90.webp",
+    "sha256": "d71011c8fdbfc450038ea90740ac83dc6468950b23264919f792ecdc3b1f4f63",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T14:22:48.595Z",
+        "prompt_sha256": "1b5bc39dbaf6e254c0e0b4c3ddc0366eb2c47f79802e830c05d0f1dcca5fbda1",
+        "submitted_sha256": "1b5bc39dbaf6e254c0e0b4c3ddc0366eb2c47f79802e830c05d0f1dcca5fbda1",
+        "same": true,
+        "prompt_words": 1042,
+        "submitted_words": 1042,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "two where shown; remaining portions outside crop or occluded",
+    "hands": "Both wrists join forearms; visible fingers and thumbs checked; grip occlusion retained.",
+    "overlay_checked": false,
+    "note": "Visual inspection of generated image; no disconnected or duplicate limb observed."
+  },
+  "note": "Initial generated result preserved without exposure-based regeneration."
+}
