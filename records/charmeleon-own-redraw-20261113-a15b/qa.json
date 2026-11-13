@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "half_kneel_use",
+  "scene": "she is a baker kneeling at the oven mouth, sliding a peel of loaves into the fire",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "리자드_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "b58889aa14d6c9d91b5972a21014c6e1e74e1dd91338796fd8869b83c9e86078",
+    "original_sha256": "f5ecab8c671df0acdab37b42d1270e6283ca1c6e9c77bc29dc99780512b200f8",
+    "webp_sha256": "5d4bc4b1c63fde2ecb47ff76b0f100d612b929c473a9108614e1d5c519d09754"
+  },
+  "submitted_sha256": "603e3756e1f0e8485c747e56474e971764c994737acae191c088c30f6476dcdb",
+  "submitted_same": true
+}
