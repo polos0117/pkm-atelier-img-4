@@ -1,0 +1,52 @@
+{
+  "card": "별가사리",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "path": "img/별가사리_light_anime_25d_gloss_f.webp",
+    "sha256": "f09506bdf583764145a6647c1e7c0fb40f9dae857dc72e7a0557f7b7bb6bf3c0"
+  },
+  "original_sha256": "f2b1bb463119669943820e609db580d507befdfe0290e632bfcc748bd264079c",
+  "output": {
+    "file": "별가사리_anime_25d_gloss_f_casual90.webp",
+    "sha256": "c7d7057080dfcf02f015042529d3f8a566f46960a37afa7fad80eb01cc9bd0ba",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T14:22:52.393Z",
+        "prompt_sha256": "321a927bfa7dad05db5361c514b44a6aed4240d380d469c721bbf263066d5ba8",
+        "submitted_sha256": "321a927bfa7dad05db5361c514b44a6aed4240d380d469c721bbf263066d5ba8",
+        "same": true,
+        "prompt_words": 1055,
+        "submitted_words": 1055,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "two where shown; remaining portions outside crop or occluded",
+    "hands": "Both wrists join forearms; visible fingers and thumbs checked; grip occlusion retained.",
+    "overlay_checked": false,
+    "note": "Visual inspection of generated image; no disconnected or duplicate limb observed."
+  },
+  "note": "Initial generated result preserved without exposure-based regeneration."
+}
