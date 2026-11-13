@@ -1,0 +1,75 @@
+{
+  "card": "푸크린",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "푸크린_light_anime_25d_gloss_f.webp",
+    "sha256": "f52a63fa39bb009253e94a818880c2138b2fa0e170c6284c85d97af313ca96f8"
+  },
+  "original_sha256": "cf9f7b5cd8af9dba518aaf898fe56a4ceb7a3ef08c34c55afcf80fa1c019ac97",
+  "file": "푸크린_anime_25d_gloss_f_casual90.webp",
+  "sha256": "4e9b7b552c682a5073b75a1a9353e7d625fd74d23c508a8ea979f6ae9d493468",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "ed7cc662161d819b89902de56fea0801d28fe5a9b472b7e3b8dfd70c68503f41",
+  "visual_review": "Radio host seated in profile holding microphone, other hand on knee, crossed legs, natural connected limbs, bare shoulders and thighs, camisole with open feather-trim jacket and short satin skirt.",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Soft blended shading on nose, lips and cheek; luminous hair strands and fabric folds."
+  },
+  "exposure": {
+    "verdict": "match",
+    "evidence": "Radio host seated in profile holding microphone, other hand on knee, crossed legs, natural connected limbs, bare shoulders and thighs, camisole with open feather-trim jacket and short satin skirt."
+  },
+  "anatomy": {
+    "exit_code": 3,
+    "output": "검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "manual_review": "Radio host seated in profile holding microphone, other hand on knee, crossed legs, natural connected limbs, bare shoulders and thighs, camisole with open feather-trim jacket and short satin skirt."
+  },
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/a7b33af26ae6/pkm-atelier-img-4/img/푸크린_anime_25d_gloss_f_casual90.webp",
+        "near": [
+          [
+            "니드리나_anime_25d_gloss_f_casual4.webp",
+            325
+          ],
+          [
+            "붐볼_anime_25d_gloss_f_casual8.webp",
+            345
+          ],
+          [
+            "꼬마돌_anime_25d_gloss_f_casual5.webp",
+            350
+          ],
+          [
+            "콘팡_anime_25d_gloss_f_casual5.webp",
+            350
+          ],
+          [
+            "팬텀_anime_25d_gloss_f_casual7.webp",
+            354
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "regenerated": false
+}
