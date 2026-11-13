@@ -1,0 +1,57 @@
+{
+  "card": "파르셀",
+  "slot": "casual90",
+  "reference": "파르셀_light_anime_25d_gloss_f.webp",
+  "original_sha256": "a4f7425968799c1bbb2130f97b3d8e68ef4a34e02fc62c94649d1bd90d37f75e",
+  "webp_sha256": "47bcdd4354efad38fd46e99c77a286edb22380cac4719b741d76262679a30d7b",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "style_25d": {
+    "판정": "match",
+    "근거": "얼굴의 코·입술·턱에 부드러운 입체 음영, 머리 가닥과 직물 주름·재질 표현이 보임"
+  },
+  "exposure": {
+    "판정": "match",
+    "근거": "두 팔과 양손이 연결되고 손가락은 자연스럽게 일부 겹침. 두 다리와 발이 이어지며 발목 교차. 크롭탑·짧은 앞치마·반바지·진주 목걸이, 복부와 다리 노출. 얼굴·머리색 유지."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "issue": "ok",
+    "overlay_checked": false,
+    "note": "두 팔과 양손이 연결되고 손가락은 자연스럽게 일부 겹침. 두 다리와 발이 이어지며 발목 교차. 크롭탑·짧은 앞치마·반바지·진주 목걸이, 복부와 다리 노출. 얼굴·머리색 유지."
+  },
+  "visual_review": "두 팔과 양손이 연결되고 손가락은 자연스럽게 일부 겹침. 두 다리와 발이 이어지며 발목 교차. 크롭탑·짧은 앞치마·반바지·진주 목걸이, 복부와 다리 노출. 얼굴·머리색 유지.",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:13:59.559Z",
+        "prompt_sha256": "8006dc34841958882dd90ccb5410396fe578d4cfd9d59bb3d7a5cb2362a63ab4",
+        "submitted_sha256": "8006dc34841958882dd90ccb5410396fe578d4cfd9d59bb3d7a5cb2362a63ab4",
+        "same": true,
+        "prompt_words": 1038,
+        "submitted_words": 1038,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "output": {
+    "file": "파르셀_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP"
+  },
+  "ui_own": {
+    "job_ko": "굴 요리집 주인",
+    "level": "bold"
+  }
+}
