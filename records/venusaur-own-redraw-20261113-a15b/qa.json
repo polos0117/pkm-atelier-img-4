@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "hip_contra",
+  "scene": "she is the owner of the flower shop standing back to admire a finished arrangement",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "이상해꽃_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "92e7bb3a4f5cdb8e7274242ebcdf40a4f7e4f8e778e7683abb42e23c6ee02895",
+    "original_sha256": "e5fb6e4bf22e758663a6bdfb1ffa4bca3f863903406f9a1e75fbdb42d8d265d4",
+    "webp_sha256": "4606511d2a5be39caae35c1b9222de63a651f78c701d4bb77138ac9ea8c12d65"
+  },
+  "submitted_sha256": "aab1cbe6aa867dd684d7675e6e13a3e26232facd1a0f0a9bdfda17346d23521d",
+  "submitted_same": true
+}
