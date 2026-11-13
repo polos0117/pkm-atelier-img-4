@@ -1,0 +1,75 @@
+{
+  "card": "나인테일",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "나인테일_light_anime_25d_gloss_f.webp",
+    "sha256": "4b620aaa9af660b269df9c9891d9824e60762382b232604ce5ad27446ada0d8a"
+  },
+  "original_sha256": "2d9a745b6e3e6b7f5264cba2382e1446b52cf211927ecf3f8c7d31269c1b05c4",
+  "file": "나인테일_anime_25d_gloss_f_casual90.webp",
+  "sha256": "4b63ebfa616b14e1e74f78d29d508ca517d1c6388b5d9e19c00831c56030d4f7",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "56b85f9446b4cea38ff58f565e23679f2780098dad866a990b2cafb0424a66af",
+  "visual_review": "Shrine head priestess walking with ritual wand, two connected arms and legs, bare shoulders and thighs, sleeveless white blouse, short red hakama skirt and bell belt. Long source tail-like hair remains; no regeneration.",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Soft blended shading on nose, lips and cheek; luminous hair strands and fabric folds."
+  },
+  "exposure": {
+    "verdict": "match",
+    "evidence": "Shrine head priestess walking with ritual wand, two connected arms and legs, bare shoulders and thighs, sleeveless white blouse, short red hakama skirt and bell belt. Long source tail-like hair remains; no regeneration."
+  },
+  "anatomy": {
+    "exit_code": 3,
+    "output": "검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "manual_review": "Shrine head priestess walking with ritual wand, two connected arms and legs, bare shoulders and thighs, sleeveless white blouse, short red hakama skirt and bell belt. Long source tail-like hair remains; no regeneration."
+  },
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/a7b33af26ae6/pkm-atelier-img-4/img/나인테일_anime_25d_gloss_f_casual90.webp",
+        "near": [
+          [
+            "브케인_glossy_promo_f_casual1.webp",
+            267
+          ],
+          [
+            "윈디_anime_25d_gloss_f_casual7.webp",
+            279
+          ],
+          [
+            "고지_anime_gloss_f_casual7.webp",
+            289
+          ],
+          [
+            "드레디어_glossy_promo_f_casual2.webp",
+            290
+          ],
+          [
+            "고지_glossy_promo_f_casual3.webp",
+            294
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "regenerated": false
+}
