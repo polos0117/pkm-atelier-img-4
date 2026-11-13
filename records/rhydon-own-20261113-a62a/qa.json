@@ -1,0 +1,52 @@
+{
+  "card": "코뿌리",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "path": "img/코뿌리_light_anime_25d_gloss_f.webp",
+    "sha256": "a32451081cb1b1d31bc8e0cf7cf5e0c36eb141c1d4755ad24009de9eb5ed2832"
+  },
+  "original_sha256": "cd59370617ef6926e6ca6b7d58c39f7307fec2c574c5b883bffd2534bf1f063f",
+  "output": {
+    "file": "코뿌리_anime_25d_gloss_f_casual90.webp",
+    "sha256": "519cfa22533b890a2fb8370aa927d0e3459417b41306df7aba32c8a5a91495b1",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T14:22:49.177Z",
+        "prompt_sha256": "9320884149f5e932b052b53363e9643ddc168d81cd04dafc48794f5850cd1f58",
+        "submitted_sha256": "9320884149f5e932b052b53363e9643ddc168d81cd04dafc48794f5850cd1f58",
+        "same": true,
+        "prompt_words": 1074,
+        "submitted_words": 1074,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "two where shown; remaining portions outside crop or occluded",
+    "hands": "Both wrists join forearms; visible fingers and thumbs checked; grip occlusion retained.",
+    "overlay_checked": false,
+    "note": "Visual inspection of generated image; no disconnected or duplicate limb observed."
+  },
+  "note": "Initial generated result preserved without exposure-based regeneration."
+}
