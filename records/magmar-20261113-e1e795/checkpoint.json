@@ -1,0 +1,45 @@
+{
+  "card": "마그마",
+  "style": "anime_25d_gloss",
+  "status": "generated, awaiting publication",
+  "candidates": [
+    {
+      "number": 1,
+      "design": "atelier",
+      "original": "/workspace/scratch/e1e795afa0e6/generated_images/exec-ab516a72-b83d-48e3-b18e-c05dd3f94fec.png",
+      "sha256": "389884f9de686ac7213462f25f6ef1277d49f5192453b328993a4e4b679a449e"
+    },
+    {
+      "number": 2,
+      "design": "atelier",
+      "original": "/workspace/scratch/e1e795afa0e6/generated_images/exec-322dd4ff-943b-45d7-bcaf-1af7afd6f606.png",
+      "sha256": "a99ce8076c1f6e68cd234d96b42f9f9a66ea519026f1607f043a9a90bc0d663e"
+    },
+    {
+      "number": 3,
+      "design": "gpt_free",
+      "original": "/workspace/scratch/e1e795afa0e6/generated_images/exec-dac32e97-77af-41f0-8fe5-228489b58d6c.png",
+      "sha256": "19fc75ea67bcb015b546975b784758e26c6716c5587dfa95a208712450d89e32"
+    },
+    {
+      "number": 4,
+      "design": "gpt_free",
+      "original": "/workspace/scratch/e1e795afa0e6/generated_images/exec-87778c9b-66f4-432c-ac3e-38b622c36041.png",
+      "sha256": "9c80283ccc9b9d4c0d206e2e9fd16168cb1a98826fd57bee89b244a3c4aec769"
+    }
+  ],
+  "published": false,
+  "selected": 2,
+  "reference": "generated_images/exec-322dd4ff-943b-45d7-bcaf-1af7afd6f606.png",
+  "reservation_commit": "e73d218cdeab035c83538e63895fa41f8cef6fcd",
+  "generated": 12,
+  "requested": 12,
+  "original_pngs_in_git": false,
+  "face_lock": {
+    "choice": "user selected candidate 2",
+    "source": "data/face-design.json and light-prompt.txt; selected image overrides future descriptions",
+    "final_face_prompt": "Face — her own structure, not the style's default face: oval face, balanced length, medium width; soft rounded jaw; narrow eyes, medium size, level outer corners, average spacing; angled brows; rounded soft tip nose; full lips.",
+    "reference_original_sha256": "a99ce8076c1f6e68cd234d96b42f9f9a66ea519026f1607f043a9a90bc0d663e",
+    "comparison": "four selection candidates displayed together; user selected 2"
+  }
+}
