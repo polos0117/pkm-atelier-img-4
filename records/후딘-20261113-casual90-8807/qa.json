@@ -1,0 +1,55 @@
+{
+  "card": "후딘",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "양손은 카드를 잡고 일부 손가락이 겹쳐 가려짐. 손목과 두 팔 연결 정상.",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "후딘_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "81c46e58cb97d4b945cf83323536bd15b91febdf6286564d46025bf88ada2a22"
+  },
+  "output": {
+    "file": "후딘_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b6b873c638a1563aa2cbb62462936cd0f4ebf36ca9fe93b915b7169773ec9180"
+  },
+  "original_sha256": "e57be9781aa4c37dd255e97fc784d0777bb2760813b9f4b6bb35bb8f2ecaa250",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T12:26:01.653Z",
+        "prompt_sha256": "1af19b6cb64d7a2df1624bd978b7004d65a601da3e9086339a233fcbbdeebc5b",
+        "submitted_sha256": "1af19b6cb64d7a2df1624bd978b7004d65a601da3e9086339a233fcbbdeebc5b",
+        "same": true,
+        "prompt_words": 1101,
+        "submitted_words": 1101,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
