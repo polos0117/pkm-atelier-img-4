@@ -1,0 +1,43 @@
+{
+  "card": "탕구리",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/탕구리_light_anime_25d_gloss_f.webp",
+    "sha256": "190bf4bc7fcbcf5ec26e09d3b688a3a3d5dbe28b306beb3deb1871965d206487"
+  },
+  "original": {
+    "sha256": "df9d6504121ed64f3523e3a0fa6eeda953eb696de07d44cc50411ba0850ac324"
+  },
+  "output": {
+    "path": "img/탕구리_anime_25d_gloss_f_casual90.webp",
+    "sha256": "b6a0bb96a0f7e85cce0f4c79322501a4ebbe9afe2716ce0d7dd18848573acc0c",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two connected arms; right hand grips brush with fingers partly concealed, left hand rests on knee with five digits visible; two bent legs lead to boots. Brush held over knee beside the find rather than visibly brushing soil.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Two connected arms; right hand grips brush with fingers partly concealed, left hand rests on knee with five digits visible; two bent legs lead to boots. Brush held over knee beside the find rather than visibly brushing soil.",
+  "preserve_generated_result": true
+}
