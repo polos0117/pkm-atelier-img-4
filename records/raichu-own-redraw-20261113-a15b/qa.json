@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "stride_prop",
+  "scene": "she is the ride team leader walking along the track with a ride control key at her side",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "라이츄_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "45902b4cb7697d5f2430720ccaf8c5ca3f01655cb0edfbbb1db9d5f8a486b52f",
+    "original_sha256": "e9aa5ece64a811973f8728ad66ff9a14134c82e1412fbd44b709f0968096c312",
+    "webp_sha256": "f5bab2bdd4c4557257aed7bfe20e9bb6e90205ba2e65e7e0a52943adc39eb3e0"
+  },
+  "submitted_sha256": "9240cb7f7d9a602e0d430ae2d9eb6c907c6c6ce03611fb875b160bb24da85977",
+  "submitted_same": true
+}
