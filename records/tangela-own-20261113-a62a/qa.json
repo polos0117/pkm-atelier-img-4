@@ -1,0 +1,52 @@
+{
+  "card": "덩쿠리",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "path": "img/덩쿠리_light_anime_25d_gloss_f.webp",
+    "sha256": "0554dfee27b53a46c1400c027887a7ac250073299f41e87d612ede070fd8d754"
+  },
+  "original_sha256": "11eaa1f63577c20534a0dbfab4befaf96e141e9b402c021cf0928fa2e402ef5f",
+  "output": {
+    "file": "덩쿠리_anime_25d_gloss_f_casual90.webp",
+    "sha256": "ba28d69d48d663d47f0d79af64e882c0de6e6d13128af08bfef58f05e0e5458e",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T14:22:50.149Z",
+        "prompt_sha256": "36400a143a7114b7c28dc1779fc0df735ac0fe49e00ea5b1a107a973b852b601",
+        "submitted_sha256": "36400a143a7114b7c28dc1779fc0df735ac0fe49e00ea5b1a107a973b852b601",
+        "same": true,
+        "prompt_words": 1063,
+        "submitted_words": 1063,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "two where shown; remaining portions outside crop or occluded",
+    "hands": "Both wrists join forearms; visible fingers and thumbs checked; grip occlusion retained.",
+    "overlay_checked": false,
+    "note": "Visual inspection of generated image; no disconnected or duplicate limb observed."
+  },
+  "note": "Initial generated result preserved without exposure-based regeneration."
+}
