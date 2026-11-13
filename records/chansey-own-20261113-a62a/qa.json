@@ -1,0 +1,52 @@
+{
+  "card": "럭키",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "path": "img/럭키_light_anime_25d_gloss_f.webp",
+    "sha256": "69d8ae4fddd79adc56c913fe96941e798e3e482858c7c89c641e5b52353c6092"
+  },
+  "original_sha256": "56057a3e58b08965864768f4968fb43912ef76b056adb3291f9114e600cd542a",
+  "output": {
+    "file": "럭키_anime_25d_gloss_f_casual90.webp",
+    "sha256": "c7c48cea3d7868ffc35c6d8fcc8da75c94b4b0a487661d4bf2e8edb84f8a7059",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T14:22:49.699Z",
+        "prompt_sha256": "a282be796864c4f519cf8a08aeff9658e3b1dae446ee4069bae3516689e3732d",
+        "submitted_sha256": "a282be796864c4f519cf8a08aeff9658e3b1dae446ee4069bae3516689e3732d",
+        "same": true,
+        "prompt_words": 1108,
+        "submitted_words": 1108,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "two where shown; remaining portions outside crop or occluded",
+    "hands": "Both wrists join forearms; visible fingers and thumbs checked; grip occlusion retained.",
+    "overlay_checked": false,
+    "note": "Visual inspection of generated image; no disconnected or duplicate limb observed."
+  },
+  "note": "Initial generated result preserved without exposure-based regeneration."
+}
