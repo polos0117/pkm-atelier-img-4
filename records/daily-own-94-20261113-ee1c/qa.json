@@ -1,0 +1,57 @@
+{
+  "card": "팬텀",
+  "slot": "casual90",
+  "reference": "팬텀_light_anime_25d_gloss_f.webp",
+  "original_sha256": "d4f68d4780d6dd23499466beb568c37fde5bee018cd9cc3f3b9eb919000cc750",
+  "webp_sha256": "31b17395602574e66f8a43c5c5e87c88008d2ab02b2052fba4f652adca7fb511",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "style_25d": {
+    "판정": "match",
+    "근거": "얼굴의 코·입술·턱에 부드러운 입체 음영, 머리 가닥과 직물 주름·재질 표현이 보임"
+  },
+  "exposure": {
+    "판정": "match",
+    "근거": "양팔과 손 연결, 무릎 위 손과 팔걸이에 놓은 손의 손가락 일부가 겹침. 두 다리와 발·구두 정상 연결. 흰 무대 의상과 감독 망토. 어깨와 다리 노출. 붉은 눈과 땋은 포니테일 유지."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "issue": "ok",
+    "overlay_checked": false,
+    "note": "양팔과 손 연결, 무릎 위 손과 팔걸이에 놓은 손의 손가락 일부가 겹침. 두 다리와 발·구두 정상 연결. 흰 무대 의상과 감독 망토. 어깨와 다리 노출. 붉은 눈과 땋은 포니테일 유지."
+  },
+  "visual_review": "양팔과 손 연결, 무릎 위 손과 팔걸이에 놓은 손의 손가락 일부가 겹침. 두 다리와 발·구두 정상 연결. 흰 무대 의상과 감독 망토. 어깨와 다리 노출. 붉은 눈과 땋은 포니테일 유지.",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:02.028Z",
+        "prompt_sha256": "c50a433246f5884fee6316d323cef056b2220d55046aaf2da86b63ed284a0937",
+        "submitted_sha256": "c50a433246f5884fee6316d323cef056b2220d55046aaf2da86b63ed284a0937",
+        "same": true,
+        "prompt_words": 1026,
+        "submitted_words": 1026,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "output": {
+    "file": "팬텀_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP"
+  },
+  "ui_own": {
+    "job_ko": "유령의 집 총감독",
+    "level": "bold"
+  }
+}
