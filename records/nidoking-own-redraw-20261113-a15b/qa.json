@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "chair_cross_prop",
+  "scene": "she is the owner of the jewelry house seated with her legs crossed, studying a velvet ring box in her hand",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "니드킹_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "c186522483814ce3bc7dc63bf26ccc197522da9df51322d1433f090d434fb31c",
+    "original_sha256": "2d749941ccd956a4d625a954ad48968328710aa55f0057e099a605170616ab39",
+    "webp_sha256": "7afc3973f8baf8349c66e5e110664d9099230e022b979b4c5e8466e88c0b32b8"
+  },
+  "submitted_sha256": "2b04e1818569e796e67e4bbb04de5bc2777a28793433d40110a90b5e554637d6",
+  "submitted_same": true
+}
