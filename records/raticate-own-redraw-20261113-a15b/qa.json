@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "counter_work",
+  "scene": "she is the shop manager slicing a wheel of cheese with the cheese wire at the counter",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "레트라_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "6b8e1ce88b61b5e1be54846fc1fac056bd78192420dba48d6587c4f63c54fc97",
+    "original_sha256": "1347e5026cfadddb92788c20c168767c578f6fb63f03da850757b0d9cd3e6392",
+    "webp_sha256": "3b6e975420cbe85b86d61b30b05aaa5066e68b66d2ae38586c13de092ed3e989"
+  },
+  "submitted_sha256": "545e7bcd8ad57642537460ae22974bf4dc22c81df418e48c253042e69c7552ba",
+  "submitted_same": true
+}
