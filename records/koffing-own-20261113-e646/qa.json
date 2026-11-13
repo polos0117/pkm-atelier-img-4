@@ -1,0 +1,43 @@
+{
+  "card": "또가스",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/또가스_light_anime_25d_gloss_f.webp",
+    "sha256": "e4f35a62c2ca7f02ac5da3d5f48616b23b26489b622322cc82fa67236e35c91f"
+  },
+  "original": {
+    "sha256": "9087475bfe7f914aeddec2c2a1dbedfb5b78219f7a09050e30fa382d7e798d6f"
+  },
+  "output": {
+    "path": "img/또가스_anime_25d_gloss_f_casual90.webp",
+    "sha256": "74869f987e23a816719510847fc3c89c0d2dec09ea3f1e5a95c486974eb55c5c",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two naturally connected arms; right hand grips ribbon bunch with partly concealed fingers and thumb, left relaxed hand five digits with slight perspective overlap. Two walking legs lead to two shoes; no extra or detached limbs.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Two naturally connected arms; right hand grips ribbon bunch with partly concealed fingers and thumb, left relaxed hand five digits with slight perspective overlap. Two walking legs lead to two shoes; no extra or detached limbs.",
+  "preserve_generated_result": true
+}
