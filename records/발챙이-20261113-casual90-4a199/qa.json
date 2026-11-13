@@ -1,0 +1,55 @@
+{
+  "card": "발챙이",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "물레의 흙그릇을 감싼 양손 각각 5지, 엄지 방향·손목·팔꿈치·어깨 연결 정상. 다리는 프레임 밖",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "발챙이_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "ef00b9670943043d67043ce2918d25caa57eaded39390de32394eb01c2c53484"
+  },
+  "output": {
+    "file": "발챙이_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "fc0e0e5f2acfd8272115b3fcdacb3004583f1b3ea90bfee2ab9b55efcc769538"
+  },
+  "original_sha256": "78ac267a4ebb995c441caf5c27064789a3dc6eb7c39e0df30494de7779dfd631",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T09:57:53.819Z",
+        "prompt_sha256": "9a1c8de99971dfcf3d38f8230393c5b167e8ba58eb133b276ee4690b803900e3",
+        "submitted_sha256": "9a1c8de99971dfcf3d38f8230393c5b167e8ba58eb133b276ee4690b803900e3",
+        "same": true,
+        "prompt_words": 1108,
+        "submitted_words": 1108,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
