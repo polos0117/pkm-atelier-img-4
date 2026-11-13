@@ -1,0 +1,280 @@
+{
+  "card": "마임맨",
+  "style": "anime_25d_gloss",
+  "selected_candidate": 1,
+  "status": "ready_to_publish",
+  "reference": {
+    "slot": "light",
+    "file": "마임맨_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "source_sha256": "49d439f25046af5c3b2e89692ae9c609ab227c4b29ee6b7a9be9fd3b2cdf7b49",
+    "webp_sha256": "2d050348bfc707dd63c388dd89717824ff4e97472909830676a46dd8de7b1840",
+    "size": [
+      1024,
+      1536
+    ],
+    "style": "anime_25d_gloss",
+    "reference": null,
+    "submitted_sha256": "c56a42ebf744fb852e122e6e9986ac2df4c14eb158a69cb2b697fb931744e91d",
+    "submitted_same": true,
+    "generation": {
+      "design": "project",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "files": [
+    {
+      "slot": "light",
+      "file": "마임맨_light_anime_25d_gloss_f.webp",
+      "shard": 3,
+      "source_sha256": "49d439f25046af5c3b2e89692ae9c609ab227c4b29ee6b7a9be9fd3b2cdf7b49",
+      "webp_sha256": "2d050348bfc707dd63c388dd89717824ff4e97472909830676a46dd8de7b1840",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": null,
+      "submitted_sha256": "c56a42ebf744fb852e122e6e9986ac2df4c14eb158a69cb2b697fb931744e91d",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "slot": "casual1",
+      "file": "마임맨_anime_25d_gloss_f_casual1.webp",
+      "shard": 3,
+      "source_sha256": "fc23d3629693b89a2f88aee89bfa79b0f96faf01351b6f255684e205c1abe47c",
+      "webp_sha256": "defc031812f938fc00ff18b765f8991550ac44fd152b902330de1b10dde1808c",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "4b89771975cffe8b1ac83661ac32e2cd6e6347c92f6e41474f6c8fb15a49979c",
+      "submitted_same": "authorized free design, fixed outer sections preserved",
+      "generation": {
+        "design": "gpt_free",
+        "tries": 1,
+        "blocked": [],
+        "free_prompt": "CHARACTER: the same woman as the attached image — Mr. Mime (마임맨) personified, psychic / fairy type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a small river ferry's open passenger deck on a clear morning, rippling water and distant stone bridges behind her. She is having a quiet breakfast while watching the wake, alone at a tiny fixed table.\nOutfit: a teal ring-linked halter culotte playsuit made from opaque sculptural crepe: a fitted deep-V bodice connected to short pleated culotte legs by two small side rings, broad open waist panels and bare shoulders; intimate areas securely covered. This is her own fashion, without species colours or markings.\nPOSTURE: seated upright on the deck bench, her torso gently turned toward the camera, her feet naturally on the deck.\nCOMPOSITION: knees-up, from a seated eye-level camera, her face in a clear front three-quarter view; the water and rail remain visible behind her.\nRIGHT HAND: her right forearm comes forward from her right shoulder, her elbow close to her side; she holds one tiny espresso cup at chest level.\nLEFT HAND: her left arm runs naturally down from her left shoulder; her left palm rests open on the tabletop, fingers relaxed.\nSource details: one small spherical magenta charm on her bracelet, and a geometric transparent souvenir on the table, without text.\nEXPRESSION: one mouth corner lifted higher than the other, lips closed. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+      }
+    },
+    {
+      "slot": "casual2",
+      "file": "마임맨_anime_25d_gloss_f_casual2.webp",
+      "shard": 3,
+      "source_sha256": "7b8b7cb07bbb60c103dc168e0f2c9f28335d5e032508d6b2720117914a60b7c6",
+      "webp_sha256": "a0a1f9f94303db92ba14054c014423a2817d78027e428b2efba3cc53c43a55df",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "c15ce12d50059953059f75fc1bd6dc3b3c31652e143e7edc80fadd4219030caa",
+      "submitted_same": "authorized free design, fixed outer sections preserved",
+      "generation": {
+        "design": "gpt_free",
+        "tries": 1,
+        "blocked": [],
+        "free_prompt": "CHARACTER: the same woman as the attached image — Mr. Mime (마임맨) personified, psychic / fairy type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: the back seat of a taxi at night, city lights streaking past\nTime of day: night — the scene lit by lamps, screens or windows, dark outside.\nLight direction: side light — the light falls from one side, the far side of her face in soft shadow.\nOutfit: a camel-coloured fitted cropped tabard in soft opaque suede, with a deep keyhole neckline and broad open side panels secured by two narrow waist bridges, over high-waisted tailored ivory balloon shorts; bare shoulders and midriff, intimate areas covered. This original outfit has no species markings.\nPOSTURE: walking.\nCOMPOSITION: a full-body shot, her complete head, hands and feet inside the frame with restrained margins; body turned three-quarters toward the camera; camera at her eye level; a second space shows beyond her through an opening — a door, an arch or a window.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand is in PROP.\nLEFT HAND: her own left hand rests naturally for the posture, relaxed and empty.\nPROP: with her own right hand she holds one ear cup of over-ear headphones resting around her neck; it is all she holds.\nEXPRESSION: soft distant eyes, faint wistful half-smile, brows gently raised at the inner ends. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+      }
+    },
+    {
+      "slot": "casual3",
+      "file": "마임맨_anime_25d_gloss_f_casual3.webp",
+      "shard": 3,
+      "source_sha256": "2eca87996cab8e36f2f3c464db00a8f5c3eab8b7bd582565de8d30c8cf77c3bd",
+      "webp_sha256": "f39e48d2708d3874129b33606093d6aafd55ad264b1af92380055c091848b148",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "d037f1cc6349cfe7af62f5ec3dd946732a51b11477987c43204b2565645c51e8",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "slot": "casual4",
+      "file": "마임맨_anime_25d_gloss_f_casual4.webp",
+      "shard": 3,
+      "source_sha256": "688c6de3214eb035c01124f6345d47c8e50bf4ca5850f375217b04812ced3309",
+      "webp_sha256": "406da87b6d5d5f3aa552c795bf23d5057ed603b9444eee1a2dbd5c5876bad9fb",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "05fa6354013fd6a72b2ab0253cf3a4affbf50dabf806b4af40df9ca5bc8cf819",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "slot": "casual5",
+      "file": "마임맨_anime_25d_gloss_f_casual5.webp",
+      "shard": 3,
+      "source_sha256": "a6734fa297f780ab32c96ffda1c3ba32b3da95018cb2445dfb6f651d903ac6a2",
+      "webp_sha256": "3e3fbd3159d5429c27a8c8db43166c93350afe360cc3865c06b4045b665853db",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "2b24c783322e058ba324d7f115628b693b91039bcacf26a769cbdd14f2f0fbf7",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "slot": "casual6",
+      "file": "마임맨_anime_25d_gloss_f_casual6.webp",
+      "shard": 3,
+      "source_sha256": "05b29f528836e8276cd205310a57dbdc49f5d3a38cf335cbd0e923b919a84727",
+      "webp_sha256": "fdf0a568dfd7a6b0a97f37be3048c205ff9a98a0b49278168c4293913294b0b7",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "4bd97c46418a16be721b08a386c4d272d6031370fa7450f64936ccef31f0c64b",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "slot": "casual7",
+      "file": "마임맨_anime_25d_gloss_f_casual7.webp",
+      "shard": 3,
+      "source_sha256": "b3cc4d9e63c6787446e7641027dae5aa7ae322e967de80eb286f182d68ece933",
+      "webp_sha256": "5a1bbe0c1b10b4abdeb66b6e2832f470287ea6c4cbac24068804abaf9cc7257f",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "a980c230e85bb1311403870523abb4a2383a10652b1342cd637aa461f3d93cbc",
+      "submitted_same": "authorized free design, fixed outer sections preserved",
+      "generation": {
+        "design": "gpt_free",
+        "tries": 1,
+        "blocked": [],
+        "free_prompt": "CHARACTER: the same woman as the attached image — Mr. Mime (마임맨) personified, psychic / fairy type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a small planetarium's empty demonstration room after a rehearsal. She tests a single rotating star projector from the low circular platform, alone, looking peacefully upward toward its light.\nCategory: adult event role-play costume — an original planetarium presenter costume, never a real uniform.\nOutfit: a midnight-blue opaque fitted peplum unitard with a sculpted deep-V neckline, short tailored legs and open side-waist arches, with a separate fan-pleated shoulder mantle connected by neat pivot fasteners; cream piping, no writing. Chest and pelvis remain fully and securely covered.\nMomentary situation: as she extends both arms to check the projected circle, the mantle's designed accordion pleats spread outward like folding fans, revealing her bare shoulders and upper side ribs through the intentional side openings. The fasteners stay secured, no garment slips or becomes transparent.\nPOSTURE: standing with her weight settled on one leg, shoulders comfortably level.\nCOMPOSITION: full body from head to shoes, with generous planetarium space around her; eye-level camera and front three-quarter face.\nRIGHT HAND: her right arm extends diagonally forward from its shoulder, with an empty relaxed palm turned toward the projected circle.\nLEFT HAND: her left arm extends gently outward from its own shoulder, lower than the right, with relaxed open fingers.\nSource details: a small round magenta brooch on the mantle and a rectangular clear presentation panel on the platform.\nEXPRESSION: heavy-lidded eyes, lips slightly parted and relaxed, brow smooth. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+      }
+    },
+    {
+      "slot": "casual8",
+      "file": "마임맨_anime_25d_gloss_f_casual8.webp",
+      "shard": 3,
+      "source_sha256": "dc4066fb8d09056d972975e670e4129677ea3223f56d0cece69f936148ee2ffd",
+      "webp_sha256": "6b12baed2e2a236d8964ebc08396e2d0459d473f3c9432624f033808337d11bf",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "5724b2c0a79fde17448e9a312f7851d7742406cd2cbfee1ea1b430b6dc688e23",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 2,
+        "blocked": [
+          "http 400 sexual policy block; no image returned; identical prompt retried successfully"
+        ]
+      }
+    },
+    {
+      "slot": "casual9",
+      "file": "마임맨_anime_25d_gloss_f_casual9.webp",
+      "shard": 3,
+      "source_sha256": "48e569ef72fdc49ca371f15ea9e24ff042fbd78c27c6f37e802da05f2f769f17",
+      "webp_sha256": "9e461f3aae0825e2f35e66f1220e109391d9a5315a9e1bfec71a70e801aaf5f4",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "fc975109004b70bde696442d149513e2e6b62f4b2a2b504a884efd8098a50a40",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "slot": "casual10",
+      "file": "마임맨_anime_25d_gloss_f_casual10.webp",
+      "shard": 3,
+      "source_sha256": "b9dc4d52e93d223ced2f55868c0e307fa41bbc1a30b586b84ce667cce2c62df1",
+      "webp_sha256": "6d6db0492b5c8ab8cb8c7e75e964ab2c96dfb5edc4d82c17b3ca2fc08dafdd8c",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "52052107dc6606ca704462685457ee2ecfd1d39430b7c6c7741efb620f6d2626",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "slot": "casual90",
+      "file": "마임맨_anime_25d_gloss_f_casual90.webp",
+      "shard": 3,
+      "source_sha256": "93a1344a59ce2176d9a0b24730c0c2ed87596bbbe006178ff34602b992cd8119",
+      "webp_sha256": "a6cf52ec28b1ab90ef680798a53db0861a32304b2ec69f90be1081a681a779c1",
+      "size": [
+        1024,
+        1536
+      ],
+      "style": "anime_25d_gloss",
+      "reference": "마임맨_light_anime_25d_gloss_f.webp",
+      "submitted_sha256": "c0d2670a08e1eaa684145a4c94bd7b89ca887f548bd1175434cf0bc1a4fa9ea2",
+      "submitted_same": true,
+      "generation": {
+        "design": "project",
+        "tries": 1,
+        "blocked": [],
+        "own": {
+          "level": "bold",
+          "tries": 1,
+          "blocked": []
+        }
+      }
+    }
+  ],
+  "count": 12,
+  "png_uploaded": false
+}
