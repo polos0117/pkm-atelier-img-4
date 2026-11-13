@@ -1,0 +1,57 @@
+{
+  "card": "슬리프",
+  "slot": "casual90",
+  "reference": "슬리프_light_anime_25d_gloss_f.webp",
+  "original_sha256": "e31da37fb6ef1e33c0fdae29c8bb853568f215c70198d55538cd380f10ddf00e",
+  "webp_sha256": "70cd1c5f9776adaa480f3591896be41a5dda8431c99ee2298ff189f9a6d8cc9b",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "style_25d": {
+    "판정": "match",
+    "근거": "얼굴의 코·입술·턱에 부드러운 입체 음영, 머리 가닥과 직물 주름·재질 표현이 보임"
+  },
+  "exposure": {
+    "판정": "match",
+    "근거": "침구점에서 하품하며 베개를 든 반신 장면. 양 어깨와 두 팔·손목 연결, 베개 손과 허리 손은 다섯 손가락이 보이거나 일부 가려짐. 다리·발은 화면 밖. 파스텔 조끼와 캐미솔·짧은 치마, 어깨 노출. 금발·금빛 눈 유지."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "issue": "ok",
+    "overlay_checked": false,
+    "note": "침구점에서 하품하며 베개를 든 반신 장면. 양 어깨와 두 팔·손목 연결, 베개 손과 허리 손은 다섯 손가락이 보이거나 일부 가려짐. 다리·발은 화면 밖. 파스텔 조끼와 캐미솔·짧은 치마, 어깨 노출. 금발·금빛 눈 유지."
+  },
+  "visual_review": "침구점에서 하품하며 베개를 든 반신 장면. 양 어깨와 두 팔·손목 연결, 베개 손과 허리 손은 다섯 손가락이 보이거나 일부 가려짐. 다리·발은 화면 밖. 파스텔 조끼와 캐미솔·짧은 치마, 어깨 노출. 금발·금빛 눈 유지.",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:25:13.254Z",
+        "prompt_sha256": "3aab00d6cb6b0514f938155f28f4c0a4041d03ad62b2b0b7834624f360292e33",
+        "submitted_sha256": "3aab00d6cb6b0514f938155f28f4c0a4041d03ad62b2b0b7834624f360292e33",
+        "same": true,
+        "prompt_words": 1082,
+        "submitted_words": 1082,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "output": {
+    "file": "슬리프_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP"
+  },
+  "ui_own": {
+    "job_ko": "침구점 견습",
+    "level": "bold"
+  }
+}
