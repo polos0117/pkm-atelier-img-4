@@ -1,0 +1,47 @@
+{
+ "session": "redraw90-a15b",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "피죤",
+   "species": "pidgeotto-20261113",
+   "own_only": true,
+   "cuts": [
+    {
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "pw_town",
+     "ofam": "everyday",
+     "prop": "0",
+     "ownProp": "a small parcel box",
+     "preset": "pocket_look",
+     "use": "sig_hold",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "prop",
+     "left": "pocket",
+     "legs": "",
+     "gaze": "at_prop",
+     "light": "side",
+     "depth": "flat",
+     "view": "foreground",
+     "own": "all",
+     "placeText": "a quiet residential street — a delivery bicycle with a front basket, mailboxes, a stack of boxes at a doorstep and a stone wall",
+     "scene": "she is a courier checking the address label on a small parcel in her hand",
+     "outfit": "a parcel courier look fitted to her body — a fitted short-sleeved courier jacket zipped low over a short skort with sneakers, bare legs, a feather-shaped pin on her cap",
+     "job_ko": "택배 기사",
+     "cut": 90,
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold"
+     },
+     "aspect": "2:3"
+    }
+   ]
+  }
+ ]
+}
