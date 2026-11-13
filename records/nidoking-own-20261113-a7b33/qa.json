@@ -1,0 +1,75 @@
+{
+  "card": "니드킹",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "니드킹_light_anime_25d_gloss_f.webp",
+    "sha256": "c186522483814ce3bc7dc63bf26ccc197522da9df51322d1433f090d434fb31c"
+  },
+  "original_sha256": "52612e7c43b9b2a6961f28a682eff7ca8cbbfb7f3b54c48fb46066872d777d85",
+  "file": "니드킹_anime_25d_gloss_f_casual90.webp",
+  "sha256": "0342a1acf749bbf9f4f91624769d0f724885760aaef8a7d40ecac595a14d64f8",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "50c36063de80b2e5aae2ef4577ab90315c58693839fb0820ff1a45bbc69abd34",
+  "visual_review": "Smiling jeweler holding a large cut diamond in both hands over velvet appraisal table, two connected arms, bare shoulders and thighs, sleeveless fitted blouse and short skirt.",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Soft blended shading on nose, lips and cheek; luminous hair strands and fabric folds."
+  },
+  "exposure": {
+    "verdict": "match",
+    "evidence": "Smiling jeweler holding a large cut diamond in both hands over velvet appraisal table, two connected arms, bare shoulders and thighs, sleeveless fitted blouse and short skirt."
+  },
+  "anatomy": {
+    "exit_code": 3,
+    "output": "검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "manual_review": "Smiling jeweler holding a large cut diamond in both hands over velvet appraisal table, two connected arms, bare shoulders and thighs, sleeveless fitted blouse and short skirt."
+  },
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/a7b33af26ae6/pkm-atelier-img-4/img/니드킹_anime_25d_gloss_f_casual90.webp",
+        "near": [
+          [
+            "시라소몬_anime_25d_gloss_f_casual10.webp",
+            249
+          ],
+          [
+            "캥카_glossy_promo_f_casual3.webp",
+            282
+          ],
+          [
+            "셀러_anime_25d_gloss_f_casual7.webp",
+            289
+          ],
+          [
+            "고지_anime_gloss_f_casual6.webp",
+            309
+          ],
+          [
+            "픽시_anime_gloss_f_casual5.webp",
+            311
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "regenerated": false
+}

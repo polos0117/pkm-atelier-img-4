@@ -1,0 +1,205 @@
+{
+ "version": 4,
+ "card": "니드킹",
+ "no": 34,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/a7b33af26ae6/own34/PLAN90.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "full_armor"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "seams",
+      "type": "ground"
+     },
+     {
+      "key": "trail",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "full_armor"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "poison"
+     },
+     {
+      "key": "seams",
+      "type": "ground"
+     },
+     {
+      "key": "trail",
+      "type": "poison"
+     }
+    ]
+   },
+   "mecha_recent": [
+    "halo_crown",
+    "halo_crown",
+    "skirt_plate",
+    "slim_suit",
+    "heavy_assault",
+    "light_agile",
+    "sub_arms",
+    "frame_exposed",
+    "light_agile",
+    "wing_binder"
+   ],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual2": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual3": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual4": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual5": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual6": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual7": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual8": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual9": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual10": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual90": {
+   "guide": {
+    "own": "보석상 대표",
+    "level": "bold",
+    "place": "a jewelry appraisal room — a velvet-topped table, a lamp with a magnifier, small trays of loose stones and a safe in the corner",
+    "scene": "she is the owner of the jewelry house leaning over the table with both hands holding a large diamond",
+    "outfit": "a gem appraiser look fitted to her body — a fitted sleeveless blouse and short pencil skirt with a gem-trim belt, bare arms and legs, a diamond-shaped horn-like hairpin",
+    "prop": "a cut gemstone",
+    "note": "캐릭터만의 컷 — 채울 칸이 없다(글은 표 data/casual-own.json 에서). 단계를 내릴 때는 계획기 --own --own-level"
+   }
+  }
+ }
+}
