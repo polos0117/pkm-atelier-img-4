@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "hip_contra",
+  "scene": "she is the manager of the car wash standing with a hand on her hip, looking over a row of gleaming cars",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "거북왕_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "2c8182fb8f6309a550457976bfebc2eb09eebd8a3460c4a7bb8b1bd313445f87",
+    "original_sha256": "5d6539bccf32dfc4f5f41d91034aa90e40209b3645bb8039ffbb751d4cf6bb15",
+    "webp_sha256": "68e509edee476486959ccaff1311ae0d3024648d854d1bbc5a5d2ef4523be828"
+  },
+  "submitted_sha256": "04211bd689f7ea4330bdd7dfb0030d28477db7c803a7b624719fb2964a26433e",
+  "submitted_same": true
+}
