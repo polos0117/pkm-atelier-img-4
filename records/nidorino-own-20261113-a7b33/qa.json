@@ -1,0 +1,75 @@
+{
+  "card": "니드리노",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "니드리노_light_anime_25d_gloss_f.webp",
+    "sha256": "d8c021128996d55fb243817f7fb93c83c57cc0d84a7e5a9c997e064ea6354d02"
+  },
+  "original_sha256": "0d41557422325ca8a91739ed3114afe2ae91e5d1e691031eb326d4e77baf5f01",
+  "file": "니드리노_anime_25d_gloss_f_casual90.webp",
+  "sha256": "a97503a5f4dbe43c56f5e720590af1e724b0863402ba883ddfd78848288a4fc9",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "ad1a4091715c9d700176663a415db0f6966045a426e1720738a39c3e45c55c24",
+  "visual_review": "Seated in profile inspecting a gemstone between two hands; fingers occluded by grip, both forearms connected; sleeveless blouse, short skirt and bare arms and thighs.",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Soft blended shading on nose, lips and cheek; luminous hair strands and fabric folds."
+  },
+  "exposure": {
+    "verdict": "match",
+    "evidence": "Seated in profile inspecting a gemstone between two hands; fingers occluded by grip, both forearms connected; sleeveless blouse, short skirt and bare arms and thighs."
+  },
+  "anatomy": {
+    "exit_code": 3,
+    "output": "검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "manual_review": "Seated in profile inspecting a gemstone between two hands; fingers occluded by grip, both forearms connected; sleeveless blouse, short skirt and bare arms and thighs."
+  },
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/a7b33af26ae6/pkm-atelier-img-4/img/니드리노_anime_25d_gloss_f_casual90.webp",
+        "near": [
+          [
+            "캥카_glossy_promo_f_casual3.webp",
+            297
+          ],
+          [
+            "파치리스_glossy_promo_f_casual2.webp",
+            307
+          ],
+          [
+            "니드킹_glossy_promo_f_casual1.webp",
+            316
+          ],
+          [
+            "시라소몬_anime_25d_gloss_f_casual10.webp",
+            319
+          ],
+          [
+            "프테라_glossy_promo_f_casual2.webp",
+            322
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "regenerated": false
+}
