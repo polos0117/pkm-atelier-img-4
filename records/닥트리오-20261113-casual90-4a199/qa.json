@@ -1,0 +1,55 @@
+{
+  "card": "닥트리오",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "양손 깍지: 양손의 엄지와 연결 정상, 겹친 손가락 일부 가려짐; 추가 손 없음",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "닥트리오_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "1ee04cf9f5d76d9de8614b326ff2c1f943cd43bc0440014e2f5308e9f8193e1a"
+  },
+  "output": {
+    "file": "닥트리오_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "26c5f458738b2346005b3935d07a4d3cc060e18cf1aaacdff7f5d7d9b7109566"
+  },
+  "original_sha256": "ec30ee42b2f3cd9de0ef315cb7ff5d8138e5b552796821bccc8a0aa4a1db80da",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T09:57:44.697Z",
+        "prompt_sha256": "d46416806ab473304186c13da33a4022eba7202d2dad30fad6956dbadbf1f467",
+        "submitted_sha256": "d46416806ab473304186c13da33a4022eba7202d2dad30fad6956dbadbf1f467",
+        "same": true,
+        "prompt_words": 1079,
+        "submitted_words": 1079,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
