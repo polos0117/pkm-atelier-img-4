@@ -1,0 +1,161 @@
+{
+  "card": "갸라도스",
+  "style": "anime_25d_gloss",
+  "selected_variant": 1,
+  "reference_original_sha256": "0c53da7996274d0b20a732196e78f79e272eb751a9766f3fcc64e744b9909dd1",
+  "slots": {
+    "casual1": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "운동장 얼굴 클로즈업. 입술에 댄 손이 팔꿈치와 어깨에 이어짐. 반대 팔은 프레임 아래로 이어져 나감."
+      },
+      "design": "atelier",
+      "note": "운동장 얼굴 클로즈업. 입술에 댄 손이 팔꿈치와 어깨에 이어짐. 반대 팔은 프레임 아래로 이어져 나감."
+    },
+    "casual2": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "빙수 그릇과 숟가락을 각각 한 손으로 듦. 양팔이 각각 어깨에 이어짐. 무릎 위 크롭."
+      },
+      "design": "gpt_free",
+      "note": "빙수 그릇과 숟가락을 각각 한 손으로 듦. 양팔이 각각 어깨에 이어짐. 무릎 위 크롭.",
+      "generation": {
+        "design": "gpt_free",
+        "free_prompt": "CHARACTER: the same woman as the attached image — Gyarados (갸라도스) personified, water / flying type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: the wooden deck of a quiet tidal swimming pavilion on a bright summer afternoon, empty changing cubicles behind her and the sea beyond.\nActivity: after swimming she has tasted an unexpectedly icy spoonful of lemon shaved ice and breaks into laughter.\nOutfit: an original coral-red swim ensemble, a fitted supportive top built from three broad overlapping origami-fold panels and a solid underband, with high-waisted fitted swim shorts beneath a short curved split-front overskirt; opaque lined fabric, chest and pelvis securely covered. This construction is absent from our outfit catalog.\nSituation: caught mid-laugh, she draws her elbows outward to keep the cold dessert away from her body, opening the view of the bare side waist between the angled top and high waistband; all garment edges remain securely in place, no wardrobe failure, no transparent fabric.\nPose and arms: seated sideways on a broad pavilion bench, torso turned three-quarters toward the viewer and head level. Her left upper arm runs forward from its shoulder, left forearm supports the small dessert bowl above her lap. Her right upper arm runs forward from its shoulder, right elbow loosely bent, right hand holds one spoon clear of her lips. Each hand has only that task.\nComposition: knee-up portrait from eye level, face clearly visible, both hands and their connecting arms in frame, beach architecture framing the distant sea.\nEXPRESSION: eyes squeezed nearly shut, mouth open wide with teeth showing, cheeks raised high. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "정원 의자에 앉고 잉어킹 한 마리가 연못에 분리되어 있음. 오른손은 볼을 들고 왼손은 무릎 위. 양발 연결 정상."
+      },
+      "design": "atelier",
+      "note": "정원 의자에 앉고 잉어킹 한 마리가 연못에 분리되어 있음. 오른손은 볼을 들고 왼손은 무릎 위. 양발 연결 정상."
+    },
+    "casual4": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "노래방 측면 앉은 자세. 가까운 손은 컵, 먼 손은 무릎에 닿음. 다리는 자연스럽게 교차."
+      },
+      "design": "atelier",
+      "note": "노래방 측면 앉은 자세. 가까운 손은 컵, 먼 손은 무릎에 닿음. 다리는 자연스럽게 교차."
+    },
+    "casual5": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "하늘 정원에 누워 한 팔은 머리 뒤로 이어져 손 일부 가림. 다른 손은 꽃다발을 듦. 떠 있는 별도 손 없음."
+      },
+      "design": "atelier",
+      "note": "하늘 정원에 누워 한 팔은 머리 뒤로 이어져 손 일부 가림. 다른 손은 꽃다발을 듦. 떠 있는 별도 손 없음."
+    },
+    "casual6": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "현관 발판에 한 발을 올린 전신. 두 팔이 연결되고 두 다리와 두 발의 방향 정상."
+      },
+      "design": "atelier",
+      "note": "현관 발판에 한 발을 올린 전신. 두 팔이 연결되고 두 다리와 두 발의 방향 정상."
+    },
+    "casual7": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "캠핑장 랜턴을 든 손이 어깨와 팔꿈치에 이어짐. 반대 팔은 크롭 아래로 이어짐. 젖은 천은 불투명."
+      },
+      "design": "atelier",
+      "note": "캠핑장 랜턴을 든 손이 어깨와 팔꿈치에 이어짐. 반대 팔은 크롭 아래로 이어짐. 젖은 천은 불투명."
+    },
+    "casual9": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "계단 옆얼굴. 귀 옆 손의 손목과 아래팔이 연결됨. 반대 팔과 하체는 프레임 아래."
+      },
+      "design": "atelier",
+      "note": "계단 옆얼굴. 귀 옆 손의 손목과 아래팔이 연결됨. 반대 팔과 하체는 프레임 아래."
+    },
+    "casual10": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "페리 식당. 오른손은 젓가락, 왼손은 그릇. 두 팔 연결이 각각 보이고 겹친 손 없음."
+      },
+      "design": "gpt_free",
+      "note": "페리 식당. 오른손은 젓가락, 왼손은 그릇. 두 팔 연결이 각각 보이고 겹친 손 없음.",
+      "generation": {
+        "design": "gpt_free",
+        "free_prompt": "CHARACTER: the same woman as the attached image — Gyarados (갸라도스) personified, water / flying type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a quiet coastal ferry cafeteria during a clear evening crossing, amber lamps, broad windows and distant harbor lights.\nActivity: she pauses over a very small bowl of noodles after a long day, enjoying its aroma before the first bite, an unexpectedly gentle everyday moment for her fierce character.\nOutfit: an original plum-colored fitted scarf-knit top with a deep draped square neckline, broad self-crossing shoulder bands and a shaped open side waist, paired with a cream wrap-front culotte skirt with a curved diagonal hem; chest and pelvis securely covered with opaque fabric. This precise cut is absent from our outfit catalog.\nPose and arms: seated at a window booth, torso gently three-quarters toward the camera, head slightly turned toward the warm bowl. Her own left upper arm descends naturally from her shoulder to the table, left forearm horizontal with left hand lightly steadying the bowl. Her own right upper arm runs down beside her torso, right elbow rests lightly on the table, right forearm rises gently and her right hand holds one pair of chopsticks above the bowl. Each hand has one job and each forearm connects visibly to its shoulder.\nComposition: waist-up from eye level across the table, no foreground obstruction of her arms, her face and both hands readable; the window on her far side shows a dark calm sea, a tiny serpent-shaped pin only on her handbag beside her.\nEXPRESSION: softly lowered brows, warm relaxed eyes, faint closed-lip smile, no tension anywhere. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+      }
+    },
+    "casual90": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "워터파크 관리자. 양팔이 몸통에서 이어져 가슴 앞에서 손을 깍지낌. 겹쳐 가려진 손가락은 개별 개수를 단정하지 않음."
+      },
+      "design": "atelier",
+      "note": "워터파크 관리자. 양팔이 몸통에서 이어져 가슴 앞에서 손을 깍지낌. 겹쳐 가려진 손가락은 개별 개수를 단정하지 않음."
+    },
+    "light": {
+      "accepted": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "overlay_checked": false,
+        "hands": "보이는 손과 엄지 방향을 눈으로 확인; 쥔 손·겹친 손·프레임 밖은 가려짐으로 기록",
+        "note": "선택 시트 1번. 양팔과 양다리 연결 정상. 한 손은 물 효과를 향해 열려 있고 반대 손은 느슨한 주먹으로 손가락 일부 가려짐."
+      },
+      "design": "atelier",
+      "note": "선택 시트 1번. 양팔과 양다리 연결 정상. 한 손은 물 효과를 향해 열려 있고 반대 손은 느슨한 주먹으로 손가락 일부 가려짐."
+    }
+  },
+  "skipped": [
+    {
+      "slot": "casual8",
+      "reason": "Image tool returned output safety blocks; no image was returned. Existing generated images were preserved.",
+      "request_ids": [
+        "57cfda24-b1b1-4a89-a4d5-fbd5ae8900e4",
+        "85be1522-57f2-41e6-a7eb-0ffd256d84d2",
+        "e1cde0b1-1f11-4eff-95d0-f6e9c1254d84",
+        "dcaaaa61-df43-4e51-a3ae-ce4d7e7422ae",
+        "f5091774-da58-4ab7-a3aa-b8cd574eb114"
+      ]
+    }
+  ]
+}
