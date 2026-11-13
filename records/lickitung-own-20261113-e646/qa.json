@@ -1,0 +1,43 @@
+{
+  "card": "내루미",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/내루미_light_anime_25d_gloss_f.webp",
+    "sha256": "7dfbffc9875241248e4cfcb65b1b018e57c3c2072e608c1123840aef70922d34"
+  },
+  "original": {
+    "sha256": "04bc9d5683afcd03f76beae55310d29d87ecef174065a068fe6fac5d4e19fa01"
+  },
+  "output": {
+    "path": "img/내루미_anime_25d_gloss_f_casual90.webp",
+    "sha256": "dc8887f4346d3b2e1ee09527e740825daa6d988487a89adc555bcb2f858ce4a8",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Both shoulders and upper arms connect to torso; right elbow and forearm join cone-holding hand, four fingers visible around cone and thumb concealed behind it; left forearm continues beyond lower frame. Legs outside crop, no floating hand.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Both shoulders and upper arms connect to torso; right elbow and forearm join cone-holding hand, four fingers visible around cone and thumb concealed behind it; left forearm continues beyond lower frame. Legs outside crop, no floating hand.",
+  "preserve_generated_result": true
+}
