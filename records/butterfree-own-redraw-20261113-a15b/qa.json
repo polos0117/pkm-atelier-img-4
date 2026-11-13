@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "wrap_close",
+  "scene": "she is a master weaver holding a folded length of her shimmering patterned cloth against her chest",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "버터플_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "f56829e1b30b501962580db2f61b7fb6d93ebbe5b78c201113a548635fe778c8",
+    "original_sha256": "fe48d59c513fa384b8d2707c1fac497b7707b7d0ab01af667a7a19dc7f55137f",
+    "webp_sha256": "886735d1d38a04c98c002dad26ac0ccff75dd98e987c8b7e410d9122a2fa276d"
+  },
+  "submitted_sha256": "a2554dbd3842b806807ba99562741d0f62068c9d691f4b8fc0866b0c59731859",
+  "submitted_same": true
+}
