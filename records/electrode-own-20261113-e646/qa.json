@@ -1,0 +1,43 @@
+{
+  "card": "붐볼",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/붐볼_light_anime_25d_gloss_f.webp",
+    "sha256": "5f7232c1d938b2eb9d2e62d995345adb9f1d37b241e637c39a32b430339aa626"
+  },
+  "original": {
+    "sha256": "471bf3e4b22a1e9ae9fb26c88286a6c58f2addd299ca2b8983b449a1028aa916"
+  },
+  "output": {
+    "path": "img/붐볼_anime_25d_gloss_f_casual90.webp",
+    "sha256": "ef9754b2f45567eaf72a435e550ebed0016cbc6585e3d3c9bc0d1ba45722bab3",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Both arms connect to shoulders and wrists; near hand five digits arranged around cloth, far hand gripping bowling ball with partly concealed fingertips; two legs and shoes visible, no detached limbs.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Both arms connect to shoulders and wrists; near hand five digits arranged around cloth, far hand gripping bowling ball with partly concealed fingertips; two legs and shoes visible, no detached limbs.",
+  "preserve_generated_result": true
+}
