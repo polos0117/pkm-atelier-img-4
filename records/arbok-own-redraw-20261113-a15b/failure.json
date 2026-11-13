@@ -1,0 +1,25 @@
+{
+  "card": "아보크",
+  "slot": "casual90",
+  "status": "not_replaced",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 2,
+      "blocked": []
+    }
+  },
+  "reason": "Conflicting unchanged prompt: PROP requires a screwdriver/mechanism, but the table activity requires untangling threads/finishing a macrame knot. Both attempts follow mechanism repair; QA rejected.",
+  "existing_file": "아보크_anime_25d_gloss_f_casual90.webp",
+  "existing_sha256": "66d40e540b410e04e5018d2a7eecf650540b3e12a451d5d85e61cf0e7a99ad34",
+  "attempts": [
+    {
+      "original_sha256": "8e13b46329e5fdbff37ba5f2141aa98b5ff38d48d97d7f358bb46408b04c3099",
+      "qa": "activity mismatch"
+    },
+    {
+      "original_sha256": "fa8c567f8cb6aab31976c7755a555b1e8c242a29aa861ac9fbe6118f53d9f37e",
+      "qa": "activity mismatch"
+    }
+  ]
+}
