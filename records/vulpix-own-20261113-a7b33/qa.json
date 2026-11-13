@@ -1,0 +1,75 @@
+{
+  "card": "식스테일",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "식스테일_light_anime_25d_gloss_f.webp",
+    "sha256": "b0324ee6a986a900ce7bfee59979707b87583f15212925bc2fa7c205064b1db3"
+  },
+  "original_sha256": "eaa8eb551bd71e43b6b6dfdbea23647c71665feee6aab94dccbab8cbc66ff5f4",
+  "file": "식스테일_anime_25d_gloss_f_casual90.webp",
+  "sha256": "3e6bc785c8a54ea6da3836756c726a2ddbea0ebfce4bd67324f8ef54a747c3e5",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "1b7452548fb0ba9b80fa67bc8f67727f70bfba18dcba487344c592121bbab627",
+  "visual_review": "Shrine apprentice walking with ritual wand in right hand, left hand relaxed, both arms connected, bare arms and legs, sleeveless shrine blouse and short red hakama skirt. Source ear and tail ornaments remain; recorded without regeneration.",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Soft blended shading on nose, lips and cheek; luminous hair strands and fabric folds."
+  },
+  "exposure": {
+    "verdict": "match",
+    "evidence": "Shrine apprentice walking with ritual wand in right hand, left hand relaxed, both arms connected, bare arms and legs, sleeveless shrine blouse and short red hakama skirt. Source ear and tail ornaments remain; recorded without regeneration."
+  },
+  "anatomy": {
+    "exit_code": 3,
+    "output": "검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "manual_review": "Shrine apprentice walking with ritual wand in right hand, left hand relaxed, both arms connected, bare arms and legs, sleeveless shrine blouse and short red hakama skirt. Source ear and tail ornaments remain; recorded without regeneration."
+  },
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/a7b33af26ae6/pkm-atelier-img-4/img/식스테일_anime_25d_gloss_f_casual90.webp",
+        "near": [
+          [
+            "레트라_anime_25d_gloss_f_casual2.webp",
+            296
+          ],
+          [
+            "고지_glossy_promo_f_casual1.webp",
+            297
+          ],
+          [
+            "구구_anime_25d_gloss_f_casual90.webp",
+            300
+          ],
+          [
+            "윤겔라_anime_25d_gloss_f_casual5.webp",
+            303
+          ],
+          [
+            "동챙이_glossy_promo_f_casual1.webp",
+            305
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "regenerated": false
+}
