@@ -1,0 +1,43 @@
+{
+  "card": "시라소몬",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/시라소몬_light_anime_25d_gloss_f.webp",
+    "sha256": "dead5d94f86687a2d2d53121b22da3732cd3b91f5d818940ea00b08a236c7c8b"
+  },
+  "original": {
+    "sha256": "6281c1776e38dd3fb3969ac2bf453ba15508de5c713982c6ca6c979a21b43b12"
+  },
+  "output": {
+    "path": "img/시라소몬_anime_25d_gloss_f_casual90.webp",
+    "sha256": "e5e3a17eee5af4e6dde1ec2eec49b3e7e088b9cb270bbf099e083a463915e601",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two arms connect to mitt-holding hands; fingers partly concealed by grip and strap. Two bent legs and bare feet visible; five toes on near foot, far toes partly overlap in perspective. No detached limbs.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Two arms connect to mitt-holding hands; fingers partly concealed by grip and strap. Two bent legs and bare feet visible; five toes on near foot, far toes partly overlap in perspective. No detached limbs.",
+  "preserve_generated_result": true
+}
