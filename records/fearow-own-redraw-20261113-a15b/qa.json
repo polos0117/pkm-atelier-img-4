@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "clasp_low",
+  "scene": "she is an auctioneer standing at the podium with her hands folded, waiting for the next bid",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "깨비드릴조_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "34f76c11888cc845c169879b57ab57caff4182267fff0a0c17d0611504f8f111",
+    "original_sha256": "11b7ddf2652aa33a401d146b2b29dfdc429ed34fb257504310f81a02773b32f7",
+    "webp_sha256": "42a4f4196c145a130b63bf18e9f445dc8e75bfc9e959df0f95a59dbe0dd618fe"
+  },
+  "submitted_sha256": "5e62f5e67b4978c37dcc4c0ff727813cbb96a7fc703d0a0b5b0703f7e74eeb93",
+  "submitted_same": true
+}
