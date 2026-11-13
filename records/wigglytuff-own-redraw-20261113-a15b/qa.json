@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "table_lean_use",
+  "scene": "she is the star host leaning over the mixing console, holding her round headphones in both hands",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "푸크린_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "f52a63fa39bb009253e94a818880c2138b2fa0e170c6284c85d97af313ca96f8",
+    "original_sha256": "8ed1f9e1d69c45d7edf8ff8af35ee1681061de4965188fbcbd876c392ea1b659",
+    "webp_sha256": "bdba0370dbe5ae82063465c4edda2f8831688e03a51cf5d8524d96c9b46f22b4"
+  },
+  "submitted_sha256": "1defbd44442557865f86abdf87533ead040a8b1b57e642e1d0ea068bfc48287e",
+  "submitted_same": true
+}
