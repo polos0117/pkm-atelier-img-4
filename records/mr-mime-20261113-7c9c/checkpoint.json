@@ -2,7 +2,7 @@
   "card": "마임맨",
   "style": "anime_25d_gloss",
   "selected_candidate": 1,
-  "status": "ready_to_publish",
+  "status": "registered",
   "reference": {
     "slot": "light",
     "file": "마임맨_light_anime_25d_gloss_f.webp",
@@ -276,5 +276,19 @@
     }
   ],
   "count": 12,
-  "png_uploaded": false
+  "png_uploaded": false,
+  "commits": {
+    "images": "0e70a11e7bcfd8745ea40edd71b0c047f22869f8",
+    "thumbnails": "0f972df9e3482e6c39342a9e267cb19e16546b34",
+    "registry": "13e7a1751204c903ac3501a348237e9ef01c1619",
+    "documentation": "21ca9e8c9eb6ca92bc1c459f2048980327c1ef67"
+  },
+  "delivery": {
+    "count": 12,
+    "mecha": 1,
+    "casual": 11,
+    "selected": 1,
+    "forced_update": false,
+    "transport": "GitHub connected app; CLI push authentication unavailable"
+  }
 }
