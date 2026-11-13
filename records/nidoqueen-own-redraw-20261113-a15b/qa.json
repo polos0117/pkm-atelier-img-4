@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "hip_contra",
+  "scene": "she is the head of the kindergarten standing in the tidy classroom after closing time",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "니드퀸_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "ef4a2c417ca29a52b6e79810ad04af9d5a31ee2b5685e662730aeb997231975b",
+    "original_sha256": "49935dfc69b17e7cc8856d941dfcdcbe5f48a84b99efee271542439bd5478ba1",
+    "webp_sha256": "ff9c78dd562bc3f939668c02c9c90433267808d2e265bf7bdd6c6098ac320c41"
+  },
+  "submitted_sha256": "dd8d11f7b171ab573b1f8925e224b98e3998c73dd7d81bea8a0f82293d31e334",
+  "submitted_same": true
+}
