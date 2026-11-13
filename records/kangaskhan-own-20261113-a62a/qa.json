@@ -1,0 +1,52 @@
+{
+  "card": "캥카",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "path": "img/캥카_light_anime_25d_gloss_f.webp",
+    "sha256": "a179215caa44beb9089a9d1dc5b92287be20e616d7e32fed375bc5ac846b55f0"
+  },
+  "original_sha256": "9034a68b26ab74a4a05b5738a3f5633483fc9cc43d6bf008414be09f0d22dd3c",
+  "output": {
+    "file": "캥카_anime_25d_gloss_f_casual90.webp",
+    "sha256": "1332291319674ef91b446fafee831efa40234375ab5376ed09160dbd3e040b44",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T14:22:50.506Z",
+        "prompt_sha256": "26a0f2f7b0d0326e295b523672bc36936b2a11b28760aea3d2c3be759532fea6",
+        "submitted_sha256": "26a0f2f7b0d0326e295b523672bc36936b2a11b28760aea3d2c3be759532fea6",
+        "same": true,
+        "prompt_words": 1092,
+        "submitted_words": 1092,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "two where shown; remaining portions outside crop or occluded",
+    "hands": "Both wrists join forearms; visible fingers and thumbs checked; grip occlusion retained.",
+    "overlay_checked": false,
+    "note": "Visual inspection of generated image; no disconnected or duplicate limb observed."
+  },
+  "note": "Initial generated result preserved without exposure-based regeneration."
+}
