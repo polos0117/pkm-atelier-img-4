@@ -1,0 +1,55 @@
+{
+  "card": "우츠동",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "오른손 다섯 손가락, 왼손은 의자 가장자리와 겹쳐 일부 손가락 가려짐. 두 팔과 두 다리 연결 정상.",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "우츠동_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "0aed51ed2f6f697c135a8ec6b412c1edac339ef59e581bc74ef42a3acb881fdf"
+  },
+  "output": {
+    "file": "우츠동_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "ef9c3d2d0ec934fe47e045ddd2d67a0dd6a2cead9b1e3a04b4f4fe075af9fd23"
+  },
+  "original_sha256": "152d63dd8992128775754bdd2c1df30be191800d039c026897b89ba89f6161de",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T12:26:03.619Z",
+        "prompt_sha256": "d9e70c8d809bcf13a69933b1bed895ca0c7d90b32492ba89763ab68bf2ed1aa1",
+        "submitted_sha256": "d9e70c8d809bcf13a69933b1bed895ca0c7d90b32492ba89763ab68bf2ed1aa1",
+        "same": true,
+        "prompt_words": 999,
+        "submitted_words": 999,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
