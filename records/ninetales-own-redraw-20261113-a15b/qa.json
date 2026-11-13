@@ -1,0 +1,29 @@
+{
+  "slot": "casual90",
+  "accepted": true,
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "visible or outside crop as planned",
+    "hands": "Both wrists and forearms connect to shoulders; visible fingers checked, gripping/occluded fingers partly hidden",
+    "overlay_checked": false,
+    "note": "Visual inspection: one adult woman, connected arms and hands, intimate areas covered; table pose and activity match."
+  },
+  "pose": "clasp_low",
+  "scene": "she is the chief shrine maiden standing before the red gate with her hands folded, calm and composed",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "tool": "image_gen",
+    "reference": "나인테일_light_anime_25d_gloss_f.webp",
+    "reference_sha256": "4b620aaa9af660b269df9c9891d9824e60762382b232604ce5ad27446ada0d8a",
+    "original_sha256": "41a293b281ad6e2eade2d976aa3f6094a76d685979f37f91843b3a9a3611da77",
+    "webp_sha256": "76f5cbfaf259127d304a96684ec1ce17f2db8516d36309af86376cb9294f165b"
+  },
+  "submitted_sha256": "d05f55caa838616f7007b4f3ccc6b978729568b31a8e56d441607dfc0ffe5702",
+  "submitted_same": true
+}
