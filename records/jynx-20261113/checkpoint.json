@@ -1,0 +1,17 @@
+{
+ "status": "generated and visually checked, publication ready",
+ "selected": 1,
+ "face_reason": "두드러진 입술과 풍성한 머리를 도톰한 입술과 완만한 타원 얼굴로 해석",
+ "face_sources": [
+  "data/face-design.json:124",
+  "data/source-appearance.json:124"
+ ],
+ "canonical": "루주라_light_anime_25d_gloss_f.webp",
+ "manifest": "manifest.json",
+ "source_png_committed": false,
+ "free_exceptions": {
+  "casual2": "light-free scene rule; full submitted prompt in casual2-free-submitted.txt",
+  "casual4": "free scene rule; full submitted prompt in casual4-free-submitted.txt"
+ },
+ "local_planner_workaround": "preloaded casual-tree-v2; local None-safe source sorting for legacy records only, not publishing tool change"
+}
