@@ -1,0 +1,55 @@
+{
+  "card": "페르시온",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "양손 5지, 한 손은 무릎 위·다른 손은 팔걸이 위, 엄지와 손목 연결 정상",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "페르시온_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "145da3a33fb30c58ba69ba427b5f2516c2222be94547d92a3e2fe401ce5f1caa"
+  },
+  "output": {
+    "file": "페르시온_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "a2ab5c3bcc8cf015f084862d4aaa199c569dc8e03eb542128325348d9984b1da"
+  },
+  "original_sha256": "3f806d9e5292e06eec01192c5208f6f5f36a595205e24322c59ad570b0095b51",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T09:57:46.869Z",
+        "prompt_sha256": "1502b19a3a3b9d8d24ae3516fcae1f35901c213289fe245d78f9c5244535767c",
+        "submitted_sha256": "1502b19a3a3b9d8d24ae3516fcae1f35901c213289fe245d78f9c5244535767c",
+        "same": true,
+        "prompt_words": 1051,
+        "submitted_words": 1051,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
