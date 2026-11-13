@@ -1,0 +1,55 @@
+{
+  "card": "가디",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "오른손 손전등 그립 일부 가려짐, 왼손 5지. 양팔·두 다리·발목과 부츠 연결 정상",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "가디_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "ae589c1befc197a7b142eb77dc2693265fd8954ca9b377cf618389b54832611b"
+  },
+  "output": {
+    "file": "가디_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "8d3ad4eed775040c0502ca3f6923029f94918fbe682274aa728a4ba4cc4f8d61"
+  },
+  "original_sha256": "c51ba0fbe07e806d23313654adf9dac2901fc3aa5e057f2122ee3a89a9a3d53b",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T09:57:51.767Z",
+        "prompt_sha256": "665cd939bfaae51b85d32c3b6c090c970e36d418691986f904b2557ed54b0636",
+        "submitted_sha256": "665cd939bfaae51b85d32c3b6c090c970e36d418691986f904b2557ed54b0636",
+        "same": true,
+        "prompt_words": 1038,
+        "submitted_words": 1038,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
