@@ -1,0 +1,43 @@
+{
+  "card": "또도가스",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/또도가스_light_anime_25d_gloss_f.webp",
+    "sha256": "e5f5110a7a0c3c46840cde8ce4764109ec151f22cbad11c4dfa15fe4e05c2a1f"
+  },
+  "original": {
+    "sha256": "df73ba6d4809bf721833cac199842402cfc4418925d1710e0891c0cf0a189090"
+  },
+  "output": {
+    "path": "img/또도가스_anime_25d_gloss_f_casual90.webp",
+    "sha256": "296ae7c9264d9653cd9f51f57704d176317e5b9ed1395181cf9c3685582780f6",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two arms clearly connect through elbows and wrists to clasped hands; overlapping fingers partly concealed. Legs outside crop. No detached hands or extra limbs; clasp appears at chest rather than planned low position and is preserved.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Two arms clearly connect through elbows and wrists to clasped hands; overlapping fingers partly concealed. Legs outside crop. No detached hands or extra limbs; clasp appears at chest rather than planned low position and is preserved.",
+  "preserve_generated_result": true
+}
