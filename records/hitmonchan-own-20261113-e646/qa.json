@@ -1,0 +1,43 @@
+{
+  "card": "홍수몬",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/홍수몬_light_anime_25d_gloss_f.webp",
+    "sha256": "6452827c676e7b850b039c939ab00ba37ab6569187f5766efc6046de35c0230e"
+  },
+  "original": {
+    "sha256": "5d990b34398dab314062f851d8d1afce3bd8f1063980b598bacc1ad476e497b4"
+  },
+  "output": {
+    "path": "img/홍수몬_anime_25d_gloss_f_casual90.webp",
+    "sha256": "d850fada898e5dcc472dea230bc24cbebe3bdd27e5724cf9b73cbdad888d4cf3",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two arms connect naturally to wrapped hands; right hand rests on thigh with five digits; left hand on seat with some fingers concealed by perspective. Two crossed legs connect to training shoes, no extra limbs.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Two arms connect naturally to wrapped hands; right hand rests on thigh with five digits; left hand on seat with some fingers concealed by perspective. Two crossed legs connect to training shoes, no extra limbs.",
+  "preserve_generated_result": true
+}
