@@ -1,0 +1,41 @@
+{
+  "card": "고우스트",
+  "no": 93,
+  "slot": "casual90",
+  "status": "published",
+  "reference": {
+    "file": "고우스트_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "e7b49aac162892abc3dc57675ead62937688889fe7d1405fc7a7189161cd7a70"
+  },
+  "output": {
+    "file": "고우스트_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "52961c1eae8894a093f07bdea7a5e328ae25563404057d500f77330b23342db7"
+  },
+  "original_sha256": "14e5b9cea8d9f6ec47ac4be5a004a3754d93334811ccce0e32f21a995d5ae03b",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:01.233Z",
+        "prompt_sha256": "78fbe6505f1d543a690e821cd81eda3dd445659672ea49e297ca0c6f61661eca",
+        "submitted_sha256": "78fbe6505f1d543a690e821cd81eda3dd445659672ea49e297ca0c6f61661eca",
+        "same": true,
+        "prompt_words": 1096,
+        "submitted_words": 1096,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "qa": "qa.json",
+  "generation_note": "Generated once with the submitted prompt; no exposure-based regeneration.",
+  "validation_note": "",
+  "image_commit": "9ed2cfe31b52b8c82d7863b7a6626cddb6940e52",
+  "code_commit": "df047e53544c084b2a80161208f3a16d81de5524"
+}

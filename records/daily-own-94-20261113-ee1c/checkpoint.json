@@ -1,0 +1,41 @@
+{
+  "card": "팬텀",
+  "no": 94,
+  "slot": "casual90",
+  "status": "published",
+  "reference": {
+    "file": "팬텀_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "bb5dfa6ad6721974fc19cbb452c9e7b018e1cd3b306a9dc4ca23bd23ea92a509"
+  },
+  "output": {
+    "file": "팬텀_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "31b17395602574e66f8a43c5c5e87c88008d2ab02b2052fba4f652adca7fb511"
+  },
+  "original_sha256": "d4f68d4780d6dd23499466beb568c37fde5bee018cd9cc3f3b9eb919000cc750",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:02.028Z",
+        "prompt_sha256": "c50a433246f5884fee6316d323cef056b2220d55046aaf2da86b63ed284a0937",
+        "submitted_sha256": "c50a433246f5884fee6316d323cef056b2220d55046aaf2da86b63ed284a0937",
+        "same": true,
+        "prompt_words": 1026,
+        "submitted_words": 1026,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "qa": "qa.json",
+  "generation_note": "Generated once with the submitted prompt; no exposure-based regeneration.",
+  "validation_note": "",
+  "image_commit": "fc1a13f2d7791514fb05f7d05e99b50282d54f4b",
+  "code_commit": "df047e53544c084b2a80161208f3a16d81de5524"
+}

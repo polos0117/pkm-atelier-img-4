@@ -1,0 +1,41 @@
+{
+  "card": "파르셀",
+  "no": 91,
+  "slot": "casual90",
+  "status": "published",
+  "reference": {
+    "file": "파르셀_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "2efbbbecfb1e4af45fafe86fed181bb653729fdf87b894f96621549b8f94cc2e"
+  },
+  "output": {
+    "file": "파르셀_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "47bcdd4354efad38fd46e99c77a286edb22380cac4719b741d76262679a30d7b"
+  },
+  "original_sha256": "a4f7425968799c1bbb2130f97b3d8e68ef4a34e02fc62c94649d1bd90d37f75e",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:13:59.559Z",
+        "prompt_sha256": "8006dc34841958882dd90ccb5410396fe578d4cfd9d59bb3d7a5cb2362a63ab4",
+        "submitted_sha256": "8006dc34841958882dd90ccb5410396fe578d4cfd9d59bb3d7a5cb2362a63ab4",
+        "same": true,
+        "prompt_words": 1038,
+        "submitted_words": 1038,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "qa": "qa.json",
+  "generation_note": "Generated once with the submitted prompt; no exposure-based regeneration.",
+  "validation_note": "",
+  "image_commit": "32afe5a7f0fd8674c8737843da148e1b6f934d91",
+  "code_commit": "df047e53544c084b2a80161208f3a16d81de5524"
+}

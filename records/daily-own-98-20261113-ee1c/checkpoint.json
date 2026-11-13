@@ -1,0 +1,41 @@
+{
+  "card": "크랩",
+  "no": 98,
+  "slot": "casual90",
+  "status": "published",
+  "reference": {
+    "file": "크랩_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "6c33694e0a054edcc743efa6ddcffb51edce8fcc50a547219475fe5f2cb9e25c"
+  },
+  "output": {
+    "file": "크랩_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "f2a2014067163414382bffbf74102e2f30a459fe90444b183cc5180458623dbd"
+  },
+  "original_sha256": "3e8e2dbee505bbb5895bb14eca2ef282b6e9d3b95871b19ead6fd04302c091ca",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:04.670Z",
+        "prompt_sha256": "57bc38169b4f7d8543baf24774570452b52de095e6ed5d95cfb31e308fb6504e",
+        "submitted_sha256": "57bc38169b4f7d8543baf24774570452b52de095e6ed5d95cfb31e308fb6504e",
+        "same": true,
+        "prompt_words": 1061,
+        "submitted_words": 1061,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "qa": "qa.json",
+  "generation_note": "Generated once with the submitted prompt; no exposure-based regeneration.",
+  "validation_note": "",
+  "image_commit": "fcb7b67a37cd0fd3e5524efaaf06134146f951c6",
+  "code_commit": "df047e53544c084b2a80161208f3a16d81de5524"
+}

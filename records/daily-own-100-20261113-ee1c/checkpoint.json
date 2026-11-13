@@ -1,0 +1,41 @@
+{
+  "card": "찌리리공",
+  "no": 100,
+  "slot": "casual90",
+  "status": "published",
+  "reference": {
+    "file": "찌리리공_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "a0789414b26de8bb45e9c053bd50c2440c0796b1f6d02b16e8184cf8c95c6ea2"
+  },
+  "output": {
+    "file": "찌리리공_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b463f56b7353099e5b8563d471486cb75e1e3f5327b606cbc9a3fcf7221a2524"
+  },
+  "original_sha256": "66f50a24f37b37f72a7b5ba4829cd7d8d9b1ae000642277f5957da246412707a",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:05.988Z",
+        "prompt_sha256": "a9ba5e6415615b99e6a5da10bfca8c0625968aeaaf895f3f54a6147ec63e8926",
+        "submitted_sha256": "a9ba5e6415615b99e6a5da10bfca8c0625968aeaaf895f3f54a6147ec63e8926",
+        "same": true,
+        "prompt_words": 1001,
+        "submitted_words": 1001,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "qa": "qa.json",
+  "generation_note": "Generated once with the submitted prompt; no exposure-based regeneration.",
+  "validation_note": "",
+  "image_commit": "3df2f4bf26365cd034116d76de7e6fbc52314107",
+  "code_commit": "df047e53544c084b2a80161208f3a16d81de5524"
+}

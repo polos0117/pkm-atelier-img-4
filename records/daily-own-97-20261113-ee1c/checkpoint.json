@@ -1,0 +1,41 @@
+{
+  "card": "슬리퍼",
+  "no": 97,
+  "slot": "casual90",
+  "status": "published",
+  "reference": {
+    "file": "슬리퍼_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "6b1a78282f301abb4f88a3d87eb8e41e915949bc232c698a5603621e5e41d11b"
+  },
+  "output": {
+    "file": "슬리퍼_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "f0a9f14fa0f905227825ff36992d6adac8efa1456d0f96e334099c29a73c23a5"
+  },
+  "original_sha256": "4e866121cdb6de2b2e5cfa1807bcc78daaa877d69dcb108b0227d2954bcb0884",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:03.999Z",
+        "prompt_sha256": "1f19b577d6496ce3e8b12dc42aadf509f5fd322ab7aea4bd5fb74dbd44458c8f",
+        "submitted_sha256": "1f19b577d6496ce3e8b12dc42aadf509f5fd322ab7aea4bd5fb74dbd44458c8f",
+        "same": true,
+        "prompt_words": 1022,
+        "submitted_words": 1022,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "qa": "qa.json",
+  "generation_note": "Generated once with the submitted prompt; no exposure-based regeneration.",
+  "validation_note": "",
+  "image_commit": "66b065d9ffdb1a62b4fb80404a1b84a076cf84db",
+  "code_commit": "df047e53544c084b2a80161208f3a16d81de5524"
+}

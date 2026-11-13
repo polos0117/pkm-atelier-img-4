@@ -1,0 +1,41 @@
+{
+  "card": "슬리프",
+  "no": 96,
+  "slot": "casual90",
+  "status": "published",
+  "reference": {
+    "file": "슬리프_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "0cc453afba1df7ddd7b0d1062f95838295e326041c8c41b3cdf89c2250e86556"
+  },
+  "output": {
+    "file": "슬리프_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "70cd1c5f9776adaa480f3591896be41a5dda8431c99ee2298ff189f9a6d8cc9b"
+  },
+  "original_sha256": "e31da37fb6ef1e33c0fdae29c8bb853568f215c70198d55538cd380f10ddf00e",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:25:13.254Z",
+        "prompt_sha256": "3aab00d6cb6b0514f938155f28f4c0a4041d03ad62b2b0b7834624f360292e33",
+        "submitted_sha256": "3aab00d6cb6b0514f938155f28f4c0a4041d03ad62b2b0b7834624f360292e33",
+        "same": true,
+        "prompt_words": 1082,
+        "submitted_words": 1082,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "qa": "qa.json",
+  "generation_note": "Generated once with the submitted prompt; no exposure-based regeneration.",
+  "validation_note": "Drowzee preset changed from pocket_look to stand_inspect before generation because the outfit has no pockets.",
+  "image_commit": "550e56b866bc90eb64d19a4a20dc656a1adabe8e",
+  "code_commit": "df047e53544c084b2a80161208f3a16d81de5524"
+}
