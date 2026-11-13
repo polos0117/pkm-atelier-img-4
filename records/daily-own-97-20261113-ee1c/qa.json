@@ -1,0 +1,57 @@
+{
+  "card": "슬리퍼",
+  "slot": "casual90",
+  "reference": "슬리퍼_light_anime_25d_gloss_f.webp",
+  "original_sha256": "4e866121cdb6de2b2e5cfa1807bcc78daaa877d69dcb108b0227d2954bcb0884",
+  "webp_sha256": "f0a9f14fa0f905227825ff36992d6adac8efa1456d0f96e334099c29a73c23a5",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "style_25d": {
+    "판정": "match",
+    "근거": "얼굴의 코·입술·턱에 부드러운 입체 음영, 머리 가닥과 직물 주름·재질 표현이 보임"
+  },
+  "exposure": {
+    "판정": "match",
+    "근거": "침구점 테스트 침대에 앉은 숙면 컨설턴트. 무릎 위와 침대 위 양손이 팔에 연결됨. 손가락은 일부 겹침. 두 다리와 샌들이 연결됨. 파스텔 조끼·캐미솔·짧은 치마, 어깨와 다리 노출. 긴 금발과 금빛 눈 유지."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing",
+    "issue": "ok",
+    "overlay_checked": false,
+    "note": "침구점 테스트 침대에 앉은 숙면 컨설턴트. 무릎 위와 침대 위 양손이 팔에 연결됨. 손가락은 일부 겹침. 두 다리와 샌들이 연결됨. 파스텔 조끼·캐미솔·짧은 치마, 어깨와 다리 노출. 긴 금발과 금빛 눈 유지."
+  },
+  "visual_review": "침구점 테스트 침대에 앉은 숙면 컨설턴트. 무릎 위와 침대 위 양손이 팔에 연결됨. 손가락은 일부 겹침. 두 다리와 샌들이 연결됨. 파스텔 조끼·캐미솔·짧은 치마, 어깨와 다리 노출. 긴 금발과 금빛 눈 유지.",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T13:14:03.999Z",
+        "prompt_sha256": "1f19b577d6496ce3e8b12dc42aadf509f5fd322ab7aea4bd5fb74dbd44458c8f",
+        "submitted_sha256": "1f19b577d6496ce3e8b12dc42aadf509f5fd322ab7aea4bd5fb74dbd44458c8f",
+        "same": true,
+        "prompt_words": 1022,
+        "submitted_words": 1022,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "output": {
+    "file": "슬리퍼_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP"
+  },
+  "ui_own": {
+    "job_ko": "숙면 컨설턴트",
+    "level": "bold"
+  }
+}
