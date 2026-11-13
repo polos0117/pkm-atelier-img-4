@@ -1,0 +1,37 @@
+{
+  "card": "두두",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "reference": {
+    "file": "두두_light_anime_25d_gloss_f.webp",
+    "sha256": "731047015d07dfd329b679d0cbf34ee3b70090c17cc5d91b5a9935ba9a4b7c10"
+  },
+  "source_sha256": "54a82b144c20ba7107e75234f98bdb7814276c095f9d76cc7a230b226ee079e9",
+  "output": {
+    "file": "두두_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "9594b2ca7f474bd9a857ba4d59cc02846b8065b3771815a33dd2f5983f253d36"
+  },
+  "submitted_same": true,
+  "submitted_sha256": "d9ab6ae5c412201bff09a30524383f5bd5b691f39183b5de0b0df42f0e11b383",
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+    "arms": 2,
+    "legs": "two, partly cropped or occluded as composition specifies",
+    "hands": "양팔이 몸과 연결됨. 오른손은 스캐너를 쥐어 일부 손가락 가림. 왼손은 카운터 위 다섯 손가락. 하체는 프레임 밖.",
+    "overlay_checked": false,
+    "note": "양팔이 몸과 연결됨. 오른손은 스캐너를 쥐어 일부 손가락 가림. 왼손은 카운터 위 다섯 손가락. 하체는 프레임 밖."
+  },
+  "exposure_regeneration": false
+}
