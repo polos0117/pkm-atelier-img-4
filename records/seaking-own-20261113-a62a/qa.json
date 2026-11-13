@@ -1,0 +1,52 @@
+{
+  "card": "왕콘치",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "path": "img/왕콘치_light_anime_25d_gloss_f.webp",
+    "sha256": "1bd39efcbd0e60cee23260b45e5d47c489e2b6c9b8668b7357f967bd945ac741"
+  },
+  "original_sha256": "da397d4def650f42308236ef6fd4d2bb17affe36cf2e1318080723703ed3e454",
+  "output": {
+    "file": "왕콘치_anime_25d_gloss_f_casual90.webp",
+    "sha256": "7b558205f35eba73cb913b39ccd38310cf29ae76586c10c179bd6a3c23e937f3",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T14:22:52.052Z",
+        "prompt_sha256": "5e3330cee6e33e8c2da9fa5713f32dc9e6d86c198eb3129867bcd61d29296bf9",
+        "submitted_sha256": "5e3330cee6e33e8c2da9fa5713f32dc9e6d86c198eb3129867bcd61d29296bf9",
+        "same": true,
+        "prompt_words": 1090,
+        "submitted_words": 1090,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "issue": "ok",
+    "arms": 2,
+    "legs": "two where shown; remaining portions outside crop or occluded",
+    "hands": "Both wrists join forearms; visible fingers and thumbs checked; grip occlusion retained.",
+    "overlay_checked": false,
+    "note": "Visual inspection of generated image; no disconnected or duplicate limb observed."
+  },
+  "note": "Initial generated result preserved without exposure-based regeneration."
+}
