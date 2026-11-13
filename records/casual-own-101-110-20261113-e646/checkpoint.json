@@ -1,0 +1,218 @@
+{
+  "status": "registered",
+  "range": [
+    101,
+    110
+  ],
+  "style": "anime_25d_gloss",
+  "slot": "casual90",
+  "requested": 10,
+  "generated": 10,
+  "registered": 10,
+  "thumbnails": 10,
+  "generation_calls": 10,
+  "regenerations": 0,
+  "commits": {
+    "thumbnails": "1217db6fab2d072f428a1172f0d61e5d12ed06e9",
+    "registry": "d2bc2561f9cb21e50aa0d9046bb17b6151688d7e",
+    "documentation": "dcd85d5ebc84919a83f2e57702d8e2c9e39ed510"
+  },
+  "delivery": {
+    "transport": "GitHub connected app; CLI push authentication unavailable",
+    "forced_update": false,
+    "ref_update": "fast-forward only, expected previous head verified",
+    "existing_work_preserved": true
+  },
+  "qa": {
+    "submitted_same": true,
+    "image_blob_hashes_verified": true,
+    "anatomy_tool": "unavailable: mediapipe missing",
+    "visual_review": "per-image notes in qa.json",
+    "tests": [
+      "forms.cjs passed",
+      "casual-own.cjs 38 passed",
+      "patch.cjs passed"
+    ],
+    "workflow_thumbnails": {
+      "run": 43437671298,
+      "conclusion": "success"
+    },
+    "workflow_registration": {
+      "run": 43437811460,
+      "conclusion": "success"
+    }
+  },
+  "characters": [
+    {
+      "no": 101,
+      "name": "붐볼",
+      "image_commit": "839538926f02633af3fc85d50ac911520442442a",
+      "record": "records/electrode-own-20261113-e646",
+      "file": "img/붐볼_anime_25d_gloss_f_casual90.webp",
+      "sha256": "ef9754b2f45567eaf72a435e550ebed0016cbc6585e3d3c9bc0d1ba45722bab3",
+      "reference": {
+        "path": "img/붐볼_light_anime_25d_gloss_f.webp",
+        "sha256": "5f7232c1d938b2eb9d2e62d995345adb9f1d37b241e637c39a32b430339aa626"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 102,
+      "name": "아라리",
+      "image_commit": "f4e3fbee49712e9bcf8780aa4c408256de341c11",
+      "record": "records/exeggcute-own-20261113-e646",
+      "file": "img/아라리_anime_25d_gloss_f_casual90.webp",
+      "sha256": "99276a70556150d3b4a370ac334f9fe89acd8376bde9758f3655bc9790fa2557",
+      "reference": {
+        "path": "img/아라리_light_anime_25d_gloss_f.webp",
+        "sha256": "65fd4d03b9b5ef0512c6896b1b7f262e2822996e0bc0b1b79a3ac9d7dec89dff"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 103,
+      "name": "나시",
+      "image_commit": "04aa888499b45235c80ff94495741e8dafd01837",
+      "record": "records/exeggutor-own-20261113-e646",
+      "file": "img/나시_anime_25d_gloss_f_casual90.webp",
+      "sha256": "70a264f9520a2752809d104c0b9f152552b9020d62b594a262b50e124fcf52e9",
+      "reference": {
+        "path": "img/나시_light_anime_25d_gloss_f.webp",
+        "sha256": "ab0fb0e24f4933d4046e53755918da573e2d16ffeb08e2dedade1a92ea0689e1"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 104,
+      "name": "탕구리",
+      "image_commit": "18c7eee94879ed0dc525ff77df8061fda3e63b03",
+      "record": "records/cubone-own-20261113-e646",
+      "file": "img/탕구리_anime_25d_gloss_f_casual90.webp",
+      "sha256": "b6a0bb96a0f7e85cce0f4c79322501a4ebbe9afe2716ce0d7dd18848573acc0c",
+      "reference": {
+        "path": "img/탕구리_light_anime_25d_gloss_f.webp",
+        "sha256": "190bf4bc7fcbcf5ec26e09d3b688a3a3d5dbe28b306beb3deb1871965d206487"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 105,
+      "name": "텅구리",
+      "image_commit": "9fc2154d23e72046dd7ba758f269068e859fdebe",
+      "record": "records/marowak-own-20261113-e646",
+      "file": "img/텅구리_anime_25d_gloss_f_casual90.webp",
+      "sha256": "b09a118b0a47b384ed595f700f7b323d88029b755af7a7391f53b315c6a55952",
+      "reference": {
+        "path": "img/텅구리_light_anime_25d_gloss_f.webp",
+        "sha256": "9f2c0428b93fe5470cce564780cde72de9f17a00a01e81ce119399a10c3ecd64"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 106,
+      "name": "시라소몬",
+      "image_commit": "7ec4aa441104dbac515c60e731b71f59ae5af835",
+      "record": "records/hitmonlee-own-20261113-e646",
+      "file": "img/시라소몬_anime_25d_gloss_f_casual90.webp",
+      "sha256": "e5e3a17eee5af4e6dde1ec2eec49b3e7e088b9cb270bbf099e083a463915e601",
+      "reference": {
+        "path": "img/시라소몬_light_anime_25d_gloss_f.webp",
+        "sha256": "dead5d94f86687a2d2d53121b22da3732cd3b91f5d818940ea00b08a236c7c8b"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 107,
+      "name": "홍수몬",
+      "image_commit": "09fac3e2c0591dfec3153fff31f862efb57bac48",
+      "record": "records/hitmonchan-own-20261113-e646",
+      "file": "img/홍수몬_anime_25d_gloss_f_casual90.webp",
+      "sha256": "d850fada898e5dcc472dea230bc24cbebe3bdd27e5724cf9b73cbdad888d4cf3",
+      "reference": {
+        "path": "img/홍수몬_light_anime_25d_gloss_f.webp",
+        "sha256": "6452827c676e7b850b039c939ab00ba37ab6569187f5766efc6046de35c0230e"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 108,
+      "name": "내루미",
+      "image_commit": "345bc4adf4b828b7de6812f81e8b6209b10dca30",
+      "record": "records/lickitung-own-20261113-e646",
+      "file": "img/내루미_anime_25d_gloss_f_casual90.webp",
+      "sha256": "dc8887f4346d3b2e1ee09527e740825daa6d988487a89adc555bcb2f858ce4a8",
+      "reference": {
+        "path": "img/내루미_light_anime_25d_gloss_f.webp",
+        "sha256": "7dfbffc9875241248e4cfcb65b1b018e57c3c2072e608c1123840aef70922d34"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 109,
+      "name": "또가스",
+      "image_commit": "53a53d12eef5d08ecaa722ac256ff6f15b9ead94",
+      "record": "records/koffing-own-20261113-e646",
+      "file": "img/또가스_anime_25d_gloss_f_casual90.webp",
+      "sha256": "74869f987e23a816719510847fc3c89c0d2dec09ea3f1e5a95c486974eb55c5c",
+      "reference": {
+        "path": "img/또가스_light_anime_25d_gloss_f.webp",
+        "sha256": "e4f35a62c2ca7f02ac5da3d5f48616b23b26489b622322cc82fa67236e35c91f"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    {
+      "no": 110,
+      "name": "또도가스",
+      "image_commit": "c615b13011c342c590f4c1a3b58a677e67f22fe4",
+      "record": "records/weezing-own-20261113-e646",
+      "file": "img/또도가스_anime_25d_gloss_f_casual90.webp",
+      "sha256": "296ae7c9264d9653cd9f51f57704d176317e5b9ed1395181cf9c3685582780f6",
+      "reference": {
+        "path": "img/또도가스_light_anime_25d_gloss_f.webp",
+        "sha256": "e5f5110a7a0c3c46840cde8ce4764109ec151f22cbad11c4dfa15fe4e05c2a1f"
+      },
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    }
+  ]
+}
+
