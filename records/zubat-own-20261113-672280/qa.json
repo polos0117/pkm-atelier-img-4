@@ -1,0 +1,40 @@
+{
+  "card": "주뱃",
+  "slot": "casual90",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "주뱃_light_anime_25d_gloss_f.webp",
+    "sha256": "7cac842d0d52158bd3e6400426d81654fa9d9a5315ec8d2ceba1dc2e725f3823"
+  },
+  "original_sha256": "b96cb8333d231209bf00320cf7017618b3d9052f18de252049c8cfeab5faf4d7",
+  "file": "주뱃_anime_25d_gloss_f_casual90.webp",
+  "sha256": "522c1ff13d85feafcddfdbbeeae4c40e2d1689c34ab3078178c76303fdac89b4",
+  "size": [
+    1024,
+    1536
+  ],
+  "submitted_same": true,
+  "submitted_sha256": "49df1cb21ba8e2d18a6fa995b5c58a76a388322286e84fd1a4288d63ec2ded15",
+  "style_25d": {
+    "verdict": "match",
+    "evidence": "Fine coloured facial contours, soft nose and cheek shading, glossy skin midtones, rendered fabric and hair strands."
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: 검사기를 못 돌렸다 — mediapipe 가 없다(No module named 'mediapipe') — pip install mediapipe (리눅스는 apt-get install libegl1 libgles2 도. 못 깔면: pip install \"mediapipe==0.10.14\" opencv-contrib-python-headless && pip uninstall -y opencv-contrib-python opencv-python)\n멈추지 않는다: 그림마다 눈으로 센다(팔 둘·다리 둘·손가락 다섯·엄지 쪽·꺾이는 쪽 — IMAGE_RULES 3절 끝)\nqa.json 의 anatomy.tool 에 \"unavailable: <원인>\" 을 적는다. 검사기를 돌렸다고 적지 않는다\n",
+    "exit_code": 3,
+    "arms": 2,
+    "legs": 2,
+    "hands": "One near arm bends from shoulder to wine-glass hand; five fingers partly wrapped around stem, thumb opposed. Far shoulder and upper arm descend behind torso; far hand and legs outside crop. No detached limb.",
+    "overlay_checked": false,
+    "note": "One near arm bends from shoulder to wine-glass hand; five fingers partly wrapped around stem, thumb opposed. Far shoulder and upper arm descend behind torso; far hand and legs outside crop. No detached limb."
+  },
+  "regenerated": false
+}
