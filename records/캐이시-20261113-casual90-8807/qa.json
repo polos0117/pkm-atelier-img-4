@@ -1,0 +1,55 @@
+{
+  "card": "캐이시",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "style_25d": {
+    "判定": "2.5D",
+    "근거": "코·입술·볼의 부드러운 입체 음영과 피부 광택, 가는 윤곽, 직물 재질 표현"
+  },
+  "anatomy": {
+    "issue": "ok",
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": "프레임 밖인 부위는 가려짐",
+    "hands": "오른손은 카드를 쥐어 엄지 일부가 가려짐. 보이는 손가락과 손목·팔 연결 정상. 왼손은 프레임 밖.",
+    "overlay_checked": false,
+    "note": "원본에서 어깨·팔·손의 연결과 관절 방향을 확인. 프레임 밖 부위는 판정하지 않음."
+  },
+  "generation": {
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    }
+  },
+  "reference": {
+    "file": "캐이시_light_anime_25d_gloss_f.webp",
+    "shard": 3,
+    "sha256": "af6095e9831c268ff1f6ff8c4995d97fe71900b644f34f8917b679fd21bee1b0"
+  },
+  "output": {
+    "file": "캐이시_anime_25d_gloss_f_casual90.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "18321328dd812480a6d3e89ce22be48fdc3218539aef56f87e539889122a175b"
+  },
+  "original_sha256": "2717f07a8171a74254f4dd195b56c30d6de06d1eca833cd6c1dba406afab4363",
+  "submitted": {
+    "casual90": [
+      {
+        "slot": "casual90",
+        "at": "2026-11-13T12:26:00.897Z",
+        "prompt_sha256": "eefc079e4b2d05d2cb579cd0ef600cb363c588425fd84a63857d841eff67ee84",
+        "submitted_sha256": "eefc079e4b2d05d2cb579cd0ef600cb363c588425fd84a63857d841eff67ee84",
+        "same": true,
+        "prompt_words": 1121,
+        "submitted_words": 1121,
+        "style_kept": true,
+        "missing": [],
+        "added": []
+      }
+    ]
+  }
+}
