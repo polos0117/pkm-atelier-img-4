@@ -1,0 +1,43 @@
+{
+  "card": "나시",
+  "slot": "casual90",
+  "style": "anime_25d_gloss",
+  "generation": {
+    "tool": "image_gen",
+    "own": {
+      "level": "bold",
+      "tries": 1,
+      "blocked": []
+    },
+    "submitted_same": true
+  },
+  "reference": {
+    "path": "img/나시_light_anime_25d_gloss_f.webp",
+    "sha256": "ab0fb0e24f4933d4046e53755918da573e2d16ffeb08e2dedade1a92ea0689e1"
+  },
+  "original": {
+    "sha256": "e88b6c9f11d5696e56dd6e94ba09cdae0d9c0c63e9551a26fee65982ce591cf8"
+  },
+  "output": {
+    "path": "img/나시_anime_25d_gloss_f_casual90.webp",
+    "sha256": "70a264f9520a2752809d104c0b9f152552b9020d62b594a262b50e124fcf52e9",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing (No module named 'mediapipe')",
+    "issue": "ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two arms connect through elbows to clasped hands; overlapping fingers partly concealed by clasp. Legs below crop. No detached or duplicated limb.",
+    "overlay_checked": false,
+    "note": "Visual inspection of returned full-resolution image; concealed fingers recorded as concealed."
+  },
+  "qa_note": "Two arms connect through elbows to clasped hands; overlapping fingers partly concealed by clasp. Legs below crop. No detached or duplicated limb.",
+  "preserve_generated_result": true
+}
