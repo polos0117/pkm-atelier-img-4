@@ -1,0 +1,341 @@
+[
+  {
+    "slot": "casual1",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-c375c8f0-90d0-421b-87ae-ec77e6c2f0bb.png",
+    "original_sha256": "5b55fe0b268c192702ea03eefeadb07320d2670cd3f6142b9a3cdc636817cf9f",
+    "webp": "켄타로스_anime_25d_gloss_f_casual1.webp",
+    "webp_sha256": "594915e4fdba3de625e3a17c62c93c4457d4e1deaff358c27fc35306c828008a",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": "two, outside close crop",
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "8920608ca48c6d0ebdce15f313714f9e0e19719bd0e2d1086f8f8d96f1de67af",
+      "submitted_same": true
+    }
+  },
+  {
+    "slot": "casual2",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-a1a880af-77d0-4565-bee8-ef01aab59c64.png",
+    "original_sha256": "561f5546826c2d8920a8b96843cecd19cf1e51cf33406da6d6bb71c962da3142",
+    "webp": "켄타로스_anime_25d_gloss_f_casual2.webp",
+    "webp_sha256": "ab2947d72035faeb07874e39f2b8594f90d2cad6e75ac620395744b0b114f0a9",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "de9570d971dd3d72b52430904b19f09b2e318b18cf33ead784ed0d47fec60a04",
+      "submitted_same": false,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Tauros (켄타로스) personified, normal type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a small rural bowling alley with polished wooden lanes, amber overhead lamps and pale blue lockers at the distant entrance. She enjoys one forceful practice roll, a playful outlet for her restless energy.\nOutfit: a violet fitted pique playsuit with a square sweetheart panel, a single broad diagonal shoulder band, a triangular open back and petal-cut short legs joined to the bodice by slender side ties; opaque chest and pelvis panels, bare shoulders, sides of the waist and thighs. White flat bowling shoes. This specific asymmetric tied-side playsuit is an original outfit absent from our catalog.\nPOSTURE: a balanced forward lunge after gently releasing a bowling ball along the lane. Her right arm extends forward and down from the right shoulder with an open relaxed palm; her left arm extends sideways from her left shoulder for balance, all five fingers naturally separated.\nCOMPOSITION: a three-quarter-length view from a level camera, front three-quarter face visible as she follows the ball with her eyes; her face stays in the upper third, lane boards lead into depth. A small horn-shaped silver hair clip and a three-strand key ring on a bench recall her species. Natural human body and hair, no creature parts.\nEXPRESSION: relaxed brow, softly open eyes, lips closed and unstrained, no smile. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "authority": "IMAGE_RULES.md free-scene slots; only SCENE design brief expanded, fixed outer rules preserved"
+    }
+  },
+  {
+    "slot": "casual3",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-e354b1fb-aa5e-4502-9144-493d2ebfee58.png",
+    "original_sha256": "b348ec03eb0045512999cab3fd5c2d1bc08181bbf612a99741e629bd077241d6",
+    "webp": "켄타로스_anime_25d_gloss_f_casual3.webp",
+    "webp_sha256": "97e030606c946d5e98f22e2c79799f02c5c2de5ca9d129832bcd9d9f1db52989",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": "two, outside close crop",
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "f063d352fc9e29135960eee9d449eebaf0388ac78a8f9daa2f388f1e02c98443",
+      "submitted_same": true
+    }
+  },
+  {
+    "slot": "casual4",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-24ecb900-ffcb-40c0-ae90-8f8c9b34b471.png",
+    "original_sha256": "f48bce396976163e47335a9159a23b8c2d713c31a3ccbbed7142d481a909c7dd",
+    "webp": "켄타로스_anime_25d_gloss_f_casual4.webp",
+    "webp_sha256": "578cce49af613c1c219236f8ddf544b346c1eed5f047434200b8611881925cac",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": "two, outside close crop",
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "901e4bb0cda5e2e0ed80fddf02c88d71b22de5753e82a200f23a75600141c978",
+      "submitted_same": true
+    }
+  },
+  {
+    "slot": "casual5",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-09c7a68e-7278-4c56-ac5e-1b22b2a32a62.png",
+    "original_sha256": "c30db84a1e1c96ac950b4a6e03754b720f4666644737f06d7f78b9f7838f39dd",
+    "webp": "켄타로스_anime_25d_gloss_f_casual5.webp",
+    "webp_sha256": "c8b002a2a8af152265eb04c2f0b11c5763fc36b24153871560f150a7bb97c831",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "71542195b1f81fb0a26d467b707295e2b35b97bb61bd9333b214c73ef29ab560",
+      "submitted_same": false,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Tauros (켄타로스) personified, normal type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a bright rooftop bathing terrace beside a coastal inn; a folded deck mat, terracotta tiles, a sea-blue sunshade and the open horizon. She pulls the high cord to unfold a wide beach umbrella before resting.\nOutfit and category: swimwear — a fully lined coral paddle-swim two-piece with a squared balconette-style swim top under an asymmetric single shoulder yoke, and high-waisted scallop-edged swim shorts with small triangular side openings. Chest and pelvis securely opaque and covered; a fresh design absent from the catalog.\nSituation: reaching to the high umbrella cord stretches her torso upward and naturally reveals the full length of her bare waist between the swim pieces, without loosened clothing, wet fabric or slipping straps.\nPOSTURE: she stands with one knee softly bent. Her right upper arm lifts beside her face and the forearm reaches vertically to hold the cord above her head; her left arm hangs visibly from its shoulder, the left hand loosely holding a folded mat at her outer thigh. Both arms and hands remain clear and separate.\nCOMPOSITION: full-body vertical view with clear margins and a camera at upper-chest height; her body is front three-quarter, her level head angled toward the cord. One horn-shaped buckle on her sandal and a three-strand pull on the umbrella reference her species; no armor or creature anatomy.\nEXPRESSION: brows pulled down and in, hard steady eyes, jaw clenched, mouth a tight line. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "authority": "IMAGE_RULES.md free-scene slots; only SCENE design brief expanded, fixed outer rules preserved"
+    }
+  },
+  {
+    "slot": "casual8",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-c518032d-1f0a-4498-982b-87c0611e8732.png",
+    "original_sha256": "80e00decb878ab193f6b122bbc8a3b30b2ca2a8b4bd0c51624903d3f93da20a3",
+    "webp": "켄타로스_anime_25d_gloss_f_casual8.webp",
+    "webp_sha256": "505ab78de172c0caea68e7e6c2592ba3205959ae15a5675ae00725ee73ce3c57",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": "two, outside close crop",
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "730e05281ee9573189bc7774dbe3244dd0e272f7c8a2a59d980fb1344c794267",
+      "submitted_same": true
+    }
+  },
+  {
+    "slot": "casual6",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-4150ffc6-ea23-4e49-8394-c12fc4c3746a.png",
+    "original_sha256": "2cd891d40183ead7acee063741486da27ec1a24496293f7c8a407599d06e75bb",
+    "webp": "켄타로스_anime_25d_gloss_f_casual6.webp",
+    "webp_sha256": "9c35dffec5c58d5ed4c2427ab7ccb08d0c3c16cf0c5ef08ab352c871ad404026",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "64856f30faef0e9744929e64f3109f06b3c76ffcef026ce04b6a63ccf39334cd",
+      "submitted_same": true
+    }
+  },
+  {
+    "slot": "casual9",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-6f2d263b-e3da-48dd-a481-df66ed742899.png",
+    "original_sha256": "d064ea80e85cddc9b615b9f7edfbbfd0f0787645859ccce7538078e4690411b6",
+    "webp": "켄타로스_anime_25d_gloss_f_casual9.webp",
+    "webp_sha256": "333f6b4fa4715ae3dcf814f0d3362c426a4c7cb7cc381003838e5c6edf65bc64",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "854a3db11531ccfc6f60caa3ed09a9373c5889abdb02df6b80f81d0447f957d4",
+      "submitted_same": true
+    }
+  },
+  {
+    "slot": "casual7",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-f2a8251b-0d49-432d-8e51-c2be9378c1ae.png",
+    "original_sha256": "27fde710f7ba1d1ffc85f0d21a12bb39c2a6c5f7e77367f3d7844808bb8e8483",
+    "webp": "켄타로스_anime_25d_gloss_f_casual7.webp",
+    "webp_sha256": "db599aaf3ec87ea936215f69662a33fa7169c7ba4833a118616dfd5435158610",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "6e8ccc914fa701158d1df00820375b243576943020af7c4e943a0ef04f8e5539",
+      "submitted_same": true
+    }
+  },
+  {
+    "slot": "casual90",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-a4b7aef2-0f0c-4819-97ed-8fed05256b94.png",
+    "original_sha256": "f6845fba41bfadb481a5ebf8c768036f7e57f77c31dd25bc27089f04392716ec",
+    "webp": "켄타로스_anime_25d_gloss_f_casual90.webp",
+    "webp_sha256": "d8053e0d1c894e027e35ad445ed8ddcaab4a0b16a6b86356163e4ceda3481359",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "5d6f548394a5d75ec9eb3310cfe9912a1454c9596cd29ea3d9772e7e979096f3",
+      "submitted_same": true,
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    }
+  },
+  {
+    "slot": "casual10",
+    "original_path": "/workspace/scratch/3e6279d4d758/generated_images/exec-9aea7588-c6d1-4e6a-88c4-a20fee36c0f1.png",
+    "original_sha256": "63659c134ebbd3b510297cbae945fb35acadc55ab2fd7c583b50a6abe2bcf038",
+    "webp": "켄타로스_anime_25d_gloss_f_casual10.webp",
+    "webp_sha256": "af30ca143f038458592216a8bc052d7a87f0fe2e2aaf7788f9944821df82798e",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "attached through wrists and forearms; visible fingers checked, occluded fingers noted by crop or grip",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "judgment": "pass",
+      "evidence": "soft painted face shading on nose, cheeks, lips and chin; fine eyelids and dimensional hair"
+    },
+    "identity": "selected reference face, eye and hair color retained; expression changes as planned",
+    "note": "minor reference ornament carry-over retained; no exposure-based regeneration",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "83826d26bb6560f8ff05e447c9a7055c67242241680e093ae7478e1a6647e00c",
+      "submitted_same": true
+    }
+  }
+]

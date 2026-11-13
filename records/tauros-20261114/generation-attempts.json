@@ -1,0 +1,17 @@
+{
+  "casual10": {
+    "tries": 2,
+    "first_status": "blocked at output; no image returned",
+    "blocked": [
+      {
+        "request_id": "2b771654-ea09-4c3a-aca3-fafc601f0ce9",
+        "code": "moderation_blocked",
+        "category": "sexual",
+        "stage": "output"
+      }
+    ],
+    "second_status": "returned image with unchanged original prompt; bold exposure unchanged",
+    "result": "exec-9aea7588-c6d1-4e6a-88c4-a20fee36c0f1.png"
+  },
+  "preservation": "all returned images retained; no exposure-based regeneration"
+}
