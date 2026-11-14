@@ -1,0 +1,78 @@
+{
+  "card": "베이리프",
+  "no": 153,
+  "style": "anime_25d_gloss",
+  "status": "ready_to_publish",
+  "branch": "work/bayleef-20261114",
+  "worktree": "/workspace/scratch/956a5faf99d2/bayleef",
+  "candidates": [
+    {
+      "number": 1,
+      "design": "project",
+      "prompt": "/workspace/scratch/956a5faf99d2/pack/candidate1-prompt.txt",
+      "submitted_sha256": "cad46b643250437add7c32189fa6dbd34afc6cfb7ee361390df90a44d036c5d4",
+      "free_design_source": null,
+      "image": "/workspace/scratch/956a5faf99d2/generated_images/exec-02897743-211a-49d3-9f0d-00bd09c4bb73.png",
+      "sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "number": 2,
+      "design": "project",
+      "prompt": "/workspace/scratch/956a5faf99d2/pack/candidate2-prompt.txt",
+      "submitted_sha256": "cad46b643250437add7c32189fa6dbd34afc6cfb7ee361390df90a44d036c5d4",
+      "free_design_source": null,
+      "image": "/workspace/scratch/956a5faf99d2/generated_images/exec-49f1b7f3-5573-4ad4-a6d1-4189edd6de9d.png",
+      "sha256": "379b80f07f8a46ba79833f02467c528e22b4c08460c533e1e7437f73e15b0407",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "number": 3,
+      "design": "gpt_free",
+      "prompt": "/workspace/scratch/956a5faf99d2/pack/candidate3-prompt.txt",
+      "submitted_sha256": "493f28a33f237d469f67c319ae2ab52f664035355805af49a7ab25d250149cdc",
+      "free_design_source": "light-free.txt",
+      "image": "/workspace/scratch/956a5faf99d2/generated_images/exec-814fda7f-4666-4b84-9f7a-9c587cf80103.png",
+      "sha256": "089ccc9678895c0b5013babe9541ce83637199b2570a31be4ff2355ec9bc173a",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "number": 4,
+      "design": "gpt_free",
+      "prompt": "/workspace/scratch/956a5faf99d2/pack/candidate4-prompt.txt",
+      "submitted_sha256": "87c0a32156f189dafd0437c6398408d67c407045292db668c47d5027e9a6e805",
+      "free_design_source": "light-free.txt",
+      "image": "/workspace/scratch/956a5faf99d2/generated_images/exec-ea4e6e64-1d72-4795-830a-2f77b50ec7b2.png",
+      "sha256": "baa10737b9d532b15a3447ff5973ea7c11aefced86a1f8bb56d6dde1a7f4473a",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "selection_sheet": "/workspace/scratch/956a5faf99d2/bayleef-selection-sheet.png",
+  "selected": 1,
+  "selected_reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+  "inventory_method": "Registry-backed filename symlinks, no image content; target old glossy_promo files excluded from new-style planner scope. Latest UI metadata and reservations read from shared Git.",
+  "reservation_remote_commit": "3abd354890d13d0cb0066d0a7f7ab1b49e022747",
+  "reservation_verified": true,
+  "slot_set": "light10own",
+  "reference": "candidates[0].image",
+  "regenerate_for_exposure": false,
+  "face_selection_reason": "User selected mecha candidate 1. Gentle oval face, soft rounded jaw, jade green eyes and long pale yellow leaf-layered hair retained from the selected image.",
+  "actual_comparison": [
+    "chikorita-complete-sheet.jpg",
+    "mew-complete-sheet.jpg",
+    "mewtwo-complete-sheet.jpg"
+  ],
+  "comparison_evidence": "New tram, coast close-up, arcade selfie, sailing deck, rooftop-cinema snack, resort lagoon and tea-blending scenes differ in place, activity and clothing; required fashion categories retained."
+}

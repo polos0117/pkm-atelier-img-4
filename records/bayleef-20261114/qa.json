@@ -1,0 +1,443 @@
+{
+  "light": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": null,
+      "original_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "submitted_sha256": "cad46b643250437add7c32189fa6dbd34afc6cfb7ee361390df90a44d036c5d4",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Two arms connected through shoulders/elbows to full-finger armored gloves; open hand and relaxed down hand both visible. Two connected legs and armored boots. Five glove fingers, some overlapping in perspective."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "User selected project candidate 1, full-body pale yellow/green armor with skirt plates and leaf energy."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "User selected project candidate 1, full-body pale yellow/green armor with skirt plates and leaf energy."
+    },
+    "accepted": true
+  },
+  "casual1": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "gpt_free",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "e3040e0173b57fd7033306acf519db25bdbfa3d2712349c392fe3f810d8c9eaf",
+      "submitted_sha256": "c6d3036bdf664a6bfa92a8a69de0bc0e014dffc803701046b56d3d113fd4b61b",
+      "submitted_same": false,
+      "received_image_regenerations": 0,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Bayleef (베이리프) personified, grass type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a vintage hillside cable tram travelling above orchard terraces on a bright afternoon, warm light through its open side windows.\nActivity: on her way home after an adult summer kite festival, she rises from the tram seat as it gently sways. Her own right arm reaches straight from her right shoulder to grip the overhead hanging leather strap. Her own left forearm crosses naturally in front of her torso, her left hand holding a rolled festival ribbon at her waist; each arm has one clear task.\nOutfit: an original adult kite-ribbon dancer event costume, a coral sculpted opaque petal-cup bodice with a wide diagonal strap, two snug horizontal waist bands and fitted high-waisted dance shorts. A single pleated coral hip panel is attached at the outer seam, with soft woven white edging. Her shoulders, side waist and upper legs are bare by design; chest and pelvis securely covered. Low lace-up dance shoes, one small leaf-shaped enamel earring.\nSituation: reaching the tram strap stretches the side of the flexible lattice waistband, so its designed oval side-waist opening becomes wider and shows a little more skin; every fastening remains secure, with no slipped fabric, lifted skirt or clothing accident.\nComposition: a knee-up image at seated passenger eye height, her body at a gentle diagonal, head turned toward the open window and then slightly back toward the camera. Both arms connect visibly through elbows and wrists; an orchard and the cable line recede outside. No other passengers.\nEXPRESSION: one brow raised higher, eyes wide and attentive, lips slightly parted. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "allowed_change": "free-scene brief"
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Right arm rises visibly from shoulder through elbow to overhead strap grip; four flexed fingers and opposed thumb partly hidden by leather. Left arm bends from shoulder toward ribbon grip at waist, five digits partly overlap in the grip. Both upper legs continue beyond crop."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Coral dancer event costume, overhead tram strap and rolled ribbon on orchard cable tram. Side-waist opening, bare shoulders and legs present; knee-up crop."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Coral dancer event costume, overhead tram strap and rolled ribbon on orchard cable tram. Side-waist opening, bare shoulders and legs present; knee-up crop."
+    },
+    "accepted": true
+  },
+  "casual2": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "f4634c9831390234a8f3a50d8115b81efaa1eccc0d7a23c34c7358a7cc13c1d4",
+      "submitted_sha256": "9c6f58015c44b3fe375ada0a410ac649571a95f95e50a325c93893be6619f268",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Right shoulder and forearm connect to V-sign hand, index/middle extended and remaining fingers folded with thumb visible; opposite shoulder/upper arm leave the close crop naturally. Legs outside face close-up."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Rocky coast and tide pools behind close face portrait, camel sweetheart top and leaf pendant, V sign. The shoulders remain in frame."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Rocky coast and tide pools behind close face portrait, camel sweetheart top and leaf pendant, V sign. The shoulders remain in frame."
+    },
+    "accepted": true
+  },
+  "casual3": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "free_outfit",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "41ca2950158a8f482a6867b6332c3fac71bf861b05303c64190f2327ded6f820",
+      "submitted_sha256": "944738331fa3a38d1603d45a4f2206b1134a412c1644e007db6573ad53c2e308",
+      "submitted_same": false,
+      "received_image_regenerations": 0,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Bayleef (베이리프) personified, grass type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nCROP: a chest-up shot — the bottom edge crosses just below her bust; waist, hips and legs are out of frame. This crop wins over every other line: details apply only to the part that shows, and the outfit reads through its visible neckline, straps, fabric and colour. Never widen the framing to show a hidden support, hand or leg; a limb crossing the edge runs naturally on past it, never cut off or fading out inside the image. Both shoulders and upper arms show and run on past the edge — never an armless torso.\n\nSCREENS: any monitor, cabinet, handheld, box or poster shows only abstract colored light, simple shapes or blank art — no recognisable game, character, logo, title or interface, no readable text.\n\nSCENE (chosen):\nPlace: an arcade hall of upright cabinets whose screens show only coloured glow\nLight direction: side light — the light falls from one side, the far side of her face in soft shadow.\nOutfit: an original copper-coloured compact evening shell, two smoothly gathered opaque fabric crescents joined at the centre by a small enamel clasp, with a wide collar band continuing into the back fastening and short draped winglets at the sides; bare shoulders, collarbones and upper back, secure full chest coverage. The unique folded construction is soft fabric, never armor.\nPOSTURE: standing.\nCOMPOSITION: a chest-up shot of her face, shoulders and expression; body in side profile, facing the right of the frame, so her own right side is toward the camera; head turned back over her shoulder; camera at her eye level.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nRIGHT HAND: her own right hand is in PROP — her near arm, on the camera side.\nLEFT HAND: her own left hand rests low, below the frame edge — that arm runs down from her shoulder out of frame — her far arm, on the side away from the camera.\nPROP: with her own right hand she holds a smartphone up at arm's length to take a selfie; it is all she holds.\nGAZE: she looks into the camera.\nEXPRESSION: drooping lids and brows, dull tired eyes, mouth slightly open and slack. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; the part of that outfit inside the crop must read at first glance in its own colours. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "allowed_change": "free-outfit brief"
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Near right upper arm extends from shoulder across foreground through elbow toward smartphone grip; four fingers visible around phone and thumb partly obscured. Far shoulder and arm continue past lower crop. No floating hand. Legs outside crop."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Copper folded shell top and phone selfie in neon arcade, tired open-mouth expression. Head is turned over shoulder; large leaf head ornament remains from reference and the crop shows upper torso beyond planned chest-up framing. Preserved."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Copper folded shell top and phone selfie in neon arcade, tired open-mouth expression. Head is turned over shoulder; large leaf head ornament remains from reference and the crop shows upper torso beyond planned chest-up framing. Preserved."
+    },
+    "accepted": true
+  },
+  "casual4": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "a67d6108515fcd3aff306d24bc83d0a381b7b6bf084cda56462468cce7a2c59c",
+      "submitted_sha256": "747c724db888bd98b079b83084e0867122ce2b02f5ef9a5c35f049c9ed2b8f49",
+      "submitted_same": true,
+      "received_image_regenerations": 0,
+      "tries": 5,
+      "blocked_attempts": [
+        "660254b4-79d7-43ea-a43f-d8e98599a526",
+        "5410aed9-2019-41f6-b2a8-a333ecda7755",
+        "f895d5a2-c801-421b-8aa3-01e97468c2e3",
+        "7ebb5418-5829-4662-baa7-cb50b7b5d45c"
+      ],
+      "image_returned_before_retry": false,
+      "replanned_from": "pc_bodysuit",
+      "replanned_to": "pc_corset"
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Both arms join natural shoulders and elbows. Right gloved hand rests on hip with five fingers partially overlapped; left gloved hand tucks hair beside ear, fingers partly occluded by hair. Two thighs and knees continue below crop, no extra limb."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Pale yellow/green Bayleef leaf costume with laced corset, flared short skirt, long gloves, leaf headband and soft tail. Glass office at dusk with warm/cool lighting. Replanned costume after four blocked attempts with no images returned."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Pale yellow/green Bayleef leaf costume with laced corset, flared short skirt, long gloves, leaf headband and soft tail. Glass office at dusk with warm/cool lighting. Replanned costume after four blocked attempts with no images returned."
+    },
+    "accepted": true
+  },
+  "casual5": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "3cb9360e3e931d604f6c61ab95a00b6b85ce3e54ddb3cf49b4b968613083bda5",
+      "submitted_sha256": "0feb62ec919b354e9017afc53623e68948a0302f1a092ffa4e1337abf321da60",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Near right upper arm rises from shoulder to bent elbow and hair-tucking hand. Four curled fingers visible beside ear, thumb partly hidden by hair. Far shoulder and upper arm continue down past crop. Lower body outside frame."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Blue crochet crop neckline, downturned gaze in right-facing profile, dappled light and stadium stands. Crop includes more bust than strict face close-up, preserved as received."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Blue crochet crop neckline, downturned gaze in right-facing profile, dappled light and stadium stands. Crop includes more bust than strict face close-up, preserved as received."
+    },
+    "accepted": true
+  },
+  "casual6": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "gpt_free",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "473883b511318aad1f97d67233205c3dea1775ab5d2eefeef93b875e273dd7e1",
+      "submitted_sha256": "49121058741b0843a7094959d89e0a7fb4ab79862639989862d0082e2dd40480",
+      "submitted_same": false,
+      "received_image_regenerations": 0,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Bayleef (베이리프) personified, grass type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a rooftop open-air cinema before the evening screening, with broad brick seating ledges, a pale blank screen and soft peach clouds beyond the rooftops.\nActivity: she sits sideways on a broad dry brick ledge, pausing over a toasted rice cracker while her bare feet swing comfortably in the air. Her own right elbow stays in front of her body, right hand bringing the single cracker close to her mouth. Her own left arm slopes down from her left shoulder, left palm resting beside her on the ledge. Both arms are clearly visible; neither goes behind her torso.\nOutfit: an original ink-blue compact terry playsuit, constructed from an opaque scarf-like diagonal chest panel joined to a close-fitting short lower piece by a broad asymmetrical side bridge. A single wide strap crosses one shoulder, the other shoulder and a curved crescent of midriff are bare; short rounded hems expose her upper legs. Fine white bound edges and a tiny woven cinch tab give it a relaxed practical finish. Secure chest and pelvis coverage, no armor or creature pattern.\nComposition: a full-body seated view with her face gently three-quarters toward the viewer, camera level with her face; her entire head, both hands and both feet inside the frame. Warm sunset light models her face and the masonry, while the unused screen stays soft in the distance.\nEXPRESSION: flat level brows, half-lidded deadpan eyes, mouth in a straight unmoved line. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "allowed_change": "free-scene brief"
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Right shoulder, bent elbow and forearm connect to cracker-holding hand at mouth; fingers overlap naturally in pinch. Left arm runs down from shoulder to palm on ledge, five fingers visible with some overlap. Two connected thighs, knees, shins and bare feet; five toes each."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Ink-blue asymmetrical terry playsuit with waist crescent, seated on brick ledge eating rice cracker at rooftop outdoor cinema before sunset. Entire body and feet remain in frame."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Ink-blue asymmetrical terry playsuit with waist crescent, seated on brick ledge eating rice cracker at rooftop outdoor cinema before sunset. Entire body and feet remain in frame."
+    },
+    "accepted": true
+  },
+  "casual7": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "784cbe1cc3ef9696f78c2bfd42265fc894ddc1ebaf4f04dde7cc8c5b88a5ce0f",
+      "submitted_sha256": "10f8519aea071ca95843044b8e244530ead284390e0f7b59c4a32f8ec125541a",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Both upper arms connect at shoulders. Viewer-right arm bends through elbow to hair-tucking hand beside ear; fingers partially overlap in hair. Viewer-left arm hangs naturally and exits the lower crop. No disconnected hand; lower legs outside waist-up crop. Hair hand uses opposite side from selected right-hand setting, preserved as a pose deviation."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Lavender/plum halter event uniform with epaulettes and buttons, leaning against ship timber at night, rigging and lamplight behind. Open shoulders/back and plunging neckline appear, lower hand outside crop."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Lavender/plum halter event uniform with epaulettes and buttons, leaning against ship timber at night, rigging and lamplight behind. Open shoulders/back and plunging neckline appear, lower hand outside crop."
+    },
+    "accepted": true
+  },
+  "casual8": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "e58daef65d5ba43ca2857abe33d5d8d3f61f706cc943c50f5640b8c28df0956c",
+      "submitted_sha256": "1113af5b5813ffe6510d0289bf16c52ef0dd9ebd5fd1e54da761525e4eca2230",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Both shoulders connect to bent elbows and wrists meeting at clasped hands in front of chest. Fingers overlap between palms; no detached hand. Kneeling thighs, knees and two folded lower legs connect naturally, toes partly obscured."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Yellow crochet swimwear, lagoon deck at blue hour with towels and lamps. Planned bikini rendered as joined monokini with side waist cutouts; preserved as received."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Yellow crochet swimwear, lagoon deck at blue hour with towels and lamps. Planned bikini rendered as joined monokini with side waist cutouts; preserved as received."
+    },
+    "accepted": true
+  },
+  "casual9": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "1a7c8bb46f9a0aaec23f7e06af713e2b03b11a50e07bfd638dbc1d675570570f",
+      "submitted_sha256": "89abec45f4cb95afa6f7da3fea3609338268fc6962f064e00ff1d200e683c035",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Both shoulders connect to sleeves, elbows, forearms and two hands working on raised shoe laces. Fingers are partially hidden in the pinch and lace bow; no extra hand. Two legs connect through the seated hips, one knee raised and the other foot on floor; shoes contain feet naturally."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Grey spa robe with high opened wrap and tied waist, seated on marble bench tying white canvas shoe in hammam. Full body and feet visible, side profile and warm dome light."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Grey spa robe with high opened wrap and tied waist, seated on marble bench tying white canvas shoe in hammam. Full body and feet visible, side profile and warm dome light."
+    },
+    "accepted": true
+  },
+  "casual10": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "9d445eaf52c1f34d2be4a9df276edfe7562d62fea1faea3aa1f88cb1490ab755",
+      "submitted_sha256": "40c2d3087a0cc72573b2ff6261af9f7ec2bc7e70aac848ae874ad630f4d49302",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Raised right hand joins through wrist, forearm and elbow to right shoulder; five separated fingers with opposed thumb. Left shoulder and sleeved arm descend beyond lower crop. Lower body outside crop."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Red embroidered kebaya lace over opaque camisole, five-finger wave and knowing mild smile, jazz piano/lamps behind. Crop includes waist beyond planned chest-up, preserved."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Red embroidered kebaya lace over opaque camisole, five-finger wave and knowing mild smile, jazz piano/lamps behind. Crop includes waist beyond planned chest-up, preserved."
+    },
+    "accepted": true
+  },
+  "casual90": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "49ca41001b2152813df5521492b6aae1f1f4bb7c60f5729dbd2f87640fa7f6e6",
+      "original_sha256": "e25bc37b1e0f6ca371c0f3ace6204d9e0f5b0b01650d36302858b9878e9f5ac6",
+      "submitted_sha256": "9541061b3c49d0177a7da5a0c013acb8375d3b7e263ae2f5ffb5a27e91e8bb6d",
+      "submitted_same": true,
+      "received_image_regenerations": 0,
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Nose, cheeks and lips have blended volumetric gradients; fine colored contours, strand-rendered hair and glossy skin/material highlights, not flat cel shading."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Selected mecha 1 reference: jade green eyes, long pale yellow leaf-layered hair, gentle oval face and softly rounded lower jaw retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "visual_review": true,
+      "note": "Near right shoulder, elbow and forearm join naturally to cup grip. Five fingers partially overlap around handle, opposed thumb partly hidden. Far left arm continues from shoulder behind torso into forearm resting across knee; four fingers visible on knee, thumb partly concealed. Crossed thighs and lower legs continue below crop."
+    },
+    "scene": {
+      "result": "reviewed",
+      "evidence": "Seated tea blender holding a steaming cup and smelling it, green fitted apron and strappy cream top/short skirt; herb jars, scale and copper kettle clearly describe the shop."
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Seated tea blender holding a steaming cup and smelling it, green fitted apron and strappy cream top/short skirt; herb jars, scale and copper kettle clearly describe the shop."
+    },
+    "accepted": true
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "version": 4,
+  "card": "베이리프",
+  "no": 153,
+  "style": "anime_25d_gloss",
+  "plan": "/workspace/scratch/956a5faf99d2/pack/PLAN.json",
+  "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+  "slots": {
+    "light": {
+      "motifs": "",
+      "formOverride": "",
+      "headFeature": "",
+      "faceDesignOn": true,
+      "params": {
+        "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+      },
+      "scene": {
+        "expr": "",
+        "pose": "",
+        "orient": "",
+        "frame": "",
+        "lens": "",
+        "aspect": "2:3",
+        "camera": "",
+        "scene": "",
+        "outfit": "",
+        "custom": "",
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        }
+      },
+      "exposure": "",
+      "exposure_why": "",
+      "mecha": {
+        "set": {
+          "silhouette": "skirt_plate"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "grass"
+          },
+          {
+            "key": "aura",
+            "type": "grass"
+          },
+          {
+            "key": "ground",
+            "type": "grass"
+          }
+        ]
+      },
+      "mecha_auto": {
+        "set": {
+          "silhouette": "skirt_plate"
+        },
+        "fx": [
+          {
+            "key": "hand",
+            "type": "grass"
+          },
+          {
+            "key": "aura",
+            "type": "grass"
+          },
+          {
+            "key": "ground",
+            "type": "grass"
+          }
+        ]
+      },
+      "mecha_recent": [],
+      "mecha_why": ""
+    },
+    "casual1": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual2": {
+      "scene": "",
+      "outfit": "A camel sweetheart-neckline fitted jersey top with a deeply open back and chocolate-brown linen shorts; bare shoulders and upper back, with soft cotton stitching.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "The everyday family has no fixed item; specify a recognizable travel outfit while retaining planned camel palette and neckline/back cut."
+      },
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual3": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual4": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual5": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual6": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual7": {
+      "scene": "",
+      "outfit": "A lavender halter-neck event uniform costume with crisp plum lapels and small decorative epaulettes, a fitted plunging bodice and matching high-waisted short skirt; bare shoulders and upper back, opaque chest coverage.",
+      "camera": "",
+      "custom": "",
+      "why": {
+        "outfit": "Specify the planned uniform-inspired costume in the planned lavender palette and halter neckline for the sailing-ship themed event."
+      },
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual8": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual9": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    },
+    "casual10": {
+      "scene": "",
+      "outfit": "",
+      "camera": "",
+      "custom": "",
+      "why": {},
+      "exposure": "",
+      "exposure_why": "",
+      "situ": ""
+    }
+  }
+}
