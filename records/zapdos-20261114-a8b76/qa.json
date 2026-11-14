@@ -1,0 +1,223 @@
+{
+  "card": "썬더",
+  "style": "anime_25d_gloss",
+  "reference_selection": 1,
+  "slots": {
+    "light": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "right open gauntlet hand with five fingers; other hand relaxed with curled digits partly hidden",
+        "overlay_checked": false,
+        "note": "one head, two connected arms and legs; armored feet inside frame"
+      },
+      "source_sha256": "9eb6611d9d8338dc89e1a69e7d819ad042d6e2f3b9851f6fbf1c38956d5a3081"
+    },
+    "casual1": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": "out of crop",
+        "hands": "Chest-up museum portrait: right hand grips the ball, fingers partly occluded by the ball; left arm exits the crop naturally. Both shoulders have connected upper arms; lower body outside crop.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "4d6f9326aa53b6b1333e362eb9c04fecd47ef7d8e23cb8e4cb10c72766dfdd44",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual2": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both arms connected; right hand grips cup by handle with curled fingers partly occluded; left hand rests on knee with five digits; seated legs and shoes connected.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "18859c58f5c20d76fb1b58533bb316466f9133364cd335b663bd47ec8940b41f",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual3": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right hand holds the ice pop with grip partly occluding fingers; left palm on the step with five digits. Both arms continuous to their shoulders, two seated legs and two feet.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "17643b35b39dcda9231fb8f408cff1ea2164872ae70060e13746cd4886833c36",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual4": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right index extended to ticket, remaining fingers curled; left hand rests on handrail, some digits partly occluded. Arms and legs continuous, two feet in shoes.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "3d8b10ac609093725588657c656cd25bd69c1bb222be6440d19e7304bcd3b824",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual5": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right hand grips camera with partly occluded fingers, left hand hangs with five digits. Both arms continuous to their own shoulders; walking legs correctly joined.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "ecc8dbf0e8defe4335d2ee6a70a0feb53ef27795c1d0db91ba7b52a852e1c832",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual6": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both gloved hands visibly connected: right grips fan, digits partly hidden; left rests on knee with five digits visible. Crossed legs and main woman retained.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "f57e2dd5ca67a846b4fd20ee569ecee113f781ef77c116824701585f6a97140d",
+      "generation": {
+        "tries": 2,
+        "blocked": [
+          {
+            "stage": "output",
+            "category": "sexual",
+            "request_id": "ef54854c-671a-4c42-8978-cc9b6a3d375f",
+            "result_returned": false
+          }
+        ],
+        "edits": [
+          {
+            "reason": "remove unintended second figure in background only; no exposure changes",
+            "prompt_file": "casual6-background-fix-submitted.txt",
+            "input_sha256": "8cb748a81f5b084ec92bee1ae5119a31557a9ba864f78869cb11966812378921",
+            "result_sha256": "f57e2dd5ca67a846b4fd20ee569ecee113f781ef77c116824701585f6a97140d"
+          }
+        ]
+      },
+      "scene_note": "Blurred background guest removed; main woman, costume and exposure preserved."
+    },
+    "casual7": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right hand holds brush with thumb and curled fingers, partially occluded; left hand on knee with five digits. Two crouched legs and two visible feet in slippers.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "3cceb7660cb0451071c72ede6f8866a98f269166bef037dcb93764068dc5d5f4",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual8": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both hands hold sheet; visible digits bend around fabric, some hidden by grip. Arms connected. Two legs inside jumpsuit, feet in boots. Glove on table is a separate clothing prop, not another hand.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "cb7382d11f83f0bbb6c199dbadcfbc1cde775e086666617e8647ed1517fcfc26",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual9": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right hand on hip and left hand on thigh, five digits per visible hand. Two legs and two feet, right foot up on step, joints bend naturally.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "07b37c7f6748d3968b28c09cdebd3c48bd6deaae1d4e9e3e12791298bd4a0cf3",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual10": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": "out of crop",
+        "hands": "Two hands clasped with fingers interleaved and partly hidden, two forearms visibly join matching shoulders. Legs below waist crop.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "c34581a9c85d3ff633f888cbbeceabf5b8526ea302b2a1f7dbf609041e410dc0",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    },
+    "casual90": {
+      "status": "accepted",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right gloved hand uses pliers with fingers partly hidden by grip; left gloved palm on ground with five digits. Both arms continuous. One knee down, one foot forward, boots and legs connected.",
+        "overlay_checked": false,
+        "note": "visual inspection of returned image; partly occluded digits are recorded as hidden, not asserted as counted"
+      },
+      "source_sha256": "2b71ecfd5e9d97688988bfdf3fb9c77f90ef712267a4eac54385bb8b60110fa2",
+      "generation": {
+        "tries": 1,
+        "blocked": []
+      }
+    }
+  }
+}
