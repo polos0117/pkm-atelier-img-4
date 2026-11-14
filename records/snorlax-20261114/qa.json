@@ -1,0 +1,335 @@
+{
+  "casual1": {
+    "identity": {
+      "result": "match",
+      "evidence": "Kneeling beside entryway mirror in cropped Snorlax costume; hands on thighs; mirror reflection is the same woman."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two forearms join shoulders and gloved hands on thighs; gloves hide some fingertips. Kneeling legs joined naturally.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Kneeling beside entryway mirror in cropped Snorlax costume; hands on thighs; mirror reflection is the same woman."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "8fda960058cd2624c83056f3fa71fd5b49425b1848dd2073459e089fd6a5a809",
+      "submitted_same": true
+    }
+  },
+  "casual2": {
+    "identity": {
+      "result": "match",
+      "evidence": "Coral ring bikini on mossy ruin steps with relaxed lowered arms."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both arms, legs and feet attached; five digits per relaxed hand, with some overlap in side-on fingers.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Coral ring bikini on mossy ruin steps with relaxed lowered arms."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "914bca27c985f9a603c1aff588a713dc528eb1e35a98afd8783ada7b5d32932d",
+      "submitted_same": true
+    }
+  },
+  "casual3": {
+    "identity": {
+      "result": "match",
+      "evidence": "Seated in train berth with lavender quilted romper and toast breakfast."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Toast hand attached to raised forearm with grip-occluded fingers; five fingers on tray hand, two legs below crop.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Seated in train berth with lavender quilted romper and toast breakfast."
+    },
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "2ee9d77faca8d0f3d7c9c44b6e482c85551be26ebd3f51c35f59a5ea533fa5ce",
+      "submitted_same": false,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Snorlax (잠만보) personified, normal type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace and moment: a sunlit sleeper-train compartment crossing a green valley. She has woken just as the breakfast tray arrives, seated sideways on the lower berth with both knees naturally together, her face turned toward the camera in a medium knee-up composition. Her own right arm reaches forward from its shoulder, hand holding a small buttered toast triangle near her lips; her own left forearm rests fully visible on the tray edge, hand flat beside a small unusually tall stack of toast. A compact travel pillow shaped like a sleeping rounded creature lies at the far end of the berth, and one tiny crescent ear-shaped hairpin is her only source accessory. Outfit: a lavender quilted silk romper constructed from six curved petal panels, with a supportive opaque scalloped bust inset, deep sweetheart neckline, bare shoulders, a narrow waist cutout and rounded short tap-leg hems; soft ties join the panels at the sides without sheer cloth. Warm morning window light; she wears the mild one-sided closed-lip smile specified below. One everyday meal, readable hands and face; no writing on the tray or train.\nEXPRESSION: one mouth corner lifted higher than the other, lips closed. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip."
+    }
+  },
+  "casual4": {
+    "identity": {
+      "result": "match",
+      "evidence": "Ivory lace over opaque camisole at bulb-lit dressing-room vanity, forearms crossed."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two shoulder-arm paths continue to crossed forearms; one hand five fingers and lower hand partially occluded.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Ivory lace over opaque camisole at bulb-lit dressing-room vanity, forearms crossed."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "c704646c2f64919a389c7b8b06b82253b9c49467941a2888bc398e324b91f168",
+      "submitted_same": true
+    }
+  },
+  "casual5": {
+    "identity": {
+      "result": "match",
+      "evidence": "Face-close at arcade booth; sage tube top and open olive cardigan, sleeping charm."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both shoulders continue to upper arms which exit crop naturally; hands and legs outside crop.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Face-close at arcade booth; sage tube top and open olive cardigan, sleeping charm."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "376f6cf615eb21029cb8adb12fb656ce34cdad0334929d9ecd9a4fe75ecdece0",
+      "submitted_same": true
+    }
+  },
+  "casual6": {
+    "identity": {
+      "result": "match",
+      "evidence": "Face-close spa lounge with brown swimsuit and open camel robe; one eye winks."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both upper arms visible and continue below crop into robe; hands below crop; no floating hands.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Face-close spa lounge with brown swimsuit and open camel robe; one eye winks."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "ff5479908a1067a16b8ab9b7c45a2ee8106554386419f79b6eb580c37ba9d61c",
+      "submitted_same": true
+    }
+  },
+  "casual7": {
+    "identity": {
+      "result": "match",
+      "evidence": "Walking in bookshop in mint-teal epaulette event costume; looking back, smiling."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both lowered arms connect to visible hands; two walking legs and feet, no merged joints.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Walking in bookshop in mint-teal epaulette event costume; looking back, smiling."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "056e642fcf6a1cfa3c265254758b23d6392371f5af16fd73384beb06f405ac19",
+      "submitted_same": true
+    }
+  },
+  "casual8": {
+    "identity": {
+      "result": "match",
+      "evidence": "Seated above flotation pool in terracotta scalloped swimwear with runoff from platform."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both extended forearms join shoulders and spread hands, five fingers each; knees continue toward water, feet hidden.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Seated above flotation pool in terracotta scalloped swimwear with runoff from platform."
+    },
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "b121081bfe38354df44ff51e1a7fd42d0a2f4517727b07d0af3d9ae357b0e0c1",
+      "submitted_same": false,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Snorlax (잠만보) personified, normal type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nCategory: swimwear. Place and moment: a saltwater relaxation facility with a slowly rising dry-entry platform inside a circular flotation pool. She sits upright on the broad platform, framed from head to knees, body gently three-quarters toward the camera, both arms visible in front. Her own right forearm rests on the platform edge and her right hand steadies a folded towel; her own left arm hangs naturally beside her left thigh with her left palm resting on the platform. Situation: the buoyant platform has just risen above the pool's surface with her aboard, so the falling waterline newly reveals the opaque suit's sculpted waist and high upper-thigh cut while a thin sheet of water runs off the platform; no fabric has shifted and no garment failure. Do not describe or show feet below water. Outfit: a fully opaque terracotta two-piece swimsuit with a sculpted scallop-shell-inspired curved top constructed of overlapping smooth fabric panels, supportive wide underband, low secure neckline, and matching medium-rise bottoms with broad opaque folded side pleats and small teardrop cutouts above the hip bones. This is a swimwear construction unlike the catalog's rings, ties, crossover, crochet and simple triangle styles. A single small sleeping-creature charm on her wrist is the only source motif. Soft skylight, pale mineral tiles, warm relaxed eyes and faint closed-lip smile as specified below.\nEXPRESSION: softly lowered brows, warm relaxed eyes, faint closed-lip smile, no tension anywhere. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip."
+    }
+  },
+  "casual9": {
+    "identity": {
+      "result": "match",
+      "evidence": "Crouched at rainy porch in plum square-collar blouse and saffron culottes, Munchlax beside step."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near arm continues to hand partly past bottom crop, far forearm rests on knee with five visible fingers; companion separate.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Crouched at rainy porch in plum square-collar blouse and saffron culottes, Munchlax beside step."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "2343aa523f4e3d24b7a940dc386724ea5027137442c1c24d32bb65a04627f19b",
+      "submitted_same": true
+    }
+  },
+  "casual10": {
+    "identity": {
+      "result": "match",
+      "evidence": "Rose ballet outfit, leaning on studio barre with slipped shoulder strap."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both arms connect through elbows to hands resting on barre; five digits each; lower legs outside crop.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Rose ballet outfit, leaning on studio barre with slipped shoulder strap."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "0aafefb5be86c0c56fc11becf2cc28cd076a5e91f129ca41af5da72802673948",
+      "submitted_same": true
+    }
+  },
+  "casual90": {
+    "identity": {
+      "result": "match",
+      "evidence": "Lunch shop owner sitting on chair, off-shoulder top, white apron, short skirt; ankles crossed."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One hand on knee, other on chair edge with partly bent fingers; two arms, two legs, two feet correctly joined.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Lunch shop owner sitting on chair, off-shoulder top, white apron, short skirt; ankles crossed."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "d5f38e4d642435b851776713ac9f6f15a8cbf798f0fb8f13acab75a424724998",
+      "submitted_same": true,
+      "own": {
+        "level": "bold",
+        "tries": 2,
+        "blocked": [
+          "Initial batch failed with safety error ea3e29f4-11be-4fef-a8bb-03d10b75a122; slot not returned. Same-prompt individual retry succeeded."
+        ]
+      }
+    }
+  },
+  "light": {
+    "identity": {
+      "result": "match",
+      "evidence": "Full-body cream-black armor, two buns and long grey-black hair, violet eyes; open light-conjuring hand."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Blended nose, cheek and lip shadows; softly colored contours; dimensional cloth and skin highlights."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two attached arms and legs; open palm five fingers, lowered glove curled with digits partly occluded.",
+      "overlay_checked": false
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Full-body cream-black armor, two buns and long grey-black hair, violet eyes; open light-conjuring hand."
+    },
+    "generation": {
+      "design": "generator",
+      "submitted_sha256": "1860bfefda21693f97e025750d52bd5b4c1824c832b7d1765c43d81602dc0c9b",
+      "submitted_same": true
+    }
+  }
+}
