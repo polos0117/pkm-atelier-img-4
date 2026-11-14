@@ -1,0 +1,347 @@
+{
+  "casual1": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One open hand shows five fingers; other arm continues below crop. Shoulders connected. Legs outside chest crop.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "f5604210fc4e1bae16f2989703459e8e45a4a47eedbab76b4b20304c0aaaf12c",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 1,
+      "blocked": []
+    }
+  },
+  "casual2": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Tool grip: thumb and four curled fingers, some tips occluded by handle; other arm runs down out of frame. Shoulders connected.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "7ce832fd50d3c15ffac848a7a8069aa3dc46f55440373ca72ac59d8c0daed159",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 1,
+      "blocked": []
+    }
+  },
+  "casual3": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five gloved fingers wrap the microphone with natural thumb; other arm beyond crop. Costume appendages are worn pieces.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "9d41abb8939649df7604252927983bb8c73eca10fc70f3996231ba75d10868aa",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 2,
+      "blocked": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID da089b13-80e5-4f6d-a598-7114bb498fa4. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ]
+    }
+  },
+  "casual4": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Rice-ball grip: four fingers visible, thumb partly behind rice; left hand rests on table with five natural digits. Two seated thighs.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "885ca036b32c6feaaa50638c5d484ff8537acae95163ee43878da3ab117cf9b3",
+    "submitted_same": true,
+    "generation": {
+      "design": "gpt_free",
+      "attempts": 1,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Dragonite (망나뇽) personified, dragon / flying type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: inside a scenic coastal railway dining carriage at midday, a blue sea sweeping past the broad window. She has just opened an unusually oversized packed lunch after a long journey, her protective, hearty nature expressed through the generous meal.\nActivity and pose: seated sideways on a fixed bench, torso gently rotated toward the camera, looking up from her lunch. Her right elbow stays beside her ribs, right forearm reaching forward to hold one small rice ball; her left upper arm descends from her left shoulder, left forearm resting forward on the table with her hand steadying the lunch box. Each hand performs only that one action. Both shoulders and forearms are readable.\nComposition: a seated three-quarter portrait from head to just below her knees, camera at seated face height, the table at one edge without covering her arms, the sea visible through the window behind. Her enormous orange-and-white braid falls beside her bench and is visibly continuous.\nOutfit: an ink-blue, bias-wrapped denim playsuit with a deep square sweetheart neckline, broad diagonal straps, open triangular waist panels and short split culotte legs, edged in tiny cream blanket-stitches; its fitted bodice follows her figure with bare shoulders, waist and thighs, fully opaque and secure. This is a single tailored playsuit, with a small shell-shaped lunch-box clasp as the sole subtle source accessory.\nLighting: clear reflected sea light across her face and a soft sun patch on the carriage bench.\nEXPRESSION: challenging eyes under lowered lids, one brow raised, mouth corner tugged in a slight smirk. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "blocked": []
+    },
+    "submitted_same_basis": "Compared to the authorized free-scene final prompt; outer fixed sections retained."
+  },
+  "casual5": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right lantern grip hides some curled finger tips; left relaxed hand has natural folded digits. Two legs and two feet joined normally.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "d7995451c3263ec249f5c9d8d0b991bcc99665e14b8fa00fe5984836f628ff7d",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 3,
+      "exposure": "moderate",
+      "exposure_why": "No image returned on two identical bold calls; settings exposure reduced one step per IMAGE_RULES.",
+      "blocked": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 5532f233-bdde-44aa-b398-d76553b037ff. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID ba5cfe65-4d4a-4012-813e-d97829c56e68. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ]
+    }
+  },
+  "casual6": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both chin-supporting hands attached through wrists and forearms; finger tips partly covered by cheeks. Two raised legs with five toes per sole.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "cf3036ddd1a3522bf8103d3736f6dbe49ab2b094ace4e54c1f8394d74a0f74e9",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 2,
+      "blocked": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 582a4a99-1d62-470d-ab25-c87cce5400e1. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ]
+    }
+  },
+  "casual7": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand tucks hair: four fingers and partly hidden thumb; far arm continues beyond crop. Profile framing differs from front reference as planned.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "1cbff3f7d00b336a781c698c5aba24fd50e77fa7431d5e6eb9d4e740b680bbbe",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 1,
+      "blocked": []
+    }
+  },
+  "casual8": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand grips bag strap with natural folded fingers; far hand rests on sill. Both arms visibly connected.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "111d205cfecd1e9142d4dc6d76b79a789cb7f79788c91ee0f9b1be2bc071179c",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 1,
+      "blocked": []
+    }
+  },
+  "casual9": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both handle grips have four curled fingers and opposed thumbs. Two visible feet; one in boat, one on step. Dragon-shaped float is an object.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "68cef766d3110ee23934bb6e4d6212ad6a9559137f9200952a13fc99ae6fe813",
+    "submitted_same": true,
+    "generation": {
+      "design": "gpt_free",
+      "attempts": 1,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Dragonite (망나뇽) personified, dragon / flying type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: an indoor aquatic rescue-training pool during a recreational open day, with a single inflatable practice dinghy tethered to the pool edge. Her natural wish to help others has led her to try the boarding drill during her free afternoon.\nActivity and pose: she pauses halfway into the dry practice dinghy, surprised by the effort of the high step. Her right foot is planted inside the dry boat and her left remains on the poolside boarding block; both feet are above water and fully visible. Her right arm reaches forward from her right shoulder, the hand gripping the dinghy's side handle. Her left arm bends forward from her left shoulder, her hand holding the other handle in front of her waist. Both elbows and forearms are distinct and joined naturally.\nComposition: full body, three-quarter front view, head level, camera at face height from the near pool edge. The boat sits low in the image, leaving her face and both hands visible. No other person appears.\nOutfit category: swimwear. She wears a fully lined plum-red convertible swim-skirt suit: a supportive sweetheart swim bustier and a high-waisted swim bottom with tiny accordion-fold side panels that ordinarily form a sporty micro-skirt. Secure broad straps, matte stretch fabric and cream seam binding distinguish it from the catalog outfits; chest and pelvis remain completely covered.\nOriginal situation: to lift her knee over the boat's high side, the intended accordion side panels fold upward with her thigh, showing more of the upper leg while the attached opaque swim bottom stays completely in place. This is the designed movement of the garment, with no wind, wet fabric, slipped strap, undone fastener or wardrobe failure.\nSource props: a small orange dragon-shaped float secured at the far pool edge and a pair of cream-and-teal fin-shaped rescue paddles laid in the empty dinghy; these remain objects, not creatures or costume parts. Her orange-and-white braid falls over the forward shoulder, clear of both hands.\nLighting: bright cool pool daylight with warm reflections on her face.\nEXPRESSION: raised inner brows, wide unsettled eyes, mouth slightly open, faint blush across the cheeks and nose. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "blocked": []
+    },
+    "submitted_same_basis": "Compared to the authorized free-scene final prompt; outer fixed sections retained."
+  },
+  "casual10": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands resting on ledge, five fingers with partial overlap and perspective. Legs continue into footbath; feet obscured by water.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "7b39f4f102ecb7632cb77fd0d22fdb3a8f03ec54c4df078cedf8c37f22ce0363",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 1,
+      "blocked": []
+    }
+  },
+  "casual90": {
+    "status": "accepted",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "identity": "same face, orange-and-white giant braid and rendering as selected light candidate 1",
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Visible shoulders, neckline, waist and/or legs follow the generated outfit; actual image preserved without exposure-based regeneration."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Hip hand shows five digits; ear-side hand fingers partly overlap hair. Two arms naturally connected; legs partly cropped.",
+      "overlay_checked": false,
+      "note": "Visually inspected full resolution and enlarged hand/foot contact sheet. Cropped or occluded parts recorded, no detached or extra limbs observed."
+    },
+    "submitted_sha256": "ef522db86000a60ce6988adb882da1ac32950581888eb72e0a3cf55da77eff20",
+    "submitted_same": true,
+    "generation": {
+      "design": "standard",
+      "attempts": 1,
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      },
+      "blocked": []
+    }
+  },
+  "light": {
+    "status": "accepted_user_selection",
+    "selected_candidate": 1,
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Open palm five fingers; opposite loose fist, overlapping fingers partly hidden by glove. Both arms connected.",
+      "overlay_checked": false
+    },
+    "generation": {
+      "design": "standard"
+    },
+    "exposure": {
+      "verdict": "match",
+      "evidence": "Original selected image retained unchanged."
+    }
+  }
+}
