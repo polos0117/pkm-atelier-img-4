@@ -1,0 +1,349 @@
+{
+  "light": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two connected arms and legs. Open gauntleted palm has five digits; opposite loose fist partly hides fingers. Both boots in frame.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "5f3f5dd79f3e02e06094c8a382efccecc17480ac54791c38aa911cb27db239bc",
+      "submitted_same": true,
+      "prompt_file": "candidate2-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": null
+    }
+  },
+  "casual1": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two connected arms; one hand curls over railing, other extends fingers to water. Fingers overlap in grip; no detached or extra hand. One thigh raised; lower legs hidden by pool/stone crop.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Generated one leg reaches into the pool rather than staying on dry landing; output preserved.",
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "6556cd835ac84bc71f6e6d25f2c26f9d0bcd2b9e423c5347a36f97d370705825",
+      "submitted_same": true,
+      "prompt_file": "casual1-free-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93",
+      "free_prompt": "casual1-free-prompt.txt"
+    }
+  },
+  "casual2": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two forearms support the chin, each joins its own elbow and shoulder. Fingers overlap around cheeks; two raised legs and espadrilles visible.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Prone body and raised legs retained; dress is shorter and neckline lower than the adjusted outfit text; preserved as generated.",
+    "generation": {
+      "design": "project_safety_redirection",
+      "submitted_sha256": "44f3028d081d21f6a712ffd18b628c2e4176b25953498ddedc3388017865fa21",
+      "submitted_same": true,
+      "prompt_file": "casual2-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93",
+      "safety_redirection": "No image returned from blocked/interrupted attempt; nonsexual fashion alternative. See blocked-attempts.json."
+    }
+  },
+  "casual3": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Folded arms clearly join shoulders; near hand has four visible fingers and a thumb partly hidden in grip, far hand hidden by opposite upper arm. Lower body cropped.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Sage satin overshirt and camisole shown; lower clothing outside chest-up crop.",
+    "generation": {
+      "design": "project_safety_redirection",
+      "submitted_sha256": "22e5d247d329ed8a25a7b49312591c1d751a3caf7365ff7392574872acc1a96e",
+      "submitted_same": true,
+      "prompt_file": "casual3-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93",
+      "safety_redirection": "No image returned from blocked/interrupted attempt; nonsexual fashion alternative. See blocked-attempts.json."
+    }
+  },
+  "casual4": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Phone hand has curled fingers and opposing thumb; other relaxed hand rests on ledge, fingers overlap in perspective. Both wrists and forearms continuous.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Evening ivory halter and burgundy cummerbund retained; minor decorative blue bubbles remain in scene.",
+    "generation": {
+      "design": "project_safety_redirection",
+      "submitted_sha256": "d740c4c9e2b146f5479a4d6fbfee0f2a323e380a3744c0693f80dc2f88f4206b",
+      "submitted_same": true,
+      "prompt_file": "casual4-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93",
+      "safety_redirection": "No image returned from blocked/interrupted attempt; nonsexual fashion alternative. See blocked-attempts.json."
+    }
+  },
+  "casual5": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two connected shoulders, elbows, wrists; each hand presses one pinball button, curled fingers with thumbs alongside. Knees below crop.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Pinball game, bow top and cobalt culotte shorts clearly distinct from other scenes.",
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "d08597b4976d4a43ab384a0517580e942c132b30b8f0e1181d9f404dca4e9939",
+      "submitted_same": true,
+      "prompt_file": "casual5-free-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93",
+      "free_prompt": "casual5-free-prompt.txt"
+    }
+  },
+  "casual6": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One hand drapes over chair arm with four long fingers and side thumb; other rests on skirt with partly occluded thumb. Both upper arms and forearms connected; crossed legs under long skirt.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Calf-length high-neck lace dress at airport; no veil, ribbon retained.",
+    "generation": {
+      "design": "project_safety_redirection",
+      "submitted_sha256": "62816d267a062845eb142b4e52e5b348e662823006636911590cf2c6641d563a",
+      "submitted_same": true,
+      "prompt_file": "casual6-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93",
+      "safety_redirection": "No image returned from blocked/interrupted attempt; nonsexual fashion alternative. See blocked-attempts.json."
+    }
+  },
+  "casual7": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two hands rest separately on knees, visible fingers naturally separated with partly hidden thumb edges. Both forearms continuous; lower body outside crop.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Body faces more toward viewer than planned away-three-quarter; mint swimwear with patterned yukata preserved.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "64a0200da4e6525f797bda5e0135d49af1968794c687d1b153e0634844f26831",
+      "submitted_same": true,
+      "prompt_file": "casual7-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93"
+    }
+  },
+  "casual8": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two arms hang down from shoulders with relaxed hands, fingers partly overlap in profile. Two connected legs and booted feet.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Body reads front-three-quarter rather than side profile; rooftop and costume retained.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "3488f3a26d7defab535e06abde6d7d942ea8a85e1e7c64c7cb7c0fe34fce4dbb",
+      "submitted_same": true,
+      "prompt_file": "casual8-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93"
+    }
+  },
+  "casual9": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both shoulders and upper arms present and continue below frame; wrists/hands outside crop. No floating hand.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "Costume is rigid and armor-like rather than a fabric bodysuit; chest-up crop hides hands and lower costume. Preserved as generated.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "bfdfab27ffda722a6e2ca0b9d67655d67a3f0c0315b30f9b6812c65de8110f5d",
+      "submitted_same": true,
+      "prompt_file": "casual9-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93"
+    }
+  },
+  "casual10": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands rest over corresponding knees, fingers and thumbs overlap in perspective; both arms continuous. Two bent legs, two sandal feet.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "One original creature companion visible in rainy courtyard; robe blown sideways; preserved.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "d19fa164752d48a78527a35e2549a318f47f2a043c5c9bf1f1743b7d95d738eb",
+      "submitted_same": true,
+      "prompt_file": "casual10-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93"
+    }
+  },
+  "casual90": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe missing (No module named 'mediapipe'); anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One hand grasps helmet strap, other supports helmet side; thumbs oppose curled fingers, grip partly obscures digits. Two connected seated legs and sneakers.",
+      "overlay_checked": false,
+      "note": "Original images, full contact sheet and enlarged hand crops visually reviewed; occluded/cropped parts stated explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft painted nose, cheek, lip and chin shading, colored fine contours, hair strands and smooth skin highlights; not flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user selected mecha candidate 2",
+      "evidence": "Brown spiky layered hair with blue accent locks, brown almond eyes, angled brows and softly pointed adult jaw retained."
+    },
+    "note": "",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "4ae02eba65baedab5dce6d777618ec95b03a4fbb637fa6337f49721354907a1c",
+      "submitted_same": true,
+      "prompt_file": "casual90-prompt.txt",
+      "method": "built-in image generation",
+      "reference_original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93",
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    }
+  }
+}

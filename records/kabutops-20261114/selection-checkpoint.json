@@ -1,0 +1,39 @@
+{
+  "card": "투구푸스",
+  "style": "anime_25d_gloss",
+  "status": "candidate_2_selected",
+  "worktree": "/workspace/scratch/f4bddd759011/kabutops",
+  "designs": {
+    "1": {
+      "design": "generator",
+      "prompt": "candidate1-prompt.txt",
+      "submitted_sha256": "5f3f5dd79f3e02e06094c8a382efccecc17480ac54791c38aa911cb27db239bc",
+      "original": "/workspace/scratch/f4bddd759011/generated_images/exec-c934fb0f-8cfc-41b6-8f6f-d2882fb5cf91.png",
+      "original_sha256": "ee009cf0e9c7ae69704016bacc4bafca64bb71cd5feff9be991668ac2d1bd5f7"
+    },
+    "2": {
+      "design": "generator",
+      "prompt": "candidate2-prompt.txt",
+      "submitted_sha256": "5f3f5dd79f3e02e06094c8a382efccecc17480ac54791c38aa911cb27db239bc",
+      "original": "/workspace/scratch/f4bddd759011/generated_images/exec-8d855ab9-3b5b-4710-a9a2-14fadf5efd27.png",
+      "original_sha256": "9a670b04a53a8a0bd0b4765843e3bd6dd1a9484ffb324af7e194c5e9d0770c93"
+    },
+    "3": {
+      "design": "gpt_free",
+      "prompt": "candidate3-prompt.txt",
+      "submitted_sha256": "e21eb7f68ef0ab4011103477cf9ea368a68044a6f543b6d6b3b9c53af07d7d39",
+      "original": "/workspace/scratch/f4bddd759011/generated_images/exec-874dc6ef-a692-402e-a519-2b21abae18ec.png",
+      "original_sha256": "d3c281e7be474ffb916b251a2d7ee03cb20870a8b7d4ea2c85a3b1aa7b8ffd03"
+    },
+    "4": {
+      "design": "gpt_free",
+      "prompt": "candidate4-prompt.txt",
+      "submitted_sha256": "70894542b2c8e85cf604d493b0cf3afb634604b6d2852c8c855cca580eac95c9",
+      "original": "/workspace/scratch/f4bddd759011/generated_images/exec-42fa74c4-24e0-422f-ba06-bd0fdfce290f.png",
+      "original_sha256": "2bb1a867881a870cd3f7e5c4ffa93da4d15bd059b28563608f803e74bbb61b34"
+    }
+  },
+  "no_regeneration_for_exposure": true,
+  "selected_candidate": 2,
+  "selection_source": "user reply 2"
+}

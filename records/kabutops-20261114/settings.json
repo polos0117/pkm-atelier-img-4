@@ -1,0 +1,191 @@
+{
+ "version": 4,
+ "card": "투구푸스",
+ "no": 141,
+ "style": "anime_25d_gloss",
+ "plan": "/workspace/scratch/f4bddd759011/pack/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   },
+   "exposure": "",
+   "exposure_why": "",
+   "mecha": {
+    "set": {
+     "silhouette": "full_armor"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "water"
+     },
+     {
+      "key": "aura",
+      "type": "rock"
+     },
+     {
+      "key": "trail",
+      "type": "water"
+     }
+    ]
+   },
+   "mecha_auto": {
+    "set": {
+     "silhouette": "full_armor"
+    },
+    "fx": [
+     {
+      "key": "hand",
+      "type": "water"
+     },
+     {
+      "key": "aura",
+      "type": "rock"
+     },
+     {
+      "key": "trail",
+      "type": "water"
+     }
+    ]
+   },
+   "mecha_recent": [],
+   "mecha_why": ""
+  },
+  "casual1": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual2": {
+   "scene": "",
+   "outfit": "An ivory and warm cream backless halter sundress with a securely fitted closed-front bodice and a knee-length flared opaque skirt, espadrilles; a relaxed outdoor holiday look.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "Safety redirection: first generation batch returned moderation_blocked sexual (request 0545cf20-1333-43bb-9017-34b72b9a3a73); no image returned for cuts 2, 3, 4 before batch interruption. Use a nonsexual fully covered fashion alternative; preserve delivered cut 1."
+   },
+   "exposure": "low",
+   "exposure_why": "Safety redirection: first generation batch returned moderation_blocked sexual (request 0545cf20-1333-43bb-9017-34b72b9a3a73); no image returned for cuts 2, 3, 4 before batch interruption. Use a nonsexual fully covered fashion alternative; preserve delivered cut 1.",
+   "situ": ""
+  },
+  "casual3": {
+   "scene": "",
+   "outfit": "A sage and olive green satin camisole with a high straight neckline under a fitted opaque short-sleeve satin overshirt, matched with high-waisted wide-leg trousers; relaxed, fully covered daywear with the polished stitching of luxury lounge fashion.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "Safety redirection: first generation batch returned moderation_blocked sexual (request 0545cf20-1333-43bb-9017-34b72b9a3a73); no image returned for cuts 2, 3, 4 before batch interruption. Use a nonsexual fully covered fashion alternative; preserve delivered cut 1."
+   },
+   "exposure": "low",
+   "exposure_why": "Safety redirection: first generation batch returned moderation_blocked sexual (request 0545cf20-1333-43bb-9017-34b72b9a3a73); no image returned for cuts 2, 3, 4 before batch interruption. Use a nonsexual fully covered fashion alternative; preserve delivered cut 1.",
+   "situ": ""
+  },
+  "casual4": {
+   "scene": "",
+   "outfit": "An ivory silk bib-front halter with a rounded collar and opaque chest panel, paired with a burgundy satin folded cummerbund over tailored pleated trousers; refined evening fashion with a secure fit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "Safety redirection: first generation batch returned moderation_blocked sexual (request 0545cf20-1333-43bb-9017-34b72b9a3a73); no image returned for cuts 2, 3, 4 before batch interruption. Use a nonsexual fully covered fashion alternative; preserve delivered cut 1."
+   },
+   "exposure": "low",
+   "exposure_why": "Safety redirection: first generation batch returned moderation_blocked sexual (request 0545cf20-1333-43bb-9017-34b72b9a3a73); no image returned for cuts 2, 3, 4 before batch interruption. Use a nonsexual fully covered fashion alternative; preserve delivered cut 1.",
+   "situ": ""
+  },
+  "casual5": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual6": {
+   "scene": "",
+   "outfit": "An ivory and warm cream bridal-inspired travel dress with a fully lined lace yoke, a closed high neckline, short sleeves and an opaque calf-length skirt, worn with flat travel shoes; a small ivory hair ribbon, no veil.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "Safety redirection after cut 6 returned moderation_blocked sexual (request 6748d96d-d1ea-463d-a4b5-d6728526f704); no image returned. Replace lingerie with ordinary bridal-inspired travel fashion."
+   },
+   "exposure": "low",
+   "exposure_why": "Safety redirection after cut 6 returned moderation_blocked sexual (request 6748d96d-d1ea-463d-a4b5-d6728526f704); no image returned. Replace lingerie with ordinary bridal-inspired travel fashion.",
+   "situ": ""
+  },
+  "casual7": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual8": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual9": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  },
+  "casual10": {
+   "scene": "",
+   "outfit": "",
+   "camera": "",
+   "custom": "",
+   "why": {},
+   "exposure": "",
+   "exposure_why": "",
+   "situ": ""
+  }
+ }
+}
