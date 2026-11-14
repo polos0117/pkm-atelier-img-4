@@ -1,0 +1,403 @@
+{
+  "card": "신뇽",
+  "selected": 4,
+  "canonical_original": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png",
+  "canonical_sha256": "ed1fddd44adf1b1b3f9ac18130cd99357cb5db51872f9e904e3730435b503595",
+  "status": "generated_pending_publication",
+  "face_rationale": "User selected candidate 4; violet eyes, soft adult oval/heart face and blue looped braids are fixed by selected image.",
+  "generator_face_basis": "data/face-design.json; free design allowed by IMAGE_RULES",
+  "compared_candidates": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "items": [
+    {
+      "slot": "light",
+      "file": "신뇽_light_anime_25d_gloss_f.webp",
+      "original_sha256": "ed1fddd44adf1b1b3f9ac18130cd99357cb5db51872f9e904e3730435b503595",
+      "sha256": "05655db79a3d1268e62f00b025c4bbfc9803958016050866f18b1b8248628095",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "68bb6a6e10941ae6746b4385e6a2ebc91924d92dc6c91adcf144d95434e87ca9",
+      "submitted_same": true,
+      "generation": {
+        "design": "gpt_free",
+        "reference": null,
+        "free_prompt_file": "light-free-submitted.txt",
+        "selected_candidate": 4
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual1",
+      "file": "신뇽_anime_25d_gloss_f_casual1.webp",
+      "original_sha256": "67312a22a3e5088cafefb9a98792af297b8446f3695005cf5b23699cd8c4a77f",
+      "sha256": "e9acfb48cd115f2620ec2ddbae2c44822246ec1530f86870b8c3ed4483930d2d",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "88fa62503357d0674dbe30d28b1b4ba620b36115c30a8fc16275f801de6b5c59",
+      "submitted_same": true,
+      "generation": {
+        "design": "gpt_free",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual2",
+      "file": "신뇽_anime_25d_gloss_f_casual2.webp",
+      "original_sha256": "f34cebf87b16a7d81c2c44fe8fcf95569280f03ecd619f3c141bb3867f8eed57",
+      "sha256": "8be6ec9d8f370e81471f6790f66b46046940fb2399df07292e939eb40d6a55d5",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "d6882c80d022b7d629452d3e8b9df5768c3709e62d28e5c93fd2c8410358ed22",
+      "submitted_same": true,
+      "generation": {
+        "design": "generator",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual3",
+      "file": "신뇽_anime_25d_gloss_f_casual3.webp",
+      "original_sha256": "02e229f0b1e43ce02fcb3a311551aa46fb953929afdd4925478462a9cf46c1e3",
+      "sha256": "a1eae5dabf63341824e04af78d6140777bc20c29784e621cacb8d41465500283",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "6edc6d0e73bbd8cef063ab189cdbd7bd7928a53649ae5314768fbc6c108ab9e3",
+      "submitted_same": true,
+      "generation": {
+        "design": "generator",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual4",
+      "file": "신뇽_anime_25d_gloss_f_casual4.webp",
+      "original_sha256": "d88b1a7e350322a679da5b772c65d0148544891ed35dba1fa1daa33ca198ff73",
+      "sha256": "d3f1eeb36938e29309ed008db9fa0210b16cd4b0cef862787ade776ac985cbd3",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "4e9bc64039d33ffda366cf7c63bed5e83a61699d4ec83474eb386f904d1bd644",
+      "submitted_same": true,
+      "generation": {
+        "design": "gpt_free",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual5",
+      "file": "신뇽_anime_25d_gloss_f_casual5.webp",
+      "original_sha256": "939f7b082e95282b5011bbd32d306e22fc399c55bd0f7c6340f8e99459bb3438",
+      "sha256": "7584956d2b90197c5ce9d87b579aeb029ed15944cdd394d36db5a7d28ad1c417",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "9615ddeec82cdfc8cb6cfb0889dc693d0107937447759a60680b756f28687e3e",
+      "submitted_same": true,
+      "generation": {
+        "design": "generator",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual6",
+      "file": "신뇽_anime_25d_gloss_f_casual6.webp",
+      "original_sha256": "743643cb4fd1655ae192cd8447b2cd2507e08102efab48fe6d652b04404a0bca",
+      "sha256": "157550f106016e0902fc58793747b0a5dca36f76a89243408a3678b1ee000d4f",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "a0fa8666ae952769823e390d75c89f65cb4b975bd39e21a0a17eff7e11eb946b",
+      "submitted_same": true,
+      "generation": {
+        "design": "generator",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual7",
+      "file": "신뇽_anime_25d_gloss_f_casual7.webp",
+      "original_sha256": "bbed8a3156345d59cd1378e7224ee54ab57aad41a282ed8ce7c06a9e81f7a475",
+      "sha256": "56c28f65dbd4c91a2d4a52066234efcaacbed5821981bbb5eb1b7b8aaca2f1fd",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "d731a7021019cfaac940be609a6ee62c2630ab48aac81579bfd75505e92d00ea",
+      "submitted_same": true,
+      "generation": {
+        "design": "generator",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual8",
+      "file": "신뇽_anime_25d_gloss_f_casual8.webp",
+      "original_sha256": "41cc72fd070e67ef4773f702a6a7fa7dc3fc41d49b88863da9471169e489db60",
+      "sha256": "dfd30cd97d7922ebfa7251d1c6b662b05ffd3d4bb5597edccf76c4554cc2eb66",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "d283d7c3d6c1a58a289b3eb1dd3346f5171ccea9e2b792a69cbda35f23d809c0",
+      "submitted_same": true,
+      "generation": {
+        "design": "generator",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual9",
+      "file": "신뇽_anime_25d_gloss_f_casual9.webp",
+      "original_sha256": "b04ad42c554392aac47308085b5a5366180c240aecbf768915a75dafbf8ca5e0",
+      "sha256": "f91f8f013987ff48575d53438dc2535437a7f75dd333e5554d047eb56b2a9311",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "ef9cec86d7b6a8f83be6bbef6f00925a88c976c2d3164c8f3efd68db0cdef5b7",
+      "submitted_same": true,
+      "generation": {
+        "design": "gpt_free",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual10",
+      "file": "신뇽_anime_25d_gloss_f_casual10.webp",
+      "original_sha256": "4f6bccd1f040da115da33cc7da198cd36676f58512abd77b3b50618ab107b61e",
+      "sha256": "f1016235a97fdd4c3b00682c871d134449132a603bc68e43c78ca393d7802463",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "3b8d670d5aafce6e23809d8cafbf553a46ec739171aaada1fcb4a0d495ad7165",
+      "submitted_same": true,
+      "generation": {
+        "design": "generator",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    },
+    {
+      "slot": "casual90",
+      "file": "신뇽_anime_25d_gloss_f_casual90.webp",
+      "original_sha256": "7517a78e819896cb1792869f188d083681c849be3dc1dbe2bf5181722211fcd4",
+      "sha256": "3f8af751c91c8e4e88bbd2b94e8c11c45f21012aecdcfd4b35ad0288210de5bd",
+      "width": 1024,
+      "height": 1536,
+      "style": "anime_25d_gloss",
+      "submitted_sha256": "29e3f8441f754ffc57f599e6bbd7cbc5f9166dc904fd5badffc457ce81e58a29",
+      "submitted_same": true,
+      "generation": {
+        "design": "generator",
+        "reference": "/workspace/scratch/877d6a122cb0/generated_images/exec-b9f4b0dd-1d05-457e-9783-8413dc74a5b1.png"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "issue": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visually reviewed: two connected arms; visible fingers anatomically coherent, hidden digits occluded by grip or crop.",
+        "overlay_checked": false,
+        "note": "No detached or duplicate hands/arms. Cropped limbs continue beyond frame."
+      },
+      "style_25d": {
+        "result": "match",
+        "evidence": "Soft gradients model nose, lips and cheeks; colored subtle contours; glossy highlights and layered hair."
+      },
+      "exposure": {
+        "result": "match",
+        "note": "Generated output preserved; no image regenerated for exposure review."
+      }
+    }
+  ]
+}
