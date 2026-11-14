@@ -1,0 +1,108 @@
+{
+  "card": "이브이",
+  "style": "anime_25d_gloss",
+  "branch": "work/eevee-3a88",
+  "code_commit": "",
+  "selected": 1,
+  "candidates": [
+    {
+      "number": 1,
+      "design": "atelier",
+      "original": "/workspace/scratch/3a880201cdc5/generated_images/exec-d8004630-e738-43df-a4fc-8db24178bc41.png",
+      "sha256": "860789d9dee791854f17696ada0784f697c3e9fc110220692889aff9a6126147",
+      "size": [
+        1024,
+        1536
+      ],
+      "prompt_file": "/workspace/scratch/3a880201cdc5/eevee-pack/light-prompt.txt",
+      "submitted_sha256": "01ce3ca49b76cd28c10158c9a72d60428c59a72db5ffa8f6122de23b5eeb5fe8",
+      "status": "selected",
+      "qa": {
+        "style_25d": "dimensional skin gradients and fine colored contours; glossy metal surfaces",
+        "anatomy": {
+          "tool": "unavailable: not run for preliminary selection",
+          "arms": 2,
+          "legs": 2,
+          "hands": "both connected; closed fists or overlapped fingers partly occluded",
+          "issue": "ok"
+        }
+      },
+      "notes": [
+        "ear ornaments touch top edge"
+      ]
+    },
+    {
+      "number": 2,
+      "design": "atelier",
+      "original": "/workspace/scratch/3a880201cdc5/generated_images/exec-bf54abe4-366a-412d-9dfa-99bbf76c12c7.png",
+      "sha256": "bb2b62802582e6ce045891f344dcb0d71fd02ed8eec0b17cf135407fa95403e3",
+      "size": [
+        1024,
+        1536
+      ],
+      "prompt_file": "/workspace/scratch/3a880201cdc5/eevee-pack/light-prompt.txt",
+      "submitted_sha256": "01ce3ca49b76cd28c10158c9a72d60428c59a72db5ffa8f6122de23b5eeb5fe8",
+      "status": "awaiting_user_selection",
+      "qa": {
+        "style_25d": "dimensional skin gradients and fine colored contours; glossy metal surfaces",
+        "anatomy": {
+          "tool": "unavailable: not run for preliminary selection",
+          "arms": 2,
+          "legs": 2,
+          "hands": "both connected; closed fists or overlapped fingers partly occluded",
+          "issue": "ok"
+        }
+      },
+      "notes": []
+    },
+    {
+      "number": 3,
+      "design": "gpt_free",
+      "original": "/workspace/scratch/3a880201cdc5/generated_images/exec-d21584a0-f93c-4a02-879b-c50db9c64bc4.png",
+      "sha256": "a68c309cb7707cb27c7524ca6440a5a0f53a1255c98a8903495c555f4be42719",
+      "size": [
+        1024,
+        1536
+      ],
+      "prompt_file": "/workspace/scratch/3a880201cdc5/eevee-pack/candidate3-prompt.txt",
+      "submitted_sha256": "17fdea36650ca1c40728802362174ebdcda968cafa27dc8c26379db8154bc2f4",
+      "status": "awaiting_user_selection",
+      "qa": {
+        "style_25d": "dimensional skin gradients and fine colored contours; glossy metal surfaces",
+        "anatomy": {
+          "tool": "unavailable: not run for preliminary selection",
+          "arms": 2,
+          "legs": 2,
+          "hands": "both connected; closed fists or overlapped fingers partly occluded",
+          "issue": "ok"
+        }
+      },
+      "notes": []
+    },
+    {
+      "number": 4,
+      "design": "gpt_free",
+      "original": "/workspace/scratch/3a880201cdc5/generated_images/exec-8d531bbc-f966-424b-8983-8a4a9b7ecac0.png",
+      "sha256": "2e621224517ac5252591531b4e45e83c02c6abc5182676fda098c8c656544408",
+      "size": [
+        1024,
+        1536
+      ],
+      "prompt_file": "/workspace/scratch/3a880201cdc5/eevee-pack/candidate4-prompt.txt",
+      "submitted_sha256": "de2fb79956d3acbb29011300a784e1395beaf9ffefe659b3862c24d958da9666",
+      "status": "awaiting_user_selection",
+      "qa": {
+        "style_25d": "dimensional skin gradients and fine colored contours; glossy metal surfaces",
+        "anatomy": {
+          "tool": "unavailable: not run for preliminary selection",
+          "arms": 2,
+          "legs": 2,
+          "hands": "both connected; closed fists or overlapped fingers partly occluded",
+          "issue": "ok"
+        }
+      },
+      "notes": []
+    }
+  ],
+  "authorization": "After user selection, create daily images and commit/push normally to main. No force push or deletion. Do not regenerate due to exposure censorship."
+}
