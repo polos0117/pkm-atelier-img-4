@@ -1,0 +1,348 @@
+{
+  "light": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both gloved hands join the corresponding wrists. Open hand has five digits; loose fist partly hides fingers. Two connected legs and booted feet.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "27e5674504d02d7c4aafb6b0ad7316dde0be13f75bf97e3b77bc1be6b9031396",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": null
+    }
+  },
+  "casual1": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both shoulders, elbows, forearms and wrists are connected; both hands press the headphone cups. Fingers partly occluded by the ear cups, no extra digits visible.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "81ea222d56322e7eb6b960a0b0351f5c4ecf6932ab1909093d1d0bcfac0f3df2",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual2": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five digits on the hand resting over the knee; supporting palm joins straight forearm, fingers overlap in perspective. Both knees and legs connected; feet outside crop.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "Generated pose rests one hand on knee rather than shin; dry swimsuit and natural resting gesture retained.",
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "7667a7cc21a12726dda51865bcba820d85aed5a5c57962e5c2171224e8a8e543",
+      "submitted_same": true,
+      "free_prompt": "casual2-free-prompt.txt",
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual3": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two glove-covered hands interlace at chest level; overlapping fingers partially hide each other. Both wrists and upper arms connected; lower legs outside crop.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "Costume is more rigid and armor-like than requested fabric bodysuit; preserved as generated.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "9fef33e0a5228c3c5a2d5da77551bea4ba58170eedd25a046f2a3b53d1803289",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual4": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right fist supports cheek and joins forearm; fingers partly hidden by cheek. Supporting left palm has overlapping fingers on straw; both legs connected and bent naturally.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "55561ee2ef0658289b1140feef7812a5ce513a3bc3a49a2d5bff1c1f518695b4",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual5": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One visible hand with raised index and curled fingers, thumb at side. Left shoulder and upper arm continue naturally beyond crop; no floating hand.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "89080bae0f8339aa5fb61691ffc60d62fc7a922685c4f547bcc3a3afb7ec9448",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual6": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Left hand grips bouquet, fingers and thumb partly hidden by stems. Right elbow and upper arm visible, hand hidden behind head. Two continuous legs, both feet with five toes.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "Small original head ornament remains; recorded without regenerating.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "01198f053ed14facefe85d68c5c7629421ba70d5791522deb3f97c7f95278963",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual7": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Gloved hand grips cone with curled fingers and opposing thumb; other arm continues below crop. Both shoulders connected. Lower body outside crop.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "Cone appears in opposite hand relative to planned hand assignment; attachment and fingers checked, preserved.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "35ed37466943e81a9462847ecb20841f3d94e0309b45c952be93130a7a78965a",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual8": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two hands rest on ledge, fingers partly overlapped in perspective; both connected wrists and elbows visible. Two legs and both feet in heels.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "Background crowd removed with a targeted edit. Foreground woman, clothing and exposure preserved.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "6f3036e5de475eefdd147d23d0542f51ebbdb299265a357c9165f1dd40b95d44",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5",
+      "correction": {
+        "reason": "remove background second people; not exposure",
+        "prompt": "casual8-correction-prompt.txt",
+        "original_attempt_sha256": "4c8ca28f6b10346be3feabb20258c64ee67be9289a9b25218027d33193414e88"
+      }
+    }
+  },
+  "casual9": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands cup one warmer with fingers wrapping its sides and thumbs opposed. Both forearms and elbows clearly connected to shoulders. Both thighs and knees visible, lower legs cropped.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "Slightly pointed visible ear retained as generated.",
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "45f41ef5a606d972edd2fc5721a0aa6508f418b745420758fe4fa8fbf0262bd8",
+      "submitted_same": true,
+      "free_prompt": "casual9-free-prompt.txt",
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual10": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two relaxed hands hang from connected forearms; digits partly overlap in edge view. Two continuous legs and feet in sandals, toe groups plausible.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "Generated body faces front three-quarters rather than planned rear three-quarters; framing and outfit retained.",
+    "generation": {
+      "design": "gpt_free",
+      "submitted_sha256": "5bd082f4638f5942dfc5802ee6f0ae058fcf366d66be25662b21b6993add2838",
+      "submitted_same": true,
+      "free_prompt": "casual10-free-prompt.txt",
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5"
+    }
+  },
+  "casual90": {
+    "anatomy": {
+      "issue": "ok",
+      "tool": "unavailable: mediapipe not installed (No module named mediapipe); tool exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Right hand rests on knee, fingers separated naturally. Left hand rests at chair edge with flexed fingers and partly obscured thumb. Two connected legs and crossed ankles, feet covered by shoes.",
+      "overlay_checked": false,
+      "note": "Visually inspected original image and enlarged hand crops; hidden or cropped parts recorded explicitly."
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft gradients model nose, cheek, chin and lips; fine colored contours and glossy skin highlights rather than flat two-tone cel shading."
+    },
+    "identity": {
+      "reference": "user-selected candidate 2",
+      "evidence": "Sapphire-blue narrow eyes, blonde box braids with vivid blue accent braids, choppy bangs and angular adult face retained."
+    },
+    "note": "Hair tied up per own-cut outfit while braid identity retained.",
+    "generation": {
+      "design": "project",
+      "submitted_sha256": "57ebb2f6c010e2800a2e22aac27bd83efe8cb4736a630483b114195feafe2d61",
+      "submitted_same": true,
+      "free_prompt": null,
+      "method": "built-in image generation",
+      "reference_image_original_sha256": "d953fe354b1c351b224956f23226c2f274529d5bae521d368c714305c64cfda5",
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    }
+  }
+}
