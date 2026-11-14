@@ -1,0 +1,108 @@
+{
+ "storage": {
+  "last": "프테라",
+  "cards": {
+   "프테라": {
+    "style": "anime_25d_gloss",
+    "identityMode": "create",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {
+     "body type": "an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy"
+    },
+    "locks": {},
+    "mode": "action",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "aspect": true
+      },
+      "era": "now",
+      "place": "street_cafe",
+      "act": "coffee_takeout",
+      "ofam": "everyday",
+      "item": ""
+     }
+    },
+    "mecha": {
+     "set": {
+      "silhouette": "cape_plates"
+     },
+     "fx": [
+      {
+       "key": "hand",
+       "type": "rock"
+      },
+      {
+       "key": "aura",
+       "type": "flying"
+      },
+      {
+       "key": "ground",
+       "type": "rock"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "prompt": "Input: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\nSource: Aerodactyl (프테라), rock / flying type.\nSubject: A female mecha personification character with Aerodactyl as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\nOutput: one dynamic action image that is also this form's card art.\n\n1. STYLE\nHigh-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own Face line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing and armor, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\n2. CHARACTER\nFace — her own structure, not the style's default face: angular face, balanced length, medium width; angular defined jaw; sharp eyes, medium size, upturned outer corners, close-set; angled brows; long nose with low tip; wide mouth.\nHair: long wind-wing hair (long hair streaming back like a pair of swept wings), side-swept bangs.\nHair color: her main hair color is the creature's own main color; white for her flying type runs through it as the accent, in streaks and at the tips.\nImpression (reads even at card size): a stoic, steadfast woman in her late twenties; a firm, unwavering gaze; amethyst purple eyes; no eyeliner, natural strong brows.\nIdentity (chosen details override the automatic look)\nbody type: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy\nbody scope: Body type sets the build; body details adjust within it. These describe anatomy beneath armor, not equipment volume.\nProportions: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. Her worn features are costume, never extra limbs.\nBody: a normal human body — elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\nHands: Keep both hands relaxed — a loose fist, an open palm or resting on something. Gloves are full-finger and close-fitting; plates, water, sparks and effects stay off the fingers.\nAnatomy: one head, two arms and two legs, each joined at its natural joint; natural hands with five fingers.\n\n3. ARMOR — LIGHT\nCostume: one layer of thin, close-fitting hard armor that covers most of her body: a chest plate joined to segmented abdominal plates down to her hips, shoulder pauldrons, upper-arm and forearm plates with gauntlets, hip and thigh plates, knee guards, shin guards and armored boots; the fitted undersuit shows only in narrow gaps at the joints, joints free. The plates stay thin and close to her body, so the outline is slim and readable without slimming her figure. No helmet; at most a slim headband or temple sensor.\nArmor: rigid hard-surface mecha armor — solid plates of enamelled metal and ceramic with visible thickness, bevelled edges, layered rims, panel lines, seams, small vents, sensor lights and mechanical joints, casting real shadows onto the undersuit. The plates sit on top of her body as separate machined parts, never printed or painted onto fabric, never a patterned bodysuit.\nSilhouette: several long rigid jointed plates hanging from behind the shoulders to the ankles like a cape — plates, not cloth. Solid hard-surface plates that read as armor, not cloth.\nColours: light blue-gray, violet.\nWear: the large, violet membranous wings become a split cape falling from her shoulders, cut in the same shape and colors; the strong tail becomes a long sash hanging from the back of her belt, in the same shape and colors; the small sharply pointed ears become a headpiece or hair ornament of the same shape.\nExposure: armor and undersuit open by design only at bare shoulders and upper arms, and a bare midriff; everywhere else fully covered. Plates stay on and symmetrical; nothing slipped off; intimate areas covered.\n\n4. SCENE\nComposition: Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion. Camera level with her face; her body and face turned gently three-quarters toward the camera (never a back view), her head level with her chin neither raised nor tucked, no upward perspective on her face.\nPose: Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\nType effects: One open hand conjuring a sandy-gold glow amid orbiting rock fragments. Her whole silhouette is outlined by a pale sky-blue glow with white wind streaks, clearly visible as a bright rim of light along her body and armor. Cracked stone plates lift slightly from the floor beneath her boots.\n\n5. CONSTRAINTS\nOne figure only.\nAvoid: second character, creature beside her, text, lettering, logo, watermark, speech bubble, frame border, extra limbs."
+}
