@@ -1,0 +1,390 @@
+{
+  "card": "라프라스",
+  "style": "anime_25d_gloss",
+  "selected_candidate": 1,
+  "status": "passed_with_noted_minor_variations",
+  "inspection": "Manual visual inspection of all returned full-size images and final contact sheet; mediapipe unavailable.",
+  "reference_sha256": "284ee37fe833c3ea7c051357396919ad3ef204e7c0d60daecd6ae2a2ba119e60",
+  "regeneration_policy": "No returned image was regenerated for exposure. casual1 received no image in blocked attempts; exposure moderate used for the successful first returned image.",
+  "comparison": {
+    "metadata": "Planner checked current casual UI and reservation metadata; legacy glossy_promo Lapras excluded from new-style existence detection while all legacy files remained unchanged.",
+    "viewed_sheet": "gyarados-complete-sheet.jpg",
+    "observations": "The gym close-up shares a finger-to-lips gesture and brown palette with one Gyarados close-up, while expression and setting differ. Other scenes use different fitted costumes, locations, active gestures, courtyard kneeling, art-studio seated book pose, cable-car ticket reading and harbor captain. A single close-up motif recurs; the full collection is visually varied."
+  },
+  "slots": {
+    "light": {
+      "file": "라프라스_light_anime_25d_gloss_f.webp",
+      "original_sha256": "284ee37fe833c3ea7c051357396919ad3ef204e7c0d60daecd6ae2a2ba119e60",
+      "webp_sha256": "342339a10c586ca6a798cc18f946bc1dbb67ec8b18d70f615a2625c70d286ba7",
+      "submitted_sha256": "c5d5bea3f2c13a479f3f86a6fe596fa5e3cadc4abeb1fbf1d715a584b5de3587",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Ice-lagoon full figure; gray shell mantle, floating waist and ankle rings; navy eyes and long blue mermaid waves.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two gloved hands: open left palm shows five fingers, right hangs with fingers together. Two armored legs and both boots visible.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "bold"
+      }
+    },
+    "casual1": {
+      "file": "라프라스_anime_25d_gloss_f_casual1.webp",
+      "original_sha256": "095e9e14141e709653464ac076641aa9a112672dfd5440388a36d6a4f9ee65c5",
+      "webp_sha256": "d858aabfcad9be556d624281baf73be76d5cb77080fa0778b50d10406055f1d5",
+      "submitted_sha256": "0c4d610960c11b619df707d2a3cce3857c1e840b3baa4a88f347006dc9ddd12b",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Closet fitting corner; seated in a soft Lapras hood costume, left glove at cheek and right hand braced on carpet.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms join the correct shoulders; right floor-bracing glove has five digits; left curled fingers partly occluded against the cheek. Two bent legs visible.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "moderate",
+        "blocked_requests": [
+          "9f819ac3-42b5-48df-8df6-cf7f97aa0e71 (aborted batch, individual slot not returned)",
+          "ec86bdd3-1d17-416b-8dd6-6004bf6cc625"
+        ],
+        "first_returned_exposure": "moderate"
+      }
+    },
+    "casual2": {
+      "file": "라프라스_anime_25d_gloss_f_casual2.webp",
+      "original_sha256": "efa389a86c0dd9fea59b72a3f46f7b5fbc6a3875574fe6aaee03691c6caf70d3",
+      "webp_sha256": "d459597d0402498982282f620b46b7fe03865c91e0eadf094bace20f5d4a996a",
+      "submitted_sha256": "07dec2b0e6fcfc9946cce826074b677f606e959587fc0af69b83cf989bf2e511",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Gym close-up, laughing eyes, brown workwear and a raised index finger near her lips.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right upper arm and forearm connect to raised gloved hand; four fingers curled, index extended and thumb placed at the grip. Left upper arm continues below the crop. Legs outside crop.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "bold"
+      }
+    },
+    "casual3": {
+      "file": "라프라스_anime_25d_gloss_f_casual3.webp",
+      "original_sha256": "c6dff9dba92f9e4b67cf9ae32ebc79a59fd71a6ddcf8c516c1bdc32848ba4f72",
+      "webp_sha256": "2c4aafdcc39742b230db510dae93af99c38f149f88ab17c02240f06b43b8a44f",
+      "submitted_sha256": "0e870284f38c6814139f862cb40886ffc2b3c40a37891637a55265bc40216334",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Art studio seated on a wooden stool, holds a closed green sketchbook to chest; terracotta crossover top and cream wrap culottes.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right hand wraps the book with digits partly occluded by its edge; left hand on knee shows five digits. Two separate legs continue to sandals. Knees cross more than the selected knees-together setting; recorded.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "gpt_outfit",
+        "reference": "light",
+        "exposure": "bold"
+      }
+    },
+    "casual4": {
+      "file": "라프라스_anime_25d_gloss_f_casual4.webp",
+      "original_sha256": "546e263b135bf2ef7528f43c0a0aa49d4046f1509f275546dfc9daf8a46d2ca0",
+      "webp_sha256": "abeb0f944cc431b55137bb9fbf9b922d3a2345d780c35ca5e049dc49429bc537",
+      "submitted_sha256": "f5674721996cb35faef37e7875b5aa5b272d962f893429417637f77d292fcda2",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Neon bar, body gently turned, olive satin lingerie-inspired slip, right hand holds a stemmed coupe and left rests on rail.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right wrist/forearm join shoulder and glass-holding hand naturally; fingers partly hidden around stem. Left rail hand has five digits. Lower legs outside crop.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "bold"
+      }
+    },
+    "casual5": {
+      "file": "라프라스_anime_25d_gloss_f_casual5.webp",
+      "original_sha256": "8a2f0d682e724f01b86df777d1562699c9f71e1f09f2fc5a481791f4cc23d322",
+      "webp_sha256": "533e19ad5ee84ce1610880a00c0fe8c02d46ab14ec5b3a4d3545d6abff98c718",
+      "submitted_sha256": "23bb1d7f865abd4864d6e7272eae7be9a49be50ca27375f0597de0aa7ffff741",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Star-stage pirate event costume in red brocade and gold braid, one boot placed on a low step, right hand at hip and left on bent thigh.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both shoulder-to-elbow-to-wrist chains readable; five digits visible at each resting hand. Two separate legs and boots; lifted knee points along the shin.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "bold"
+      }
+    },
+    "casual6": {
+      "file": "라프라스_anime_25d_gloss_f_casual6.webp",
+      "original_sha256": "e67961505e188d14ff3ae511067d088bffff75c70744078da0b2f2bd25da89f3",
+      "webp_sha256": "1e0f8efed1168dc7a2c15b6ed395be0c6b2c91fd596a5a16a7e222f0269c68eb",
+      "submitted_sha256": "4de536d06efcaadcf231ca2566202164c425a2d14115e242411a61c0598f72d0",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Morning grassy courtyard with exactly one Lapras companion; kneeling in floral resort shirt and denim shorts; wind sweeps hair and fabric to one side.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two forearms rise from matching shoulders into loosely clasped hands; overlapping fingers partly occluded in clasp. Two kneeling thighs and lower legs fold back naturally; no extra human figure.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "bold"
+      }
+    },
+    "casual7": {
+      "file": "라프라스_anime_25d_gloss_f_casual7.webp",
+      "original_sha256": "d46f2119c48f1f32c3dae3fcf88b5db1b3ad6f68b01b99bffb8a9ca0573d6a5f",
+      "webp_sha256": "f7685d01f3de2bbb678da77abddf0c2229883e7b414fdf05b06441363d9363a9",
+      "submitted_sha256": "5b417e4a019c1eeb634d9738f85f75a7f5c7e840f0b1820841f7513c16308fbc",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Planetarium rehearsal, cranberry guide costume with stable side-waist openings; right index points toward a projected star and left palm presents the dome.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two complete arm chains visible, right hand has pointing index and other fingers curled, left open hand has five digits. Two crossed legs and separate heeled shoes. Large curl ornaments persist from reference; decorative carryover recorded.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "gpt_free",
+        "reference": "light",
+        "exposure": "bold",
+        "free_prompt": "CHARACTER: the same woman as the attached image — Lapras (라프라스) personified, water / ice type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: an intimate planetarium event stage under a projected star dome, a brass orrery on a low plinth, soft indigo and amber event lights.\nActivity: during a private rehearsal she enthusiastically traces the arc of an imaginary constellation with both arms raised outward, enjoying the idea of navigating by stars.\nOutfit: an original adult planetarium-guide stage costume: an opaque cranberry satin sculpted cropped bodice with a curved neck yoke, two crescent openings along the side ribs, and a pair of high-waisted petal-panel tailored shorts with a small asymmetrical gold capelet attached only at the collar. This tailored design is absent from our outfit catalog; chest and pelvis stay securely covered.\nSituation: the upward reach naturally elongates her torso and opens the crescent spaces at her side ribs, showing a little more of her waist through the costume's stable constructed openings; the outfit stays firmly in place and opaque.\nPose and arms: standing with a relaxed weight shift, her own right arm travels visibly from shoulder to elbow to a forearm raised toward a star above her; right hand points with one index finger. Her own left upper arm extends sideways from her left shoulder, elbow softly bent, left forearm lifted with an open palm presenting the other side of the dome. Each hand has one job.\nComposition: a full-body view at eye level, body gently three-quarters toward the camera, face turned to the camera, complete head and feet inside the vertical frame, both arms and their shoulder connections readable. No second person.\nEXPRESSION: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+        "exception": "IMAGE_RULES free-scene design: SCENE replaced; fixed sections, expression and intensity preserved."
+      }
+    },
+    "casual8": {
+      "file": "라프라스_anime_25d_gloss_f_casual8.webp",
+      "original_sha256": "00f2d10103380653d3d5d78a9d5ed24fd7552807797b80df23adbc500085f8dd",
+      "webp_sha256": "6fba5e2af65b31713daa0933f994679b3cf5e86e697c9cbbfd64dc68ca24e59c",
+      "submitted_sha256": "2ef79f1a38a97de054286f1538a81eb05cfbb755cf5a755ef129adee8454d5e6",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Neon park fountain, ivory swimwear and a floral yukata outer layer, she looks at an ice-cream cone in her right hand.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Right gripping hand connects through a continuous wrist and forearm; some digits overlap cone. Left relaxed hand at side shows five digits. Legs outside crop.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "bold"
+      }
+    },
+    "casual9": {
+      "file": "라프라스_anime_25d_gloss_f_casual9.webp",
+      "original_sha256": "462c8db5ddb26a8b155751b824828c4a6590a3aad439ca1a0e4dca9bba3a8726",
+      "webp_sha256": "83c8b7db4e4a828b20f198584cc40cb289e00465e3d01a44bd637a483bee6a42",
+      "submitted_sha256": "cb97168b9ec5d5292d104c88f41681f4cd622cedebd19e9c7299d9dd28f7bfc4",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Cycling-road bridge at blue hour; profile face lowered gently, right hand tucks hair behind ear, charcoal explorer scarf and top.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Raised right wrist connects to forearm and shoulder; hair partially covers fingertips. Left shoulder and upper arm continue off-frame; no floating hand. Legs outside crop.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "bold"
+      }
+    },
+    "casual10": {
+      "file": "라프라스_anime_25d_gloss_f_casual10.webp",
+      "original_sha256": "3b2c3cc7c0905ef628daf64c09ad9d3fe553a5b298806c9b087a7a457a5b29a0",
+      "webp_sha256": "89c5d9b2797a1820431ce5f23a867ae4db66a1a2d172faeb37ee9f0ee551a9cd",
+      "submitted_sha256": "5c4e9ed8e39a5914636cbc940a289d758f789d0e50efd3f6debd367ee87cebf2",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Sunrise cable-car cabin; holds a ticket and rests left hand on window rail; coral folded-bow top and ivory panel skort.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms trace to matching shoulders; right hand grips ticket with some digits hidden, left rail hand shows five digits. Seated thighs continue below the frame. Ticket carries small invented marks; recorded without regeneration. Curl ornaments remain as accessory carryover.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "gpt_free",
+        "reference": "light",
+        "exposure": "bold",
+        "free_prompt": "CHARACTER: the same woman as the attached image — Lapras (라프라스) personified, water / ice type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a mountain cable-car cabin at sunrise above a broad green valley, warm sunlight through the large side window, distant blue lakes far below.\nActivity: on her first journey above the mountains, she checks a small paper ticket and studies the view with quiet concentration.\nOutfit: an original coral matte crepe folded-bow bustier with wide crescent shoulder bands, a diagonal cutaway waist, and an ivory high-waisted overlapping panel skort; the broad opaque folds secure the chest and pelvis, with bare shoulders, side waist and legs. This precise linked-panel ensemble is absent from our outfit catalog.\nPose and arms: seated upright on a padded cabin bench, torso angled gently three-quarters toward the camera. Her own right upper arm descends from her shoulder beside her body, elbow bent comfortably, forearm rising to a hand holding the paper ticket near her chest. Her own left arm descends from her left shoulder, elbow slightly bent, left forearm extends toward the window and left hand rests on the horizontal window rail. Both hands have a single clear task and both arms remain readable.\nComposition: a waist-up view from eye level across the cabin; her face turns slightly toward the ticket and remains visible in three-quarter view, both shoulders and forearms in frame, the sweeping valley visible through the window. The lower body continues naturally below the crop.\nEXPRESSION: slightly drawn brow, narrowed steady eyes, mouth firmly closed. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+        "exception": "IMAGE_RULES free-scene design: SCENE replaced; fixed sections, expression and intensity preserved."
+      }
+    },
+    "casual90": {
+      "file": "라프라스_anime_25d_gloss_f_casual90.webp",
+      "original_sha256": "a2b1d2d32036f4d5d8919308ab869e2b031fc785e5fa0b2b8f96d5932bcc44a1",
+      "webp_sha256": "8681908cd59e30d1ec70ebe6eba96c24e39ad1fb594aa2e7a9a159633292508b",
+      "submitted_sha256": "dbce819a7f646b36510cdc8f28fd3e94a9a788be6c9c0448c105476d3a9f65f1",
+      "submitted_same": true,
+      "style_25d": {
+        "pass": true,
+        "evidence": "Soft colored facial contours, blended nose/lip/jaw shading, finely layered blue hair highlights and dimensional garment folds are visible."
+      },
+      "identity": {
+        "pass": true,
+        "evidence": "Blue-to-icy-blue waist-length wavy hair, navy almond eyes, soft oval jaw and the reference skin rendering persist."
+      },
+      "visual_observation": "Harbor ferry captain seated on a wooden rail, white/navy fitted sleeveless captain jacket, shorts and shell-badge cap; island harbor behind her.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both hands brace beside hips with five digits each, wrists and elbows connected; two seated legs continue below crop with a natural crossed-knee line.",
+        "overlay_checked": false,
+        "issue": "ok",
+        "note": "Manually inspected; hidden digits and cropped legs are described rather than inferred as fully visible."
+      },
+      "generation": {
+        "design": "project",
+        "reference": "light",
+        "exposure": "bold",
+        "own": {
+          "level": "bold",
+          "tries": 1,
+          "blocked": []
+        }
+      }
+    }
+  }
+}
