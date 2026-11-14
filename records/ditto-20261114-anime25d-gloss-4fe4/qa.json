@@ -1,0 +1,267 @@
+{
+  "card": "메타몽",
+  "style": "anime_25d_gloss",
+  "selected": 2,
+  "no_exposure_regeneration": true,
+  "cuts": {
+    "light": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "standing full body, both arms connected, open casting hand and relaxed lowered hand"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "8b267372814b7dbb276ba025bfcea04bde84d6412d0ff2ad7478e6fb0d93fb9a"
+      }
+    },
+    "casual1": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "right arm raised forward for shadow play, left arm down holding cape, knee crop"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "7788c4b2bfa9883a26ab5b5a1770a5157096e87e35bbf0f9cf0bd0de2149fea7",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "gpt_free",
+        "submitted_sha256": "ba1740a8827db66c60d4c17fcefe7b7a33ce5dedc0a830d1145718af1427d8d4",
+        "free_prompt": "CHARACTER: the same woman as the attached image — Ditto (메타몽) personified, normal type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nAn adult event costume scene in an empty shadow-theatre rehearsal hall: she is playing a private game of matching her hand silhouette to an amorphous shape projected on the wall, inspired by her ability to transform. Medium knee-up view, gentle front three-quarter body, camera at chest height, face visible. Her right upper arm extends forward from the right shoulder, elbow bent, right hand makes a relaxed flat silhouette in front of the light; her left arm hangs naturally with left hand holding an opaque removable short cape away from her shoulder. The cape is completely detached and held beside her, a deliberate costume reveal, no wardrobe accident. Outfit: an original cream-and-black silhouette-performer event costume, a fitted opaque high-waisted velvet romper with a deeply scalloped shell-shaped collar, bare shoulders, open side waist panels and short trumpet leg cuffs, plus the detached short cape. Chest and pelvis fully covered. A small pink amorphous charm hangs on the theatre light stand. Warm theatrical side light, quiet evening atmosphere.\nEXPRESSION: slightly furrowed brow, softened eyes, lips lightly pressed together. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+      }
+    },
+    "casual2": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "both arms in front, two hands wrapping cup; legs crossed in trousers"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "1c0264ad2f585a7099fef8e3a5d5831f3fa306955728f2c7eb56cb596b1f9077",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "4dae9adc2ff69dcee70eb35a0ccb917385c29edcdaa3b48ced6c3d763b41caab"
+      }
+    },
+    "casual3": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "two elbows resting on runway, two hands supporting chin; bent knees and two raised feet"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "4cbed248dace71ce37ba3557b962947550602d76c8d76589e519f8a9bdae06af",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "31877521890265608982c11ec05454d64c8942011f89300acc27d02dee35265a"
+      }
+    },
+    "casual4": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "cross-legged on cushion, one hand holding bread and one resting on leg; hand assignment reversed from design"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "ef33dc6a08388c216f528574ddf3ba8b553082d14444d66571192cc443b125d8",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "gpt_free",
+        "submitted_sha256": "b32946f36baa7dd68276ae742cee94a34b234e07b39402741f18e3615098e5f6",
+        "free_prompt": "CHARACTER: the same woman as the attached image — Ditto (메타몽) personified, normal type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nAt a quiet outdoor bread picnic on a grassy hill, she takes the first delighted bite of a round bread roll while watching her soft shapeless picnic cushion flatten beneath her. A playful everyday moment inspired by her malleable nature. Environmental full-body vertical view, seated cross-legged on a picnic blanket, face turned toward the viewer in gentle three-quarter view. Her right arm bends naturally forward holding the bread near her mouth, left forearm rests forward on her left thigh with left palm relaxed. Outfit: an original fitted tangerine terry-cloth cropped pinafore with broad crossed back bands over an opaque ivory bandeau, matching short bubble-hem culottes and flat canvas shoes, bare shoulders and midriff. Soft morning daylight, meadow beyond; no second person or creature.\nEXPRESSION: raised brows, widened eyes with visible upper white, mouth open in a small round shape. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n"
+      }
+    },
+    "casual5": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "five-finger waving hand, other arm exits chest crop"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "3fbf1884e2637021aa6a10c7f3a1a0bb4a063d3c1b80ed32a1e137d0763edec0",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "47539c995d64fd55affcde0c072db6680ad3095ba9054ca32ee52c698040e16c"
+      }
+    },
+    "casual6": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "one-knee pose, one hand on front knee and other beside thigh, both shoulders connected"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "dc5ec11476b1239fbbc949dec5673f4f6d89f9cb28c340bd218a310fb13ff96c",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "64fa48da650b7a998f669e34b2cb87936d8b9108aa03ba77f3c9a65ee9436c70"
+      }
+    },
+    "casual7": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "two hands on bath ledge, legs covered by fitted swimsuit; two feet, visible neck and chest opening"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "12a506f732e2e11a806c46c333acc77fb02aa71519ba57c59fa24cba2893490b",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "45f6c855e7373119ed3348f49ecf2d91bd03845b1ddf86fea024a7f5135cb60b"
+      }
+    },
+    "casual8": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "face and shoulder close crop; hands and legs outside frame"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "02df38fe5ffd75f713835a6dc5458d38452a4dec2e8cf12aa40457d1f6bc63bf",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "be1d51abcf8e65eceb48779142ea9e54a6300001841b1c02715c88ccda9b5f8e"
+      }
+    },
+    "casual9": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "one hand resting on stone wall, other lowered; waist crop"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "53efca7745a230e60238c397f1c89bbd9ad41aa4e9ec1776aa707d9e6c7d43d7",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "e0240bda66e0dae03d1da8a91c68072f99eb47bdaf061ad167e9c9eb410e14ff"
+      }
+    },
+    "casual10": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "both arms lowered connected to shoulders; body turned away, face looks back instead of planned front"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "fa19a565e6a69ef2a6b08c0855be65a5a3c95b5af36f92d19e5446705337c10a",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "933a8437c8b0849b1fc85059e51ef4da8102e60e239b7ed0ad20c065df78b659"
+      }
+    },
+    "casual90": {
+      "style_25d": {
+        "result": "match",
+        "evidence": "soft blended shading on nose, cheeks, lips and jaw; fine coloured contours, dimensional hair and cloth"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; reviewed original visually",
+        "issue": "ok",
+        "evidence": "both hands grasp folded costume in front of torso; shoulder and forearm continuity visible"
+      },
+      "exposure": {
+        "result": "retained",
+        "evidence": "Original generated outfit retained without censorship regeneration"
+      },
+      "generation": {
+        "original_sha256": "cf59c44cc04b6f16794c155ea69378185c2ce0a4a0e74d001432a20f8d98ff19",
+        "reference_original_sha256": "5fc60a658a2d7983c33661a937262a80b4802fafe42330864ac031c9ff9275c4",
+        "design": "planned",
+        "submitted_sha256": "5be3a5eac0f38e649c5f147eaeaa28309efb5c434d0eb7e9aa80727bc6755cdb",
+        "own": {
+          "level": "bold",
+          "tries": 1,
+          "blocked": []
+        }
+      }
+    }
+  }
+}
