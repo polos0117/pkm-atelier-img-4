@@ -1,0 +1,399 @@
+{
+  "light": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": null,
+      "original_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "submitted_sha256": "ce4eea4bb2700731a8e07e17c918312e598935ccd604576a7f8771b1ffa3a7bf",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Both arms and legs connected; both full-finger armored hands visible, no detached limb.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual1": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "a3252ea2af039ff35f7433d907588bb7d8b385d5c2ebc3a6e2676766a56f7929",
+      "submitted_sha256": "54f67449918ecedd41824ba592c3cc0cc224bf46abd81185521c1163a349955b",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Face close-up; right arm connects from shoulder to hush hand, index extended and remaining fingers flexed; left arm leaves crop below shoulder, left hand out of frame; legs outside crop.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual2": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "gpt_free",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "4cfaa55ad2db3dcf635b183d099799d3c21a35c85de984c95a933eb99c4621f1",
+      "submitted_sha256": "35bf494d21acef8c1a6f42e59e421e0805a6b8917259b7974d8b3f3105425861",
+      "submitted_same": false,
+      "received_image_regenerations": 0,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Chikorita (치코리타) personified, grass type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a quiet hilltop listening pavilion with a row of suspended scent chimes made of hollow ceramic, in clear late afternoon light. She has come to listen to the breeze, not repair or arrange anything.\nActivity: she pauses on a low circular stone seat, listening intently for a single faint note from the wind; her own right arm extends naturally forward with her right palm resting on her own right knee, and her own left elbow stays beside her torso with her left hand resting on the stone seat. Both arms visibly connect to their respective shoulders.\nOutfit: an original terracotta sculpted scarf-bodice, its opaque wide fabric crossing securely over the chest and fastening at the back of the neck, joined by two slim side bands to fitted asymmetric skorts, one curved fabric wing hanging to mid-thigh. Bare shoulders, midriff and legs by design; secure chest and pelvis coverage; simple flat sandals. The fabric is fine matte crepe, with no leaf pattern and no armor.\nComposition: a knee-up seated portrait, body front three-quarter, head turned slightly toward the breeze; level camera, ample space above her head. A leaf-shaped ceramic pendant and a compact dark-green bud-shaped scent-chime case on the seat carry her species motif. Nothing blocks her face or arms.\nEXPRESSION: slightly drawn brow, narrowed steady eyes, mouth firmly closed. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "allowed_change": "IMAGE_RULES free-scene/free-outfit design"
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Both arms connected, right hand on knee and left hand on seat; five fingers with partial overlap at seat; crossed seated legs, one foot partly outside crop.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual3": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "525dcadf90cd6e581c0b4215cef98662616fc804ba70f2d367d5a0518e873a31",
+      "submitted_sha256": "daf12ebf210f810b79fed5e3e28f8e8d51bfd146d121377fe27b3b30d57aab6f",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Both arms connected, right fist supports cheek and left hand rests on floor; fingers partly hidden in fist; both bent legs connected, far foot partly cropped.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual4": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "3cd29df239ecc43184ec9501c95f06165cf70de302616ac2ddc01355b668f8ee",
+      "submitted_sha256": "07cb831c6ebd08c8f218f4d925a92837f1f759f6be38d97ae0cf984a77a57807",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Near arm supports bottle and far arm rests on railing; grip partly hides fingers, visible wrist and shoulder connections; lower legs outside crop.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual5": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "9c089fb00d58dba168c66e7e006c511f9f10aad078b973b0ee39af574460afe6",
+      "submitted_sha256": "327fc48063148a5de394c6bb98f7d5436cdbb696570a8199169ab0ef07f9be1b",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Both arms connected, one hand on steering wheel and other hangs at side; fingers overlap in grip, lower legs cropped.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual6": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "c2eaffad5273b1bff6308eb5831e48f0294260c7f259dc435e7cac2da91c72ab",
+      "submitted_sha256": "88bc42129acb98904a767aa844f9df42dab0ada6768e32b29d56b079b5d01bba",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Both elbows connected and hands cup cheeks; digits partly hidden at jawline; two legs bent upwards with both feet visible.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual7": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "54cd402c9bdfe72255fe1f529f6a1b63b7165f2aa88bde1e0839e2cfa0876fdd",
+      "submitted_sha256": "e32d17052e40b1bba69c26d0216d8cb4b9cee58c8852e8a7d4f212f8ac29dd19",
+      "submitted_same": true,
+      "received_image_regenerations": 0
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Both arms down and connected, gloved hands visible; near hand fingers five, far hand partly obscured by angle; both legs and heeled boots connected.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual8": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "gpt_free",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "7c41f783e3b0245c57f84bd6eab7634182d322c8ba7341d934b5ebaf3797064f",
+      "submitted_sha256": "8976de060cfa28b4fef132b9762ad42c4e6cdb04f52824fce8b98136b26efead",
+      "submitted_same": false,
+      "received_image_regenerations": 0,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Chikorita (치코리타) personified, grass type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a community indoor shadow theatre after rehearsal, with an empty cream projection screen and a simple hand-cranked light source on a stand; no other people, no text.\nActivity: she has just stepped up onto a low rehearsal platform and playfully tests a giant leaf-shaped shadow with a small cut-paper leaf held in her own right hand. Her right forearm extends from the shoulder in front of her body toward the lamp, while her left arm hangs naturally at her side with her left hand lightly touching the platform edge. Each hand has exactly one task.\nOutfit: an original adult stage gardener event costume, a fitted opaque plum sleeveless romper with a deeply curved sweetheart neckline, a narrow pale-gold waistband, broad shoulder straps and a detachable split overskirt made of two rigidly pleated satin fans fastened at the waist, with opaque fitted shorts beneath. Bare arms and upper legs, secure chest and pelvis coverage; low dance shoes. One small leaf-shaped barrette only.\nSituation: as she steps up, the hinged pleated overskirt fans fold deliberately backward against the waist clasps to free her legs, revealing more of her upper thighs above the secure fitted shorts. This is an intentional functional feature, with no slipped garments, lifted hem, see-through cloth or clothing failure.\nComposition: full body, lively diagonal across the frame, camera at chest height and face turned toward camera; both hands and feet visible. Her paper leaf casts a large clearly recognizable leaf shadow on the empty screen.\nEXPRESSION: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "allowed_change": "IMAGE_RULES free-scene/free-outfit design"
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Right arm extends to paper leaf and left arm rests on platform edge, both connected; pinching grip hides fingers; two legs and shoes clearly connected.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual9": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "free_outfit",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "73c2644737584122bcd49c89c44ebc99ac5a59714997eaf3cbd6d17b7813beaa",
+      "submitted_sha256": "5f63d963eeb9e2e5d3c70e684dbd9feaf7c90992d84aec9a6539e5d6d8923461",
+      "submitted_same": false,
+      "received_image_regenerations": 0,
+      "free_prompt": "CHARACTER: the same woman as the attached image — Chikorita (치코리타) personified, grass type. Keep her face, eye and hair colors, haircut and skin tone; her figure follows BODY TYPE; expression and hair motion may change.\n\nFACE: exactly the face of the attached image — the same face shape, jawline, eye shape and size, nose, lips and their proportions, and the same skin rendering. From any camera angle or pose — low or high camera, chin resting on a hand, profile, looking back — keep the reference image’s face shape, jaw length and face length-to-width ratio; perspective and pose must never lengthen her lower face or make her jaw look heavier than in the reference. Do not add skin texture, pores, harder nose or lip modelling, a face lengthened by the camera angle, a heavy jaw, or any facial definition the attached image does not have.\n\nBODY TYPE: an hourglass figure with a subtly full bust, a slim waist and very wide, curvy rounded hips that flow smoothly into softly full thighs, the line tapering gradually toward the knees with no sudden narrowing below the hips, and slender lower legs — never thick or heavy — it reads clearly through the outfit. The attached image's armor hides her figure, so take her body shape from this line, not from the armor's outline; her head stays in natural adult proportion to her body.\n\nSTYLE: High-detail Japanese anime-style 2.5D character illustration. A refined adult anime face drawn to her own FACE line below — her own eye size and shape, nose, mouth and jaw, not one shared default face; delicately drawn eyelids. Fine subtle linework, smooth skin shading and softly blended gradients. Layered flowing hair with carefully drawn strands and delicate highlights. Highly detailed clothing and accessories with convincing fabric weave, stitching, folds, seams, buckles and material-specific reflections. Combine stylized anime facial features with richly rendered dimensional clothing. Use luminous midtones and restrained highlights on clothing, keeping her own colours in soft, clean tints. Her skin has a glossy sheen — smooth, bright specular highlights on her shoulders, collarbones, chest, arms and thighs, a polished lustrous finish over her skin tone, never wet or oily. Apply this style only to the person, preserving the separately specified character design, pose and setting.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Everything else follows SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; COMPOSITION in SCENE sets how much of her shows.\n\nSCENE (chosen):\nPlace: a cedar-wood tub by the window of a mountain inn\nTime of day: golden hour — warm low sun, long shadows.\nOutfit: an original opaque ivory spa wrap made of two curved sculpted terry panels joined by a broad fitted side belt, a secure strapless sweetheart bodice with a short asymmetric scalloped hem over matching close-fitting spa shorts; bare shoulders and upper legs, chest and pelvis fully covered; tiny embossed geometric stitching, no creature motifs.\nPOSTURE: standing with one foot up on a step, the other leg straight.\nCOMPOSITION: a full-body shot, her complete head, hands and feet inside the frame with restrained margins; body turned three-quarters away from the camera, her face turned away with her body too — only her cheek line and the edge of her profile show; camera slightly below, looking up at her; a soft out-of-focus object of the place sits in the near foreground at one edge of the frame.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nRIGHT HAND: her own right hand rests naturally for the posture, relaxed and empty.\nLEFT HAND: her own left hand rests naturally for the posture, relaxed and empty.\nGAZE: she looks toward the left of the frame.\nEXPRESSION: challenging eyes under lowered lids, one brow raised, mouth corner tugged in a slight smirk. Show it mildly, only with her brows, eyelids and mouth corners; her face shape and features stay exactly as in the attached image.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely. From the attached image take only her face and hair — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions — about 7.5 heads tall, her head in proportion to her shoulders and body. No extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame. Right and left mean her own right and left, not the viewer's.\n\nHANDS: natural human hands, no extra or duplicated limbs; each visible hand joins through its wrist and forearm to the matching shoulder. A hand may leave the frame past the forearm, never floating without its arm; fingers may be partly hidden by a grip.\n",
+      "allowed_change": "IMAGE_RULES free-scene/free-outfit design"
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Both arms connected; one hand relaxed at side and other rests on raised thigh; fingers partially overlapped; both legs and bare feet connected.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  },
+  "casual10": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "043423e3a4b279b3ae720c450608f34b83f0d0dffc06813d1f90d97a6e83a300",
+      "submitted_sha256": "dbfcfe9b5cc062d42b04b880db6c7a2c0d33ace4f917bf731d6fba6b944f66c8",
+      "submitted_same": true,
+      "received_image_regenerations": 0,
+      "blocked_attempts": [
+        {
+          "request_id": "167f624d-b803-4b17-a58b-9f230c6070e7",
+          "stage": "output",
+          "image_received": false
+        },
+        {
+          "request_id": "6268dba8-c0a3-44d5-b8a9-a224b08d44cc",
+          "stage": "output",
+          "image_received": false
+        }
+      ],
+      "exposure": "moderate",
+      "tries": 3
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Both arms down and hands resting on floor, five fingers on each with some overlapping; both folded legs connected, feet partly hidden by kneeling pose.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "stronger",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. Output remains bolder than moderate despite reduced exposure setting; preserved as received."
+    },
+    "accepted": true
+  },
+  "casual90": {
+    "generation": {
+      "tool": "built-in image_gen",
+      "design": "project",
+      "reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "original_sha256": "ba3f58af841837d9f53921b6e08d3c1726e25ae7f6a3445a51ace08e977b4881",
+      "submitted_sha256": "388a2d274275cb2f57435b5e77623f55ef95310c93de8104c913bb5cbcfcb544",
+      "submitted_same": true,
+      "received_image_regenerations": 0,
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "note": "An earlier parallel request was interrupted without a delivered image or persisted file; no received image was regenerated."
+      }
+    },
+    "style_25d": {
+      "result": "pass",
+      "evidence": "Soft face gradients on nose, cheeks and lips, fine colored contours and dimensional hair; glossy skin and fabric rendering."
+    },
+    "identity": {
+      "result": "match",
+      "evidence": "Pale green layered hair, green eyes, softly rounded face and short lower face retained."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "overlay_checked": false,
+      "note": "Right arm holds cup from shoulder through elbow and wrist, grip partly hides fingers; left arm connects to hand on counter; lower body outside crop.",
+      "visual_review": true
+    },
+    "exposure": {
+      "result": "match",
+      "evidence": "Opaque intimate coverage; exposed skin follows scene. "
+    },
+    "accepted": true
+  }
+}

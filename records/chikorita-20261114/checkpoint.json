@@ -1,0 +1,62 @@
+{
+  "character": "치코리타",
+  "no": 152,
+  "style": "anime_25d_gloss",
+  "stage": "ready_to_publish",
+  "code_worktree": "/workspace/scratch/3e4d455e062f/chikorita",
+  "branch": "work/chikorita-20261114",
+  "candidates": [
+    {
+      "number": 1,
+      "design": "project",
+      "image": "/workspace/scratch/3e4d455e062f/generated_images/exec-7bc8f8d7-102d-487c-8577-830868a75299.png",
+      "sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+      "prompt": "/workspace/scratch/3e4d455e062f/candidates/candidate1-prompt.txt",
+      "style_25d": {
+        "result": "pass",
+        "evidence": "blended dimensional face shading, fine linework and glossy highlights"
+      },
+      "regenerated": false
+    },
+    {
+      "number": 2,
+      "design": "project",
+      "image": "/workspace/scratch/3e4d455e062f/generated_images/exec-3180d99c-155e-4b44-a835-7d7b842e0b2c.png",
+      "sha256": "4ed2ad289054cc74b6db350b5270eb66a2b6ba3c958ebd7708d57ba878d888ca",
+      "prompt": "/workspace/scratch/3e4d455e062f/candidates/candidate2-prompt.txt",
+      "style_25d": {
+        "result": "pass",
+        "evidence": "blended dimensional face shading, fine linework and glossy highlights"
+      },
+      "regenerated": false
+    },
+    {
+      "number": 3,
+      "design": "gpt_free",
+      "image": "/workspace/scratch/3e4d455e062f/generated_images/exec-bd2424a9-f24a-452c-b2c5-443895ccfa04.png",
+      "sha256": "bac13a0ed6ccd756129a9d91e6dc49c33447837a84cf7ab936ccab5a105048bf",
+      "prompt": "/workspace/scratch/3e4d455e062f/candidates/candidate3-prompt.txt",
+      "style_25d": {
+        "result": "pass",
+        "evidence": "blended dimensional face shading, fine linework and glossy highlights"
+      },
+      "regenerated": false
+    },
+    {
+      "number": 4,
+      "design": "gpt_free",
+      "image": "/workspace/scratch/3e4d455e062f/generated_images/exec-1aca2693-7661-444f-a820-e3cb588ef357.png",
+      "sha256": "4c59ecabe7d73bdad8be18f215ca75aa69a1843971acf576b3ad55c98f3cd384",
+      "prompt": "/workspace/scratch/3e4d455e062f/candidates/candidate4-prompt.txt",
+      "style_25d": {
+        "result": "pass",
+        "evidence": "blended dimensional face shading, fine linework and glossy highlights"
+      },
+      "regenerated": false
+    }
+  ],
+  "selected": 1,
+  "selected_reference": "/workspace/scratch/3e4d455e062f/generated_images/exec-7bc8f8d7-102d-487c-8577-830868a75299.png",
+  "selected_reference_sha256": "9051e6a64a2989df541b66c68b33b25694339fd7b8f7d1dee69068e20637a34b",
+  "face_selection_reason": "User selected candidate 1; project face design: softly rounded short wide face, rounded downturned green eyes, medium leaf-layered hair."
+}
