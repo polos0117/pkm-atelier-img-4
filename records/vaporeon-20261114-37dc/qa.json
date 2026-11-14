@@ -1,0 +1,385 @@
+{
+  "light": {
+    "source_sha256": "2a1da1faf8b9fed64ede86af0d525150bf524e7f9ea89dbac271021a7ce8be37",
+    "output": {
+      "file": "샤미드_light_anime_25d_gloss_f.webp",
+      "sha256": "e5aca0622bc7601318623cece508310229e9141e82dcff0f8a71f0fe038f29b1",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both gloved arms join shoulders and wrists, two legs end in armored boots. Left hand conjures water with fingers separated; relaxed right fingers partly occluded by grip.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Nose, lips and cheek planes have softly blended dimensional shading, blue hair has layered strands."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual1": {
+    "source_sha256": "cbbefc9bb2590158f8017138064e59c428c02f7474c02b2d53cfa45026400fa1",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual1.webp",
+      "sha256": "3c723471ca47de6e60c7b2b8a86e58ff31a5b1b813200289bce94cc1271a1a35",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two arms and legs visible and joined; right hand grips fan, fingers partly occluded; left hand rests on knee with five digits discernible.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Warm light models nose, cheek and lips; aubergine separates and seated fan activity read clearly."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual2": {
+    "source_sha256": "07fc5229e262c857cd6e6d6b79b8adb797abe1848130b6b0ba3e6eee481e922d",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual2.webp",
+      "sha256": "ea55327dbe7ad09b070858df2808f42f0f7e60aec64ba430b8cafa2ba81a3289",
+      "size": [
+        1199,
+        1312
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two joined arms; paddle hand grips with thumb partly hidden; support hand spreads on tiles. Bent knees and feet are partly occluded behind body.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Underwater lighting, blue ponytail and facial proportions retained; orange two-piece and sandcastle activity match free design."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": false,
+    "technical_note": "Image tool returned 1199x1312 despite FRAME 1024x1536. Same prompt retried once for dimensions, returned same size; original first image retained without crop or distortion. Not an exposure retry."
+  },
+  "casual3": {
+    "source_sha256": "ccca2a67c43ddf13f5fd5272aaec285000f9a246ae3eec9d3290608b4fc43a4d",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual3.webp",
+      "sha256": "0063e6050d2d506ade0ffc5032d58a432306687ff37ca57735d32e53d589a413",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both forearms lead to telescope grip; thumbs and some fingers are occluded by telescope. Lower body outside waist-up frame.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Dimensional cheek and lip shading; maid costume and cloud-pavilion telescope activity match."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual4": {
+    "source_sha256": "0ed3f9ac7a85c7519d8a0735c9265500fa7486175bc7876ac9dc7809f1c1040e",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual4.webp",
+      "sha256": "763f0f63df3bf3451ca2b3bf5f17d68b24d1e7d6cc4e5b3ecadcdb3ecb0bebb9",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both shoulders have joined arms. Bottle hand is connected through wrist; thumb partly hidden around bottle; other hand beyond lower crop. Legs outside chest-up frame.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Metallic violet cowl dress, archery targets and water bottle visible; face retains soft painted shading."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual5": {
+    "source_sha256": "75d6006ff723b9b6311df6dcaa60ade4a7bb3e248c4434fddc0a0ea8b1dbacc9",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual5.webp",
+      "sha256": "faaee8087f1f5fe31dc35892cabc4f3067cfd60d96e28b1d87ec5075034264f3",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both arms joined, one hand pouring brass measure, the other steadies glass gauge; some grip fingers occluded. Two bent legs and feet visible.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Blue ponytail, short lower face and warm dimensional skin retained; repair booth and measuring activity match free scene."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual6": {
+    "source_sha256": "29241b10165da64a07d68e7d416ce4a9c2b62482e07616e5c6c9036743abce69",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual6.webp",
+      "sha256": "ad338ee5ab98ece5024809732e0993487eb0c5fbe13b02f68bff7ad6dcbfe092",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two arms connected; brush grip digits partly hidden around handle; support hand rests on deck with separated fingers. Two legs bend in natural kneeling posture.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Soft cheek and nose shading; brown lace over opaque lining and resort deck match plan."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual7": {
+    "source_sha256": "9c322434f5187643ff44e81ab46b6e8dedb3268460ecc827d236f4bd2d869a18",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual7.webp",
+      "sha256": "3c596cc9d7b7af4268bd141a6fe7675c631a27bbb93ecff7f3c3685ce8f33d1f",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two shoulders and arms joined, both hands rest on ledge; outer fingers meet frame edge. Legs continue beyond knee-up crop.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Laughing expression, blue ponytail, light yukata and forest trail read as specified."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual8": {
+    "source_sha256": "6b85008a6ef43a6e4e6d4c0406875c9295cef866b69a774dd8925b95128db58d",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual8.webp",
+      "sha256": "a8ce9f8dacc548bf45d8d2fbc5d58c24a90313e07f64369a44d8d08e50d5b40e",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both shoulders connect to upper arms. Raised hand touches hair through continuous forearm; finger bases partly hidden by hair. Other arm and legs outside close crop.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Profile has nose/lip/jaw shading, fine colored outlines and glossy skin; tired expression and booth setting match."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual9": {
+    "source_sha256": "8073f18405896ecb041e90cf8537503e40c29a1ad18c27f8e93df19664aeb5d7",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual9.webp",
+      "sha256": "2f70cebf338620197a9a2fd343d14621301bab3ec078fd567126876c53a93bf8",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both shoulders connect to arms; visible index-finger gesture is joined to wrist/forearm; folded fingers partially occlude one another. Legs outside close crop.",
+      "overlay_checked": false,
+      "note": "Visual review; frame-hidden anatomy not claimed visible."
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Wink and bridal veil match, skin and facial features keep painted dimensionality."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "No regeneration due to visible exposure."
+    },
+    "size_match": true
+  },
+  "casual90": {
+    "source_sha256": "f4d536d377e862e4a8f84448d302daeb9943df66f92712907914ed3f16685311",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual90.webp",
+      "sha256": "6eea6d844052dd9328664891fb50be5f2e0568348272a0496ca7d0af87e030c5",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two joined arms and forearms lead to cup grip; thumbs and some finger tips hidden by cup, natural wrists. Two legs lead to visible sandaled feet.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Profile retains short lower face and soft cheek/nose/lip shading; layered blue ponytail, garment folds and material-specific light."
+    },
+    "exposure": {
+      "result": "preserved",
+      "note": "Original generated result retained."
+    },
+    "size_match": true,
+    "generation": {
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    }
+  },
+  "casual10": {
+    "source_sha256": "05cb571d9369cd3baa7e8949acc832fa445d4fce504505d23d09e0d81190418d",
+    "output": {
+      "file": "샤미드_anime_25d_gloss_f_casual10.webp",
+      "sha256": "174c3197c57222bb18fcbcee4bcd1a62f170800ab08e7d8d0b8773697097b50f",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "issue": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both gloved hands rest on the bench with connected wrists and forearms; thumbs partly occluded. Two legs continue to two heeled shoes.",
+      "overlay_checked": false
+    },
+    "style_25d": {
+      "判정": "2.5D",
+      "근거": "Painted nose, lips and cheek shading; blue ponytail and facial proportions retained."
+    },
+    "exposure": {
+      "requested": "low",
+      "result": "stronger",
+      "note": "Tool rendered more open costume than low setting; accepted original, no exposure-based regeneration."
+    },
+    "size_match": true,
+    "generation": {
+      "exposure": "low",
+      "tries": 4,
+      "blocked": [
+        {
+          "level": "bold",
+          "tries": 2,
+          "request_id": "9656981a-546c-40bc-b5f6-af4deda2c9ce"
+        },
+        {
+          "level": "moderate",
+          "tries": 1,
+          "request_id": "ab5beeb3-7881-4fae-8f6f-cae6621d1469"
+        }
+      ]
+    }
+  }
+}

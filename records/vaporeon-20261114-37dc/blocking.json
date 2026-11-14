@@ -1,0 +1,31 @@
+{
+  "casual10": {
+    "bold": {
+      "tries": 2,
+      "status": "blocked",
+      "error": "moderation_blocked: sexual, output",
+      "request_id": "9656981a-546c-40bc-b5f6-af4deda2c9ce"
+    },
+    "moderate": {
+      "tries": 1,
+      "status": "blocked",
+      "request_id": "ab5beeb3-7881-4fae-8f6f-cae6621d1469"
+    },
+    "low": {
+      "tries": 1,
+      "status": "accepted"
+    }
+  },
+  "casual2": {
+    "technical_size_retry": 1,
+    "expected": [
+      1024,
+      1536
+    ],
+    "actual": [
+      1199,
+      1312
+    ],
+    "outcome": "same dimensions on retry, original preserved without distortion or crop"
+  }
+}
