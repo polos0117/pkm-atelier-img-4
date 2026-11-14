@@ -1,0 +1,337 @@
+[
+  {
+    "slot": "light",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Standing mecha, one open palm and one loose gloved fist; all limbs attached."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "User selected candidate 1; amber eyes and red-orange long windblown hair with white streaks.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": null,
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "9c829d33d464b454317d5d5cf695bc3fb7a87fd5a82dac4b602c9156d26bbfe7",
+      "attempts": 1,
+      "regenerated": false
+    }
+  },
+  {
+    "slot": "casual1",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Park fountain, coral swimwear, sunglasses in the raised hand; other hand below crop."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Park fountain, coral swimwear, sunglasses in the raised hand; other hand below crop.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "8e6561bd7d251504f57f9d1d0ac3a718a639fdbbc420a51821712a7a649f52f1",
+      "attempts": 1,
+      "regenerated": false
+    }
+  },
+  {
+    "slot": "casual2",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Grey pirate outfit at berry stall, one hand holds ball and other rests on counter; rolled sleeves."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Grey pirate outfit at berry stall, one hand holds ball and other rests on counter; rolled sleeves.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "b65e38ca6bedf8fde781606798dfb9afb4b98ab34a9e0d34a55260392c50b908",
+      "attempts": 1,
+      "regenerated": false
+    }
+  },
+  {
+    "slot": "casual3",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Sky-blue embroidered caftan, both hands support a berry crate at the waist."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Sky-blue embroidered caftan, both hands support a berry crate at the waist.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "6913fe9ca764832340dc422dc33832348ea73b9282b22b877a7fe91876ed931e",
+      "attempts": 1,
+      "regenerated": false
+    }
+  },
+  {
+    "slot": "casual4",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Seated hammock, raised bent knees, one hand grips rope and the other rests on knee; minor outfit tailoring variation."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Seated hammock, raised bent knees, one hand grips rope and the other rests on knee; minor outfit tailoring variation.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "gpt_free",
+      "submitted_same": false,
+      "submitted_sha256": "5d6d96a45e42769ae23ce0693838e900f65800d1b04e14b8695c29c88dede67b",
+      "attempts": 1,
+      "regenerated": false,
+      "free_prompt": "casual4-submitted.txt",
+      "reason": "Authorized free-scene design"
+    }
+  },
+  {
+    "slot": "casual5",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Mint bath set and folded cleaning cloth in one hand; the other arm hangs naturally."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Mint bath set and folded cleaning cloth in one hand; the other arm hangs naturally.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "gpt_outfit",
+      "submitted_same": false,
+      "submitted_sha256": "29e4d5a5c559ecd416535ea67bdc679cd3b31c273138034ba13c22c2fd22955e",
+      "attempts": 1,
+      "regenerated": false,
+      "free_prompt": "casual5-submitted.txt",
+      "reason": "Authorized Outfit-only design"
+    }
+  },
+  {
+    "slot": "casual6",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Walking by the rainy riverside, glancing back, event costume waistcoat and trousers; both hands relaxed."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Walking by the rainy riverside, glancing back, event costume waistcoat and trousers; both hands relaxed.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "a039aca9df8532e94746d78e15528d994ae245c210803922066dce47f2431408",
+      "attempts": 1,
+      "regenerated": false
+    }
+  },
+  {
+    "slot": "casual7",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Empty bus depot with soft-serve cone, plum scarf-front romper and travel bag."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Empty bus depot with soft-serve cone, plum scarf-front romper and travel bag.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "gpt_free",
+      "submitted_same": false,
+      "submitted_sha256": "5e153aa400f364bfcf39ab78213f5b0b7b68bf4db709e1c19683058d7a2231bb",
+      "attempts": 1,
+      "regenerated": false,
+      "free_prompt": "casual7-submitted.txt",
+      "reason": "Authorized free-scene design"
+    }
+  },
+  {
+    "slot": "casual8",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Arcade face close-up, sleepy expression, shoulders and upper arms continue through crop."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Arcade face close-up, sleepy expression, shoulders and upper arms continue through crop.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "5e67e2c81f765ffd153a18ba3d416c0862aaffcf8a6ae0a67d837051cfa8b619",
+      "attempts": 1,
+      "regenerated": false
+    }
+  },
+  {
+    "slot": "casual9",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Lying prone on the balcony rug, chin held in both palms, bent knees and both feet visible; five toes each."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Lying prone on the balcony rug, chin held in both palms, bent knees and both feet visible; five toes each.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "4237d482e18522a389caf039010178a7067699003f90ddf298947e65ba4919e9",
+      "attempts": 1,
+      "regenerated": false
+    }
+  },
+  {
+    "slot": "casual10",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Full-body Moltres-inspired stage costume in wedding hall, two arms and legs naturally connected."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Full-body Moltres-inspired stage costume in wedding hall, two arms and legs naturally connected.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "c399e5421d7b280ca4a72cae8da4aab58a70dbcb47906c2337cfd4bb60d433bc",
+      "attempts": 1,
+      "regenerated": false
+    }
+  },
+  {
+    "slot": "casual90",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hands attach naturally to wrists and forearms; fingers checked at enlarged size, grip fingers may overlap or be hidden. Out-of-frame hands noted in scene note.",
+      "overlay_checked": false,
+      "issue": "ok",
+      "note": "Mountain hut keeper, lantern beside face; far arm continues down through crop."
+    },
+    "style_25d": {
+      "judgment": "2.5D",
+      "evidence": "Smooth dimensional nose, cheek, lip and skin gradients, fine colored facial edges, dimensional hair strands and material reflections."
+    },
+    "plan_match": true,
+    "observation": "Mountain hut keeper, lantern beside face; far arm continues down through crop.",
+    "generation": {
+      "tool": "image_gen",
+      "reference": "light",
+      "design": "project",
+      "submitted_same": true,
+      "submitted_sha256": "6e8d721a9ce94e5a2dd4beb97274f1845baa74cac3798332519d881e231667b2",
+      "attempts": 1,
+      "regenerated": false,
+      "own": {
+        "level": "bold",
+        "tries": 1,
+        "blocked": []
+      }
+    }
+  }
+]
